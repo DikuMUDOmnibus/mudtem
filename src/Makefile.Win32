@@ -1,0 +1,40 @@
+
+CC      = gcc
+PROF    = -O -ggdb3 -Wall -Wstrict-prototypes -Dunix -DNOCRYPT -DOLD_RAND
+NOCRYPT =
+C_FLAGS =  $(PROF) $(NOCRYPT) -I./include
+L_FLAGS =  $(PROF) -lm
+CHATOS = chat/akey.o chat/allkeys.o chat/chatmain.o chat/eliza.o
+
+O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
+	  alias.o ban.o clan.o comm.o const.o db.o db2.o effects.o fight.o flags.o \
+	  handler.o healer.o interp.o note.o lookup.o magic.o magic2.o \
+	  mob_cmds.o mob_prog.o music.o puntaje.o quest.o remort.o recycle.o \
+	  save.o scan.o skills.o special.o tables.o update.o dice.o \
+	  wizutil.o economy.o language.o hunt.o trap.o poker.o \
+	  olc.o olc_act.o olc_save.o string.o mem.o bit.o mpedit.o \
+	  skedit.o sedit.o raedit.o cmdedit.o hedit.o events.o plist.o \
+	  mazegen.o gedit.o eval.o script.o smart.o arena.o \
+	  screen.o readconf.o entity.o $(CHATOS)
+
+rom: $(O_FILES)
+	rm -f rom
+	$(CC) -o rom $(L_FLAGS) $(O_FILES)
+
+install:
+        mv rom.exe ../bin
+
+install.new:
+        mv rom.exe ../bin/rom.new
+
+resolve:
+	$(CC) -ggdb -Wall -I./include -o resolve resolve.c
+        @mv resolve.exe ../bin
+
+clean:
+	rm -f *.o
+	rm -f rom
+	rm -f chat/*.o
+
+.c.o: merc.h
+	$(CC) -c $(C_FLAGS) $<

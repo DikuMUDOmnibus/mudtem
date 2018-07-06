@@ -1,0 +1,16 @@
+    if (percent >= 100) 
+	strcat( buf, " esta en excelente condicion.\n\r");
+    else if (percent >= 90) 
+	strcat( buf, " tiene unos pocos rasgunos.\n\r");
+    else if (percent >= 75) 
+	strcat( buf," tiene algunas heridas y moretones.\n\r");
+    else if (percent >=  50) 
+	strcat( buf, " tiene unas cuantas heridas.\n\r");
+    else if (percent >= 30)
+	strcat( buf, " tiene grandes heridas y rasgunos.\n\r");
+    else if (percent >= 15)
+	strcat ( buf, " se ve muy herido.\n\r");
+    else if (percent >= 0 )
+	strcat (buf, " esta en pesima condicion.\n\r");
+    else
+	strcat(buf, " se esta desangrando a morir.\n\r");

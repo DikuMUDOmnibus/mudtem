@@ -1,0 +1,354 @@
+#! /home/usrb/cbusch/bin/chat
+#Change the above line to where chat is located. If you using this 
+#as a stand alone script.
+#WARNING this file may contain offensive material!!!
+
+"Chat by Chris Busch
+"copyright 1993 all rights reserved
+#cbusch@d.umn.edu
+#Please do not remove the above copyright.
+
+#Please see the doc file associated with this program.
+
+#There are several "operators" available:
+#  pattern matching:     Which work only in ( string | string & (str ~ str))
+#        |       or
+#        &       and
+#        ~       and-not
+#  special pattern matching:
+#        ^       match start  This anchors the match to the beginning of the 
+#                             input string.
+#        =       exact match  This must match the input string entirely.
+#  pass 1 scan operators:
+#        #       remark
+#        "       output to stderr
+#        '       output to stdout
+#        >       start of named database, there can be more than one name
+#                 to a database '> dragon red_dragon'  The _ here is treated
+#                 as a space in the name.
+#        %       include another file inline Ex: %talk.data
+#	 @       adds a continue jump to link to the database. Ex: @dog
+#                 will make a continue link to the dog database.  Use @default
+#                 to link to the default database. Only 1 @ per database.
+#                 @ cannot do forward links!!!
+#                 @ is more memory efficient than % but less flexible.
+#                 You must avoid circularities with @. 
+#  response operators:
+#        1-9     weights are the numerals. First column only. Mandatory.
+#        "       Issue response as "say".   Muds and 2nd column only. Optional.
+#	 :       Issue repsonse as "emote". Muds and 2nd column only. Optional.
+#        !       Issue response as command. Muds and 2nd column only. Optional.
+#                 Note, you do not need a space after an :,", or !
+#  
+#        $?      Are variables where ? is a case sensitive letter.
+#                 $r is rest of sentence, $n is its name, $t is target's name.
+#                 They may appear anywhere in the response, multiple times.
+#        
+#Some special notes:
+#	#,',",weights, and the first ( must be in column one.
+#
+#Syntax of a simple pattern match:
+#
+#( A | B & C ~ ( D | E | F))
+#
+#The above would mean if A or B and C and-not D or E or F was in the
+#sentence then pick one of the responses.
+#
+#The responses take on the form:
+#
+#9this is most likely
+#4somewhat likely
+#1least likely
+#
+#Responses or pattern match strings may not span more than one line.  
+#The guaranted line length is a magic 80 characters (letters) wide. 
+#
+#Please note the system will return the first match found. So
+#please put more ambigous matches last!!
+#
+
+#I suggest adding to this database.
+
+
+# $r is a variable.  It means rest of sentence after the match.
+#Variables only appear in weighted reponse clauses.
+#Weighted clauses are '9This is a clause', with 9 being the weight.
+# $n is the characters name
+# $t is the targets name (the person who being replied to)
+# $$ is equal to $
+
+
+#START OF DEFAULT DATABASE.  
+#This first bunch of data before the first > is the default database
+
+######DONT CHANGE THE FOLLOWING
+(who wrote this program)
+9Christopher Busch '$A' '$V' (was compiled at $C)
+###Changing the above would be in voilation of C Busch's copyright.
+
+# equals = means exact match not a substring match
+# The exact operator has some limitations. It must be by a left paren.
+# Actually the only case proven to work is when its by itself.
+# as in (=name)  (=) doesnt match anything, while () matches everything
+(=nombre)
+7Mi nombre es "$n"
+
+(dime tu nombre|cual es tu nombre)
+9Mi nombre es "$n"
+
+(dime mi nombre|cual es mi nombre)
+9Tu nombre es "$t"
+
+(eres )
+9que relevancia tiene si soy o no $r
+9: asiente, si soy o no $r es cosa mia
+9que te importa
+9: asiente, quizas.
+9No, no lo soy
+
+#Remember : in the second column is an emote.
+(yo soy )
+9porque eres $r?
+9siempre has sido $r?
+9puedo ver que eres $r. es obvio
+
+(no se )
+9debieras saberlo
+9mentira. realmente lo sabes
+
+(porque yo )
+9$r ??? increible!
+9: asiente, asi lo creo.
+9esa es la verdad ?
+9mentira
+
+(chupalo|chupamelo|mamalo|mamamelo)
+9:te pega una cachetada!
+
+(=bye|chao)
+9:se despide de ti
+9chao!
+
+(puedes )
+9quizas pueda $r y quizas no
+9estabamos hablando de otra cosa, parece...
+9:sonrie, porque yo haria $r ?
+9no, no puedo $r
+
+(podrias )
+9y porque?
+9:sonrie, no lo hago hace tiempo.
+9quizas
+9si
+
+(ponte en cuatro)
+9:se pone de rodillas, levantando el potito y dice...hazme chupete
+9:gime, Te estaba esperando!
+
+(fuck me|ponmelo|metemelo|culeame)
+9No creo que seas de mi tipo
+2:se molesta...seguuuuro...heh
+9Lo lamento, pero yo no hago esas cosas!
+9Bueno, pero tendremos que hacerlo de pie, OK ?
+
+#(por favor)
+#5!$r
+#3"Yo no quiero hacer $r para $t!
+#2!steal coins $t
+#9"$t quiere que yo haga $r, pero porque lo haria?
+
+(ayuda|help)
+3If you want me to go somewhere, say 'go direction'
+2If you want pennies, say 'give me pennies'
+9If I bore you, say 'please go home now'
+9How can I help you ? I don't know what's wrong with you!
+1Just ask by saying, 'please do this' 
+
+#(^anda hacia)
+#9"Porque iria hacia $r.
+#9!$r
+#1!north
+#1!south
+#1!up
+#1!down
+#1!east
+#1!west
+
+(^andate a la cresta|virate)
+9Virate tu mejor!
+
+(sigueme|follow me)
+7"Porque querria seguirte, $t?
+#2!follow $t
+
+(^kill | ^mata)
+#5!kill $r
+4"$t quiere que yo mate a $r.
+#5!kill $t
+
+( kiss me | besame )
+9:se enrojece, no con otros alrededor!
+3:te besa
+9:le da un beso hambriento y apasionado a $r
+9:le da un beso a $r como si fuera para una hermana
+9:cachetea a $r, saca tu mano de ahi!
+9:mira con carinio a $r, y le da un beso en la frente
+2:le da a $r un beso, supongo que no va a doler...
+4:le da a $r un beso apasionado
+1:sonrie, me estoy calentando. $n se desviste.
+9:se aburre, me aburri de besar a $r.
+
+( por favor )
+9por favor que?
+9:asiente
+
+( donde has estado )
+9buscandote, $t!
+9:descansa. Te estuve buscando!
+
+#You DONT need a space after an :,", or !
+
+( donde )
+9como sabre donde $r esta ?
+9No me importa donde $r esta, sabes.
+9:te pega un combo
+
+( dame plata | dame)
+9!give 1 coin $t
+9que creis que ando cagando plata ?
+1!report
+2Creo que no tengo dinero :(
+
+( i love you | te amo )
+9: se enrojece furiosamente, soy solo un robot...no soy para ti!
+9Yo tambien te amo! - casemonos y tengamos peque~nos androides!
+9:te abraza!
+2!giggle
+
+( quiero )
+9Entonces, debieras $r!
+9:asiente, te ayudare en lo que pueda.
+9porque quieres $r ?
+
+(desvistete|sacate la ropa)
+9estas bromeando? no soy de ese tipo de gente!!!
+9:se enrojece, quizas...
+#1!drop all
+
+(callate)
+9Y porque?
+9Intenta callarme, $t!
+9:se asusta
+
+(anda|camina|muevete)
+9no tengo ganas...
+9hacia donde queda?
+#9$r
+
+( el es )
+9cuanto tiempo ha sido $r?
+9: sonrie, y que, estas celosa ?
+9y tu eres $r?
+9quieres ser $r?
+
+( es | soy )
+3mentira, tu no eres $r!
+2si, realmente podrias ser $r...en un tiempo mas.
+
+(el sabe )
+9que mas sabe?
+9y como supo $r?
+
+(no soy )
+9y quien dijo que eras $r?
+9quizas seas $r
+9eres $r
+
+(^sonrie)
+9:le sonrie a $t.
+9:mira a $t.
+
+(yo soy )
+9porque eres $r?
+9:sonrie, seguramente lo eres!
+9sabe tu mama que eres $r?
+9y como sabes que eres $r?
+9no creo que seas $r
+9:asiente con la cabeza
+9yo tambien soy $r a veces...
+9mucha gente es $r
+9que pasaria si no fueras $r?
+9:se escandaliza, tu no eres $r!!!
+9no me digas eso, no te creo
+
+(puedo )
+9no creo que puedas $r
+9:sonrie, pruebamelo!
+9la pregunta no es si puedes hacerlo...puedes hacerlo BIEN?
+
+#matches anything
+()
+9
+9
+9
+9
+5Porque estas tan tranquilo?
+2Hola?? No puedo oirte?
+4Habla otra cosa.
+4dime!
+4que cosa?
+1idle hands are the work of the devil.
+4:no te entiende.
+4eres nuevo aqui?
+4no hay alguna otra cosa?
+4que te hace feliz?
+4todavia te escucho
+4dime otra cosa
+4continua
+4:mira alrededor del cuarto
+4dime algo acerca de ti
+4dime mas
+4que te preocupa?
+4no te gustaria ser normal?
+4que interesante
+4has meditado acerca de eso?
+4que mas te gustaria decir?
+4hablemos de tu familia?
+4continua, por favor
+4estoy confundido
+4a que le temes?
+4que sientes en este momento?
+4como era tu papa?
+1hablame acerca de tu vida sexual
+4sigues hablando?
+4como describirias tu personalidad?
+4no entiendo
+4no es satisfactoria tu vida amorosa?
+4como esta tu salud?
+4sigue hablando, es tu dinero...
+4que opinas acerca de la muerte?
+4asi veo
+4eres un idiota, dejame tranquilo
+4entiendo
+4si pudieras cambiar algo de tu vida, que seria?
+1no tiene sentido lo que dices. anda a los vax mejor
+
+#Uncommented the below would include a file
+#%Somefile.data
+#That would be useful for very common phrases that should be in all databases.
+
+#Remember the @ continue jump uses less memory than % including but you are
+#limited to one @ per database.
+
+######################
+#Please add your NPC data below here
+#
+#
+
+(hola|hi|hello)
+9hola
+9hi
+9holas
+4hola, tanto tiempo sin verte!
+5que tal!
+5:sonrie

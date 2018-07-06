@@ -1,0 +1,2405 @@
+#AREADATA
+Name Tercer Planeta~
+Builders None~
+VNUMs 16500 16599
+Credits {15 50} Zatanas Tercer Planeta~
+Security 9
+Prototipo 0
+Low 15
+High 50
+Version 2
+End
+
+
+
+#MOBILES
+#16500
+lion-o~
+Lion-O~
+Lion-O senior de los Thundercats esta vigilando la paz del planeta.
+~
+Es el ser mas imponente del Mud.
+~
+'human'
+AQ HVac 0 0 0
+48 24 25d10+3750 48d16+1700 7d7+16 none
+-18 -18 -18 -16
+FIKTU ABHPQT GK 0
+stand stand male 5000
+0 0 medium 'iron'
+C 'cleric'
+#16501
+panthro~
+Panthro~
+El gran guerrero Panthro esta pensando en como crear nueva tecnologia
+~
+A pesar de su fiera apariencia siempre esta listo para ayudar a los deviles
+~
+'human'
+AR 0 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKTU ABPQ G 0
+stand stand male 0
+0 0 medium 'iron'
+C 'mage'
+#16502
+tigro~
+Tigro~
+El thundercat Tigro esta meditando para salvar el tercer planeta
+~
+Su cara benebola te tranquiliza.
+~
+'human'
+AD H B 0 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FIKSTU BCKLPT 0 0
+stand stand male 3000
+0 0 medium 'iron'
+C 'psicionist'
+#16503
+cheetara~
+Cheetara~
+La bella Cheetara esta por aqui corriendo.
+~
+Sensillamente hermosa.
+~
+'human'
+AR H 0 0 0
+35 17 10d10+1100 35d14+1200 4d7+9 none
+-11 -11 -11 -11
+FKTU AB GHIZ 0
+stand stand female 4000
+0 0 medium 'iron'
+C 'mage'
+#16504
+felino~
+Felino~
+El pequenio Felino esta jugando por aqui.
+~
+Tiene una cara de travieso que no se la quita nadie.
+~
+'human'
+AD H 0 0 0
+28 14 5d10+600 28d13+1000 5d4+7 none
+-8 -8 -8 -7
+FIKTU BP Z 0
+stand stand male 3000
+0 0 medium 'iron'
+C 'psicionist'
+#16505
+felina~
+Felina~
+La pequenia felina esta por aqui jugando
+~
+Tiene una cara de traviesa.
+~
+'human'
+AD H 0 0 0
+27 13 5d10+550 27d13+1000 3d7+7 none
+-8 -8 -8 -7
+FIKTU BP 0 0
+stand stand female 3000
+0 0 medium 'iron'
+C 'psicionist'
+#16506
+snarf~
+Snarf~
+El leal Snarf esta aqui buacando a Lion-O
+~
+~
+'cat'
+AD H 0 0 0
+20 10 3d9+283 20d12+700 2d7+5 none
+-4 -4 -4 -3
+IKMTU BP CG 0
+stand stand male 1000
+0 0 medium 'iron'
+C 'psicionist'
+#16507
+jaga~
+Jaga~
+El gran sabio Jaga esta aqui para aconsejarte
+~
+~
+'human'
+ABNQV DFHJ B 0 0
+55 27 50d10+7000 55d16+1900 15d6+21 none
+-25 -25 -25 -23
+FIKTU ACDGP 0 0
+stand stand male 3000
+0 0 medium 'iron'
+C 'cleric'
+#16508
+pumyra~
+Pumyra~
+La bella Pumyra esta cuidando por estos lados
+~
+Estupenda.
+~
+'human'
+AQ Ha 0 0 0
+35 17 10d10+1300 35d14+1200 7d4+10 claw
+-11 -11 -11 -11
+FIKU BP 0 0
+stand stand female 1000
+0 0 medium 'iron'
+C 'cleric'
+#16509
+bengali~
+Bengali~
+El gran Bengali esta guardando el orden por aqui.
+~
+~
+'human'
+AD 0 0 0 0
+46 23 25d10+2750 46d15+1600 9d5+16 none
+-16 -16 -16 -15
+FIKTU BCP EHZ 0
+stand stand male 0
+0 0 medium 'iron'
+C 'psicionist'
+#16510
+Linx-O~
+Linx-O~
+El sabio Linx-O esta aqui meditando y recordando Thundera.
+~
+~
+'human'
+AT DHN B 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLTU BP 0 0
+stand stand male 3000
+0 0 medium 'iron'
+C 'warrior'
+#16511
+claudis~
+Claudis~
+El padre de Lion-o , #BClaudis#b esta aqui sanando a los enfermos
+~
+~
+'human'
+ABD DH 0 0 0
+55 27 50d10+6000 55d16+1900 15d7+22 none
+-25 -25 -25 -23
+FIKTU BCP 0 0
+stand stand none 0
+0 0 medium 'iron'
+C 'psicionist'
+#16512
+kano~
+Kano~
+Kano la mascota de claudis esta aqui.
+~
+~
+'dog'
+ABR H 0 0 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKTU BP 0 0
+sit stand none 0
+0 0 medium 'iron'
+C 'mage'
+#16513
+snarfer~
+Snarfer~
+Snarfer el sobrino de Snarf esta aqui.
+~
+~
+'cat'
+AR H 0 0 0
+20 10 3d9+283 20d12+700 3d4+4 none
+-4 -4 -4 -3
+TU BP 0 0
+stand stand male 0
+0 0 medium 'iron'
+C 'mage'
+#16514
+mandora~
+Mandora~
+La bella policia Mandora esta aqui buscando criminales
+~
+Maravillosamente bella.
+~
+'human'
+AT CDH 0 1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU BP 0 0
+stand stand female 2000
+0 0 medium 'steel'
+C 'warrior'
+#16515
+hachiman~
+Hachiman~
+El samuray Hachiman esta imponiendo justicia en el tercer planeta.
+~
+~
+'human'
+AR H 0 1000 0
+35 17 10d10+1100 35d14+1200 4d7+9 none
+-11 -11 -11 -11
+FKQTU BP 0 0
+stand stand male 0
+0 0 medium 'iron'
+C 'mage'
+#16516
+king arthur~
+King Arthur~
+The King Arthur esta resguardando el orden
+~
+~
+'human'
+AT H 0 1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU BP 0 0
+stand stand male 2000
+0 0 medium 'iron'
+C 'warrior'
+#16517
+leah~
+Leah~
+La pequenia Leah esta jugando por aqui.
+~
+~
+'human'
+AR 0 0 0 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+FKTU BP 0 0
+stand stand female 0
+0 0 medium 'steel'
+C 'mage'
+#16518
+queen luna~
+Queen Luna~
+The Queen Luna esta aqui vigilando la imponente fortaleza.
+~
+~
+'human'
+ABQ H 0 0 0
+47 23 25d10+3500 47d15+1600 9d5+16 none
+-17 -17 -17 -15
+FIKTU BP 0 0
+stand stand female 3000
+0 0 medium 'acero'
+C 'cleric'
+#16519
+luna~
+Luna~
+Luna la Lunatacs esta aqui pensando en destruir
+~
+~
+'human'
+APQ H 0 -1000 1
+46 23 25d10+3250 46d15+1600 5d9+15 none
+-16 -16 -16 -15
+FIKTU BP 0 0
+stand stand female 2000
+0 0 medium 'zorra'
+C 'cleric'
+#16520
+tugmug~
+Tugmug~
+Tugmug el rey de la gravedad esta aqui mirando a quien destruir
+~
+~
+'human'
+AT T 0 -1000 0
+30 45 6d12+928 30d13+100 4d6+8 frbite
+-9 -9 -9 -8
+CDEFIKLTU BP 0 0
+stand stand male 3000
+0 0 medium 'oro'
+C 'warrior'
+#16521
+chilla~
+Chilla~
+Chilla la reina del frio esta aqui.
+~
+~
+'human'
+AD 0 0 -1000 0
+30 15 6d12+703 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKTU BP 0 0
+stand stand female 4000
+0 0 medium 'acero'
+C 'psicionist'
+#16522
+alluroe~
+Alluroe~
+Alluroe el gran dominador de mentes esta aqui.
+~
+~
+'human'
+AR H 0 -1000 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKTU BP 0 0
+stand stand male 3000
+0 0 medium 'oro'
+C 'mage'
+#16523
+amuck~
+Amuck~
+Amuck el sirviente esta aqui
+~
+~
+'human'
+APT 0 0 -1000 1
+28 42 6d12+778 28d13+100 2d12+8 none
+-8 -8 -8 -7
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#16524
+redeye ojos rojos~
+redeyes~
+Redeyes, el ojos rojos esta aqui.
+~
+~
+'human'
+AT DJZ 0 -1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU BP 0 0
+stand stand male 0
+0 0 medium 'pico'
+C 'warrior'
+#16525
+reptilio~
+Reptilio~
+Reptilio el malvado mutante esta aqui.
+~
+~
+'predator'
+AQ H 0 -1000 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+FHIKTU BP 0 0
+stand stand male 300
+0 0 medium 'acero'
+C 'cleric'
+#16526
+mandrilo~
+Mandrilo~
+Mandrilo esta aqui golpeando algunas piedras
+~
+~
+'ogre'
+AT HOV 0 -1000 0
+35 52 10d10+1400 35d14+100 6d5+11 bite
+-11 -11 -11 -10
+EFKLQTU BP 0 0
+stand stand male 0
+0 0 medium 'acero'
+C 'warrior'
+#16527
+chakalom~
+Chakalom~
+Chakalom el perro de los mutantes esta weviando por aqui
+~
+~
+'werewolf'
+AT 0 0 0 0
+33 49 10d10+1200 33d14+100 7d4+10 none
+-11 -11 -11 -9
+CDEIKLTU BP 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#16528
+buitro~
+Buitro~
+Buitro el voraz buitre esta aqui creando leseras
+~
+~
+'angel'
+AT 0 0 -1000 0
+43 64 25d10+2750 43d15+100 10d4+15 none
+-15 -15 -15 -13
+CDEFIKLTU BP 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#16529
+mumm-ra inmortal~
+Mumm-Ra el Inmortal buahhhhhhh~
+#F#B Mumm-Ra el Inmortal #f#b esta aqui hechando maldiciones por montones
+~
+La maldad se refleja en su rostro, no hay nadie tan malo como el
+~
+'human'
+AT DGH B -1000 0
+48 72 50d10+4000 48d16+100 5d11+18 none
+-18 -18 -18 -15
+CDEFIKLTU BP G 0
+stand stand male 3000
+0 0 giant 'inmortalidad'
+C 'warrior'
+#16530
+ma-mutt perro~
+Ma-mutt~
+Ma-mutt el perro de Mumm-Ra esta aqui.
+~
+~
+'dog'
+AT 0 0 -1000 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#16531
+pumm-ra~
+Pumm-Ra~
+Pumm-Ra el falso Thundercat esta aqui
+~
+~
+'human'
+AQ H 0 -1000 0
+38 19 10d10+1600 38d14+1300 4d8+11 none
+-13 -13 -13 -12
+FIKQTU BP 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#16532
+driller taladro~
+Driller el taladro~
+Driller el taladro humano esta haciendo un agujero aqui
+~
+~
+'human'
+AQ 0 0 0 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKTU 0 0 0
+stand stand male 3000
+0 0 medium 'iron'
+C 'cleric'
+#16533
+ratar-o~
+Ratar-O~
+Ratar-O esta haciendo maldades
+~
+~
+'rata'
+AQ H 0 -1000 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+IKTU BP 0 0
+stand stand male 0
+0 0 medium 'acero'
+C 'cleric'
+F off C
+F vul C
+#16534
+grune destroyer destructor~
+Grune the destroyer~
+Grune the destroyer esta aqui planeando su venganza
+~
+~
+'human'
+AR 0 0 0 0
+33 16 6d12+928 33d14+1200 4d6+8 none
+-10 -10 -10 -10
+FKTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#16535
+mongor~
+Mongor~
+Mongor el demonio esta aqui
+~
+Si lo miras te cagaras de miedo.
+~
+'giant'
+AT 0 0 -1000 0
+33 49 10d10+1200 33d14+100 7d4+10 magic
+-11 -11 -11 -9
+CDEFIKLTU BP 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#16536
+gigante roca~
+Gigante de roca~
+Un Gigante de roca esta aqui pisoteando todo.
+~
+~
+'giant'
+AT O 0 -1000 0
+33 49 10d10+1200 33d14+100 7d4+10 smash
+-11 -11 -11 -9
+CDEFIKLTU 0 0 0
+stand stand male 4000
+J 0 giant 'roca'
+C 'warrior'
+#16539
+aracnida~
+Aracnida~
+Aracnida la reina de las aranias esta aqui
+~
+~
+'animal'
+AR H 0 -1000 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+FKTU 0 0 0
+stand stand female 4000
+0 0 medium 'oro'
+C 'mage'
+F off CI
+#16540
+safari joe~
+Safari Joe~
+Safari Joe esta aqui cazando a sus presas.
+~
+~
+'human'
+AS H 0 -1000 0
+40 26 15d10+1700 40d15+100 17d2+13 none
+-13 -13 -13 -12
+BEFIJKNTUV 0 0 0
+stand stand male 0
+0 0 medium 'iron'
+C 'thief'
+#16541
+queen willa~
+Queen Willa~
+The Queen Willa esta aqui cuidando a sus guerreras
+~
+Puta la mina rica.
+~
+'human'
+AR H B 1000 0
+38 19 10d10+1400 38d14+1300 6d5+11 none
+-12 -12 -12 -12
+FHKQTU BP 0 0
+stand stand female 0
+0 0 medium 'mijita'
+C 'mage'
+#16542
+rober bill~
+Rober Bill~
+Rober Bill el oso de goma esta aqui
+~
+~
+'bear'
+AT H 0 1000 0
+26 39 5d10+650 26d13+100 3d7+7 none
+-7 -7 -7 -6
+CFIKLTU 0 0 0
+stand stand male 1000
+0 0 medium 'goma'
+C 'warrior'
+F off O
+#16543
+guerrero mutante~
+Guerrero mutante~
+Un guerrero mutante esta aqui
+~
+~
+'snake'
+AS 0 0 -1000 0
+25 16 5d10+500 25d13+100 2d10+6 none
+-6 -6 -6 -5
+BEFKMNTUV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#16544
+gato nieve~
+Gato Nieve~
+El Gato Nieve esta aqui cuidando el orden
+~
+~
+'cat'
+AS 0 0 1000 0
+39 26 10d10+1600 39d14+100 16d2+12 scratch
+-13 -13 -13 -12
+BEIJKMNUV BP 0 0
+stand stand male 0
+0 0 medium 'ice'
+C 'thief'
+#16545
+oso goma~
+Oso de goma~
+Un oso de goma esta aqui 
+~
+~
+'bear'
+A 0 0 1000 0
+20 0 3d9+333 20d12+100 2d8+5 smash
+-4 -4 -4 -3
+U 0 0 0
+stand stand none 0
+0 0 medium 'goma'
+C 'warrior'
+F off DEO
+#16546
+guerrera amazona~
+Guerrera amazona~
+Una guerrera amazona esta cuidando aqui el orden
+~
+Guachita ricaaaaaaaaaaaaa
+~
+'human'
+AT 0 0 1000 0
+27 40 6d12+703 27d13+100 5d4+7 none
+-8 -8 -8 -6
+CDEFIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'oro'
+C 'warrior'
+#16547
+vendedor ~
+vendedor~
+Un vendedor esta aqui parado esperando tu pedido
+~
+~
+'human'
+ABQ 0 0 0 0
+58 29 50d10+8500 58d17+2000 15d9+24 none
+-28 -28 -28 -26
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#16548
+arania~
+Arania~
+Una apestoza arania esta aqui leseando
+~
+~
+'vampire'
+AT 0 0 0 0
+15 22 3d9+233 15d11+100 2d6+3 none
+-2 -2 -2 -2
+CEFIKLTU S 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F vul X
+#16549
+mumm-rana~
+Mumm-Rana~
+La Bella Mumm-Rana esta aqui sanando alos fieles
+~
+~
+'human'
+ABT H 0 -1000 0
+40 60 25d10+2000 40d15+100 6d6+13 wrath
+-13 -13 -13 -12
+CDEFIKLTU BP 0 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'warrior'
+#16550
+noe~
+Noe~
+El gran  Noe esta aqui
+~
+~
+'human'
+ABR H 0 0 0
+50 25 25d10+3750 50d16+1700 13d4+17 none
+-19 -19 -19 -18
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#0
+
+
+
+#OBJECTS
+#16500
+espada augurios~
+espada de los Augurios~
+La Espada de los Augurios esta brillando y creciendo~
+thunder~
+weapon G AN
+sword 8 10 'slash' A
+46 20 30000 P
+A
+18 4
+A
+13 50
+A
+19 4
+#16501
+garra felina~
+garra Felina~
+La Garra Felina esta aqui tirada~
+acero~
+armor A AJ
+10 12 13 9 0
+46 10 3000 P
+A
+12 50
+A
+18 3
+A
+19 3
+#16502
+nunchaco~
+nunchaco~
+El nunchaco de panthro esta ahi~
+oro~
+weapon 0 AN
+mace 5 10 'smash' 0
+40 20 4000 P
+#16503
+boleadoras~
+boleadora~
+Las boleadoras de Tigro estan ahi tiradas~
+indef~
+weapon 0 AN
+exotic 7 9 'whip' 0
+40 20 3000 P
+A
+12 20
+A
+3 1
+A
+19 3
+#16504
+bo~
+bo~
+El Bo de Cheetara esta aqui botado~
+acero~
+weapon 0 AN
+mace 5 7 'smash' 0
+30 15 2000 P
+A
+14 -50
+A
+18 2
+A
+19 2
+A
+13 50
+#16505
+bomba humo~
+bomba de Humo ~
+Una bomba de humo esta aqui~
+oro~
+wand 0 AO
+27 6 3 'faerie fog' 0
+20 5 10000 P
+#16506
+escopeta recortada~
+escopeta recortada~
+Una escopeta recortada esta ahi tira~
+indef~
+weapon 0 AN
+exotic 6 9 'blast' 0
+40 20 3000 P
+A
+19 4
+A
+13 60
+#16507
+espada plunn dar~
+espada de Plunn Dar~
+La espada de Plunn Dar esta bota ~
+hierro~
+weapon 0 AN
+sword 5 9 'stab' 0
+44 200 30000 P
+A
+3 2
+A
+19 3
+A
+14 -80
+#16508
+hacha maligna~
+hacha Maligna~
+Una hacha maligna esta ahi~
+hierro~
+weapon 0 AN
+axe 5 5 'slash' 0
+10 50 400 P
+#16509
+espada hachiman~
+espada de Hachiman~
+Una espada del samurai Hachiman esta ahi tirada~
+hierro~
+weapon 0 AN
+sword 5 7 'stab' 0
+30 200 20000 P
+A
+12 -30
+A
+13 40
+#16510
+mazo power~
+mazo Power~
+Un mazo terrible de power esta ahio brillando~
+hierro~
+weapon 0 AN
+mace 5 8 'pound' 0
+28 200 2000 P
+A
+19 3
+A
+14 -50
+A
+13 30
+#16511
+corvo~
+un Corvo~
+Un corvo del ejercito de chile esta ahi~
+indef~
+weapon 0 AN
+exotic 5 6 'stab' 0
+25 100 2000 P
+A
+12 30
+A
+19 2
+A
+3 -1
+A
+18 2
+#16512
+coraza felina~
+coraza felina~
+Una hermosa coraza esta ahi bota ~
+hierro~
+armor A AD
+6 5 7 7 0
+25 40 3000 P
+A
+12 20
+A
+4 -1
+A
+19 2
+A
+13 20
+#16513
+pildora milagrosa~
+pildora milagrosa~
+Una pildora esta tira ahi~
+coca~
+pill 0 AO
+23 'combat mind' '' '' ''
+23 5 900000 P
+#16514
+botas mutantes~
+botas mutantes~
+Unas botas estan tiradas en el suelo.~
+indef~
+armor 0 AG
+5 5 5 3 0
+10 50 2000 P
+#16515
+pildora analtecedora~
+pildora enaltecedora~
+Una pildora roja esta ahi tirada~
+cocaina~
+pill 0 A
+20 'giant strength' '' '' ''
+28 10 500000 P
+#16516
+coraza plutonica~
+coraza plutonica~
+Una coraza de plutonio esta ahi tirada~
+plutonio~
+armor 0 AD
+9 9 9 5 0
+29 50 50000 P
+A
+18 1
+A
+12 -5
+A
+5 2
+#16517
+destreza~
+destreza~
+Una wea muy diestra esta ahi~
+oro~
+trash 0 AK
+AC ABC BC ABC 0
+25 50 30000 P
+A
+2 3
+A
+19 2
+#16518
+escudo mutante~
+escudo mutante~
+Un escudo mutante esta ahi botado~
+oro~
+armor 0 AJ
+8 7 6 6 0
+25 8 39800 P
+A
+18 2
+A
+19 2
+#16519
+espada laser~
+espada laser~
+Una espada laser esta ahi tirada~
+metal~
+weapon 0 AN
+sword 5 8 'charge' 0
+30 100 3000 P
+A
+19 3
+A
+18 2
+A
+13 40
+#16520
+escalibur~
+escalibur~
+La espada escalibur esta ahi botada~
+indef~
+weapon 0 AN
+sword 5 7 'charge' 0
+30 200 30000 P
+A
+18 2
+A
+5 1
+A
+12 -10
+A
+19 2
+A
+13 20
+#16521
+mentalizador~
+mentalizador~
+Un mentalizador esta botao ahi~
+oro~
+armor 0 AO
+0 0 0 0 0
+40 80 1000 P
+A
+3 3
+A
+4 3
+A
+13 -10
+#0
+
+
+
+#ROOMS
+#16500
+ENTRADA AL TERCER PLANETA~
+Has llegado a la entrada del #F#B TERCER PLANETA #f#n.  Aqui viven los
+muy famosos #F#B Thundercats#f#b.  Ademas aqui podras encontrarte con
+todoslos villanos que quieren destruirlos.  
+~
+0 C 0
+D0
+~
+~
+0 0 16501
+D2
+~
+~
+0 0 9707
+S
+#16501
+CAMINO AL CUBIL FELINO~
+Este camino es el lugar mas hermoso que puede existir en este MUD .  Todo
+te inspira paz y tranquilidad.  Los arboles adornan y embellecen este lugar.
+~
+0 0 0
+D0
+~
+~
+0 0 16504
+D2
+~
+~
+0 0 16500
+D3
+~
+~
+0 0 16502
+S
+#16502
+ENTRADA A LA TORRE FELINA~
+Estas en la entrada de la torre felina, la cual fue construida para
+proteger al tercer planeta de la invasion de seres de otras areas del mud. 
+Al observarla te puedes dar cuenta de lo imponente que resulta ser.  
+~
+0 0 0
+D1
+~
+~
+0 0 16501
+D3
+~
+~
+0 0 16503
+S
+#16503
+TORRE FELINA~
+Has entrado a la torre felina, aqui puedes observar toda la tecnologia de
+los thundercats en accion.  Ves una infinidad de aparatos los cuales estan
+siempre alertas para observar si hay alguna novedad.  
+~
+0 0 0
+D1
+~
+~
+0 0 16502
+S
+#16504
+CAMINO AL CUBIL FELINO~
+Que hermoso lugar, es lo primero que piensas cuando estas en este
+paradisiaco lugar.  Todo te inspira ternura y alegria, solo piensas en
+llegar al famoso cubil y encontrarte con esos heroes tuyos.  
+~
+0 0 0
+D0
+~
+~
+0 0 16513
+D1
+~
+~
+0 0 16505
+D2
+~
+~
+0 0 16501
+D3
+~
+~
+0 0 16509
+S
+#16505
+CAMINO AL ARCA~
+Al este de este camino puedes ver la construccion de un gran barco que
+pareciera que va a guardar muchos animales , parece que su constructor esta
+predicando unas muy bellas palabras que te inducen al arrepentimiento.  
+~
+0 0 0
+D1
+~
+~
+0 0 16506
+D3
+~
+~
+0 0 16504
+S
+#16506
+ARCA DE NOE~
+Esta es una gran bodega flotante, que te induce a unirte a este loco
+viajero.  Al norte de aqui puedes ver animales de todas las especies
+existentes.  
+~
+0 0 0
+D0
+~
+~
+0 0 16507
+D1
+~
+~
+0 0 16573
+D2
+~
+~
+0 0 16508
+D3
+~
+~
+0 0 16505
+S
+#16507
+MASCOTAS NOE~
+En esta parte de la barca esta la famosa tienda de mascotas de Noe.  Aqui
+el ruido que hacen los animales es sublime y cadencioso, lo cual te relaja
+de sobremanera.  
+~
+0 0 0
+D2
+~
+~
+0 0 16506
+S
+#16508
+PIEZA DE LA BARCA~
+En esta pieza tu puedes descanzar y relajarte para una mejor salud.  No
+pienses en hacer el mal , solo piensa en amar a los demas.  
+~
+0 0 0
+D0
+~
+~
+0 0 16506
+M 200 H 200
+S
+#16509
+CAMINO AL BOSQUE DE UNICORNIOS~
+Por este hermoso bosque podras llegar al bosque en el cual encontraras a
+los miticos unicornios.  El silencio que aqui existe es relajante y te
+inspira a dormir placidamente 
+~
+0 0 3
+D1
+~
+~
+0 0 16504
+D3
+~
+~
+0 0 16510
+S
+#16510
+BOSQUE DE UNICORNIOS~
+Este hermoso bosque esta plagado de especies raras.  Las mas notables que
+puedes ver son los hermosos unicornios blancos.  
+~
+0 0 0
+D1
+~
+~
+0 0 16509
+D2
+~
+~
+0 0 16512
+D4
+~
+~
+0 0 16511
+S
+#16511
+MONTE SINAI~
+Estas en un lugar demasiado sublime para estar aqui.  Aqui puedes ver a
+Moises con unas tablas muy extranias que contienen la ley mosaica escritas
+en ellas.  
+~
+0 0 0
+D5
+~
+~
+0 0 16510
+S
+#16512
+BOSQUE~
+Los arboles son inmensos, labriza es agradable para cualquier persona, en
+realidad te gusta estar en este lugar.  Los animales juguetean por todos
+lados y la alegria de este lugar es inmensa.  
+~
+0 0 0
+D0
+~
+~
+0 0 16510
+S
+#16513
+CAMINO AL CUBIL FELINO~
+Este largo camino te sigue llevando por los hermosos lugares de este
+tercer planeta , todo es hermoso incluso las fieras que por aqui abundan.  
+~
+0 0 3
+D0
+~
+~
+0 0 16514
+D2
+~
+~
+0 0 16504
+S
+#16514
+CAMINO AL CUBIL~
+Ya te esta aburriendo este largo camino para llegar al cubil felino,
+igual te parecen hermosas las cosas , pero como que te empieza a aburrir
+tanta belleza.  
+~
+0 0 3
+D0
+~
+~
+0 0 16515
+D2
+~
+~
+0 0 16513
+S
+#16515
+ENCRUCIJADA~
+Ahora si que te encuentras en serios problemas.  Tienes que elegir uno de
+los cuatro caminos.  Tienes que elegir bien o te puede costar la vida,
+piensalo.  
+~
+0 0 3
+D0
+~
+~
+0 0 16516
+D1
+~
+~
+0 0 16559
+D2
+~
+~
+0 0 16514
+D3
+~
+~
+0 0 16562
+S
+#16516
+CAMINO AL CUBIL~
+Las bubes son azules , el pasto verde, las mariposas de colores.  Como
+que ya te aburrio este largo camino y en lo unico en que piensas es en
+llegar a ese famoso cubil de los Thundercats.  
+~
+0 0 3
+D0
+~
+~
+0 0 16517
+D2
+~
+~
+0 0 16515
+S
+#16517
+SEGUNDA ENCRUCIJADA~
+Ahora debes tomar otra gran desicion en este famoso juego del mud.  Debes
+decidir cual es el camino correcto para tu salvacion.  Ahora si que
+empezaras a encontrar los verdaderos peligros de esta area, mejor cuidate.  
+~
+0 0 3
+D0
+~
+~
+0 0 16518
+D1
+~
+~
+0 0 16548
+D2
+~
+~
+0 0 16516
+D3
+~
+~
+0 0 16527
+S
+#16518
+CAMINO AL CUBIL~
+Puta que esta lejos la wea, es lo que piensas ahora cuando te das cuenta
+que el famoso cubil de pacotilla esta mas lejos de lo que parecia.  Sigues
+viendo las mismas leseras de cosas bellas, pero ya no te importa demasiado
+eso, solo quieres llegar.  
+~
+0 0 3
+D0
+~
+~
+0 0 16519
+D2
+~
+~
+0 0 16517
+S
+#16519
+CAMINO AL CUBIL~
+Puta que esta lejos la wea, es lo que piensas ahora cuando te das cuenta
+que el famoso cubil de pacotilla esta mas lejos de lo que parecia.  Sigues
+viendo las mismas leseras de cosas bellas, pero ya no te importa demasiado
+eso, solo quieres llegar.  
+~
+0 0 3
+D0
+~
+~
+0 0 16520
+D1
+~
+~
+0 0 16555
+D2
+~
+~
+0 0 16518
+D3
+~
+~
+0 0 16541
+S
+#16520
+PUENTE DEL CUBIL FELINO~
+Por fin llegaste al cubil felino.  Al observarlo puedes darte cuenta de
+lo imponente que resulta ser esta bella construccion moderna.  Lo unico que
+quieres es entrar.  
+~
+0 0 0
+D0
+~
+~
+0 0 16521
+D2
+~
+~
+0 0 16519
+S
+#16521
+CUBIL FELINO~
+Ahora te encuentras dentro del famoso cubil felino, al mirar te asombra
+la perfeccion de la construccion de este hermoso refugio.  Ves hermosos
+cuadros de los seniores de los thundercats colgadas en los muros.  
+~
+0 0 0
+D1
+~
+~
+0 0 16522
+D2
+~
+~
+0 0 16520
+D3
+~
+~
+0 0 16523
+D4
+~
+~
+0 0 16524
+S
+#16522
+GARRA DEL CUBIL~
+Ahora te encuentras dentro de la garra en la cual se guarda la muy famosa
+nave felina, la cual fue diseniada por el gran ingeniero Pantro.  Esta nave
+fue creada para resguardar la paz de todo el universo y defender el codigo
+de thundera.  
+~
+0 0 0
+D3
+~
+~
+0 0 16521
+S
+#16523
+GARRA DEL CUBIL~
+Aqui estas dentro de la garra en la cual esta guardado el famosisimo
+Tanque felino, en el cual los Thundercats suelen luchar contra el malvado
+Mum-Ra y los perversos Mutantes.  
+~
+0 0 0
+D1
+~
+~
+0 0 16521
+S
+#16524
+SALON FELINO~
+Te encuentrasen el salon en el cual los thundercats suelen tener sus
+reuniones habituales para decidir el bien de las comunidades del tercer
+planeta.  
+~
+0 0 0
+D1
+~
+~
+0 0 16526
+D3
+~
+~
+0 0 16525
+D4
+~
+~
+0 0 16579
+D5
+~
+~
+0 0 16521
+S
+#16525
+TABLERO DE CONTROLES~
+Estas en la habitacion desde donde los felinos cosmicos suelen vegilar lo
+que ocurre en el tercer planeta.  Los tableros tienen almacenada toda la
+informacion del os lugares mas peligrosos y lejanos del tercer palneta.  La
+tecnologia te sorprende y te gustaria llegar a ser algun dia como ellos.  
+~
+0 0 0
+D1
+~
+~
+0 0 16524
+S
+#16526
+SALA DE LOS CANIONES~
+Estas en la sala donde los thundercats tienen todo su armamento belico
+para defender la paz del universo .  Los caniones son de rayos laser ,
+gamma, x , plutonicos ,etc.  Es mejor que nadie se meta con estos bravos
+guerreros.  
+~
+0 0 0
+D3
+~
+~
+0 0 16524
+S
+#16527
+DESIERTO DE LA DESOLACION~
+Ahora si que te encontraras con los verdaderos peligros de este tercer
+planeta , mejor cuidate y observa bien a tu alrededor.  Este desierto parece
+inmeso y pareciera que el calor te sofoca a cada momento.  
+~
+0 0 10
+D1
+~
+~
+0 0 16517
+D3
+~
+~
+0 0 16528
+S
+#16528
+DESIERTO DE LA DESOLACION~
+El calor te sofoca , ya no tienes fuerza, es mejor te heches a morir. 
+Muy a lo lejos puedes ver solo arena y mas arena.  La arena te entra por los
+ojos y no puedes ver nada,mejor alejate de aqui.  
+~
+0 0 10
+D1
+~
+~
+0 0 16527
+D3
+~
+~
+0 0 16529
+S
+#16529
+CRUCE DE LA MUERTE~
+Estas en una gran disjuntiva.  No sabes donde ir .  Pero el camino que
+elijas te llevara a luchar contra seres malvados y despiadados, mejor
+preparate.  
+~
+0 0 10
+D1
+~
+~
+0 0 16528
+D2
+~
+~
+0 0 16535
+D3
+~
+~
+0 0 16530
+S
+#16530
+CAMINO A LAS PIRAMIDES~
+Ahora tienes dos opciones una te dirigira al bien, y la otra al mal ,
+decide en conciencia.  Lo unico malo es que el calor te sigue abrumando y no
+te sientes con fuerzas suficientes para seguir adelante.  
+~
+0 N 10
+D0
+~
+~
+0 0 16564
+D1
+~
+~
+0 0 16529
+D3
+~
+~
+0 0 16531
+S
+#16531
+ENTRADA A LA PIRAMIDE NEGRA~
+Has llegado al lugar mas peligroso de todo el tercer planeta.  Has
+llegado a la piramide negra de #F#B Mum-Ra el inmortal#f#b , major huye
+mientras puedas.  La piramide es inmensa y majestuosa, pero te inspira un
+terros aterrador.  
+~
+0 N 0
+D1
+~
+~
+0 0 16530
+D3
+~
+~
+0 0 16532
+S
+#16532
+SALON DEL CALDERO DE LA MUERTE~
+Estas dentro de la mitica piramide, estas en el lugar donde Mum-Ra suele
+hacer sus acostumbrados maleficios.  Las estatuasde los dioses malignos te
+asustan de sobremanera.  Sientes un miedo aterrador.  
+~
+0 KN 0
+D0
+~
+~
+0 0 16533
+D1
+~
+~
+0 0 16531
+D2
+~
+~
+0 0 16534
+S
+#16533
+SALON DE LOS TESOROS~
+L cantidad de tesoros que aqui existen es tan grande que podrias comprar
+todas las cosas del mud que existen.  Te dan unas ganas locas de robarte
+todo , pero el castigo que recibiras te costaria la vida.  
+~
+0 N 0
+D2
+~
+~
+0 0 16532
+S
+#16534
+SALA DE LA MUERTE~
+NO ALCANZAS A VER NADA................................................  @ 
+~
+0 U 0
+D0
+~
+~
+0 0 16532
+S
+#16535
+RUMBO AL CASTILLO PLONN-DAR~
+Ahora te dirijes al castillo de los crueles mutantes.  Es mejor que te
+prepares ,porque estos crueles seres se especializan en atacar a los seres
+indefensosde este planeta.  
+~
+0 N 10
+D0
+~
+~
+0 0 16529
+D2
+~
+~
+0 0 16536
+S
+#16536
+ENTRADA AL CASTILLO~
+La escencia del mal esta reflejada en la arquitectura de este majestuoso
+castillo del mal.  Es tan imponente que el miedo te recorre a cada momento,
+pero los guerreros del mud somos fuertes (especialmente los del clan
+InfernuS) y no le tememos a nada.  
+~
+0 N 0
+D0
+~
+~
+0 0 16535
+D1
+~
+~
+0 0 16537
+D3
+~
+~
+0 0 16540
+S
+#16537
+SALON MUTANTE~
+En este sucio salon los malvados mutantes suelen tener sus comilonas y
+hacen los planes para conquistar el planeta.  Ves calaveras y huesos botados
+en todo esta lleno se sangre debido a los sacrificios de estos horribles
+seres.  
+~
+0 N 0
+D0
+~
+~
+AB 0 16538
+D1
+~
+~
+0 0 16540
+D2
+~
+~
+AB 0 16539
+D3
+~
+~
+0 0 16536
+S
+#16538
+SALA DE TORTURAS~
+Estas en la sala de torturas del castilllo.  Aqui los crueles mutantes
+suelen hacer todo tipo de sacrificios.  Puedes observar todo tipo de
+maquinas de torturas como la doncella de hierro, los cuatro vientos , etc.  
+~
+0 N 0
+D2
+~
+~
+AB 0 16537
+S
+#16539
+CALABOSO~
+Este es un calaboso del castillo.  En las paredes ves la sangre derramada
+por los prisioneros que construyeron esta imponente fortaleza.  Los huesos
+estan tirados por toda la habitacion y los craneos malolientes hacen nata.  
+~
+0 0 0
+D0
+~
+~
+AB 0 16537
+S
+#16540
+SALON MUTANTE~
+En este sucio salon los malvados mutantes suelen tener sus comilonas y
+hacen los planes para conquistar el planeta.  Ves calaveras y huesos botados
+en todo esta lleno se sangre debido a los sacrificios de estos horribles
+seres.  
+~
+0 N 0
+D1
+~
+~
+0 0 16536
+D3
+~
+~
+0 0 16537
+S
+#16541
+ENTRADA VILLA BEARBILLS~
+Te encuentras en la entrada de la villa de estos amistosos osos de goma. 
+Al verte , estos hermosos osos te saludan y te demuestran todo su amor y
+carinio.  Puedes notar que la paz abunda en este hermoso lugar del tercer
+planeta.  
+~
+0 0 0
+D1
+~
+~
+0 0 16519
+D3
+~
+~
+0 0 16542
+S
+#16542
+VILLA BEARBILL~
+Estas en la villa de estos osos cariniosos.  Las pequenias casitas te
+agradan y te invitan a compartir un hermoso dia con ellos.  La naturaleza
+abunda y nunca pareciera que acurriera algo malo en esta hermosa villa.  
+~
+0 0 0
+D0
+~
+~
+0 0 16544
+D1
+~
+~
+0 0 16541
+D2
+~
+~
+0 0 16543
+D3
+~
+~
+0 0 16545
+S
+#16543
+FUENTE DE AGUA~
+Ahora te encuentras en la pequenia plaza de los osos.  Aqui los arboles y
+los jardines son muy bien cuidados y nadie se atreve a romper con este bello
+orden 
+~
+0 0 0
+D0
+~
+~
+0 0 16542
+S
+#16544
+TIENDA DE VIVERES~
+En esta tienda tu puedes encontrar todo tipo de cosas para comer y saciar
+tu apetito.  La repiza de la mercaderia esta muy bien ordenada y limpia. 
+Parece que estos extranios osos si se preocupan del bienestar de los
+viajeros.  
+~
+0 0 0
+D2
+~
+~
+0 0 16542
+S
+#16545
+VILLA BEARBILL~
+Estas en la villa de estos osos cariniosos.  Las pequenias casitas te
+agradan y te invitan a compartir un hermoso dia con ellos.  La naturaleza
+abunda y nunca pareciera que acurriera algo malo en esta hermosa villa.  
+~
+0 0 0
+D0
+~
+~
+0 0 16545
+D1
+~
+~
+0 0 16542
+D2
+~
+~
+0 0 16545
+S
+#16548
+CAMINO A LA VILLA DE LAS AMAZONAS~
+Te internas en un bosque en el cual los arboles son muy grandes y apenas
+se puede ver la luz solar debido al frondoso follaje de los arboles.  No se
+escucha ningun ruido que perturbe la paz y tranquilidad de este imponente
+bosque de coniferas.  
+~
+0 0 3
+D1
+~
+~
+0 0 16549
+D3
+~
+~
+0 0 16517
+S
+#16549
+CAMINO A LA VILLA DE LAS AMAZONAS~
+Te internas en un bosque en el cual los arboles son muy grandes y apenas
+se puede ver la luz solar debido al frondoso follaje de los arboles.  No se
+escucha ningun ruido que perturbe la paz y tranquilidad de este imponente
+bosque de coniferas.  
+~
+0 0 3
+D3
+~
+~
+0 0 16548
+D4
+~
+~
+0 0 16550
+S
+#16550
+VILLA DE LAS AMAZONAS~
+Llegate a la villa de las guerreras amazonas.  Aqui ningun ser extranio
+es muy bien bienvenido.  Estas hermosas guerreras se caracterizan por su
+braveza en las luchas contra los malditos mutantes y seres afines.  Tambien
+se caracterizan por su extremada belleza fisica.  
+~
+0 0 0
+D0
+~
+~
+0 0 16552
+D2
+~
+~
+0 0 16551
+D5
+~
+~
+0 0 16549
+S
+#16551
+VILLA DE LAS AMAZONAS~
+Llegate a la villa de las guerreras amazonas.  Aqui ningun ser extranio
+es muy bien bienvenido.  Estas hermosas guerreras se caracterizan por su
+braveza en las luchas contra los malditos mutantes y seres afines.  Tambien
+se caracterizan por su extremada belleza fisica.  
+~
+0 0 0
+D0
+~
+~
+0 0 16550
+D3
+~
+~
+0 0 16552
+S
+#16552
+VILLA DE LAS AMAZONAS~
+Llegate a la villa de las guerreras amazonas.  Aqui ningun ser extranio
+es muy bien bienvenido.  Estas hermosas guerreras se caracterizan por su
+braveza en las luchas contra los malditos mutantes y seres afines.  Tambien
+se caracterizan por su extremada belleza fisica.  
+~
+0 0 0
+D1
+~
+~
+0 0 16551
+D2
+~
+~
+0 0 16550
+D3
+~
+~
+0 0 16553
+S
+#16553
+VILLA DE LAS AMAZONAS~
+Llegate a la villa de las guerreras amazonas.  Aqui ningun ser extranio
+es muy bien bienvenido.  Estas hermosas guerreras se caracterizan por su
+braveza en las luchas contra los malditos mutantes y seres afines.  Tambien
+se caracterizan por su extremada belleza fisica.  
+~
+0 0 0
+D1
+~
+~
+0 0 16552
+S
+#16555
+ENTRADA VILLA GENTE PEQUENIA~
+Ten cuidado en donde pisas, porque puedes pisar a la pequenia gente que
+vive en este lugar.  El pasto es demasiado largo para poder ver las
+pequenias casas desde este lugar.  
+~
+0 0 0
+D1
+~
+~
+0 0 16556
+D3
+~
+~
+0 0 16519
+S
+#16556
+VILLA DE LA GENTE PEQUENIA~
+Las diminutas casitas que por aqui abundan te llaman la atencion.  Puedes
+notar que todas las cosas aqui son pequenias, todo es en miniatura, incluso
+los animales de esta extrania gente.  
+~
+0 0 0
+D0
+~
+~
+0 0 16557
+D2
+~
+~
+0 0 16558
+D3
+~
+~
+0 0 16555
+S
+#16557
+VILLA DE LA GENTE PEQUENIA~
+Las diminutas casitas que por aqui abundan te llaman la atencion.  Puedes
+notar que todas las cosas aqui son pequenias, todo es en miniatura, incluso
+los animales de esta extrania gente.  
+~
+0 0 0
+D2
+~
+~
+0 0 16556
+S
+#16558
+ENTRADA VILLA GENTE PEQUENIA~
+Ten cuidado en donde pisas, porque puedes pisar a la pequenia gente que
+vive en este lugar.  El pasto es demasiado largo para poder ver las
+pequenias casas desde este lugar.  
+~
+0 0 0
+D0
+~
+~
+0 0 16556
+S
+#16559
+CAVERNA DE LA MUERTE~
+Te metisteen la cueva de la muerte .  Notas que tus fuerzas estan
+desapareciendo y te sientes muy pero muy debil a cada
+momento.............................  
+~
+0 0 0
+D1
+~
+~
+0 0 16560
+D3
+~
+~
+0 0 16515
+M 0 H 0
+S
+#16560
+CAVERNA DE LA MUERTE~
+Te metisteen la cueva de la muerte .  Notas que tus fuerzas estan
+desapareciendo y te sientes muy pero muy debil a cada
+momento.............................  
+~
+0 0 0
+D1
+~
+~
+0 0 16561
+D3
+~
+~
+0 0 16559
+M 0 H 0
+S
+#16561
+CAVERNA DE LA MUERTE~
+Te metisteen la cueva de la muerte .  Notas que tus fuerzas estan
+desapareciendo y te sientes muy pero muy debil a cada
+momento.............................  
+~
+0 0 0
+D3
+~
+~
+0 0 16560
+M 0 H 0
+S
+#16562
+CAVERNA DE LA MUERTE~
+Te metisteen la cueva de la muerte .  Notas que tus fuerzas estan
+desapareciendo y te sientes muy pero muy debil a cada
+momento.............................  
+~
+0 0 0
+D0
+~
+~
+0 0 16563
+D1
+~
+~
+0 0 16515
+M 0 H 0
+S
+#16563
+DIMENSION DESCONOCIDA~
+Esta es la pieza mas extrania de toda esta area.  Si te quedas aqui
+durante algunos minutos podras notar una gran diferencia con todo el
+mud....................................  
+~
+0 NU 0
+D2
+~
+~
+0 0 16562
+S
+#16564
+DESIERTO DE LA DESOLACION~
+Ahora si que te encontraras con los verdaderos peligros de este tercer
+planeta , mejor cuidate y observa bien a tu alrededor.  Este desierto parece
+inmeso y pareciera que el calor te sofoca a cada momento.  
+~
+0 0 10
+D0
+~
+~
+0 0 16565
+D2
+~
+~
+0 0 16530
+S
+#16565
+DESIERTO DE LA DESOLACION~
+Ahora si que te encontraras con los verdaderos peligros de este tercer
+planeta , mejor cuidate y observa bien a tu alrededor.  Este desierto parece
+inmeso y pareciera que el calor te sofoca a cada momento.  
+~
+0 0 10
+D0
+~
+~
+0 0 16569
+D2
+~
+~
+0 0 16564
+D3
+~
+~
+0 0 16566
+S
+#16566
+PIRAMIDE DE MUMM-RANA~
+Estas dentro de la hermosa piramide blanca, la hermosura es abismante. 
+Las estatuas de los mas hermosos diosesestan adorando esta habitacion.  La
+paz que aqui existe te relaja de sobremanera.  
+~
+0 K 0
+D0
+~
+~
+0 0 16567
+D1
+~
+~
+0 0 16565
+D2
+~
+~
+0 0 16568
+S
+#16567
+SALON DE RELAJACION~
+Enesta habitacion yu puedes relajarte y olvidarte de todas tus penas y
+aflicciones.  La paz y tranquilidad te conmueven de sobremanera 
+~
+0 0 0
+D2
+~
+~
+0 0 16566
+M 200 H 200
+S
+#16568
+SALON DE RELAJACION~
+Enesta habitacion yu puedes relajarte y olvidarte de todas tus penas y
+aflicciones.  La paz y tranquilidad te conmueven de sobremanera 
+~
+0 0 0
+D0
+~
+~
+0 0 16566
+M 200 H 200
+S
+#16569
+DESIERTO DE LA DESOLACION~
+Ahora si que te encontraras con los verdaderos peligros de este tercer
+planeta , mejor cuidate y observa bien a tu alrededor.  Este desierto parece
+inmeso y pareciera que el calor te sofoca a cada momento.  
+~
+0 0 10
+D0
+~
+~
+0 0 16570
+D2
+~
+~
+0 0 16565
+S
+#16570
+REINO DE LAS ARANIAS~
+Las telas de arania llenan toda la habitacion, debido a que por estos
+alejados caminoe se encuentra el reino de Aracnida la reina de las aranias. 
+Es mejor que te cuides por que puedes quedar atrapado para toda tu vida.  
+~
+0 0 0
+D1
+~
+~
+0 0 16572
+D2
+~
+~
+0 0 16569
+D3
+~
+~
+0 0 16571
+S
+#16571
+ALCOBA DE ARACNIDA~
+Lo mas terrible puedes observar al mirar esta horrible habitacion, debido
+a la maldad que aqui se encierra.  No debes relajarte , porque la vida te
+puede jugar una mala pasada y puedes morir.........  
+~
+0 0 0
+D1
+~
+~
+0 0 16570
+S
+#16572
+REINO DE LAS ARANIAS~
+Las telas de arania llenan toda la habitacion, debido a que por estos
+alejados caminoe se encuentra el reino de Aracnida la reina de las aranias. 
+Es mejor que te cuides por que puedes quedar atrapado para toda tu vida.  
+~
+0 0 0
+D3
+~
+~
+0 0 16570
+S
+#16573
+CAMINO A LA GUARIDA LUNATACS~
+Ahora te diriges a la guarida de los seres mas malvados que pueden
+existir en el universo.  Son los terribles Lunatacs , los cuales habitaban
+en las lunas de Plonn-dar y estan empecinados en dominar el universo.  
+~
+0 0 0
+D1
+~
+~
+0 0 16574
+D3
+~
+~
+0 0 16506
+S
+#16574
+ENTRADA GUARIDA DE LOS LUNATACS~
+Estas en la entrada de la guarida de los Lunatacs, la cual es una gran
+fortaleza movil.  
+~
+0 0 0
+D2
+~
+~
+0 0 16575
+D3
+~
+~
+0 0 16573
+S
+#16575
+GUARIDA LUNATAC~
+Estas dentro de la gran fortaleza movil de los Lunatacs.  Esta representa
+toda la tecnologia de estos malvados seres.  El ruido resulta ensordecedor y
+lo inico a que atinas es a salir arrancando.  
+~
+0 N 0
+D0
+~
+~
+0 0 16574
+D1
+~
+~
+0 0 16578
+D2
+~
+~
+0 0 16576
+D3
+~
+~
+0 0 16577
+S
+#16576
+GUARIDA LUNATAC~
+Estas dentro de la gran fortaleza movil de los Lunatacs.  Esta representa
+toda la tecnologia de estos malvados seres.  El ruido resulta ensordecedor y
+lo inico a que atinas es a salir arrancando.  
+~
+0 N 0
+D0
+~
+~
+0 0 16575
+S
+#16577
+SALA DE CONTROLES~
+Estas dentro del salon de controles de esta gran fortaleza movil.  Puedes
+ver una gran cantidad de aparatos y monitores que indican todo lo que ocurre
+dentro y fuera de la fortaleza.  
+~
+0 N 0
+D1
+~
+~
+0 0 16575
+S
+#16578
+SALON DE LA MUERTE~
+En este salon se encuentran todos los lideres de los lunatacs, los cuales
+planean conquistar el tercer palneta con la ayuda de Mumm-Ra y de los
+malvados mutantes.  Aqui suelen tener las reuniones acerca de como se
+repartiran el planeta.  
+~
+0 N 0
+D3
+~
+~
+0 0 16575
+S
+#16579
+SALA DE LOS AUGURIOS~
+En esta sala se encuentran todos los espiritus de Thundera, los cuales
+estan aqui para aconsejar a todos los viajeros que visitan este tercer
+planeta.  La sala esta adornada sobriamente, pero la solemnidad que esta
+inspira te llena de confianza y quietud.  
+~
+0 K 0
+D5
+~
+~
+0 0 16524
+M 200 H 200
+S
+#0
+
+
+
+#SPECIALS
+M 16507 spec_questmaster
+M 16508 spec_cast_cleric
+M 16511 spec_cast_adept
+M 16526 spec_atacar_align_opuesta
+M 16529 spec_cast_undead
+M 16531 spec_atacar_align_opuesta
+M 16539 spec_poison
+M 16544 spec_atacar_align_opuesta
+M 16546 spec_cast_mage
+M 16549 spec_cast_undead
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 16537 0 1
+D 0 16537 2 1
+D 0 16538 2 1
+D 0 16539 0 1
+M 0 16509 1 16501 1
+E 0 16503 0 16
+M 0 16508 1 16502 1
+E 0 16516 0 5
+M 0 16510 1 16503 1
+M 0 16550 1 16507 1
+G 0 16510 0
+G 0 16511 0
+G 0 16512 0
+G 0 16513 0
+G 0 16514 0
+G 0 16515 0
+G 0 16516 0
+G 0 16517 0
+G 0 16518 0
+M 0 16547 1 16508 1
+G 0 16500 0
+G 0 16501 0
+G 0 16502 0
+G 0 16503 0
+G 0 16504 0
+G 0 16505 0
+G 0 16506 0
+G 0 16507 0
+G 0 16508 0
+G 0 16509 0
+M 0 16517 1 16513 1
+M 0 16544 1 16513 1
+M 0 16515 1 16514 1
+E 0 16509 0 16
+M 0 16516 1 16515 1
+E 0 16520 0 16
+M 0 16513 1 16515 1
+M 0 16514 1 16516 1
+E 0 16519 0 16
+M 0 16540 1 16517 1
+E 0 16506 0 16
+M 0 16535 1 16518 1
+M 0 16536 1 16518 1
+M 0 16505 1 16519 1
+M 0 16506 1 16519 1
+M 0 16501 1 16520 1
+E 0 16502 0 16
+M 0 16502 1 16521 1
+E 0 16503 0 16
+M 0 16504 1 16522 1
+G 0 16505 0
+M 0 16503 1 16523 1
+E 0 16504 0 16
+M 0 16500 1 16524 1
+E 0 16500 0 16
+E 0 16501 0 11
+M 0 16531 1 16530 1
+M 0 16534 1 16530 1
+M 0 16529 1 16532 1
+M 0 16530 1 16532 1
+M 0 16532 1 16533 1
+M 0 16543 8 16535 8
+E 0 16518 0 11
+M 0 16526 1 16537 1
+M 0 16533 1 16537 1
+E 0 16507 0 16
+M 0 16525 1 16538 1
+M 0 16527 1 16539 1
+M 0 16528 1 16539 1
+M 0 16542 1 16541 1
+M 0 16545 10 16542 10
+M 0 16546 10 16551 10
+E 0 16511 0 16
+E 0 16512 0 5
+G 0 16513 0
+M 0 16541 1 16552 1
+M 0 16549 1 16566 1
+M 0 16548 10 16570 10
+M 0 16539 1 16571 1
+M 0 16519 1 16573 1
+M 0 16523 1 16573 1
+M 0 16521 1 16574 1
+M 0 16522 1 16574 1
+E 0 16521 0 17
+M 0 16518 1 16575 1
+M 0 16520 1 16575 1
+M 0 16524 1 16576 1
+M 0 16507 1 16579 1
+M 0 16511 1 16579 1
+M 0 16512 1 16579 1
+S
+
+
+
+#SHOPS
+16547 0 0 0 0 0 100 100 100 100 0 23
+16550 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

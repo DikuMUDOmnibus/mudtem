@@ -1,0 +1,157 @@
+dnl -*- sh -*-
+dnl
+dnl   This file requires m4 macros that I define in my acsite.m4 file.
+dnl   You can obtain this file from <ftp://space.mit.edu/pub/davis/acsite.m4>.
+dnl
+AC_INIT(src/slang.c)
+
+# Installation location
+AC_PREFIX_DEFAULT(/usr/local)
+JD_INIT
+JD_ANSI_CC
+
+AC_CONFIG_AUX_DIR(autoconf)
+AC_PROG_MAKE_SET
+AC_PROG_RANLIB
+AC_PROG_INSTALL
+
+AC_CANONICAL_HOST
+
+#Check these header since they cause trouble
+AC_CHECK_HEADERS( \
+stdlib.h \
+unistd.h \
+memory.h \
+termios.h \
+malloc.h \
+fcntl.h \
+sys/fcntl.h \
+sys/types.h \
+sys/wait.h \
+sys/utsname.h \
+sys/times.h \
+)
+
+AC_TYPE_MODE_T
+AC_TYPE_PID_T
+AC_TYPE_UID_T
+
+AC_HEADER_DIRENT
+
+AC_CHECK_FUNCS(\
+memset \
+memcpy \
+putenv \
+getcwd \
+tcgetattr \
+tcsetattr \
+cfgetospeed \
+sigaction \
+sigemptyset \
+sigprocmask \
+sigaddset \
+vfscanf \
+lstat readlink \
+kill \
+snprintf vsnprintf \
+getppid getegid geteuid getgid setgid setpgid setuid \
+chown popen mkfifo \
+atexit on_exit umask uname \
+times gmtime \
+)
+
+AC_CHECK_SIZEOF(short, 2)
+AC_CHECK_SIZEOF(int, 4)
+AC_CHECK_SIZEOF(long, 4)
+AC_CHECK_SIZEOF(float, 4)
+AC_CHECK_SIZEOF(double, 8)
+
+AC_CHECK_LIB(dl,dlopen,[
+	AC_CHECK_HEADER(dlfcn.h, [
+		DYNAMIC_LINK_LIB="-ldl"
+		AC_DEFINE(HAVE_DLFCN_H)
+	       ],[
+	        DYAMIC_LINK_LIB=""
+		AC_MSG_WARN(cannot perform dynamic linking)
+               ])],[
+	DYAMIC_LINK_LIB=""
+	AC_MSG_WARN(cannot perform dynamic linking)])
+AC_SUBST(DYNAMIC_LINK_LIB)
+
+case "$host_os" in
+  linux )
+    DYNAMIC_LINK_FLAGS="-Wl,-export-dynamic"
+    ;;
+  * )
+    DYNAMIC_LINK_FLAGS=""
+    ;;
+esac
+AC_SUBST(DYNAMIC_LINK_FLAGS)
+
+
+JD_TERMCAP
+JD_GCC_WARNINGS
+
+JD_SET_OBJ_SRC_DIR(src)
+
+JD_GET_MODULES(src/modules.unx)
+JD_CREATE_MODULE_ORULES
+
+AC_MSG_CHECKING(SLANG_VERSION)
+slang_version=`grep "^#define  *SLANG_VERSION " $srcdir/src/slang.h |
+               awk '{ print [$]3 }'`
+slang_major_version=`echo $slang_version |
+ awk '{ print int([$]1/10000) }'`
+slang_minor_version=`echo $slang_version $slang_major_version |
+ awk '{ print int(([$]1 - [$]2*10000)/100) }'`
+slang_mminor_version=`echo $slang_version $slang_major_version $slang_minor_version |
+ awk '{ print ([$]1 - [$]2*10000 - [$]3*100) }'`
+
+slang_minor_version=$slang_minor_version.$slang_mminor_version
+AC_MSG_RESULT($slang_major_version.$slang_minor_version)
+AC_SUBST(slang_major_version)
+AC_SUBST(slang_minor_version)
+
+
+
+if test "$GCC" = yes; then
+  ELF_CC="gcc"
+  ELF_CFLAGS="-O2 -fno-strength-reduce -fPIC"
+  ELF_LINK="gcc -shared -Wl,-soname#"
+  ELF_LINK_CMD="\$(ELF_LINK),\$(ELFLIB_MAJOR)"
+else
+  ELF_CC="cc"
+  ELF_CFLAGS="-K pic"
+  ELF_LINK="ld -G -z text"
+  ELF_LINK_CMD="\$(ELF_LINK)"
+fi
+AC_SUBST(ELF_CC)
+AC_SUBST(ELF_CFLAGS)
+AC_SUBST(ELF_LINK)
+AC_SUBST(ELF_LINK_CMD)
+
+AC_CONFIG_HEADER(src/sysconf.h:src/config.hin)
+
+AC_CONFIG_SUBDIRS(demo)
+
+AC_OUTPUT(Makefile:autoconf/Makefile.in src/Makefile)
+
+JD_CREATE_EXEC_RULE(calc)
+JD_CREATE_EXEC_RULE(untic)
+JD_APPEND_RULES(src/Makefile)
+JD_APPEND_ELFRULES(src/Makefile)
+
+echo ""
+echo "Configuration complete.  You may need to edit src/Makefile."
+echo "You are compiling SLANG with the following compiler configuration:"
+echo "       CC =" "$CC"
+echo "   CFLAGS =" "$CFLAGS"
+echo "  LDFLAGS =" "$LDFLAGS $DYNAMIC_LINK_FLAGS"
+echo ""
+echo "   ELF_CC =" "$ELF_CC"
+echo " ELF_LINK =" "$ELF_LINK"
+echo "ELF_CFLAGS=" "$ELF_CFLAGS"
+echo ""
+echo "See also src/sl-feat.h for various features."
+echo "Type 'make' to build normal library."
+echo "On ELF systems, type 'make elf' to create ELF shared library."

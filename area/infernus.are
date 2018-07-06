@@ -1,0 +1,2031 @@
+#AREADATA
+Name Infernus~
+Builders None~
+VNUMs 19500 19599
+Credits { 0  0} Zatanas Infernus~
+Security 9
+Prototipo 0
+Low 0
+High 0
+Clan infernus~
+Version 2
+End
+
+
+
+#MOBILES
+#19500
+Barba Roja~
+Barba Roja~
+El pirata #BBarba Roja#b espera que le pases algo para repararlo
+~
+~
+'human'
+ABT H 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLTU 0 0 0
+stand stand male 30000
+0 0 medium 'palo'
+L 'infernus'
+C 'warrior'
+#19501
+hitler~
+Adolfo Hitler~
+Hitler esta aqui para venderte alguna armadura de la segunda querra mundial
+~
+~
+'human'
+ABQ H 0 0 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+FIKU 0 0 0
+stand stand none 45000
+0 0 medium 'fierro'
+L 'infernus'
+C 'cleric'
+#19502
+megatron~
+Megatron~
+Megatron el super robot espera tu pedido.
+~
+~
+'dragon'
+ABR H 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKTU 0 0 0
+stand stand none 40000
+0 0 giant 'acero'
+L 'infernus'
+C 'mage'
+#19503
+set~
+Set~
+El gran hechizero Set esta tirando unos spells
+~
+La mirada diabolica es muy aterradora
+~
+'human'
+ABRa DH 0 -1000 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKU 0 0 0
+stand stand male 30000
+0 0 medium 'acero'
+L 'infernus'
+C 'mage'
+#19504
+Conan~
+Conan el destructor~
+Conan el destructor esta aqui esperando para contarte una historia.
+~
+Su mirada refleja las batallas que tuvo contra los monstruos malignos, pero esa es otra historia.
+~
+'human'
+ABJKNQ H 0 -1000 0
+44 22 25d10+2750 44d15+1500 5d8+14 none
+-15 -15 -15 -14
+FIKU 0 0 0
+stand stand none 30000
+0 0 giant 'acero'
+L 'infernus'
+C 'cleric'
+#19505
+jack destripador~
+Jack el Destripador~
+Jack el Destripador  afila una cuchilla mientras espera tu pedido
+~
+~
+'human'
+ABR H 0 0 0
+44 22 25d10+2250 44d15+1500 12d3+14 none
+-15 -15 -15 -14
+FKTU 0 0 0
+stand stand male 44000
+0 0 medium 'acero'
+L 'infernus'
+C 'mage'
+#19506
+quintrala~
+La Quintrala~
+La Quintrala esta aqui haciendo mariguancias
+~
+Esta hermosa mujer esta ataviada , lista para el leseo,pero mejor cuidate.
+~
+'human'
+ABQ H 0 -1000 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -18
+FIKU 0 0 0
+stand stand female 50000
+0 0 medium 'fesh'
+L 'infernus'
+C 'cleric'
+#19507
+rasputin~
+Rasputin~
+El gran monje Rasputin esta aqui pajeandose con unas playboy.
+~
+La cara de pajero no se la quita nadie.
+~
+'human'
+ABQ H 0 0 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+FIKU 0 0 0
+stand stand none 45000
+0 0 medium 'fresh'
+L 'infernus'
+C 'cleric'
+#19508
+neron~
+Neron~
+Aqui esta el emperador Neron jugando con unas varitas, pa quemar todas las piezas
+~
+La cara de loco no se la quita nadie.
+~
+'human'
+ABQ H 0 0 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -18
+FIKU 0 0 0
+stand stand male 50000
+0 0 medium 'fuego'
+L 'infernus'
+C 'cleric'
+#19509
+caligula~
+Caligula~
+El emperador Caligula esta corriendole mano a unas doncellas de su palacio.
+~
+La cara de degenerado no se la quita nadie.
+~
+'human'
+ABQ H 0 0 0
+35 17 10d10+1300 35d14+1200 7d4+10 none
+-11 -11 -11 -11
+FIKU 0 0 0
+stand stand none 35000
+0 0 medium 'orgia'
+L 'infernus'
+C 'cleric'
+#19510
+hall caponne~
+Hall Caponne~
+El mafioso Hall Caponne esta aqui vendiendo mascotas.
+~
+~
+'human'
+ABQ H 0 0 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKTU 0 0 0
+stand stand male 30000
+0 0 medium 'mafia'
+L 'infernus'
+C 'cleric'
+#19511
+kjeldoranos~
+Kjeldoranos~
+Un soldado Kjeldorano esta ahi
+~
+Son unas calaveras vivientes.
+~
+'human'
+AIT 0 0 0 0
+15 22 3d9+233 15d11+100 2d6+3 none
+-2 -2 -2 0
+BCI 0 H 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'infernus'
+C 'warrior'
+#19512
+oso pardo~
+Oso Pardo~
+Un gran oso pardo esta ahi
+~
+~
+'animal'
+AIT 0 0 0 0
+18 27 3d9+308 18d12+100 2d7+4 none
+-3 -3 -3 -2
+BK 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'infernus'
+C 'warrior'
+#19513
+anaconda~
+Anaconda~
+Una anaconda de 50 metros esta ahi enroscada.
+~
+~
+'dragon'
+AIT 0 0 0 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+0 0 0 0
+stand stand male 0
+0 0 medium 'fuego'
+L 'infernus'
+C 'warrior'
+F res EH
+#19514
+guerrero gorila~
+Guerrero Gorila~
+Un guerrero gorila esta ahi mirandota.
+~
+~
+'human'
+AIT 0 0 0 0
+22 33 5d10+450 22d12+100 4d4+6 none
+-5 -5 -5 -4
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'infernus'
+C 'warrior'
+#19515
+guerrero felino~
+Guerrero felino~
+Un guerrero felino esta ahi esperando el ataque.
+~
+~
+'animal'
+AIT 0 0 0 0
+24 36 5d10+550 24d13+100 2d10+6 none
+-6 -6 -6 -5
+KV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'infernus'
+C 'warrior'
+#19516
+draco fuego~
+Draco de Fuego~
+Un gigante draco de fuego esta lanzando llamaradas ahi
+~
+~
+'dragon'
+AIT 0 0 0 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+BIK 0 0 0
+stand stand male 0
+0 0 giant 'unknown'
+L 'infernus'
+C 'warrior'
+F res EH
+#19517
+murcielago vampiro~
+Murcielago Vampiro~
+Un murcielago vampiro esta ahi moviendo sus alas
+~
+~
+'vampire'
+AIT 0 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -13
+FIKNU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'infernus'
+C 'warrior'
+F vul X
+#19518
+serpentor~
+Serpentor~
+El gran guerrero Serpentor esta aqui esperando tu desafio
+~
+La cara de maldad te consume sin compacion alguna.
+~
+'human'
+ABT 0 0 -1000 0
+16 24 3d9+258 16d12+100 2d6+4 none
+-2 -2 -2 -1
+CEFIKLTU 0 0 0
+stand stand male 3000
+0 0 medium 'escamas'
+L 'infernus'
+C 'warrior'
+#19519
+mun-ra~
+Mun-Ra~
+Mun-Ra el inmortal esta aqui vendiendo weas
+~
+~
+'human'
+ABT H 0 0 0
+45 67 25d10+3250 45d15+100 9d5+16 none
+-15 -15 -15 -14
+CDEFIKLTU 0 0 0
+stand stand male 45000
+0 0 medium 'piramide'
+L 'infernus'
+C 'warrior'
+#19520
+musa~
+Musa~
+Una bella Musa del demonio esta ahi haciendo mariguancias
+~
+Son las mujeres mas bellas que pueden existir en la faz de la tierra.
+~
+'angel'
+AGQ H 0 -1000 0
+30 15 6d12+853 30d13+1100 2d12+8 wrath
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand female 2000
+0 0 medium 'sexo'
+L 'infernus'
+C 'cleric'
+#19521
+banquero~
+BancoInfernuS~
+Un cajero del #B#F BancoInfernuS #f#b esta aqui
+~
+~
+'human'
+ABQde H 0 0 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'acero'
+L 'infernus'
+C 'cleric'
+#19564
+diablillo~
+Diablillo~
+Un diablillo esta haciendo maldades aqui
+~
+Tiene una cara de malo que no se la quita nadie.
+~
+'dragon'
+AGPSU 0 0 -1000 0
+20 13 3d9+308 20d12+100 2d7+5 bite
+-4 -4 -4 -3
+BEFIJKNTUV 0 0 0
+stand stand male 0
+0 0 medium 'lava'
+L 'infernus'
+C 'thief'
+F vul F
+#19565
+jinete apocalipsis~
+Jinete de la Apocalipsis~
+Un jinete de la Apocalipsis esta ahi cuidando la entrada
+~
+Son Soldados entrenados por el mismo Demonio. En sus ojos ves la maldad y
+la sangre de todas las victimas que han eliminado. Si no perteneces al
+clan Infernus, entonces estas #BMUERTO#b
+~
+'human'
+ABFQ H 0 0 0
+55 27 50d10+7000 55d16+1900 15d6+21 none
+-25 -25 -25 -23
+FIKTU ACEGHI BLNOPQSTYZ 0
+stand stand male 2000
+0 0 medium 'pecado'
+L 'infernus'
+C 'cleric'
+#19599
+melvin~
+Melvin~
+El wea del Melvin  ya la esta cagando
+~
+~
+'human'
+AT 0 0 1000 0
+10 15 2d8+134 10d11+100 2d4+2 suction
+1 1 1 4
+CIKLTU 0 0 0
+stand stand male 100
+0 0 medium 'carne'
+L 'infernus'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#19500
+fuente esmeraldas~
+la Fuente de Esmeraldas~
+Una hermosa fuente tallada a mano esta aqui.~
+indef~
+fountain 0 0
+1000000 1000000 'water' 0 0
+0 5000 0 P
+#19501
+casco tanque~
+casco de tanque~
+Un casco que parece tanque esta aqui.~
+acero~
+armor 0 AE
+2 8 9 6 0
+30 10 30000 P
+A
+18 2
+A
+14 -20
+N 'infernus'
+#19502
+chaleco antibalas~
+cahleco antibalas~
+Un chaleco antibalas esta ahi tirado~
+acero~
+armor 0 AD
+4 4 4 4 0
+19 100 3000 P
+A
+18 1
+A
+13 10
+N 'infernus'
+#19503
+botas puntaefierro~
+botas puntaefierro~
+Unas botas puntaefierro estan ahi tiradas~
+acero~
+armor 0 AG
+4 4 4 1 0
+19 100 3000 P
+A
+19 1
+A
+14 50
+N 'infernus'
+#19504
+pantalones mimetizados~
+pantalones mimetizados~
+Unos pantalones mimetizados estan ahi~
+tela~
+armor 0 AF
+4 4 4 2 0
+19 20 3000 P
+A
+19 1
+A
+18 1
+N 'infernus'
+#19505
+capa napoleonica~
+capa napoleonica~
+La capa de Napoleon esta ahi tirada~
+acero~
+armor 0 AD
+5 4 4 2 0
+24 20 50000 P
+A
+14 20
+A
+19 1
+A
+18 2
+A
+13 10
+N 'infernus'
+#19506
+casco ateniense~
+casco ateniense~
+Una casco ateniense esta  ahi tirado~
+acero~
+armor 0 AE
+13 13 13 13 0
+25 50 50000 P
+A
+1 -25
+A
+4 -25
+A
+19 3
+A
+18 3
+A
+14 -40
+A
+13 30
+N 'infernus'
+#19507
+escudo satanico~
+un escudo satanico~
+El escudo  satanico esta ahi tirado~
+acero~
+armor 0 AJ
+5 4 5 2 0
+25 150 5000 P
+A
+12 10
+A
+13 20
+A
+18 1
+N 'infernus'
+#19508
+aros putrefactos~
+unos aros~
+Los aros estan pudriendose ahi~
+indef~
+armor 0 AS
+4 4 5 4 0
+30 1 50000 P
+A
+3 -5
+A
+13 10
+A
+12 10
+A
+18 1
+A
+19 2
+N 'infernus'
+#19509
+coderas demoniacas~
+coderas~
+Unas coderas estan ahi tiradas~
+acero~
+armor 0 AI
+5 5 4 2 0
+28 80 40000 P
+A
+18 2
+N 'infernus'
+#19510
+coraza blindada~
+coraza blindada~
+Una coraza que parece tanque esta tirada ahi~
+acero~
+armor 0 AD
+5 5 4 3 0
+24 80 40000 P
+A
+19 1
+A
+18 1
+A
+13 30
+N 'infernus'
+#19511
+coraza uranio~
+coraza de Uranio~
+Una coraza radioactiva esta ahi tirada.~
+uranio~
+armor 0 AD
+9 9 9 8 0
+35 120 60000 P
+A
+18 2
+A
+19 2
+A
+13 10
+A
+12 10
+N 'infernus'
+#19512
+pantalones acero~
+pantalones de Acero~
+Unos pantalones de acero estan ahi tirados~
+acero~
+armor 0 A
+9 8 9 7 0
+33 100 55000 P
+A
+13 30
+A
+14 20
+A
+19 1
+N 'infernus'
+#19513
+collar radioactivo~
+collar Radioactivo~
+Un collar extranio esta ahi tirado emitiendo un sonido.~
+plutonio~
+armor 0 AC
+14 14 13 12 0
+41 60 80000 P
+A
+4 -25
+A
+3 -25
+A
+19 3
+A
+18 3
+A
+13 35
+A
+12 10
+N 'infernus'
+#19514
+escudo plutonico~
+escudo Plutonico~
+Un escudo de plutonio esta ahi tirado~
+acero~
+armor 0 AJ
+7 7 7 5 0
+40 100 75000 P
+A
+13 30
+A
+4 2
+A
+18 2
+A
+19 2
+N 'infernus'
+#19515
+botas cocodrilo~
+botas de cocodrilo~
+Unas botas de cuero de cocodrilo estan ahi botadas~
+acero~
+armor 0 AG
+9 8 9 8 0
+38 40 56000 P
+A
+19 2
+A
+18 2
+A
+13 30
+N 'infernus'
+#19516
+anillo atomico~
+anillo atomico~
+Un anillo radioactivo  esta ahi tirado~
+uranio~
+armor 0 AB
+8 9 9 4 0
+44 4 90000 P
+A
+19 2
+A
+18 2
+A
+13 20
+N 'infernus'
+#19517
+anillo maligno~
+anillo maligno~
+ves tirado un pequenio anillo~
+acero~
+armor 0 AB
+5 5 3 2 0
+25 2 30000 P
+A
+19 2
+N 'infernus'
+#19518
+mangas doradas~
+mangas Doradas~
+Unas mangas doradas estan ahi~
+acero~
+armor 0 AI
+7 7 8 4 0
+35 40 50000 P
+A
+19 2
+A
+13 30
+A
+18 2
+N 'infernus'
+#19519
+espada augurio~
+espada del Augurio~
+La famosa Espada del Augurio esta ahi tirada~
+uranio~
+weapon 0 AN
+sword 5 6 'pierce' 0
+20 350 30000 P
+A
+14 -20
+A
+13 20
+A
+19 2
+A
+18 2
+N 'infernus'
+#19520
+mazo trionico~
+mazo Trionico~
+El Mazo Trionico esta botado ahi~
+plutonio~
+weapon 0 AN
+mace 6 6 'pound' 0
+25 200 350000 P
+A
+14 -30
+A
+12 30
+A
+18 2
+A
+19 2
+N 'infernus'
+#19521
+hacha poderoza~
+hacha Poderoza~
+El Hacha mas poderoza esta tirada ahi~
+acero~
+weapon 0 AN
+axe 5 4 'cleave' 0
+15 100 20000 P
+A
+18 1
+A
+19 2
+A
+13 10
+N 'infernus'
+#19522
+espada salvaje~
+espada Salvaje de Conan~
+La Espada Salveje de Conan esta tira da ahi~
+acero~
+weapon 0 AN
+sword 5 8 'slash' 0
+33 400 60000 P
+A
+13 30
+A
+18 2
+A
+19 2
+A
+12 -30
+N 'infernus'
+#19523
+daga demoniaca~
+daga Demoniaca~
+Una daga demoniaca esta  ahi~
+wolframio~
+weapon 0 AN
+dagger 5 6 'charge' 0
+23 50 30000 P
+A
+18 1
+A
+13 20
+A
+19 2
+A
+14 -15
+N 'infernus'
+#19524
+mazo copete~
+mazo de copete~
+Un Mazo color a vino tinto esta ahi~
+indef~
+weapon 0 AN
+mace 4 5 'pound' 0
+15 200 40000 P
+A
+13 20
+A
+18 2
+N 'infernus'
+#19525
+espada she-ra~
+espada de She-ra~
+La espada de She-ra esta aqui.~
+cobre~
+weapon 0 AN
+sword 5 9 'cleave' 0
+40 150 100000 P
+A
+13 40
+A
+18 4
+A
+19 4
+N 'infernus'
+#19526
+espada sagrada~
+espada Sagrada~
+Una espada con simbolos demoniacos esta ahi botada~
+hierro~
+weapon I AN
+sword 6 7 'pierce' 0
+28 250 60000 P
+A
+19 2
+A
+12 -30
+A
+18 2
+N 'infernus'
+#19527
+daga sonica~
+daga sonica~
+Una daga sonica esta tirada ahi~
+acero~
+weapon 0 AN
+dagger 5 5 'pierce' 0
+20 40 30000 P
+A
+19 1
+A
+12 30
+A
+18 2
+N 'infernus'
+#19528
+martillo thor~
+martillo de Thor~
+El martillo del dios del rayo Thor esta tirado ahi~
+indef~
+weapon 0 AN
+mace 5 9 'pound' E
+38 100 80000 P
+A
+19 3
+A
+18 3
+A
+13 50
+N 'infernus'
+#19529
+agua demoniaca~
+agua demoniaca~
+Una pocion de extranio color esta ahi~
+semen~
+potion 0 AO
+20 'sanctuary' '' '' ''
+20 10 50000 P
+N 'infernus'
+#19530
+agua mapocho~
+agua del Mapocho~
+Una botella con agua turbia esta ahi~
+coliformes ~
+potion 0 AH
+12 'armor' 'bless' 'poison' 'sed'
+10 10 10000 P
+N 'infernus'
+#19531
+semen burro~
+semen de burro~
+Una botella toda chorreada esta ahi~
+semen~
+potion 0 AO
+24 'haste' 'sed' '' ''
+24 10 50000 P
+N 'infernus'
+#19532
+pocion curadora~
+pocion curadora~
+Una potion  curadora esta ahi~
+agua santa~
+potion 0 AO
+13 'cure poison' 'cure disease' 'cure blindness' ''
+10 10 10000 P
+N 'infernus'
+#19533
+pocion conan~
+pocion de Conan~
+Una botella con acero liquido esta ahi~
+aceragua~
+potion 0 AO
+30 'psychic healing' 'heal' '' ''
+30 100 50000 P
+N 'infernus'
+#19534
+aliento dragon~
+aliento de dragon~
+La botella con aliento de dragon esta ahi~
+indef~
+potion 0 AO
+20 'ectoplasmic form' 'sed' '' ''
+20 20 100000 P
+N 'infernus'
+#19535
+pocion abrumadora~
+pocion abrumadora~
+Una extrania pocion esta ahi~
+marciansangre~
+potion 0 AO
+20 'detect invis' '' '' ''
+20 10 30000 P
+N 'infernus'
+#19536
+canto gregoriano~
+canto Gregoriano~
+Una partitura de un canto esta ahi~
+indef~
+scroll 0 AO
+20 'combat mind' '' '' ''
+20 10 40000 P
+N 'infernus'
+#19537
+neruda~
+poema de Neruda~
+Un hermosa poema de Pablo Neruda esta ahi botado~
+hojas~
+scroll 0 AO
+24 'frenzy' 'haste' 'shield' 'heal'
+24 10 40000 P
+N 'infernus'
+#19538
+verso satanico~
+verso Satanico~
+Un papel escrito en una lengua extrania esta ahi~
+lava~
+scroll 0 AH
+30 'bless' '' '' ''
+30 10 50000 P
+N 'infernus'
+#19539
+escalera cielo~
+escalera al cielo~
+Una hoja con la letra de Escalera al Cielo al reves esta ahi~
+papel~
+scroll 0 AO
+20 'heal' '' '' ''
+18 10 50000 P
+N 'infernus'
+#19540
+danza xuxa~
+danza de Xuxa~
+Una hoja con la danza de xuxa escrita al reves esta botada ahi~
+zorra~
+scroll 0 AO
+27 'ectoplasmic form' '' '' ''
+27 10 55000 P
+N 'infernus'
+#19541
+foto playboy~
+playboy~
+Una foto de una mina de la Playboy esta ahi botada~
+sexo~
+scroll 0 AO
+22 'haste' '' '' ''
+22 10 40000 P
+N 'infernus'
+#19542
+cancion dragonball~
+cancion de Dragonball~
+La letra de Dragonall esta ahi botada~
+indef~
+scroll 0 AO
+24 'protection good' '' '' ''
+24 10 50000 P
+N 'infernus'
+#19543
+cancion de cuna~
+cancion de Cuna~
+Una bella cancion de cuna esta ahi botada~
+bebe~
+scroll 0 AO
+15 'sanctuary' 'fireproof' '' ''
+15 10 80000 P
+N 'infernus'
+#19544
+fosforos copihue~
+fosforos Copihues~
+Una varita de fosforos copihues esta ahi tirada~
+polvora~
+wand A AO
+20 5 5 'fireball' 0
+20 10 30000 P
+N 'infernus'
+#19545
+fuego divino~
+fuego Divino~
+Una varita de fuego divino esta ahi.~
+fuego~
+wand A AO
+4 4 4 'fire breath' 0
+15 10 25000 P
+N 'infernus'
+#19546
+ira divina~
+ira Divina~
+Una varita de ira divina esta ahi~
+ira~
+wand A AO
+33 4 4 'acid blast' 0
+33 15 60000 P
+N 'infernus'
+#19547
+atomic wand~
+atomic Wand~
+Una varita Atomica esta tirada ahi~
+acero~
+wand A AO
+24 10 10 'disintegrate' 0
+24 13 50000 P
+N 'infernus'
+#19548
+torpedera~
+torpedera~
+Una torpedera esta ahi~
+misil~
+wand A AO
+16 10 10 'magic missile' 0
+10 10 5000 P
+N 'infernus'
+#19549
+exploited~
+exploited~
+Una Exploited esta ahi~
+fuego~
+wand A AO
+8 4 4 'gas breath' 0
+28 12 30000 P
+N 'infernus'
+#19550
+antorcha radioactiva~
+antorcha Radioactiva~
+Una antorcha racioactiva esta ahi bota~
+uranio~
+wand A AO
+20 6 6 'heat metal' 0
+22 10 30000 P
+N 'infernus'
+#19551
+zatanic wand~
+zatanic Wand~
+Una Zatanic Wand esta ahi~
+chiste~
+wand A AO
+18 5 5 'detonate' 0
+20 10 30000 P
+N 'infernus'
+#19552
+pan~
+pan~
+Un pan esta tirado ahi~
+pan~
+food 0 AO
+20 20 0 0 0
+10 5 50 P
+N 'infernus'
+#19553
+llumbina pastilla~
+llumbina~
+Una pastilla de llumbina esta ahi bota~
+llumbina~
+food 0 AO
+20 20 0 0 0
+20 20 3000 P
+N 'infernus'
+#19554
+pene~
+pene~
+Un pene esta ahi listo para que lo debores~
+carne peluda~
+food 0 AO
+30 30 0 0 0
+30 30 5000 P
+N 'infernus'
+#19555
+fuente cerveza~
+fuente de Cerveza~
+Una fuente llena de zafiros esta ahi~
+acero~
+fountain 0 0
+100000000 100000000 'beer' 0 0
+0 0 0 P
+#19556
+casco infernus~
+casco Infernus~
+Un casco con una #BI#b de infernus esta ahi~
+acero~
+armor 0 AE
+4 4 4 3 0
+16 30 10000 P
+A
+13 10
+A
+19 2
+A
+18 1
+#19557
+escudo infernus~
+escudo Infernus~
+Un escudo de infernus esta ahi~
+acero~
+armor 0 AJ
+5 5 5 3 0
+16 80 10000 P
+A
+13 5
+A
+19 1
+#19558
+botas infernus~
+botas Infernus~
+Unas botas del clan infernus estan ahi~
+acero~
+armor 0 AG
+5 6 4 4 0
+16 50 10000 P
+A
+14 10
+A
+19 1
+A
+18 1
+#19559
+capa infernus~
+capa Infernus~
+Una capa de seda del clan infernus esta ahi~
+acero~
+armor 0 AD
+4 4 5 3 0
+16 15 10000 P
+A
+13 10
+A
+19 1
+#19560
+collar infernus~
+collar Infernus~
+Un collar del clan infernus esta ahi~
+acero~
+armor 0 AC
+5 5 5 4 0
+16 10 10000 P
+A
+13 -5
+A
+4 1
+#19561
+pierneras infernus~
+pierneras Infernus~
+Unas pierneras del clan infernus estan ahi tiradas~
+acero~
+armor 0 AF
+5 5 5 2 0
+16 16 10000 P
+A
+13 10
+A
+18 1
+A
+19 1
+#19562
+coderas infernus~
+coderas Infernus~
+Unas coderas del clan infernus estan ahi botadas~
+acero~
+armor 0 AI
+6 6 5 3 0
+16 10 10000 P
+#19563
+anillo infernus~
+anillo infernus~
+Un anillo del clan infernus esta ahi~
+indef~
+armor 0 AB
+5 4 4 2 0
+16 10 10000 P
+A
+13 5
+A
+19 1
+A
+18 1
+#19564
+espada infernus~
+espada Infernus~
+Una espada del clan infernus esta ahi~
+acero~
+weapon A AN
+sword 5 5 'slice' 0
+16 100 10000 P
+#19565
+casco einstein~
+casco de Einstein~
+El casco de Einstein esta ahi~
+E=mc^2~
+armor 0 AE
+6 6 5 3 0
+20 100 50000 P
+A
+4 3
+A
+2 -1
+N 'infernus'
+#19566
+luz volcanica~
+luz Volcanica~
+Una luz Volcanica esta tirada  aqui~
+lava~
+light 0 A
+0 0 90 0 0
+15 10 10000 P
+A
+19 1
+N 'infernus'
+#19567
+bolsa basura~
+bolsa de Basura~
+Una bolsa de basura esta ahi~
+plastico~
+container 0 AO
+300 A 0 20 100
+0 20 10000 P
+N 'infernus'
+#19568
+mosca revoltosa~
+mosca Revoltosa~
+Una mosca esta puro mosquendo aqui.~
+oro~
+armor 0 AQ
+7 6 6 5 0
+20 10 20000 P
+A
+13 -20
+A
+3 3
+A
+1 -1
+N 'infernus'
+#19569
+cajero~
+un cajero automatico~
+Un #Bc#bajero #BA#butomatico esta aqui~
+hierro~
+trash X 0
+0 0 0 0 0
+0 0 0 P
+#19570
+pozo septico donation pit~
+un pozo septico~
+Un pozo septico esta aqui, rebosante de...~
+loza~
+container 0 0
+100000 0 0 100000 100
+0 0 0 P
+#19571
+Espada de Lucifer~
+Espada de Lucifer~
+Ves la espada del #BAngel Caido#b~
+magma~
+weapon ABGHJM AN
+sword 5 9 'slash' D
+42 200 200000 P
+A
+13 20
+A
+18 5
+A
+19 5
+A
+5 -1
+N 'infernus'
+#19572
+Luz del Infierno~
+Luz del Infierno~
+Hay una luz en el suelo que te enseguese~
+lava~
+light 0 A
+0 0 140 0 0
+30 50 25000 P
+A
+18 2
+N 'infernus'
+#19573
+alma en pena~
+alma en pena~
+Ves un alma que anda puro weando~
+humo~
+armor 0 AQ
+9 9 9 7 0
+35 20 10000 P
+F
+A 17 50 I
+A
+18 2
+A
+19 2
+#19574
+Daga de fuego~
+Daga de fuego~
+Ves una daga envuelta en llamas~
+plata~
+weapon ABG AN
+dagger 5 7 'pierce' A
+30 50 2640 P
+A
+18 -8
+N 'infernus'
+#19575
+Brazalete maldito~
+Brazalete maldito~
+Ves un brazalete rodeado de un aura maldita~
+indef~
+armor 0 AM
+9 9 10 8 0
+35 4 2000 P
+A
+19 2
+N 'infernus'
+#19576
+Collar de sebo~
+Collar de sebo~
+Ves un inmundo collar botado en el suelo~
+sebo~
+armor A AC
+12 11 0 11 0
+35 3 30000 P
+A
+13 20
+A
+18 3
+N 'infernus'
+#19577
+Vara acida~
+Vara acida~
+Ves una vara corroida por el acido~
+alambre~
+wand 0 AO
+3 3 3 'acid blast' 0
+26 5 30000 P
+N 'infernus'
+#19578
+Cinturon de castidad~
+Cinturon de Castidad~
+Ves un cinturon de metal, aun tiene pelos~
+metal~
+armor A AL
+12 12 12 10 0
+36 10 25000 P
+A
+19 2
+N 'infernus'
+#19579
+Guantes de Martin~
+Guantes de Martin~
+Ves los famosos guantes de Martin Vargas. Tiene un diente pegado~
+cuero~
+armor 0 AH
+10 10 12 9 0
+35 50 30000 P
+A
+2 1
+A
+13 10
+A
+19 1
+N 'infernus'
+#19580
+Casco de basenica~
+Casco de basenica~
+Ves una basenica tirada ahi~
+plastico~
+armor 0 AE
+11 11 11 11 0
+35 3 15000 P
+A
+20 10
+A
+1 1
+A
+12 50
+A
+13 70
+A
+3 -1
+N 'infernus'
+#0
+
+
+
+#ROOMS
+#19500
+ENTRADA A INFERNUS~
+Este extranio lugar , a pesar de lo terrible que ves, es el paraiso de
+los seres mas despiadados.  Te recomiendo no seguir hacia el norte, porque
+lo que ahi te espera es lo mas terrible que podras imaginar.  
+~
+0 0 0
+D0
+~
+~
+0 0 19501
+D2
+~
+~
+0 0 19598
+D4
+~
+~
+0 0 19527
+S
+#19501
+CAMINO DE LA DESOLACION~
+El paisaje es abrumador, no puedes ver nada, el miedo te consume y tu
+mente corre a mil por hora.  La salida de la vida no existe en este lugar,
+mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 19502
+D2
+~
+~
+0 0 19500
+S
+#19502
+CAMINO DE LA DESOLACION~
+El paisaje sigue abrumandote, hacia el norte puedes divizar algunas
+sombras que llaman tu atencion.  Las frias murrallas estan adornadas por
+pinturas de la caida del Sen-or y la llegada de Lucifer al trono eterno.  
+~
+0 0 0
+D0
+~
+~
+0 0 19503
+D2
+~
+~
+0 0 19501
+S
+#19503
+FUENTE DE AGUA MUERTA~
+La fuente es el lugar habitual para la gente de este infierno para llenar sus vasijas con esta putrefacta agua.
+La fuente esta construida con esmeraldas traidas de las catacumbas del infierno.
+~
+0 0 0
+D0
+~
+~
+0 0 19504
+D2
+~
+~
+0 0 19502
+S
+#19504
+SANTUARIO DE #BLUCIFER#b~
+Este hermoso santuario esta adornado con las mas hermosas piedras
+preciosas.  Los muros estan tapizados con las pieles de los angeles
+castigados por Lucifer y sus discipulos.  
+~
+0 KZ 0
+D0
+~
+~
+0 0 19523
+D1
+~
+~
+0 0 19515
+D2
+~
+~
+0 0 19503
+D3
+~
+~
+0 0 19506
+D4
+~
+~
+0 0 19505
+D5
+~
+~
+0 0 19524
+M 200 H 200
+L 'infernus'
+S
+#19505
+FOSA COMUN~
+Los cuerpos de los guerreros caidos durante las guerras santas tapizan el suelo de esta apestosa fosa comun.
+~
+0 0 0
+D5
+~
+~
+0 0 19504
+S
+#19506
+AVDA. INFERNUS~
+Esta calle es la mas tipica representacion del infierno en la tierra. 
+Sus habitantes son personas desdichadas las cuales han recibido el castigo
+de la condenacion eterna.  Puedes ver las tiendas atendidas por los seres
+mas extranios y despiadados que han existido durante la historia de la
+humanidad.  
+~
+0 0 0
+D1
+~
+~
+0 0 19504
+D3
+~
+~
+0 0 19508
+D4
+~
+~
+0 0 19507
+S
+#19507
+ARMADURAS  HITLER~
+Esta armaduria tiene todo lo necesario para la guerra moderna.  Esta es
+atendida por Adolfo Hitler, el conocido lider nazi, el cual debe cumplir su
+condena en este bello paraiso.  Este sujeto espera algun dia salir gracias a
+su mala conducta y los trabajos forzados.  
+~
+0 0 0
+D4
+~
+~
+0 0 19526
+D5
+~
+~
+0 0 19506
+S
+#19508
+AVDA. INFERNUS~
+La avenida esta repleta de personas que se topan en cada momento.
+Es comun ver las peleas callejeras entre las personas.
+No es para menos, se veran por toda la eternidad.
+~
+0 0 0
+D0
+~
+~
+0 0 19510
+D1
+~
+~
+0 0 19506
+D2
+~
+~
+0 0 19513
+D4
+~
+~
+0 0 19509
+S
+#19509
+ARMAS JACK EL DESTRIPADOR~
+Esta tienda tiene todo un arsenal de armas para cometer todos los
+asesinatos y por haber.  La tienda es atendido por el muy cono cido asesino
+Jack el Destripador, el cual cumple muy feliz su condena , ya que aqui nadie
+lo puede castigar por sus crimenes.  
+~
+0 K 0
+D5
+~
+~
+0 0 19508
+S
+#19510
+AVDA APOCALIPSIS~
+Esta muy conocida avenida esta infestada por seres de muy mala calania. 
+Los cuerpos estan tirados por todo el suelo.  Pareciera que en realidad los
+jinetes de la apocalipsis pasaron por aqui dejando la caga.  
+~
+0 0 0
+D0
+~
+~
+0 0 19511
+D2
+~
+~
+0 0 19508
+S
+#19511
+AVDA APOCALIPSIS~
+La tempestad por aqui ya paso, la vida ya se esfumo, no hay nada por
+hacer , la vida no es nada , no merecemos vivir.  Esas fueron las palabras
+de un sabio de este clan, el cual desidio dejar lo mundano y llegar a fundar
+este hermoso clan.  
+~
+0 0 0
+D0
+~
+~
+0 0 19512
+D2
+~
+~
+0 0 19510
+S
+#19512
+COMIDAS CALIGULA~
+Esta hermosa picada, es el lugar sensacion de toda la comarca.  Este es
+el muy conocido restoran de #BCaligula#b, en donde podras disfrutar de todos
+los placeres mundanos En este lugar las meceras son de lo mas maracas que
+pueden existir.  Las horgias son cosas de todos los dias, sin lugar a dudas
+un lugar genial para disfrutar de un buen rato.  
+~
+0 K 0
+D2
+~
+~
+0 0 19511
+S
+#19513
+AVDA APOCALIPSIS~
+La avenida mas chacal de esta area esta plagada de seres extranios que
+solo quieren castigarte y hacerte sufrir.  
+~
+0 0 0
+D0
+~
+~
+0 0 19508
+D2
+~
+~
+0 0 19514
+S
+#19514
+FUENTE DE CERVEZA~
+En este lugar se encuentra el suenio dorado de muchos alcoholicos de este
+planeta, una fuente llena de cerveza para saciar sus instintos.  La fuente
+esta construida con hermosos safiros que brillan con la luz de las llamas
+del infierno.  
+~
+0 0 0
+D0
+~
+~
+0 0 19513
+M 150 H 150
+S
+#19515
+AVDA. INFERNUS~
+La arteria principal de esta region desconocida para muchos de este mud
+esta siempre muy activa.  Los carruajes de todas las epocas de la historia
+se pasean por aqui.  Los seres de aqui son los condenados por sus actos y
+que nunca podran salir de aqui.  
+~
+0 0 0
+D1
+~
+~
+0 0 19516
+D3
+~
+~
+0 0 19504
+D4
+~
+~
+0 0 19517
+S
+#19516
+AVDA. INFERNUS~
+La gente se pasea y murmura , se escuchan los llantos de ninios ,
+ancianos y jovenes provenientes de todos los lugares.  Sin lugar a dudas un
+sonido dulce para tus oidos.  
+~
+0 0 0
+D0
+~
+~
+0 0 19519
+D2
+~
+~
+0 0 19521
+D3
+~
+~
+0 0 19515
+D4
+~
+~
+0 0 19518
+D5
+~
+~
+0 0 19599
+S
+#19517
+POCIONES LA QUINTRALA~
+Esta tienda cuenta con lo mas variado en pociones magicas para la lucha
+contra el bien.  Esta tienda es atendida por la muy famosa Quintrala, la
+cual te mira y esta pensando en llevarte a la cama, para luego asesinarte.  
+~
+0 0 0
+D5
+~
+~
+0 0 19515
+S
+#19518
+HECHIZOS RASPUTIN~
+Este hermoso salon esta adornado con pinturas referentes a los zares de
+rusia y las andanzas de rasputin.  Esta tienda es atendida por el conocido
+monje ruso Rasputin, el cual esta pensando en que va a hacer a la noche en
+el palacio.  
+~
+0 K 0
+D5
+~
+~
+0 0 19516
+S
+#19519
+AVDA. HOLOCAUSTO~
+Esta calle esta llena de cadaveres calcinados por la accion de una bomba
+atomica que fue tirada.  Le putrefaccion es terrible y el edor no es
+soportable.  
+~
+0 0 0
+D0
+~
+~
+0 0 19520
+D2
+~
+~
+0 0 19516
+S
+#19520
+VARITAS NERON~
+Esta tienda esta negra por la accion del ollin causado por los constantes
+incendios causados por Neron.  La tienda esta atendida por Neron el cual
+quiere hacer un incendio ahora.  
+~
+0 0 0
+D2
+~
+~
+0 0 19519
+S
+#19521
+AVDA. HOLOCAUSTO~
+El asfalto de estas calles , en realidad no es asfalto , sino que son
+cuerpos calcinados que luego fueron aplanados.  
+~
+0 0 0
+D0
+~
+~
+0 0 19516
+D2
+~
+~
+0 0 19522
+S
+#19522
+PLAZA DE LA CONSTITUCION~
+En esta plaza sulen reunirce los viejos presidentes muertos por susu
+pecados.  Los arboles estan quemados y la desolacion abunda.  A lo lejos se
+ven unas minas culiando con unos locos , gozando con una tremenda orgia.  
+~
+0 0 0
+D0
+~
+~
+0 0 19521
+M 120 H 120
+S
+#19523
+REPARACIONES BARBA ROJA~
+En este salon, el cual esta adornado con los utensilios marinos, se
+suelen reparar todo tipo de objetos.  La tienda es atendida por el muy
+conocido pirata Barba Roja el cual esta pensando en saquear algunos navios. 
+~
+0 0 0
+D2
+~
+~
+0 0 19504
+S
+#19524
+MASCOTAS HALL CAPONNE~
+En esta tienda se venden las mascotas mas raras.  Esta tienda fue creada
+para lavar el dinero que gano Hall Caponne en sus sucios negocios.  
+~
+0 M 0
+D4
+~
+~
+0 0 19504
+S
+#19525
+~
+~
+0 CM 0
+S
+#19526
+ARMADURAS MEGATRON~
+En esta tienda solamente encontraras aquipamiento para niveles altos.  La
+tienda es atendida por el muy conocido megatron.  La variedad es muy amplia
+y te podras regodear.  
+~
+0 0 0
+D5
+~
+~
+0 0 19507
+S
+#19527
+iniciacion~
+En este lugar todos los aspirantes al clan INFERNUS deben pasar por esta
+gran prueba a su valor y agresividad.  La derrota no esta contemplada en
+este clan y el que sea derrotado debera dejar el clan para nunca mas volver.
+~
+0 0 0
+D5
+~
+~
+0 0 19500
+S
+#19598
+ENTRADA INFERNUS~
+Has llegado al lugar mas peligroso y sublime de todo el mud.
+Este es el muy conocido #B Clan InfernuS#b
+#B#F NO ENTRAR#b#f
+~
+0 0 0
+D0
+~
+~
+0 0 19500
+D4
+~
+~
+0 0 9511
+S
+#19599
+UTENSILIOS MUN-RA~
+En este lugar puedes comprar todo lo necesario para pichicatearte. 
+Aprovecha las cosas.  
+~
+0 0 0
+D4
+~
+~
+0 0 19516
+S
+#0
+
+
+
+#SPECIALS
+M 19503 spec_cast_adept
+M 19504 spec_questmaster
+M 19564 spec_thief
+M 19565 spec_breath_any
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+M 0 19565 8 19500 4
+O 0 19500 0 19503
+O 0 19570 0 19504
+M 0 19503 1 19504 1
+M 0 19504 1 19504 1
+M 0 19501 1 19507 1
+G 0 19501 0
+G 0 19503 0
+G 0 19504 0
+G 0 19505 0
+G 0 19506 0
+G 0 19507 0
+G 0 19508 0
+G 0 19509 0
+G 0 19510 0
+G 0 19502 0
+M 0 19520 50 19508 3
+M 0 19564 30 19508 2
+M 0 19505 1 19509 1
+G 0 19519 0
+G 0 19520 0
+G 0 19521 0
+G 0 19522 0
+G 0 19523 0
+G 0 19524 0
+G 0 19525 0
+G 0 19526 0
+G 0 19527 0
+G 0 19528 0
+G 0 19574 0
+G 0 19571 0
+M 0 19509 1 19512 1
+G 0 19552 0
+G 0 19553 0
+G 0 19554 0
+O 0 19569 0 19513
+O 0 19555 0 19514
+M 0 19521 1 19514 1
+M 0 19564 30 19515 2
+M 0 19520 50 19516 2
+M 0 19564 30 19516 3
+M 0 19506 1 19517 1
+G 0 19529 0
+G 0 19530 0
+G 0 19531 0
+G 0 19532 0
+G 0 19533 0
+G 0 19534 0
+G 0 19535 0
+M 0 19507 1 19518 1
+G 0 19536 0
+G 0 19537 0
+G 0 19538 0
+G 0 19539 0
+G 0 19540 0
+G 0 19541 0
+G 0 19542 0
+G 0 19543 0
+M 0 19508 1 19520 1
+G 0 19544 0
+G 0 19545 0
+G 0 19546 0
+G 0 19547 0
+G 0 19548 0
+G 0 19549 0
+G 0 19550 0
+G 0 19551 0
+E 0 19577 0 11
+M 0 19599 1 19522 1
+M 0 19520 50 19522 3
+M 0 19500 1 19523 1
+M 0 19510 1 19524 1
+M 0 19511 1 19525 1
+M 0 19512 1 19525 1
+M 0 19513 1 19525 1
+M 0 19514 1 19525 1
+M 0 19515 1 19525 1
+M 0 19516 1 19525 1
+M 0 19517 1 19525 1
+M 0 19502 1 19526 1
+G 0 19511 0
+G 0 19512 0
+G 0 19513 0
+G 0 19514 0
+G 0 19515 0
+G 0 19516 0
+G 0 19517 0
+G 0 19518 0
+E 0 19575 0 11
+G 0 19576 0
+G 0 19578 0
+G 0 19579 0
+G 0 19580 0
+M 0 19518 1 19527 1
+E 0 19556 0 6
+E 0 19557 0 11
+E 0 19558 0 8
+E 0 19559 0 5
+E 0 19560 0 3
+E 0 19560 0 4
+E 0 19561 0 7
+E 0 19562 0 10
+E 0 19563 0 1
+E 0 19563 0 2
+E 0 19564 0 16
+M 0 19565 8 19598 4
+M 0 19519 1 19599 1
+G 0 19565 0
+G 0 19566 0
+G 0 19567 0
+G 0 19568 0
+E 0 19572 0 11
+S
+
+
+
+#SHOPS
+19501 0 0 0 0 0 100 100 100 100 0 23
+19502 0 0 0 0 0 100 100 100 100 0 23
+19505 0 0 0 0 0 100 100 100 100 0 23
+19506 0 0 0 0 0 100 100 100 100 0 23
+19507 0 0 0 0 0 100 100 100 100 0 23
+19508 0 0 0 0 0 100 100 100 100 0 23
+19509 0 0 0 0 0 100 100 100 100 0 23
+19510 0 0 0 0 0 100 100 100 100 0 23
+19519 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+19500 5 9 33 15 11 0 23
+0
+
+
+
+#$

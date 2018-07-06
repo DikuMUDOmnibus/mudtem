@@ -1,0 +1,3 @@
+#!/bin/sh
+time make -k &> make.out
+joe make.out

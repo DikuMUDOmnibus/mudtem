@@ -1,0 +1,3253 @@
+#AREADATA
+Name New area~
+Builders Gaudi Roadflame~
+VNUMs 23500 23599
+Credits // AREA EN CONSTRUCCION //~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#23500
+Alan~
+Alan, el extraterrestre.~
+El extraterestre, listo para atacar.
+~
+Es un poderoso adversario... al parecer esta enfurecido por el rechazo de
+Serena... ten cuidado quizas que te pueda hacer...
+~
+'human'
+ABFRX BPc 0 -1000 0
+50 50 25d10+3750 50d16+5100 19d4+25 magic
+-19 -19 -19 -18
+FKTU F B CJ
+sleep stand male 0
+0 0 small 'unknown'
+C 'mage'
+#23501
+Red Bottler~
+El Gato Red Bottler~
+Un gato de color verde azulado, esta aqui
+~
+Es un gato asqueroso... de solo mirarlo te da repugnancia...
+es un gato totalmente Gordo... ademas se cree que es tuxedo masked...
+esta totalmente loco por luna... y haria cualquier cosa por
+estar con ella....
+~
+'cat'
+AISX CDFGJTUc 0 -1000 0
+24 36 5d10+450 24d13+2500 4d6+9 acbite
+-6 -6 -6 -5
+DIKLMNV 0 H FI
+stand stand male 0
+HZ BGIPX medium 'unknown'
+C 'cleric'
+#23502
+Anne~
+Anne, la extraterrestre~
+Anne, la hermosa extraterreste enamorada de Daryen, esta aqui
+~
+Es una hermosa adversaria, no sabes si atacarla o amarla... su poder casi no
+tiene comparacion... (si no fuera por Gaudi y Roadflame, seria la mas power
+'de' todo el Mud), es mejor que tengas cuidado con ella... pueda lastimarte 
+seriamente.
+~
+'human'
+ABFTX BPc 0 -1000 0
+45 140 25d10+3250 45d15+100 13d5+69 flame
+-17 -17 -17 -15
+CDEFIKLTU C D DEGP
+stand stand male 0
+0 0 small 'unknown'
+C 'warrior'
+#23503
+Uranus~
+Sailor Uranus~
+Sailor Uranus, la Sailor de los terremotos, esta aqui.
+~
+Miras a Sailor Uranus, y sientes que podria usar su gran poder en ti... si es
+asi date por perdido...
+Su poder conocido como 'Tierra Tiembla', podria moler tus huesos en un abrir
+y cerrar de ojos, mas vale que tengas cuidado.
+~
+'human'
+ABGPTXY CGHJZc 0 1000 1
+40 105 25d10+2000 40d15+100 9d6+59 flame
+-14 -14 -14 -13
+CDEFKLTU E 0 CL
+stand stand female 0
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23504
+#BPrincipe Endimion#b~
+#BEndimion#b, El Principe de la Tierra~
+El Principe de la Tierra, #BEndimion#b, esta aqui.
+~
+~
+'human'
+ABGSX DFH 0 1000 0
+55 82 50d10+6500 55d16+100 22d7+33 none
+-24 -24 -24 -22
+BEFIJKNUV ABCDEFGHKLQY 0 0
+stand stand male 0
+Z 0 large 'unknown'
+C 'thief'
+F for AHMV
+F par EF
+#23505
+#BPrincesa Serena#b~
+#BSerena#b, La princesa de la Luna~
+La Princesa de la Luna, #BSerena#b, esta aqui.
+~
+Miras a Serena y ves que su vestido blanco esta un poco pasado de moda 
+pero que igual se ve estupenda con el.
+~
+'human'
+ABDGXa DFH 0 1000 23505
+60 60 50d10+8500 60d17+6100 45d10+39 none
+-30 -30 -30 -28
+FKU ABCDFGIJKPRY 0 0
+stand stand female 0
+Z 0 large 'unknown'
+C 'psicionist'
+F for AHMV
+F par CFK
+#23506
+Neptune~
+Sailor Neptune~
+Sailor Neptune, practicando sus poderes acuaticos, esta aqui.
+~
+Miras a Sailor Neptune y notas que tiene un escudo de agua a su alrededor
+su poder conocido como 'Maremoto de Neptuno' tiene el poder de desacer tu
+cuerpo hasta convertirlo en polvo.
+~
+'human'
+ABGPTX CGHJZc 0 1000 1
+40 105 25d10+2000 40d15+100 9d6+59 drain
+-14 -14 -14 -13
+CDEFKLTU G 0 CHP
+stand stand female 0
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23507
+killerman~
+kill and kill~
+El mas despiadado asesino de Gaudis, Roadflames y Linkers...
+~
+Es un asesino totalmente corrupto, es experto en asesinar a Gaudi, Roadflame
+y a linker, ten cuidado, si lo molestas podria matarte...
+~
+'human'
+ARX CG 0 -1000 0
+30 30 6d12+703 30d13+3100 7d4+10 divine
+-9 -9 -9 -8
+FKU 0 0 C
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#23508
+Zoycite~
+#BZoycite#b~
+#BZoycite#b, la tercera guerrera del Negaverso esta mirandote y lista para matarte...
+~
+Una Hermosa y habil guerrera, que ha venido a conquistar el planeta tierra
+con una estatura media, te observa y espera tu ataque...
+ 
+~
+'predator'
+ABDFX CDFGHO 0 -1000 0
+40 40 10d10+1600 40d15+4100 25d2+19 none
+-13 -13 -13 -13
+FIKU ALQ LQ CEI
+stand stand female 0
+0 0 medium 'unknown'
+C 'psicionist'
+#23509
+Sailor Plut~
+Sailor Plut~
+Sailor Plut, practicando sus poderes del tiempo y el espacio, esta aqui.
+~
+Miras a Sailor Plut, ves que tiene una hermosa cabellera negra que llega 
+hasta los tobillos, ella tiene el poder manejar el tiempo y el espacio
+es la guardiana del Portal del tiempo, si tratas de pasar sin su permiso
+es posible que vages por el tiempo y el espacio (sin descanso) por el resto
+de tu vida...
+~
+'human'
+ATX CGHJVZc 0 1000 0
+42 119 25d10+2500 42d15+100 7d8+63 magic
+-15 -15 -15 -14
+CDEFKLTU ABE KR CGH
+stand rest female 0
+0 0 large 'Carne y Huesos'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23510
+Mercury~
+Sailor Mercury~
+Aqui esta la Sailor Scout del Agua, Sailor Mercury.
+~
+~
+'human'
+ADGHXYa CGHNTVc 0 1000 0
+42 42 15d10+1850 42d15+4300 18d3+21 blast
+-14 -14 -14 -13
+FKU FI LQ GH
+stand stand female 0
+Z 0 medium 'unknown'
+C 'psicionist'
+F for AHMV
+F par ABCDEFGHIJK
+#23511
+Mars~
+Sailor Mars~
+Sailor Mars, La Sailor de Fuego, esta aqui.
+~
+Endimion el principe de la tierra que esta super enamorado de Serena, es su
+defensor solo necesitas mirarlo un poco y sabes que el la protegera con la 
+vida si es necesario...
+~
+'human'
+AGQXY CHJTUVZc 0 1000 23505
+42 42 25d10+2250 42d15+4300 9d6+19 flame
+-14 -14 -14 -13
+FHKU AH E IL
+stand stand female 0
+Z 0 medium 'unknown'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#23512
+Saturn~
+Sailor Saturn~
+Sailor Saturn, la Sailor de la destruccion, esta aqui.
+~
+~
+'human'
+ADGX CGHJTVZc 0 1000 0
+48 48 25d10+3250 48d16+4900 19d4+25 slash
+-18 -18 -18 -18
+FIKU Q AB CGH
+stand stand female 0
+C 0 small 'unknown'
+C 'psicionist'
+F for AHMV
+F par F
+#23513
+Jupiter~
+Sailor Jupiter~
+Aqui esta Sailor Jupiter practicando sus ataques.
+~
+~
+'human'
+AGTX GHJUVZac 0 1000 0
+45 140 25d10+3250 45d15+100 13d5+69 magic
+-17 -17 -17 -15
+CDEFKLQTU BJP J CGH
+stand stand female 0
+Z 0 large 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23514
+Venus~
+Sailor Venus~
+'Rayo Creciente de Venus!!', Sailor Venus esta practicando aqui, se nota???
+~
+~
+'human'
+ABQXY CHJNTVZc 0 1000 0
+44 44 25d10+2750 44d15+4500 7d8+21 none
+-15 -15 -15 -14
+FHKQU BT P GHK
+stand stand female 0
+E 0 medium 'unknown'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#23515
+beryl~
+#BBeryl#b~
+#BBeryl#b La Reina del Negaverso, esta aqui...
+~
+Una Maligna Reina esta mirandote, con sus grandes llamaradas podria convertirte
+en una Simple Tostada... Esta reina tiene el poder de un Dragon Asesino, con
+impresionantes poderes...
+Te mira y te dice "Quemensem..."
+ 
+~
+'dragon'
+ABTX CDFGH 0 0 0
+44 133 25d10+3000 44d15+100 7d9+66 flame
+-16 -16 -16 -15
+CDEFIKLTU AH LQ CEG
+stand stand female 0
+0 0 giant 'unknown'
+C 'warrior'
+F off M
+F res EH
+F vul F
+#23516
+Sailor Moon~
+Sailor Moon~
+Sailor Moon, la mas poderosa de las Sailor Scouts, esta aqui.
+~
+~
+'human'
+AGPRX CJTVZac 0 1000 23500
+48 48 25d10+3250 48d16+4900 13d5+24 divine
+-17 -17 -17 -16
+FHKQTU ABM P GHKL
+stand stand female 0
+0 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#23517
+malakyte~
+#BMalakyte.#b~
+#BMalakyte#b, el cuarto guerrero Maligno esta aqui...
+~
+Estas Mirando a Malakyte, el cuarto y mas poderoso de  los guerreros
+del Negaverso, el solo hecho de ver sus ojos hacen que ante semejante poder 
+parescas indefenso.... el esta listo para matarte...
+ 
+~
+'cromagnon'
+ABFQX CDFGHJNTU 0 -1000 0
+41 41 25d10+2000 41d15+4200 25d2+19 magic
+-14 -14 -14 -14
+FIKU AHT LQ EI
+stand stand male 0
+I U large 'unknown'
+C 'cleric'
+#23518
+Jedyte~
+#BJedyte#b~
+#BJedyte#b, El primero de los 4 Grandes del Negaverso esta aqui...
+~
+El Primer Guerrero del Negaverso esta aqui, en su alcoba, espera el momento
+preciso para atacarte y de una vez por todas eliminarte...
+Ves que sus ojos totalmente cristalinos estan llenos de maldad, de una maldad
+absoluta, sientes como si el estuviera invadiendo tu mente y llenandola de miedo
+y terror, esperas que no sea tan agresivo como aparenta...
+~
+'doomsday'
+ABFTX DFHT 0 -1000 0
+38 91 15d10+1700 38d14+100 24d2+56 none
+-13 -13 -13 -13
+DEFKLTU AHQ D EGI
+stand stand female 0
+AV DEF large 'unknown'
+C 'warrior'
+F aff Vc
+F off O
+F res C
+#23519
+Netflyte~
+#BNetflyte#b~
+#BNetflyte#b, el segundo guerrero del negaverso esta aqui...
+~
+Un enorme gigante esta ante ti, tiene el aspecto de haber pasado por las mas
+grandes batallas, con su cuerpo que es pura fibra es capaz de eliminarte...
+ 
+~
+'human'
+ABFSX CDFGHOT 0 -1000 0
+39 58 10d10+1600 39d14+100 24d2+18 none
+-13 -13 -13 -12
+BEFIJKNUV AHI ILQ CEI
+stand stand male 0
+0 0 giant 'unknown'
+C 'thief'
+#23520
+Lita~
+#BLita#b, la mas fabulosa cocinera~
+Aqui esta #BLita#b, vendiendo sus exquisiteces.
+~
+Lita es una de las mejores cocineras de todas, tal vez si le dices pueda
+prepararte algo totalmente delicioso.
+~
+'human'
+ABTX DFHJ 0 1000 0
+35 70 10d10+1400 35d14+3600 9d5+51 none
+-12 -12 -12 -11
+CDEFIKLTU D L J
+stand stand female 0
+Z 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par EFIJK
+#23521
+Amy~
+#BAmy#b, la mas inteligente~
+La mas inteligente del grupo, #BAmy#b, esta estudiando aqui.
+~
+La miras y notas que su coeficiente intelectual es mucho, pero mucho mas alto
+que el tuyo, incluso piensas que pasaria Calculo I y Calculo II sin ningun
+problema.
+~
+'human'
+ABSX HV 0 1000 0
+35 52 10d10+1200 35d14+3600 7d6+15 none
+-11 -11 -11 -10
+BEFKNTUV FH 0 L
+stand stand female 0
+Z 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#23522
+Mina~
+#BMina#b, la chica mas hermosa del planeta~
+Mina la chica mas hermosa del Universo, esta aqui...
+~
+Miras a mina, y ves que su cabellera rubia le llega mas o menos por las 
+rodillas, es sumamente hermosa, y tal vez si la tratas bien puedas ser
+su novio.
+~
+'human'
+ABTX H 0 1000 0
+35 70 10d10+1400 35d14+100 9d5+51 slap
+-12 -12 -12 -11
+CDEFIKLTU Q C J
+stand rest female 0
+Z 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par EFJK
+#23523
+Raye~
+#BRaye#b, la Temperamental~
+#BRaye#b, La misteriosa chica de largos cabellos negros, esta aqui.
+~
+~
+'human'
+ABGTX HV 0 1000 0
+35 70 10d10+1400 35d14+100 9d5+51 divine
+-12 -12 -12 -12
+CDEFIKLTU AFLQ 0 G
+stand stand female 0
+CZ 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par DEFJK
+#23524
+Chibimoon~
+Sailor Chibimoon~
+Sailor Chibimoon, la hija de Sailor Moon, esta aqui.
+~
+~
+'human'
+APQX JPQTVc 0 1000 23500
+40 40 15d10+1850 40d15+4100 24d2+18 none
+-13 -13 -13 -13
+FKQU AR BT GHKP
+stand stand female 0
+0 0 medium 'unknown'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#23525
+Estudiante~
+Estudiante~
+Un estudiante que hizo la simarra esta aqui.
+~
+El estudiante mira detenidamente tus movimientos y curosiando en tus cosas.
+Tiene pura cara de haber hecho la simarra... ten cuidado a lo mejor es
+peligroso...
+~
+'robot'
+AFGTX CGJT 0 -1000 0
+25 50 5d10+600 25d13+100 3d10+35 punch
+-8 -8 -8 -8
+CDEFIKLTU P ELQ EF
+stand stand male 0
+AHZ DEFPUVX medium 'Acero'
+C 'thief'
+F for c
+#23536
+Andrew~
+#BAndrew#b, el vendedor de Fichas~
+#BAndrew#b, esta aqui tratando de Vender algo...
+~
+Andrew, un personaje que se la pasa metido en los Video Juegos...Porque sera???
+Sera el Vendedor de las fichas...
+~
+'human'
+ABGQX H 0 1000 0
+30 30 6d12+853 30d13+3100 3d12+12 peck
+-9 -9 -9 -8
+FKU AQ 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#23539
+Banquero~
+El Banquero de Tokyo~
+Un Banquero esta contando monedas
+~
+~
+'robot'
+ABRXYe H 0 1000 0
+45 45 25d10+2500 45d15+4600 7d8+21 none
+-15 -15 -15 -15
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'Acero'
+C 'mage'
+#23562
+Serena~
+#BSerena#b, la torpe Vendedora~
+Aqui se encuentra la torpe de #BSerena#b, tratando de vender sus mascotas.
+~
+~
+'angel'
+ABGRXY H 0 1000 0
+45 45 25d10+2500 45d15+4600 7d8+21 none
+-15 -15 -15 -15
+FKU AQ 0 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'mage'
+#23563
+Luna~
+La gata Luna~
+Una Gata llamada #Bluna#b, esta aqui
+~
+Su pelaje es Negro Azulado, tiene una peque-a Luna en forma de creciente
+en la frente que la hace ver especial frente a otros gatos.
+~
+'cat'
+ADIX CDEFGHJNOTUVc 0 1000 0
+34 34 10d10+1000 34d14+3500 10d4+15 slash
+-11 -11 -11 -11
+CDGIKLNO 0 KLQ 0
+stand stand female 0
+CHJM BGI medium 'unknown'
+C 'psicionist'
+#23564
+Artemis~
+El Gato Artemis~
+Un gato llamado #BArtemis#b, esta aqui
+~
+Ves su pelaje blanco como la nieve, tiene una extra-a marca en forma de Luna
+que al parecer es la fuente de todo su poder...
+~
+'cat'
+AIRX DFTUVc 0 1000 0
+40 40 10d10+1600 40d15+4100 12d4+18 bite
+-13 -13 -13 -13
+BDIKL 0 0 0
+stand stand male 0
+HM BGI medium 'unknown'
+C 'mage'
+#23565
+Pegaso~
+Pegaso~
+Un hermoso Pegaso color Blanco, esta aqui
+~
+Un pegaso con alas blancas y completamente hermoso esta mirandote con
+cara de lastima... Sientes que su poder cosmico te rodea.
+~
+'caballo'
+AISX DFGJNOTUVc 0 1000 0
+46 69 25d10+3000 46d15+4700 13d5+24 none
+-15 -15 -15 -15
+DKO 0 BCKLNS 0
+stand stand male 0
+BHIM UVXY medium 'Charqui'
+C 'psicionist'
+F off H
+#23566
+Diana~
+La Gatita Diana~
+#BDiana#b, la hija de Luna y Artemis, esta aqui.
+~
+Ves diminuta, crees que su poder no se compara al de sus padres... pero
+puede ser que te lleves una sorpresa...
+Ella, al igual que sus padres tiene la marca en forma de Luna que
+demuestra su poderio...
+~
+'dragon'
+ATX CDFNOUVc 0 1000 0
+25 50 5d10+600 25d13+100 3d10+35 flbite
+-8 -8 -8 -6
+CDEFIKLTU 0 0 G
+stand stand female 0
+0 0 small 'unknown'
+C 'warrior'
+F off M
+F res E
+#23567
+Nicolas~
+Nicolas~
+Nicolas esta aqui.
+~
+~
+'human'
+ABRX AHc 0 1000 0
+45 45 25d10+2500 45d15+4600 7d8+21 none
+-15 -15 -15 -15
+FKTU AFT GLQ C
+stand rest male 0
+0 UY medium 'unknown'
+C 'mage'
+#23574
+rubeus~
+#BEl Joven Rubeus#b~
+Aqui esta el Lider de las hermanas de la persecucion.
+~
+Este si que parece muerto, con sus grandes dientes salientes desde su boca
+y su sonrisa Pep...pareciera que nunca va al dentista, o puede ser que
+tantos anios comiendo carne de vacuno le hayan causado semejantes danios
+en su dentadura.
+ 
+~
+'vampire'
+ABSX H 0 -1000 0
+47 70 25d10+3250 47d15+100 10d7+24 bite
+-16 -16 -16 -16
+BEFIJKNUV FLS 0 CGH
+sit sit male 0
+0 0 medium 'unknown'
+C 'thief'
+F vul X
+#23576
+sabio~
+#BEl gran Sabio#b~
+El Gran Sabio, lider de toda la familia Blackmoon, esta aqui.
+~
+Es un anciano decrepito, pero al parecer sabe bastante, ya que a simple 
+vista pareciera tener mas anios que el Mismisimo Birdie(en el mud).
+Si lo llegas a provocar no se como te va a ir.
+ 
+~
+'vampire'
+ATX H 0 -1000 0
+48 161 50d10+4000 48d16+4900 7d11+75 magic
+-20 -20 -20 -20
+CDEFIKLTU FS BH IL
+stand stand male 0
+0 0 small 'Carronia de Gaudi'
+C 'mage'
+F vul X
+#23577
+Karmesyte~
+#BKarmesyte#b~
+Karmesyte, la Infiel,
+~
+La primera de las cuatro hermanas de la persecucion, es muy hermosa, pero
+esos dientes de Vampiro, hacen que tenga una mirada terrorifica.
+Huele a carniceria...porque sera???
+~
+'vampire'
+ABTX H 0 -1000 0
+44 133 25d10+3000 44d15+4500 7d9+66 slap
+-16 -16 -16 -16
+CDEFIKLTU FS 0 CGH
+stand stand female 0
+0 0 medium 'unknown'
+C 'cleric'
+F vul X
+#23578
+berdgeryte~
+#BBerdgeryte#b~
+#BBerdgeryte#b esta aqui.
+~
+Es la segunda de las Hermanas de la Persecucion, tambien perteneciente a
+la dinastia de la familia Blackmoon, tiene grandes poderes, y ....
+~
+'vampire'
+ABTX H 0 0 0
+45 140 25d10+3250 45d15+4600 13d5+69 none
+-17 -17 -17 -17
+CDEFIKLTU FS 0 CGH
+stand stand female 0
+0 0 medium 'unknown'
+C 'mage'
+F vul X
+#23579
+Betsyde~
+#BBetsyde#b~
+#BBetsyde#b esta aqui.
+~
+Miras a Betsyde y te asustas bastante por su horrorifica cara y apestoso 
+aroma, tiene una pequenia sicatriz en su cara pero por lo visto es de 
+nacimiento, ya que los vampiros tienen una regeneracion de sus heridas
+bastante buena.
+~
+'vampire'
+ABSX H 0 -1000 0
+46 69 25d10+3000 46d15+100 13d5+24 slash
+-15 -15 -15 -15
+BEFIJKNUV FS 0 CGH
+stand stand female 0
+0 0 medium 'unknown'
+C 'thief'
+F vul X
+#23580
+Kalaberyte~
+#BKalaberyte#b~
+Aqui esta la 4ta de los Grandes, es Kalaberyte.
+~
+~
+'vampire'
+ABQX H 0 -1000 0
+47 47 25d10+3500 47d15+4800 13d5+24 none
+-17 -17 -17 -17
+FIKU FS 0 CGH
+stand stand female 0
+0 0 medium 'unknown'
+C 'cleric'
+F vul X
+#23583
+safiro~
+#BSafiro#b~
+Safiro, uno de los siuticos esta aqui.
+~
+Este si que al parecer tiene bastante dinero, su elegante tenida y sus
+modales son de la clase alta, es bastante siutico, pero muy maligno.
+ 
+~
+'angel'
+ABTX H 0 -1000 0
+45 140 25d10+3250 45d15+4600 13d5+69 magic
+-17 -17 -17 -15
+CDEFIKLTU FL 0 CG
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+#23584
+esmeralda~
+#BEsmeralda#b~
+La hermosa Esmeralda esta aqui.
+~
+Una hermosa y bella damisela, la cual tiene una apariencia de Mujer de
+Grandes aspiraciones, esta vestida y ataviada con unas piedra que al 
+parecer son de alto valor.
+ 
+~
+'predator'
+ABTX DFH 0 -1000 0
+44 133 25d10+3000 44d15+4500 7d9+66 slap
+-16 -16 -16 -15
+CDEFIKLTU FL 0 CG
+stand stand female 0
+0 0 medium 'unknown'
+C 'mage'
+#23585
+principe diamante~
+#BEl principe Diamante#b~
+Un Principe de cristal Esta aqui.
+~
+Este principe al parecer viene de invitado en la nave, ya que no tiene 
+casi ningun parecido con la dinastia de la familia Blackmoon.
+~
+'doomsday'
+ABSX H 0 -1000 0
+43 64 25d10+2250 43d15+4400 7d8+21 blast
+-14 -14 -14 -14
+BEFJKNUV F 0 CG
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+F aff c
+F off CO
+F res C
+#23586
+Poderoso~
+El Poderoso~
+El mas poderoso de los poderosos de esta area esta aqui.
+~
+El Megapoderoso esta aqui para defender al Player, El esta totalmente de Acuerdo con los player...
+~
+'human'
+ATX CGHVc 0 1000 0
+40 105 25d10+2000 40d15+100 9d6+59 stab
+-14 -14 -14 -13
+CDEFKLSTU 0 0 0
+stand stand male 0
+0 0 large 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23590
+Reeny~
+La pequenia dama, esta aqui.~
+Reeny, La pequenia dama, esta jugando aqui.
+~
+La chica de cachos rosados que a casi todo el mundo le cae mal, esta jugando
+cerca tuyo, esperando que le des su merecido.
+~
+'human'
+ACSX Vac 0 0 0
+20 30 3d9+308 20d12+2100 3d7+7 flbite
+-4 -4 -4 -3
+BEFIJKMNUV J Q BE
+stand stand female 0
+L Q small 'carne y hueso'
+C 'mage'
+F for AHMV
+F par BFGHIJ
+#23591
+narrador~
+#BEl gran Narrador#b~
+El narrador de esta famosa serie, anda chamullando por aqui.
+~
+Es la unica persona que sabe que va a sucederles a las herionas
+y a los que aqui entren....ten mucho cuidado que el Narrador
+te puede jugar una mala pasada.
+ 
+El acid blast de el narrador te #B==DESFIGURA==#b.
+son cosas que pueden pasar.........
+~
+'robot'
+ABGTX T 0 1000 0
+48 161 50d10+4000 48d16+4900 7d11+75 none
+-20 -20 -20 -20
+CDEFIKLTU BCEFP 0 HK
+stand stand male 0
+AHV DEF medium 'carne'
+C 'mage'
+M 'grall' 23501 100~
+#23592
+peleador~
+#BEl Peleador#b~
+#BEl peleador #b esta tratando de defender su titulo...
+~
+El gran peleador esta mostrando sus biceps...y su gran fuerza...
+lo unico que quiere es defender su titulo de #BMr. Moon#b, trata de quitarselo
+y seras el nuevo #BMr Moon#b.
+~
+'human'
+ABSX JT 0 0 0
+25 37 5d10+500 25d13+2600 3d10+9 flame
+-6 -6 -6 -5
+BEFIJKMNTUV 0 BEH FI
+stand stand male 0
+Z PQUVXY medium 'unknown'
+C 'mage'
+M 'greet' 23504 100~
+#23593
+retador~
+#BEl retador#b~
+#BEl retador #bquiere puro ganar...
+~
+Es la persona que quiere obtener el titulo de #BMr. Moon#b.....esperemos que
+lo logre...ya que es como la 5ta vez que viene al torneo para Ganar...
+Hasle #Bbarra#b....como sabes si en una de esas el te da algo????
+~
+'human'
+ABTX V 0 0 0
+20 40 4d10+360 20d12+2100 3d8+27 none
+-5 -5 -5 -4
+CDEFIKLTU K 0 EG
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+M 'greet' 23503 100~
+#23594
+cuidador~
+#BEl Cuidador#b~
+El Cuidador del Gimnacio esta aqui.
+~
+Este cuidador en su epoca fue un gran peleador, en la espera por un buen 
+retador el esta aqui...
+~
+'human'
+ABGRX V 0 0 0
+45 45 25d10+2500 45d15+4600 7d8+21 punch
+-15 -15 -15 -15
+FKSU CF 0 EG
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+#0
+
+
+
+#OBJECTS
+#23500
+Rosa~
+Una Rosa Roja~
+Rosas por todas partes, como unos enormes jardines, Es un Gran sembradio de Rosas.~
+Solo Naturaleza.~
+weapon GLd AN
+dagger 6 7 'slice' CF
+39 15 10000 P
+A
+19 3
+A
+18 3
+A
+18 5
+A
+13 100
+A
+12 400
+M wear 23505 100~
+#23501
+Galletas Lita~
+Galleta de Lita~
+Una deliciosa Galleta preparada por Lita esta aqui~
+Masa~
+food Kcd A
+5 5 0 0 0
+25 5 200 P
+#23502
+Galletas Serena~
+Galleta de Serena~
+Una Galleta preparada por Serena esta aqui~
+Masa~
+food Ld A
+3 2 0 A 0
+20 3 150 P
+#23503
+Fuente~
+#BFuente de Agua#b~
+Una hermosa Fuente de agua esta aqui.~
+piedra~
+fountain AGId 0
+10000 0 'water' 0 0
+0 0 0 P
+E
+volante~
+***************************************************************************
+ 
+ATENCION...!!!!
+ 
+Se invita a todos los Players a presenciar la pelea del Siglo...
+Dos Poderosos Ranger.... #B<<<#bGAUDI v/s LINKER #B>>>#b 
+ 
+EL evento se realizara en la Arena de Midgaard, Las mujeres entran Gratis
+hasta el Segundo Round.
+ 
+Preparate, lleva algo para picar y diviertete apoyando a tus Idolos...
+ 
+La entrada tiene un valor de 1000 monedas de ORO...(Algo caro, pero quien
+no pagaria esa cantidad por ver semejante Batalla???)
+ 
+Auspicia #BShopping Center#b, #BMetal Land#b y #BMcDonald#b...
+ 
+*************************************************************************
+ 
+~
+#23504
+Cuaderno~
+Cuaderno de Estudio~
+Un Cuaderno con muchos escritos esta aqui~
+papel~
+scroll Kd AN
+38 'fireproof' 'enhance health' 'stone skin' 'flaming shield'
+36 11 39651 P
+#23505
+Libro~
+Un libro de Matematicas~
+Un libro que parece que es de Matematicas esta aqui.~
+papel~
+scroll Kd AN
+23 'adrenaline control' 'concentracion' 'ectoplasmic form' 'displacement'
+25 15 500000 P
+#23506
+Papel~
+Papel de Ejercicios~
+Un papel con varios ejercicios esta votado aqui.~
+indef~
+scroll Yd AN
+28 'combat mind' 'haste' 'mental barrier' 'inertial barrier'
+30 3 412911 P
+#23507
+Tarea~
+Una Tarea~
+Un papel con varias tareas esta aqui.~
+papel~
+scroll Kd AH
+29 'amnesia' 'estupidez' 'alucinar' 'ultrablast'
+30 2 140985 P
+#23508
+Tiara~
+Tiara Lunar~
+Una tiara con una gema roja en el centro esta aqui~
+acero~
+gem BCTd AQ
+0 AC AC 0 0
+29 3 50000 P
+A
+19 2
+A
+17 -5
+A
+18 3
+#23509
+Cetro Lunar~
+Cetro Lunar~
+Un Cetro con forma de luna esta tirado aqui.~
+acero~
+weapon BCGLcd AN
+mace 5 7 'stab' H
+33 3 20000 P
+A
+13 -6
+A
+19 4
+A
+18 -2
+#23510
+Cristal~
+Cristal de Plata~
+Un hermoso Cristal Plateado esta votado aqui~
+gema~
+armor KYd AB
+8 10 7 20 0
+38 5 900000 P
+A
+18 4
+A
+19 3
+#23511
+Espada~
+Espada de Endimion~
+Una Espada bastante afilada y con unas escrituras raras esta aqui~
+hielo~
+weapon ABGd AN
+sword 6 7 'slash' BF
+35 12 30000 P
+A
+18 3
+#23512
+Curacion~
+Curacion Lunar~
+Una Pocion con un brillo misterioso esta aqui.~
+vidrio~
+potion BJYd AO
+28 'heal' 'heal' 'cure disease' 'cure poison'
+38 4 33890 P
+#23513
+GoodT~
+Pocion Transformadora (Good)~
+Un frasco con la palabra Good en su exterior esta votada aqui.~
+vidrio~
+potion KLd AO
+33 'demonfire' 'demonfire' 'demonfire' 'polymorph'
+35 3 30000 P
+#23514
+Pegaso~
+Poder de Pegaso~
+Una pequenia botella con un emblema en forma de pegaso esta aqui.~
+vidrio~
+potion Yd AO
+37 'enhance health' 'adrenaline control' 'concentracion' 'energy containment'
+42 10 10000 P
+#23515
+Poder~
+Poderes de la Copa Lunar~
+Ves un frasco que contiene algunos de los poderes contenidos en la magnifica Copa Lunar~
+vidrio~
+potion ABKTd AO
+30 'aura sight' 'corrupt bond' 'pass door' 'enhanced strength'
+33 5 8909 P
+#23516
+Sailor V~
+Ficha para el Juego de Sailor V~
+Una pequenia ficha de video esta votada aqui~
+acero~
+pill GKd AO
+26 'combat mind' 'enhance health' 'biofeedback' 'thought shield'
+30 3 20000 P
+#23517
+Ficha~
+Ficha de Video~
+Una ficha para los Juegos de Videos esta aqui~
+indef~
+pill AYd AO
+25 'creature bond' 'sanctuary' 'frenzy' 'flesh armor'
+26 3 17902 P
+#23518
+EvilT~
+Pocion Transformadora (Evil)~
+Un frasco con la palabra Evil hecha con sangre, esta votada aqui.~
+vidrio~
+potion JLd AO
+0 'ray of truth' 'ray of truth' 'ray of truth' 'polymorph'
+33 2 30000 P
+#23520
+Redbank~
+#BRedbank#b~
+Ves una cabina de #BRedBank#b~
+papel~
+trash AGMTXd 0
+0 0 0 0 0
+25 400 3000000 P
+#23521
+Rojo~
+Cristal Arcoiris Rojo~
+Un Cristal Arcoiris de Color Rojo esta brillando en el suelo.~
+cristal~
+armor GSTYd AQ
+13 10 10 20 0
+38 2 30000 P
+A
+12 20
+A
+13 -10
+A
+17 -10
+#23522
+Azul~
+Cristal Arcoiris Azul~
+Un Cristal de Color Azul esta brillando en el suelo.~
+cristal~
+armor STYcd AQ
+5 10 18 15 0
+38 5 30000 P
+A
+12 50
+#23523
+Amarillo~
+Cristal Arcoiris Amarillo~
+Un Cristal Arcoiris de Color Amarillo esta brillando en el suelo.~
+cristal~
+armor STYd AQ
+10 10 15 6 0
+38 3 30000 P
+A
+13 50
+#23524
+Naranjo~
+Cristal Arcoiris Naranjo~
+Un Cristal Arcoiris de Color Naranjo esta brillando en el suelo~
+cristal~
+gem STYd AQ
+0 0 0 0 0
+38 3 30000 P
+A
+13 30
+A
+12 20
+A
+17 -30
+#23525
+Verde~
+Cristal Arcoiris Verde~
+Un cristal Arcoiris de Color Verde esta brillando el el suelo.~
+cristal~
+jewelry BSTYd AQ
+0 0 0 0 0
+38 4 30000 P
+A
+17 -2
+A
+18 4
+A
+19 4
+#23526
+Blanco~
+Cristal Arcoiris Blanco~
+Un Cristal Arcoiris Blanco esta brillando en el suelo.~
+cristal~
+treasure BSTYd AQ
+0 0 0 0 0
+38 1 30000 P
+A
+1 2
+A
+5 3
+A
+16 30
+#23527
+Lila~
+Cristal Arcoiris Lila~
+Un Cristal Arcoiris de Color Lila, esta brillando en el suelo.~
+cristal~
+armor SYd AQ
+10 10 10 18 0
+38 6 30000 P
+A
+19 5
+A
+23 -5
+A
+24 -3
+A
+4 4
+A
+3 4
+#23528
+Cinta~
+Una Cinta~
+Una larga Cinta de Color esta aqui.~
+Material Sintetico~
+clothing ALTd AL
+BD BD BD ABCD 0
+40 0 123450 P
+A
+18 1
+A
+19 2
+A
+18 2
+#23529
+blusa marinera~
+#BBlusa Marinera#b~
+Una Blusa de marinera, con un logo en el Hombro(Calvin Clein).~
+Seda de Gusano.~
+clothing GKd AK
+0 0 0 0 0
+40 8 70929 P
+A
+18 4
+A
+19 1
+A
+2 1
+A
+6 1
+#23560
+llave~
+Llave Moon~
+Una llave con una pequenia insignia de Luna esta aqui~
+oro~
+key FLSTYd A
+0 0 0 0 0
+25 2 100 P
+#23561
+Cofre~
+Cofre Moon~
+Un cofre con una insignia en forma de luna esta aqui.~
+acero~
+container FSTYad 0
+30 ACDFI 23560 3 100
+25 400 100000 P
+#23562
+scroll~
+Scroll de Invisibility~
+Un extranio papel con un dibujo de luna esta aqui~
+vidrio~
+potion FLYd A
+35 'heal' 'heal' 'heal' 'regeneracion'
+38 20 40000 P
+#23563
+volante~
+volante~
+,~
+papel~
+trash d 0
+0 0 0 0 0
+30 5 2000 P
+#23564
+portal~
+#BPORTAL#b.~
+Un Portal Oscuro esta aqui.~
+indef~
+portal d 0
+1000 0 0 23576 0
+0 0 0 P
+#23565
+hombreras~
+#BHombreras#b~
+Unas Hombreras cubirtas de sangre estan Aqui.~
+Vulcanita~
+armor GLSd AD
+9 12 13 20 0
+38 60 10000 P
+A
+18 3
+A
+19 2
+A
+2 3
+A
+14 -100
+#23566
+boomerang~
+Un hermoso Boomerang ~
+Un hermoso boomerang esta aqui, Tiene unas Terminaciones muy delicadas...~
+madera~
+weapon HLMd AN
+exotic 5 9 'flame' A
+39 50 5000 P
+A
+12 -50
+A
+18 5
+A
+19 3
+A
+14 -50
+A
+13 50
+#23567
+hacha~
+El Hacha de Zoycite~
+Una hacha de gran mango esta aqui.~
+Yeso~
+weapon HLd AN
+axe 6 9 'pound' BF
+40 35 6000 P
+A
+2 3
+A
+12 20
+#23568
+collar~
+Un Collar~
+Un hermoso collar esta aqui.~
+perlas~
+armor Yd AC
+7 6 10 15 0
+40 5 3000 P
+A
+3 -1
+A
+12 50
+#23569
+ataud~
+Un ataud~
+Un gran ataud esta aqui, al parecer tu cupes en el interior.~
+Roble~
+portal Ad 0
+1000 0 0 23500 0
+0 0 0 P
+#23570
+Braza~
+#BUna Braza#b~
+#BLa Braza#b aun ardiendo esta en el piso.~
+Brasas de un Asado.~
+trash AHMRd AQ
+0 0 0 0 0
+0 0 0 P
+#23571
+piedra~
+#Bpiedra#b~
+Una pequenia piedra esta aqui en el piso.~
+indef~
+gem d A
+0 0 0 0 0
+0 5 20000 P
+#23572
+collar de safiro~
+#BCollar de Safiro#b~
+Un collar de Safiro esta aqui.~
+gema~
+armor Ld AC
+5 5 7 10 0
+45 10 10000 P
+A
+13 -50
+A
+12 50
+A
+18 3
+A
+19 2
+#23573
+collar de esmeralda~
+#BCollar de esmeralda#b~
+Un collar hecho de Esmeraldas esta aqui.~
+gema~
+armor d AC
+6 7 7 20 0
+44 0 30000 P
+A
+13 30
+A
+18 4
+A
+12 10
+#23574
+collar diamante~
+#BCollar de Diamantes#b~
+Un collar hecho con los mas finos Diamantes esta aqui.~
+diamante~
+armor d AC
+10 15 5 5 0
+43 4 10000 P
+A
+13 30
+A
+2 3
+A
+19 3
+#23575
+cristal negro~
+#BCristal negro#b~
+Un Cristal color negro esta aqui.~
+Malignidad~
+armor d AC
+4 13 8 20 0
+48 7 20000 P
+A
+13 50
+A
+12 30
+A
+19 -1
+A
+18 4
+#23576
+tunica~
+#BLa Tunica#b~
+Una Tunica color cafe esta tirada aqui.~
+Poliuretano~
+armor AGLYd AK
+17 17 17 17 0
+43 10 100000 P
+A
+18 3
+A
+12 100
+A
+13 50
+A
+23 -10
+A
+24 -10
+#23577
+vaculo~
+El Vaculo de Plut~
+Vez un Hermoso Vaculo muy largo botado aqui.~
+acero~
+wand IYd AO
+50 30 30 'teleport' 0
+42 1 1000000 P
+#23578
+espada plutonica~
+#BEspada Plutonica#b~
+Una Espada proveniente de Pluton esta aqui.~
+indef~
+weapon HSd AN
+sword 8 9 'slash' BF
+42 8 20000 P
+A
+12 50
+A
+18 3
+A
+5 -1
+A
+13 25
+#23579
+lanza destructora~
+#BLanza Destructora#b~
+Una Lanza con el poder Suficiente para destruir un planeta esta aqui.~
+madera~
+weapon GSd AN
+staff 11 9 'sting' CFG
+48 35 30000 P
+A
+17 -5
+A
+18 3
+A
+12 100
+A
+17 -3
+#23580
+falda marinera~
+Falda Marinera~
+Una falda marinera recien planchada esta aqui.~
+indef~
+armor GIKcd AF
+9 14 14 15 0
+40 5 35200 P
+A
+2 2
+A
+14 50
+#23581
+titulo moon~
+El titulo de #BMr. Moon#b~
+El titulo para el ganador esta aqui.~
+indef~
+trash Hd 0
+0 0 0 0 0
+5 0 1000000 P
+M get 23502 100~
+#23592
+Vaculo maldito~
+El Vaculo maldito~
+El Maldito Vaculo esta aqui.~
+indef~
+wand HMd AO
+20 10 10 'enhance health' 0
+35 1 1002 P
+A
+1 -5
+#23593
+titulo~
+#BUn Titulo de Poder#b~
+El #BTitulo #b de poder de alguien esta aqui.~
+indef~
+scroll Rd A
+20 'heat metal' 'word of recall' 'intellect fortress' 'fireproof'
+10 10 10000 P
+#0
+
+
+
+#ROOMS
+#23552
+#BFin del Pasillo Sur#b~
+~
+0 DY 0
+D0
+~
+~
+0 0 23551
+S
+#23553
+En las escaleras.~
+Estas en las escaleras que posiblemente te llevan al segundo piso, pero quien
+sabe... a lo mejor es una trampa... cuidate!!!
+~
+0 DY 0
+D0
+~
+~
+AB 0 23593
+D3
+~
+~
+0 0 23546
+D4
+~
+~
+0 0 23554
+S
+#23554
+#BEntrada al Segundo Piso#b~
+Aun en las escaleras??? apresurate!!! parece que alguien te espera arriba...
+~
+0 DY 0
+D4
+~
+~
+0 0 23555
+D5
+~
+~
+0 0 23553
+S
+#23555
+#BSegundo Piso#b~
+Estas en el Segundo piso de este espectacular colegio... aun siguen en tu 
+memoria los recuerdos de tu infancia...
+Ves muchos estudiantes que se pasean por aqui y por alla, es una locura...
+~
+0 DY 0
+D0
+~
+~
+0 0 23556
+D2
+~
+~
+0 0 23558
+D4
+~
+~
+AB 0 23560
+D5
+~
+~
+0 0 23554
+S
+#23556
+#BEn el Pasillo de Clases#b~
+Otro pasillo largo y lleno de estudiantes, esto es latoso, deberias matarlos
+a todos.
+~
+0 DY 0
+D0
+~
+~
+0 0 23557
+D2
+~
+~
+0 0 23555
+S
+#23557
+#BFin del Pasillo Norte#b~
+Otro fin del pasillo, pero este esta totalmente solo, raro no??? 
+~
+0 DY 0
+D2
+~
+~
+0 0 23556
+S
+#23558
+#BEn el Pasillo de Clases#b~
+Mas pasillos, esto es asqueroso, por que no te vas de esta maldita escuela??
+~
+0 DY 0
+D0
+~
+~
+0 0 23555
+D2
+~
+~
+0 0 23559
+S
+#23559
+#BFin del Pasillo Sur#b~
+Estas en el final del pasillo, no hay nada importante aqui, ni siquiera estan
+los locos del piso de abajo fumando sus drogas, ni siquiera hay simbolos en 
+las paredes, que aburrido.
+~
+0 DY 0
+D0
+~
+~
+0 0 23558
+S
+#23560
+#BEn la Azotea del Colegio#b~
+La azotea... sientes que de este lugar se emana una cantidad de energia 
+maligna enorme... reza para que puedas salir vivo de esta...
+~
+0 Y 4
+D5
+~
+~
+AB 0 23555
+M 200 H 200
+S
+#23561
+#BEn el Banio#b~
+Estas en los Banios, ves que  todo esta totalmente hecho trizas por los 
+mismos estudiantes... que ninios estos, no???
+~
+0 BCDEGJY 0
+M 0 H 0
+S
+#23562
+#BTienda de Mascotas#b~
+Estas en una inmensa tienda, ves alrededor y ves unos animales increibles,
+mas de alguna te podria servir para tu viaje, pero cuidado, a lo mejor no 
+estan bien adiestradas, recuerda que la que las vende es Serena, que mas se
+podria esperar de ella...
+~
+0 MY 0
+D1
+~
+~
+0 0 23537
+M 200 H 200
+S
+#23563
+#BCuarto de las Mascotas#b~
+~
+0 CDY 1
+S
+#23564
+#BMas alto.#b~
+Ohhh... que mareado te sientes por tanta altura a la que te encuentras....
+Cada vez te alejas mas de la Tierra.  Miras hacia arriba y vez una cosa
+Gigante, algo asi como una Nave Espacial.....
+~
+0 Y 9
+D4
+~
+~
+0 0 23565
+D5
+~
+~
+0 0 23525
+S
+#23565
+#BLlegando a la Nave.#b~
+Hacia el Sur distingues una pequenia entrada a la nave, debe ser un 
+Conducto de ventilacion, tus deseos por saber que hay dentro te corroen...
+Entra y averigua Que Hay.
+~
+0 Y 9
+D2
+~
+~
+0 0 23566
+D5
+~
+~
+0 0 23564
+S
+#23566
+#BConducto de Ventilacion.#b~
+Haz entrado en el Hoyo de la ventilacion, el cual es muy pequenio, por lo
+que entras solo...
+Ufff...que aroma tan raro hay en el conducto, pero una suave brisa te llega 
+desde el Sur.
+~
+0 CLY 11
+D0
+~
+~
+0 0 23565
+D2
+~
+~
+0 0 23567
+S
+#23567
+#BConducto de Ventilacion.#b~
+Pero que cantidad impresionante de Aire cae sobre tu cabeza, todo es causa 
+del ventilador al que estas llegando...Entra con mucho cuidado si no quieres
+que este te cause algun danio.
+~
+0 Y 11
+D0
+~
+~
+0 0 23566
+D4
+~
+~
+0 0 23568
+S
+#23568
+#BLlegando al Ventilador.#b~
+Pero que viento mas potente, tu pelo(si es que tienes) se mueve para
+todas partes, el movimiento se te hace muy dificil, pero sabes que 
+llegaras a tu destino.
+Hacia el sur ves unas grandes aspas esperando por ti...
+~
+0 Y 11
+D2
+~
+~
+0 0 23569
+D5
+~
+~
+0 0 23567
+S
+#23569
+#Blas grandes Aspas~
+Miras alrededor y ves que por fin al sur se encuentra la salida de este
+maldito conducto.
+ves un hermoso signo pegado en la pared.
+~
+0 Y 0
+E
+signo~
+========================================================================
+ 
+Estas en la gran Nave de la familia #BBlackMoon#b la cual esta llena
+de sorpresas y misterios que ni aun Birdie los podria descubrir...
+ 
+Esta nave fue creada por El Departamento de Ingenieria en Maquinas de 
+RoadFlame y Gaudi Corps.
+ 
+==========================================================================
+~
+D0
+~
+~
+0 0 23568
+D2
+~
+~
+0 0 23570
+R enter 23500 100~
+S
+#23570
+#BPasillo principal de la Nave.#b~
+Felicitaciones, ya estas dentro de la Nave de la Familia Blackmoon.
+Ahora solo te queda la opcion de recorrerla, y eliminar a tus adversarios, 
+pero para ello debes tener mucho cuidado.
+En la pared hay un Pequenio #Baviso#b, te llama Bastante la Atencion!!!.
+~
+0 NY 0
+E
+aviso~
+Ten mucho cuidado si no quieres perder #BSangre#b...esta nave huele a 
+morgue, sera acaso por los Vampiros que en ella habitan...
+ 
+~
+D2
+~
+~
+0 0 23571
+M 0 H 0
+S
+#23571
+#BEn el segundo pasillo.#b~
+Miras a tu alrededor, contemplando la hermosura de esta gran Obra 
+arquitectonica, que solo puede ser desarrollada por una civilizacion de
+un Futuro muy lejano.   Son maquinas enormes, y al parecer no tienen ningun
+panel de control.
+~
+0 NY 0
+D0
+~
+~
+0 0 23570
+D1
+~
+~
+AB 0 23577
+D2
+~
+~
+0 0 23572
+D3
+~
+~
+AB 0 23578
+M 0 H 0
+S
+#23572
+#BEn el Tercer pasillo.#b~
+El pasillo es muy largo, en realidad pareciera que estas atrapado y no 
+tienes salida, pero al parecer al Sur hay una pequenia luz que te llama la
+atencion...que sera? Sera acaso una maquina o algo por el estilo.
+~
+0 NY 0
+D0
+~
+~
+0 0 23571
+D1
+~
+~
+AB 0 23579
+D2
+~
+~
+0 0 23573
+D3
+~
+~
+AB 0 23580
+M 0 H 0
+S
+#23573
+#BCuarto pasillo.#b~
+Esa pequenia luz que veias se ha desvanecido, quizas era  una luciernaga o 
+a lo mejor era una simple ilucion tuya...
+~
+0 NY 0
+D0
+~
+~
+0 0 23572
+D1
+~
+~
+0 0 23581
+D2
+~
+~
+0 0 23574
+M 0 H 0
+S
+#23574
+#BEL ultimo pasillo.#b~
+Pura sangre en el piso, un olor putrefacto totalmente hediondo, y una 
+humedad ambiental que te moja hasta los pensamientos.
+~
+0 NY 0
+D0
+~
+~
+0 0 23573
+D2
+~
+~
+0 0 23575
+M 0 H 0
+S
+#23575
+#BCabina Principal de la Nave.#b~
+Estas en la cabina de la nave, miras por el vidrio hacia afuera y vez 
+el espacio, el cual se ve negro oscuro y solitario...Muchas estrellas que 
+brillan con una indescriptible luminosidad.
+~
+0 BYZ 0
+D0
+~
+~
+0 0 23574
+M 500 H 500
+S
+#23576
+#BLa pieza del Sabio#b.~
+Una pieza bastante oscura y tenebrosa, que al parecer tiene un aspecto
+de Hechiceros, o de Muertos Vivientes.
+Tiene Cruces invertidas en las paredes, y con una llama prendida en frente 
+de un Pentagono.
+~
+0 Y 0
+D0
+~
+~
+0 0 23588
+D2
+~
+~
+0 0 23587
+D3
+~
+~
+0 0 23586
+S
+#23577
+#BCabina Nro 1.#b~
+Estas en la primera cabina de la nave, vez enormes palancas y motores, al
+parecer es la Sala de Motores de Esta Gigantesca obra de arte.
+~
+0 NY 0
+D3
+~
+~
+AB 0 23571
+M 0 H 0
+S
+#23578
+#BCabina Nro 2.#b~
+Esta sala por tantos botones, pantallas con mapas y computadores parece 
+ser La Sala de Navegamiento de esta presiosura de Nave.
+Hay una pantalla, en la cual se distingue claramente la tierra.
+Sera acaso porque la quieren Eliminar...
+~
+0 NY 0
+D1
+~
+~
+AB 0 23571
+M 0 H 0
+S
+#23579
+#BCabina Nro 3.#b~
+Hmmmmm.... Huele a Defecacion Humana, al parecer estas en el Banio de 
+la Nave, hay un Espejo(No se para que si los vampiros no se logran ver)
+tambien un lavamanos, es asombroso, que para ser mucho mas desarrollados
+que los humanos, todavia usen los mismos banios que que los terrestres.
+~
+0 NY 0
+D3
+~
+~
+AB 0 23572
+M 0 H 0
+S
+#23580
+#BCabina Nro 4.#b~
+~
+0 NY 0
+D1
+~
+~
+AB 0 23572
+M 0 H 0
+S
+#23581
+#BEl Ala este de la Nave.#b~
+Vas en camino hacia el ala este de la nave, al parecer hay muchos cuartos
+los cuales deben ser las habitaciones de los habitantes de este nave.
+~
+0 NY 0
+D1
+~
+~
+0 0 23582
+D3
+~
+~
+0 0 23573
+M 0 H 0
+S
+#23582
+#BEl cuarto de espera.#b~
+Que hermoso cuarto, tiene apariencia de un salon funerario, con rosas 
+negras y muchos cuadros de rostros extranios.  Te sientes muy reconfortado.
+~
+0 NY 0
+D0
+~
+~
+0 0 23585
+D1
+~
+~
+0 0 23583
+D2
+~
+~
+0 0 23584
+D3
+~
+~
+0 0 23581
+M 0 H 0
+S
+#23583
+#BLa habitacion de Safiro.#b~
+Es otra de las habitaciones puramente diseniadas para el tipo de gente
+que tiene bastante dinero, Aqui las inscrustaciones de safiro estan por
+todas partes. 
+~
+0 NY 0
+D3
+~
+~
+0 0 23582
+M 0 H 0
+S
+#23584
+#BEl cuarto de Esmeralda.#b~
+Un cuarto lleno de Joyas y aparatos de bastante valor, en la esquina sur 
+del cuarto vez una hermoso espejo con incrustaciones de Esmeraldas.
+~
+0 NY 0
+D0
+~
+~
+0 0 23582
+M 0 H 0
+S
+#23585
+#BEl cuarto del Diamante.#b~
+Ohhh...una habitacion cristalina como el agua.  Sus paredes son como 
+espejos, su techo como el cielo puro, y el piso brillante, aunque tiene
+unas grandes gotas de sangre.
+~
+0 NY 0
+D2
+~
+~
+0 0 23582
+M 0 H 0
+S
+#23586
+#BLas habitaciones del Mal.#b~
+~
+0 Y 0
+D1
+~
+~
+0 0 23576
+D3
+~
+~
+0 0 23587
+S
+#23587
+Las Habitaciones del Mal~
+~
+0 Y 0
+D0
+~
+~
+0 0 23576
+D1
+~
+~
+0 0 23586
+S
+#23588
+#BLas habitaciones del Mal.#b~
+~
+0 Y 0
+D2
+~
+~
+0 0 23576
+S
+#23589
+#BSalon de Clases 1-A#b~
+Estas en el sala de Clases 1-A, aqui se encuentras los mas inteligentes de 
+esta escuela, asi que ten cuidado, no hagas el menor ruido, podria costarte
+la vida.
+~
+0 DGY 0
+D3
+~
+~
+AB 0 23549
+S
+#23590
+#BSalon  de Clases 1-B#b~
+Estas en el salon de  Clases 1-B, aqui ya no hay tantos genios como en la 
+1-A, pero igual la mayoria de los alumnos esta totalmente concentrado...
+no te gustaria estudiar un poco??? si es asi, piensa que estas en un buen 
+lugar para hacerlo.
+~
+0 AY 0
+D3
+~
+~
+AB 0 23548
+S
+#23591
+#BSalon de Clases 1-C#b~
+Cada vez ves mas y mas alboroto, eso quieres decir que ya los alumnos son
+cada vez mas desordenados... te recuerda a alguien???
+~
+0 STY 0
+D3
+~
+~
+0 0 23547
+S
+#23592
+Sala del Narrador~
+Estas por ingresar al Mundo de Sailor Moon, esperamos que en esta historia
+no pases malos ratos...
+Apenas entres hacia el norte el #BNarrador#b comenzara a contar tus aventuras.
+~
+0 Y 4
+D0
+~
+~
+AB 0 23500
+S
+#23593
+#BLa antesala del Gimnasio#b~
+Estas en la antesala del gimnacio, es un lugar donde se practica todo tipo
+de ejercicios, pero tus poderes magicos #BNO#b valen nada en este lugar...
+ya que es aqui donde se ve la verdadera fuerza y poder de cada ser...
+~
+0 CGXY 0
+D0
+~
+~
+0 0 23594
+D2
+~
+~
+AB 0 23553
+M 200 H 200
+S
+#23594
+#BEl cuadrilatero#b~
+En el Cuadrilatero estan disputando el titulo de #BMr. Moon#b, el cual se lo 
+llevara quien gane este evento...
+Fijate bien, la final esta comenzando........
+~
+0 GXY 0
+D0
+~
+~
+0 0 23595
+D2
+~
+~
+0 0 23593
+M 200 H 200
+S
+#23595
+#BEl Salon mistico.#b~
+Este salon es solo para entrenar tus grandes habilidades....
+si es que las tienes....
+~
+0 ACGXY 0
+M 0 H 100
+S
+#23500
+#BEntrada al Mundo de Sailor Moon#b~
+Estas en la Entrada al Mundo de Sailor Moon, aqui encontraras a las heroinas
+que luchan por el Amor y la Justicia.
+Ves un #BLetrero#b a un costado del camino... al parecer es una advertencia...
+~
+0 Y 1
+E
+letrero~
+****************************************************************************
+ 
+ 
+Area Totalmente Dise-ada y Creada por
+ 
+Gaudi y Roadflame
+ 
+ 
+Recomendamos....
+ 
+- No ser de alineacion Evil
+- Ser de nivel 26 o superior
+- Los Vampiros son Bien Recibidos
+ 
+ 
+Copyright MUD (1998)
+ 
+***************************************************************************
+~
+D0
+~
+~
+0 0 23501
+D2
+~
+~
+AB 0 23592
+S
+#23501
+#BEntrada al Parque Numero 10#b~
+Ya comienzas a sentir las risas y juegos de las personas en el Parque, desde
+lejos ves el pasto verde y bien cuidado.
+~
+0 Y 1
+D0
+~
+~
+0 0 23502
+D2
+~
+~
+0 0 23500
+S
+#23502
+#BOrilla sur del Parque.#b~
+Estas en la entrada del Parque, desde aqui puedes ver a la gente conversando
+y jugando por doquier.
+~
+0 Y 4
+D0
+~
+~
+0 0 23503
+D2
+~
+~
+0 0 23501
+S
+#23503
+#BEn el Centro del Parque Numero 10#b~
+Vaya, que presiosa fuente ves en el centro de la plaza, es un agua pura y 
+cristalina, tiene una pequenia inscripcion, si deseas mirarla solo debes
+tener la intencion de verla.
+Vez en el muro un #BVolante#b que pareciera ser de esos de propagandas
+sera tal vez de un grupo musical o de que???
+~
+0 Y 3
+D0
+~
+~
+0 0 23504
+D1
+~
+~
+0 0 23528
+D2
+~
+~
+0 0 23502
+D3
+~
+~
+0 0 23506
+S
+#23504
+#BEl Milenio de Plata#b~
+Haz entrado al Milenio de Plata, ves que todo esta muy limpio, es obvio que 
+vive una Princesa aqui... Quien sera???
+Los muros son de Marfil con unas pequenias incrustaciones de Oro, estas 
+totalmente fascinado con lo que ves, los pilares que se elevan a una altura
+superior a los 20 metros dan la impresion de el Poderio de este Reino.
+~
+0 DY 1
+D0
+~
+~
+0 0 23505
+D2
+~
+~
+0 0 23503
+S
+#23505
+#BAltar del Milenio de Plata#b~
+Estas frente al Altar del Milenio de Plata, aqui se encuentran las mas bellas
+joyas que pertenecian a la Familia Moon. 
+Miras detenidamente todos los tesoros y cofres, notas que ha desaparecido
+uno de ellos... 
+~
+0 CDKYZ 0
+D2
+~
+~
+0 0 23504
+M 300 H 300
+S
+#23506
+#BOrilla oeste del Parque.#b~
+Miras alrededor y quedas impresionado por la abundancia de flores en este
+parque, esta super bien cuidado y el aroma que se respira en este lugar es
+fantastico, te quedarias aqui descansando por siempre.
+~
+0 Y 1
+D1
+~
+~
+0 0 23503
+D3
+~
+~
+0 0 23507
+S
+#23507
+#BCamino al Templo Hikawa#b~
+Estas en camino al templo, dicen que alli se respira un aire totalmente
+mistico, y que si pides un deseo pronto se te cumplira... bueno, eso dicen...
+~
+0 Y 1
+D1
+~
+~
+0 0 23506
+D3
+~
+~
+0 0 23508
+S
+#23508
+#BEntrada al Templo Hikawa#b~
+En la entrada al templo, ves unos pilares de roca solida que parecen que
+tienen una antiguedad de aproximadamente de 100 anios, de ellos se emana
+una misteriosa energia que hace que te sientas mas tranquilo...
+Es increible el poder que tiene el templo sobre las personas... a lo mejor
+lo de los deseos se hace realidad...
+~
+0 DY 1
+D1
+~
+~
+0 0 23507
+D3
+~
+~
+0 0 23509
+S
+#23509
+#BEn el Centro del Templo#b~
+Estas en el centro del templo, ahora te sientes mas lleno de energia... este
+templo es asombroso... hasta tiene su propio #BRedBank#b, es increible!!!
+Alrededor ves unas pequenias casitas... al parecer son vendedores...
+~
+0 CYZ 0
+D0
+~
+~
+0 0 23520
+D1
+~
+~
+0 0 23508
+D2
+~
+~
+0 0 23521
+D3
+~
+~
+0 0 23510
+D4
+~
+~
+AB 0 23522
+D5
+~
+~
+AB 0 23523
+M 200 H 200
+S
+#23510
+#BCallejon.#b~
+Estas en el Callejon, al parecer esta un poco Hediondo y Humedo.   
+Miras hacia Arriba y vez algo muy raro entre las nubes...Que sera...?
+~
+23511 CDY 4
+D1
+~
+~
+0 0 23509
+D4
+~
+~
+0 0 23524
+S
+#23511
+#BEntrada al Negaverso.#b~
+Estas en un cuarto bastante obscuro, y recuerdas la hermosura del parque
+numero 10, pero ya es demasiado tarde para que te arrepientas...
+ 
+Ahora solo sigue tu camino.
+~
+0 NY 5
+D3
+~
+~
+0 0 23512
+S
+#23512
+#BMontanias de Nieve.#b~
+Estas impresionantes montanias de hielo te hacen sentir muy Frio, y dislumbras muy a lo lejos hacia el Oeste una Gran #BLuz.#b
+ 
+Sientes una Corazonada que te dice "Si vas al Oeste anda con mucho 
+cuidado.....
+~
+0 NY 5
+D1
+~
+~
+0 0 23511
+D3
+~
+~
+0 0 23513
+S
+#23513
+#BEl corredor Negro.#b~
+A medida que mas avanzas la habitacion se va poniendo mas oscura....
+Intentas mirar hacia el Norte y el Sur, pero no vez nada... la unica forma 
+de saber es Ir a ese Lugar...
+ 
+~
+0 ANY 5
+D0
+~
+~
+0 0 23518
+D1
+~
+~
+0 0 23512
+D2
+~
+~
+0 0 23519
+D3
+~
+~
+0 0 23514
+S
+#23514
+#BEl corredor Negro.#b~
+Luego de haberte aventurado y atrevido a moverte de donde estabas, vas a 
+tener que seguir haciendolo, ya que es la unica manera de salir de aqui,
+si es que asi lo deseas...(Sientes como que el Oeste es la unica salida)!!!
+ 
+~
+0 AENY 0
+D0
+~
+~
+0 0 23516
+D1
+~
+~
+0 0 23513
+D2
+~
+~
+0 0 23517
+D3
+~
+~
+0 0 23515
+S
+#23515
+#BHabitacion Real.#b~
+Estas en el salon Real, con la gran Reina, a la cual debes mucho respeto.
+Asi que comienza a darle homenajes, si es que no deseas tu ejecucion...
+~
+0 ANY 0
+D1
+~
+~
+0 0 23514
+D5
+~
+~
+AB 0 23542
+S
+#23516
+#BEl cuarto de Zyocite.#b~
+~
+0 ANY 0
+D2
+~
+~
+0 0 23514
+S
+#23517
+#BEl Cuarto de Malakyte.#b~
+~
+0 ANY 0
+D0
+~
+~
+0 0 23514
+S
+#23518
+#BCuarto de Jedyte.#b~
+~
+0 ANY 0
+D2
+~
+~
+0 0 23513
+S
+#23519
+#BCuarto de Netflyte.#b~
+~
+0 ANY 0
+D0
+~
+~
+0 0 23513
+S
+#23520
+#BLa Cocina#b~
+Estas en la Cocina del Templo, aqui es donde se preparan los mas
+deliciosos banquetes, pasteles y cosas por el estilo...
+~
+0 Y 0
+D2
+~
+~
+0 0 23509
+S
+#23521
+#BCuarto de Estudio#b~
+Estas en el Cuarto en donde Serena y las demas estudiavan para sus examenes...
+Por desgracia, en este momento, solo se encuentra una de ellas.
+Si tienes suerte quizas hasta te pueda ayudar en tus estudios!!!
+~
+0 Y 0
+D0
+~
+~
+0 0 23509
+S
+#23522
+#BLa habitacion de Hierro#b~
+Estas en una Habitacion muy bella, pero te extrania que este completamente
+hecha de hierro. Por que sera?
+Sigues mirando y ves que hay una hermosa #BFoto#b pegada en la pared...
+~
+0 Y 0
+E
+foto~
+****************************************************************************
+
+Ves la foto que esta pegada en la pared del cuarto y notas que Mina aparace 
+con un muchacho muy guapo... quien sera???
+Miras detenidamente y descubres quien es el.... Es Gaudi!!!! que estara
+haciendo el con la hermosa de Mina???
+ 
+**************************************************************************
+~
+D5
+~
+~
+AB 0 23509
+S
+#23523
+#BHabitacion Mistica#b~
+Estas en una habitacion muy extrania, es como si alguien la usara para 
+meditar y cosas asi, ves una pequenia flama en el centro de la habitacion.
+~
+0 Y 0
+D4
+~
+~
+AB 0 23509
+S
+#23524
+#BA 10 metros de altura.#b~
+Estas a 10 metros de altura, desde aqui puedes distinguir casi toda la ciudad
+de Tokyo, Y la extrania cosa obscura que dislumbrabas desde abajo comienza
+a distinguirse un poco mas...
+~
+0 Y 9
+D4
+~
+~
+0 0 23525
+D5
+~
+~
+0 0 23510
+S
+#23525
+#BEn el Aire.#b~
+Wao!!! es increible la inmensa panoramica que tienes desde esta altura...
+Es mejor que tengas cuidado, no vayas a caerte, una caida desde esta 
+altura podria ser fatal. Mirando hacia el Norte puedes ver un cuarto
+flotante, que era exactamente lo que no podias distinguir desde abajo.
+~
+0 Y 9
+D0
+~
+~
+0 0 23526
+D4
+~
+~
+0 0 23564
+D5
+~
+~
+0 0 23524
+S
+#23526
+#BLa gran Caja.#b~
+Tu vuelo te ha traido hasta una enorme caja que vez hacia el norte
+sera posible de que esa caja signifique algo.  Sera tal vez una trampa o a 
+lo mejor...
+~
+0 Y 9
+D0
+~
+~
+0 0 23527
+D2
+~
+~
+0 0 23525
+S
+#23527
+#BPortal hacia el Negaverso....#b~
+Entras a una habitacion muy rara, es como una inmensa caja flotante...
+Miras alrededor y ves un fuerte resplandor que comienza a salir desde el centro
+de la habitacion... Wuoau!!! que sucede?!?!? sientes como si te desvanecieras
+en el aire... que diablos esta ocurriendo en esta habitacion?!?!?!?
+Ten mucho cuidado de ahora en adelante. Puede que tu aventura se torne 
+demasiado peligrosa.
+ 
+~
+23511 CUY 0
+S
+#23528
+#BOrilla este del Parque#b~
+Sigues en el parque, ves animales silvestres saltando de aqui para alla,
+la flora y fauna de este parque es simplemente fantastica.
+~
+0 Y 3
+D1
+~
+~
+0 0 23529
+D3
+~
+~
+0 0 23503
+S
+#23529
+#BAproximandote al Centro de Tokyo#b~
+Comienzas a ver la gran ciudad de tokio, no muy lejos ves los grandes 
+edificios, la gente se ve mas nerviosa e inquieta.
+A lo mejor encuentras una entretenida tienda por aqui.
+~
+0 Y 1
+D1
+~
+~
+0 0 23530
+D3
+~
+~
+0 0 23528
+S
+#23530
+#BCentro de Tokyo#b~
+Estas en el Centro de la Ciudad de Tokyo, ves muchos Edificios que parecen de
+Cristal, son inmensos al verlos detenidamente pareciera que nada los podria
+destruir...
+Ves la famosa Torre de Tokyo alzandose frente a ti, ves que es igual a
+la torre Eifel, pero con ciertas diferencias.
+Ves la gente pasando muy deprisa por tu lado, algunos te han dado los feroces
+empujones, uno casi te vota.. es mejor que tengas mucho cuidado...
+~
+0 Y 1
+D0
+~
+~
+0 0 23531
+D1
+~
+~
+0 0 23540
+D2
+~
+~
+0 0 23537
+D3
+~
+~
+0 0 23529
+S
+#23531
+#BCentro de Tokyo#b~
+Aun estas en el Centro de la Ciudad de Tokyo, ves que mucha gente pasa por tu
+lado, algunas van caminando y otras con mucha prisa.
+Ves un camino al este a donde te llevara??? pues averigualo tu mismo...
+~
+0 Y 1
+D1
+~
+~
+0 0 23532
+D2
+~
+~
+0 0 23530
+S
+#23532
+#BEntrada a los Juegos de Video#b~
+Estas en las puertas de los juegos de video, son puertas de cristal y al 
+pararte en frente de ellas se abren automaticamente... es increible!!!
+~
+0 DY 1
+D0
+~
+~
+0 0 23533
+D3
+~
+~
+0 0 23531
+S
+#23533
+#BEn los Juegos de Video#b~
+Ves un monton de maquinas de juegos ordenadas en filita, el local es enorme!!
+hay gente riendose por todos lados, y los que estan jugando ponen una cara
+de concentracion que te produce una risa incontenible...
+Al norte ves en donde venden las famosas fichas de videos, a lo mejor son 
+baratas y puedes comprar algunas.
+~
+0 DY 0
+D0
+~
+~
+0 0 23536
+D1
+~
+~
+0 0 23535
+D2
+~
+~
+0 0 23532
+D3
+~
+~
+0 0 23534
+S
+#23534
+#BEn los Juegos de Video#b~
+Ves una gran cantidad de maquinas de juegos... en esta seccion encuentras los
+Clasicos, ves que cerca tuyo esta el muy y bien ponderado Pac-Man, mas alla
+se encuentra el Galaxian y Moon Patrol... es increible la cantidad de juegos
+Clasicos que tienen en este local.
+~
+0 DY 0
+D1
+~
+~
+0 0 23533
+S
+#23535
+#BEn los Juegos de Video#b~
+Ves una ilera de juegos de video que te deja asombrado, en esta seccion se 
+encuentran los mas ultimos juegos salidos al mercado... es impresionante!!!
+~
+0 DY 0
+D3
+~
+~
+0 0 23533
+S
+#23536
+#BVenta de Fichas#b~
+Aqui es donde se compran las famosas fichas para el Juego de Sailor V
+al parecer Mina y Serena estuvieron hace muy poco por aqui, comprando
+fichas para los Juegos de Video, a lo mejor todavia estan por aqui...
+~
+0 DY 0
+D2
+~
+~
+0 0 23533
+S
+#23537
+#BCentro de Tokyo#b~
+Aun estas en la Ciudad, es increible lo inmensa que es!!! desde aqui aun 
+puedes ver los Edificios que parecen de Cristal Indestructible...
+Por lo menos aqui no hay tanta gente como antes, y te sientes mas relajado 
+que antes...
+~
+0 Y 1
+D0
+~
+~
+0 0 23530
+D1
+~
+~
+0 0 23538
+D3
+~
+~
+0 0 23562
+S
+#23538
+#BEntrada al Banco de Tokyo#b~
+Estas en la entrada al Banco de Tokyo, al parecer es muy agradable, ves mucha
+gente paseandose y haciendo colas como locos para que los atiendan rapido.
+A lo mejor tienes suerte y te atienden altiro... por que no pruebas???
+~
+0 DY 1
+D1
+~
+~
+0 0 23539
+D3
+~
+~
+0 0 23537
+S
+#23539
+#BBanco de Tokyo#b~
+Estas dentro del Banco de Tokyo, ves varias cajas en las cuales puedes hacer
+varios tipos de transacciones. 
+Hay mucha gente gritando y reclamando para que se le atienda rapidamente, un 
+Banquero muy amable y simpatico con cara de tramposo te pregunta si necesitas
+algo...
+~
+0 DY 0
+E
+hola~
+~
+D3
+~
+~
+0 0 23538
+S
+#23540
+#BCentro de Tokyo#b~
+Aun estas en el Centro de Tokyo, estas maravillado por los edificios que
+parecen de cristal. Al este ves el camino que toman los estudiantes para ir a 
+la escuela.
+~
+0 Y 1
+D1
+~
+~
+0 0 23541
+D3
+~
+~
+0 0 23530
+S
+#23541
+#BCaminio al Colegio#b~
+Vas en un camino que al parecer te lleva directo al colegio, ves pasar caleta 
+de estudiantes por tu lado, algunos van tranquilamente caminando, mientras
+que otros al paracer van muy atrasados...
+~
+0 Y 1
+D1
+~
+~
+0 0 23545
+D3
+~
+~
+0 0 23540
+D5
+~
+~
+AB 0 24565
+S
+#23542
+#BEl Caldero de la muerte...#b~
+Haz entrado en el gran Caldero de la Reina, aqui es donde botan los
+cuerpos mutilados de los que le han faltado el respeto al Negaverso...
+Las llamas te envuelven y el calor te sofoca, sientes que ya no podras
+seguir aguantando esto.....
+~
+0 BEJLNY 0
+D3
+~
+~
+0 0 23543
+D4
+~
+~
+AB 0 23515
+S
+#23543
+#BEn el interior de las Llamas...#b~
+A medida que te adentras hacia el fondo del caldero te preguntas, si es
+habra alguna salida de este caliente caldero...es como si entuvieras en
+las entranias de un gran Dragon...
+~
+0 BELNY 0
+D1
+~
+~
+0 0 23542
+D2
+~
+~
+0 0 23544
+S
+#23544
+#BEl fondo del Caldero.#b~
+Aqui si que esta Caliente, Ahgggg.... Comienzas a apurarte para salir luego
+tu cabello se te esta callendo, y tus ojos ya no distinguen mucho...
+pero sientes una corriente de aire frio.... de donde vendra???
+~
+0 ABEKNY 0
+D2
+~
+~
+0 0 23505
+S
+#23545
+#BEntrada al Colegio#b~
+Estas en la entrada al colegio, miles de estudiantes se reunen aqui para que 
+en sus horas de estudio aprendan todos los dias cosas nuevas, les ensenian
+todo tipo de cosas, y ellos las aprenden como ninios buenos...
+Esto te hace recordar tiempos pasados de ti, de como te comportabas cuando
+eras pendejo y de todas las estupideces que haz hecho en tu vida.
+~
+0 Y 1
+D1
+~
+~
+0 0 23546
+D3
+~
+~
+0 0 23541
+S
+#23546
+#BEn el Colegio#b~
+Ya estas adentro, te costo... pero lo lograste!!!, ves al norte y al sur
+el pasillo de clases y lejos al este se ve una escalera, a donde te llevara??
+~
+0 DY 0
+D0
+~
+~
+0 0 23547
+D1
+~
+~
+0 0 23553
+D2
+~
+~
+0 0 23550
+D3
+~
+~
+0 0 23545
+D4
+~
+~
+0 0 23561
+S
+#23547
+#BEn el Pasillo de Clases#b~
+~
+0 DY 0
+D0
+~
+~
+0 0 23548
+D1
+~
+~
+0 0 23591
+D2
+~
+~
+0 0 23546
+S
+#23548
+#BEn el Pasillo de Clases#b~
+~
+0 DY 0
+D0
+~
+~
+0 0 23549
+D1
+~
+~
+AB 0 23590
+D2
+~
+~
+0 0 23547
+S
+#23549
+#BFin del Pasillo Norte#b~
+~
+0 DY 0
+D1
+~
+~
+AB 0 23589
+D2
+~
+~
+0 0 23548
+S
+#23550
+#BEn el Pasillo de Clases#b~
+Estas en un largo pasillo que esta lleno de malditos estudiantes, los 
+profesores andan gritando por todos lados para poder calmar esta gran ola
+cast 'detect evil' estudiantes revoltosos.
+~
+0 DY 0
+D0
+~
+~
+0 0 23546
+D2
+~
+~
+0 0 23551
+S
+#23551
+#BEn el Pasillo de Clases#b~
+Estas en el final del pasillo, aqui ahi varios estudiantes escondidos fumando
+marihuana y miles de drogas mas que ni te imaginas, hay varios simbolos 
+en la pared uno de ellos esta escrito al parecer en runas elficas, etc.
+~
+0 DY 0
+D0
+~
+~
+0 0 23550
+D2
+~
+~
+0 0 23552
+S
+#0
+
+
+
+#SPECIALS
+M 23564 spec_thief
+M 23567 spec_guard
+M 23576 spec_cast_psionicist
+M 23578 spec_breath_any
+M 23590 spec_cast_cleric
+M 23503 spec_snake_charm
+M 23504 spec_questmaster
+M 23506 spec_guard_white
+M 23507 spec_rat
+M 23509 spec_antivampiro
+M 23510 spec_breath_frost
+M 23511 spec_breath_fire
+M 23512 spec_breath_any
+M 23513 spec_kungfu_poison
+M 23514 spec_cast_psionicist
+M 23516 spec_kungfu_poison
+M 23521 spec_kungfu_poison
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 23553 0 1
+D 0 23555 4 1
+D 0 23560 5 1
+D 0 23571 1 1
+D 0 23571 3 1
+D 0 23572 1 1
+D 0 23572 3 1
+D 0 23577 3 1
+D 0 23578 1 1
+D 0 23579 3 1
+D 0 23580 1 1
+D 0 23589 3 1
+D 0 23590 3 1
+D 0 23592 0 1
+D 0 23593 2 1
+D 0 23500 2 1
+D 0 23509 4 1
+D 0 23509 5 1
+D 0 23515 5 1
+D 0 23522 5 1
+D 0 23523 4 1
+D 0 23541 5 1
+D 0 23542 4 1
+D 0 23548 1 1
+D 0 23549 1 1
+M 0 23525 15 23552 10
+M 0 23525 15 23555 10
+M 0 23525 15 23557 10
+M 0 23525 15 23558 10
+M 0 23525 15 23559 10
+M 0 23500 1 23560 1
+M 0 23502 1 23560 1
+O 0 23561 0 23561
+P 0 23562 1 23561 1
+M 0 23562 1 23562 1
+M 0 23563 1 23563 1
+M 0 23564 1 23563 1
+M 0 23565 1 23563 1
+M 0 23566 1 23563 1
+M 0 23501 1 23563 1
+O 0 23570 0 23571
+M 0 23574 1 23574 1
+E 0 23575 0 3
+O 0 23564 0 23575
+M 0 23576 1 23576 1
+E 0 23576 0 12
+M 0 23577 1 23577 1
+G 0 23514 0
+M 0 23578 1 23578 1
+G 0 23515 0
+M 0 23579 1 23579 1
+M 0 23580 1 23580 1
+O 0 23569 0 23582
+M 0 23583 1 23583 1
+E 0 23572 0 3
+O 0 23571 0 23584
+M 0 23584 1 23584 1
+E 0 23573 0 3
+M 0 23585 1 23585 1
+E 0 23574 0 3
+M 0 23591 1 23592 1
+M 0 23592 1 23594 1
+G 0 23581 0
+M 0 23593 1 23594 1
+O 0 23593 0 23595
+M 0 23594 1 23595 1
+E 0 23592 0 17
+O 0 23500 0 23500
+M 0 23509 1 23500 1
+E 0 23577 0 17
+E 0 23578 0 16
+E 0 23580 0 7
+E 0 23528 0 13
+M 0 23503 1 23500 1
+E 0 23580 0 7
+E 0 23528 0 13
+M 0 23506 1 23500 1
+E 0 23580 0 7
+G 0 23526 0
+E 0 23528 0 13
+M 0 23512 1 23502 1
+E 0 23579 0 16
+G 0 23525 0
+E 0 23580 0 7
+E 0 23528 0 13
+G 0 23512 0
+O 0 23503 0 23503
+M 0 23507 1 23503 1
+E 0 23509 0 16
+G 0 23560 0
+M 0 23513 1 23504 1
+E 0 23580 0 7
+G 0 23523 0
+E 0 23528 0 13
+M 0 23505 1 23505 1
+E 0 23509 0 16
+M 0 23504 1 23505 1
+E 0 23511 0 16
+M 0 23511 1 23507 1
+E 0 23580 0 7
+G 0 23522 0
+E 0 23528 0 13
+M 0 23567 1 23508 1
+G 0 23510 0
+O 0 23520 0 23509
+M 0 23590 1 23510 1
+M 0 23515 1 23515 1
+G 0 23513 0
+M 0 23508 1 23516 1
+E 0 23567 0 16
+M 0 23517 1 23517 1
+E 0 23568 0 3
+M 0 23518 1 23518 1
+E 0 23565 0 5
+G 0 23517 0
+M 0 23519 1 23519 1
+E 0 23566 0 16
+M 0 23520 1 23520 1
+G 0 23501 0
+G 0 23502 0
+M 0 23521 1 23521 1
+G 0 23504 0
+M 0 23522 1 23522 1
+G 0 23505 0
+M 0 23523 1 23523 1
+G 0 23506 0
+M 0 23586 1 23529 1
+G 0 23517 0
+E 0 23511 0 16
+M 0 23536 1 23536 1
+G 0 23507 0
+M 0 23539 1 23539 1
+M 0 23514 1 23540 1
+E 0 23580 0 7
+G 0 23521 0
+E 0 23528 0 13
+G 0 23516 0
+M 0 23525 15 23541 10
+M 0 23516 1 23541 1
+E 0 23580 0 7
+G 0 23527 0
+E 0 23528 0 13
+E 0 23508 0 18
+M 0 23524 1 23541 1
+E 0 23580 0 7
+E 0 23528 0 13
+M 0 23510 1 23545 1
+E 0 23580 0 7
+G 0 23524 0
+E 0 23528 0 13
+G 0 23518 0
+M 0 23525 15 23546 10
+M 0 23525 15 23547 10
+M 0 23525 15 23549 10
+M 0 23525 15 23551 10
+S
+
+
+
+#SHOPS
+23562 0 0 0 0 0 100 100 0 0 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

@@ -1,0 +1,4892 @@
+#AREADATA
+Name Dragon Ball~
+Builders None~
+VNUMs 19200 19399
+Credits {35 60} Dracul   Dragon Ball~
+Security 9
+Prototipo 0
+Low 35
+High 60
+Version 2
+End
+
+
+
+#MOBILES
+#19200
+Son-Goku~
+Son-Goku~
+El Poderoso Son-Goku Esta Aqui, aunque su ki lo podias sentir a millas de distancia.
+~
+Al mirarlo te impresionas de todo el poder que puede alcanzar un saia-yin.
+~
+'human'
+ABT HTVa B 1000 0
+49 73 50d10+4500 49d16+100 11d5+18 punch
+-19 -19 -19 -16
+CDEFIKLTU BE 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#19201
+Son-Gohan~
+Son-Gohan~
+El Poderoso Son-Gohan Esta Aqui, para hacer pagar tus ofensas.
+~
+El Poderoso Son-Gohan hijo del Gran Son-Goku es muy fuerte como su padre, ademas posee una gran inteligencia
+~
+'human'
+ABR HV 0 1000 0
+44 22 25d10+2250 44d15+1500 12d3+14 punch
+-15 -15 -15 -14
+FKU H 0 0
+stand stand male 500
+0 0 medium 'unknown'
+C 'mage'
+#19202
+Son-Goten~
+Son-Goten~
+Son-Goten esta aqui, listo para Acabarte.
+~
+A pesar de ser el mas pequeno de los hijos de Goku es el tan poderoso como todo una saia-yin.
+~
+'human'
+ABD HVa 0 1000 0
+32 16 6d12+853 32d14+1100 6d4+9 punch
+-10 -10 -10 -9
+FIKU EHZ 0 0
+stand stand male 5000
+0 0 medium 'unknown'
+C 'psicionist'
+#19203
+truncs~
+Truncs~
+Truncs, El poderoso hijo de Vegetta esta aqui.
+~
+El ki emana de su alma.
+ 
+~
+'human'
+AT HPV 0 800 0
+45 67 25d10+3250 45d15+100 9d5+16 slice
+-15 -15 -15 -14
+CDEFIKLTU 0 EZ 0
+stand stand male 10000
+0 0 medium 'unknown'
+C 'warrior'
+#19204
+Vegetta~
+Vegetta~
+El poderoso Vegetta esta listo para darte una leccion.
+~
+~
+'human'
+ABFR HT 0 -400 0
+47 23 25d10+3000 47d15+1600 5d9+15 punch
+-16 -16 -16 -15
+FKU 0 E 0
+stand stand male 1000
+0 0 medium 'unknown'
+C 'mage'
+#19205
+Kurilin~
+Kurilin~
+Kurilin El Pequeno pero poderoso amigo de Son-Goku Esta Aqui.
+~
+En Su Calva Cabeza Brilla La Luna
+~
+'human'
+ABCHT H 0 400 0
+41 61 25d10+2250 41d15+100 12d3+14 punch
+-14 -14 -14 -13
+CDEFHKLTU 0 0 H
+stand stand male 500
+0 0 medium 'unknown'
+C 'warrior'
+F for HM
+F par ACGIJK
+#19206
+Ten-Shin-Han~
+Ten-Shin-Han~
+Ten-Shin-Han Esta aqui, tres ojos penetran tu mente.
+~
+El tercer ojo, no es nada solo una calcamonia.
+~
+'human'
+AT DFH 0 550 0
+41 61 25d10+2250 41d15+100 12d3+14 punch
+-14 -14 -14 -13
+CDEFIKLTU 0 E 0
+stand stand male 500
+0 0 medium 'unknown'
+C 'warrior'
+#19207
+Yamcha~
+Yamcha~
+Un apuesto joven llamado Yamcha, esta aqui esperando a su novia Bulma.
+~
+Se ve Bulma le a puesto guendi, esta muy flaco y ojeroso.
+~
+'human'
+AS V 0 350 0
+36 24 10d10+1300 36d14+100 6d5+11 punch
+-11 -11 -11 -11
+BEFIJKNUV 0 0 0
+stand stand male 200
+0 0 medium 'unknown'
+C 'thief'
+#19208
+Shaos~
+Shaos~
+El Pequeno chaos esta aqui.
+~
+Al verlo te da risa su cara
+~
+'human'
+AD H 0 200 0
+33 16 6d12+928 33d14+1200 4d7+9 none
+-11 -11 -11 -10
+FIKU 0 CEM 0
+stand stand male 2000
+0 M small 'unknown'
+C 'psicionist'
+F for HM
+F par ABDFGHIJK
+#19209
+yayirobe~
+Yayirobe~
+El obeso Yayirobe esta aqui, dispuesto a comerte.
+~
+A pesar de su gordura yayirobe es muy agil y fuerte.
+~
+'human'
+ABFT H 0 700 0
+40 60 25d10+2000 40d15+100 6d6+13 punch
+-13 -13 -13 -12
+CDEFIKLTU 0 EZ 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#19210
+sheng-long~
+Sheng-Long~
+El fabuloso Sheng-Long esta aqui, dispuesto a concederte tus deseos.
+~
+Un Dragon al estilo oriental, fuerte, flamante y poderos, que viene del rayo y crea la luz.
+~
+'dragon'
+ABQ H 0 1000 0
+49 24 50d10+4000 49d16+1700 13d4+17 none
+-19 -19 -19 -17
+FIKU J 0 0
+stand stand none 49000
+0 0 giant 'unknown'
+C 'cleric'
+F res E
+#19211
+maestro rochi~
+El Maestro Rochi~
+El anciano Maestro Rochi, esta aqui admirando sus pertenencias.
+~
+Es anciano pero poderoso, mejor no te metas con el o sino puedes salir perjudicado o VIOLADO!!!
+~
+'human'
+ABR HV 0 400 0
+43 21 25d10+2000 43d15+1500 6d6+13 punch
+-14 -14 -14 -14
+FKTU H E 0
+stand stand male 5000
+0 0 small 'unknown'
+C 'mage'
+#19212
+Launch~
+Launch~
+La bella Launch esta aqui, tranquilamente, no la vallas hacer estornudar.
+~
+Es bella, pero a Rochi no le interesa sus ojos estan en bulma.
+~
+'human'
+ABT Va 0 100 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFIKLTU 0 0 0
+stand stand female 500
+0 0 medium 'unknown'
+C 'warrior'
+#19213
+brolie~
+Brolie~
+El poderoso Broli, el legendario sayayin esta aqui.
+~
+Es realmente el mas impresionante ser que nunca has visto.
+~
+'human'
+ABT H B -1000 0
+49 73 50d10+4500 49d16+100 11d5+18 punch
+-19 -19 -19 -16
+CDEFIKLTU 0 CEGZ 0
+stand stand male 4000
+0 0 giant 'Atomos'
+C 'warrior'
+#19214
+Celula~
+Celula~
+Celula, el sanguinario, se desplaza por aqui.
+~
+Es verde, es grande y es temible.  Cuidado esta listo para fusionarte con
+el.  
+~
+'predator'
+ABT H 0 -800 0
+49 73 50d10+4500 49d16+100 11d5+18 slice
+-19 -19 -19 -16
+CDEFIKLTU 0 EG N
+stand stand male 10
+0 0 large 'unknown'
+C 'warrior'
+#19215
+carro capsula~
+un carro capsula~
+Un carro capsula recorre los caminos.
+~
+Un carro capsula automovil, la gente adentro va seria.
+~
+'dog'
+ACGQ CDFGJ 0 100 0
+7 3 2d6+85 7d10+300 1d6+1 crush
+4 4 4 5
+RU 0 E C
+stand stand none 5
+J 0 medium 'unknown'
+C 'cleric'
+F off H
+F for AGV
+F par ACDEFJKU
+#19216
+karin maestro~
+el maestro Karin~
+El Maestro Karin esta frente a ti, parece ser un gatito blanco.
+~
+Es un gato angora blanco. Con un baculo en la mano.
+~
+'cat'
+ABR V 0 800 0
+50 25 25d10+3750 50d16+1700 13d4+17 claw
+-19 -19 -19 -18
+KMU 0 E 0
+stand stand male 50
+0 0 small 'unknown'
+C 'mage'
+#19217
+kamizama~
+Kamizama~
+Kamizama el dios de la tierra, se ve imponente en este lugar.
+~
+Es todo verde y viejo. Es claro, un Mamekusein.
+~
+'god'
+ABCQ 0 0 1000 0
+49 24 50d10+4000 49d16+1700 13d4+17 divine
+-19 -19 -19 -19
+U 0 DZ P
+stand stand male 50
+0 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#19218
+pickoro~
+Pickoro~
+Pickoro el guerrero mamekusein, medita en este lugar.
+~
+Es verde y joven. Es un guerreo de la raza maekusein.
+~
+'troll'
+ABT H 0 -100 0
+50 75 50d10+5000 50d16+100 10d6+19 claw
+-20 -20 -20 -17
+CEFIKLTU 0 L I
+sit sit none 50
+GXc Q medium 'unknown'
+C 'warrior'
+#19219
+ciudadano~
+un ciudadano~
+Un ciudadano recorre la ciudad tranquilamente por aqui.
+~
+Un ciudadano promedio recorre por auqi.
+~
+'human'
+ACGQ V 0 800 0
+15 7 3d9+208 15d11+600 2d5+3 bite
+-2 -2 -2 -1
+IU 0 0 0
+stand stand none 20
+0 0 medium 'unknown'
+C 'cleric'
+F for AH
+F par DFGHIJK
+#19220
+luchador~
+el luchador~
+Un luchador de las artes marciales se flexiona por aqui.
+~
+Es un adiestrado en artes de combate.
+~
+'cromagnon'
+ABGT 0 0 -500 0
+20 30 4d10+360 20d12+100 2d8+5 crush
+-4 -4 -4 -3
+CDEFIKLTU 0 D 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F res FG
+#19221
+golpeado~
+el golpeado~
+Un hombre totalmente golpeado se queja aqui.
+~
+Esta todo morado e hincado por su cuerpo.  Ha perdido algo de sangre
+tambien.  
+~
+'human'
+ABCHRT d 0 0 0
+26 34 5d10+600 130d14+100 3d6+6 bite
+-7 -7 -7 -6
+FKLT 0 0 E
+sit sit male 5
+0 0 medium 'unknown'
+C 'mage'
+F for AH
+F par ABCDEFGHIJK
+R
+#19222
+asaltante~
+un asaltante~
+Un tipo con pasamontania y un cuchillo esta listo para asaltarte.
+~
+Lo unico que te llama la atencion es que lleva zapatillas blancas.  
+~
+'cromagnon'
+ABCFS 0 0 0 0
+38 25 10d10+1500 38d14+100 8d4+12 slice
+-12 -12 -12 -11
+BEFIJKNUV 0 D 0
+stand stand male 5
+0 0 medium 'unknown'
+C 'thief'
+F res FG
+#19223
+perro~
+un perro~
+Un perro negro y con cicatrices te muestra sus dientes feroz.
+~
+Parece ser el perro de un narcotraficante o algo asi.
+~
+'dog'
+ABT 0 0 -100 0
+35 52 10d10+1400 35d14+100 6d5+11 bite
+-11 -11 -11 -10
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#19224
+ejecutivo~
+un ejecutivo~
+Un ejecutivo con cara de importante camina rapido por aqui.
+~
+Lleva un pantalon azul, un terno gris y un maletin.
+~
+'human'
+AGQ HV 0 350 0
+31 15 6d12+928 31d13+1100 2d12+8 punch
+-10 -10 -10 -9
+FIKU 0 0 0
+stand stand male 50
+0 0 medium 'unknown'
+C 'cleric'
+#19225
+secretaria~
+la secretaria~
+Una secretaria esta aqui entregando #Bquest#b a los clientes.
+~
+Solo debes escribir #BQUEST#b frente a ella.
+~
+'god'
+ABR 0 0 500 0
+30 15 6d12+703 30d13+1100 5d4+7 punch
+-9 -9 -9 -9
+U 0 0 0
+stand stand female 30000
+0 0 medium 'unknown'
+C 'mage'
+F off CDEILNO
+#19226
+banquero~
+un banquero~
+Un banquero esta aqui presto para atender a sus clientes.
+~
+Es gordito, con terno y medio rosado.  Tiene un polvo blanco en la nariz.  
+~
+'god'
+ABQe 0 0 0 0
+55 27 50d10+7000 55d16+1900 15d6+21 none
+-25 -25 -25 -25
+U 0 0 0
+stand stand male 5000
+0 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#19227
+reparadora~
+la reparadora~
+Una gran maquina reparadora haciendo ruidos y zumbidos aqui.
+~
+Tiene un letrero que dice : #Bprueba con "REPA ALL"#b
+~
+'god'
+ABQ 0 0 500 0
+60 30 50d10+9500 60d17+2100 20d10+25 crush
+-30 -30 -30 -30
+U 0 0 0
+stand stand male 5000
+0 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#19228
+meriador~
+Meriador~
+Meriador, con su cutis curtido y se pelo rizado, esta aqui.
+~
+Parece un tipo que viste el otro dia en la calle.
+~
+'god'
+ABR 0 0 500 0
+59 29 50d10+8000 59d17+2000 15d9+24 none
+-28 -28 -28 -28
+U 0 0 0
+stand stand male 59000
+0 0 medium 'unknown'
+C 'mage'
+F off CDEILNO
+#19229
+moe~
+Moe~
+Moe el vendedor esta aqui listo para servirte.
+~
+Es muy parecido a alguien que has visto en un bar.
+~
+'god'
+ABR 0 0 500 0
+59 29 50d10+8000 59d17+2000 15d9+24 none
+-28 -28 -28 -28
+U 0 0 0
+stand stand male 59000
+0 0 medium 'unknown'
+C 'mage'
+F off CDEILNO
+#19230
+fausto~
+Fausto~
+Un viejo ya encorvado ya abatido esta frente a ti.
+~
+Parece ser el heroe de la historia epica de Wagner.
+~
+'god'
+ABQ 0 0 500 0
+59 29 50d10+9000 59d17+2000 15d10+24 bite
+-29 -29 -29 -29
+U 0 0 0
+stand stand male 59000
+0 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#19231
+maquina~
+una maquina~
+Una maquina expendedora de comida espera aqui.
+~
+Una maquina de comida prueba con #BLIST#b
+~
+'god'
+ABR 0 0 0 0
+50 66 50d10+4000 450d18+100 13d4+17 crush
+-19 -19 -19 -19
+U 0 0 0
+stand stand none 50000
+0 0 medium 'unknown'
+C 'mage'
+F aff HU
+F off CDEILNO
+R
+#19232
+capitan~
+El capitan~
+Un capitan de la guardia mantiene el orden en este lugar.
+~
+Su placa brilla por sobre todas las cosas.  
+~
+'human'
+ABT H 0 600 0
+35 52 10d10+1400 35d14+100 6d5+11 punch
+-11 -11 -11 -10
+CDEFIKLTU 0 DE 0
+stand stand male 50
+0 0 medium 'carne'
+C 'warrior'
+#19234
+prisionero~
+el prisionero~
+Un prisionero, de un crimen que no cometio, llora aqui.
+~
+Canta: Ladrillo esta en la carcel...  Su parecido con Jorge Gonzales es
+impresionnate.  
+~
+'elf'
+AFGS 0 0 -600 0
+38 25 10d10+1500 38d14+100 8d4+12 punch
+-12 -12 -12 -11
+BEFIJKNUV 0 0 0
+stand stand male 900
+0 0 medium 'unknown'
+C 'thief'
+F res B
+#19235
+pocion~
+una pocion~
+Un pocion amarilla aqui.
+~
+Una pocion amarila burbujenate.
+~
+'doll'
+AHS 0 0 -50 0
+4 2 2d6+35 4d10+100 1d6+0 bite
+7 7 7 9
+BFNU 0 0 0
+stand stand none 10
+0 0 medium 'unknown'
+C 'thief'
+F imm P
+F par ACGHK
+#19236
+sistema sanacion~
+el sistema de sanacion~
+El sistema de sanacion esta aqui activado a tu presencia.
+~
+Es una gran capsula llena de liquido para sanar. Tipe #BHEAL LIST#b
+~
+'god'
+ABQa 0 0 999 0
+30 15 6d12+853 30d13+1100 2d12+8 crush
+-9 -9 -9 -9
+U 0 0 0
+stand stand none 5000
+0 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#19237
+vendedor~
+el vendedor~
+Un vendedor esta aqui espectante a tus deseos.
+~
+La verdad es que tiene toda la aprencia de un DIos.
+~
+'god'
+ABT 0 0 1000 0
+55 82 50d10+7500 55d16+100 15d8+23 punch
+-25 -25 -25 -25
+TU 0 0 0
+stand stand male 55000
+0 0 medium 'unknown'
+C 'warrior'
+F off NO
+#19238
+robot~
+el robot~
+Un robot gigatesco zumba y construye maquinarias aqui.
+~
+Es una tremenda maquina llena de artefactos laser y pinzas.
+~
+'robot'
+ABT Hd 0 800 0
+51 76 50d10+5500 51d16+100 5d13+20 charge
+-21 -21 -21 -21
+CDEFIKLTU 0 CE 0
+stand stand none 50
+0 0 giant 'unknown'
+C 'warrior'
+#19239
+ingeniero~
+un ingeniero~
+Un ingeniero resuelve absorto sin notar tu presencia.
+~
+Es un ingeniero de la Universidad tecnologica  Metropolitana,
+~
+'cromagnon'
+ABT 0 0 900 0
+50 75 50d10+5000 50d16+100 10d6+19 punch
+-20 -20 -20 -17
+CDEFIKLTU 0 DE 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'warrior'
+F res FG
+#19240
+guildmaster~
+tu guildmaster~
+Tu guildmaster esta aqui, se siente #Bpoder#b emanar de el.
+~
+Esta entrenado en todas las artes que tu quisieras.
+~
+'god'
+ABTb 0 0 0 0
+59 88 50d10+9500 59d17+100 30d10+26 wrath
+-29 -29 -29 -29
+TU 0 B Z
+stand stand male 40
+AH 0 medium 'unknown'
+C 'warrior'
+F off NO
+#19250
+rata~
+Una rata~
+Una rata esta aqui, alimentandose de los desperdicios.
+~
+~
+'animal'
+A M 0 0 0
+10 0 2d7+121 10d11+100 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+F off CI
+#19251
+pajaro~
+Un pajaro Verde~
+Un Pajaro Verde y con un pico muy extranno (no seas mal pensado).
+~
+~
+'animal'
+AT V 0 0 0
+14 21 3d9+208 14d11+100 1d12+3 none
+-1 -1 -1 1
+EFKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#19252
+Marino~
+Un Marino~
+Un Marino esta aqui Vendiendo Los Productos robados de Capsule Corp.
+~
+~
+'fox'
+ABQ 0 0 0 0
+25 12 5d10+550 25d13+900 3d6+6 none
+-7 -7 -7 -6
+IKMU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+#19253
+Oolong~
+Oolong~
+Oolong, el cerdito, esta Masturbandose aqui.
+~
+Chancho Cochino, masturbandose con las fotos de la Bulma.... que chancho mas califa, con razon es amigo de Rochi.
+~
+'pig'
+AB VY 0 0 0
+10 0 2d7+121 10d11+100 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand male 0
+0 0 small 'unknown'
+C 'thief'
+#19288
+teniente~
+El teniente~
+Un teniente de gendarmeria inspecciona aqui atentamente.
+~
+Lleva su uniforme impecable.
+~
+'cromagnon'
+ABT H 0 450 0
+33 49 10d10+1200 33d14+100 7d4+10 punch
+-11 -11 -11 -9
+CDEFIKLTU 0 D 0
+stand stand male 50
+0 0 medium 'unknown'
+C 'warrior'
+F res FG
+#19300
+kakaroto~
+Son-Goku~
+El Poderoso Son-Goku Esta Aqui, aunque su ki lo podias sentir a millas de distancia.
+~
+Al mirarlo te impresionas de todo el poder que puede alcanzar un saia-yin.
+~
+'human'
+ABT HTVa B 1000 0
+49 73 50d10+4500 49d16+100 11d5+18 punch
+-19 -19 -19 -16
+CDEFIKLTU BE 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#19333
+coronel~
+El Coronel~
+El Coronel limpia su placa mientras todo se mantiene en orden aqui.
+~
+Lleva ya decadas de servicio. Es un gendarme de calidad.
+~
+'cromagnon'
+ABT H 0 800 0
+40 60 25d10+2000 40d15+100 6d6+13 punch
+-13 -13 -13 -12
+CDEFIKLTU 0 D 0
+stand stand male 80
+0 0 medium 'unknown'
+C 'warrior'
+F res FG
+#0
+
+
+
+#OBJECTS
+#19200
+Nube Voladora~
+nube Voladora~
+La Nube Voladora, esta aqui para llevarte donde quieras.~
+Vapor~
+treasure AKY AQ
+0 0 0 0 0
+30 5 45000 P
+A
+14 500
+#19201
+Llave~
+la Llave del Entretecho.~
+Un Oxidada Llave llace aqui.~
+indef~
+key 0 AH
+0 0 0 0 0
+1 1 0 P
+#19202
+water~
+el water~
+Un Water esta aqui, dentro de su tapa se esconden los mas grandes secretos.~
+indef~
+fountain 0 0
+1000 1000 'blood' 0 0
+0 8 100 P
+#19203
+llave grasienta~
+una Llave~
+Una Llave Grasienta esta aqui.~
+oro~
+key B A
+0 0 0 0 0
+5 1 1000 P
+#19204
+katana~
+una katana ~
+Una katana, pertenciente a la yakuza esta aqui~
+acero~
+weapon B AN
+sword 5 9 'slash' 0
+40 20 15000 P
+A
+19 5
+A
+3 -1
+#19205
+Kimono~
+un Kimono~
+El Kimono del Gran Yayirobe~
+tela~
+clothing 0 AD
+0 0 0 0 0
+20 20 10000 P
+A
+17 10
+A
+24 5
+#19206
+pez pescado~
+un Pez~
+Un Pez con tres ojos esta aqui.~
+indef~
+food A A
+5 10 0 0 0
+1 10 1000 P
+#19207
+astas~
+las astas de Sheng-Long~
+Unas Astas de maderas, llacen aqui~
+madera~
+clothing B AE
+0 0 0 0 0
+39 200 10000 P
+A
+19 3
+A
+18 3
+A
+12 50
+A
+13 50
+#19208
+bote capsula~
+un bote capsula~
+Un pequena capsula que dice Bote esta aqui~
+goma~
+boat 0 A
+0 0 0 0 0
+10 10 10000 P
+#19209
+capsula energizante~
+una Capsula Energizante~
+Una Capsula Energizante esta aqui~
+indef~
+pill 0 A
+15 'armor' '' '' ''
+15 30 5000 P
+#19210
+revista playdragon play-dragon~
+una Play-Dragon~
+Una revista Play-Dragon con un especial de Bulma y Vegetta en la intimidad, esta aqui~
+papel~
+scroll 0 A
+10 'heal' '' '' ''
+10 50 100000 P
+#19211
+figurita goku~
+una figurita animada de Goku~
+Una figurita bandai de goku, esta aqui~
+plastico~
+wand 0 AO
+15 5 5 'floating disc' 0
+15 10 10000 P
+#19212
+porno pelicula~
+una pelicula porno~
+Una Pelicula porno "A la cama con Bulma", esta aqui~
+indef~
+trash 0 A
+0 0 0 0 0
+0 100 0 P
+#19213
+antejos oscuros rochi~
+unos anteojos oscuros~
+Los anteojos oscuros del Maestro Rochi.~
+indef~
+clothing 0 AR
+0 0 0 0 0
+37 50 10000 P
+A
+18 4
+A
+4 -1
+#19214
+caparazon tortuga~
+un caparazon de tortuga~
+Un caparon de tortuga esta aqui.~
+tortuga~
+armor 0 AD
+10 10 10 10 0
+35 450 100000 P
+A
+19 5
+A
+13 -30
+#19215
+uzi metralleta~
+una uzi~
+Una metralleta Uzi, esta Aqui.~
+indef~
+weapon B AN
+exotic 5 8 'blast' F
+25 20 25000 P
+#19216
+lazo~
+un Lazo para el cabello~
+Un lazo rosado para el cabello~
+indef~
+clothing 0 AE
+0 0 0 0 0
+20 20 1000 P
+A
+13 20
+#19217
+vestido~
+un Vestido Rosado~
+Un hermoso vestido rosado, esta aqui.~
+indef~
+clothing 0 AD
+0 0 0 0 0
+20 10 5000 P
+A
+17 3
+#19218
+galleta arroz~
+una galleta de arroz~
+Una galleta de arroz, esta aqui~
+indef~
+food 0 A
+10 10 0 0 0
+0 1 100 P
+#19219
+Z Sword~
+La Z Sword~
+La Z Sword, llena de ki la habitacion~
+acero~
+weapon A AN
+sword 6 6 'slice' 0
+39 20 32000 P
+A
+19 3
+A
+13 50
+#19220
+hombreras puntas~
+Hombreras en punta~
+Unas hombreras terminadas en punta yacen aqui.~
+indef~
+armor S AK
+4 4 4 4 0
+12 10 5000 P
+A
+5 1
+#19221
+traje termocaucho~
+Un traje termocauchico~
+Un traje azul de caucho esta aqui.~
+indef~
+armor 0 AD
+3 3 3 3 0
+15 9 80000 P
+A
+24 -5
+A
+23 -5
+A
+20 -5
+#19222
+kimono roshi~
+Kimono de la academia Roshi~
+Un kimono con el simbolo de la academia de Roshi aqui.~
+indef~
+armor K AD
+6 6 3 3 0
+20 10 90000 P
+A
+4 1
+A
+13 15
+#19223
+kimono zuru~
+Un kimono de la academia Zuru~
+Un kimono de la academia del Maestro Zuru aqui.~
+tela~
+armor J AD
+6 6 3 6 0
+20 120 90000 P
+A
+13 12
+A
+1 1
+#19224
+kimetro ki-metro~
+Un Ki-metro rojo~
+Un detector de KI rojo yace aqui.~
+plastico~
+armor B AE
+5 5 5 1 0
+18 5 10000 P
+A
+19 2
+#19225
+Bototines~
+Bototines negros~
+Un Bototines negros y brillantes aqui.~
+indef~
+armor M AG
+3 3 3 3 0
+15 40 1200 P
+A
+13 20
+A
+14 20
+#19226
+guantes hidromecanicos~
+guantes hidromecanicos~
+Unos guantes con un sistema hidromecanico aqui.~
+metal~
+armor B AH
+5 3 3 6 0
+20 10 2000 P
+A
+18 1
+A
+1 1
+#19227
+gamarras~
+unas gamarras~
+Unas gamarras de cuero yacen aqui.~
+cuero~
+armor U AH
+3 3 3 5 0
+15 9 5000 P
+A
+24 -5
+#19228
+polainas kevlar~
+polainas de Kevlar~
+Unas bellas polainas de Kevlar aqui.~
+kevlar~
+armor S AF
+4 4 5 4 0
+20 10 8000 P
+A
+14 20
+A
+17 -3
+#19229
+neutro escudo~
+un Neutro Escudo~
+Un escudo neutralizador de energia yace aqui.~
+neutrones~
+armor MS AJ
+4 8 4 2 0
+19 20 9000 P
+A
+23 5
+A
+24 5
+#19230
+jansport~
+mochila Jansport~
+Una mochila Jansport nueva, aqui.~
+indef~
+container 0 AO
+200 A 0 80 80
+20 9 12000 P
+#19231
+anillo gemas~
+anillo de gemas~
+Un bello anillo con gemas esta aqui.~
+indef~
+armor 0 AB
+2 0 2 2 0
+15 2 10000 P
+A
+19 2
+A
+17 2
+#19232
+antebrazos cerdas~
+antebrazos de Cerdas~
+Unas cerdas finamente tejias en forma de brazos aqui.~
+cerdas~
+armor I AM
+7 5 5 6 0
+19 9 7000 P
+A
+19 2
+#19233
+translucido casco~
+casco translucido~
+Un casco trasnparente yace aqui.~
+indef~
+armor B AE
+5 5 4 4 0
+23 12 12000 P
+F
+A 19 2 U
+#19234
+polymorpants~
+unos Polymorpants~
+Unos "Polymorpants" para la piernas aqui.~
+indef~
+armor I AF
+4 5 4 3 0
+25 10 13000 P
+#19235
+anillo vedico~
+anillo vedico~
+Un anillo con inscripcion vedicas yace aqui.~
+indef~
+armor 0 AB
+2 2 2 5 0
+21 2 12000 P
+F
+A 18 1 a
+#19236
+gorguera~
+una gorguera~
+Una gorguera de estilo siglo XV, ves aqui.~
+tela~
+clothing 0 AC
+0 0 0 0 0
+45 8 12000 P
+A
+12 25
+A
+19 3
+#19237
+cola saya~
+una cola de sayayin~
+La cola extirpada a un Sayayin yace aqui.~
+carne~
+trash Q AL
+0 0 0 0 0
+40 50 900 P
+A
+19 4
+A
+2 3
+#19238
+peluca rubia~
+una peluca rubia~
+La peluca rubia de un Sayayin yace aqui.~
+indef~
+trash 0 AE
+0 0 0 0 0
+46 8 200 P
+A
+19 4
+A
+5 2
+A
+1 2
+#19239
+soldador laser~
+un soldador laser~
+Un soldador laser de un sistema robotizado yace aqui.~
+metal~
+armor B AM
+10 10 10 13 0
+49 100 35000 P
+A
+18 3
+A
+19 4
+#19240
+grua~
+una grua manual~
+Un sistema de grua mecanico robotizado yace aqui.~
+kevlar~
+armor 0 AH
+15 10 11 10 0
+50 300 20000 P
+A
+5 3
+A
+19 4
+#19241
+camisa azul~
+una camisa de gendarmeria~
+Una camisa azul de gendarmeria, ves aqui.~
+tela~
+clothing 0 AK
+0 0 0 0 0
+33 8 500 P
+A
+17 9
+#19242
+pantalon azul~
+un pantalon de gendarmeria~
+Un pantalon azul de gendarmeria, ves aqui.~
+tela~
+clothing 0 AF
+0 0 0 0 0
+33 8 100 P
+A
+17 4
+#19243
+jubon~
+un Jubon~
+Un jubon de la edad media yace aqui.~
+tela~
+clothing 0 AD
+0 0 0 0 0
+35 10 34000 P
+A
+17 8
+#19244
+levita inglesa~
+una Levita Inglesa~
+Una levita clasica Inglesa yace aqui.~
+antimonio~
+armor 0 AK
+8 10 10 8 0
+35 250 48000 P
+F
+A 2 3 V
+A
+18 -2
+#19245
+kilt escoses~
+un Kilt escoses~
+Un Kilt, faldita escosesa, yace aqui.~
+indef~
+clothing 0 AL
+0 0 0 0 0
+35 8 23000 P
+A
+17 9
+A
+2 -1
+#19246
+abrigo vison~
+un abrigo de piel~
+Un abrigo de piel de vison yace aqui.~
+pelos~
+clothing E AD
+0 0 0 0 0
+35 13 35000 P
+F
+A 5 1 Q
+#19247
+mascarilla medica~
+una mascarilla medica~
+Una mascarilla medica botada aqui.~
+tela~
+trash 0 AE
+0 0 0 0 0
+33 4 45000 P
+A
+23 -5
+A
+22 -5
+#19248
+cetro mesianico~
+un cetro del mesias~
+Un cetro mesianico con simbolos sagrados, aqui.~
+arcaico~
+wand BI AO
+15 6 6 'ray of truth' 0
+20 8 80000 P
+#19249
+baculo sagrado~
+el baculo sagrado~
+El baculo sagrado de goku yace aqui.~
+madera~
+staff I AO
+10 10 10 'enhance health' 0
+48 400 80 P
+#19250
+primera esfera~
+la primera esfera del dragon~
+La belleza pierda su definicion al admirar esta maravilla.~
+cristal~
+gem APY AQ
+0 0 0 0 0
+40 2 100000 P
+A
+13 100
+#19251
+segunda esfera~
+la segunda esfera del dragon~
+El Poder emana de su interior, penetrando directamente desde tus ojos a tu mente.~
+cristal~
+gem AY AQ
+0 0 0 0 0
+40 2 100000 P
+A
+12 100
+#19252
+tercera esfera~
+la tercera esfera del dragon~
+La tercera esfera del dragon.~
+cristal~
+gem AQY AQ
+0 0 0 0 0
+40 2 100000 P
+A
+1 4
+#19253
+cuarta esfera~
+la Cuarta esfera del dragon~
+El poder de los saia-yines la ha echo ser mas poderosa que las otras.~
+cristal~
+gem AQY AQ
+0 0 0 0 0
+40 2 100000 P
+A
+19 5
+A
+18 5
+#19254
+quinta esfera~
+la quinta esfera del dragon~
+La esfera mas solida de todas y la mas pesada.~
+indef~
+gem AQY AQ
+0 0 0 0 0
+40 3 100000 P
+A
+5 4
+A
+17 5
+#19255
+sexta esfera~
+la sexta esfera del dragon~
+La mas Liviana y fragil de todas las creadas por Kamizama~
+cristal~
+gem AQY AQ
+0 0 0 0 0
+40 1 100000 P
+A
+3 5
+A
+4 5
+#19256
+septima esfera~
+la septima esfera del dragon~
+Long La esfera del guerrero, asi es como a esta esfera se le conoce desde la antiguedad.~
+cristal~
+gem AY AQ
+0 0 0 0 0
+40 2 100000 P
+A
+24 10
+A
+23 10
+A
+17 -50
+#19257
+mangual~
+un mangual de acero~
+un mangual con tres bolas de metal yace aqui.~
+indef~
+weapon 0 AN
+polearm 5 7 'crush' 0
+30 18 15000 P
+A
+18 2
+#19258
+hoz~
+una hoz~
+Un hoz para sesgar yace aqui.~
+mistico~
+weapon AE AN
+exotic 6 6 'slice' E
+31 19 30000 P
+A
+18 -1
+#19259
+tora~
+la Tora~
+La Tora y los 5 libros sagrados yacen aqui.~
+papel~
+scroll I AO
+20 'sanctuary' '' '' ''
+22 9 190000 P
+#19260
+basto gitano~
+un basto gitano~
+Un basto grotesco del estilo gitano yace aqui.~
+madera~
+wand P AO
+19 6 6 'agitation' 0
+20 14 90000 P
+#19261
+sistro egipcio~
+un sistro egipcio~
+Un sistro egipcio aun mantiene su sonido punzante aqui.~
+ceramica~
+staff B AO
+30 5 5 'heat metal' 0
+30 19 120000 P
+#19262
+hueso dios~
+un hueso de dios~
+Un hueso caido del cuerpo de dios tras muerte yace aqui.~
+indef~
+staff ABIMY AO
+30 10 10 'acid blast' 0
+36 200 180000 P
+#19263
+muerdago rama~
+un muerdago~
+Una rama de muerdago se menea al viento aqui.~
+muerdago~
+staff Y AO
+20 3 3 'mass healing' 0
+20 80 100000 P
+#19264
+baston liturgico~
+un baston liturgico~
+Un baston de la liturgia catolica brilla aqui.~
+cobre~
+staff AI AO
+40 12 12 'holy word' 0
+42 15 130000 P
+F
+A 0 0 J
+#19265
+beretta~
+una beretta~
+Una arma Beretta calibre 24'' yace aqui.~
+metal~
+wand B AO
+25 5 5 'high explosive' 0
+33 12 50000 P
+#19266
+hexaedro~
+un hexaedro~
+Una figura hexaedrenal diafracta la luz en este lugar.~
+gema~
+wand A AO
+35 2 2 'disintegrate' 0
+25 9 140000 P
+#19267
+cuarzo negro~
+un cuarzo negro~
+Un cuarzo negro absorbe la luz de todo lugar aqui.~
+cuarzo~
+wand A AO
+10 8 8 'blindness' 0
+11 9 90000 P
+#19268
+pergamino magico~
+un pergamino magico~
+Un pergamino con inscripciones magicas se ve aqui.~
+papel~
+scroll G A
+30 'dispel magic' 'blindness' '' ''
+32 4 200000 P
+#19269
+ushpanihad~
+el ushpanihad~
+El ushpanihas hindu vedico yace aqui.~
+indef~
+scroll I AO
+30 'stone skin' '' '' ''
+37 9 300000 P
+#19270
+testamento~
+el nuevo testamento~
+El nuevo Testamento en version remozada esta aqui.~
+papel~
+scroll IY AH
+40 'mute' '' '' ''
+45 9 500000 P
+#19271
+tablilla medieval~
+una tablilla medieval~
+un tablilla con inscripciones medievales esta aqui.~
+madera~
+scroll 0 A
+19 'demonfire' '' '' ''
+23 10 100000 P
+#19272
+manual~
+un manual cientifico~
+Un manual cientifico muy voluminoso yace aqui.~
+indef~
+scroll 0 A
+47 'holy word' 'bless' '' ''
+48 9 2000 P
+#19273
+edificio~
+un edificio~
+Un edifico se alza majestuoso, parece ser translucido.~
+cemento~
+container BFO 0
+40000 0 0 200 50
+60 20000 1 P
+E
+edificio~
+El edificio se extiende unos 90 pisos hacia arriba.  Cruza mas alla de
+las nubes del cielo.  No entiendes como ni porque es transparente como el
+agua.  
+~
+#19274
+fuente~
+una fuente dorada~
+Un hermosa fuente burbujea aqui.~
+indef~
+fountain BO 0
+500 500 'water' 0 0
+1 50 1 P
+#19275
+llave gris~
+una llave gris~
+Una llave gris se confude con el suelo aqui.~
+metal~
+key 0 AO
+0 0 0 0 0
+25 2 20 P
+#19276
+mesa~
+una mesa~
+Una mesa muy adornada con papeles sobre ella yace aqui.~
+madera~
+furniture O 0
+3 20000 0 300 300
+15 300 20 P
+#19277
+propulsor capsula~
+una capsula propulsor~
+Un capsula con el nombre "propulsor" aqui.~
+capsula~
+trash M AG
+0 0 0 0 0
+33 400 30000 P
+A
+14 200
+F
+A 2 2 V
+#19278
+traje capsula~
+una capsula traje~
+Una capsula que dice "traje" yace aqui.~
+indef~
+armor Y AD
+15 15 15 16 0
+47 450 34000 P
+A
+19 4
+A
+24 7
+#19279
+campo escudo capsula~
+una capsula escudo~
+Una capsula que dice "campo de poder" yace aqui.~
+indef~
+armor 0 AJ
+12 12 14 12 0
+48 70 45000 P
+F
+A 18 2 H
+F
+A 19 4 Q
+#19280
+caja~
+una caja de fondo~
+La caja donde se almacena el dinero.~
+metal~
+container FOa 0
+10000000 CD 0 5000 40
+25 22222 1 P
+#19281
+mazo~
+un mazo~
+Un mazo con inscripcion secretas.~
+kevlar~
+weapon HY AN
+mace 5 5 'crush' 0
+12 200 30000 P
+A
+3 -1
+#19282
+lanza~
+la lanza sagrada~
+Una lanza con simbolos sagrados yace aqui.~
+metal~
+weapon HY AN
+staff 5 5 'slice' 0
+16 15 30000 P
+A
+18 -1
+#19283
+espada calavera~
+una espada con calavera~
+Una espada con mango de calavera yace aqui.~
+kevlar~
+weapon HY AN
+sword 5 5 'crush' 0
+17 170 35000 P
+A
+19 -1
+#19284
+espada hielo~
+una espada de hielo~
+Una espada hecha de hielo vaporea aqui.~
+hielo~
+weapon BHY AN
+sword 6 8 'slash' B
+38 290 55000 P
+A
+1 -4
+A
+12 -50
+A
+3 -1
+#19285
+espada dragon~
+una espada con dragones~
+Una espada con un dragon gigante dibujado en su filo yace aqui.~
+metal~
+weapon HY AN
+sword 6 8 'cleave' 0
+29 220 40000 P
+A
+3 -1
+A
+2 -1
+#19286
+manos energia guante~
+sus manos con energia~
+Unos guantes en forma de manos llenos de energia estan aqui.~
+energia~
+weapon BHY AN
+exotic 5 11 'shbite' G
+49 200 60000 P
+A
+13 -50
+A
+19 5
+#19287
+baston~
+el baston de Karin~
+Un baston de madera muy encorvado yace aqui.~
+madera~
+wand Y AO
+45 3 3 'general purpose' 0
+48 400 50000 P
+#19288
+ocho 8~
+una capsula ocho~
+Una capsula numero ocho para el hambre.~
+comida~
+pill PY A
+10 'sate' '' '' ''
+10 3 6000 P
+#19289
+69 pildora~
+una pildora 69~
+Una pildora numero 69 para la sed.~
+comida~
+pill PY A
+10 'quench' '' '' ''
+10 2 7000 P
+#19290
+pie~
+un pie~
+Un pie de limon y frambuesa.~
+indef~
+food 0 A
+10 9 0 0 0
+5 5 25 P
+#19300
+pocion bien~
+una pocion de Bien~
+Un pocion que dice "para el bien" esta aqui.~
+indef~
+potion B A
+22 'detect evil' 'protection evil' '' ''
+20 60 20000 P
+#19301
+pocion mal~
+pocion de Mal~
+Una pocion que dice "por el Mal" esta aqui.~
+vidrio~
+potion A A
+20 'detect good' 'protection good' '' ''
+30 90 34000 P
+#19302
+pocion santos~
+pocion de santos~
+Una pocion que dice "sangre de los santos" esta aqui.~
+indef~
+potion A AO
+25 'heal' 'cure serious' '' ''
+25 70 20000 P
+#19303
+pocion proteccion~
+pocion de proteccion~
+Una pocion que dice "proteccion" esta aqui.~
+indef~
+potion B A
+30 'protection good' '' '' ''
+33 100 45000 P
+#19304
+casco madera~
+un casco de madera~
+Un casco de madera descanza aqui.~
+indef~
+armor MSYZ AE
+10 10 10 10 0
+20 5 50000 P
+A
+17 -40
+F
+A 1 -10 K
+F
+A 17 500 I
+F
+A 3 -20 M
+#19329
+voladora pocion~
+una pocion voladora~
+Una pocion que dice "Vuelo" esta aqui.~
+indef~
+potion A AO
+10 'fly' '' '' ''
+5 3 800 P
+#0
+
+
+
+#ROOMS
+#19200
+Entrada a Dragon Ball World~
+Estas a Punto de entrar al Mundo de Dragon Ball, preparate para vivir las
+aventuras mas emocionantes en la busqueda de las esferas del dragon.  El
+poderoso ki de los Guerreros que viven en este mundo se puede sentir donde
+quiera que vallas.  
+~
+0 C 2
+D0
+~
+~
+0 0 19201
+D2
+~
+~
+0 0 6151
+S
+#19201
+La Encrucijada~
+Has llegado a una interseccion.  Hacia el Norte a lo lejos divisas el
+oceano, al Oeste obervas las cupulas de unos enormes edificios.  El lugar
+parece ser bastante transitado, hacia el norte hay huellas de pisadas.  
+~
+0 0 3
+D0
+~
+~
+0 0 19202
+D2
+~
+~
+0 0 19200
+D3
+~
+~
+0 0 19250
+S
+#19202
+Camino a la Costa~
+Vas por la senda que te conducira hacia el puerto, el ruido del mar es
+cada ves mas potente y el ki se aumenta a medida que vas hacia el norte.  
+~
+0 0 2
+D0
+~
+~
+0 0 19203
+D2
+~
+~
+0 0 19201
+S
+#19203
+El Puerto de Sheng Long~
+El Puerto de Sheng Long es imprsionante lleno de baracazas, y fornidos
+marinos todos dispuestos a llevarte a cualquier lugar del Gran oceano. 
+Hacia el este el olor a pescado de la caleta inunda tus narices.  
+~
+0 K 1
+D0
+~
+~
+0 0 19227
+D1
+~
+~
+0 0 19204
+D2
+~
+~
+0 0 19202
+D3
+~
+~
+0 0 19205
+S
+#19204
+Caleta de Sheng Long~
+La caleta llena de los manjares provenientes del Gran oceano, peces
+extranos que nunca has visto en tu vida, mariscos de colores y todo cuanto
+te puedas inmaginar que existe en Dragon World.  
+~
+0 0 1
+D1
+~
+~
+0 0 19362
+D2
+~
+~
+0 0 19215
+D3
+~
+~
+0 0 19203
+S
+#19205
+Bar El Dragon~
+El bar el dragon es el lugar de reunion de todos los marinos y pescadores
+del Puerto de Sheng Long, multitudes de extranos seres merodean el lugar, el
+abiente no es normal como todo en este lugar 
+~
+0 0 0
+D1
+~
+~
+0 0 19203
+D4
+~
+~
+0 19201 19206
+S
+#19206
+En el techo del bar~
+Desde el techo puedes apreciar la inmensidad del Gran Oceano, hacia el
+oeste las grandes torres y edificios de Ciudad Oeste, Al Este El Gran
+Desierto lleno de peligros y extranas Criaturas, Desde el Norte un poderoso
+Ki te hace poner los pelos de punta.  
+~
+0 0 2
+D4
+~
+~
+0 0 19207
+D5
+~
+~
+0 0 19205
+S
+#19207
+En el aire~
+Estas flotando en el aire viendo como bajo tuyo todo se empequenece, el
+viento norte arrastra un poderos Ki que envuenle todo tu cuerpo.  
+~
+0 0 9
+D0
+~
+~
+0 0 19212
+D1
+~
+~
+0 0 19210
+D2
+~
+~
+0 0 19213
+D3
+~
+~
+0 0 19211
+D4
+~
+~
+0 0 19208
+D5
+~
+~
+0 0 19206
+S
+#19208
+En el aire~
+Flotas en el aire ropiendo las nubes a tu pasar, estan tan alto que ya
+todo en el suelo es imposible de reconocer.  
+~
+0 0 9
+D0
+~
+~
+0 0 19214
+D1
+~
+~
+0 0 19214
+D2
+~
+~
+0 0 19214
+D3
+~
+~
+0 0 19214
+D4
+~
+~
+0 0 19209
+D5
+~
+~
+0 0 19207
+S
+#19209
+En el aire~
+Ya estas casi en el limite de lo que se puede llamar atmosfera, la
+temperatura ya es muy fria si subieras mas el aire dejaria de rodearte y
+serias absorvido por el oscuro vacio espacial.  
+~
+0 0 9
+D5
+~
+~
+0 0 19208
+S
+#19210
+En el aire~
+Estas flotando en el aire viendo como bajo tuyo todo se empequenece, el
+viento norte arrastra un poderos Ki que envuenle todo tu cuerpo.  
+~
+0 0 9
+D1
+~
+~
+0 0 19211
+D3
+~
+~
+0 0 19207
+S
+#19211
+En el aire~
+Estas flotando en el aire viendo como bajo tuyo todo se empequenece, el
+viento norte arrastra un poderos Ki que envuenle todo tu cuerpo.  
+~
+0 0 9
+D1
+~
+~
+0 0 19207
+D3
+~
+~
+0 0 19210
+S
+#19212
+En el aire~
+Estas flotando en el aire viendo como bajo tuyo todo se empequenece, el
+viento norte arrastra un poderos Ki que envuenle todo tu cuerpo.  
+~
+0 0 9
+D0
+~
+~
+0 0 19213
+D2
+~
+~
+0 0 19207
+S
+#19213
+En el aire~
+Estas flotando en el aire viendo como bajo tuyo todo se empequenece, el
+viento norte arrastra un poderos Ki que envuenle todo tu cuerpo.  
+~
+0 0 9
+D0
+~
+~
+0 0 19207
+D2
+~
+~
+0 0 19212
+S
+#19214
+En el aire~
+Flotas en el aire ropiendo las nubes a tu pasar, estan tan alto que ya
+todo en el suelo es imposible de reconocer.  
+~
+0 0 9
+D0
+~
+~
+0 0 19208
+D1
+~
+~
+0 0 19208
+D2
+~
+~
+0 0 19208
+D3
+~
+~
+0 0 19208
+S
+#19215
+Tienda de mariscos~
+Una pequena tienda de mariscos frescos, las leyendas cuentan que una de las primeras que se encontraron fue en el mar dentro de una gigantesca ostra.
+~
+0 0 0
+D0
+~
+~
+0 0 19204
+D3
+~
+~
+0 0 19216
+S
+#19216
+Bano~
+Un ponsonoso bano, una foto de un nandu en espana esta pegada en la
+pared.  Uff parece que Mr.  Popo estuvo aqui...  
+~
+0 0 0
+D1
+~
+~
+0 0 19215
+D6
+~
+tapa~
+AB 0 19217
+S
+#19217
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D3
+~
+~
+0 0 19218
+D7
+~
+~
+AB 0 19216
+S
+#19218
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19221
+D1
+~
+~
+0 0 19217
+D3
+~
+~
+0 0 19219
+S
+#19219
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19220
+D1
+~
+~
+0 0 19218
+S
+#19220
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D1
+~
+~
+0 0 19221
+D2
+~
+~
+0 0 19219
+S
+#19221
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19222
+D2
+~
+~
+0 0 19218
+D3
+~
+~
+0 0 19220
+S
+#19222
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D2
+~
+~
+0 0 19221
+D3
+~
+~
+0 0 19223
+D4
+~
+~
+0 19203 19226
+S
+#19223
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D1
+~
+~
+0 0 19222
+D3
+~
+~
+0 0 19224
+S
+#19224
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D1
+~
+~
+0 0 19223
+D3
+~
+~
+0 0 19225
+S
+#19225
+Alcantarilla~
+La putrefacta alcantarilla plagada de ratas y otros seres del submundo,
+de las cloacas.  
+~
+0 0 0
+D1
+~
+~
+0 0 19224
+D4
+~
+~
+ABCG 19203 19256
+S
+#19226
+La Habitacion de Yayirobe~
+Un cuarto plagado de basuras y comidas es donde vive Yayirobe, inmundicia
+a la inmundicia, es la ley de la vida.  
+~
+0 0 0
+D5
+~
+~
+0 0 19222
+S
+#19227
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 C 6
+D0
+~
+~
+0 0 19228
+D1
+~
+~
+0 0 19233
+D2
+~
+~
+0 0 19203
+D3
+~
+~
+0 0 19230
+S
+#19228
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19229
+D1
+~
+~
+0 0 19234
+D2
+~
+~
+0 0 19227
+D3
+~
+~
+0 0 19231
+S
+#19229
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19330
+D1
+~
+~
+0 0 19235
+D2
+~
+~
+0 0 19228
+D3
+~
+~
+0 0 19232
+S
+#19230
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19231
+D1
+~
+~
+0 0 19227
+S
+#19231
+En el Gran oceano~
+El cielo respLandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos ciudos, agua, agua y mas agua.  
+la ciudad oeste esta muy cerca de aqui.
+~
+0 0 6
+D0
+~
+~
+0 0 19232
+D1
+~
+~
+0 0 19228
+D2
+~
+~
+0 0 19230
+S
+#19232
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D1
+~
+~
+0 0 19229
+D2
+~
+~
+0 0 19231
+S
+#19233
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19234
+D1
+~
+~
+0 0 19236
+D3
+~
+~
+0 0 19227
+S
+#19234
+Frente a la isla de Rochi~
+Esta en frente de la isla del Maestro rochi, el maestro de Goku y otro
+grandes, talves un poco de entrenamiento no te vendria mal.  
+~
+0 0 6
+D0
+~
+~
+0 0 19235
+D2
+~
+~
+0 0 19233
+D3
+~
+~
+0 0 19228
+D6
+~
+~
+0 0 19239
+S
+#19235
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D1
+~
+~
+0 0 19238
+D2
+~
+~
+0 0 19234
+D3
+~
+~
+0 0 19229
+S
+#19236
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19237
+D3
+~
+~
+0 0 19233
+S
+#19237
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D0
+~
+~
+0 0 19238
+D1
+~
+~
+0 0 19237
+D2
+~
+~
+0 0 19236
+D3
+~
+~
+0 0 19237
+S
+#19238
+En el Gran oceano~
+El cielo resplandece a tu alrededor, el oceano y sus misterios se
+extienden hacia todos lados, agua, agua y mas agua.  
+~
+0 0 6
+D2
+~
+~
+0 0 19237
+D3
+~
+~
+0 0 19235
+S
+#19239
+Frente a la Kame-House~
+Estas en la pequena isla del maestro rochi, palmeras, arena y sol, como
+siempre Rochi y su sacrificada forma de vida.  Ves muchas cosas tiradas en
+el suelo, se nota que el maestro a estado muy ocupado ultimamente.  Hacia el
+norte divisas la pequena Kame-House 
+~
+0 0 0
+D0
+~
+~
+0 0 19240
+D3
+~
+~
+0 0 19245
+D7
+~
+~
+0 0 19234
+S
+#19240
+Kame-House~
+La Casa es asombrosa por fuera pareciera ser muy pequena pero por dentro
+como si magicamente se agrandara llena de los mas modernos articulos de
+Capsule Corp..  El televisor esta encendido pasando una pelicula de
+Play-Dragon, al parecer es intimidades de Bulma, bastante fuerte.  
+~
+0 0 0
+D2
+~
+~
+0 0 19239
+D3
+~
+~
+0 0 19242
+D5
+~
+~
+AB 0 19241
+S
+#19241
+El cuarto secreto de rochi~
+Estas en la habitacion secreta del maestro Rochi, donde guarda todos sus
+utensilios, latigos, vibradores, collares con punta son cosa habitual
+comparado con lo que Rochi tiene aqui.  Ves cientos y cientos de estantes
+con material y fotso secretas nunca antes cistas por nadie en este planetaa
+~
+0 0 0
+D4
+~
+~
+AB 0 19240
+S
+#19242
+Cocina~
+Esta es la cocina de la Kame-House donde Launch, prepara todos los
+manjares para rochi y sus amigos, uhhh que cantidad de galletas de arroz se
+ve que Goku estuvo por aqui hace muy poco.  
+~
+0 0 0
+D1
+~
+~
+0 0 19240
+S
+#19245
+En La isla~
+Estas en el lado oeste de la isla, a un lado de la Kame-House, un
+ruidiecito proviene del noreste, que sera, te preguntas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19246
+D1
+~
+~
+0 0 19239
+S
+#19246
+En La isla~
+Estas en el lado noroeste de la isla, a un lado de la Kame-House, un
+ruidiecito proviene del este, que sera, te preguntas.  
+~
+0 0 0
+D1
+~
+~
+0 0 19247
+D2
+~
+~
+0 0 19245
+S
+#19247
+Detras de la Kame-House~
+Estas en la parte trasera de la Kame-House, unas manchas blancas cubren
+todos los muros, que manchas mas raras, un profundo olor surca el aire.  
+~
+0 0 0
+D3
+~
+~
+0 0 19246
+S
+#19250
+Tunel de Cristal~
+Atraviesas un tunel de cristal hacia la Ciudad del Oeste.  Las nubes
+flotan sobre ti a lo lejos por el norte.  
+~
+0 0 1
+D1
+~
+~
+0 0 19201
+D3
+~
+~
+0 0 19251
+S
+#19251
+Tunel de Cristal~
+La fantastica aventura va empezar, sin igual oportunidad.  La Ciudad del
+Oeste imponente ya aparece.  Algunos carros vuelan hacia la ciudad , y hacia
+el puerto de Shen Long.  
+~
+0 0 1
+D1
+~
+~
+0 0 19250
+D3
+~
+~
+0 0 19252
+S
+#19252
+Avenida Oeste~
+Estas en la Avenida Oeste, calle pricipal de la Ciudad.  El ajetreo es
+inmenso, el ruido viene de todos lados.  Los edificios crecen hasta las
+nubes.  
+~
+0 0 0
+D1
+~
+~
+0 0 19251
+D3
+~
+~
+0 0 19253
+S
+#19253
+Avenida Oeste~
+La Avenida Oeste continua hacia los extremos, al sur se observa gran
+cantidad de gente exclamando.  El trafico es intenso.  
+~
+0 0 0
+D1
+~
+~
+0 0 19252
+D2
+~
+~
+0 0 19257
+D3
+~
+~
+0 0 19254
+S
+#19254
+Avenida Oeste~
+Arboles de gran tamanio te indican que estas en el centro mismo de la
+ciudad.  Un parque parece continuar hacia el norte y sur.  La Avenida se
+extiende de Este a Oeste.  
+~
+0 0 0
+D0
+~
+~
+0 0 19309
+D1
+~
+~
+0 0 19253
+D2
+~
+~
+0 0 19286
+D3
+~
+~
+0 0 19255
+S
+#19255
+Avenida Oeste~
+Es el definitivamente el area comercial de la Ciudad Oeste.  Bancos,
+bares, tiendas y bazares se divisan en las cercanias.  Hacia el Este se
+observa un parque hermoso.  Al Oeste la calidad de los edificios parece
+deteriodada.  
+~
+0 0 1
+D0
+~
+~
+0 0 19260
+D1
+~
+~
+0 0 19254
+D2
+~
+~
+0 0 19261
+D3
+~
+~
+0 0 19256
+S
+#19256
+Avenida Oeste~
+Estas en el comercial barrio de "Patronatoyng".  Los edificios han
+perdido un poco su estilo pintoresco y parece ser algo mas mundano.  La
+Avenida Oeste extendiendose al Este comienza aqui.  
+~
+0 0 1
+E
+alcantarilla~
+Una alcantarilla cerrada con un Candado que dice 'Cerrado. POLICIA'
+~
+D1
+~
+~
+0 0 19255
+D3
+~
+~
+0 0 19277
+D5
+~
+alcantarilla~
+ABCG 19203 19225
+S
+#19257
+Pasaje n20~
+La gente esta amontonada observando a un luchador combatir por dinero. 
+Es un experto de las artes marciales, la gente lo aclama y parece ser el mas
+fuerte de Ciudad Oeste.  El ruido es increible y los golpes se reparten para
+todos lados.  
+~
+0 0 0
+D0
+~
+~
+0 0 19253
+D2
+~
+~
+0 0 19258
+S
+#19258
+Pasaje n20~
+El pasaje numero 20 de La Ciudad Oeste.  Al norte se obeserva cantidad de
+gente amontonada.  El pasaje esta un poco mas oscuro en este lado.  
+~
+0 0 0
+D0
+~
+~
+0 0 19257
+D1
+~
+~
+AB 0 19274
+D3
+~
+~
+0 0 19259
+S
+#19259
+La 20~
+Un recovedo del pasaje n20.  Es un lugar muy oscuro y sucio.  Quizas no
+sea el lugar indicado para alguien como tu.  
+~
+0 0 0
+D1
+~
+~
+0 0 19258
+S
+#19260
+Plaza Bolon del Dragon~
+Estas en una pequenia plaza de cemento con una fuente.  A los extremos se
+observan tiendas de distintos tipos.  Al sur la Avenida Oeste.  Los
+edificios alcanzan alturas increibles, modernos disenos parecen salir de la
+nada.  
+~
+0 0 0
+E
+nube~
+Las nubes muy tumultosas te impiden la vision hacia arriba.  
+~
+D1
+~
+~
+0 0 19265
+D2
+~
+~
+0 0 19255
+D4
+~
+nube~
+AB 0 19267
+D5
+~
+~
+0 0 19266
+S
+#19261
+Arco Dorado~
+Estas bajo un hermoso Arco Dorado al sur de Avenida Oeste.  El arco es la
+entrada de un futurista edificio.  Una gigantesca Cruz Roja se observa en la
+punta de este.  
+~
+0 0 0
+D0
+~
+~
+0 0 19255
+D2
+~
+~
+0 0 19329
+D6
+~
+~
+0 0 19262
+S
+#19262
+Mamekusei Corp~
+Estas en el impresionante edificio de la Mamekusei Corp, gigantesca
+multinacional dedicada al servicio Bancario y de Salud.  Los ejecutivos
+pasean comodamente hablando por video-telefonia celular.  Las escalera
+arriba llevan al Hall del sistema sanacion automatizado.  Este es el
+edificio donde se centraran tus activadades como ciudadano de 'Ciudad
+Oeste'.  Afuera se encuentra la ciudad con sus habitantes, tiendas y
+servicios.  Al Oeste el banco principal de Ciudad Oeste.  
+~
+0 K 0
+D3
+~
+~
+0 0 19272
+D4
+~
+~
+0 0 19263
+D7
+~
+~
+0 0 19261
+S
+#19263
+Hall Mumekusei Corp~
+Estas en el hall de Mamekusei Corp.  Una secretaria anota el nombre todo
+aquel que entra aqui.  Al Oeste esta el centro de rehabilitacion, abajo el
+primer piso bancario de la corporacion.  
+~
+0 K 0
+D3
+~
+~
+0 0 19264
+D5
+~
+~
+0 0 19262
+S
+#19264
+Capsula Mamek~
+Estas en una gigantes capsula zumbante de la Mamekusei Corp.  El sistema
+garantiza una sanacion al 200% de la velocidad ordinaria.  Un sistema
+desarrolado por los ejecutivos.  
+~
+0 KZ 0
+D1
+~
+~
+0 0 19263
+M 180 H 180
+S
+#19265
+Tienda de Meriador~
+Meriador, antiguo guerrero companiero de Maestro Roshi, perfecciono la
+armas para las Artes Marciales de una manera formidable.  Vende aqui su mas
+exelentes y reconocidos objetos de guerra cuerpo a cuerpo.  
+~
+0 K 0
+D3
+~
+~
+0 0 19260
+S
+#19266
+Bazar de Moe~
+Estas en el bazar de un hombre llamado Moe.  Tiene un increible parecido
+con alguien a quien has visto seguidamente, quizas en alguna serial, pero
+definitivamente no puedes recordalo.  Ha traido desde los mas lejanos
+lugares objetos de increible escases, los mas exoticos elementos se pueden
+ver colgados en este Subterraneo.  
+~
+0 K 0
+D4
+~
+~
+0 0 19260
+S
+#19267
+Cielo~
+Vuelas sobre las nubes y te habres paso hacia las puntas de los modernos
+edificios.  
+~
+0 0 9
+D4
+~
+~
+0 0 19268
+D5
+~
+~
+AB 0 19260
+S
+#19268
+Cielo~
+Vuelas muy alto, quizas unos 70 metros de altura.  Aun ves edificos, de
+hecho la punta de uno ellos esta aun mas alto.  
+~
+0 0 9
+D4
+~
+~
+0 0 19269
+D5
+~
+~
+0 0 19267
+S
+#19269
+Cielo~
+Wow!  Estas casi a 120 metros de altura.  No vayas a perder tu fuerza
+para volar.  Los rascacielos terminan en este lugar.  Puedes observar una
+ventana al Este.  
+~
+0 0 9
+D1
+~
+ventana~
+AB 0 19270
+D5
+~
+~
+0 0 19268
+S
+#19270
+Depto n19270~
+Estas en el ultimo apartamento del edificio mas alto de 'Ciudad Oeste'. 
+El lugar esta exelentemente bien decorado.  Es un cuarto pequenio pero
+agradable.  Al Oeste hay una ventana tras la cual se ven las nubes, la
+altura debe ser enorme.  
+~
+0 0 0
+D3
+~
+~
+AB 0 19269
+D4
+~
+~
+AB 0 19271
+S
+#19271
+Azotea~
+Estas en la azotea del mas alto edifico de la Ciudad Oeste.  El Viento
+mece tu pelo en todas direcciones.  La nubes corren rapido sobre tu cabeza. 
+~
+0 0 5
+D1
+~
+~
+0 0 19273
+D5
+~
+~
+AB 0 19270
+M 0 H 0
+S
+#19272
+Banco Mamek Corp~
+Estas en el principal banco de 'Ciudad Oeste' Mamek Corp.  Aqui puedes
+realizar transacciones comercial de todo tipo.  Los ejecutivos acumulan
+fortuna en la compra y venta de acciones Birdie Mud.  
+El Banquero esta listo para recibirte. (#BTipea: BANK#b)
+~
+0 K 0
+D1
+~
+~
+0 0 19262
+S
+#19273
+Azotea~
+Las nubes se agitan sobre tu cabeza.  El viento huracanado hace sonidos
+tenebrosos debido a las formas del edificio.  Realmente estas en un lugar
+muy alto, talvez tocas el cielo.  
+~
+0 0 5
+D3
+~
+~
+0 0 19271
+M 0 H 0
+S
+#19274
+Puerta secreta~
+Estas en un cuarto oculto a la vista comun de la gente.  Al Oeste
+atraviesas el muro de donde vienes.  El lugar es realmente oscuro.  Al
+parecer hay un hoyo o quizas una escalera abajo, no hay luz suficiente para
+observarlo.  
+~
+0 A 0
+D3
+~
+~
+AB 0 19258
+D5
+~
+~
+0 0 19275
+S
+#19275
+Guild XXXXX~
+Estas frente a un guild de entrenamiento.  No puedes observar el nombre
+por la oscuridad.  La entrada esta cubierta por mantos negros y grises.  El
+suelo parece ser muy precario.  
+~
+0 A 0
+D2
+~
+~
+0 0 19276
+D4
+~
+~
+0 0 19274
+M 0 H 100
+S
+#19276
+Cuarto de Entrenamiento~
+La sala de entrenamientos del Maestro de los Ladrones esta muy bien
+arreglada para la actividad.  Cuchillos, punzones, sacos y otros elementos
+hacen del cuadro algo realmente peligroso.  Tu maestro esta listo aqui para
+enseniarte y guiarte.  
+~
+0 K 0
+D0
+~
+~
+0 0 19275
+M 0 H 150
+S
+#19277
+Puente del Brazo~
+Estas en un hermoso puente de piedras.  Al Este se extiende la Avenida
+principal.  El agua corre por debajo de tus pies.  
+~
+0 0 2
+D1
+~
+~
+0 0 19256
+D3
+~
+~
+0 0 19278
+M 0 H 0
+S
+#19278
+Puente del Brazo~
+Estas en un hermos puente de piedras el cual se extiende al Este.
+Al norte se escucha bullicio de gente. EL agua corre bajo tus pies.
+~
+0 0 2
+D0
+~
+~
+0 0 19279
+D1
+~
+~
+0 0 19277
+M 0 H 0
+S
+#19279
+Avenida Crystal~
+La Avenida Crystal se extiende desde aqui al Oeste.  Es una futurista
+calle completamente de cristal ahumado en el suelo.  Los edificios son de
+cristales asi como los arboles, autos y demases.  
+~
+0 0 0
+D2
+~
+~
+0 0 19278
+D3
+~
+~
+0 0 19280
+S
+#19280
+Avenida Crystal~
+Esta es la avenida Crystal.  Gigantesca calle completamente de cristal,
+tanto el suelo como todo lo que ves.  Algunas tiendas interesantes se
+divisan por aqui.  La Avenida se extiende de Oeste a Este.  
+~
+0 0 0
+D1
+~
+~
+0 0 19279
+D2
+~
+~
+0 0 19360
+D3
+~
+~
+0 0 19281
+S
+#19281
+Avenida Crystal~
+Esta es la avenida Crystal.  Gigantesca calle completamente de cristal,
+tanto el suelo como todo lo que ves.  Algunas tiendas interesantes se
+divisan por aqui.  La Avenida se extiende de Oeste a Este.  
+~
+0 0 0
+D0
+~
+~
+0 0 19344
+D1
+~
+~
+0 0 19280
+D3
+~
+~
+0 0 19282
+S
+#19282
+Avenida Crystal~
+Esta es la avenida Crystal.  Gigantesca calle completamente de cristal,
+tanto el suelo como todo lo que ves.  Algunas tiendas interesantes se
+divisan por aqui.  La Avenida se extiende de Oeste a Este.  
+Un portal oscuro es la entrada, desade aqui, hacia una escalera que baja.
+~
+0 0 0
+D0
+~
+~
+0 0 19361
+D1
+~
+~
+0 0 19281
+D5
+~
+~
+0 0 19283
+S
+#19283
+Escalera Oscura~
+Estas en un pasadizo que cruza de arriba al sur.  El lugar esta muy
+oscuro.  Arriba esta calle cristalina de Avenida Cristal.  Al sur se
+escuchan sonidos de meditacion y zumbidos.  
+~
+0 0 0
+D2
+~
+~
+0 0 19284
+D4
+~
+~
+0 0 19282
+S
+#19284
+Antesala~
+Frente a ti se extiende un arco oscuro.  Esta lleno de inscripciones
+misticas y esotericas, al parecer Babilonias.  El lugar esta lleno de una
+especie de poder que se siente en el aire.  El Arco gigante parece llevar a
+una escalera hacia abajo.  
+~
+0 0 0
+D0
+~
+~
+0 0 19283
+D5
+~
+~
+0 0 19285
+S
+#19285
+Entrenamiento Psionico~
+Estas en la sala del Maesto de entrenamiento de los psiquicos.  Realmente
+es un lugar mistico, inscribciones de distintas culturas se ven en las
+murallas.  Algunos simbolos Persas e Hindues decoran el lugar.  Aqui tu
+Maestro esta listo para sevirte y guiarte en tu crecimiento mental.  
+~
+0 K 0
+D4
+~
+~
+0 0 19284
+S
+#19286
+Parque Equis~
+El parque principal de 'Ciudad Oeste' es enorme.  Se extiende en magnitud
+de Norte a Sur, cruzando la avenida mas grande, llena de arboles, gente y
+bullicio.  El verde prado continua al Sur.  
+~
+0 0 2
+D0
+~
+~
+0 0 19254
+D2
+~
+~
+0 0 19287
+S
+#19287
+Parque 'X'~
+Parque 'X' se divisa hacia el Norte y el Sur.  El lugar es tranquilo
+aunque quizas no muy seguro por la inmensa cantidad de gente pasea por aqui.
+Tras los arboles se ve gente repentinamente y parece desaparecer.  El pasto
+esta muy humedo y moja tus pies.  No hay bancas donde sentarse.  
+~
+0 0 2
+D0
+~
+~
+0 0 19286
+D2
+~
+~
+0 0 19288
+S
+#19288
+Parque 'X'~
+El prado del parque parece estar algo mas descuidado.  Al Oeste se
+observa un gran porton con algunos guardias y policias.  La plaza sigue de
+Norte a Sur.  En este lugar se siente una extrania presencia.  
+~
+0 0 2
+D0
+~
+~
+0 0 19287
+D2
+~
+~
+0 0 19304
+D3
+~
+~
+0 0 19289
+S
+#19289
+Portal Mamuth~
+El antiguo portal Mamuth que antes fue la entrada a la ciudad, ahora es
+el porton que cierra la entrada a la carcel de 'Ciudad Oeste' En este lugar
+la Carcel 'Capitania Yabar' encierra a los mas peligroso criminales
+condenados por la justicia.  Al Este el parque 'X' se ve "dulce" comparado
+con la prision.  Los guardias haran cambio de turno muy pronto.  
+~
+0 0 1
+E
+mamuth~
+El Portal 'Mamuth' es un antiguo portal de madera que data del siglo XIX.
+Tiene inscripciones donde se ve al Senior Mutaito buscando las 7 esferas del
+Dragon.  
+~
+D1
+~
+~
+0 0 19288
+D3
+~
+portal~
+AB 0 19290
+S
+#19290
+Capitania Yabar~
+Estas dentro de la carcel.  Al Este se encuentra el porton para salir de
+este lugar.  Al Oeste se encuentran las celdad y las oficinas de los
+guardias.  Aqui hay una fuente, quizas como unico gesto de cordialidad.  El
+lugar es cerrado y tetrico, las paredes oscuras contienen la imaginacion. 
+Se sienten extranios alaridos del Oeste.  
+~
+0 0 0
+D1
+~
+~
+AB 0 19289
+D3
+~
+~
+0 0 19291
+M 50 H 50
+S
+#19291
+Pabellon Yabar~
+El pabellon principal se extiende hacia el Oeste.  A los costados la
+entrada a las celdas son bloquedas por rejas de duro titanio.  Realmente los
+tipos aqui deben ser poderosos.  
+~
+0 0 0
+D0
+~
+~
+ABCG 19275 19296
+D1
+~
+~
+0 0 19290
+D2
+~
+~
+ABCG 19275 19298
+D3
+~
+~
+0 0 19292
+M 0 H 0
+S
+#19292
+Pabellon Yabar~
+El pabellon principal se extiende de hacia el Oeste.  Aqui se lleva una
+detallada cuenta de los criminales que entran a cumplir sus condenas.  Un
+cuadro de 'Jaime Guzman' sonriente cuelga del muro.  
+~
+0 0 0
+D1
+~
+~
+0 0 19291
+D3
+~
+~
+0 0 19293
+M 0 H 0
+S
+#19293
+Pabellon Yabar~
+El pabellon principal se extiende hacia el Oeste.  A los costados la
+entrada a las celdas son bloquedas por rejas de duro titanio.  Realmente los
+tipos aqui deben ser poderosos.  
+~
+0 0 0
+E
+inscripcion~
+La inscripcion dice:  BIRDIE, CHUPALO RICO!
+~
+E
+muro~
+El muro dice: Esta Area fue construida por DRACUL.
+~
+D0
+~
+~
+ABCG 19275 19301
+D1
+~
+~
+0 0 19292
+D2
+~
+~
+ABG 0 19300
+D3
+~
+~
+0 0 19294
+M 0 H 0
+S
+#19294
+Pabellon Yabar~
+El pabellon principal se extiende hacia el Este.  A los costados la
+entrada a las celdas son bloquedas por rejas de duro titanio.  Realmente los
+tipos aqui deben ser poderosos.  El cuarto esta lleno de ropa en el suelo
+pues aqui es donde los criminales son revisados y saquedos de sus intimas
+pertenencias.  
+~
+0 0 0
+D0
+~
+~
+ABCG 19275 19302
+D1
+~
+~
+0 0 19293
+D2
+~
+~
+ABCG 19275 19303
+D3
+~
+~
+ABG 0 19295
+M 0 H 0
+S
+#19295
+Cuartel del Coronel~
+Esta es la oficiona donde el Coronel de la Capitania Yabar, maxima
+autoridad del recinto, dirige su trabajo fiscalizador.  Una foto de Pinochet
+cuelga esplendorosa del muro.  Varios trofeos de anios de servicios se ven
+en un estante tras un vidrio.  
+~
+0 0 0
+D1
+~
+~
+ABG 0 19294
+S
+#19296
+Celda~
+Una oscura celda te rodea.  El lugar es patetico, suciedad, vomitos y
+evacuaciones humanas se ven por el piso.  
+En el suelo hay una suela marcada de cuando cementaron el piso.
+~
+0 A 0
+E
+suela~
+La Suela es talla 49. Seguramente de unos de los Patuos de los gendarmes.
+~
+D2
+~
+~
+ABCG 0 19291
+D3
+~
+~
+AB 0 19297
+S
+#19297
+Celda~
+Una oscura celda te rodea.  El lugar es patetico, suciedad, vomitos y
+evacuaciones humanas se ven por el piso.  
+Los muros estan llenos de grafittis. Algunas fotos de mujeres desnudas cuelgan
+desde los barrotes.
+~
+0 A 0
+E
+grafittis~
+El grafitti dice:
+Hombre conocete a ti MISMO!
+Otro dice:
+Maricon miranda y Birdie son amantes.
+~
+D1
+~
+~
+AB 0 19296
+S
+#19298
+Celda~
+Una oscura celda te rodea.  El lugar es patetico, suciedad, vomitos y
+evacuaciones humanas se ven por el piso.  
+~
+0 A 0
+D0
+~
+~
+ABCG 19275 19291
+D3
+~
+~
+0 0 19299
+S
+#19299
+Celda~
+Una oscura celda te rodea.  El lugar es patetico, suciedad, vomitos y
+evacuaciones humanas se ven por el piso.  
+En el suelo parace haber un cadaver humano.
+~
+0 A 0
+E
+cadaver~
+Es el cadaver de.... #BELVIS PRESLEY!!!#b
+Finalmente has descubierto que paso con el.
+~
+D1
+~
+~
+0 0 19298
+S
+#19300
+Celda Star~
+La celda parece ser un poco mas limpia que las anteriores pero
+definitivamente no es un lugar para estar tranquilo.  Los ratones corren
+despavoridos al percibir tu presencia.  
+~
+0 AJ 0
+D0
+~
+~
+ABG 0 19293
+M 0 H 0
+S
+#19301
+Celda Star~
+La celda parece ser un poco mas limpia que las anteriores pero
+definitivamente no es un lugar para estar tranquilo.  Los ratones corren
+despavoridos al percibir tu presencia.  La baratas jugetean a tu alrrededor.
+El suelo esta lleno de pedazos de vidrios.  
+~
+0 AJ 0
+E
+ratones~
+Se parecen a los quiltros chilenos. Y si es Shileno es #Bbueno#b
+~
+E
+baratas~
+Son negritas, a lo mejor tienen buen sabor.
+~
+D2
+~
+~
+ABCG 19275 19293
+M 0 H 0
+S
+#19302
+Celda Premium~
+La celda parece ser un poco mas limpia que las anteriores pero
+definitivamente no es un lugar para estar tranquilo.  Los ratones corren
+despavoridos al percibir tu presencia.  El suelo esta brillante aunque el
+olor es nauseabundo.  Aqui todo es elegante.  Un cuadro Picasso cuelga del
+muro.  
+~
+0 AJ 0
+D2
+~
+~
+ABCG 0 19294
+M 0 H 0
+S
+#19303
+Celda Star~
+La celda parece ser un poco mas limpia que las anteriores pero
+definitivamente no es un lugar para estar tranquilo.  Los ratones corren
+despavoridos al percibir tu presencia.  Los muros estan llenos de
+insultantes e irritantes Graffitis.  
+~
+0 AJ 0
+E
+grafittis~
+Un grafitti dice: #BCAIN SUCK!!#b
+Otro dice: #BEn infernus son Gays#b
+Mas alla se lee: #BYa pos Birdie un restore ALL#b
+~
+D0
+~
+~
+ABCG 0 19294
+M 0 H 0
+S
+#19304
+Parque 'X'~
+Estas en el parque Equis de ciudad Oeste.  Has llegado al parecer al tope
+de este.  Al sur notas claramente una tienda y al Este parece haber un
+portal muy bonito.  El parque continua hacia el norte.  
+~
+0 0 2
+D0
+~
+~
+0 0 19288
+D1
+~
+~
+0 0 19306
+D2
+~
+~
+0 0 19305
+S
+#19305
+Antigua Botica~
+Frente a ti hay un serie de estantes viejos que parece datar del siglo
+XV, esta es la mas antigua botica que se tiene memoria en ciudad Oeste.  El
+lugar aunque antiguo, esta muy bien diseniado y las esculturas que adornan
+el lugar son realmente bellas y misticas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19304
+S
+#19306
+Portal~
+Estas frente a un hermoso portal de piedra que adorna la entrada a una
+escalera que sube.  El portal es de roble negro y posee inscripciones muy
+bellas en el.  Algunos simbolos Vikingos y Celtas alcanzas a notar entre la
+gama de escrituras.  
+~
+0 0 2
+D3
+~
+~
+0 0 19304
+D4
+~
+~
+0 0 19307
+S
+#19307
+Guild Guerrero~
+El Guild de los guerreros se extiende hacia el norte.  El lugar es
+tranquilo y se sienten choques de espadas a lo lejos.  El piso esta cubierto
+de una alfombra roja y peluda.  
+~
+0 0 0
+D0
+~
+~
+0 0 19308
+D5
+~
+~
+0 0 19306
+S
+#19308
+Sala de Entrenamiento~
+Esta es la sala de entrenamiento para los guerreros.  Aqui los novatos
+aprenden tecnicas de combate fundamentales para su supervivencia.  El lugar
+esta llenos de armas y armaduras en los muros y tiradas en el suelo.  Al
+norte se ve una ventana por la que entra la luz, dando un espectaculo
+hermoso.  
+~
+0 0 0
+D2
+~
+~
+0 0 19307
+S
+#19309
+Parque Omega~
+El parque principal de 'Ciudad Oeste' es enorme.  Se extiende en magnitud
+de Norte a Sur, cruzando la avenida mas grande, llena de arboles, gente y
+bullicio.  El verde prado continua al norte.  
+~
+0 0 2
+D0
+~
+~
+0 0 19310
+D2
+~
+~
+0 0 19254
+S
+#19310
+Parque Omega~
+El principal parque de la ciudad, la plaza OMEGA, es el lugar preferido
+por los ciudadanos para pasear y entretenerse.  Los arboles son frondosos y
+el pasto en el suelo muy bien cuidado.  
+~
+0 0 0
+D0
+~
+~
+0 0 19311
+D2
+~
+~
+0 0 19309
+S
+#19311
+Parque Omega~
+El principal parque de la ciudad, la plaza OMEGA, es el lugar preferido
+por los ciudadanos para pasear y entretenerse.  Los arboles son frondosos y
+el pasto en el suelo muy bien cuidado.  El cielo tiene un atmosfera extrania
+aqui.  Al Oeste notas una pequenia casa.  El parque sigue tanto al norte
+como al Este.  Realmente este es un lugar bello.  
+~
+0 0 0
+D0
+~
+~
+0 0 19325
+D1
+~
+~
+0 0 19313
+D2
+~
+~
+0 0 19310
+D3
+~
+~
+0 0 19312
+S
+#19312
+Bungalow~
+Este pequenio lugar es la casa de un anciano hechizero.  Tras cientos de
+anios de andadas se ha asentado en ciudad Oeste para vender articulos que ha
+recogido atravez de su vida.  Aqui, aunque pequenio, es todo magico, los
+muebles y los objetos parecen tener vida propia.  
+~
+0 0 0
+D1
+~
+~
+0 0 19311
+M 200 H 0
+S
+#19313
+Parque Omega~
+El parque esta bien cuidado y los asientos se ven comodos.  Hay una
+pequenia fuente en desuso.  Los pajaros parecen tener algo de sed.  
+~
+0 0 2
+E
+fuente~
+La fuente esta seca.  La llave de paso parece estar atorada.  
+~
+D1
+~
+~
+0 0 19314
+D3
+~
+~
+0 0 19311
+M 0 H 100
+S
+#19314
+Plazoleta Omega~
+Estas en la plaza Omega, desde aqui se extiende el parque principal de la
+ciudad.  Frente a ti, al Este, esta la fachada de la corporacion Capsula. 
+El lugar esta bastante concurrido pues los inventos de Capsula Corp.  Son
+estupendos.  
+~
+0 0 2
+D1
+~
+~
+0 0 19315
+D3
+~
+~
+0 0 19313
+M 0 H 0
+S
+#19315
+Capsule Corp~
+Estas en la impresionante entrada de la corporacion Capsula.  Las
+murallas son enorme y la luz no se puede distingir de donde proviene.  Los
+sillones de espera son vibratorios y hay computadores para uso publico.  Al
+sur hay una tienda de articulos, al norte las oficionas de la corporacion.  
+~
+0 0 0
+E
+computador~
+Lamentablente ese terminal esta malo.
+~
+E
+portal~
+Es un portal de cristal. Esta cerrado aun que no tiene cerradura.
+~
+D0
+~
+portal~
+ABG 0 19317
+D2
+~
+~
+0 0 19316
+D3
+~
+~
+0 0 19314
+M 0 H 0
+S
+#19316
+Capsule Store~
+Esta es una tienda de la corporacion Capsula.  Todos los articulos son
+pequenias capsulas que se expanden en ingeniosos aparatos.  El lugar esta
+sobriamente decorado.  Hay un mostrador con cientos de capsulas.  
+~
+0 0 0
+D0
+~
+~
+0 0 19315
+M 0 H 50
+S
+#19317
+Pasillo~
+El pasillo dentro de la corporacion se extiende hacia el norte.  El lugar
+es enteramente blanco, no hay nada que ver.  
+~
+0 0 0
+D0
+~
+~
+0 0 19318
+D2
+~
+portal~
+ABG 0 19315
+M 50 H 50
+S
+#19318
+Pasillo~
+El pasillo es blanco por completo.  Hay dos puertas, una a cada lado.  Al
+norte continua el pasillo blanco con su alfombra y techo blanco.  
+~
+0 0 0
+D0
+~
+~
+0 0 19323
+D1
+~
+~
+ABG 0 19319
+D2
+~
+~
+0 0 19317
+D3
+~
+~
+ABG 0 19321
+S
+#19319
+Sala de Ingenieria~
+Esta es la sala de disenio de planos.  Los ingenieros de la corporacion
+capsula caminan muy atariados por aqui.  El lugar esta muy bien ventilado.  
+~
+0 0 0
+D0
+~
+~
+0 0 19320
+D3
+~
+~
+ABG 0 19318
+M 0 H 100
+S
+#19320
+Sala de Ingenieria~
+Esta es la sala de disenio de planos.  Los ingenieros de la corporacion
+capsula caminan muy atariados por aqui.  El lugar esta muy bien ventilado.  
+~
+0 0 0
+D2
+~
+~
+0 0 19319
+M 0 H 100
+S
+#19321
+Sala de Robotica~
+Estas en la armaduria de los inventos de Capsule Corp.  Aqui enormes
+robot realizan la produccion manual y los quehaceres repetitivos.  El ruido
+es infernal y los brazos parecen golpiarte en cualquier momento.  
+~
+0 0 0
+D0
+~
+~
+0 0 19322
+D1
+~
+~
+ABG 0 19318
+S
+#19322
+Sala de Robotica~
+Estas en la armaduria de los inventos de Capsule Corp.  Aqui enormes
+robot realizan la produccion manual y los quehaceres repetitivos.  El ruido
+es infernal y los brazos parecen golpiarte en cualquier momento.  
+~
+0 0 0
+D2
+~
+~
+0 0 19321
+S
+#19323
+Antesala~
+Estas en la antesala a una oficina.  Se escuchan ruidos de maquinarias al
+norte.  Una puerta azul bloquea tu paso.  Al sur se extiende un pasillo.  
+~
+0 0 0
+D0
+~
+azul~
+ABCG 19275 19324
+D2
+~
+~
+0 0 19318
+S
+#19324
+Laboratorio~
+Este es un laboratorio de alta investigacion.  Aqui se disenian avanzados
+inventos del Capsule Corp.  El lugar esta lleno de cableria y equipos de
+tester.  Algunos computadores bipean al presentirte.  
+~
+0 C 0
+D2
+~
+~
+ABCG 19275 19323
+D5
+~
+~
+ABCG 19201 19365
+M 50 H 50
+S
+#19325
+Parque Omega~
+El parque se extiende hacia el sur.  El pasto parece estar demasiado
+humedo, tus pies chapotean en el agua.  Al norte se ve mas inundacion.  El
+ambiente es lugubre.  
+~
+0 0 3
+D0
+~
+~
+0 0 19326
+D2
+~
+~
+0 0 19311
+M 100 H 0
+S
+#19326
+Pantano~
+Has caido en un pantano.  El agua corre desde alguna parte misterisa para
+esparcirse hacia el sur.  Hay algunos sapos y culebras tras los arbustos. 
+Un arbol parece emitir extranios sonidos.  
+~
+0 0 6
+E
+arbol~
+Un extranio arbol que parece tener una pequenia hendidura.
+~
+D0
+El arbol parece tener una pequenia manilla.  
+~
+~
+ABG 0 19327
+D2
+~
+~
+0 0 19325
+M 0 H 0
+S
+#19327
+En el tronco~
+Estas dentro del arbol del pantano.  Es claramente una habitacion
+secreta.  Del Oeste se escucha intonacion magicas y zumbidos.  Hay una
+sensacion de poder impresionante.  Un simbolo mistico, una serpiente
+mordiendo su cola, esta frente a la entrada.  
+~
+0 0 0
+D2
+~
+~
+ABG 0 19326
+D3
+~
+~
+0 0 19328
+S
+#19328
+Guild de Magos~
+Este es el guild de los magos.  Los simbolos misticos se reparte por toda
+el santuario.  Se resalta la creacion del mundo en murales gigantescos. 
+Este es un lugar muy importante para la naturaleza espiritual del mud.  
+~
+0 0 0
+D1
+~
+~
+0 0 19327
+M 200 H 100
+S
+#19329
+Sistema de reparacion~
+Estas en la sala de reparaciones automatizada.  Los mecanismos actualizan
+los equipos con laser y rayos.  El sistema se activa al comando #BREPA ALL#b
+~
+0 K 0
+D0
+~
+~
+0 0 19261
+M 150 H 150
+S
+#19330
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19331
+D2
+~
+~
+0 0 19229
+S
+#19331
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D1
+~
+~
+0 0 19332
+D2
+~
+~
+0 0 19330
+S
+#19332
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19334
+D1
+~
+~
+0 0 19333
+D3
+~
+~
+0 0 19331
+S
+#19333
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D1
+~
+~
+0 0 19336
+D3
+~
+~
+0 0 19332
+S
+#19334
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19335
+D2
+~
+~
+0 0 19332
+S
+#19335
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D2
+~
+~
+0 0 19334
+S
+#19336
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D1
+~
+~
+0 0 19337
+D2
+~
+~
+0 0 19339
+D3
+~
+~
+0 0 19333
+S
+#19337
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19338
+D3
+~
+~
+0 0 19336
+S
+#19338
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D2
+~
+~
+0 0 19337
+S
+#19339
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19336
+D2
+~
+~
+0 0 19340
+S
+#19340
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19339
+D2
+~
+~
+0 0 19341
+D3
+~
+~
+0 0 19342
+S
+#19341
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D0
+~
+~
+0 0 19340
+S
+#19342
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D1
+~
+~
+0 0 19340
+D3
+~
+~
+0 0 19343
+S
+#19343
+Tierra~
+Estas volando sobre tierra.  El suelo es llano con solo algunas pocas
+lomas.  Solo se divisan arbustos a la redoonda.  
+~
+0 0 9
+D1
+~
+~
+0 0 19342
+S
+#19344
+Carretera del Sol~
+Estas en una carretera que termina a lo lejos.  El suelo es duro y no se
+divisa hacia donde lleva el camino.  
+Al sur esta la ciudad. A los lados ves edificios.
+~
+0 0 2
+D0
+~
+~
+0 0 19345
+D2
+~
+~
+0 0 19281
+S
+#19345
+Carretera~
+La carretera se extiende a lo largo por un desierto.  Muy al norte se ven
+arboles.  
+~
+0 0 2
+D0
+~
+~
+0 0 19346
+D2
+~
+~
+0 0 19344
+S
+#19346
+Carretera~
+La carretera se extiende a lo largo por un desierto.  Muy al norte se ven
+arboles.  
+~
+0 0 2
+D0
+~
+~
+0 0 19347
+D2
+~
+~
+0 0 19345
+S
+#19347
+Claro~
+Estas en un claro.  Los arbustos se menean a tu alrrededor.  La hierba
+esta a medio crecer.  Se siente el tronar de los pajaros y un tambor a lo
+lejos.  El ambiente es tibio y protegido.  
+~
+0 0 3
+D0
+~
+~
+0 0 19348
+D2
+~
+~
+0 0 19346
+S
+#19348
+Claro~
+Estas en un claro.  Los arbustos se menean a tu alrrededor.  La hierba
+esta a medio crecer.  Se siente el tronar de los pajaros y un tambor a lo
+lejos.  El ambiente es tibio y protegido.  
+Aqui hay un Totem que se extiende hacia los cielos.
+~
+0 0 3
+E
+totem~
+El Totem esta formado de diversas formas indias.  Se extiende hacia
+arriba.  
+~
+D0
+~
+~
+0 0 19349
+D2
+~
+~
+0 0 19347
+D4
+~
+~
+0 0 19350
+S
+#19349
+Claro~
+Estas en un claro.  Los arbustos se menean a tu alrrededor.  La hierba
+esta a medio crecer.  Se siente el tronar de los pajaros y un tambor a lo
+lejos.  El ambiente es tibio y protegido.  
+~
+0 0 3
+D2
+~
+~
+0 0 19348
+S
+#19350
+Totem~
+Estas escalando el totem.  Las figuras son claramente de indios
+americanos.  
+~
+0 0 2
+D4
+~
+~
+0 0 19351
+D5
+~
+~
+0 0 19348
+S
+#19351
+Totem~
+Estas escalando el totem.  Las figuras son claramente de indios
+americanos.  
+~
+0 0 9
+D4
+~
+~
+0 0 19352
+D5
+~
+~
+0 0 19350
+S
+#19352
+Totem~
+Estas escalando el totem.  Las figuras son claramente de indios
+americanos.  
+~
+0 0 9
+D4
+~
+~
+0 0 19353
+D5
+~
+~
+0 0 19351
+S
+#19353
+Torre del maestro Karin~
+Estas en una plataforma redonda.  Se divisa casi toda la tierra hacia
+abajo.  El lugar esta lleno de vasijas y adornos.  El viento corre muy
+fuerte por aqui.  
+~
+0 0 0
+D4
+~
+~
+0 0 19354
+D5
+~
+~
+0 0 19352
+S
+#19354
+Cielo~
+Estas sobre la torre Karin. Flotas en el aire.
+~
+0 0 9
+D4
+~
+~
+0 0 19355
+D5
+~
+~
+0 0 19353
+S
+#19355
+Templo Sagrado~
+Estas en el templo sagrado de Kamizama.  Es un pedazo de tierra que se
+mantiene suspendido en el aire a cinco mil metros de altura.  Algunas
+palmera adornan el lugar.  El suelo es de loza blanca.  
+~
+0 0 0
+D0
+~
+~
+0 0 19359
+D1
+~
+~
+0 0 19358
+D3
+~
+~
+ABCG 19201 19356
+D5
+~
+~
+0 0 19354
+S
+#19356
+Cuarto del Tiempo~
+Estas en el cuarto del tiempo.  Cientos de relojes cuelgan de los muros. 
+Un gran reloj de arena esta frente a ti.  El tiempo parece estar detenido en
+este lugar.  Todo es muy silencioso.  
+~
+0 0 0
+D1
+~
+~
+ABCG 0 19355
+D3
+~
+~
+ABCG 19203 19357
+S
+#19357
+Nubes~
+Estas sobre unas nubes.  El tiempo aqui no corre.  Todo es paz y
+tranquilidad.  
+~
+0 J 0
+D1
+~
+~
+ABCG 0 19356
+S
+#19358
+Templo Sagrado~
+Estas en el templo sagrado de Kamizama.  Es un pedazo de tierra que se
+mantiene suspendido en el aire a cinco mil metros de altura.  Algunas
+palmera adornan el lugar.  El suelo es de loza blanca.  
+~
+0 0 0
+D3
+~
+~
+0 0 19355
+S
+#19359
+Santuario~
+Estas en el santuario de Kamizama.  Aqui esta su trono.  El cuida la
+tierra desde este lugar, logra observar todos los rincones del planeta.  El
+ambiente esta recargado de magia y misticismo.  
+~
+0 0 0
+D2
+~
+~
+0 0 19355
+S
+#19360
+Recovedo~
+Estas en un recovedo pequenio de la avenida principal.  El lugar es
+limpio y bien ornamentado.  
+~
+0 0 0
+D0
+~
+~
+0 0 19280
+S
+#19361
+Odi Planet~
+Esta en un gran almacen de elementos muy interesantes.  El lugar es
+amplio y tiene disenios intrincados.  No hay mucha gente por estos lugares. 
+~
+0 K 0
+D2
+~
+~
+0 0 19282
+S
+#19362
+Caleta de Sheng Long~
+La caleta esta llena de gente.  Los marinos trabajan de aqui para alla. 
+El puerto se divisa activo y lleno de mercaderias de todas las areas del
+Mud.  
+~
+0 0 0
+D1
+~
+~
+0 0 19363
+D3
+~
+~
+0 0 19204
+S
+#19363
+Caleta de Sheng Long~
+La caleta esta llena de gente.  Los marinos trabajan de aqui para alla. 
+El puerto se divisa activo y lleno de mercaderias de todas las areas del
+Mud.  
+~
+0 0 0
+D2
+~
+~
+0 0 19364
+D3
+~
+~
+0 0 19362
+S
+#19364
+Importadora del Puerto~
+Estas en una tienda con un cartel colgado que dice "Importadora".  El
+lugar esta rebosante de objetos y articulos.  Hay cajas apiladas con sellos
+de distintos lugares del mundo.  
+~
+0 K 0
+D0
+~
+~
+0 0 19363
+S
+#19365
+Bajo el Laboratorio~
+Aqui todo esta oscuro. No ves nada,
+~
+0 AKL 0
+D4
+~
+~
+ABCG 19201 19324
+D6
+~
+~
+ABCG 19203 19366
+S
+#19366
+Boveda~
+Estas en la boveda de la empresa Capsula. Aqui solo se guarda lo realmente importante.
+~
+0 AKLN 0
+D7
+~
+~
+ABCG 0 19365
+S
+#0
+
+
+
+#SPECIALS
+M 19201 spec_cast_judge
+M 19202 spec_cast_psionicist
+M 19204 spec_kungfu_poison
+M 19205 spec_breath_frost
+M 19206 spec_kungfu_poison
+M 19207 spec_thief
+M 19208 spec_cast_psionicist
+M 19210 spec_breath_lightning
+M 19213 spec_breath_fire
+M 19214 spec_kungfu_poison
+M 19216 spec_cast_mage
+M 19217 spec_cast_cleric
+M 19219 spec_cast_cleric
+M 19222 spec_assassin
+M 19223 spec_guard
+M 19225 spec_questmaster
+M 19229 spec_cast_mage
+M 19234 spec_assassin
+M 19235 spec_caminante
+M 19236 spec_cast_adept
+M 19237 spec_thief
+M 19250 spec_rat
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 19216 6 1
+D 0 19217 7 1
+D 0 19225 4 2
+D 0 19240 5 1
+D 0 19241 4 1
+D 0 19256 5 2
+D 0 19258 1 1
+D 0 19260 4 1
+D 0 19267 5 1
+D 0 19269 1 1
+D 0 19270 3 1
+D 0 19270 4 1
+D 0 19271 5 1
+D 0 19274 3 1
+D 0 19289 3 1
+D 0 19290 1 1
+D 0 19291 0 2
+D 0 19291 2 2
+D 0 19293 0 2
+D 0 19293 2 1
+D 0 19294 0 2
+D 0 19294 2 2
+D 0 19294 3 1
+D 0 19295 1 1
+D 0 19296 2 2
+D 0 19296 3 1
+D 0 19297 1 1
+D 0 19298 0 2
+D 0 19300 0 1
+D 0 19301 2 2
+D 0 19302 2 2
+D 0 19303 0 2
+D 0 19315 0 1
+D 0 19317 2 1
+D 0 19318 1 1
+D 0 19318 3 1
+D 0 19319 3 1
+D 0 19321 1 1
+D 0 19323 0 2
+D 0 19324 2 2
+D 0 19324 5 2
+D 0 19326 0 1
+D 0 19327 2 1
+D 0 19355 3 2
+D 0 19356 1 2
+D 0 19356 3 2
+D 0 19357 1 2
+D 0 19365 4 2
+D 0 19365 6 2
+D 0 19366 7 2
+O 0 19273 0 19201
+M 0 19215 12 19202 4
+M 0 19252 1 19203 1
+E 0 19204 0 16
+G 0 19208 0
+G 0 19209 0
+G 0 19210 0
+G 0 19211 0
+G 0 19206 0
+O 0 19206 0 19204
+M 0 19203 1 19204 1
+E 0 19219 0 16
+E 0 19237 0 13
+M 0 19220 4 19205 1
+E 0 19232 0 14
+E 0 19232 0 15
+M 0 19251 1 19207 1
+M 0 19251 1 19207 1
+M 0 19251 1 19207 1
+M 0 19251 1 19208 1
+M 0 19251 1 19208 1
+M 0 19251 1 19208 1
+M 0 19210 1 19209 1
+G 0 19207 0
+M 0 19251 1 19210 1
+M 0 19251 1 19211 1
+M 0 19251 1 19214 1
+M 0 19251 1 19214 1
+M 0 19251 1 19214 1
+O 0 19202 0 19216
+M 0 19250 1 19217 1
+M 0 19250 12 19218 2
+M 0 19207 1 19218 1
+M 0 19250 3 19221 1
+G 0 19203 0
+M 0 19250 7 19221 3
+M 0 19250 1 19222 1
+M 0 19250 1 19222 1
+M 0 19250 1 19222 1
+M 0 19250 1 19222 1
+M 0 19250 1 19222 1
+M 0 19250 12 19223 5
+M 0 19209 1 19226 1
+E 0 19204 0 16
+G 0 19250 0
+E 0 19205 0 5
+G 0 19201 0
+G 0 19206 0
+M 0 19205 2 19229 1
+G 0 19290 0
+G 0 19290 0
+M 0 19208 1 19230 1
+E 0 19247 0 6
+E 0 19230 0 13
+M 0 19200 1 19236 1
+G 0 19269 0
+G 0 19269 0
+G 0 19269 0
+E 0 19278 0 5
+E 0 19238 0 6
+E 0 19237 0 13
+E 0 19236 0 4
+E 0 19236 0 3
+O 0 19212 0 19240
+M 0 19211 1 19241 1
+E 0 19213 0 20
+E 0 19214 0 5
+G 0 19256 0
+G 0 19210 0
+G 0 19210 0
+G 0 19210 0
+M 0 19212 2 19242 1
+E 0 19215 0 16
+E 0 19216 0 6
+E 0 19217 0 5
+G 0 19218 0
+G 0 19218 0
+G 0 19218 0
+O 0 19210 0 19247
+M 0 19253 1 19247 1
+G 0 19212 0
+M 0 19215 11 19251 4
+M 0 19224 10 19255 3
+M 0 19219 10 19255 2
+O 0 19273 0 19255
+M 0 19220 4 19257 1
+E 0 19223 0 5
+E 0 19228 0 7
+M 0 19221 4 19257 1
+E 0 19233 0 6
+M 0 19219 12 19257 2
+M 0 19222 3 19259 1
+E 0 19204 0 16
+M 0 19223 5 19259 1
+O 0 19274 0 19260
+O 0 19276 0 19263
+M 0 19225 1 19263 1
+M 0 19236 1 19264 1
+M 0 19228 1 19265 1
+G 0 19230 0
+G 0 19229 0
+G 0 19228 0
+G 0 19227 0
+G 0 19226 0
+G 0 19224 0
+G 0 19234 0
+G 0 19221 0
+G 0 19220 0
+M 0 19229 1 19266 1
+G 0 19262 0
+G 0 19261 0
+G 0 19260 0
+G 0 19259 0
+G 0 19248 0
+G 0 19235 0
+M 0 19223 4 19270 1
+E 0 19244 0 12
+O 0 19276 0 19272
+M 0 19226 1 19272 1
+O 0 19280 0 19272
+M 0 19214 2 19273 1
+E 0 19236 0 3
+G 0 19272 0
+M 0 19240 1 19276 1
+M 0 19206 1 19278 1
+M 0 19215 10 19278 3
+M 0 19215 15 19279 2
+M 0 19224 5 19279 1
+E 0 19215 0 16
+M 0 19219 5 19279 1
+E 0 19227 0 9
+M 0 19240 1 19285 1
+M 0 19219 15 19288 1
+E 0 19225 0 8
+M 0 19288 1 19292 1
+E 0 19241 0 12
+E 0 19242 0 7
+E 0 19265 0 17
+G 0 19275 0
+M 0 19232 1 19294 1
+E 0 19242 0 7
+E 0 19241 0 12
+E 0 19265 0 17
+G 0 19275 0
+M 0 19333 1 19295 1
+E 0 19241 0 12
+E 0 19242 0 7
+E 0 19265 0 17
+G 0 19275 0
+M 0 19234 5 19296 1
+M 0 19234 5 19297 1
+M 0 19234 6 19299 1
+E 0 19246 0 5
+M 0 19234 6 19300 2
+E 0 19235 0 2
+E 0 19231 0 1
+E 0 19243 0 5
+O 0 19200 0 19301
+M 0 19234 6 19302 1
+E 0 19265 0 17
+G 0 19201 0
+M 0 19234 6 19303 1
+M 0 19237 5 19305 1
+G 0 19247 0
+G 0 19231 0
+G 0 19329 0
+G 0 19300 0
+G 0 19301 0
+G 0 19302 0
+G 0 19303 0
+M 0 19240 5 19308 1
+M 0 19230 1 19312 1
+G 0 19271 0
+G 0 19269 0
+G 0 19268 0
+G 0 19267 0
+G 0 19266 0
+G 0 19264 0
+G 0 19270 0
+G 0 19263 0
+M 0 19235 4 19312 1
+M 0 19219 10 19313 1
+G 0 19209 0
+M 0 19237 5 19316 1
+G 0 19209 0
+G 0 19286 0
+G 0 19278 0
+G 0 19277 0
+G 0 19240 0
+M 0 19239 2 19319 1
+G 0 19272 0
+G 0 19272 0
+E 0 19239 0 14
+M 0 19239 2 19320 1
+G 0 19272 0
+G 0 19272 0
+G 0 19272 0
+G 0 19272 0
+G 0 19272 0
+E 0 19279 0 11
+M 0 19238 2 19321 1
+E 0 19239 0 14
+E 0 19239 0 15
+M 0 19238 2 19322 1
+E 0 19240 0 9
+E 0 19239 0 15
+E 0 19239 0 14
+M 0 19207 2 19325 1
+E 0 19246 0 5
+M 0 19240 1 19328 1
+M 0 19227 1 19329 1
+M 0 19204 1 19335 1
+E 0 19237 0 13
+E 0 19278 0 5
+M 0 19213 1 19338 1
+E 0 19237 0 13
+E 0 19238 0 6
+E 0 19229 0 11
+E 0 19255 0 18
+M 0 19201 1 19341 1
+E 0 19237 0 13
+E 0 19264 0 17
+E 0 19254 0 18
+M 0 19202 1 19343 1
+E 0 19257 0 16
+M 0 19215 8 19345 1
+M 0 19220 4 19349 1
+E 0 19283 0 16
+M 0 19223 4 19349 1
+M 0 19216 2 19353 1
+E 0 19287 0 17
+E 0 19253 0 18
+M 0 19300 1 19357 1
+G 0 19249 0
+E 0 19238 0 6
+E 0 19237 0 13
+E 0 19236 0 4
+E 0 19236 0 3
+E 0 19200 0 18
+M 0 19218 2 19358 1
+G 0 19259 0
+G 0 19259 0
+G 0 19251 0
+M 0 19217 20 19359 5
+E 0 19264 0 17
+E 0 19252 0 18
+M 0 19231 1 19360 1
+G 0 19290 0
+G 0 19289 0
+G 0 19288 0
+M 0 19237 5 19361 1
+G 0 19286 0
+G 0 19285 0
+G 0 19284 0
+G 0 19283 0
+G 0 19282 0
+G 0 19281 0
+G 0 19258 0
+G 0 19257 0
+M 0 19251 2 19363 1
+M 0 19223 3 19363 1
+M 0 19237 5 19364 1
+G 0 19223 0
+G 0 19222 0
+G 0 19243 0
+G 0 19246 0
+G 0 19245 0
+O 0 19304 0 19366
+S
+
+
+
+#SHOPS
+19228 0 5 9 0 0 100 100 100 100 0 23
+19229 0 2 3 4 32 100 100 100 100 0 23
+19230 0 3 10 2 4 100 100 100 100 0 23
+19231 0 19 17 0 0 100 100 100 100 0 23
+19237 5 10 9 2 0 100 100 100 100 0 23
+19252 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+19227 0 5 11 9 1 0 23
+0
+
+
+
+#$

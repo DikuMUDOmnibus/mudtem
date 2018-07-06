@@ -1,0 +1,73 @@
+  int ret;
+  long col;
+  char *name;
+  char *string;
+  void *anchor=arg->key;
+  long data = 0;
+
+	switch(arg->ID)
+	{
+		case FPL_GENERAL_ERROR:
+		{
+			char buffer[FPL_ERRORMSG_LENGTH];
+
+			fplSendTags(anchor,
+				FPLSEND_GETVIRLINE, &col,
+				FPLSEND_GETVIRFILE, &name,
+				FPLSEND_DONE);
+			if(*name=='\"')
+			{
+				ret=0;
+				name++;
+				while(name[ret] && name[ret]!='\"')
+					ret++;
+				string=(char *)fplAlloca(anchor, ret+1);
+				memcpy(string, name, ret);
+				string[ret]='\0';
+			}
+			else
+			{
+				string=name;
+				ret=0;
+			}
+
+			printf("\n>>> %s\n",
+				fplGetErrorMsg(arg->key, (long)arg->argv[0], buffer));
+			printf(">>> Line %ld in file \"%s\". <<<\n", col, string);
+			if(ret)
+				fplDealloca(anchor, string);
+		}
+		break;
+
+		case FPL_UNKNOWN_FUNCTION:
+		col=22; /* only to breakpoint */
+		break;
+
+		case FN_OUTPUT: /* output */
+		if(arg->format[0]==FPL_STRARG)  /* we got a string! */
+			string="%s";
+		else
+			string="%d";
+		flog(string, arg->argv[0]);
+		fplSendTags(arg->key,
+			FPLSEND_STRING, "returned",
+			FPLSEND_DONE);
+ 		break;
+
+		case FN_SEND_TO_CHAR:
+		fplSendTags(arg->key,
+			FPLSEND_GETUSERDATA,	&data,
+			FPLSEND_DONE);
+		if (data != 0)
+		{
+			CHAR_DATA *ch = get_char_from_id(data);
+
+			if (ch != NULL)
+			{
+				send_to_char( arg->argv[0], ch );
+				fplSendTags(arg->key, FPLSEND_INT, 0, FPLSEND_DONE);
+			}
+		}
+		break;
+	}
+

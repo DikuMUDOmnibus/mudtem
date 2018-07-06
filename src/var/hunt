@@ -1,0 +1,56 @@
+	if (ch->hunting
+	&& !IS_NPC(ch->hunting)
+	&& !IS_SET(ch->act, ACT_PET)
+	&& CHANCE(30 + ch->level))
+	{
+		CHAR_DATA *wch, *wch_next;
+
+		for ( wch = ch->in_room->people; wch; wch = wch_next )
+		{
+			wch_next = wch->next_in_room;
+
+			if (!IS_NPC(wch)
+			 || !IS_AWAKE(wch)
+			 || wch == ch
+			 || wch->hunting
+			 || wch->fighting
+			 || IS_SET(wch->act, ACT_PET)
+			 || IS_SET(wch->act, ACT_SENTINEL)
+			 || IS_AFFECTED(wch, AFF_CHARM)
+			 || HATES(ch, wch)
+			 || HATES(wch, ch))
+				continue;
+
+			if ( abs(ch->level - wch->level) < 4 )
+			{
+				int opor = 20;
+
+				act ( "$n dice 'Hey $N, ayudame a cazar a $t?'",
+					ch, ch->hunting->name, wch, TO_ROOM );
+
+				if ( is_friend(ch, wch) )
+					opor += 30;
+
+				if ( HATES(wch, ch->hunting) )
+					opor += 30;
+
+				if ( CHANCE(opor) )
+				{
+					if (CHANCE(50))
+						act( "$n dice 'Ok!'", wch, NULL, ch, TO_ROOM );
+					else
+						act( "$n dice 'Aniquilemos a ese maldito.'", wch, NULL, ch, TO_ROOM );
+					set_hunt(wch, ch->hunting);
+				}
+				else
+				{
+					if (CHANCE(50))
+						act( "$n dice 'No.'", wch, NULL, ch, TO_ROOM );
+					else
+						act( "$n dice 'Otro dia.'", wch, NULL, ch, TO_ROOM );
+				}
+				break;
+			}
+		} /* for */
+	}
+

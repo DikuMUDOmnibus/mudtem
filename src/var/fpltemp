@@ -1,0 +1,30 @@
+  long end=0;
+  char * arg[] = { argument, NULL };
+  char * string = NULL;
+  unsigned long tags [] = {
+  				FPLTAG_USERDATA,	ch->id,
+ 				FPLTAG_DONE
+ 			  };
+
+  if(!end)
+  {
+      end=fplExecuteScript(	fplAnchor, arg,
+      				1, tags );
+
+      if(string)
+      {
+        printf("The '%s' program returned '%s'\n", argument, string);
+        fplFreeString(fplAnchor, string);
+      }
+  }
+
+  if(end)
+    printf_to_char(ch, "exit code: %d\n\r", end);
+
+/*  fplSendTags(fplAnchor,
+	      FPLSEND_GETRETURNCODE, &n,
+	      FPLSEND_FLUSHFILE, 0,
+	      FPLSEND_FLUSHCACHE, 1,
+	      FPLSEND_DONE);
+
+  fplFree(key); */

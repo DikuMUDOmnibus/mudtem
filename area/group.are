@@ -1,0 +1,1151 @@
+#HELPS
+-1 'RACE HELP' 'RACE' 'RACES'~
+ROM has the following races for player characters:
+  Human  the standard race
+  Dwarf  good warriors and priests, cost 8 creation points
+  Elf    good thieves and mages, cost 5 creation points
+  Giant  huge, tough warriors, cost 6 creation points
+
+Different races have different starting statistics, and also different
+stat maximums for magic items and training.
+
+Creation points increase the amount of experience it takes to gain a level.
+For more information, see the help files for each race (i.e. 'help dwarf')
+~
+
+-1 DWARF DWARVES ENANOS~
+Los enanos son criaturas semi-humanas, pequenias y gruesas, conocidas por
+su fiero temperamento y su gran capacidad de controlar la adrenalina.
+Los enanos no son tan listos como los humanos, pero son usualmente mas sabios
+gracias a su larga vida. Los enanos son excelentes peleadores y clerigos,pero
+son muy pobres en lo que a magia o artes bribonas se refiere.
+ 
+Los enanos son MUY resistentes al veneno y a las enfermedades, pero no pueden
+nadar, lo que los hace muy vulnerable al ahogamiento. Como su raza es de tipo
+berserker, ellos reciben esta habilidad gratis (si es que son guerreros), y
+pueden ver en la oscuridad con su infravision.
+~
+
+-1 ELF ELVES ELFOS~
+Los elfos son criaturas un poco mas pequenios que los humanos, pero mucho mas
+livianos en su andar. Ellos no tienen la capacidad de controlar las artes 
+guerreras, pero son mucho mas agiles, en cuerpo y mente. Los elfos pueden 
+llegar a ser unos magos o ladrones excepcionales, y su peor talento son las
+artes guerreras o clerigales.
+ 
+Los elfos resisten los conjuros de ataque mental mas efectivamente, gracias a
+su naturaleza magica.Sin embargo, ellos son daniados fuertemente por el toque
+de las armas de acero, y por eso no portan ningun artefacto de ese metal.
+Los elfos son notoriamente mas dificiles de golpear, y por eso los guerreros
+y ladrones elfos reciben gratuitamente la habilidad de esconderse en las 
+oscuridades (hide) y la de caminar entre sombras (sneak).Tambien poseen una
+vista privilegiada con Infravision.
+~
+
+-1 HUMAN HUMANS MAN HUMANOS HOMBRES~
+Los humanos son la mas comunes de las razas en el mundo, y por ello la mayoria
+de los aventureros son humanos tambien.Aunque ellos no tienen talentos que otras
+razas si tienen (como infravision por ejemplo), ellos son mucho mas versatiles
+siendo especialistas (si asi lo eligen) en cualquiera de las clases conocidas.
+Los humanos tambien pueden entrenar sus habilidades basicas, como las otras
+razas, y son capaces de ganar beneficios con artefactos magicos.
+~
+
+-1 GIANT GIANTS GIGANTES~
+Los Gigantes son la mas grande de las razas, cuyo porte va desde los 2 metros
+hasta los 10 metros de altura.Son mas fuertes que otras razas, y casi tan
+longevos como los enanos.
+No son muy inteligentes, sin embargo, su gran porte hace que esto no importe.
+Los Gigantes son mucho mejores guerreros que cualquiera de las otras razas,
+pero son peores en todas las otras clases.
+ 
+Los Gigantes resisten el calor y el frio, casi sin dejar huella, gracias a su
+ENORME masa.Sin embargo, sus mentes lentas los hacen extremadamente 
+vulnerables a los ataques mentales. Los Gigantes, gracias a su gran estatura
+y estamina, reciben gratis las habilidades de Fast healing y bash.
+(Solo los gigantes guerreros reciben bash).
+~
+
+-1 WANDS STAVES SCROLLS~
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it.  The
+item skills are as follows:
+
+scrolls		The reading of magical scrolls and books (see 'help recite')
+staves		The use of staves and similar devices (see 'help brandish')
+wands		The use of wands and similar items (see 'help zap') 
+~
+
+-1 'GROUP HEADER'~
+The following skills and groups are available to your chacter:
+(this list may be seen again by typing list)
+~
+
+-1 'GROUP HELP'~
+The following commands are available:
+list         display all groups and skills not yet bought
+learned      show all groups and skills bought 
+premise      brief explanation of creation points and skill groups
+add <name>   buy a skill or group
+drop <name>  discard a skill or group
+info <name>  list the skills or spells contained within a group
+help <name>  help on skills and groups, or other help topics
+done	     exit the character generation process
+~
+
+-1 'MENU CHOICE'~
+Choice (add,drop,list,help)?~
+
+-1 'GROUPS' 'INFO' 'PREMISE'~
+The ROM skill system allows you to fully customize your new character, making
+him or her skilled in the skills you choose.  But beware, the skills you pick
+at character creation are the only skills you will ever learn.  Skills are 
+paid for with creation points, and the more creation points you have, the
+harder it is to gain a level.  Furthermore, higher-cost skills are harder to
+practice.
+
+Skill groups are like package deals for characters -- sets of skills or spells
+that are closely related, and hence can be learned as a unit.  There is a 
+default skill group for each class, which can be selected for a balanced 
+selection of skills at a somewhat reduced cost.
+
+The experience breakdown is as follows: 
+points   exp/level     points   exp/level
+40        1000         90        6000
+50        1500         100       8000
+60	  2000         110      12000
+70        3000         120      16000 
+80        4000         130      24000
+The table continues in a similar manner for higher point totals.
+~
+
+-1 BASICS 'ROM BASICS'~
+The basic skills:
+
+Every character starts with two skill groups, one for their class and a default
+set that all characters receive.  The default skills are:
+
+recall  	essential escape skill (see help recall)
+scrolls		reading of scrolls and other magical volumes
+staves		use of magical staves
+wands		use of magical wands
+
+for class defaults, check the classes themselves.
+~
+
+-1 MAGE 'MAGIC-USER' 'MAGE BASICS' 'MAGE DEFAULT'~
+Mages specialize in the casting of spells, offensive ones in particular.
+Mages have the highest-powered magic of any class, and are the only classes
+able to use the draconian and enchanting spell groups.  They are also very
+skilled at the use of magical items, though their combat skills are the 
+weakest of any class.
+
+All mages begin with skill in the dagger. Any other weapon skills must be
+purchased, at a very high rate.  The default skill selection for mages is
+as follows:
+
+skills:
+lore		the lore of magical items
+
+spell groups:
+beguiling	spells that control the mind
+combat		offensive magics, such as fireball and chill touch
+detection	informational magics, such as detect magic and identify
+enhancement	spells that maximize physical potential, such as haste
+illusion	magics for concealing and deceiving
+maladictions	a selection of curses fit for any witch
+protective	defensive magics, ranging from armor to stone skin
+transporation	spells for getting from here to there
+weather		spells for conjuring and mastering the elements
+~
+
+-1 CLERIC 'CLERIC BASICS' 'CLERIC DEFAULT'~
+Clerics are the most defensively orientated of all the classes.  Most of their
+spells focus on healing or defending the faithful, with their few combat spells
+being far less powerful than those of mages. However, clerics are the best 
+class by far at healing magics, and they posess an impressive area of
+protective magics, as well as fair combat prowess.
+
+All clerics begin with skill in the mace.  Other weapon or shield skills must
+be purchased, many at a very dear cost.  The default skill selection for 
+clerics is as follows:
+
+skills:
+flail		the proper use of flails
+
+spell groups:
+attack		a selection of offensive magics
+creation	the making of physical objects, such as food and water
+curative	spells that cure the sick and feeble of their ailments
+benedictions	powerful magics that grant the blessings of the gods
+detection	informational magics, such as detect magic and identify
+healing		spells for treating wounds, from scratches to death blows
+maladictions	an assortment of curses
+protective	defensive magics, including the powerful sanctuary spell
+transportation	spells for getting from here to there
+weather         spells for conjuring and mastering the elements
+~
+
+-1 THIEF 'THIEF BASICS' 'THIEF DEFAULT'~
+Thieves are a marginal class. They do few things better than any other class,
+but have the widest range of skills available.  Thieves are specialists at
+thievery and covert actions, being capable of entering areas undetected where
+more powerful adventurers would fear to tread.  They are better fighters than
+clerics, but lack the wide weapon selection of warriors.
+
+All thieves begin with the dagger combat skill, and are learned in steal as 
+well.  Any other weapon skills must be purchased, unless the default selection
+is chosen.  This default skill package includes:
+
+skills:
+mace		the use of maces and other blunt weapons
+sword		swordplay and fencing
+backstab	the art of hitting your opponent by surprise
+disarm		used to deprive your opponent of his weapon
+dodge		the best way to take a punch is not to be there
+second attack	with training, the skilled thief can hit twice as fast
+trip		a good way to introduce an opponent to the floor
+hide		the art of remaining undetected in a room
+peek		used to look into a person's belongings
+pick lock	a useful skill for breaking and entering
+sneak		with this skill, a thief can walk into a room undetected
+~
+
+-1 WARRIOR 'WARRIOR BASICS' 'WARRIOR DEFAULT'~
+Warriors live for combat and the thrill of battle. They are the best fighters
+of all the classes, but lack the subtle skills of thieves and the magical
+talents of mages and priests.  Warriors are best for those who don't mind
+taking the direct approach, even when another method might be called for.
+
+Warriors begin with skill in the sword, and gain a second attack in combat.
+Other weapon skills may be purchased cheaply, or gained in the default skill
+package, which includes the following:
+
+skills:
+weaponsmaster	this group provides knowledge of all weapon types
+shield block	the art of parrying with a shield
+bash		a forceful rush with the body, designed to flatten your foes
+enhanced damage	this skill multiplies your damage in battle
+parry		the art of parrying with weapons
+rescue		allows you to take the blows aimed for a companion
+third attack	allows the skilled warrior to land three blows in one round
+~
+
+-1 EXOTIC WEAPONS WEAPON WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP~
+Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.  The weaponsmaster group
+provides talent in all weapons (save exotics), from chair legs to halberds.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+weaponsmaster	skill group of all weapons listed below (save exotic weaponry)
+axe		the use of axes, ranging from hand to great (but not halberds)
+dagger		the use of knives and daggers, and other stabbing weapons
+flail		skill in ball-and-chain type weapons
+mace		this skill includes clubs and hammers as well as maces
+polearm		the use of pole weapons (except spears), including halberds
+spear		this skill covers both spears and staves, but not polearms
+sword		the warrior's standby, from rapier to claymore
+whip		the use of whips, chains, and bullwhips
+exotic		the use of strange magical weapons
+
+The exotic skill cannot be purchased, and is dependent solely upon level.
+~
+
+-1 'SHIELD BLOCK'~
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  All classes may learn shield block, but only warriors and
+clerics are good at it.  Beware, flails ignore shield blocking attempts, and
+whips have an easier time getting around them.  Axes may split shields in two.
+~
+
+-1 ATTACK~
+The attack spells are essentially powerful curses, fueled by divine energy
+rather than magical power (like the combat spells are). They are less powerful
+than the combat spells, but can still deal out a stinging blow.  Mages and 
+thieves cannot use this group.  The attack spell group consists of the 
+following spells:
+
+demonfire	a powerful, but very evil, spell
+dispel evil	torments evil foes
+dispel good	calls down unholy power on good creatures
+earthquake	brings the power of earth to bear against your foes
+flamestrike	sends a column of flame from the heavens
+heat metal	heats metal equipment to searing tempatures
+ray of truth	sends forth a blinding ray of holy energy
+~
+
+-1 BEGUILING~
+This insideous spell group is used to invade the minds of others.  It consists
+of various charming magics, well suited for turning your foes to your cause.
+Only mages and thieves have access to the beguiling magics, which consist of
+the following:
+
+calm            if successful, stops all fighting in the room
+charm person	turns an enemy into a trusted friend
+sleep		puts a foe into enchanted slumber
+~
+
+-1 BENEDICTIONS~
+Benedictions are priestly spells, used to bestow divine favor upon your allies.
+They are often restricted to those of like alignment.  Only clerics and 
+warriors may use these spells.  The benedictions spell group consists of the
+following:
+
+bless		bestows divine favor upon the target
+calm		if successful, stops all fighting in the room
+frenzy		puts the recipient into beserker rage
+holy word	aids your allies while calling divine wrath upon your foes
+remove curse	removes malevolent magic from players and items
+~
+
+-1 COMBAT~
+These sorcerous spells are, in the words of one famous mage, just 'more ways to
+toss energy around'.  They are the most powerful of the damaging spells, and
+considered an essential part of most wizards' collections. Clerics and thieves
+do not have access to these spells.  In order of power, the combat spell group
+contains the following magics:
+
+magic missile	send a weak energy bolt into a foe
+chill touch	weakens your enemy with a frigid grasp
+burning hands	sends a blast of fire into your foe
+shocking grasp	sends a powerful jolt into a foe
+lightning bolt	sends forth a single bolt of lightning into an enemy
+colour spray	blasts your opponent with a rainbow spray, which may blind him
+fireball	a powerful spell, great for burning your enemy to ashes
+acid blast	sends forth a stream of acid to eradicate your foes
+chain lightning	sends lightning bolts arcing through foes 
+~
+
+-1 CREATION~
+The creation spell group is used to create objects, of temporary or permanent
+duration.  Skill creators can travel without food or drink, and use their 
+powers to create nourishment as required.  All classes may become learned in
+this group, which contains these spells:
+
+continual light	creates an eternal light source
+create food	produces a nourishing mushroom
+create rose	creates a beautiful red rose
+create spring	calls forth a small but pure spring from the ground
+create water	fills any available container with water
+floating disc	creates a floating disc of force perfect for hauling treasure
+~
+
+-1 CURATIVE~
+The curative spells are used to heal various unpleasant conditions that can
+befall an adventurer.   For healing of damage, see the healing spell group.
+Curative spells cannot be used by mages or thieves.
+
+cure blindness	restored sight to the blind
+cure disease	heals the plague
+cure poison	removes the harmful effects of poison
+~
+
+-1 DETECTION~
+The detection spells have may uses, all related to gathering information. They
+can be used to see hidden objects, give information about treasure, or even
+scry out the true nature of your foe.  All classes except warriors can use 
+detection spells.
+
+detect evil	reveals the aura of evil monsters
+detect good	similar to above, only for good monsters
+detect hidden	shows the whereabouts of hidden foes
+detect invis	allows the caster to see the unseeable
+detect magic	reveals magical auras to the caster
+detect poison	determines if food is safe to eat
+farsight	searches for living beings near the caster
+identify	gives information about the nature of an object
+know alignment	determines the moral character of a monster or person
+locate object	finds a specific item
+~
+
+-1 DRACONIAN~
+The Draconian spell group deals with the magic of dragons -- in this case, 
+bringing forth the devastating power of their breath weapons upon your foes.
+Only mages have the mental training necessary to cast these spells, and few
+of them ever reach the level of mastery required to use them.
+
+acid breath	 uses the black dragon's attack upon an enemy
+fire breath	 calls forth the flames of a red dragon
+frost breath	 drains the life from a foe with the power a white dragon
+gas breath	 suffocates your enemies with poison gas
+lightning breath summons the electrical fury of a blue dragon 
+~
+
+-1 ENCHANTMENT~
+El grupo de hechizos de encantamiento (Enchantment) se usa para llenar objetos
+con propiedades magicas.
+ 
+Enchant Weapon: Encanta tu arma dandole mas probabilidad de danio u golpe.
+Enchant Armor : Encanta la pieza de armadura que llevas para que te proteja
+mas.
+Fireproof     : Deja tu objeto protegido contra fuego, acido, y fuegos magicos.
+~
+
+-1 ENHANCEMENT~
+The enhancement spells improve upon the body's pontential, allowing feats of
+superhuman strength and speed.  However, these spells may often have harmful
+effects upon the recipient.
+
+giant strength	grants increased strength
+haste		doubles the speed of the target, but slows down healing
+infravision	allows monsters to be seen in the dark
+refresh		restores energy to tired adventurers
+~
+
+-1 HARMFUL~
+This spell group is the opposite of healing.  The harmful spells are designed
+to tear flesh from bone, rupture arteries, and generally turn the body against
+itself.  Only priests and warriors may use this spell group.
+In order of power, the harmful spells are:
+
+cause light	inflicts minor wounds on an enemy
+cause serious	inflicts wounds on a foe
+cause critical  causes major damage to the target
+harm		the most deadly harmful spell
+~
+
+-1 HEALING~
+Las plegarias de curacion son usadas para sanar a los aventureros daniados por
+las batallas.Para curar enfermedades(como el veneno ,poison) ver el grupo de
+plegarias curativas.Solo guerreros y clerigos tienen acceso a este grupo.
+En orden de poder, las plegarias son:
+ 
+Cure light  : Cura las heridas menores.
+Refresh     : Devuelve el vigor a un cansado aventurero.
+Cure serious: Cura las heridas un poco mas profundas.
+Heal : Cura las heridas profundas.
+Mass healing : Cura a todas las personas del cuarto.
+~
+
+-1 ILLUSION~
+The illusions spells are dedicated to deception and trickery.  They can be
+used to mask appearances, or create distractions for the party.  Currently,
+the illusion group is very small, but it will be expanded in the future.
+Only thieves and mages can cast illusion spells, which consist of the 
+following:
+
+invis		turns the target invisible
+mass invis	turns the caster's group invisible
+ventriloquate	allows the caster to put words in someone's mouth
+~
+
+-1 MALADICTIONS~
+Maladictions are a group of curses and other baneful spells, designed to
+cripple, inconvenience, or torture, rather than kill outright.  These spells
+may be cast by any class.
+
+blindess	strikes the target blind
+curse		prevents recalling and weakens the target in combat
+energy drain	drains experience and mana, while strengthening the caster
+plague		causes the target to suffer a slow, painful death from plague
+poison		weaker than plague, but often fatal
+slow		slows your enemies down, reducing their rate of attack	
+weaken		drains the strength of the target
+~
+
+-1 PROTECTIVE~
+The protective spells are used to shield against harm, whether from spells or
+physical attack.  They range from the weak armor spell to the sought-after
+sanctuary charm.  Also included in this group are several spells for dispeling
+hostile magics. Any class may use this group, which consists of the following 
+spells:
+
+armor		provides the target with an extra layer of defense
+cancellation	a powerful dispel, used for removing spells from friends
+dispel magic	removes spells from enemies, not as effective as cancel
+fireproof	shields items from the harmful effects of fire and acid
+protection evil	provides defense from the attacks of evil creatures
+protection good protects from the attacks of good beings
+sanctuary	reduces all damage taken by the recipient by half
+shield		puts a shimmering shield between you and your enemies
+stoneskin	turns skin hard as stone, providing a huge armor boost
+~
+
+-1 TRANSPORTATION~
+The transportation group is used for travel, whether by flight, magical
+teleportation, or walking through walls.  All classes may learn these spells,
+which are among the most useful in the game.
+
+fly		allows the target to fly over nearly all obstacles
+gate		transports the caster to the target
+nexus		forms a two-way portal to a far off destination
+pass door	allows the caster to walk through walls
+portal		creates a one-way portal to a destination
+summon		transports the target to the caster
+teleport	sends the target to a random location
+word of recall	transports the caster to safety in Midgaard
+~
+
+-1 WEATHER~
+These spells allow the caster to manipulate local weather conditions, as well
+as summon fog clouds, lightning, or even electrical glows.  This group is
+usable by all classes.
+
+call lightning	summons a huge bolt from the heavens, if the weather is right
+control weather	changes the weather in the manner desired by the caster
+faerie fire	surrounds the target in a glowing aura
+faerie fog	reveals all hidden creatures in the room
+lightning bolt	sends a bolt of electricity into the target
+
+(the weather command, unrelated to this group, shows local weather conditions)
+~
+
+-1 BACKSTAB~
+Backstab is the favored attack of  thieves, murderers, and other rogues.  It 
+can be used with any weapon type, but is most effective with piercing weapons.
+The damage inflicted by a backstab is determined by the attacker's level, his
+weapon skill, his backstab skill, and the power of his opponent.
+Only thieves may learn the backstab.
+~
+
+-1 BASH~
+The bash skill is a warrior talent, a brute-force attack designed to knock
+your foe to his knees.  Its success depends on many factors, including the
+bash rating, your weight, and the size of your opponent.  Bashing a dragon
+is not generally a wise idea.
+~
+
+-1 BERSERK~
+Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+~
+
+-1 DIRT 'DIRT KICKING'~
+Considerado por algunos como una practica cobarde, el lanzar polvo con el pie
+a un oponente, da la posibilidad de dejarlo momentaneamente ciego, al caerle
+el polvo en los ojos. Esta ceguera no dura mucho, pero provee una ventaja en
+combate. La destreza ayuda al tratar de lanzar polvo a los ojos o esquivarlo.
+Solo los guerreros y especialmente los ladrones pueden aprender esto.
+~
+
+-1 DISARM~
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled both your own and your opponent's weapon. Only talented thieves
+and warriors may learn this skill.
+~
+
+-1 DODGE~
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.  Any class may learn dodging.
+~
+
+-1 'ENHANCED DAMAGE'~
+Warriors and skilled thieves can become skilled enough in combat that they are
+able to inflict more damage than other classes.  Enhanced damage is checked
+for with each hit, although with a low skill, the chance of receiving a bonus
+is very low indeed.
+~
+
+-1 ENVENOM~
+The envenom skill is a cowardly skill practiced only by thieves, designed to
+win a battle through alchemy and treachery rather than skill or strength.
+Or, put another way, it's a skill used by the smart to kill the foolish.
+Food, drink, and weapons may be envenomed, with varying effects. Poisoned
+food or drink puts a mild poison spell on the consumer, and is unlikely to
+be more than a minor inconvience (after all, the typical adventurer could
+drink sewer water with only a trace of the runs).  A poisoned weapon, on
+the other hand, can inflict serious damage on an opponent as the poison 
+burns through his bloodstream.  But be careful, blade venom evaporates 
+quickly and is rendered almost powerless by repeated blows in combat.
+~
+
+-1 'HAND TO HAND'~
+Hand to hand combat is a rare skill in the lands of Midgaard.  Learning this
+style of fighting gives the player a weapon even when disarmed -- bare hands.
+Trained hand to hand experts are far more effective than many swordsmen.
+Clerics and warriors are the best at this skill, although thieves and mages
+may also learn it.
+~
+
+-1 KICK~
+Kicking allows the adventurer to receive an extra attack in combat, a powerful
+kick. However, a failed kick may throw an unwary fighter off balance.  Fighters
+and clerics are the most skilled at kicking, although thieves may also learn
+it.
+~
+
+-1 PARRY~
+If at first you fail to dodge, block it.  Parry is useful for deflecting 
+attacks, and is succesful more often than dodge.  Parry requires a weapon for
+full success, the hand-to-hand skill may also be used, but results in reduced
+damage instead of no damage.  The best chance of parrying occurs when the
+defender is skilled in both his and his opponent's weapon type.
+~
+
+-1 RESCUE~
+A friend in need is a friend indeed.  And when in combat, a warrior with
+the rescue skill is just the friend you need.  Rescue allows you to intercede
+in combat, protecting weaker characters from bodily harm. Hopefully the
+favor will be returned.  Success in rescuing depends on the skill rating, as
+well as a comparision of level, dexterity, and speed between the character and
+the target. (note: you rescue a friend, not the monster)
+~
+
+-1 TRIP~
+Back by popular demand.  Trip is a somewhat dastardly attack, and involves
+using any one of a number of methods to bring your opponent down to the ground.
+Tripping large monsters is generally not a good idea, and agile ones will
+find the attack easy to avoid.  Thieves and warriors may learn trip.
+~
+
+-1 'SECOND ATTACK'~
+Training in second attack allows the character a chance at additional strikes
+in combat -- allow a 100% second attack does NOT guarantee 2 attacks every
+round.  Any class may learn this skill, although clerics and mages have a 
+very hard time with it.
+~
+
+-1 'THIRD ATTACK'~
+Training in third attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a second attack as well.  Perfect
+third attack does NOT assure three attacks per round.  Only warriors and highly
+skilled thieves may learn this skill.
+~
+
+-1 HIDE SNEAK~
+Hide and sneak are similar skills, both related to remaining undetected.
+Hide has a very high chance of success, but only works for as long as the
+character remains stationary.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.  Only warriors and
+thieves may learn these skills.
+~
+
+-1 'FAST HEALING'~
+The fast healing skill improves wound healing rates, whether walking, resting,
+or sleeping. It represents knowledge of healing herbs or just general 
+toughness and stamina.  Fast healing is checked every tick, and it is 
+possible for it to fail.  All class may learn this skill, but mages find it
+very difficult to master, due to their bookish lifestyle.
+~
+
+-1 LORE~
+Lore es una habilidad general que consiste en el conocimiento de los mitos y
+legendas de algunos pueblos.
+Esto aumenta la posibilidad de obtener informacion acerca de un objeto, con
+respecto a sus poderes y uso.Tambien puede incrementar el valor de un objeto,
+porque se sabe mucho mas de su valor comercial.Todas las clases pueden 
+aprender LORE, pero los ladrones siempre seran los que mas conocen de las
+leyendas, siendo los guerreros a los que mas les cuesta esta habilidad.
+~
+
+-1 HAGGLE HAGGLING~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.  Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+~
+
+-1 PEEK~
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.  All characters may learn peek, but thieves are the most
+common practicioners.
+~
+
+-1 PICK 'PICK LOCK'~
+Lock picking is one of the prime skills of thieves, allowing them to gain
+access to many secured areas.  Lock picking chances are improved by  
+intelligence, and hindered by the difficulty of the lock. Other classes may
+learn to pick locks, but they will never find it easy.
+~
+
+-1 MEDITATION~
+This skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+much trouble learning to meditate.
+~
+
+-1 STEAL~
+Theft is the defining skill of the thief, and is only available to that class.
+It allows items to be stolen from the inventory of monsters and characters,
+and even from shops!  But beware, shop keepers gaurd their merchandise 
+carefully, and attempting to steal from a character earns you a THIEF flag
+if you are caught (making you free game for killing).
+~
+
+-1 'DETECT GOOD'~
+Sintaxis: cast 'detect good'
+ 
+Este conjuro permite al conjurador detectar las criaturas buenas, cuya aura
+caracteristica es dorada (golden aura).
+~
+
+-1 'DISPEL GOOD'~
+Syntax: cast 'dispel good' <victim>
+ 
+Dispel good brings forth evil energies that inflict horrific torment on 
+the pure of heart.  Good-aligned characters use this dark magic at their
+peril.
+~
+
+-1 'RECHARGE'~
+Sintaxis: cast 'recharge' <cosa>
+ 
+El conjuro de recargar (Recharge) es usado parta restablecer la energia de
+varas con poca vida. Items totalmente vacios no pueden ser recargados, y la
+dificultad del hechizo varia de acuerdo a cuantas cargas posea en total. Los
+items magicos solo pueden ser recargados una sola vez con exito.
+~
+
+-1 'DEMONFIRE'~
+Sintaxis: cast 'demonfire' <persona>
+ 
+Demonfire es un PODEROSO conjuro de maldad, cuyo uso y proposito solo puede
+ser concebido por criaturas de la oscuridad y con alineamiento maligno.
+Conjura espiritus demoniacos, los cuales atacan salvajemente y sin piedad,
+inflingiendo un danio terrible a los enemigos del conjurador.
+~
+
+-1 'RAY OF TRUTH'~
+Sintaxis: cast 'ray of truth' <victima>
+ 
+El rayo de la Verdad (Ray of truth) abre un portal de energia positiva, dando
+un golpe de Rayos Divinos lo suficientemente grande como para destruir a los
+enemigos de la oscuridad, o causandoles danios dantescos.
+No dania los puros de corazon, y se volvera en contra de aquellos malignos.
+~
+
+-1 'PORTAL'~
+Syntax: cast 'portal' <target>
+
+The portal spell is similar to gate, but creates a lasting one-way portal
+to the target creature, instead of transporting the caster.  Portals are
+entered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot
+be made to certain destinations, nor used to escape from gate-proof rooms.
+Portal requires a special source of power to be used, unfortunately the
+secret of this material component has been lost...
+~
+
+-1 'NEXUS'~
+Sintaxis: cast 'nexus' <objetivo>
+ 
+Este PODEROSO conjuro de Mago, es casi identico al de portal (help portal),
+con la unica diferencia que el portal crea solo una puerta de un sentido,
+mientras que el NEXUS crea una puerta de doble sentido (ida y vuelta). Tambien
+dura mas que el conjuro de portal.
+Ambos conjuros requieren de una fuente de poder adicional, la cual permanece
+perdida a traves de los anios.
+~
+
+-1 'HEAT METAL'~
+Sintaxis: cast 'heat metal' <victima>
+ 
+Calentar Metal (heat metal) es una PODEROSA plegaria clerigal de ataque, cuyos
+efectos varian de acuerdo a la armadura de la victima. Calienta el equipo de
+metal (asumiendo que todo el equipo y armas que llevas son de metal) de la
+victima, provocando que ella se deshaga del equipo lo antes posible, causando
+asi serios danio a su persona, e incluso la muerte si el equipo que ella porta
+en ese instante sea muy dificil de remover.
+Esta plegaria no provoca danio en criaturas que son inmunes al fuego.
+~
+
+-1 'HOLY WORD'~
+Sintaxis: cast 'holy word'
+ 
+Palabra sagrada (Holy Word) invoca al dios de los clerigos para bendecir a 
+todo el grupo de ataque del invocador, llenandolos con bendiciones sagradas,
+furia divina.
+Todas las criaturas de alineamiento del invocador en el cuarto, son llenadas
+de ira divina y son benditos, mientras que aquellos de moral opuesta( llamese
+alineamiento contrario al del sacerdote, o en caso de que el sacerdote sea 
+neutral, los de alineamientos santos y malvados) son malditos por los dioses
+del invocador.El invocador sufre grandemente por la realizacion de esta 
+plegaria, siendo incapaz de moverse y quedando drenado de vitalidad.
+La experiencia perdida no es asociada con esta plegaria.
+~
+
+-1 FRENZY~
+Sintaxis: cast 'frenzy' <victima>
+ 
+El conjuro de FRENZY llena la victima con una furia indescriptible, aumentando
+asi su capacidad de golpear y su danio.Desafortunadamente, esta ira divina
+tiende a ignorar la seguridad personal de la persona que la invoco, haciendolo
+mas facil para golpear.
+FRENZY tambien adhiere al objetivo inmunidad al hechizo CALM, y solo puede ser
+usado en las personas del mismo alineamiento que el conjurador.
+~
+
+-1 CALM~
+Sintaxis: cast 'calm'
+ 
+Una de las mas utiles y ocupadas habilidades de los Sacerdotes de nivel alto,
+el Conjuro de Calma, como su nombre lo dice, puede cesar toda la violencia de
+un cuarto. Las criaturas afectadas por el conjuro no atacaran por su propia
+voluntad, y estaran en desventaja en cualquier combate tanto tiempo como el
+conjuro dure en sus mentes.Mientras mas violencia hay en un cuarto, mucho mas
+dificil sera el lanzamiento del conjuro, y todo (o ningun) combate en el
+cuarto se terminara (excepto, por supuesto, aquellos que son inmunes a la 
+magia), a menos que no haya nadie en el cuarto.
+~
+
+-1 HASTE~
+Sintaxis: cast 'haste' <victima>
+ 
+El conjuro de rapidez (haste) incrementa la velocidad y agilidad del receptor,
+permitiendole un ataque extra (o incluso un apunialamiento (backstab)) mas
+durante el combate, y ayudando a las maniobras evasivas.Sin embargo, produce
+un gran agotamiento en el sistema muscular, haciendo que las habilidades de
+recuperacion se vean disminuidas a la mitad.
+Haste es capaz de revertir el conjuro de "slow" (help slow).
+~
+
+-1 SLOW~
+Sintaxis: cast 'slow' <criatura>
+ 
+Al contrario de lo que podria creerse, slow no es el conjuro opuesto al de
+haste (apresuramiento), ya que es un conjuro con un unico set de efectos.
+Cuando es invocado sobre una criatura, ella baja su movimiento, la hace mas
+facil para golpear, y reduce la efectividad de su ataque. El efecto de slow
+tambien dobla el costo de la persona para moverse, reduce su regeneracion
+a la mitad, asi como su metabolismo.
+~
+
+-1 PLAGUE~
+Sintaxis: cast 'plague' <victima>
+ 
+La plegaria de PLAGA infesta a la victima con una enfermedad magica de gran
+virulencia, absorbiendo su fuerza y causando horripilante sufrimiento, en una
+posible muerte. Es una plegaria muy riesgosa de usar, ya que el contagio de
+esta puede extenderse como fuego, en areas densamente pobladas.
+~
+
+-1 'CREATE ROSE'~
+Sintaxis: cast 'create rose'
+ 
+Un hechizo romantico que crea una fragante rosa roja, sin uso de violencia, ni otra utilidad.
+~
+
+-1 'PROTECTION GOOD' 'PROTECTION EVIL'~
+Sintaxis: cast 'protection evil' <criatura>
+Sintaxis: cast 'protection good' <criatura>
+ 
+Los conjuros de proteccion reducen el danio provocado por criaturas de alineamiento contrario, y ayudan a las tiradas de salvacion del invocado.
+No puede ser invocado en otras personas, y no pueden ser usadas los dos tipos
+de defensa juntos.
+~
+
+0 'GIANT STRENGTH'~
+Sintaxis: cast 'giant strength' <victima>
+ 
+Este Conjuro incrementa la fuerza de la victima, haciendolo causar mas danio.
+~
+
+-1 'CHAIN LIGHTNING'~
+Sintaxis : cast 'chain lightning' <objetivo>
+ 
+Chain lightning es un hechizo mortal, el cual produce un poderoso rayo de energia electrica que sale del Hechicero al cuarto, hasta que su fuerza desaparece.
+Aliados del que lo lanza pueden ser alcanzados por el hechizo si estan en un
+clan, mientras que el lanzador no lo recibira a menos que no queden mas blancos para el hechizo. Este conjuro es el mas efectivo para atacar a un grupo de enemigos.
+~
+
+-1 FARSIGHT~
+Syntax: cast 'farsight'
+	cast 'farsight' <direction>
+
+The farsight spell expands the caster's consciousness, allowing him or her
+to see far away beings like they were in the same room.  It takes intense
+concentration, often leaving the caster helpless for several minutes.
+The spell may be used for a general scan that reaches a short distance in
+all directions, or with a directional component to see creatures much
+farther away.
+~
+
+-1 MASS HEALING~
+Sintaxis: cast 'mass healing'
+ 
+La plegaria de mass healing (sanar masas), como su nombre lo indica, sana a
+todos los jugadores del cuarto. Tambien les refresca el movimiento.
+~
+
+-1 'FLOATING DISC'~
+Sintaxis: cast 'floating disc'
+ 
+Este util conjuro crea un campo de energia flotante, que sigue al Conjurador
+por todos lados, permitiendole llevar sobre este una pila de tesoro sin 
+que este sufra el peso. Dura no mas de dos veces el nivel del hechicero en
+horas, y usualmente menos. Puede llevar hasta 2 libras por nivel del Hechicero
+con un maximo de cinco libras por cosa. Este conjuro requiere que el hechicero
+no lleve ningun item flotante, y la unicas formas de remover el disco son o
+muriendo o que al disco se le acabe la energia.
+ 
+~
+
+-1 FIREPROOF~
+Sintaxis: cast 'fireproof' <objeto>
+Sintaxis: cast 'fireproof' <victima>
+ 
+El conjuro de Fireproof (Proteccion contra el fuego) crea un aura pequenia, de
+corta duracion, pero poderosa, alrededor de un objeto, proveyendole asi de la
+cualidad de no poder ser daniado por el acido, ni fuegos de ninguna clase, e
+incluso del conjuro de calentar metal (heat metal).
+A pesar de la poca concentracion que necesita, la corta duracion del mismo lo
+hace poco practico para adherir esta cualidad a un gran numero de objetos.
+~
+
+0 CHAMELEON 'CHAMELEON POWER'~
+Sintaxis: chameleon
+ 
+Con la habilidad de CHAMELEON POWER el psionico puede intentar cambiar su 
+forma, apariencia, color e incluso olor para pasar totalmente inadvertido en
+algun cuarto.Sin embargo, esta habilidad pierde su eficacia cuando el psionico
+deja de estar quieto, puesto que necesita gran concentracion.
+~
+
+0 HEIGHTEN 'HEIGHTEN SENSES'~
+Sintaxis: heighten
+ 
+Un psionico puede usar la habilidad de REALZAR SENTIDOS (heighten senses) para
+asi poder detectar cosas que de otra forma, pasarian inadvertidas.
+~
+
+0 SHADOW 'SHADOW FORM'~
+Sintaxis: shadow
+ 
+Un psionico puede usar el poder de su mente para camuflarse con las sombras
+mientras camina, teniendo el mismo efecto que la habilidad de ladron SNEAK.
+Se recomienda ver tambien VISIBLE.
+~
+
+0 'ADRENALINE CONTROL'~
+Sintaxis: cast 'adrenaline control'
+ 
+Controlando la produccion de adrenalina en su sistema, un psionico puede ganar
+temporalmente bonos a su constitucion y destreza.Este control no podra ser
+invocado durante una pelea, porque, incluso los psionicos se excitan de vez
+en vez.
+~
+
+0 AGITATION~
+Sintaxis: cast 'agitation' <objetivo>
+ 
+Esta devocion mental causa danio a la criatura objetivo haciendo que sus 
+moleculas se muevan mas rapido de lo que la victima puede soportar, hasta
+el punto de quemar algunas de sus celulas.
+El hechizo es muy parecido al danio de un BURNING HANDS de Mago.
+~
+
+0 AWE~
+Sintaxis: cast 'awe' <criatura>
+ 
+Con esta disciplina, un psionico experimentado puede usar el poder de su 
+mente para afectar la moral de un oponente. Si lo logra, el enemigo se 
+olvidara del psionico y no peleara mas.Por supuesto, monstruos de naturaleza
+agresiva revertiran esta situacion despues de un pequenio periodo de tiempo.
+~
+
+0 'BALLISTIC ATTACK'~
+Sintaxis: cast 'ballistic attack' <criatura>
+ 
+BALLISTIC ATTACK deja que un psionico con el poder de su mente, lance algunos
+objetos pequenios, usualmente rocas, hacia la victima.
+El resultado puede ser divertido para el psionico, pero doloroso para la 
+criatura objetivo.
+~
+
+0 'BIOFEEDBACK'~
+Sintaxis: cast 'biofeedback'
+ 
+BIOFEEDBACK es el poder con el cual un psionico controla el flujo de su sangre
+a traves de su cuerpo.Este control permite al psionico reducir el sangramiento
+efectivamente hasta la mitad del danio.
+Como dicen por ahi .."Mente sobre cuerpo..."
+~
+
+0 'CELL ADJUSTMENT'~
+Sintaxis: cast 'cell adjustment'
+ 
+Un psionico experimentado, tambien puede intentar un AJUSTE CELULAR, el cual
+remueve las maldiciones y venenos de su cuerpo, provocando una leve mejoria
+en su salud tambien.
+~
+
+0 'COMBAT MIND'~
+Sintaxis: cast 'combat mind'
+ 
+Un psionico que usa la devocion de MENTE COMBATIVA tiene un conocimiento 
+efectivo de las tacticas de pelea de sus oponentes en general, lo que puede
+aumentar la efectividad de sus golpes, asi como trata de minimizar el danio
+recibido por sus contrincantes.
+Como esta es una devocion telepatica, puede ser transmitida a sus companieros
+de grupo o clan.
+~
+
+0 'CONTROL FLAMES'~
+Sintaxis: cast 'control flames' <criatura>
+ 
+Esta devocion, provee al psionico la capacidad de controlar su fuente de luz,
+para asi golpear con su llama o luminosidad a un enemigo. Y si crees que tu
+fuente de luz no ocupa llama, estas equivocado.No estabas mirandola muy de 
+cerca....
+~
+
+0 'DEATH FIELD'~
+Syntax: cast 'death field'
+
+A DEATH FIELD is a life-sapping region of negative energy.  Only psionicists
+of evil alignment can use this power without suffering repurcussions.  The
+death field moves out from the psionicist and envelops every character in the
+room.  Because player characters have souls, they are immune to its deadly
+touch, but all mobiles are susceptible to it.  Should the saving throw fail,
+the mobile will immediately die.  If the mobile is of a sufficently different
+level than the psionicist, they will shrug off the attack and only take minor
+damage.
+~
+
+0 'DETONATE'  'DISINTEGRATE'~
+Sintaxis: cast 'detonate' <victima>
+Sintaxis: cast 'disintegrate' <victima>
+ 
+Con cualquiera de estas habilidades, un psionico usa el poder de su mente para
+afectar la energia latente dentro de los objetos inanimados.Si estos objetos
+se encuentran lo suficientemente cerca de la victima, causaran gran danio.
+Por esta razon, los psionicos eligen a la victima como blanco del ataque,
+ya que hay una posibilidad de que algo muera en ella.
+Los psionicos de nivel medio pueden DETONAR objetos de su victima, y otros
+psionicos mas experimentados pueden incluso DESINTEGRAR a su victima, para
+intentar matarla instantaneamente.
+~
+
+0 'THOUGHT SHIELD' 'MENTAL BARRIER' 'DISPLACEMENT' 'FLESH ARMOR'
+
+
+
+  'INTELLECT FORTRESS' 'INERTIAL BARRIER'~
+Sintaxis: cast 'thought shield'
+Sintaxis: cast 'mental barrier'
+Sintaxis: cast 'displacement'
+Sintaxis: cast 'flesh armor'
+Sintaxis: cast 'intellect fortress'
+Sintaxis: cast 'inertial barrier'
+ 
+THOUGHT SHIELD y MENTAL BARRIER crean escudos absorbedores de danio por la voluntad del psionico.
+DISPLACEMENT hace que el psionico aparezca en diferentes lugares, haciendolo
+mas dificil de golpear.
+ 
+Con la devocion de FLESH ARMOR (armadura de Carne), el psionico torna su piel
+extremadamente dura, como el mas duro de los metales.
+ 
+INTELLECT FORTRESS (Fortaleza del intelecto) comparte los poderes de proteccion
+de la mente del psionico con todos los integrantes de su grupo.
+ 
+INERTIAL BARRIER crea un escudo de energia positiva, el cual reduce lacualquier
+posibilidad de ataque de criaturas malignas.
+~
+
+0 'DOMINATION'~
+Syntax: cast 'domination' <character>
+
+With this skill, a psionicist can DOMINATE the mind of his or her intended 
+victim, causing the victim to do exactly as the psionicist says.  As with
+CHARM, the actions of dominated characters affect the status of the dominator;
+don't whine if you get a KILLER flag.
+~
+
+0 'EGO WHIP'~
+Sintaxis: cast 'ego whip' <victima>
+ 
+Como un psionico entiende tan bien el funcionamiento de la mente, el puede
+intentar FLAGELAR el EGO (ego whip) a una persona, haciendola tener menos fe
+en si misma, recordandole los malos momentos de su niniez, momentos dificiles,
+y fallas.Esta baja de autoestima puede reducir significativamente la
+efectividad en sus oponentes.
+~
+
+0 'ENERGY CONTAINMENT'~
+Sintaxis: cast 'energy containment'
+ 
+Usando CONTENCION ENERGETICA (energy containment), un psionico puede absorber
+muchas formas de energia sin recibir danio alguno.Tan pronto como el psionico
+gana mas experiencia, esta habilidad aumenta.
+~
+
+0 'ENHANCE ARMOR'~
+Sintaxis: cast 'enhance armor' <objeto>
+ 
+Con esta devocion psionica, un mentalista puede cambiar el aspecto molecular 
+de los objetos, haciendolos mas poderosos o mas durables.Esto tiene obvias
+aplicaciones a las armaduras, pero si la armadura ya ha sido encantada, un 
+psionico, por fuerte que este sea, no podra reagrupar sus moleculas.
+ 
+Obviamente si el objeto es demasiado complicado para el, hay posibilidades de
+que algo salga mal.
+~
+
+0 'MIND THRUST' 'INFLICT PAIN' 'PSYCHIC CRUSH' 'PSIONIC BLAST' 'ULTRABLAST'~
+Sintaxis: cast 'mind trust'   <victima>
+Sintaxis: cast 'inflict pain' <victima>
+Sintaxis: cast 'psychic crush'<victima>
+Sintaxis: cast 'psionic blast'<victima>
+Sintaxis: cast 'ultrablast'   <victima>
+ 
+Con estas habilidades, un psionico puede daniar telepaticamente las neuronas
+de su oponente.Las devociones son listadas de menor a mayor danio inflingido.
+~
+
+0 'LEND HEALTH'~
+Sintaxis: cast 'lend health' <criatura>
+ 
+Un psionico puede TRANSFERIR SALUD (lend health) a un companiero en necesidad,
+pero solo de los hitpoints (HP's) que el posee.
+Para eso son los amigos ...cierto????
+~
+
+0 'PROJECT FORCE'~
+Sintaxis: cast 'project force' <criatura>
+ 
+Si un psionico invoca PROYECTAR FUERZA (proyect force) sobre un oponente, la
+fuerza de su mente aparecera como una bola invisible, la cual, al aplastar 
+el cuerpo de su victima, causa danio moderado.
+~
+
+0 'PSYCHIC DRAIN'~
+Sintaxis: cast 'psychic drain' <criatura>
+ 
+Con esta disciplina, un psionico puede drenar la Fuerza de un oponente.
+La habilidad se vuelve mas efectiva a medida que el psionico gana experiencia.
+~
+
+0 'SHARE STRENGTH'~
+Sintaxis: cast 'share strength' <criatura>
+ 
+Con esta habilidad, un psionico puede aumentar la fuerza de un companiero.
+Sin embargo, su fuerza se ve reducida tambien, a menos que sean tantos
+companieros que el mentalista no pueda resistir.
+~
+
+-1 ALIAS UNALIAS~
+Syntax: alias
+	alias <word>
+	alias <word> <substitution>
+	unalias <word>
+
+The alias command allows limited shortening of command names.  At this time,
+aliases cannot call other aliases, and cannot generate more than one command.
+Alias by itself lists your current aliases, Alias <word> lists the alias with 
+that name (if such exist), and alias with both a word and and argument 
+produces a new alias.  You cannot alias either alias or unalias to a new
+command.  Examples of use:
+
+alias gc get all corpse --> typing gc will equal typing 'get all corpse'
+alias ff cast 'fireball' --> ff orc will equal 'cast 'fireball' orc'
+
+Only the first word on the line will be subsituted at this time.
+~
+
+-1 $~
+
+#$

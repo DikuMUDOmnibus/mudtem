@@ -1,0 +1,25 @@
+    if (ch->invis_level < LEVEL_HERO)
+    sprintf( buf, "Shutdown by %s.", ch->name );
+    append_file( ch, SHUTDOWN_FILE, buf );
+    strcat( buf, "\n\r" );
+
+    do_asave( ch, "changed" );
+
+    if (ch->invis_level < LEVEL_HERO)
+    	do_echo( ch, buf );
+    merc_down = TRUE;
+    for ( d = descriptor_list; d != NULL; d = d_next)
+    {
+	d_next = d->next;
+	vch = d->original ? d->original : d->character;
+	if (vch != NULL)
+	{
+	    if ( vch->pcdata->corpse )
+	    {
+		save_corpse(vch, FALSE);
+		extract_obj(vch->pcdata->corpse);
+	    }
+	    save_char_obj(vch);
+	}
+	close_socket(d);
+    }

@@ -1,0 +1,129 @@
+8
+#CLAN
+name ~
+who_name ~
+god ~
+hall 3054
+recall 3001
+death 3036
+pit 3054
+flags A
+pkills 0
+pdeaths 0
+mkills 0
+mdeaths 0
+illpkills 0
+#END
+
+#CLAN
+name loner~
+who_name [   Loner   ] ~
+god Mota~
+hall 3054
+recall 3001
+death 3036
+pit 3054
+flags A
+pkills 70
+pdeaths 56
+mkills 5242
+mdeaths 313
+illpkills 0
+#END
+
+#CLAN
+name cain~
+who_name [   CAIN    ] ~
+god Abraxas~
+hall 18515
+recall 18515
+death 18521
+pit 18515
+flags B
+pkills 127
+pdeaths 134
+mkills 9211
+mdeaths 731
+illpkills 58
+#END
+
+#CLAN
+name dragonlance~
+who_name [DragonLance] ~
+god Paladine~
+hall 18002
+recall 18001
+death 18010
+pit 18002
+flags C
+pkills 236
+pdeaths 241
+mkills 24247
+mdeaths 1553
+illpkills 82
+#END
+
+#CLAN
+name infernus~
+who_name [ InfernuS  ] ~
+god Lucifer~
+hall 19504
+recall 19504
+death 19505
+pit 19504
+flags B
+pkills 126
+pdeaths 141
+mkills 15878
+mdeaths 1146
+illpkills 38
+#END
+
+#CLAN
+name Cannabis~
+who_name [ Cannabis  ] ~
+god Bob Marley~
+hall 2
+recall 2
+death 2
+pit 3054
+flags 0
+pkills 0
+pdeaths 0
+mkills 0
+mdeaths 0
+illpkills 0
+#END
+
+#CLAN
+name warlord~
+who_name [ WarLords  ] ~
+god Khali~
+hall 2
+recall 2
+death 2
+pit 3054
+flags 0
+pkills 1
+pdeaths 0
+mkills 259
+mdeaths 0
+illpkills 0
+#END
+
+#CLAN
+name necrophilia~
+who_name [NecroPHILIA] ~
+god Leatherface~
+hall 2
+recall 2
+death 2
+pit 0
+flags A
+pkills 1
+pdeaths 0
+mkills 63
+mdeaths 0
+illpkills 0
+#END
+

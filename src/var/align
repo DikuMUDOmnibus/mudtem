@@ -1,0 +1,84 @@
+    else if (gch->alignment > 500)  /* for goodie two shoes */
+    {
+	if (victim->alignment < -750)
+	    xp = (base_exp *4)/3;
+
+ 	else if (victim->alignment < -500)
+	    xp = (base_exp * 5)/4;
+
+        else if (victim->alignment > 750)
+	    xp = base_exp / 4;
+
+   	else if (victim->alignment > 500)
+	    xp = base_exp / 2;
+
+        else if (victim->alignment > 250)
+	    xp = (base_exp * 3)/4; 
+
+	else
+	    xp = base_exp;
+    }
+
+    else if (gch->alignment < -500) /* for baddies */
+    {
+	if (victim->alignment > 750)
+	    xp = (base_exp * 4)/3;
+
+  	else if (victim->alignment > 500)
+	    xp = (base_exp * 5)/4;
+
+   	else if (victim->alignment < -750)
+	    xp = base_exp/2;
+
+	else if (victim->alignment < -500)
+	    xp = (base_exp * 3)/4;
+
+	else if (victim->alignment < -250)
+	    xp = (base_exp * 9)/10;
+
+	else
+	    xp = base_exp;
+    }
+
+    else if (gch->alignment > 200)  /* a little good */
+    {
+	if (victim->alignment < -500)
+	    xp = (base_exp * 6)/5;
+
+ 	else if (victim->alignment > 750)
+	    xp = base_exp/2;
+
+	else if (victim->alignment > 0)
+	    xp = (base_exp * 3)/4; 
+	
+	else
+	    xp = base_exp;
+    }
+
+    else if (gch->alignment < -200) /* a little bad */
+    {
+	if (victim->alignment > 500)
+	    xp = (base_exp * 6)/5;
+ 
+	else if (victim->alignment < -750)
+	    xp = base_exp/2;
+
+	else if (victim->alignment < 0)
+	    xp = (base_exp * 3)/4;
+
+	else
+	    xp = base_exp;
+    }
+
+    else /* neutral */
+    {
+
+	if (victim->alignment > 500 || victim->alignment < -500)
+	    xp = (base_exp * 4)/3;
+
+	else if (victim->alignment < 200 && victim->alignment > -200)
+	    xp = base_exp/2;
+
+ 	else
+	    xp = base_exp;
+    }

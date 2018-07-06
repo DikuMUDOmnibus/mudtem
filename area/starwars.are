@@ -1,0 +1,2458 @@
+#AREADATA
+Name Star Wars~
+Builders None~
+VNUMs 24500 24699
+Credits {30 60} Loki    Star Wars~
+Security 9
+Prototipo 0
+Low 30
+High 60
+Version 2
+End
+
+
+
+#MOBILES
+#24500
+Star Zombie~
+La Estrella Zombie~
+Una Estrella Zombie esta aqui, ella esta en una pelea CONTIGOO!!
+~
+~
+'modron'
+AD 0 0 -1000 0
+28 14 5d10+600 28d13+1000 5d4+7 none
+-8 -8 -8 -7
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#24501
+Star Zombie~
+Star Zombie~
+Una estrella Zombie esta aqui peleando CONTIGOO!!
+~
+~
+'human'
+AD HJac 0 -1000 0
+35 17 10d10+1100 35d14+1200 5d6+10 none
+-11 -11 -11 -11
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#24502
+Imperial Warrior~
+Imperial Warrior~
+Un Soldado Imperial esta aqui cerrando el paso.
+~
+~
+'modron'
+AFR VXa 0 -1000 0
+27 13 5d10+550 27d13+1000 2d10+6 none
+-7 -7 -7 -7
+FKTU AK Z 0
+stand stand none 0
+AMV DEFI medium 'unknown'
+C 'mage'
+#24503
+Star Warrior~
+STAR ZOMBIE~
+Una Estrella Zombie se encuentra peleando CONTIGO!!!!
+~
+~
+'modron'
+ACT 0 0 -1000 0
+48 72 50d10+4000 48d16+100 5d11+18 none
+-18 -18 -18 -15
+CDEFHIKLTU 0 0 0
+stand stand male 0
+L 0 medium 'unknown'
+C 'warrior'
+#24504
+piloto~
+Un Piloto Rebelde~
+Un Piloto de la Alianza Rebelde esta aqui.
+~
+~
+'human'
+ABS CHJ 0 1000 0
+34 22 10d10+1100 34d14+100 7d4+10 none
+-11 -11 -11 -10
+BEFHIJKNUV ACL AH BK
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#24505
+planta carnivora~
+Una Planta Carnivora.~
+Una Hermosa flor nace del suelo.
+~
+~
+'modron'
+ABQ GVc 0 -132 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'verde'
+C 'cleric'
+#24506
+Ewook~
+Ewook~
+Un Ewook esta mirando con terror.
+~
+~
+'doll'
+AFS CQV 0 0 0
+17 11 3d9+233 17d12+100 2d6+4 none
+-2 -2 -2 -1
+ABEFIJKNRUV 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+#24507
+AT-AT~
+Un AT-AT~
+Un AT-AT esta aqui Atacandote!!!!
+~
+~
+'modron'
+ABCEFS HTa 0 -1000 0
+30 20 6d12+778 30d13+100 2d12+8 none
+-9 -9 -9 -8
+BEFHIJKNUV 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+#24508
+The Big AT-AT~
+The Big AT-AT~
+Un gigantesco AT-AT esta aqui cuidando los dominios Del Imperio.
+~
+~
+'human'
+AD HJOVac 0 -1000 0
+50 25 25d10+3750 50d16+1700 11d5+18 none
+-20 -20 -20 -18
+FGHIKU AEHIP BCD 0
+stand stand none 0
+E OPY giant 'unknown'
+C 'psicionist'
+#24509
+Ewook's Leader.~
+Ewook's Leader~
+Un Imponente Ewook esta aqui.
+~
+~
+'doll'
+ABQ FHJVc 0 0 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FIKU 0 0 0
+stand stand none 15000
+0 0 medium 'unknown'
+C 'cleric'
+F vul G
+#24510
+Comandante Imperial.~
+Un Comandante Imperial~
+Un Comandante del Imperio esta aqui mirandote con desconfianza.
+~
+~
+'human'
+ABS 0 0 -1000 0
+43 28 25d10+2250 43d15+100 5d8+14 none
+-14 -14 -14 -13
+BEFHIJKNQRUV BMNPQ HIK 0
+stand stand none 18000
+0 0 medium 'unknown'
+C 'thief'
+#24511
+Ewook Cleric.~
+Un Clerigo Ewook.~
+Un Anciano y poderoso Ewook esta aqui vendiendo pociones.
+~
+~
+'doll'
+ABQad DHNOd 0 1000 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+F vul G
+#24512
+Depredador.~
+A Predator~
+Un Depredador esta aqui cuidando a su amo.
+~
+~
+'predator'
+ABIR HNTa 0 1000 0
+22 11 3d9+333 22d12+800 2d7+5 none
+-5 -5 -5 -4
+DFHKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#24513
+ewook guard~
+un guardia Ewook~
+Un guardian Ewook esta aqui cuidando la entrada al Templo de Endor.
+~
+~
+'doll'
+ABD CHc 0 1000 0
+38 19 10d10+1400 38d14+1300 8d4+12 none
+-13 -13 -13 -12
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+F vul G
+#24514
+Tie Fighter~
+Un Tie Fighter.~
+Una Nave Imperial esta aqui Diparando a cualquier intruso.
+~
+~
+'modron'
+ABDF DTVd 0 -1000 0
+45 22 25d10+2500 45d15+1600 5d9+15 none
+-15 -15 -15 -15
+FIKTU H 0 0
+stand stand none 12000
+0 P large 'unknown'
+C 'psicionist'
+#24515
+Comandante Imperial~
+UN Comandante Imperial~
+Un Comandante Imperial esta aqui.
+~
+~
+'modron'
+ABS HOVa 0 -1000 0
+43 28 25d10+2250 43d15+100 5d8+14 none
+-14 -14 -14 -13
+BEFHIJKNUV AH 0 0
+stand stand none 0
+AMV DEFI medium 'unknown'
+C 'thief'
+#24516
+Tie Bomber.~
+Un Tie Bomber~
+Una Gran Nave Imperial esta aqui.
+~
+~
+'human'
+ABDF HJTV 0 -1000 0
+47 23 25d10+3000 47d15+1600 7d7+16 none
+-17 -17 -17 -15
+FHIKU BEP AH G
+stand stand none 20000
+E P medium 'unknown'
+C 'psicionist'
+#24517
+loky~
+Loki The Healer~
+El gran dios Loki esta aqui sanando a los del Clan.
+~
+~
+'human'
+ABQac CDFGHJNTVc 0 1000 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FHIKU ABCDEFGHIJKNPX L 0
+stand stand male 40000
+0 0 giant 'unknown'
+C 'cleric'
+#24518
+Eduardo Bonvallet~
+Bonvallet~
+Eduardo Bonvallet esta aqui criticando y pidiendo quest.
+~
+~
+'human'
+ABDd H 0 1000 0
+60 30 50d10+8500 60d17+2100 30d10+26 none
+-30 -30 -30 -28
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#24519
+prisionero~
+Un prisionero Rebelde.~
+Un Prisionero de La Alianza Rebelde esta aqui.
+~
+~
+'human'
+ABD Hd 0 1000 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FHIKU E 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+#24520
+R2-A2~
+Un R2-A2~
+Un androide modelo R2-A2 esta aqui.
+~
+~
+'modron'
+AR HO 0 1000 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKSU 0 0 0
+stand stand none 50
+0 0 medium 'unknown'
+C 'mage'
+M 'speech' 3003 quieto~
+M 'speech' 3002 sigueme~
+#24521
+Central Computer~
+La Computadora Central~
+Una Gran Computadora esta aqui controlando el escudo.
+~
+~
+'modron'
+ABS 0 0 -1000 0
+65 43 50d10+9500 65d18+100 50d10+28 none
+-30 -30 -30 -28
+BEFHIJKNUV 0 0 0
+stand stand none 0
+0 0 large 'unknown'
+C 'thief'
+M 'speech' 3005 chupalo~
+M 'grall' 3004 100~
+#24522
+Vendedor de Armas.~
+Un Vendedor de Armas~
+Un Vendedor de armas esta aqui ofreciendote los productos.
+~
+~
+'human'
+ABR H 0 0 0
+50 25 25d10+3750 50d16+1700 13d4+17 none
+-19 -19 -19 -18
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#24523
+Ronald Mc.Donald~
+Ronald Mc.Donald.~
+Un payaso ridiculamente vestido esta aqui atendiendo el lugar.
+~
+~
+'human'
+ABRa H 0 1000 0
+50 25 25d10+3750 50d16+1700 13d4+17 none
+-19 -19 -19 -18
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#24524
+Vendedor de globos~
+Un Vendedor de Globos.~
+Un Vendedor esta aqui vendiendo Globos a los ninios.
+~
+~
+'human'
+AQ HNV 0 1000 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -18
+FIKQU AP CEL FGHS
+stand stand none 50000
+0 0 medium 'unknown'
+C 'cleric'
+#24525
+Vendedor de la tienda de Magia~
+Un mago~
+Un Poderoso mago esta vendiendo articulos de magia.
+~
+~
+'human'
+ABT H 0 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFHIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#24526
+The Master Of Clerics~
+The Master of Clerics.~
+The Master of Ewooks Clerics is here.
+~
+~
+'doll'
+ABQ Ha 0 1000 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FIKRU 0 0 0
+stand stand male 12000
+0 0 medium 'unknown'
+C 'cleric'
+F vul G
+M 'grall' 3006 100~
+#24527
+Ewook's King~
+The Ewook's King~
+The King Of Ewook's is here looking at you mercilessly.
+~
+~
+'doll'
+ABQ Ha 0 1000 0
+48 24 25d10+3750 48d16+1700 7d7+16 none
+-18 -18 -18 -16
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+F vul G
+#24528
+Vendedor del Lomiton~
+El Vendedor Del Lomiton.~
+Un Vendedor esta aqui atendiendo a los clientes.
+~
+~
+'human'
+ABT H 0 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFHIKLTU 0 0 0
+stand stand male 40000
+0 0 medium 'unknown'
+C 'warrior'
+#24529
+Terminator~
+Terminator~
+Terminator esta aqui cuidando a Sarah Connor.
+~
+~
+'modron'
+ABQ H 0 -1000 0
+40 20 15d10+1850 40d15+1400 16d2+12 none
+-13 -13 -13 -13
+FIKU H 0 0
+stand stand male 40000
+AMV DEFI medium 'unknown'
+C 'cleric'
+#24530
+Sarah Connor.~
+Sarah Connor ~
+Sarah Connor esta aqui anunciando el fin del mundo.
+~
+Esta mina esta mas rica!!!
+~
+'human'
+ABQ H 0 1000 0
+35 17 10d10+1300 35d14+1200 7d4+10 none
+-11 -11 -11 -11
+FIKU 0 E 0
+stand stand female 12000
+0 0 medium 'unknown'
+C 'cleric'
+#24531
+Ivan Zamorano~
+Ivan "Bam Bam" Zamorano~
+Ivan Zamorano esta aqui sacandose la camiseta para gritar...GGOOOOOOOOOLLLLLLLLLL!!!!!!!!
+~
+Se ve muweno pa la pelota
+~
+'human'
+ABR H 0 1000 0
+38 19 10d10+1400 38d14+1300 6d5+11 none
+-12 -12 -12 -12
+FKU P 0 0
+stand stand male 23000
+0 0 medium 'unknown'
+C 'mage'
+#24532
+Marcelo Salas~
+Marcelo Salas~
+El "Matador" Marcelo Salas esta aqui jugando a la pelota.
+~
+Este weon si que es bueno pa la pelota.
+ 
+~
+'human'
+AT HOVa 0 1000 0
+48 72 50d10+4000 48d16+100 5d11+18 none
+-18 -18 -18 -15
+CDEFHIKLTU 0 0 0
+stand stand male 48000
+0 0 medium 'unknown'
+C 'warrior'
+#24533
+El Che-Copete~
+El Che Copete~
+El Che Copete esta aqui tomando...
+~
+~
+'human'
+AS HVa 0 0 0
+40 26 15d10+1700 40d15+100 17d2+13 none
+-13 -13 -13 -12
+BEFHIJKNQUV C 0 0
+stand stand male 1
+0 0 medium 'unknown'
+C 'thief'
+#24534
+Chamelo~
+El Chamelo~
+El Chamelo esta aqui chupando con Che Copete.
+~
+~
+'human'
+AT H 0 0 0
+33 49 10d10+1200 33d14+100 7d4+10 none
+-11 -11 -11 -9
+CDEFGHIKLPTU 0 0 0
+stand stand male 33000
+0 0 medium 'Alcohol'
+C 'warrior'
+#24535
+Alvaro Salas~
+Alvaro Salas~
+Alvaro Salas esta aqui contandote  chistes
+~
+~
+'human'
+AB H 0 0 0
+13 6 2d10+170 13d11+500 2d5+3 slap
+-1 -1 -1 1
+U 0 0 0
+stand stand male 13000
+0 0 medium 'unknown'
+C 'cleric'
+#24537
+Un Vededor De Pizza Hut.~
+Un Vendedor de Pizza Hut.~
+Un Vendedor de Pizza Hut esta aqui esperando que te sientes a la mesa.
+~
+~
+'human'
+ABD H 0 1000 0
+28 14 5d10+600 28d13+1000 5d4+7 none
+-8 -8 -8 -7
+FIKU 0 0 0
+stand stand male 1200
+0 0 medium 'unknown'
+C 'psicionist'
+#0
+
+
+
+#OBJECTS
+#24500
+laser gun~
+laser Gun~
+Una extrania arma con luces encendidas ha sido dejada aqui.~
+metal~
+weapon ABY AN
+sword 5 8 'thrust' A
+30 150 1000 P
+#24501
+botas cuero boots ewook~
+ewook's Boots~
+Unas botas de cuero estan aqui.~
+cuero~
+armor W AG
+5 5 5 2 0
+17 8 0 P
+E
+dex~
+~
+#24502
+Muppett Sword~
+una Muppett Sword~
+Una espada Music:It's time to play the music...~
+indef~
+weapon ABCISW AN
+sword 5 5 'blast' 0
+15 55 0 P
+#24503
+endor scroll~
+the Ancient Endor Scroll~
+Un fantastico Scroll esta el el suelo.~
+papel~
+scroll AB AOP
+30 'harm' 'demonfire' 'ray of truth' 'ray of truth'
+35 5 1000 P
+#24504
+Curing Potion~
+curing Potion~
+A Curing Potion With a Strange Liquid.~
+indef~
+potion ABG AP
+40 'shield' 'frenzy' 'haste' ''
+40 149 0 P
+#24505
+Moto-sierra.~
+una Moto-sierra~
+Una Moto-Sierra ha sido dejada en el suelo encendida.~
+indef~
+weapon ABQW AN
+exotic 5 10 'smash' 0
+42 250 0 P
+#24506
+excalibur espada~
+excalibur~
+La poderosa espada Excalibur esta en el suelo~
+indef~
+weapon ABGN AN
+sword 5 5 'charge' E
+12 50 0 P
+#24507
+Laser Cannon~
+un Laser Cannon~
+Un Impresionante Canion Laser esta botado.~
+indef~
+weapon AI AN
+exotic 6 11 'blast' G
+50 350 0 P
+#24508
+Black Hole Bag~
+a Black Hole.~
+Un agujero negro esta en el suelo absorbiendo la luz.~
+indef~
+container Y A
+100 A 0 100 80
+15 8 99000 P
+#24509
+Cofre Ewook~
+un Cofre Ewook~
+Un Lindo Cofre esta puesto en un rincon de la casa.~
+indef~
+container 0 A
+100 AC 0 5 100
+17 66 0 P
+#24510
+Anfetaminas Ewooks.~
+una Anfetamina Ewook.~
+Unas pildoras de color negro estan aqui.~
+indef~
+pill 0 A
+34 'sleep' 'nexus' 'haste' 'cansancio'
+20 99 0 P
+#24511
+holy scroll~
+a Holy Scroll.~
+Un extranio scroll yace en el suelo.~
+indef~
+scroll G AP
+15 'high explosive' 'lightning breath' 'general purpose' 'general purpose'
+20 61 0 P
+#24512
+ewook potion pocion~
+a Ewook Potion.~
+Una Cristalina Pocion.~
+indef~
+potion 0 A
+30 'bless' 'heal' '' ''
+30 92 10000 P
+#24513
+ewook sword espada~
+ewook Sword~
+Una rustica espada esta tirada aqui.~
+indef~
+weapon 0 AN
+exotic 5 7 'slash' 0
+32 150 0 P
+#24514
+temple key~
+temple Key.~
+A big key has been left here.~
+indef~
+key 0 A
+0 0 0 0 0
+20 1 10 P
+#24515
+The Fountain~
+una Fuente.~
+Una Hermosa Fuente esta aqui.~
+indef~
+fountain 0 0
+1000 1000 'pisco' 0 0
+22 0 0 P
+#24516
+Proton Cannon~
+a Proton Cannon~
+Un extranio aparato ha sido botado aqui.~
+indef~
+weapon 0 AN
+exotic 5 10 'flbite' A
+42 250 10000000 P
+#24517
+key kiss house llave~
+key of Kiss House.~
+Una llave esta tirada en el suelo.~
+indef~
+key 0 A
+0 0 0 0 0
+30 106 10000000 P
+#24518
+La mesa.~
+una Mesa~
+Una hermosa Mesa se encuentra aqui invitandote a cenar.~
+indef~
+furniture Y 0
+12 100 D 200 200
+30 0 214132 P
+#24519
+Pollo Asado~
+un Pollo Asado~
+Un exquisito Pollo Asado esta sobre la mesa.~
+indef~
+food 0 A
+10 5 0 0 0
+30 104 0 P
+#24520
+Langosta~
+una Langosta~
+Una Deliciosa Langosta esta sobre la mesa.~
+indef~
+food 0 A
+10 9 0 0 0
+30 92 0 P
+#24522
+DarkVader Card Pass~
+a DarkVader Card Pass~
+A DarkVader Card Pass~
+indef~
+key AB A
+0 0 0 0 0
+36 138 1000000 P
+#24523
+Potion of Recall~
+a Potion of Recall~
+Una botella con un raro liquido fue abandonada aqui.~
+indef~
+potion 0 A
+0 'word of recall' '' '' ''
+0 4 1000 P
+#24524
+anillo alianza~
+a Ring of Rebel Aliance.~
+Un anillo con el Simbolo de La Alianza Rebelde esta aqui en el suelo.~
+indef~
+armor 0 AB
+8 8 8 5 0
+40 2 1000 P
+A
+19 2
+A
+13 40
+A
+18 1
+#24526
+Escopeta Recortada~
+una Escopeta Recortada.~
+Una Gran escopeta esta en el suelo.~
+metal~
+weapon N AN
+sword 5 9 'charge' 0
+35 100 90000 P
+#24527
+Revolver Cal. 25~
+un Revolver~
+Un Revolver calibre 25 esta aqui.~
+indef~
+weapon N AN
+exotic 5 5 'charge' 0
+13 58 50000 P
+#24528
+Bazooka~
+una Bazooka~
+Un canion esta tirado en el suelo.~
+indef~
+weapon N AN
+sword 5 8 'stab' F
+29 96 40000 P
+#24529
+Lanzallamas~
+un Lanzallamas~
+In bag~
+indef~
+weapon N AN
+sword 10 6 'chop' F
+42 170 100000 P
+#24530
+Una UZI~
+una UZI~
+Una Ametrallladora UZI esta en el suelo.~
+indef~
+weapon N AN
+sword 5 8 'charge' 0
+30 12 87000 P
+#24531
+Coca-Cola~
+una Coca-Cola.~
+Una Botella de Coca-Cola esta aqui. Siempre Coca-Cola!!!.~
+indef~
+drink N A
+20 20 'coke' 0 0
+15 62 15000 P
+#24532
+Papas Fritas~
+unas Papas Fritas~
+Un paquete de Papas Fritas esta en el suelo lleno de tierra.~
+indef~
+food N A
+9 4 0 0 0
+10 25 1000 P
+#24533
+Jugo de Naranjas~
+una Botella de Jugo~
+Una Botell de jugo de naranjas esta en el suelo.~
+indef~
+drink N A
+16 15 'vodka' 0 0
+10 29 800 P
+#24534
+Hamburguesa Mc.Donald~
+una Hamburguesa Mc.Donald~
+Una deliciosa Hamburguesa esta botada aqui.~
+indef~
+food N A
+10 6 0 0 0
+10 49 1300 P
+#24535
+Cajita Feliz~
+una Cajita Feliz~
+Una caja de colores esta en el suelo.~
+indef~
+container 0 A
+5 AC 0 100 50
+10 38 3500 P
+#24536
+Un Autito de Juguete.~
+un autito de Juguete~
+Un Autito de juguete esta tirado en suelo.~
+indef~
+furniture N A
+0 0 0 0 0
+12 45 0 P
+#24537
+Globo~
+un Globo~
+Un Globo esta pegado al suelo con cinta adhesiva.~
+indef~
+wand 0 AO
+17 3 3 'fly' 0
+17 83 17000 P
+#24538
+Varita Feliz~
+una Varita Feliz~
+Una varita esta en suelo sonriendote.~
+indef~
+wand ABN AO
+16 5 5 'mass healing' 0
+15 100 15000 P
+#24539
+A Force Potion~
+a Force Potion~
+Una Frasco con un liquido de color indefinido esta en el suelo irradiando energia.~
+indef~
+potion ABN A
+22 'agitation' 'intellect fortress' '' ''
+20 80 10000 P
+#24540
+Tatouine Scroll~
+a Tatouine Scroll~
+Un pergamino de color negro esta en el suelo.~
+indef~
+scroll ABNY A
+33 'cancellation' 'remove curse' 'cure poison' 'cure disease'
+30 76 22000 P
+#24541
+Imperial Staff~
+a Imperial Staff~
+Un extranio objeto esta en el suelo.~
+indef~
+staff ABN AO
+30 3 3 'death field' 0
+39 87 25000 P
+#24542
+Fucking Potion~
+the Fucking Potion~
+A Strange potion is here fucking with the bottle.~
+indef~
+potion AB A
+60 'change sex' 'mute' 'blindness' 'plague'
+40 160 1000 P
+#24543
+King Sword~
+a King Sword~
+A beatiful sword is lying here expeling white smoke.~
+indef~
+weapon AG AN
+sword 7 10 'slash' 0
+48 152 0 P
+#24544
+The Original Wurlitzer~
+the Original Wurlitzer.~
+Un Wurlitzer "nuevo" esta aqui.~
+indef~
+jukebox ABG 0
+0 0 0 0 0
+50 0 10000 P
+#24545
+Un Lomito~
+un Lomito~
+Un delicioso sandwich esta en el suelo.~
+indef~
+food N A
+10 10 0 0 0
+10 39 1500 P
+#24546
+Churrasco~
+un Churrasco~
+Un jugoso Churrasco esta aqui tirado.~
+indef~
+food N A
+15 13 0 0 0
+10 43 2200 P
+#24547
+Una Mesa~
+una Mesa Pizza Hut.~
+Una mesa esta aqui lista para que te sientes.~
+indef~
+furniture 0 0
+5 10000 D 200 200
+12 0 12000 P
+#24548
+alcachofa pito~
+una Alcachofa~
+Un Pito esta tirado en el suelo.~
+indef~
+pill B A
+30 'bless' 'haste' '' ''
+30 69 100 P
+#24549
+Lentes de Terminator~
+los Lentes de Terminator~
+Unos lentes oscuros estan tirados en el suelo.~
+indef~
+armor 0 AR
+10 8 10 0 0
+40 106 10000 P
+#24550
+Una Pelota de Futbol~
+una Pelota de Futbol~
+Una pelota de Futbol esta en el suelo lista para patearla.~
+cuero~
+wand AG AO
+30 15 15 'heal' 0
+30 167 132764 P
+#24551
+Una Cadena~
+una cadena de Platino~
+Una cadena de platino esta en el suelo~
+indef~
+armor 0 AC
+0 0 0 0 0
+51 195 328764 P
+#24552
+Una botella~
+una Botella~
+Una Botella Con un liquido esta en el suelo.~
+indef~
+drink 0 A
+12 12 'vodka' 0 0
+30 139 38762 P
+#0
+
+
+
+#ROOMS
+#24576
+Un Pasillo~
+Este es un ancho pasillo que no sabes donde te conduce...Pero aparentemente no hay peligro.
+Al Este hay una gran puerta de oro con labrados runicos.
+~
+0 0 0
+D0
+~
+~
+0 0 24578
+D1
+~
+~
+AB 0 24577
+D3
+~
+~
+0 0 24575
+S
+#24577
+King Room~
+WOOWW!!! Estas en la habitacion del rey de los Ewooks...
+Diversos articulos adornan el lugar.
+Al parecer esta es antigua construccion hecha por los primeros Ewooks que habitaron la Luna de Endor.
+~
+0 0 0
+D3
+~
+greats~
+AB 0 24576
+S
+#24578
+The Endor Void~
+Has entrado en un lugar que te sientes muy perdido.......
+~
+0 AD 0
+D1
+~
+~
+0 0 24578
+D2
+~
+~
+0 0 24576
+D3
+~
+~
+0 0 24578
+D5
+~
+hole~
+AB 0 24579
+S
+#24579
+In a Black Hole~
+\Has caido en un hoyo muy grande.Luces pasaron a traves de ti y has perdido la orientacion.
+~
+0 0 0
+D0
+~
+~
+0 0 24563
+D4
+~
+~
+AB 0 24578
+S
+#24580
+Way to Plaza de las Delicias.~
+Un pasillo lleva directamente a la Plaza de las Delicias.Ahi puedes encontrar muchos locales comerciales de comida,ropa,deportes,etc.
+Tambien esta el cinemark donde puedes ver peliculas.
+~
+0 0 0
+D0
+~
+~
+0 0 24581
+D1
+~
+~
+0 0 24582
+D2
+~
+~
+0 0 24568
+S
+#24581
+Plaza de las Delicias~
+Has llegado a la Plaza de las Delicias....Aqui hay una enorme cantidad de gente comprando regalos,comida,etc.
+Hay mesas para servirse de todo lo que la gente quiera.
+~
+0 0 0
+D2
+~
+~
+0 0 24580
+S
+#24582
+El cuarto de los famosos~
+Estas en el cuarto de los famosos.Aqui puedes encontrar a las mas diversas personalidades,pedirles autografos,etc...Tambien puedes MATARLOS!!!!.
+~
+0 0 0
+D0
+~
+~
+0 0 24583
+D3
+~
+~
+0 0 24580
+S
+#24583
+Salon de los Famosos~
+Continua y encontraras a mas personajes del mundo.....
+~
+0 0 0
+D0
+~
+~
+0 0 24584
+D2
+~
+~
+0 0 24582
+S
+#24584
+El salon de los famosos~
+Estas en el cuarto numero #24584.
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 24585
+D2
+~
+~
+0 0 24583
+S
+#24585
+Otro Salon de los famosos~
+~
+0 0 0
+D2
+~
+~
+0 0 24584
+S
+#24500
+Inside in The Hyperspace.~
+WOOOOWWw COOL!!! Haz alcanzado la velocidad luz y haz entrado al hiperespacio.
+Las estrellas pasan a tu lado y siente la Adrenalina salir de ti...Una sensacion especial reina en el lugar.
+~
+0 0 0
+D0
+~
+~
+0 0 9352
+D2
+~
+~
+0 0 24501
+M 0 H 0
+S
+#24501
+Lost in the Hyperspace.~
+Te Encentras Perdido en El Hyperespacio,estrellas fugaces pasan por tu lado y ves una naves pasar.
+La falta de gravedad hacer sentir tu cuerpo muy liviano,y crees conveniente salir rapido de este lugar.
+~
+0 0 0
+D0
+~
+~
+0 0 24500
+D1
+~
+~
+0 0 24502
+M 0 H 0
+S
+#24502
+Lost in the Hyperspace~
+Ahora estas en medio de un trafico de naves espaciales,una batalla
+estelar te impresiona y ves como una Flota de Tie's Fighters atacan con todo
+a una Flota de la Alianza Rebelde.  En el momento que miras este
+espectaculo,una nave A-Wing cae a tu lado,y de ella sale un Piloto Rebelde
+muy malherido y cae al suelo.  
+~
+0 0 0
+D1
+~
+~
+0 0 24503
+D3
+~
+~
+0 0 24501
+M 0 H 0
+S
+#24503
+Lost in the Hyperspace~
+Continuas por el espacio flotando y flotando,pareces un globo.
+Las estrellas fugaces y cometas que pasan por aqui te queman el cuerpo...
+La Batalla entre Rebeldes y Tie's continua y parece no terminar.
+~
+0 0 0
+D1
+~
+~
+0 0 24505
+D2
+~
+~
+0 0 24504
+D3
+~
+~
+0 0 24502
+M 0 H 0
+S
+#24504
+Lost in the Hyperspace.~
+Continuando con tu viaje por el universo, ves una luna debajo de ti .
+Estas muy lejos todavia como para apreciar algo mas,pero no se ve peligroso.
+~
+0 0 0
+D0
+~
+~
+0 0 24503
+D5
+~
+~
+0 0 24506
+M 0 H 0
+S
+#24505
+Lost in The Hyperspace~
+Crees que este camino no lleva a ninguna parte,pero na fuerza extrania te obliga a seguir al Este.
+Al parecer estas entrando en territorio Imperial,asi que debes tener cuidado con los Soldados Imperiales que le pegan a todo lo que se mueve.
+~
+0 0 0
+D3
+~
+~
+0 0 24503
+M 0 H 0
+S
+#24506
+Lost in The Hyperspace~
+Ahora te empiezas a preocupar porque dejaste de sentir los sonidos de combate y has quedado en medio del silencio absoluto.
+Te sientes muy perdido.
+~
+0 0 0
+D4
+~
+~
+0 0 24504
+D5
+~
+~
+0 0 24507
+M 0 H 0
+S
+#24507
+In The Orbit of Endor.~
+Has entrado en la orbita de la luna antes mencionada.Debido a que las nubes son muy espesas no logras ver la superficie,pero notas uno manchones verdes a traves
+de la espesa nubosidad.
+~
+0 0 0
+D4
+~
+~
+0 0 24506
+D5
+~
+~
+0 0 24508
+M 0 H 0
+S
+#24508
+Inside The Orbit Of Endor Moon~
+No logras ver nada.La Niebla esta muy espesa.
+~
+0 0 0
+D4
+~
+~
+0 0 24507
+D5
+~
+~
+0 0 24509
+M 0 H 0
+S
+#24509
+In The Forest Of Endor Moon~
+AAAAGGGGGHHHH!!!!Has caido sobre unos arboles y las ramas te han lastimado.El bosque no es tan espeso pero tampoco te permite ver muy lejos.
+La luz logra entrar a traves de los arboles y sientes ruidos de pequenios pasos.
+~
+0 0 0
+D0
+~
+~
+0 0 24510
+D1
+~
+~
+0 0 24512
+D2
+~
+~
+0 0 24511
+D3
+~
+~
+0 0 24513
+D4
+~
+~
+0 0 24508
+M 0 H 0
+S
+#24510
+In The Forest Of Endor Moon~
+El bosque continua hacia el norte por un sendero por el cual atraviesan ramas de todo tipo.
+Ahora puedes ver como pasan volando unos Tie's Interceptors y aterrizan en sector lejano de la Luna De Endor.
+~
+0 0 0
+D2
+~
+~
+0 0 24509
+M 0 H 0
+S
+#24511
+In The Forest Of Endor Moon.~
+Si tienes suerte encontras a alguien amistoso por estas lugares,ya que parece que no hay nada en que puedas confiar...
+~
+0 0 0
+D0
+~
+~
+0 0 24509
+M 0 H 0
+S
+#24512
+In The Forest Of Endor Moon~
+Continuas por el bosque cuando te das cuenta que te has perdido en la oscuridad,sientes que vas a morir.MUAAAAHHHH.Un sonido de una aldea y voces se sienten al sur,pero ten cuidado.
+~
+0 0 0
+D3
+~
+~
+0 0 24509
+M 0 H 0
+S
+#24513
+In The Lost Way.~
+Esta es una ruta muy poco trainsitada,puedes ver unos craneos humanos y otros irreconocibles,un silencio de muerte rodea el lugar.
+El camino sigue al West,pero si amas la vida te devolveras al East.
+~
+0 0 0
+D1
+~
+~
+0 0 24509
+D3
+~
+~
+0 0 24514
+M 0 H 0
+S
+#24514
+Way Of Dead.~
+SSSSSSSHHHHHHH!!!No metas mucho ruido si no quieres morir,y no vayas al Norte!!!!
+~
+0 0 0
+D0
+~
+~
+0 0 24515
+D1
+~
+~
+0 0 24513
+D3
+~
+~
+0 0 24516
+M 0 H 0
+S
+#24515
+Inside The Cavern.~
+Esta parece ser una guarida de soldados Imperiales,parece un mini-cuarte de 
+40 mts. de altura.Al parecer no se ve nadie.
+~
+0 0 0
+D2
+~
+~
+0 0 24514
+M 0 H 0
+S
+#24516
+In The Lost Way~
+Ahora sientes unas voces al West de aqui,parecen ser de Soldados del Imperio.
+Debes tener cuidado con ellos,son muy peligrosos y siempre toman prisioneros.
+~
+0 0 0
+D0
+~
+~
+0 0 24518
+D1
+~
+~
+0 0 24514
+D3
+~
+~
+0 0 24517
+M 0 H 0
+S
+#24517
+A Bend in The Forest of Endor.~
+En medio del bosque consideras que has avanzado lo suficiente como para devolverte,los AT-AT's te han ocasionados problemas y tal vez hayan mas.
+Ten cuidado con el Big AT-AT porque es muy poderoso...Sonidos de turbinas suenan a lo lejos.
+~
+0 0 0
+D1
+~
+~
+0 0 24516
+M 0 H 0
+S
+#24518
+Way of Empire.~
+Un camino con huellas de AT-AT's y de soldados imperiales continua hacia el norte,las ramas y troncos no te permiten ver al West.
+Al parecer hay mucho ajetreo al Norte de aqui...
+~
+0 0 0
+D0
+~
+~
+0 0 24520
+D2
+~
+~
+0 0 24516
+D3
+~
+~
+0 0 24519
+M 0 H 0
+S
+#24519
+A lost Way.~
+Un camino muy estrecho continua al West,pero nada importante parece llamar tu atencion,sonidos de animales y otros bichos se sienten por todo el lugar.
+Un cadaver de Ewook esta tirado aqui,al parecer fue mutilado por un animal de gran tamanio ya que le falta la mitad del cuerpo.
+~
+0 0 0
+D1
+~
+~
+0 0 24518
+M 0 H 0
+S
+#24520
+Road a long The Forest.~
+Ahora el bosque pierde su espesura y puedes ver huellas de Moto-Jets a lo largo de la senda.Definitivamente este sector pertenece al imperio ya que hay cadaveres
+del Ewooks repartidos por todos lados.El lado oscuro de la Fuerza te inunda la mente.
+~
+0 0 0
+D0
+~
+~
+0 0 24521
+D2
+~
+~
+0 0 24518
+M 0 H 0
+S
+#24521
+Way of Empire.~
+Sonidos de batalla se escuchan al Norte de aqui,al parecer son Ewooks,pero se oyen disparos laser que te hacen pensar que tienen una batalla con los Soldados del Imperio.
+Nada importante encuentras en este lugar terrorifico en el que se siente la fuerza oscura en toda su magnitud.
+~
+0 0 0
+D0
+~
+~
+0 0 24522
+D2
+~
+~
+0 0 24520
+M 0 H 0
+S
+#24522
+Entrance to Way of Reactor.~
+Efectivamente,hay una pelea de proporciones entre Ewooks y Soldados imperialese Ewooks,estos ultimos logicamente estan perdiendo el combate y se preparan para arrancar.
+De todas maneras los soldados imperiales te atacan.!!!Ten cuidado!!!.
+~
+0 A 0
+D0
+~
+~
+0 0 24524
+D1
+~
+~
+0 0 24525
+D2
+~
+~
+0 0 24521
+D3
+~
+~
+0 0 24523
+M 0 H 0
+S
+#24523
+Way to Death.~
+Este lugar es terrorifico y te da mieda estar aqui.El olor de los cadaveres de animales e Ewooks apesta y el lugar esta regado de cuerpos de Soldados 
+Imperiales.
+~
+0 0 0
+D1
+~
+~
+0 0 24522
+D5
+~
+~
+AB 0 24536
+M 0 H 0
+S
+#24524
+A lost Way.~
+Entras en un camino inundado de tranquilidad,una pequena choza se ve mas adelante.La paz de este lugar se siente por todos lados,solo sonidos de pajaros sientes en este lugar
+~
+0 A 0
+D0
+~
+~
+0 0 24526
+D1
+~
+~
+0 0 24527
+D2
+~
+~
+0 0 24522
+S
+#24525
+In The Forest~
+Continuando tu viaje,encuentras que has caminado bastante,y ya el bosque se comienza a poner denso.Mejor pensarlo bien antes de continuar....y cuidado con los Soldados.
+~
+0 0 0
+D1
+~
+~
+0 0 24530
+D3
+~
+~
+0 0 24522
+M 0 H 0
+S
+#24526
+North Way of Forest.~
+Ya los arboles pierden espesor y puedes ver que el camino termina aqui en una gran muralla de roca.
+Un aire especial se respira aqui.
+~
+0 A 0
+D0
+~
+~
+0 0 24528
+D2
+~
+~
+0 0 24524
+M 0 H 0
+S
+#24527
+In a Ewook House.~
+Has entrado en una casa Ewook,muy pequenia y huele a hierbas,por suerte para ti no hay nadie,pero todo indica que los habitantes de este lugar estan por llegar.
+~
+0 0 0
+D3
+~
+~
+0 0 24524
+M 0 H 0
+S
+#24528
+Enatrance To Ewook Temple.~
+Has llegado a la entrada del templo e los Ewooks,la tranquilidad del lugar te sobrecoge.
+La estructura del templo se ve en exelente condicion y es hermosa,es una ora de arte y de arquitectura.
+La puerta es inmensa y tiene una gran cerradura en el centro.
+~
+0 0 0
+D0
+~
+~
+AB 24514 24529
+D2
+~
+~
+0 0 24526
+M 0 H 0
+S
+#24529
+Entrance to Ewook Temple.~
+Has entrado en el Templo de los Ewook,al parecer no es muy grande pero es muy interesante.No se ven puertas lateres;solo una puerta al fondo del pasillo.
+Un aroma a hierbas se siente en todo el lugar.
+~
+0 0 0
+D0
+~
+~
+0 0 24575
+D2
+~
+~
+AB 0 24528
+M 0 H 0
+S
+#24530
+Road to Reactor.~
+Este camino es totalmente diferente al ya recorrido.Una capa de pavimento cubre el suelo,y luces se ven a lo lejos.
+Una que otra nave Tie Fighter pasa sobre tu cabeza para aterrizar mas adelante.
+~
+0 A 0
+D0
+~
+~
+0 0 24531
+D3
+~
+~
+0 0 24525
+M 0 H 0
+S
+#24531
+Road to Reactor.~
+Ahora logras ver una plataforma de aterrizaje y un cuartel del Imperio.
+Una especie de antena envia rayos azules hacia el espacio.
+El lugar esta plagado de Soldados Imperiales.(por si no te has dado cuenta).
+~
+0 A 0
+D0
+~
+~
+0 0 24532
+D2
+~
+~
+0 0 24530
+S
+#24532
+Way to Reactor.~
+Has llegado al Reactor que le da el escudo a la Estrella de la Muerte.
+El lugar esta plagado de Soldados,Comandantes,Tenientes y naves Imperiales,lo que te obliga a tener muchisimo cuidado.
+~
+0 0 0
+D0
+~
+~
+0 0 24534
+D1
+~
+~
+0 0 24533
+D2
+~
+~
+0 0 24531
+M 0 H 0
+S
+#24533
+Entrada a la Plataforma de Aterrizaje.~
+Estas rumbo a la plataforma de donde aterrizan y despegan todas las naves del Imperio.
+Hay algunos Tie's aniquilando a todos los intrusos que aparecen.Debes tener cuidado.
+Si eres nivel sobre 40 puedes continuar con relativa tranquilidad,si no es asi, lo mejor sera que abandones el lugar.
+done
+~
+0 0 0
+D0
+~
+~
+0 0 24535
+D3
+~
+~
+0 0 24532
+M 0 H 0
+S
+#24534
+Road to Central Headquarters.~
+Este camino te lleva directamente hacia el cuartel general de los Imperiales en Endor.
+Segun la leyenda,para poder entrar a la Death Star necesitas desactivar el escudo con una Tarjeta de Identificacion de Dark Vader,que se encuentra en este luar.
+Pero como ya te habras dado cuenta ,el lugar esta lleno de enemigos que te haran la vida imposible con tal que no encuentres esa tarjeta.
+Que tengas suerte...Y que la Fuerza este contigo.
+~
+0 0 0
+D0
+~
+~
+0 0 24548
+D2
+~
+~
+0 0 24532
+M 0 H 0
+S
+#24535
+Plataforma de Aterrizaje.~
+Estas parado sobre la plataforma,esta lleno de naves que tal vez te estan atacando.
+El ajetreo es desconcertante,parece que los de Imperio se estan preparando para una Guerra.
+~
+0 0 0
+D2
+~
+~
+0 0 24533
+M 0 H 0
+S
+#24536
+A Dark Tunnel.~
+Te Encuentras en un oscuro tunel que continua al Sur.
+No es un lugar que te agrade, asi que lo mejor sera ue te devuelvas.
+Un signo en la pared dice : "Propiedad Privada,no entrar.Los Intrusos sera castigados.".
+~
+0 A 0
+D2
+~
+~
+0 0 24537
+D4
+~
+~
+AB 0 24523
+D5
+~
+secret.~
+AB 0 24541
+M 0 H 0
+S
+#24537
+Inside the Dark Tunnel.~
+El tunel continua al sur,logras ver una gran construccion en esa direccion.
+~
+0 0 0
+D0
+~
+~
+0 0 24536
+D2
+~
+~
+0 0 24538
+D5
+~
+placa~
+AB 0 24563
+M 0 H 0
+S
+#24538
+Front Of Kiss Mansion.~
+WWOOOOWWW!!! Impresionante,sencillamente Espectacular.!!
+Te encuentras frente a una Monumental Mansion estilo gotico con cierto aire tenebroso.
+Las manillas de la puerta son de oro, y una inscripcion hecha con letras de Platino dice : "Kiss House".
+~
+0 0 0
+D0
+~
+~
+0 0 24537
+D2
+~
+~
+AB 24517 24539
+M 0 H 0
+S
+#24539
+Inside The House Of Kiss.~
+Realmente este lugar es lo mas maravilloso que has visto en el Mud.
+Estatuas de marmol,y cuadros de batallas hacen de este lugar un Santuario.
+El espectaculo te impacta a tal punto que lo unico que deseas es quedarte a vivir aqui para Siempre.
+~
+0 0 0
+D0
+~
+~
+AB 0 24538
+D1
+~
+~
+0 0 24542
+M 0 H 0
+S
+#24540
+The Pit of Death.~
+SI NO ERES KISS.....
+ 
+ 
+                                VETEEEE!!!!!!!!!!!
+~
+0 0 0
+D4
+~
+~
+AB 0 24538
+M 0 H 0
+S
+#24541
+Pit Of Death.~
+SI NO ERES KISS...
+ 
+ 
+ 
+                     V E T E E E E E E ! ! ! !
+~
+0 0 0
+D4
+~
+~
+AB 0 24536
+M 0 H 0
+S
+#24542
+In The Mansion.~
+Vas por un pasillo,todavia con la boca abierta por esta descomunal obra de ingenieria.
+Antorchas iluminan el lugar con una luz tenue pero hermosa.
+~
+0 0 0
+D0
+~
+~
+0 0 24543
+D3
+~
+~
+0 0 24539
+M 0 H 0
+S
+#24543
+The Great Hall.~
+Estas en el Hall principalde la casa.Ahora el piso es de marmol y los muebles son de arte colonial.
+Al este de aqui se encuentran los dormitorios para las visitas y al north el Comedor.
+Si tienes hambre,ve al comedor para que te atiendan ,y si tienes suenio anda 
+a los ddormitorios.
+~
+0 0 0
+D0
+~
+~
+0 0 24545
+D1
+~
+~
+0 0 24544
+D2
+~
+~
+0 0 24542
+D5
+~
+~
+ABC 0 24562
+S
+#24544
+Pasillo a los Dormitorios~
+Caminas a lo largo de un pasillo que te conducira hacia los cuartos de los huespedes...
+Logicamente si eres un Dios podras entrar a dormir a los confortables aposentos que tiene esta magnifica casa.
+~
+0 0 0
+D0
+~
+~
+0 0 24546
+D3
+~
+~
+0 0 24543
+M 0 H 0
+S
+#24545
+El Comedor~
+Te Encuentras en el espectacular comedor de la casa de Kiss.
+La cena esta servida y la mesa esta llena de alimentos que jamas habias visto.
+El hambre te hace sonar las tripas.
+~
+0 0 0
+D2
+~
+~
+0 0 24543
+M 0 H 0
+S
+#24546
+Final del Pasillo~
+El pasillo llega a su fin...
+Para continuar debes ir al segundo piso para tomar una habitacion.
+~
+0 0 0
+D2
+~
+~
+0 0 24544
+D4
+~
+~
+0 0 24547
+M 0 H 0
+S
+#24547
+Entrada A las Habitaciones~
+Estas en el segundo piso de la casa,y hay un mayordomo entragando llaves.
+Un pasillo al Norte con puerta a ambos lados conduce a las piezas.
+~
+0 0 0
+D5
+~
+~
+0 0 24546
+M 0 H 0
+S
+#24548
+Entrance to Reactor~
+Has llegado casi al final del camino y cada vez se hace mas complicado andar por estos rumbos.
+Si deseas aniquilar a la Death Star debes continuar ,pero si eres nivel 35 para abajo lo mejor es que hagas recall.
+Ten mucho cuidado,que la fuerza no es tan poderosa por aqui...
+~
+0 0 0
+D0
+~
+gate~
+AB 0 24549
+D2
+~
+~
+0 0 24534
+M 0 H 0
+S
+#24549
+Inside The Reactor.~
+Has entrado al cuertel general del Imperio en Endor.
+El lugar esta lleno de computadoras que controlan el escudo de la Estrella de la Muerte.
+Cuidado con los guardias que cuidan el lugar.Busca la tarjeta para desactivar el escudo y poder salvar el Universo. Que la Fuerza este contigo.
+~
+0 0 0
+D0
+~
+~
+0 0 24550
+D1
+~
+~
+0 0 24551
+D2
+~
+~
+AB 0 24548
+D3
+~
+~
+0 0 24552
+M 0 H 0
+S
+#24550
+Inside the Reactor.~
+Continuando tu peligroso camino,encuetras diversos obstaculos para cumplir tu mision.
+Este camino tiene a los costados computadoras de todos los tipos.
+Una puerta al Norte no te permite sguir caminando.
+~
+0 0 0
+D0
+~
+puerta~
+AB 0 24554
+D2
+~
+~
+0 0 24549
+M 0 H 0
+S
+#24551
+Pasillo en el Reactor~
+Un pasillo con cables y maquinas continua al norte de aqui.
+Algunos soldados te daran problemas,pero continua con la busqueda.
+~
+0 0 0
+D1
+~
+~
+0 0 24558
+D3
+~
+~
+0 0 24549
+M 0 H 0
+S
+#24552
+Other way in The Reactor.~
+Otro pequenio pasillo continua al west,"aparentemente" no ves salidas ni puertas,solo por donde viniste.
+Vamos!!! La fuerza te protege.
+~
+0 0 0
+D1
+~
+~
+0 0 24549
+D5
+~
+~
+AB 0 24556
+M 0 H 0
+S
+#24554
+Way to Dungeon~
+Una escalera desciende y se pierde en la oscuridad.
+Un asqueroso olor llena el lugar.
+~
+0 0 0
+D2
+~
+~
+AB 0 24550
+D5
+~
+~
+0 0 24555
+M 0 H 0
+S
+#24555
+Imperial Dungeon~
+Efectvamente.Este lugar esta reservado para los rebeldes que han sido tomados prisioneros en Combate.
+Hay algunas camas maltrechas y algunos Prisioneros estan encadenados aqui.
+Otros estan sueltos,pero apenas pueden pararse.
+~
+0 A 0
+D4
+~
+~
+0 0 24554
+M 0 H 0
+S
+#24556
+In a tunnel~
+Un extranio tunel ves hacia el norte.
+Sonidos de una maquina o una computadora se oyen en este lugar.
+Puede que haya una computadora o algo que controle el escudo.
+Pero esta demasiado oscuro como para saberlo...
+~
+0 0 0
+D0
+~
+~
+0 0 24557
+D4
+~
+~
+AB 0 24552
+M 0 H 0
+S
+#24557
+End of tunnel~
+UUPPSS'''.
+Has llegado al final del tunel y al parecer no hay nada importante.
+Maquinas inservibles y cables "adornan" el lugar.
+Pantallas de computadores (svga) estan tiradas por todos lados.
+~
+0 A 0
+D2
+~
+~
+0 0 24556
+M 0 H 0
+S
+#24558
+Way to the Central Commands.~
+Parece que vas directamente al Reactor Principal de la base.
+Continuan apareciendo soldados y robots que tratan de impedir el cumplimiento de tu mision.
+Debes continuar si quieres salvar al Universo.
+~
+0 A 0
+D2
+~
+~
+0 0 24559
+D3
+~
+~
+0 0 24551
+M 0 H 0
+S
+#24559
+Inside The Central Computer~
+Ahora si que estas en dificultades.Un monton de soldados se ven al sur.
+Si eres nivel bajo,haz recall,de lo contrario te costara mucho enfrentarlos.
+Si eres POODEROOSOO , continua para llegar al final de esta aventura.
+~
+0 A 0
+D0
+~
+~
+0 0 24558
+D2
+~
+~
+0 0 24560
+M 0 H 0
+S
+#24560
+Central Commands.~
+Una gran computadora esta instalada aqui controlando el escudo.Al este puedes ver un gran foso subterraneo donde estan los generadores de energia e escudo.
+Recuerda!!!Debes darle el codigo para que te entregue la tarjeta con la cual podras desactivar el codigo...
+~
+0 0 0
+D0
+~
+~
+0 0 24559
+D1
+~
+~
+0 0 24561
+M 0 H 0
+S
+#24561
+Pit of Power Shield.~
+WWWOOOWWWW!!!!Que vista!!!! Estas a la orilla de un gran acantilado que distribuye la energia para el escudo.
+Debes ir a ingresar la tarjeta alli y desconectar el escudo,para entrar a La estrella de la Muerte.
+Apurate!!!Te queda poco tiempo.
+~
+0 0 0
+D3
+~
+~
+0 0 24560
+M 0 H 0
+S
+#24562
+El cuarto del los Pendejos Picaos.~
+~
+0 K 0
+D4
+~
+~
+ABC 0 24543
+M 0 H 0
+S
+#24563
+In a Way of Shopping Center~
+Bajaste por un tunel secreto,que te llevara a un Centro Comercial.
+Si quieres comprar,continua hacia el norte.
+~
+0 0 0
+D0
+~
+~
+0 0 24565
+D2
+~
+~
+0 0 24579
+D4
+~
+~
+AB 0 24537
+M 0 H 0
+S
+#24565
+Entrance To Shopping Center~
+Estas en la entrada de un enorme edificio. Hay un inmenso cartel luminoso que dice " Plaza Vespucio Shopping Center ".
+~
+0 0 0
+D0
+~
+~
+0 0 24566
+D2
+~
+~
+0 0 24563
+M 0 H 0
+S
+#24566
+Inside the Plaza Vespucio.~
+Muchas tiendas se encuentran aqui ofreciendo todo tipo de productos.
+Las ofertas se ven por todos lados y todo lo que ves te tienta....
+Muchas personas se encuentran comprando cosas y comida.
+~
+0 0 0
+D0
+~
+~
+0 0 24568
+D1
+~
+~
+0 0 24567
+D2
+~
+~
+0 0 24565
+D3
+~
+~
+0 0 24569
+M 0 H 0
+S
+#24567
+Mc. Donald's.~
+Te encuentras en un centro Mc. Donald's.Aqui puedes comprar comida.
+Hay muchas ofertas de deliciosas comidas.
+El lugar esta lleno de gente comprando y comiendo de todo.Te da hambre estar aqui.
+~
+0 0 0
+D3
+~
+~
+0 0 24566
+M 0 H 0
+S
+#24568
+Along The Plaza Vespucio~
+Caminas por los enormes pasillos del Shopping mirando como la gente compra y compra.
+El lugar esta lleno de ninios comiendo dulces y jugando con globos.
+El camino continua al Norte.
+~
+0 0 0
+D0
+~
+~
+0 0 24580
+D1
+~
+~
+0 0 24573
+D2
+~
+~
+0 0 24566
+D3
+~
+~
+0 0 24574
+M 0 H 0
+S
+#24569
+Weapon Shop~
+Estas dentro de una tienda donde venden armas,hay de todos los tipos.
+Escopetas recortadas,canones,UZI's,etc...
+Hay muchos cazadores comprando escopetas,fusiles...en fin,de todo.
+~
+0 0 1
+D1
+~
+~
+0 0 24566
+M 0 H 0
+S
+#24573
+Magic Shop~
+En esta tienda se venden articulos de magia.Esto significa pociones,scrolls,staffs,varitas,etc...
+En el lugar hay magos y otras personas comprado articulos a muy bajo precio.
+~
+0 0 0
+D3
+~
+~
+0 0 24568
+M 0 H 0
+S
+#24574
+Lomiton~
+Has entrado al Lomiton.
+El lugar esta lleno de personas comprando lomitos,hamburguesas,bebidas etc...
+Hay una promocion de un 40% de descuento para las personas del clan JEDI.
+~
+0 0 0
+D1
+~
+~
+0 0 24568
+M 0 H 0
+S
+#24575
+Inside The Ewooks Temple~
+El templo tiene todo tipo de adornos rusticos...
+Un Altar se encuentra al frente tuyo.Un Clerigo Ewook esta haciendo rituales aqui.
+~
+0 0 0
+D1
+~
+~
+0 0 24576
+D2
+~
+~
+0 0 24529
+S
+#0
+
+
+
+#SPECIALS
+M 24509 spec_breath_any
+M 24516 spec_breath_any
+M 24517 spec_cast_adept
+M 24518 spec_questmaster
+M 24526 spec_cast_cleric
+M 24527 spec_cast_cleric
+M 24534 spec_taxidermist
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 24576 1 1
+D 0 24577 3 1
+D 0 24578 5 1
+D 0 24579 4 1
+D 0 24523 5 1
+D 0 24528 0 1
+D 0 24529 2 1
+D 0 24536 4 1
+D 0 24536 5 1
+D 0 24537 5 1
+D 0 24538 2 1
+D 0 24539 0 1
+D 0 24540 4 1
+D 0 24541 4 1
+D 0 24543 5 2
+D 0 24548 0 1
+D 0 24549 2 1
+D 0 24550 0 1
+D 0 24552 5 1
+D 0 24554 2 1
+D 0 24556 4 1
+D 0 24562 4 2
+D 0 24563 4 1
+M 0 24527 1 24577 1
+E 0 24501 0 8
+E 0 24543 0 16
+O 0 24547 0 24581
+M 0 24530 1 24582 1
+M 0 24529 1 24582 1
+E 0 24526 0 16
+E 0 24549 0 20
+M 0 24531 1 24583 1
+G 0 24550 0
+M 0 24532 1 24583 1
+E 0 24550 0 17
+M 0 24533 1 24584 1
+G 0 24552 0
+M 0 24534 1 24584 1
+G 0 24552 0
+M 0 24535 1 24585 1
+M 0 24500 1 24500 1
+G 0 24548 0
+M 0 24504 1 24502 1
+E 0 24500 0 16
+M 0 24502 50 24505 1
+E 0 24500 0 16
+M 0 24505 50 24510 1
+G 0 24503 0
+M 0 24507 1 24515 1
+E 0 24500 0 16
+M 0 24505 1 24516 1
+G 0 24502 0
+M 0 24508 1 24517 1
+G 0 24507 0
+M 0 24502 1 24518 1
+E 0 24500 0 16
+M 0 24509 1 24519 1
+G 0 24503 0
+G 0 24508 0
+G 0 24504 0
+M 0 24502 1 24520 1
+E 0 24500 0 16
+M 0 24510 1 24522 1
+E 0 24500 0 16
+M 0 24502 1 24522 1
+E 0 24500 0 16
+M 0 24511 1 24523 1
+G 0 24512 0
+M 0 24512 1 24523 1
+M 0 24505 10 24525 1
+G 0 24502 0
+M 0 24510 1 24525 1
+M 0 24506 1 24527 1
+G 0 24509 0
+P 0 24510 0 24509 0
+P 0 24511 0 24509 0
+M 0 24513 1 24528 1
+E 0 24513 0 16
+G 0 24514 0
+M 0 24505 50 24529 1
+O 0 24515 0 24529
+M 0 24502 50 24531 2
+E 0 24500 0 16
+M 0 24514 1 24535 1
+E 0 24516 0 16
+M 0 24516 1 24535 1
+E 0 24516 0 16
+O 0 24517 0 24540
+O 0 24517 0 24541
+M 0 24517 1 24543 1
+M 0 24518 1 24543 1
+O 0 24518 0 24545
+M 0 24502 3 24548 50
+M 0 24502 1 24548 1
+M 0 24519 1 24555 1
+E 0 24524 0 1
+M 0 24520 1 24557 1
+M 0 24521 1 24560 1
+G 0 24522 0
+M 0 24523 1 24567 1
+G 0 24532 0
+G 0 24533 0
+G 0 24534 0
+G 0 24535 0
+G 0 24531 0
+P 0 24536 0 24535 1
+P 0 24534 0 24535 5
+P 0 24531 0 24535 5
+M 0 24524 1 24568 1
+G 0 24537 0
+O 0 24544 0 24568
+M 0 24522 1 24569 1
+G 0 24526 0
+G 0 24527 0
+G 0 24529 0
+G 0 24528 0
+G 0 24530 0
+M 0 24525 1 24573 1
+G 0 24538 0
+G 0 24539 0
+G 0 24540 0
+G 0 24541 0
+M 0 24528 1 24574 1
+G 0 24545 0
+G 0 24546 0
+G 0 24531 0
+G 0 24532 0
+G 0 24534 0
+M 0 24526 1 24575 1
+G 0 24542 0
+S
+
+
+
+#SHOPS
+24511 10 0 0 0 0 100 100 100 100 0 23
+24522 5 0 0 0 0 150 50 150 50 0 23
+24523 0 19 25 12 17 150 50 150 50 1 24
+24524 0 3 0 0 0 50 100 50 100 1 24
+24525 0 2 3 10 4 100 100 100 100 1 24
+24528 0 0 0 0 0 50 20 50 20 1 24
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

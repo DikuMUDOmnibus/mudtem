@@ -1,0 +1,550 @@
+#AREADATA
+Name Limbo~
+Builders None~
+VNUMs 1 99
+Credits {None } Diku    Limbo~
+Security 9
+Prototipo 0
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#1
+zombie~
+a zombie~
+A zombie is here, slaving away for its master.
+~
+This zombie has a blank look on its face.  Rest assured, it wouldn't stir if
+you held a knife to its throat.
+~
+'zombie'
+ABT 0 0 0 0
+0 0 2d6+10 0d10+100 1d4+0 slash
+9 9 9 10
+EFNU 0 0 0
+stand stand male 0
+H 0 medium 'flesh'
+C 'warrior'
+#2
+stalker~
+the Dark Stalker~
+A Dark Stalker stands here, searching for it's prey.
+~
+~
+'human'
+ABOT CDFGJU 0 -900 0
+48 72 50d10+4000 48d16+100 5d11+18 drain
+-18 -18 -18 -18
+CDEFHIKLTU 0 0 0
+stand stand either 1000
+BIc 0 large 'unknown'
+C 'warrior'
+#3
+supermob~
+el supermob~
+El super mob esta aqui, ocupado, como siempre.
+~
+~
+'undead'
+ABGQd BNOPQc 0 0 0
+48 24 25d10+3750 48d16+1700 7d7+16 drain
+-18 -18 -18 -16
+FKTU ABCD 0 0
+stand stand either 0
+0 0 medium 'unknown'
+C 'cleric'
+F act O
+F for BIMVc
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#1
+coin silver gcash moneda plata~
+una moneda de plata~
+Una miserable moneda de plata.~
+plata~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#2
+coin gold gcash moneda oro~
+una moneda de oro~
+Una valiosa moneda de oro.~
+oro~
+money 0 A
+1 0 0 0 0
+0 10 0 P
+#3
+coins gold gcash monedas oro~
+%d monedas de oro~
+Una pila de monedas de oro.~
+oro~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+coins silver gcash monedas plata~
+%d monedas de plata~
+Una pila de monedas de plata.~
+plata~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+coins silver gold gcash oro plata monedas pila~
+%d monedas de plata y %d monedas de oro~
+Una pila de monedas.~
+oro~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#9
+bistec~
+un bistec~
+Un delicioso bistec esta en el suelo.~
+carne~
+food 0 A
+3 3 0 0 0
+0 10 0 P
+#10
+corpse cuerpo~
+el cuerpo de %s~
+El cuerpo de %s esta tirado aqui.~
+carne~
+npc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#11
+corpse cuerpo~
+el cuerpo de %s~
+El cuerpo de %s esta tirado aqui.~
+carne~
+pc_corpse O A
+0 0 0 A 0
+0 1000 0 D
+#12
+head cabeza~
+la cabeza de %s~
+La cabeza de %s esta tirada aqui.~
+carne~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+heart corazon~
+el corazon de %s~
+El corazon de %s esta tirado aqui.~
+carne~
+food 0 A
+16 16 0 0 0
+0 20 0 D
+#14
+arm brazo~
+el brazo de %s~
+El brazo mutilado de %s esta tirado aqui.~
+carne~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#15
+leg pierna~
+la pierna de %s~
+La pierna mutilada de %s esta tirada aqui.~
+carne~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#16
+guts entrails visceras~
+las visceras de %s~
+Las humeantes visceras de %s estan tiradas aqui.~
+carne~
+food 0 A
+5 5 0 A 0
+0 20 0 D
+#17
+brains brain sesos~
+los sesos de %s~
+Los sesos aplastados de %s estan tirados aqui.~
+carne~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#18
+plasta~
+los restos de un zombie~
+Los restos de un zombie estan en el suelo, pudriendose.~
+plasta~
+trash EU A
+0 0 0 0 0
+0 10 0 P
+#19
+charco sangre~
+un charco de sangre~
+Un charco de sangre fresca esta en el suelo.~
+sangre~
+fountain 0 0
+10 10 'blood' 0 0
+0 10 10 P
+#20
+mushroom hongo~
+un Hongo Magico~
+Un delicioso Hongo Magico esta aqui.~
+comida~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 999 0 0
+0 4 0 P
+#22
+spring fuente~
+una fuente magica~
+Una fuente magica brota desde el suelo.~
+agua~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 100
+0 5 0 P
+#25
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#30
+dummy object~
+a dummy object~
+Dummy object is used for loading non-existent objects~
+indef~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#31
+lampara~
+lampara~
+A random light source makes the 'VNUM' for a random light.~
+indef~
+light 0 AO
+0 0 10 0 0
+1 6 0 P
+#32
+anillo~
+anillo~
+A random ring makes the 'VNUM' for a random ring.~
+indef~
+armor 0 AB
+0 0 0 0 0
+1 8 0 P
+#33
+anillo~
+anillo~
+A random ring makes the 'VNUM' for a random ring.~
+indef~
+armor 0 AB
+0 0 0 0 0
+1 6 0 P
+#34
+collar~
+collar~
+A random necklace makes the 'VNUM' for a random necklace.~
+indef~
+armor 0 AC
+0 0 0 0 0
+1 8 0 P
+#35
+capa~
+capa~
+A random cape makes the 'VNUM' for a random cape.~
+indef~
+armor 0 AC
+0 0 0 0 0
+5 13 0 P
+#36
+armadura~
+armadura~
+Random body armor makes the 'VNUM' for random body armor.~
+indef~
+armor 0 AD
+0 0 0 0 0
+10 54 0 P
+#37
+casco~
+casco~
+A random helmet makes the 'VNUM' for a random helmet.~
+indef~
+armor 0 AE
+0 0 0 0 0
+5 18 0 P
+#38
+polainas~
+polainas~
+Random leggings make the 'VNUM' for random leggings.~
+indef~
+armor 0 AF
+0 0 0 0 0
+5 23 0 P
+#39
+botas~
+botas~
+Random boots make the 'VNUM' for random boots.~
+indef~
+armor 0 AG
+0 0 0 0 0
+5 21 0 P
+#40
+guanteletes~
+guanteletes~
+Random gauntlets make the 'VNUM' for random gauntlets.~
+indef~
+armor 0 AH
+0 0 0 0 0
+5 26 0 P
+#41
+mangas~
+mangas~
+Random sleeves make the 'VNUM' for random sleeves.~
+indef~
+armor 0 AI
+0 0 0 0 0
+4 13 0 P
+#42
+escudo~
+escudo~
+A random shield makes the 'VNUM' for a random shield.~
+indef~
+armor 0 AJ
+0 0 0 0 0
+12 43 0 P
+#43
+toga~
+toga~
+A random robe makes the 'VNUM' for a random robe.~
+indef~
+armor 0 AK
+0 0 0 0 0
+2 9 0 P
+#44
+cinturon~
+cinturon~
+A random belt makes the 'VNUM' for a random belt.~
+indef~
+armor 0 AL
+0 0 0 0 0
+3 8 0 P
+#45
+brazalete~
+brazalete~
+A random bracelet makes the 'VNUM' for a random bracelet.~
+indef~
+armor 0 AM
+0 0 0 0 0
+1 10 0 P
+#46
+cinto~
+cinto~
+A random bracer makes the 'VNUM' for a random bracer.~
+indef~
+armor 0 AM
+0 0 0 0 0
+5 27 0 P
+#47
+weapon~
+~
+A random weapon makes the 'VNUM' for a random weapon.~
+indef~
+weapon 0 AN
+exotic 0 0 'none' 0
+5 21 0 P
+#48
+joya~
+joya~
+A random trinket makes the 'VNUM' for a random trinket.~
+indef~
+treasure 0 AO
+0 0 0 0 0
+1 7 0 P
+#49
+papiro~
+un papiro~
+A random scroll makes the 'VNUM' for a random scroll.~
+indef~
+scroll 0 AO
+0 '' '' '' ''
+1 4 0 P
+#50
+varita~
+una varita~
+A random wand makes the 'VNUM' for a random wand.~
+indef~
+wand 0 AO
+0 0 0 '' 0
+1 10 0 P
+#51
+vara~
+una vara~
+A random staff makes the 'VNUM' for a random staff.~
+indef~
+staff 0 AO
+0 0 0 '' 0
+5 18 0 P
+#52
+pocion~
+una pocion~
+A random potion makes the 'VNUM' for a random potion.~
+indef~
+potion 0 AO
+0 '' '' '' ''
+1 8 0 P
+#53
+pastilla~
+una pastilla~
+A random pill makes the 'VNUM' for a random pill.~
+indef~
+pill 0 A
+0 '' '' '' ''
+1 5 0 P
+#54
+bolso~
+un bolso~
+A random bag makes the 'VNUM' for a random bag.~
+indef~
+container 0 AO
+0 0 0 0 100
+1 6 0 P
+#60
+diente colmillo dragon~
+el diente del Gran Dragon Negro~
+Un colmillo de gran tamano esta enterrado en el suelo.~
+marfil~
+treasure GSY A
+0 0 0 0 0
+0 10 100 P
+#61
+piedra~
+la piedra filosofal~
+Una piedra de gran tamano esta en el suelo.~
+piedra~
+treasure GOSY A
+0 0 0 0 0
+0 50 0 P
+#62
+grial copa~
+el santo grial~
+Una copa de madera esta en el suelo.~
+madera~
+treasure AIKY A
+0 0 0 0 0
+0 10 1000 P
+#63
+biblia libro~
+la biblia negra~
+Un libro blasfemo esta en el suelo.~
+papel~
+trash CEJS A
+0 0 0 0 0
+0 15 100 P
+#64
+moneda~
+la moneda de la suerte~
+Una moneda de gran tamanio llama tu atencion.~
+oro~
+trash A A
+0 0 0 0 0
+0 20 0 P
+#0
+
+
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 CD 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 D 1
+D4
+~
+~
+0 -1 3001
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#HELPS
+-1 Halfelf Semielfo~
+Los semielfos (halfelf) son criaturas medio humanas y medio elficas.
+Como son descendientes de elfos tienen la habilidad de la infravision, pero
+con menos rango que la de sus ancestros, y poseen la habilidad (de la parte
+humana) de ser de cualquier clase.
+Como las desventajas de sus ancestros elfos, los semi-elfos no pueden ser
+muy gruesos de constitucion, pero si pueden ser muy inteligentes y tambien
+diestros, si se lo proponen.
+~
+
+-1 AMBIDIESTRO~
+Esta habilidad te permite usar, a la vez, dos armas, una en cada mano ,
+para asi poder golpear mas veces por turno a tu oponente, y causarle mas
+danio.
+ 
+Esta habilidad la poseen todos los Rangers (Guardabosques) sin excepcion.
+~
+
+-1 $~
+
+#$

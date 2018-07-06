@@ -1,0 +1,60 @@
+Mon Aug 20 10:14:00 2001 :: Cargando variables.
+Mon Aug 20 10:14:00 2001 :: mud_calloc : pidiendo 2500000 bytes
+Mon Aug 20 10:14:00 2001 :: Inicializando SLang
+Mon Aug 20 10:14:00 2001 :: Creando clan_table de largo 9, tama~no 468
+Mon Aug 20 10:14:00 2001 :: Tabla de clanes cargada.
+Mon Aug 20 10:14:00 2001 :: Cargando puntajes
+Mon Aug 20 10:14:00 2001 :: Cargando segundos
+Mon Aug 20 10:14:00 2001 :: Creando race_table de largo 57, tama~no 8436
+Mon Aug 20 10:14:00 2001 :: Tabla de razas cargada.
+Mon Aug 20 10:14:00 2001 :: Cargando skills
+Mon Aug 20 10:14:00 2001 :: Creando tabla de skills de largo 227, tama~no 18160
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: spell_function : spell spell_lepra inexistente
+Mon Aug 20 10:14:00 2001 :: Creando tabla hash de skills
+Mon Aug 20 10:14:00 2001 :: Cargando grupos
+Mon Aug 20 10:14:00 2001 :: Creando cmd_table de largo 402, tama~no 8040
+Mon Aug 20 10:14:00 2001 :: Tabla de comandos cargada.
+Mon Aug 20 10:14:00 2001 :: Creando tabla de acceso a comandos
+Mon Aug 20 10:14:00 2001 :: Creando laberinto
+Mon Aug 20 10:14:00 2001 :: Cargando areas
+Mon Aug 20 10:14:00 2001 :: Cargando script 3018.scr.
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: chapel.are LINE: 500
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: Load_objects : obj 3420 sin nom, short o desc.
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: limbo.are LINE: 376
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: Load_objects : obj 47 sin nom, short o desc.
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: lab.are LINE: 67
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: Load_mobiles : mob 31000 con nom, short o long desc NULL.
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: gstrong.are LINE: 265
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_objects : obj 16666 con MELT_DROP y NODROP
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 1889
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : cuarto 23575 con mana_rate 500
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 1889
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : cuarto 23575 con heal_rate 500
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 2129
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : room 23593 con ROOM_ARENA
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 2146
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : room 23594 con ROOM_ARENA
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 2162
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : room 23595 con ROOM_ARENA
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 2288
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : cuarto 23505 con mana_rate 300
+Mon Aug 20 10:14:00 2001 :: [*****] FILE: smoon.are LINE: 2288
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: load_rooms : cuarto 23505 con heal_rate 300
+Mon Aug 20 10:14:00 2001 :: [*****] BUG: Fix_exits: 22726:0 -> 22731:2 -> 22727.
+Err: obj Cetro Lunar (23509) -- 33, mob #BSerena#b, La princesa de la Luna (23505) -- 60
+Err: obj Espada de Endimion (23511) -- 35, mob #BEndimion#b, El Principe de la Tierra (23504) -- 55
+Err: obj laser Gun (24500) -- 30, mob Un Comandante Imperial (24510) -- 43
+Mon Aug 20 10:14:00 2001 :: Cargando notas
+Mon Aug 20 10:14:00 2001 :: Cargando comandos inhabilitados
+Mon Aug 20 10:14:00 2001 :: Cargando bans
+Mon Aug 20 10:14:00 2001 :: Creando social_table de largo 255, tama~no 9180
+Mon Aug 20 10:14:00 2001 :: Tabla de socials cargada.
+Mon Aug 20 10:14:00 2001 :: Cargando valor de las acciones
+Mon Aug 20 10:14:00 2001 :: Cargando canciones
+Mon Aug 20 10:14:00 2001 :: Tabla de peticiones cargada.
+Mon Aug 20 10:14:00 2001 :: Lista de jugadores cargada.
+Mon Aug 20 10:14:00 2001 :: Black Dragon Mud is ready to rock on port 27040.
+Tue Aug 21 13:32:15 2001 :: Creando socket 6 para 127.0.0.1
+Tue Aug 21 13:32:17 2001 :: Loading Birdie.
+Tue Aug 21 13:32:20 2001 :: Birdie@localhost se ha conectado.
+Tue Aug 21 13:32:22 2001 :: Birdie se retira.

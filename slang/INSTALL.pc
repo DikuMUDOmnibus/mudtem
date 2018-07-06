@@ -1,0 +1,7 @@
+-*- text -*-
+The file contains a few notes about compiling the slang library under OS/2
+and MSDOS, WIN32, and NT systems.  This _includes_ the various GNU
+environments such as DJGPP, MING32, and CYGWIN32.
+
+There is one master makefile located in src/mkfiles.  See the README
+file in that directory for more information.

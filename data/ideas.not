@@ -1,0 +1,95 @@
+Sender  Birdie~
+Date    Tue Mar 23 16:12:44 1999~
+Stamp   922234364
+To      all~
+Subject Multiclase~
+Text
+Estaba pensando en cual seria la mejor forma de implementar multiclase.
+La idea que estaba manejando era que cada jugador tiene solo un indicador
+de experiencia. Cuando juntara 1000 o mas XP podia subir un nivel en una
+clase elegida por el. El problema es que si un jugador nivel 40 quisiera
+tener una clase extra, le costaria muchisimo subir p/ej de mago nivel 1 al 2.
+No valdria la pena. Esa es la forma mas facil de implementarlo, por supuesto.
+La otra forma era tener un indicador de exp por cada clase que el jugador
+tenga. P/ej, nivel 10 guerrero con 10000xp, nivel 5 mago con 5500xp, etc
+Este sistema se ve mucho mejor, pero tiene algunos problemitas: por ejemplo,
+como determino cuanta xp gana cada clase al matar algun mob? si se hiciera
+con algo igual al sistema actual, el jugador guerrero nivel 10 con mago nivel
+5 iria a matar goblins (que como guerrero nivel 10 los mata al tiro) pero
+le daria xp al mago como si fuera un nivel 5 matando a un goblin nivel 6 o 7.
+Asi podrian subir facilmente de nivel. Imaginense un guerrero nivel 40
+con 2da clase mago nivel 1 matando a un mob nivel 30-35...
+Podria darsele xp a cada clase de acuerdo al dano que haga con caracteristicas
+intrinsecas de esa clase, p/ej si el mob tenia 100hp y le quito 90 con
+patadas, bash y golpes, y el resto con un misil magico le daria un 90% de la
+xp al guerrero y el 10% al mago. Suena mejor asi, pero es mucho mas dificil
+de implementar.
+Ideas?
+ 
+Birdie
+~
+Sender  Gandalf~
+Date    Wed Mar 24 09:05:58 1999~
+Stamp   922295158
+To      all~
+Subject Multiclases~
+Text
+Yo creo que la idea de la multiclase es buena, pero el drama que tenis de la 
+experiencia no es tan pelua, ya que hay una regla que te dice que la experiencia
+que juntes en total, se reparte por la mitad
+ahora si eres multiclase hay una regla que dice que no 
+puede haber una diferencia de mas de 2 niveles (creo que son dos) entre clase primaria y secundaria
+por ejemplo si eres un Guerrero/mago de nivel 1/1 no puedes subir tu categoria de
+Guerrero al nivel 3 sin antes subir el mago a nivel 2...
+eso no mais...
+Gandalf (#F#l PODEROSO#f#b)
+~
+Sender  Linker~
+Date    Fri Sep  3 01:19:20 1999~
+Stamp   936346760
+To      all~
+Subject Sobre Vampiros~
+Text
+La idea es un nuevo Skill para los Vamp...
+....bueno tienen fly, pass door, det invis, det hide, menos fuerza que un Humano
+aunque esto de menos fuerza que un humano es un poco Mula....
+El Skill seria tal como en el Rol, que pueden cambiar de forma...algo asi como el polymorph
+
+tal como a los Rangers los hicieron parecerse mas a los de Rol...opino que con 
+los Vampiros se haga lo mismo......aparte que otra cosa que tienen el el Rol es
+la capacidad de hacerce humo, algo asi como el predator invis....
+
+Esta idea va dirigida especialmente al Birdie, quien en una ocacion estaba
+pidiendo algunas nuevas ideas sobre skills....
+
+...esperando una aceptacion razonable de esta idea...se despide
+Linker y la asociacion de Vampiros del Mud
+~
+Sender  Linker~
+Date    Fri Dec  3 14:24:22 1999~
+Stamp   944259862
+To      all~
+Subject Con respecto a Skill, hechizos, quest...~
+Text
+
+Es mas que nada una idea con respecto
+a skill de ataque para cada una de las clases....
+
+Por ej. los thief tienen el Backstab, que si estan solos lo pueden hacer
+al partir la pelea...
+
+Entonces mi idea es que las demas clases tb' tengan uno asi....
+seria de la siguiente forma :
+para los Warrior : Hacer algo asi como un tackle, cosa si falla le pase lo mismo que a los thief cuando fallan el Bs.
+para los clerigos, psionicos y magos: estos hacen bastande danio con sus spell...asi que no veo la necesidad de algo para ellos.
+Y para los rangers: algo asi como un Slash(F.Fantasy), que haga algo parecido..
+
+Espero que sirva de algo esta idea.....
+
+Ahh...y esta aqui el Dragonblanco y dice la idea de que
+como tu(Birdie) haz jugado Final F.7 tratez de adaptarlo mas al estilo RPG...
+
+Pdt. (No entiendo la idea del Db....pero igual).
+
+.....Linker....
+~

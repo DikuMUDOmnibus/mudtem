@@ -1,0 +1,1738 @@
+56
+
+#RAZA
+name unique~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form 0
+parts 0
+lang humano~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 100 100 100 100 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 18 18 18 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name human~
+pc true
+selec true
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+lang humano~
+hate githyanki vampire werewolf mindflayer predator~
+salir ~
+macho humano~
+hembra humana~
+who Human~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 18 18 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r predator vampire werewolf~
+#END
+
+#RAZA
+name elf~
+pc true
+selec true
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res B
+vuln Z
+form AHMV
+parts ABCDEFGHIJK
+lang elfo~
+hate drow ogre orc kobold troll hobgoblin dragon vampire werewolf goblin halfkobold~
+salir ~
+macho elfo~
+hembra elfa~
+who Elf ~
+points 5
+cmult 100 125 100 120 100 100 @
+skills sneak~ hide~ ~ ~ ~ @~
+stats 12 14 13 15 11 @
+maxstats 16 20 18 21 15 @
+size small~
+noalign 0
+no_clase ~
+remort false
+odio_r vampire dragon goblin hobgoblin kobold orc troll ogre werewolf drow~
+#END
+
+#RAZA
+name halfelf~
+pc true
+selec true
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res B
+vuln Z
+form AHMV
+parts ABCDEFGHIJK
+lang elfo~
+hate drow ogre orc kobold troll hobgoblin dragon vampire werewolf goblin~
+salir ~
+macho semielfo~
+hembra semielfa~
+who H.Elf~
+points 5
+cmult 100 125 100 120 100 100 @
+skills sneak~ hide~ ~ ~ ~ @~
+stats 12 14 13 15 11 @
+maxstats 16 18 18 21 17 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r vampire dragon goblin hobgoblin kobold orc troll ogre werewolf drow~
+#END
+
+#RAZA
+name dwarf~
+pc true
+selec true
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res LQ
+vuln R
+form AHMV
+parts ABCDEFGHIJK
+lang enano~
+hate giant ogre orc kobold minotaur troll hobgoblin dragon vampire werewolf goblin halfkobold~
+salir ~
+macho enano~
+hembra enana~
+who Dwarf~
+points 8
+cmult 150 100 125 100 100 100 @
+skills berserk~ ~ ~ ~ ~ @~
+stats 14 12 14 10 15 @
+maxstats 20 16 19 14 21 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r giant vampire dragon goblin hobgoblin kobold orc troll ogre werewolf~
+#END
+
+#RAZA
+name giant~
+pc true
+selec true
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res HI
+vuln JP
+form AHMV
+parts ABCDEFGHIJK
+lang ogro~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho gigante~
+hembra gigante~
+who Giant~
+points 6
+cmult 200 150 150 105 150 100 @
+skills bash~ fast healing~ ~ ~ ~ @~
+stats 16 11 13 11 14 @
+maxstats 22 15 18 15 20 @
+size large~
+noalign 0
+no_clase ~
+remort false
+odio_r elf halfelf dwarf vampire gnome halfdwarf hobbit werewolf~
+#END
+
+#RAZA
+name angel~
+pc true
+selec true
+act 0
+aff CET
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHJMV
+parts ABCDEFGHIJKP
+lang humano~
+hate ~
+salir $n vuela hacia $T.~
+macho angel~
+hembra angel~
+who Angel~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 17 18 20 17 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name predator~
+pc true
+selec true
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJKUY
+lang humano~
+hate human~
+salir ~
+macho predator~
+hembra predator~
+who Pred~
+points 2
+cmult 100 100 100 100 100 100 @
+skills predator invis~ hide~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 17 20 17 @
+size medium~
+noalign B
+no_clase ~
+remort false
+odio_r human~
+#END
+
+#RAZA
+name vampire~
+pc true
+selec true
+act 0
+aff DFJTU
+aff2 0
+off 0
+imm 0
+res 0
+vuln X
+form AHIMV
+parts ABCDEFGHJKU
+lang humano~
+hate human elf halfelf drow dwarf halfdwarf hobbit giant ogre orc kobold minotaur troll hobgoblin werewolf goblin faerie gnome~
+salir $n vuela hacia $T.~
+macho vampiro~
+hembra vampiresa~
+who Vamp~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 17 19 17 19 20 @
+size medium~
+noalign AB
+no_clase ~
+remort false
+odio_r human elf halfelf dwarf giant goblin hobgoblin kobold orc troll ogre gnome halfdwarf hobbit werewolf drow~
+#END
+
+#RAZA
+name dragon~
+pc true
+selec true
+act 0
+aff JT
+aff2 0
+off M
+imm 0
+res BEH
+vuln FI
+form AHZ
+parts ABCDEFGHIJKPQUVX
+lang comun~
+hate all~
+salir $n vuela hacia $T.~
+macho draconiano~
+hembra draconiana~
+who Drag~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 14 13 13 13 14 @
+maxstats 21 21 21 21 21 @
+size huge~
+noalign 0
+no_clase ~
+remort true
+odio_r human elf halfelf dwarf giant angel predator vampire gnome hobbit cromagnon~
+#END
+
+#RAZA
+name doomsday~
+pc true
+selec true
+act 0
+aff GJOVc
+aff2 0
+off CIO
+imm 0
+res BCKLNS
+vuln 0
+form BHIM
+parts ABCGHIJKUVXY
+lang comun~
+hate ~
+salir ~
+macho mutante~
+hembra mutante~
+who DOOM~
+points 10
+cmult 120 120 100 100 120 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 15 10 11 11 14 @
+maxstats 22 20 19 20 22 @
+size large~
+noalign 0
+no_clase ~
+remort true
+odio_r ~
+#END
+
+#RAZA
+name bat~
+pc false
+selec false
+act 0
+aff TZ
+aff2 0
+off FH
+imm 0
+res 0
+vuln S
+form AGV
+parts ACDEFHJKP
+lang comun~
+hate ~
+salir $n vuela hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name bear~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off DEO
+imm 0
+res EI
+vuln 0
+form AGV
+parts ABCDEFHJKUV
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name cat~
+pc false
+selec false
+act 0
+aff Z
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKQUV
+lang comun~
+hate dog~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name centipede~
+pc false
+selec false
+act 0
+aff Z
+aff2 0
+off 0
+imm 0
+res FI
+vuln E
+form ABGO
+parts ACK
+lang comun~
+hate ~
+salir $n se arrastra hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name dog~
+pc true
+selec false
+act 0
+aff 0
+aff2 0
+off H
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKUV
+lang comun~
+hate cat~
+salir ~
+macho perro~
+hembra perra~
+who Dog~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 5 3 3 10 7 @
+maxstats 10 5 10 15 15 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name doll~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm ILMNPQR
+res ES
+vuln GHJKO
+form EJMc
+parts ABCGHK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name fido~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off FR
+imm 0
+res 0
+vuln C
+form ABGV
+parts ACDEFHJKQV
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name fox~
+pc false
+selec false
+act 0
+aff Z
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJKQV
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name goblin~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res Q
+vuln C
+form AHMV
+parts ABCDEFGHIJK
+lang goblin~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name hobgoblin~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res LQ
+vuln 0
+form AHMV
+parts ABCDEFGHIJKY
+lang goblin~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name kobold~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res L
+vuln C
+form ABHMV
+parts ABCDEFGHIJKQ
+lang kobold~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome halfkobold~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name lizard~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res L
+vuln I
+form AGXc
+parts ACDEFHKQV
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name modron~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off QR
+imm BMNPQ
+res HIK
+vuln 0
+form H
+parts ABCGHJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name orc~
+pc true
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res Q
+vuln S
+form AHMV
+parts ABCDEFGHIJK
+lang orco~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho orco~
+hembra orco~
+who Orc~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 10 10 10 10 10 @
+maxstats 20 15 15 18 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name pig~
+pc true
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJK
+lang comun~
+hate ~
+salir ~
+macho cerdo~
+hembra cerda~
+who Pig~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 5 3 3 5 10 @
+maxstats 8 5 5 8 14 @
+size small~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name rabbit~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJK
+lang comun~
+hate ~
+salir $n salta hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name school monster~
+pc false
+selec false
+act U
+aff 0
+aff2 0
+off 0
+imm AB
+res 0
+vuln C
+form AMV
+parts ABCDEFHJKQU
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name snake~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res L
+vuln I
+form AGXYc
+parts ADEFKLQVX
+lang comun~
+hate ~
+salir $n se desliza hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name song bird~
+pc false
+selec false
+act 0
+aff T
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGW
+parts ACDEFHKP
+lang comun~
+hate ~
+salir $n vuela hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name troll~
+pc false
+selec false
+act 0
+aff FJc
+aff2 0
+off D
+imm 0
+res BE
+vuln HK
+form ABHMV
+parts ABCDEFGHIJKUV
+lang troll~
+hate human elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name water fowl~
+pc false
+selec false
+act 0
+aff Tb
+aff2 0
+off 0
+imm 0
+res R
+vuln 0
+form AGW
+parts ACDEFHKP
+lang comun~
+hate ~
+salir $n nada hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name wolf~
+pc false
+selec false
+act 0
+aff Z
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFJKQV
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name wyvern~
+pc false
+selec false
+act 0
+aff DFT
+aff2 0
+off CFHM
+imm L
+res 0
+vuln S
+form ABGZ
+parts ACDEFHJKQVX
+lang comun~
+hate ~
+salir $n vuela hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name rata~
+pc false
+selec false
+act 0
+aff JZ
+aff2 0
+off CFMR
+imm 0
+res 0
+vuln C
+form ABGV
+parts ACDEFHJKQV
+lang comun~
+hate human dwarf vampire dragon elf halfelf predator angel cat~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name fish~
+pc false
+selec false
+act 0
+aff b
+aff2 0
+off H
+imm R
+res 0
+vuln 0
+form AGbc
+parts ADEFKO
+lang comun~
+hate ~
+salir $n nada hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name god~
+pc false
+selec false
+act 0
+aff CDEFGHJNOTUc
+aff2 0
+off CDEFGHIKLNO
+imm 0
+res 0
+vuln 0
+form CJMV
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name ogre~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off CDI
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+lang ogro~
+hate elf halfelf dwarf halfdwarf hobbit vampire werewolf gnome~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name duergar~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res CLQ
+vuln R
+form AHMV
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name gnome~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res L
+vuln E
+form AHMV
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name svirfnebli~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res CLQ
+vuln E
+form AHMV
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name caballo~
+pc false
+selec false
+act EU
+aff 0
+aff2 0
+off CHI
+imm 0
+res 0
+vuln 0
+form AGV
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir $n trota hacia $T.~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name zombie~
+pc false
+selec false
+act OU
+aff 0
+aff2 0
+off 0
+imm IL
+res 0
+vuln N
+form AIMVc
+parts ABCDEFGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name animal~
+pc false
+selec false
+act GU
+aff F
+aff2 0
+off CHI
+imm 0
+res 0
+vuln 0
+form AGV
+parts ACDEFHJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name halfdwarf~
+pc false
+selec false
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+lang enano~
+hate giant ogre orc kobold minotaur troll hobgoblin dragon vampire werewolf goblin~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name hobbit~
+pc true
+selec true
+act 0
+aff J
+aff2 0
+off 0
+imm 0
+res 0
+vuln R
+form AHMV
+parts ABCDEFGHIJK
+lang hobbit~
+hate giant ogre orc kobold minotaur troll hobgoblin dragon vampire werewolf goblin halfkobold~
+salir $n va hacia $T.~
+macho hobbit~
+hembra hobbit~
+who Hobbit~
+points 2
+cmult 100 100 100 100 100 100 @
+skills sneak~ hide~ ~ ~ ~ @~
+stats 11 13 15 14 13 @
+maxstats 16 19 20 19 18 @
+size small~
+noalign 0
+no_clase ~
+remort false
+odio_r giant vampire dragon goblin hobgoblin kobold orc troll ogre werewolf~
+#END
+
+#RAZA
+name undead~
+pc false
+selec false
+act O
+aff CDFGJU
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form BIMVc
+parts ABCDEFGHIJK
+lang comun~
+hate all~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name werewolf~
+pc false
+selec false
+act 0
+aff JQZc
+aff2 0
+off FHR
+imm 0
+res 0
+vuln Y
+form AGH
+parts ACDEFHJKU
+lang comun~
+hate all~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name drow~
+pc false
+selec false
+act 0
+aff FJ
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form AHMV
+parts ABCDEFGHIJK
+lang comun~
+hate elf halfelf hobbit githyanki vampire werewolf~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name harpy~
+pc false
+selec false
+act 0
+aff BD
+aff2 D
+off 0
+imm 0
+res 0
+vuln 0
+form AHMW
+parts ABCDEFHJKPU
+lang comun~
+hate human elf halfelf dwarf halfdwarf hobbit gnome~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name frog~
+pc true
+selec false
+act 0
+aff 0
+aff2 0
+off FH
+imm 0
+res 0
+vuln 0
+form AGac
+parts ABCDEFGHJKL
+lang comun~
+hate ~
+salir $n salta hacia $T.~
+macho rana~
+hembra rana~
+who Frog~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 5 5 5 15 5 @
+maxstats 8 5 5 18 5 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name scorpion~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off FHM
+imm 0
+res 0
+vuln 0
+form BGO
+parts ACDEFHKQ
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 0 0 0 0 0 0 @
+skills ~ ~ ~ ~ ~ @~
+stats 0 0 0 0 0 @
+maxstats 0 0 0 0 0 @
+size tiny~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name ojo~
+pc false
+selec false
+act O
+aff T
+aff2 0
+off CDFL
+imm 0
+res 0
+vuln 0
+form ABHISc
+parts K
+lang comun~
+hate ~
+salir $n vuela hacia $T.~
+macho ojo~
+hembra ojo~
+who ~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 18 18 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name cromagnon~
+pc true
+selec true
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res FG
+vuln CP
+form AHMV
+parts ABCDEFGHIJK
+lang humano~
+hate human elf vampire~
+salir ~
+macho cromagnon~
+hembra cromagnon~
+who Crom~
+points 4
+cmult 100 100 100 100 100 100 @
+skills berserk~ ~ ~ ~ ~ @~
+stats 14 11 11 13 14 @
+maxstats 20 16 16 18 20 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name robot~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form CJMc
+parts ABCGHIJK
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 18 18 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+
+#RAZA
+name unique~
+pc false
+selec false
+act 0
+aff 0
+aff2 0
+off 0
+imm 0
+res 0
+vuln 0
+form 0
+parts 0
+lang comun~
+hate ~
+salir ~
+macho ~
+hembra ~
+who ~
+points 0
+cmult 100 100 100 100 100 100 @
+skills ~ ~ ~ ~ ~ @~
+stats 13 13 13 13 13 @
+maxstats 18 18 18 18 18 @
+size medium~
+noalign 0
+no_clase ~
+remort false
+odio_r ~
+#END
+

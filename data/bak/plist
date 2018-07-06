@@ -1,0 +1,3862 @@
+#PLAYER
+name Aquaman~
+id 912194937
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race angel~
+lastlog 912196540
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Anakin~
+id 874961912
+nivel 28
+clan dragonlance~
+clan_status 6
+sex 1
+class warrior~
+race giant~
+lastlog 895190801
+hostname 152.74.52.7~
+#END
+
+#PLAYER
+name Atlas~
+id 892054590
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 902971215
+hostname 146.83.108.142~
+#END
+
+#PLAYER
+name Apostol~
+id 891459762
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 909084241
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Andrews~
+id 879546646
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class mage~
+race elf~
+lastlog 906492649
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Archangel~
+id 876424639
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 892491268
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Arquimedes~
+id 891362464
+nivel 23
+clan infernus~
+clan_status 3
+sex 1
+class warrior~
+race human~
+lastlog 911498144
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Aranael~
+id 881803377
+nivel 17
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 898143349
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Akuma~
+id 875153253
+nivel 37
+clan loner~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914958108
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Aragorn~
+id 862340820
+nivel 52
+clan cain~
+clan_status 6
+sex 1
+class warrior~
+race human~
+lastlog 916096172
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Axl~
+id 891023779
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 892575139
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Avatar~
+id 881085904
+nivel 34
+clan dragonlance~
+clan_status 10
+sex 1
+class warrior~
+race human~
+lastlog 914981680
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Artemisa~
+id 870394231
+nivel 19
+clan infernus~
+clan_status 1
+sex 2
+class warrior~
+race human~
+lastlog 912121683
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Aguijon~
+id 892085874
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race dragon~
+lastlog 902256909
+hostname 146.83.109.17~
+#END
+
+#PLAYER
+name Akyra~
+id 893785319
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 893802143
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Acdc~
+id 859933130
+nivel 53
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 914980729
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Asterix~
+id 900630509
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 901061127
+hostname local-host~
+#END
+
+#PLAYER
+name Alec~
+id 901049240
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class mage~
+race predator~
+lastlog 910042814
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Armiett~
+id 908678179
+nivel 11
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 915574113
+hostname modem194.itn.cl~
+#END
+
+#PLAYER
+name Atila~
+id 909168736
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 912276057
+hostname local-host~
+#END
+
+#PLAYER
+name Agamenon~
+id 910084551
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class mage~
+race elf~
+lastlog 915057382
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Argentino~
+id 912403024
+nivel 10
+clan dragonlance~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 913259504
+hostname modem199.itn.cl~
+#END
+
+#PLAYER
+name Abracadabra~
+id 913751295
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race vampire~
+lastlog 913751636
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Atao~
+id 914018441
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 914018645
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Boliviano~
+id 911528632
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 912574130
+hostname local-host~
+#END
+
+#PLAYER
+name Birdie~
+id 844816841
+nivel 60
+clan ~
+clan_status 0
+sex 1
+class mage~
+race dragon~
+lastlog 916175871
+hostname local-host~
+#END
+
+#PLAYER
+name Bergerac~
+id 912559936
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race angel~
+lastlog 912566189
+hostname lab9pc.uss.cl~
+#END
+
+#PLAYER
+name Braker~
+id 910319693
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 910322624
+hostname anakena.dcc.uchile.cl~
+#END
+
+#PLAYER
+name Bilbo~
+id 908398221
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 910815241
+hostname local-host~
+#END
+
+#PLAYER
+name Bundy~
+id 898024570
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 910910334
+hostname local-host~
+#END
+
+#PLAYER
+name Blade~
+id 896980916
+nivel 36
+clan dragonlance~
+clan_status 6
+sex 1
+class warrior~
+race human~
+lastlog 914349632
+hostname local-host~
+#END
+
+#PLAYER
+name Bobafett~
+id 895684127
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 907195140
+hostname local-host~
+#END
+
+#PLAYER
+name Bblackman~
+id 880477078
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class thief~
+race vampire~
+lastlog 904093031
+hostname local-host~
+#END
+
+#PLAYER
+name Blackman~
+id 875228699
+nivel 28
+clan dragonlance~
+clan_status 8
+sex 1
+class psicionist~
+race human~
+lastlog 913396627
+hostname local-host~
+#END
+
+#PLAYER
+name Belfegor~
+id 893716124
+nivel 52
+clan dragonlance~
+clan_status 10
+sex 1
+class warrior~
+race giant~
+lastlog 916180768
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Bardock~
+id 893734586
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 893738823
+hostname 146.83.222.1~
+#END
+
+#PLAYER
+name Batman~
+id 893868188
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 911840323
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Begeta~
+id 876346999
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 894998583
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Beldom~
+id 895106859
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race elf~
+lastlog 899787512
+hostname local-host~
+#END
+
+#PLAYER
+name Botela~
+id 898120395
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 898187631
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Boolgum~
+id 899847007
+nivel 11
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912721174
+hostname local-host~
+#END
+
+#PLAYER
+name BigVerga~
+id 898195675
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913919832
+hostname local-host~
+#END
+
+#PLAYER
+name BuC~
+id 909697833
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 909863173
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Bonnie~
+id 910400245
+nivel 1
+clan ~
+clan_status 0
+sex 2
+class mage~
+race elf~
+lastlog 913075596
+hostname cipres.cec.uchile.cl~
+#END
+
+#PLAYER
+name Blaster~
+id 890786129
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 915578447
+hostname local-host~
+#END
+
+#PLAYER
+name Blass~
+id 915578457
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 915578534
+hostname local-host~
+#END
+
+#PLAYER
+name Cyborg~
+id 909788860
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 910903384
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Candonga~
+id 901147914
+nivel 42
+clan infernus~
+clan_status 5
+sex 1
+class cleric~
+race human~
+lastlog 916168904
+hostname local-host~
+#END
+
+#PLAYER
+name Cable~
+id 900096069
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 900705478
+hostname buho.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Connan~
+id 897440379
+nivel 14
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 911927996
+hostname loopback~
+#END
+
+#PLAYER
+name Constantine~
+id 876419778
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 894930801
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Cerebro~
+id 880663135
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 909601182
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Chileno~
+id 890702934
+nivel 20
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race elf~
+lastlog 913414668
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Crom~
+id 880663562
+nivel 20
+clan infernus~
+clan_status 6
+sex 1
+class warrior~
+race human~
+lastlog 914018594
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Chuncho~
+id 883156381
+nivel 10
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913837768
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Chino~
+id 891282833
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 891380840
+hostname ~
+#END
+
+#PLAYER
+name Conchetu~
+id 882640359
+nivel 13
+clan infernus~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 897007337
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Chacal~
+id 880588150
+nivel 12
+clan dragonlance~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 912040750
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Crow~
+id 848442210
+nivel 29
+clan cain~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 912886572
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Cheech~
+id 893876988
+nivel 12
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 895018651
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Chapulin~
+id 894670446
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 895010881
+hostname local-host~
+#END
+
+#PLAYER
+name Cyber~
+id 897533528
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912186341
+hostname local-host~
+#END
+
+#PLAYER
+name Crowcito~
+id 859864278
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class mage~
+race elf~
+lastlog 899780390
+hostname local-host~
+#END
+
+#PLAYER
+name Curandero~
+id 899849879
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race elf~
+lastlog 901855626
+hostname local-host~
+#END
+
+#PLAYER
+name Crovaxx~
+id 900960687
+nivel 24
+clan cain~
+clan_status 2
+sex 1
+class mage~
+race vampire~
+lastlog 916094331
+hostname local-host~
+#END
+
+#PLAYER
+name Cronico~
+id 907347166
+nivel 13
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 910469469
+hostname local-host~
+#END
+
+#PLAYER
+name Carlitros~
+id 872814078
+nivel 16
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 908411403
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Cyd~
+id 911956479
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 911956534
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Demeanor~
+id 910294258
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 911872645
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name DragonBlanco~
+id 895538680
+nivel 53
+clan warlord~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 915578525
+hostname local-host~
+#END
+
+#PLAYER
+name Dirth~
+id 896502216
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 916169724
+hostname local-host~
+#END
+
+#PLAYER
+name Denethor~
+id 875139250
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class thief~
+race elf~
+lastlog 907195200
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Dracul~
+id 859934479
+nivel 53
+clan cain~
+clan_status 10
+sex 1
+class psicionist~
+race vampire~
+lastlog 916129755
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Demidovich~
+id 881266813
+nivel 23
+clan infernus~
+clan_status 5
+sex 1
+class warrior~
+race human~
+lastlog 914975587
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Dragonkiller~
+id 894561206
+nivel 26
+clan infernus~
+clan_status 9
+sex 1
+class warrior~
+race hobbit~
+lastlog 913653647
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Darkseid~
+id 894952291
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 895208167
+hostname tacora.cecun.ucn.cl~
+#END
+
+#PLAYER
+name Deadsoul~
+id 895104574
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 895107915
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Darth~
+id 898655288
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 909859538
+hostname local-host~
+#END
+
+#PLAYER
+name Dorso~
+id 902356426
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race cromagnon~
+lastlog 904761677
+hostname local-host~
+#END
+
+#PLAYER
+name Darkcom~
+id 909782636
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 910391812
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Dragonmanco~
+id 913920057
+nivel 1
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race predator~
+lastlog 913920153
+hostname local-host~
+#END
+
+#PLAYER
+name Elpiola~
+id 916180820
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class thief~
+race elf~
+lastlog 916180898
+hostname local-host~
+#END
+
+#PLAYER
+name Ethta~
+id 914267662
+nivel 1
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race elf~
+lastlog 914268147
+hostname 200.28.116.196~
+#END
+
+#PLAYER
+name Ertai~
+id 910052661
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 912729388
+hostname local-host~
+#END
+
+#PLAYER
+name Esterix~
+id 899749595
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 901133967
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Eric~
+id 894929492
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 910382633
+hostname local-host~
+#END
+
+#PLAYER
+name Espartaco~
+id 892491272
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 892510701
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Euler~
+id 901049247
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class thief~
+race elf~
+lastlog 910042785
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Equis~
+id 912189964
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912190381
+hostname local-host~
+#END
+
+#PLAYER
+name Flatt~
+id 902260070
+nivel 10
+clan dragonlance~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 915565639
+hostname local-host~
+#END
+
+#PLAYER
+name Freezer~
+id 901305229
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 908646420
+hostname local-host~
+#END
+
+#PLAYER
+name Frank~
+id 895684382
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race angel~
+lastlog 913092826
+hostname local-host~
+#END
+
+#PLAYER
+name Firv~
+id 891024426
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 908836590
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Frei~
+id 882492778
+nivel 14
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race elf~
+lastlog 907967071
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Faramir~
+id 875673729
+nivel 20
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race elf~
+lastlog 907721945
+hostname local-host~
+#END
+
+#PLAYER
+name Ggg~
+id 915563027
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 915563046
+hostname local-host~
+#END
+
+#PLAYER
+name Goutetsu~
+id 915046600
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 915047290
+hostname local-host~
+#END
+
+#PLAYER
+name Guevara~
+id 913833993
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913834381
+hostname local-host~
+#END
+
+#PLAYER
+name Gabilan~
+id 912030968
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914275894
+hostname 146.83.181.46~
+#END
+
+#PLAYER
+name Gapo~
+id 912030649
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race vampire~
+lastlog 912030942
+hostname 146.83.181.46~
+#END
+
+#PLAYER
+name Gavilan~
+id 912029608
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race vampire~
+lastlog 913669780
+hostname 146.83.181.46~
+#END
+
+#PLAYER
+name Galdor~
+id 873308474
+nivel 18
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 910397117
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Gotem~
+id 909530536
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912734121
+hostname local-host~
+#END
+
+#PLAYER
+name Goltar~
+id 906510308
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 915050896
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Goham~
+id 906484406
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 910375256
+hostname local-host~
+#END
+
+#PLAYER
+name Gouki~
+id 884199930
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 904699569
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Gogita~
+id 899401138
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 900009193
+hostname local-host~
+#END
+
+#PLAYER
+name Gaudi~
+id 896980695
+nivel 37
+clan dragonlance~
+clan_status 9
+sex 1
+class ranger~
+race vampire~
+lastlog 914442578
+hostname local-host~
+#END
+
+#PLAYER
+name Goldar~
+id 895180113
+nivel 41
+clan cain~
+clan_status 3
+sex 1
+class thief~
+race elf~
+lastlog 910220868
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Gohan~
+id 893885846
+nivel 12
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 915571228
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Gouken~
+id 891371857
+nivel 28
+clan loner~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913262297
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Gandalf~
+id 849917442
+nivel 55
+clan dragonlance~
+clan_status 9
+sex 1
+class mage~
+race vampire~
+lastlog 916180015
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Goku~
+id 871422858
+nivel 24
+clan infernus~
+clan_status 5
+sex 1
+class warrior~
+race dwarf~
+lastlog 912815956
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Guido~
+id 879353248
+nivel 18
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914026182
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Goten~
+id 883517470
+nivel 33
+clan infernus~
+clan_status 8
+sex 1
+class warrior~
+race predator~
+lastlog 912813394
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Gimli~
+id 872902181
+nivel 30
+clan dragonlance~
+clan_status 7
+sex 1
+class warrior~
+race dwarf~
+lastlog 914351835
+hostname 152.74.16.13~
+#END
+
+#PLAYER
+name Gotten~
+id 898913724
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 898916250
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Gogez~
+id 884369280
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 909614192
+hostname local-host~
+#END
+
+#PLAYER
+name Genocyber~
+id 901840205
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 901851486
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Gospel~
+id 911932728
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 911937334
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Hanamishi~
+id 911511534
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race elf~
+lastlog 914975422
+hostname loopback~
+#END
+
+#PLAYER
+name Hades~
+id 911003818
+nivel 16
+clan dragonlance~
+clan_status 4
+sex 1
+class mage~
+race human~
+lastlog 916170681
+hostname loopback~
+#END
+
+#PLAYER
+name Hagen~
+id 902165899
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race dwarf~
+lastlog 902864715
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Highlander~
+id 875836668
+nivel 15
+clan infernus~
+clan_status 1
+sex 1
+class warrior~
+race angel~
+lastlog 900145958
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Heman~
+id 876525166
+nivel 33
+clan dragonlance~
+clan_status 8
+sex 1
+class warrior~
+race dwarf~
+lastlog 912731906
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Hitawer~
+id 890940719
+nivel 22
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914356202
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Hellboy~
+id 880994349
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 900368050
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Ian~
+id 912878077
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 912880399
+hostname local-host~
+#END
+
+#PLAYER
+name Iori~
+id 910287197
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 912815277
+hostname local-host~
+#END
+
+#PLAYER
+name Icarus~
+id 899762920
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 899777156
+hostname tch14-111.entelchile.net~
+#END
+
+#PLAYER
+name Innombrable~
+id 898709422
+nivel 6
+clan ~
+clan_status 0
+sex 2
+class psicionist~
+race human~
+lastlog 899419629
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Ickis~
+id 912793538
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 915036484
+hostname local-host~
+#END
+
+#PLAYER
+name Jebkf~
+id 914026203
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 914026265
+hostname local-host~
+#END
+
+#PLAYER
+name Junkhead~
+id 898204447
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class thief~
+race elf~
+lastlog 899761866
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Jiray~
+id 881337788
+nivel 10
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race halfelf~
+lastlog 911245875
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Junta~
+id 890681208
+nivel 29
+clan infernus~
+clan_status 9
+sex 1
+class warrior~
+race dwarf~
+lastlog 914975427
+hostname 200.28.69.224~
+#END
+
+#PLAYER
+name Joey~
+id 893784978
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 900006006
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Jaws~
+id 894998726
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 910406304
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Juggernaut~
+id 897009156
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 898048042
+hostname local-host~
+#END
+
+#PLAYER
+name Juanp~
+id 901048407
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913756124
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Jotake~
+id 909168649
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race dwarf~
+lastlog 909189821
+hostname m20-075.unizar.es~
+#END
+
+#PLAYER
+name KaquKa~
+id 897516958
+nivel 13
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913688467
+hostname local-host~
+#END
+
+#PLAYER
+name Khyron~
+id 907259543
+nivel 12
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 910304897
+hostname local-host~
+#END
+
+#PLAYER
+name Kane~
+id 901924774
+nivel 10
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913767088
+hostname local-host~
+#END
+
+#PLAYER
+name Kevorkian~
+id 900099137
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 900707241
+hostname 158.170.18.19~
+#END
+
+#PLAYER
+name Kaiser~
+id 899407801
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 902172880
+hostname local-host~
+#END
+
+#PLAYER
+name Kenia~
+id 893888735
+nivel 8
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 895605908
+hostname 146.83.180.4~
+#END
+
+#PLAYER
+name Kamus~
+id 878161486
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 891540648
+hostname ~
+#END
+
+#PLAYER
+name Kenshin~
+id 892185630
+nivel 23
+clan infernus~
+clan_status 6
+sex 1
+class warrior~
+race dwarf~
+lastlog 914970693
+hostname 200.28.68.114~
+#END
+
+#PLAYER
+name Kaito~
+id 892525071
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 895190647
+hostname 200.27.121.176~
+#END
+
+#PLAYER
+name Krause~
+id 894674307
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 898216589
+hostname local-host~
+#END
+
+#PLAYER
+name Kendra~
+id 895605990
+nivel 16
+clan infernus~
+clan_status 4
+sex 2
+class warrior~
+race dwarf~
+lastlog 909687167
+hostname local-host~
+#END
+
+#PLAYER
+name Killdragon~
+id 899420244
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 899754379
+hostname local-host~
+#END
+
+#PLAYER
+name Kyokushin~
+id 899502980
+nivel 21
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 916161941
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Kolam~
+id 902969591
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 902976484
+hostname huemul.decom.uta.cl~
+#END
+
+#PLAYER
+name Kio~
+id 906747754
+nivel 22
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race vampire~
+lastlog 916097026
+hostname local-host~
+#END
+
+#PLAYER
+name Kalthanas~
+id 911871925
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 911873552
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Kaio~
+id 912186537
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 914970312
+hostname local-host~
+#END
+
+#PLAYER
+name Kljoujpio~
+id 912558369
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 912559141
+hostname lab9pc.uss.cl~
+#END
+
+#PLAYER
+name Kaneda~
+id 913428221
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913429048
+hostname cipres.cec.uchile.cl~
+#END
+
+#PLAYER
+name Letman~
+id 912121875
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 916180860
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Luke~
+id 912013525
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913657982
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Lifasam~
+id 910207802
+nivel 11
+clan dragonlance~
+clan_status 9
+sex 1
+class ranger~
+race dwarf~
+lastlog 913751262
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Lynx~
+id 901315375
+nivel 11
+clan cain~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 912696085
+hostname pegasus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Laitseb~
+id 897413123
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913855744
+hostname local-host~
+#END
+
+#PLAYER
+name Leatherface~
+id 876348163
+nivel 56
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race vampire~
+lastlog 915572584
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Lancelot~
+id 881361534
+nivel 22
+clan infernus~
+clan_status 5
+sex 1
+class psicionist~
+race human~
+lastlog 895169865
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Legolas~
+id 878335787
+nivel 11
+clan dragonlance~
+clan_status 0
+sex 1
+class cleric~
+race elf~
+lastlog 897327138
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Linker~
+id 899847750
+nivel 41
+clan dragonlance~
+clan_status 9
+sex 1
+class ranger~
+race human~
+lastlog 915565643
+hostname local-host~
+#END
+
+#PLAYER
+name Loki~
+id 900982196
+nivel 28
+clan dragonlance~
+clan_status 10
+sex 1
+class warrior~
+race angel~
+lastlog 914978138
+hostname local-host~
+#END
+
+#PLAYER
+name Lucifer~
+id 907795459
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 913057524
+hostname local-host~
+#END
+
+#PLAYER
+name Lakcuelga~
+id 908850470
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 909613215
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Leviathan~
+id 909695991
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 909717876
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Leviatan~
+id 915564258
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 915578510
+hostname local-host~
+#END
+
+#PLAYER
+name Mithril~
+id 893700484
+nivel 52
+clan dragonlance~
+clan_status 9
+sex 1
+class warrior~
+race human~
+lastlog 916180833
+hostname local-host~
+#END
+
+#PLAYER
+name Mitsui~
+id 911512997
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race elf~
+lastlog 912821084
+hostname loopback~
+#END
+
+#PLAYER
+name Morgana~
+id 908942477
+nivel 1
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 912485055
+hostname modem115.itn.cl~
+#END
+
+#PLAYER
+name Mithrandir~
+id 908463923
+nivel 25
+clan dragonlance~
+clan_status 7
+sex 1
+class cleric~
+race human~
+lastlog 916180884
+hostname local-host~
+#END
+
+#PLAYER
+name Metallica~
+id 898552845
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 899415413
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Masever~
+id 898285647
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 910226493
+hostname 146.83.180.4~
+#END
+
+#PLAYER
+name Marihuano~
+id 880388225
+nivel 15
+clan infernus~
+clan_status 5
+sex 1
+class warrior~
+race human~
+lastlog 895018352
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Morey~
+id 869790325
+nivel 31
+clan infernus~
+clan_status 9
+sex 1
+class warrior~
+race predator~
+lastlog 914317539
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Mike~
+id 880567139
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class thief~
+race predator~
+lastlog 899926418
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Madmartigan~
+id 876431118
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race dwarf~
+lastlog 910806847
+hostname 152.74.16.11~
+#END
+
+#PLAYER
+name Megaman~
+id 882493234
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class thief~
+race predator~
+lastlog 909795745
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Microman~
+id 879629338
+nivel 12
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 912040740
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Mercury~
+id 892191830
+nivel 12
+clan infernus~
+clan_status 1
+sex 1
+class warrior~
+race dwarf~
+lastlog 913069414
+hostname 206.173.156.144~
+#END
+
+#PLAYER
+name Morgoth~
+id 894415381
+nivel 12
+clan dragonlance~
+clan_status 3
+sex 1
+class ranger~
+race human~
+lastlog 911433358
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Minerva~
+id 894921208
+nivel 31
+clan infernus~
+clan_status 9
+sex 2
+class warrior~
+race human~
+lastlog 912530811
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Malo~
+id 908854057
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 908856284
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Merlin~
+id 881276796
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race angel~
+lastlog 913751275
+hostname local-host~
+#END
+
+#PLAYER
+name Marduk~
+id 912220034
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 912221172
+hostname 146.83.181.47~
+#END
+
+#PLAYER
+name Metalero~
+id 912532177
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 912533953
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Nostradamus~
+id 911501003
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 913672337
+hostname loopback~
+#END
+
+#PLAYER
+name Nekron~
+id 891889315
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 892490475
+hostname 146.83.108.141~
+#END
+
+#PLAYER
+name Nutria~
+id 891456937
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 891465319
+hostname ~
+#END
+
+#PLAYER
+name Narf~
+id 891280568
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 891889345
+hostname ~
+#END
+
+#PLAYER
+name Natrex~
+id 909867347
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class mage~
+race elf~
+lastlog 912282671
+hostname 146.83.196.133~
+#END
+
+#PLAYER
+name Nostra~
+id 912626064
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912626399
+hostname local-host~
+#END
+
+#PLAYER
+name Osiris~
+id 891539277
+nivel 12
+clan infernus~
+clan_status 0
+sex 2
+class warrior~
+race predator~
+lastlog 900373468
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Oscar~
+id 861417212
+nivel 24
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912813675
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Ogu~
+id 852857081
+nivel 40
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913332794
+hostname 152.74.16.13~
+#END
+
+#PLAYER
+name Ozzy~
+id 876351733
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race dwarf~
+lastlog 892495710
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Obelix~
+id 879177250
+nivel 17
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 909613128
+hostname local-host~
+#END
+
+#PLAYER
+name Punto~
+id 914976403
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914976495
+hostname local-host~
+#END
+
+#PLAYER
+name Papel~
+id 914286570
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 915577302
+hostname local-host~
+#END
+
+#PLAYER
+name Ponpon~
+id 912765953
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race elf~
+lastlog 913030009
+hostname dial-asc240.chilesat.net~
+#END
+
+#PLAYER
+name Prueba~
+id 895608828
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 913315365
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Predacom~
+id 895182769
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 895254309
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Psycho~
+id 891902870
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 898018425
+hostname 146.83.108.144~
+#END
+
+#PLAYER
+name Proteus~
+id 882584522
+nivel 21
+clan dragonlance~
+clan_status 8
+sex 1
+class psicionist~
+race human~
+lastlog 916077630
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Penita~
+id 881077544
+nivel 15
+clan infernus~
+clan_status 3
+sex 1
+class warrior~
+race predator~
+lastlog 895080461
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Pincaso~
+id 890682583
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 909084422
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Pikoro~
+id 891018742
+nivel 13
+clan infernus~
+clan_status 0
+sex 1
+class mage~
+race elf~
+lastlog 908574359
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Pio~
+id 895108300
+nivel 15
+clan infernus~
+clan_status 0
+sex 1
+class cleric~
+race human~
+lastlog 907625144
+hostname local-host~
+#END
+
+#PLAYER
+name Programan~
+id 898800222
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 907795170
+hostname local-host~
+#END
+
+#PLAYER
+name Papalapapiri~
+id 871090350
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 899780398
+hostname local-host~
+#END
+
+#PLAYER
+name Payaso~
+id 906749704
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 910224459
+hostname local-host~
+#END
+
+#PLAYER
+name Pruebai~
+id 909004592
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 909006151
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Pinocho~
+id 912020865
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912020930
+hostname loopback~
+#END
+
+#PLAYER
+name Partner~
+id 913421613
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race vampire~
+lastlog 913679137
+hostname local-host~
+#END
+
+#PLAYER
+name Pamplin~
+id 913606670
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 913607231
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Ryota~
+id 911002167
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913767907
+hostname loopback~
+#END
+
+#PLAYER
+name Rado~
+id 901322551
+nivel 10
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913654234
+hostname local-host~
+#END
+
+#PLAYER
+name Roshi~
+id 901305063
+nivel 31
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 916170282
+hostname local-host~
+#END
+
+#PLAYER
+name Rodzilla~
+id 900710031
+nivel 21
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912819873
+hostname local-host~
+#END
+
+#PLAYER
+name Ryoko~
+id 899404770
+nivel 9
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 913923948
+hostname local-host~
+#END
+
+#PLAYER
+name Rebel~
+id 870801924
+nivel 13
+clan infernus~
+clan_status 2
+sex 1
+class warrior~
+race predator~
+lastlog 908833657
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Roadflame~
+id 897534413
+nivel 35
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race cromagnon~
+lastlog 914449477
+hostname local-host~
+#END
+
+#PLAYER
+name Rezzo~
+id 903164037
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 913919899
+hostname tch14-79.entelchile.net~
+#END
+
+#PLAYER
+name Rataxio~
+id 912810281
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 912811689
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Semental~
+id 914433591
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 914434616
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Syd~
+id 901148734
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914374528
+hostname local-host~
+#END
+
+#PLAYER
+name Samsagaz~
+id 899435300
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 909278934
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Shingo~
+id 896987955
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 896990485
+hostname local-host~
+#END
+
+#PLAYER
+name Shayka~
+id 894933812
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 895642521
+hostname tacora.cecun.ucn.cl~
+#END
+
+#PLAYER
+name Spawn~
+id 893718928
+nivel 14
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913402237
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Sepultura~
+id 863476648
+nivel 33
+clan cain~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912283938
+hostname 200.27.196.71~
+#END
+
+#PLAYER
+name Swimmer~
+id 880040798
+nivel 24
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 911498290
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Saruman~
+id 894659521
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 895188878
+hostname 152.74.16.13~
+#END
+
+#PLAYER
+name Songohan~
+id 894934208
+nivel 11
+clan dragonlance~
+clan_status 0
+sex 1
+class warrior~
+race dragon~
+lastlog 908853561
+hostname local-host~
+#END
+
+#PLAYER
+name Sagato~
+id 895104447
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 895107923
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Songoku~
+id 897343864
+nivel 13
+clan infernus~
+clan_status 1
+sex 1
+class warrior~
+race dwarf~
+lastlog 909612823
+hostname local-host~
+#END
+
+#PLAYER
+name Shinji~
+id 899832274
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 912813631
+hostname local-host~
+#END
+
+#PLAYER
+name Samed~
+id 901049317
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 910223822
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Sonic~
+id 902971237
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class thief~
+race giant~
+lastlog 902973609
+hostname azapa.indus.uta.cl~
+#END
+
+#PLAYER
+name Sirio~
+id 909799772
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913079857
+hostname local-host~
+#END
+
+#PLAYER
+name Sebaton~
+id 909861238
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race predator~
+lastlog 909866210
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Strem~
+id 912138515
+nivel 1
+clan ~
+clan_status 0
+sex 2
+class mage~
+race angel~
+lastlog 912570029
+hostname local-host~
+#END
+
+#PLAYER
+name Sanosuke~
+id 912818807
+nivel 10
+clan dragonlance~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 914275642
+hostname local-host~
+#END
+
+#PLAYER
+name Sauron~
+id 913057697
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 914275765
+hostname local-host~
+#END
+
+#PLAYER
+name Superman~
+id 913396255
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913396473
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Shambler~
+id 913746548
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913748286
+hostname local-host~
+#END
+
+#PLAYER
+name Seiseiseis~
+id 914991124
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914991286
+hostname local-host~
+#END
+
+#PLAYER
+name TuViejo~
+id 876425145
+nivel 16
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 912545989
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Trifasico~
+id 904082909
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 904088360
+hostname loopback~
+#END
+
+#PLAYER
+name Tirith~
+id 901906214
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 906487798
+hostname local-host~
+#END
+
+#PLAYER
+name Tonto~
+id 901046268
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 910224498
+hostname local-host~
+#END
+
+#PLAYER
+name Tasmania~
+id 899750878
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 907012605
+hostname local-host~
+#END
+
+#PLAYER
+name Tolken~
+id 882383457
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race dwarf~
+lastlog 896498389
+hostname local-host~
+#END
+
+#PLAYER
+name Tunga~
+id 895193232
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 914387198
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Tippler~
+id 894412955
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 900632807
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Tulkas~
+id 892166367
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race giant~
+lastlog 913606627
+hostname 152.74.52.7~
+#END
+
+#PLAYER
+name Tomy~
+id 891889443
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race angel~
+lastlog 891898883
+hostname ~
+#END
+
+#PLAYER
+name Trax~
+id 880564350
+nivel 18
+clan infernus~
+clan_status 5
+sex 1
+class warrior~
+race predator~
+lastlog 912535274
+hostname 207.79.142.88~
+#END
+
+#PLAYER
+name Tormentor~
+id 859843166
+nivel 15
+clan ~
+clan_status 0
+sex 1
+class cleric~
+race elf~
+lastlog 894569755
+hostname 146.83.222.2~
+#END
+
+#PLAYER
+name Titania~
+id 897008705
+nivel 6
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 901840172
+hostname local-host~
+#END
+
+#PLAYER
+name Tormenta~
+id 897008922
+nivel 4
+clan ~
+clan_status 0
+sex 2
+class warrior~
+race human~
+lastlog 897011669
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Telken~
+id 901840035
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class mage~
+race angel~
+lastlog 901848039
+hostname ona.fi.umag.cl~
+#END
+
+#PLAYER
+name Tontin~
+id 904608984
+nivel 9
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 910224483
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Tenchi~
+id 904677327
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class mage~
+race human~
+lastlog 907267833
+hostname loopback~
+#END
+
+#PLAYER
+name Truncks~
+id 909425155
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914292095
+hostname 146.83.222.3~
+#END
+
+#PLAYER
+name Trunks~
+id 910308244
+nivel 12
+clan dragonlance~
+clan_status 0
+sex 1
+class ranger~
+race elf~
+lastlog 915571379
+hostname local-host~
+#END
+
+#PLAYER
+name UnderTaker~
+id 900193865
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class thief~
+race human~
+lastlog 907793056
+hostname local-host~
+#END
+
+#PLAYER
+name Ungoliant~
+id 904599020
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class thief~
+race hobbit~
+lastlog 904608500
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Utem~
+id 912360651
+nivel 2
+clan ~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 914189749
+hostname iv07166.dialupiv.ctcreuna.cl~
+#END
+
+#PLAYER
+name Verilio~
+id 893384852
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 895113233
+hostname 146.83.222.1~
+#END
+
+#PLAYER
+name Violator~
+id 880404602
+nivel 16
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 913402245
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Vanton~
+id 891644300
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race elf~
+lastlog 903121872
+hostname 146.83.108.142~
+#END
+
+#PLAYER
+name Violador~
+id 893977454
+nivel 14
+clan infernus~
+clan_status 0
+sex 1
+class ranger~
+race human~
+lastlog 910116593
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Wormman~
+id 894913035
+nivel 5
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 900014241
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Wakor~
+id 880560283
+nivel 11
+clan infernus~
+clan_status 0
+sex 1
+class warrior~
+race predator~
+lastlog 894910638
+hostname local-host~
+#END
+
+#PLAYER
+name Waylorn~
+id 847156201
+nivel 45
+clan dragonlance~
+clan_status 9
+sex 1
+class warrior~
+race angel~
+lastlog 914994422
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Ww~
+id 913424125
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race vampire~
+lastlog 913425480
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Xerox~
+id 858644410
+nivel 33
+clan cain~
+clan_status 2
+sex 1
+class mage~
+race human~
+lastlog 910220640
+hostname zeus.dci.ubiobio.cl~
+#END
+
+#PLAYER
+name Yop~
+id 914351878
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 914352125
+hostname condor.dpi.UDEC.CL~
+#END
+
+#PLAYER
+name Yoda~
+id 882321636
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race elf~
+lastlog 910215997
+hostname local-host~
+#END
+
+#PLAYER
+name Yero~
+id 891885518
+nivel 6
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race human~
+lastlog 900443948
+hostname 146.83.108.141~
+#END
+
+#PLAYER
+name Yunior~
+id 852864411
+nivel 32
+clan cain~
+clan_status 3
+sex 0
+class warrior~
+race elf~
+lastlog 915571646
+hostname 146.83.222.1~
+#END
+
+#PLAYER
+name Yerco~
+id 908735913
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class thief~
+race elf~
+lastlog 909007816
+hostname m20-074.unizar.es~
+#END
+
+#PLAYER
+name Yota~
+id 912813651
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race elf~
+lastlog 912821049
+hostname local-host~
+#END
+
+#PLAYER
+name Zelgadis~
+id 912445838
+nivel 4
+clan ~
+clan_status 0
+sex 1
+class psicionist~
+race angel~
+lastlog 913920045
+hostname local-host~
+#END
+
+#PLAYER
+name Ziggy~
+id 900033394
+nivel 7
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 907963332
+hostname local-host~
+#END
+
+#PLAYER
+name Zenki~
+id 900005742
+nivel 8
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race human~
+lastlog 913404466
+hostname local-host~
+#END
+
+#PLAYER
+name Zata~
+id 897955410
+nivel 3
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race vampire~
+lastlog 915041078
+hostname ramses.centic.utem.cl~
+#END
+
+#PLAYER
+name Zatan~
+id 863544426
+nivel 24
+clan cain~
+clan_status 1
+sex 1
+class warrior~
+race predator~
+lastlog 900523330
+hostname 127.0.0.1~
+#END
+
+#PLAYER
+name Zatanas~
+id 880570676
+nivel 31
+clan infernus~
+clan_status 10
+sex 1
+class warrior~
+race vampire~
+lastlog 913256189
+hostname ramses.centic.utem.cl~
+#END
+
+@

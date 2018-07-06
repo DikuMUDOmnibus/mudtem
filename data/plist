@@ -1,0 +1,27 @@
+#PLAYER
+name Birdie~
+id 844816841
+nivel 60
+clan ~
+clan_status 0
+sex 1
+class warrior~
+race dog~
+lastlog 1001463353
+hostname local-host~
+#END
+
+#PLAYER
+name Guido~
+id 997158020
+nivel 1
+clan ~
+clan_status 0
+sex 1
+class thief~
+race vampire~
+lastlog 997280990
+hostname as5300-s23-149.cnt.entelchile.net~
+#END
+
+@

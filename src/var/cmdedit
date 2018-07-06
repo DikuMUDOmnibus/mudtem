@@ -1,0 +1,76 @@
+void save_command( FILE *fp, struct cmd_type *comando )
+{
+	fprintf( fp, "%s~\n", CHECKNULLSTR( comando->name ) );
+	fprintf( fp, "%s~\n", cmd_func_name( comando->do_fun ) );
+	fprintf( fp, "%s~\n", position_table[comando->position].name );
+	fprintf( fp, "%d\n", comando->level );
+	fprintf( fp, "%s~\n", flag_string( log_flags, comando->log ) );
+	fprintf( fp, "%s~\n\n", flag_string( show_flags, comando->show ) );
+}
+
+void load_command( FILE *fp, struct cmd_type *comando )
+{
+	int val;
+
+	comando->name		= str_dup( fread_string(fp) );
+	comando->do_fun		= cmd_func_lookup( fread_string(fp) );
+	comando->position	= position_lookup( fread_string(fp) );
+	comando->level		= fread_number( fp );
+	comando->log		= flag_value( log_flags, fread_string(fp) );
+
+	val			= flag_value( show_flags, fread_string(fp) );
+	comando->show		= (val == NO_FLAG ? 0 : val);
+}
+
+void save_commands( void )
+{
+	int i;
+	FILE *fp;
+	
+	fp = fopen( CMD_FILE, "w" );
+
+	if ( !fp )
+	{
+		bug( "Save_commands : NULL fp", 0 );
+		return;
+	}
+
+	fprintf( fp, "%d\n", MAX_CMD );
+
+	for ( i = 0; i < MAX_CMD; i++ )
+		save_command( fp, &cmd_table[i] );
+
+	fclose( fp );
+}
+
+void	load_commands( void )
+{
+	FILE *fp;
+	int i;
+
+	fp = fopen( CMD_FILE, "r" );
+
+	if ( !fp )
+	{
+		bug( "No se pudo leer " CMD_FILE " para cargar comandos.", 0 );
+		exit(1);
+	}
+
+	fscanf( fp, "%d\n", &MAX_CMD );
+
+	cmd_table = malloc( sizeof(struct cmd_type) * (MAX_CMD + 1) );
+
+	if ( !cmd_table )
+	{
+		bug( "Error! Cmd_table == NULL, MAX_CMD : %d", MAX_CMD );
+		exit(1);
+	}
+
+	for ( i = 0; i < MAX_CMD; ++i )
+		load_command (fp, &cmd_table[i] );
+
+	cmd_table[MAX_CMD].name = str_dup( "" );
+
+	fclose(fp);
+}
+

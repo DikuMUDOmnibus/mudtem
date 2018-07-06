@@ -1,0 +1,27 @@
+This directory contains some examples of dynamically loaded modules
+that may be loaded via the `import' intrinsic function:
+
+  import ("NAME");
+
+This intrinsic function is available to applications that enable it
+via a call to the `SLang_init_import' function.  Of course, the OS
+must provide support for dynamic linking.
+
+When a slang script contains a line such as
+
+  import ("NAME");
+
+slang requests that the operating system dynamically link to a shared
+object called NAME-module.so.  Then the slang library will call the
+function `init_NAME' that NAME-module.so must define.  See the
+examples in this directory for more information. 
+
+To run these modules, use the slsh program in ../slsh/.
+slsh.c is a program that embeds the interpreter and may be used to
+test slang scripts.  In fact, it may be used to create unix executable
+scripts via, e.g.,
+
+#! /usr/bin/env slsh
+
+as the first line of the script.  See ../slsh/scripts subdirectory for
+examples of this approach.

@@ -1,0 +1,765 @@
+#AREADATA
+Name Laberinto~
+Builders None~
+Security 9
+VNUMs 31000 31049
+Prototipo 0
+Low 5
+High 60
+Credits { 50+ } Birdie  Laberinto~
+Recalc 1
+End
+
+#OBJECTS
+#31000
+mapa laberinto~
+mapa del laberinto~
+Un mapa del laberinto.~
+paper~
+map 0 A
+0 0 0 0 0
+0 1500 0 P
+E
+mapa~
++ +-+-+-+-+-+-+
+|     |   |   |
++-+-+ + + + +-+
+|     | |     |
++ +-+-+-+-+-+ +
+| |         | |
++ +-+-+ +-+ + +
+|     | |   | |
++ +-+ + + +-+ +
+|   | | |   | |
++-+ + + + + + +
+|   |   | |   |
++ +-+-+-+-+-+-+
+|             |
++-+-+-+-+-+-+ +
+~
+E
+solucion~
++.+-+-+-+-+-+-+
+|.....|   |   |
++-+-+.+ + + +-+
+|.....| |     |
++.+-+-+-+-+-+ +
+|.|         | |
++.+-+-+ +-+ + +
+|.    | |   | |
++.+-+ + + +-+ +
+|...| | |   | |
++-+.+ + + + + +
+|...|   | |   |
++.+-+-+-+-+-+-+
+|.............|
++-+-+-+-+-+-+.+
+~
+#0
+
+#MOBILES
+#31000
+guerrero laberinto~
+~
+Un guerrero da vueltas por el lugar, con los ojos desorbitados.
+~
+Parece llevar anos tratando de salir de aqui.
+~
+human~
+ABCFG 40 0 1000 0
+50 40 4d175+1400 3d3+33 5d5+10 bite
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 large carne
+#0
+
+#ROOMS
+#31000
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D1
+~
+~
+0 0 31001
+S
+#31001
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31002
+D3
+~
+~
+0 0 31000
+S
+#31002
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31009
+D3
+~
+~
+0 0 31001
+S
+#31003
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31004
+D2
+~
+~
+0 0 31010
+S
+#31004
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31011
+D3
+~
+~
+0 0 31003
+S
+#31005
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31006
+D2
+~
+~
+0 0 31012
+S
+#31006
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D3
+~
+~
+0 0 31005
+S
+#31007
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31008
+D2
+~
+~
+0 0 31014
+S
+#31008
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31009
+D3
+~
+~
+0 0 31007
+S
+#31009
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31002
+D3
+~
+~
+0 0 31008
+S
+#31010
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D0
+~
+~
+0 0 31003
+S
+#31011
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31004
+D1
+~
+~
+0 0 31012
+S
+#31012
+Pasaje oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31005
+D1
+~
+~
+0 0 31013
+D3
+~
+~
+0 0 31011
+S
+#31013
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31020
+D3
+~
+~
+0 0 31012
+S
+#31014
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31007
+D2
+~
+~
+0 0 31021
+S
+#31015
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D1
+~
+~
+0 0 31016
+S
+#31016
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31017
+D3
+~
+~
+0 0 31015
+S
+#31017
+Pasaje oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31018
+D2
+~
+~
+0 0 31024
+D3
+~
+~
+0 0 31016
+S
+#31018
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31019
+D3
+~
+~
+0 0 31017
+S
+#31019
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31026
+D3
+~
+~
+0 0 31018
+S
+#31020
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31013
+D2
+~
+~
+0 0 31027
+S
+#31021
+Pasaje oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31014
+D1
+~
+~
+0 0 31022
+D2
+~
+~
+0 0 31028
+S
+#31022
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31023
+D3
+~
+~
+0 0 31021
+S
+#31023
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31030
+D3
+~
+~
+0 0 31022
+S
+#31024
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31017
+D2
+~
+~
+0 0 31031
+S
+#31025
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31026
+D2
+~
+~
+0 0 31032
+S
+#31026
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31019
+D3
+~
+~
+0 0 31025
+S
+#31027
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31020
+D2
+~
+~
+0 0 31034
+S
+#31028
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31021
+D1
+~
+~
+0 0 31029
+S
+#31029
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31036
+D3
+~
+~
+0 0 31028
+S
+#31030
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31023
+D2
+~
+~
+0 0 31037
+S
+#31031
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31024
+D2
+~
+~
+0 0 31038
+S
+#31032
+Pasaje oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31025
+D1
+~
+~
+0 0 31033
+D2
+~
+~
+0 0 31039
+S
+#31033
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D2
+~
+~
+0 0 31040
+D3
+~
+~
+0 0 31032
+S
+#31034
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31027
+D2
+~
+~
+0 0 31041
+S
+#31035
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31036
+D2
+~
+~
+0 0 31042
+S
+#31036
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31029
+D3
+~
+~
+0 0 31035
+S
+#31037
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31030
+D1
+~
+~
+0 0 31038
+S
+#31038
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31031
+D3
+~
+~
+0 0 31037
+S
+#31039
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D0
+~
+~
+0 0 31032
+S
+#31040
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31033
+D1
+~
+~
+0 0 31041
+S
+#31041
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31034
+D3
+~
+~
+0 0 31040
+S
+#31042
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D0
+~
+~
+0 0 31035
+D1
+~
+~
+0 0 31043
+S
+#31043
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31044
+D3
+~
+~
+0 0 31042
+S
+#31044
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31045
+D3
+~
+~
+0 0 31043
+S
+#31045
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31046
+D3
+~
+~
+0 0 31044
+S
+#31046
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31047
+D3
+~
+~
+0 0 31045
+S
+#31047
+Tunel oscuro~
+Estas en un laberinto de pasajes oscuros, todos parecidos.
+~
+0 532488 0
+D1
+~
+~
+0 0 31048
+D3
+~
+~
+0 0 31046
+S
+#31048
+Sin salida~
+#B#FJAJAJAJAJA#b#f!.  Ahora tienes que volver!
+~
+0 532488 0
+D3
+~
+~
+0 0 31047
+S
+#0
+
+#RESETS
+S
+
+#SPECIALS
+M 31000 spec_rat
+S
+
+#$

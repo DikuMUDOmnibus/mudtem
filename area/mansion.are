@@ -1,0 +1,204 @@
+#AREADATA
+Name Mansion de los Espiritus~
+Builders Cyborg~
+VNUMs 13000 13099
+Credits /// AREA en CoNSTRuCCioN ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#13000
+~
+Te encuentras parado sobre una gran escalera de roble que ha sido
+notoriamente desgastado por el paso de los an?  Os.  
+~
+0 NY 0
+D0
+~
+~
+0 0 13001
+S
+#13001
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13003
+D2
+~
+~
+0 0 13000
+D3
+~
+~
+0 0 13002
+S
+#13002
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13001
+D3
+~
+~
+0 0 13004
+S
+#13003
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13005
+D3
+~
+~
+0 0 13001
+S
+#13004
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13002
+D3
+~
+~
+0 0 13006
+S
+#13005
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13007
+D3
+~
+~
+0 0 13003
+S
+#13006
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13004
+D3
+~
+~
+0 0 13008
+S
+#13007
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13009
+D3
+~
+~
+0 0 13005
+S
+#13008
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13006
+D3
+~
+~
+0 0 13010
+S
+#13009
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13011
+D3
+~
+~
+0 0 13007
+S
+#13010
+~
+~
+0 Y 0
+D1
+~
+~
+0 0 13008
+S
+#13011
+~
+~
+0 Y 0
+D3
+~
+~
+0 0 13009
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

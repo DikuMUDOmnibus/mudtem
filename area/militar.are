@@ -1,0 +1,2724 @@
+#AREADATA
+Name Blah~
+Builders Acdc~
+VNUMs 12000 12099
+Credits /// AREA EN CONSTRUCCION ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#12000
+Cabo Medina~
+El Cabo Medina~
+El Cabo Medina esta de clase de servico aqui.
+~
+Se ve un hombre joven , y weno pal leseo.
+~
+'predator'
+ABDTX Vc 0 0 0
+37 79 11d11+2000 259d16+800 6d7+12 none
+-11 -11 -11 -11
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+R
+#12001
+comando~
+Boina Negra~
+Un Comando esta poniendo seguridad aqui.
+~
+Ves un fornido hombre dispuesto a todo para sobrevivir.
+~
+'vampire'
+ABSTX V 0 0 0
+35 63 11d1+1900 35d15+600 6d5+13 none
+-11 -11 -11 -11
+BCDEFIJKLNTUV S 0 0
+stand stand none 0
+0 I giant 'unknown'
+C 'thief'
+F vul X
+R
+#12002
+Soldado Pelao~
+Un Soldado~
+Un Pelao pasando el rato aqui.
+~
+He aqui un ejemplo para los jovenes ... un soldado conscripto
+se recluto voluntariamente , y desea que su servicio militar
+nunca terminase.
+~
+'human'
+ATX 0 0 0 0
+34 73 11d11+1800 34d15+500 6d7+12 none
+-11 -11 -11 -10
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'madera'
+C 'warrior'
+R
+#12003
+SubOficial Reyes~
+SubOficial Reyes~
+El SubOficial Reyes esta reposando aqui.
+~
+Ves un hombre chico y gordo , de avanzada edad .
+~
+'dwarf'
+ABQRX Vc 0 0 0
+38 52 11d11+2000 266d16+800 8d5+12 none
+-12 -12 -12 -12
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'cobre'
+C 'mage'
+R
+#12004
+Teniente Guzman~
+Teniente Guzman~
+Un Teniente Comando esta aqui.
+~
+Ves un homre fuerte , perteneciente a las fuerzas especiales.
+~
+'predator'
+ABQSTX DFHVc 0 0 0
+39 83 16d11+2350 273d16+1000 9d5+14 none
+-13 -13 -13 -12
+BCDEFIJKLNTUV 0 0 0
+stand stand male 0
+0 0 medium 'bronze'
+C 'thief'
+R
+#12005
+Capitan Alday~
+Capitan Alday~
+Un Capitan de las fuerzas especiales esta aqui.
+~
+Ves al capitan de los comando , dando una demostracion de su
+gran dominio en las armas
+~
+'predator'
+ABRSTX DFVc 0 0 0
+40 85 16d11+2400 280d16+1000 9d5+14 none
+-13 -13 -13 -13
+BCDEFIJKLNTUV 0 0 L
+stand stand male 0
+0 0 medium 'platino'
+C 'mage'
+R
+#12006
+Soldado Comando~
+Un soldado Comando~
+Un soldado Comando esta aqui.
+~
+Ves un soldado conscripto perteneciente al escudron comando
+del regimiento.
+~
+'human'
+ATX DFVc 0 0 0
+35 75 11d11+1900 35d15+500 7d6+13 none
+-11 -11 -11 -10
+CDEFIKLTU 0 HI JP
+stand stand male 0
+0 0 medium 'bronze'
+C 'warrior'
+R
+#12007
+Cabo Valladares~
+El Cabo Valladares~
+El Cabo Valladares se anda paseando po aqui.
+~
+Ves un hombre joven , y distinguido . Se destaca por ser un
+buen instructor.
+~
+'human'
+ARX Vc 0 0 0
+36 50 11d11+1800 252d16+600 8d5+12 none
+-11 -11 -11 -11
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'cobre'
+C 'mage'
+R
+#12008
+Sargento Beltran~
+Sargento Beltran~
+El Sargento Beltran an paseando por aqui.
+~
+Este es un hombre muy recto , que se preocupa por el regimiento.
+~
+'human'
+ATX Vc 0 1000 0
+37 79 11d11+2100 37d16+500 9d5+14 none
+-12 -12 -12 -11
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'cobre'
+C 'warrior'
+R
+#12010
+Mayor Manson~
+Mayor Manson~
+El Mayor Manson esta parado aqui.
+~
+Vez un valiente hombre comandante del grupo.
+~
+'giant'
+AQTX HVc 0 1000 0
+42 89 26d12+3000 336d17+1000 7d7+15 none
+-14 -14 -14 -13
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'plata'
+C 'ranger'
+R
+#12011
+Sargento Primero~
+Sargento Primero~
+Un Sargento Primero trabaja aqui.
+~
+Vez un empenioso hombre trabajando en labores de oficina
+~
+'human'
+ABSTX Vc 0 0 0
+37 79 11d11+2100 37d16+500 9d5+14 none
+-12 -12 -12 -11
+BCDEFKLNTUV 0 0 BL
+stand stand male 0
+0 0 medium 'bronze'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#12012
+Mayor Mateluna~
+Mayor Mateluna~
+El Mayor Mateluna te mira seriamente.
+~
+Vez un serio personaje que impone respeto.
+~
+'giant'
+AFQTX HVac 0 0 0
+43 91 26d11+3250 344d17+1000 13d4+16 none
+-15 -15 -15 -14
+CDEFIKLTU 0 0 K
+stand stand male 0
+0 0 medium 'plata'
+C 'ranger'
+R
+#12013
+Suboficial~
+Un Suboficial~
+Un Suboficial la esta haciando de secretario aqui
+~
+~
+'human'
+ABSTX Vc 0 1000 0
+38 81 16d11+2200 38d16+500 17d3+14 none
+-13 -13 -13 -12
+BCDEFKLNTUV 0 E 0
+stand stand male 0
+0 0 medium 'bronze'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#12014
+Subcomandante~
+Subcomandante~
+El subcomandante del regimiento esta aqui.
+~
+Se ve un hombre muy seguro de si mismo
+~
+'giant'
+ARTX HVc B 0 0
+44 93 26d11+3250 352d17+1000 13d4+16 none
+-15 -15 -15 -14
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'plata'
+C 'mage'
+R
+#12015
+Comandante Coronel~
+Comandante~
+El Comandante-Coronel esta aqui.
+~
+Ves un fornido hombre de avanzada edad.
+~
+'dragon'
+ABDQTX HVac B 800 0
+45 95 26d11+3300 360d17+1200 7d7+15 none
+-15 -15 -15 -14
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'psicionist'
+R
+#12016
+Teniente Gress~
+El Teniente Gress~
+El Teniente Gress esta buscando soldados que aporrear.
+~
+Ves una wea grande con orejas que se cree oficial.
+~
+'predator'
+ADSX Hac 0 -1000 0
+39 63 11d11+2100 273d16+800 5d9+13 none
+-12 -12 -12 -11
+BEFKNUV 0 0 AL
+stand stand male 0
+0 0 medium 'mierda'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJKUY
+R
+#12017
+Cabo Vega~
+El Cabo Vega~
+El Cabo Vega esta aqui reponiendo armas.
+~
+Vez un hombre que se altera cuando le nombran armas.
+~
+'human'
+ABTX 0 0 0 0
+36 76 11d11+2000 36d16+500 5d9+13 none
+-12 -12 -12 -11
+CDEFKLTU ABCDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand male 0
+0 0 medium 'bronze'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#12018
+Primero Molina~
+El Primero Molina~
+El primero Molina esta revendiendo cargos aqui.
+~
+Vez un hombre aburrido de tanto weviar con cargo militar.
+~
+'human'
+ABTX 0 0 0 0
+37 79 11d11+2100 37d16+500 9d5+14 none
+-12 -12 -12 -11
+CDEFKLTU ABCDEFGHIJKLMNOPQRTXYZ 0 0
+stand stand male 0
+0 0 medium 'cobre'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#12019
+Capitan Otarola~
+El Capitan Otarola~
+El Capitan Otarola anda supervisando todo a su paso.
+~
+Este es un hombre bajo y muy gordo, se nota la buena vida.
+~
+'dwarf'
+ARTX HVc 0 1000 0
+40 85 16d11+2350 280d16+800 9d5+14 none
+-13 -13 -13 -13
+CDEFKLTU 0 0 L
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+F aff J
+F res LQ
+F vul R
+F for AHMV
+F par ABCDEFGHIJK
+R
+#12020
+Caballo~
+Un Caballo de salto~
+Un Caballo de salto esta brincando aqui.
+~
+Vez un enorme animal , necesitas una escalera para montarlo
+~
+'caballo'
+AIX Vc 0 0 0
+33 38 11d11+1600 33d15+500 8d5+12 none
+-11 -11 -11 -9
+0 0 0 0
+stand stand female 0
+0 0 medium 'cuero'
+C 'thief'
+R
+#12021
+caballo~
+Un Caballo de polo~
+Un Caballo de polo esta aqui.
+~
+Ves un caballo de baja estatura pero muy eficiente
+~
+'caballo'
+AIX Vc 0 0 0
+32 37 11d11+1500 32d15+500 5d8+11 none
+-10 -10 -10 -9
+0 0 0 0
+stand stand male 0
+0 0 medium 'cuero'
+C 'thief'
+R
+#12022
+Soldado Guardia~
+Soldado~
+Un Soldado de Guardia esta vigilando la entrada.
+~
+Un Soldado conscripto esta aqui haciendo tu turno de guardia.
+~
+'human'
+ABTX Vc 0 0 0
+34 73 11d11+1800 34d15+500 6d7+12 none
+-11 -11 -11 -10
+CDEFIKLTU 0 0 AB
+stand stand male 0
+0 0 medium 'madera'
+C 'warrior'
+R
+#12023
+caballo~
+Un Caballo de transporte~
+Un Caballo de campania esta aqui.
+~
+Vez un sacrificado caballo dispuesto a transportarte en la guerra.
+~
+'caballo'
+AIX Vc 0 0 0
+31 36 7d13+1450 31d15+500 7d5+11 none
+-10 -10 -10 -8
+0 0 0 0
+stand stand female 0
+0 0 medium 'cuero'
+C 'warrior'
+R
+#12024
+Perro Altanero~
+El perro Altanero~
+El perro Altanero anda caminado por aqui.
+~
+Te asustas de ver este enorme perro San Bernando.
+~
+'dog'
+AIX Vc 0 0 0
+30 35 7d13+1350 30d15+500 4d6+10 none
+-9 -9 -9 -8
+0 0 0 AKL
+stand stand male 0
+0 0 medium 'pelo'
+C 'thief'
+R
+#12025
+perro puniete~
+El perro Puniete~
+El perro Puniete esta ladrando aqu.
+~
+Vez una wea fea , parece ser un perro sahueso
+~
+'dog'
+AIX Vac 0 0 0
+30 35 7d13+1350 30d15+500 5d7+10 none
+-9 -9 -9 -8
+0 0 0 0
+stand stand male 0
+0 0 medium 'pelos'
+C 'warrior'
+R
+#12026
+contador militar~
+Un contador milico~
+Un contador militar esta apartando los sueldos aqui.
+~
+Este hombre se esta haciendo rico aqui.
+~
+'predator'
+ABRTX HVc 0 -1000 0
+37 79 11d11+2000 259d16+800 6d7+12 none
+-12 -12 -12 -11
+CDEFIKLTU E 0 FGH
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+R
+#12044
+Teniente Carrera~
+Teniente Carrera~
+El Teniente Carrera se esta tomando un copete aqui.
+~
+Vez un hombre de baja estatura , es un boina negra , y le disgusta
+mucho que lo pasen a llevar.
+~
+'dwarf'
+ASTX DFHV 0 -1000 0
+39 83 16d11+2400 39d16+500 18d3+15 none
+-13 -13 -13 -12
+BCDEFIJKLNTUV 0 HI JP
+stand stand male 0
+0 0 medium 'cobre'
+C 'thief'
+R
+#12059
+Cabo Cocinero~
+Un Cocinero~
+El Cabo Cocinero esta aqui pelando papas.
+~
+Vez un hombre chico y gordo ... capaz que se coma todas las
+sobras de la comida.
+~
+'elf'
+ABQTX V 0 0 0
+36 77 11d11+2000 252d16+700 6d7+12 none
+-12 -12 -12 -11
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'plomo'
+C 'ranger'
+R
+#12095
+Soldado Pelao Enfermo~
+Soldado~
+Un Pelao Enfermo esta enterrado en guano aqui.
+~
+Pobre soldado que se cayo en la mierda .. quedo con la cabeza
+enterra aqui ... 
+~
+'human'
+ABDX AKMRXY DJ 0 0
+34 47 11d11+1600 204d15+700 7d5+11 none
+-10 -10 -10 -9
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#0
+
+
+
+#OBJECTS
+#12000
+fusil espada~
+Un Fusil de lujo.~
+Un Fusil de lujo esta aqui.
+~
+madera~
+weapon IRd AN
+exotic 5 6 'none' 0
+34 7 20000 P
+#12001
+corvo afilado~
+Un Corvo Afilado~
+Un Corvo muy afilado esta enterrado aqui.~
+hierro~
+weapon Id AN
+dagger 0 0 'stab' A
+30 5 10000 P
+A
+19 5
+A
+18 4
+A
+13 50
+A
+1 2
+#12002
+Placa~
+una Placa~
+Una brillante Placa hay aqui (LOOK PLACA).~
+bronce~
+furniture d P
+0 0 0 0 0
+0 16960 1 P
+T 0 0 0
+E
+placa~
+REGIMIENTO DE CABALLERIA BLINDADA
+N* 7    *** GUIAS ***.
+~
+#12003
+boina roja~
+Una Boina roja~
+Una boina de caballeria esta aqui tirada.~
+lana~
+armor Md AE
+10 8 10 12 0
+34 5 7500 P
+A
+2 2
+A
+1 3
+A
+17 -30
+#12004
+boina negra~
+Una Boina Negra~
+Una Boina negra esta aqui tirada.~
+seda~
+armor Fd AE
+-5 -3 -1 -10 0
+36 3 15000 P
+F
+A 0 0 J
+F
+A 0 0 F
+F
+A 0 0 D
+A
+18 5
+A
+1 1
+A
+19 3
+#12005
+kepi~
+Un kepi verde militar~
+Un kepi esta mimetizado aqui.~
+tela~
+armor Id AE
+-5 -4 -3 -5 0
+34 3 15000 P
+A
+4 2
+A
+3 1
+A
+1 2
+#12006
+botas combate~
+Unas Botas cortas~
+Un par de Botas de Combate estan tiradas.~
+cuero~
+armor d AG
+-10 -8 -10 -8 0
+35 8 45300 P
+A
+2 -1
+A
+17 -30
+#12007
+Botas Largas~
+Unas Botas de montar~
+Un par de Botas Largas yacen aqui.~
+cuero~
+armor Md AG
+-3 -4 -5 -10 0
+40 4 125000 P
+F
+A 0 0 T
+A
+2 2
+A
+1 1
+A
+4 3
+#12008
+anillo aguila~
+Anillo con forma de Aguila~
+Una Extania ave  esta aqui.~
+plata~
+armor Fd AB
+-13 -10 -11 -8 0
+41 6 49500 P
+F
+A 0 0 T
+A
+19 4
+A
+18 2
+A
+13 -30
+A
+17 -5
+R 0 5
+#12009
+medalla valor~
+Una Medalla Brillante~
+Una Medalla al valor esta brillando aqui.~
+oro~
+jewelry AGd AC
+0 0 0 0 0
+37 7 35780 P
+A
+19 3
+A
+18 2
+F
+I 0 0 E
+R 0 2
+L 3903 0
+L 3903 1
+#12010
+panioleta formal~
+Un paniuelo de cuello~
+Un Paniuelo de Cuello se observa aqui.~
+tela~
+armor d AC
+-3 -2 -5 -4 0
+39 5 350000 P
+A
+18 3
+A
+19 2
+F
+R 0 0 C
+#12011
+chaqueta~
+Una chaqueta de combate~
+Una chaqueta verde milico esta aqui.~
+tela~
+armor Gd AK
+1 0 2 0 0
+36 7 43476 P
+A
+5 2
+A
+2 3
+#12012
+pantalon militar~
+Un Pantalon de Combate~
+Un pantalon militar esta tirado aqui.~
+tela~
+armor Gd AF
+-15 -10 -6 -12 0
+37 7 98762 P
+A
+19 3
+A
+18 3
+A
+1 2
+F
+A 0 0 c
+#12013
+pantalon montar~
+Un Pantalon de montar~
+Un Pantalos de Caballeria se ve aqui.~
+indef~
+armor Id AF
+-2 0 -3 0 0
+39 9 20022 P
+A
+13 80
+A
+5 3
+#12014
+uniforme~
+Un uniforme de Milico~
+Un uniforme militar esta tirado aqui.~
+tela~
+armor Gd AD
+-6 -8 -4 -1 0
+34 8 45934 P
+#12015
+polainas~
+Un par de Polainas~
+Unas polainas negras estan aqui tiradas.~
+cuero~
+armor d AF
+0 -5 0 -3 0
+34 8 34903 P
+A
+2 1
+#12016
+botas viejas~
+Unas Botas viejas~
+Un par de Botas viejas estan aqui.~
+cuero~
+armor d AG
+0 -25 0 0 0
+33 12 12000 P
+A
+1 3
+#12017
+delantal blanco~
+Un Delantal Blanco~
+Un radiante Delantal esta aqui.~
+tela~
+armor Gd AD
+3 2 0 1 0
+36 9 25452 P
+A
+5 3
+#12018
+polera verde~
+Una Polera Verde~
+Una Polera verde esta tirada aqui.~
+seda~
+armor d AD
+-5 -3 -8 -13 0
+38 5 20000 P
+A
+19 5
+A
+18 3
+A
+2 2
+R 0 2
+L 3921 0
+#12019
+gorro cocinero~
+Un Gorro de Cocinero~
+Un Gorro de Cocinero esta tirado aqui.~
+tela~
+armor d AE
+0 0 0 0 0
+36 7 13500 P
+A
+1 3
+A
+4 2
+A
+3 -1
+#12020
+kepi parada~
+Un Kepi de Parada~
+Un Kepi de Parada esta tirado aqui.~
+seda~
+armor Id AE
+-15 -18 -13 -20 0
+38 11 40500 P
+A
+17 -50
+#12021
+Unifome parada~
+Un Uniforme plomo~
+Un Uniforme plomo esta tirado aki.~
+tela~
+armor Cd AD
+-5 -3 -4 -6 0
+0 13 35000 P
+A
+13 60
+A
+17 -30
+A
+1 1
+A
+2 3
+#12022
+arnes~
+Un Arnes verde~
+Un Arnes de combate esta aqui tirado.~
+cuero~
+armor Id AK
+-1 -3 -8 -6 0
+40 6 23000 P
+F
+A 2 2 V
+A
+17 -40
+A
+19 3
+A
+18 6
+#12023
+polera negra~
+Un Polera Negra~
+Una Polera Negra esta aqui tirada.~
+seda~
+armor d AD
+-12 -10 -6 -13 0
+41 8 45000 P
+F
+A 0 0 B
+A
+4 1
+A
+3 2
+A
+12 65
+A
+13 80
+#12031
+monolito bernardo~
+monolito de Bernardo~
+Un monolito del Padre de la Patria esta aqui.~
+oro~
+trash d AP
+0 0 0 0 0
+0 7936 0 P
+E
+monolito~
+Ves un gran, lujoso y brillante monolito del Padre de la Patria,
+Don Bernardo O'higgins . Sientes las ganas de mirarlo por siempre.
+~
+E
+monolito~
+uytgrf
+jy5tr
+~
+E
+monolito~
+Ves un gran, lujoso y brillante monolito del Padre de la Patria,
+Don Bernardo O'higgins . Sientes las ganas de mirarlo por siempre.
+~
+#12032
+bomba lagrimogena~
+Una Bomba Lagrimogena~
+Una Bomba Lagrimogena esta chorreando aqui.~
+aluminio~
+wand Id AO
+50 10 10 'gas breath' 0
+45 20 300000 P
+#12033
+herradura~
+Una Herradura de la suerte~
+Una herradura de la suerte esta enterrada aqui.~
+hierro~
+trash Gd AG
+0 0 0 0 0
+32 15 10000 P
+A
+2 3
+A
+3 3
+A
+4 3
+#12034
+collar~
+Un collar de peroo~
+Un collar de perro esta tirado aqui.~
+cuero~
+trash Cd ACM
+0 0 0 0 0
+30 12 1000 P
+F
+A 2 3 V
+#12035
+aros~
+aros de bala~
+Unos aros hechos de bala estan aqui.~
+salva~
+trash d AS
+0 0 0 0 0
+42 5 12000 P
+A
+18 5
+A
+19 5
+F
+I 0 0 A
+A
+1 -2
+R 0 1
+#0
+
+
+
+#ROOMS
+#12000
+Las afueras de un recinto militar~
+Estas parado en medio de una plaza, y no muy lejos se divisa una gran
+area verde y mucho movimiento, pero a esta distancia aun no se distingue bien
+que podra ser, hacercate y averigua.
+~
+0 Y 0
+D0
+~
+~
+0 0 12001
+S
+#12001
+Frente a la guadia~
+Has llegado a la guardia, y ves unos boinas negras protegiendo esta entrada
+dispuestos a todo por la seguridad del cuartel, sin miedo a apuntarte con su
+fusil de lujo lleno de municiones de plata.
+~
+0 Y 0
+D0
+~
+~
+0 0 12002
+D1
+~
+~
+0 0 12021
+D2
+~
+~
+0 0 12000
+S
+#12002
+Hacia el edificio central~
+Estas en una vereda muy limpia rodeada donde se aprecia un hermoso antejardin
+de pasto muy verde, se nota que es exigentemente cuidado, por tu seguridad
+no te atrevas a pisarlo.
+~
+0 CY 0
+D0
+~
+~
+0 0 12003
+D2
+~
+~
+0 0 12001
+S
+#12003
+Dentro del edificio~
+Te asombra la elegancia de este cuarto, y sobre todo la limpieza que aqui hay
+por poco te encandilas por el brillo de su piso
+~
+0 Y 0
+D0
+~
+~
+0 0 12004
+D2
+~
+~
+0 0 12002
+S
+#12004
+Hall principal~
+Estas dentro de una lujosa pieza, por donde transitan importantes miembros
+militares, ten cuidado de no hacerlos enfadar o seras cruelmente castigado sin
+derecho a reclamo.
+~
+0 Y 0
+D0
+~
+~
+0 0 12029
+D1
+~
+~
+0 0 12018
+D2
+~
+~
+0 0 12003
+D3
+~
+~
+0 0 12005
+S
+#12005
+Escaleras~
+Una gran escalera en forma de caracol puede llevarte hacia arriba, grandes
+oficinas podrias encontrar, si tienes suerte podrias pillar un computador con
+red para poder juegar mud un rato.
+~
+0 Y 0
+D1
+~
+~
+0 0 12004
+D3
+~
+~
+0 0 12044
+D4
+~
+~
+0 0 12006
+S
+#12006
+Segundo piso~
+Estas en el segundo piso, hacia el este ves un pasillo y varias puertas en
+ambos lados, las que tienen placas muy brillantes, da la impresion de ser 
+cuartos muy importantes.
+~
+0 Y 0
+D0
+~
+~
+0 0 12010
+D1
+~
+~
+0 0 12007
+D2
+~
+~
+0 0 12011
+D5
+~
+~
+0 0 12005
+S
+#12007
+Pasillo~
+Te das cuenta que no es un pasillo muy largo , pero se nota que es de mucha
+importancia , te llega a dar miedo meter mucho ruido al caminar.Ademas se
+escuchan ruidos como de teclas.
+~
+0 Y 0
+D0
+~
+~
+0 0 12012
+D1
+~
+~
+0 0 12008
+D2
+~
+~
+0 0 12013
+D3
+~
+~
+0 0 12006
+S
+#12008
+Pasillo~
+Aqui finaliza el pasillo , y te encuentras frente a dos oficinas muy de gran
+importancia, sera mejor que golpees antes de entrar , y haslo en silencio.
+~
+0 Y 0
+D0
+~
+~
+0 0 12014
+D1
+~
+~
+0 0 12009
+D2
+~
+~
+0 0 12015
+D3
+~
+~
+0 0 12007
+S
+#12009
+Hall interior~
+Lugar de descanso para personas importantes que trabajan en este piso
+haci que haga el favor de no molestar.
+~
+0 Y 0
+D0
+~
+~
+0 0 12016
+D2
+~
+~
+0 0 12017
+D3
+~
+~
+0 0 12008
+S
+#12010
+Oficina Manson~
+Esta es la oficina del mayor Manson, comandante del varios escuadrones del
+regimiento como el plana mayor , montado y longuistico . Ojalo no se moleste
+con tu presencia.
+~
+0 Y 0
+D2
+~
+~
+0 0 12006
+S
+#12011
+Una oficina~
+Esta oficina no tiene duenio , pero hay un escritorio con una maquina de
+escribir esperando que alguien venga a trabajar , como un suboficial o
+algun soldadito
+~
+0 Y 0
+D0
+~
+~
+0 0 12006
+S
+#12012
+Oficina Mateluna~
+Frente a ti se encuentra el estricto mayor Mateluna,  el que no teme corregir
+a nadie, es mejor que ni le dirigas la palabras o te puedes quedar sin
+legua .
+~
+0 Y 0
+D2
+~
+~
+0 0 12007
+S
+#12013
+Oficina 2~
+Esta es una oficina un poco mas moderna, ya que posee un gran computador
+lamnetablemente no esta conectada a internet pa' poder jugar mud un ratito
+que sea :( .
+~
+0 Y 0
+D0
+~
+~
+0 0 12007
+S
+#12014
+Oficina comandante Subrogante~
+cuarto del segundo hombre mas importante del regimiento , con el grado de
+teniente-coronel , es una gran autoridad y se merece respeto.
+~
+0 Y 0
+D2
+~
+~
+0 0 12008
+S
+#12015
+oficina del COMANDANTE~
+La autoridad maxima esta aqui , resolviendo todos los problemas del cuartel
+agotando todos sus medios, sera mejor dejarlo trabajar.
+~
+0 Y 0
+D0
+~
+~
+0 0 12008
+S
+#12016
+Sala de Reuniones~
+Una gran mesa redonda adorna la sala, con comodas sillas y grandes estantes
+donde se guardan importantes documentes , nadie entra aqui sin invitacion.
+~
+0 Y 0
+D2
+~
+~
+0 0 12009
+S
+#12017
+Banio~
+Que pero que lujoso banio , ni una sola gota de meado en el pizo y hasta huele
+a menta , como lo haran ?
+~
+0 Y 0
+D0
+~
+~
+0 0 12009
+S
+#12018
+Pequenio pasillo~
+De aqui se observa una pequenia oficina al sur , hacia el norte se distingue
+un museo de armas y al este una salida lateral hacia el patio
+~
+0 Y 0
+D0
+~
+~
+0 0 12020
+D1
+~
+~
+0 0 12026
+D2
+~
+~
+0 0 12019
+D3
+~
+~
+0 0 12004
+S
+#12019
+Contabilidad~
+Mucho ruido hay aqui ... estan tratando de ver cuanto le descontaran a los
+soldados de su gran sueldo de $ 7350 , trataran de dejarlos con lo menos
+posible .
+~
+0 Y 0
+D0
+~
+~
+0 0 12018
+S
+#12020
+MUSEO~
+Brillantes trofeos de guerra son exhibidos aqui , esta pieza esta llena de
+armas y reliquias .Ademas hay fotografias de heros por todos lados.
+~
+0 Y 0
+D2
+~
+~
+0 0 12018
+S
+#12021
+Fuera de la reja~
+Si observas hacia dentro ...ves lo grande que es el regimiento de caballeria,
+y te dan ganas de entrar a conocerlo .
+~
+0 Y 0
+D1
+~
+~
+0 0 12022
+D3
+~
+~
+0 0 12001
+S
+#12022
+Entrada de autos~
+Por aqui ingresan todos los funcionarios del regimiento que posean un
+auto o por lo menos una bicicleta , hay un estricto control de seguridad
+para todo vehiculo que aqui entra.  
+~
+0 Y 0
+D0
+~
+~
+0 0 12023
+D3
+~
+~
+0 0 12021
+S
+#12023
+Calle interior~
+Por aqui transitan todos los vehiculos militares , es una calle que recorre
+todo el interior del recinto. Hacia el este hay un estacionamiento , al norte
+se continuan la calle y al oeste una camino va hacia el patio interior.
+~
+0 Y 0
+D0
+~
+~
+0 0 12077
+D1
+~
+~
+0 0 12024
+D2
+~
+~
+0 0 12022
+D3
+~
+~
+0 0 12025
+S
+#12024
+Estacionamientos~
+Muchos lugares para estacionarse se ven aqui, todos estos lugares estan 
+techados y se nota que hay seguridad , por lo menos nadie te robara.
+~
+0 Y 0
+D3
+~
+~
+0 0 12023
+S
+#12025
+Hacia el patio~
+Este camino te lleva hacia el patio interior, y pasa por el lado del escuadron
+montado , y frente esta la entrada lateral del edificio central.
+~
+0 Y 0
+D0
+~
+~
+0 0 12026
+D1
+~
+~
+0 0 12023
+S
+#12026
+Frente al patio interior~
+Aqui esta el patio interior, observas que es muy grande . Ademas hacia el este
+esta la entrada al escuadron montado y hacia el oeste la entrada lateral al
+edifico central.
+~
+0 Y 0
+D0
+~
+~
+0 0 12027
+D1
+~
+~
+0 0 12039
+D2
+~
+~
+0 0 12025
+D3
+~
+~
+0 0 12018
+S
+#12027
+Patio interior~
+Estas en la esquina sur-este del patio interior, se nota que
+esta muy bien cuidado.
+~
+0 Y 0
+D0
+~
+~
+0 0 12034
+D2
+~
+~
+0 0 12026
+D3
+~
+~
+0 0 12028
+S
+#12028
+Patio interior~
+Sientes que te distraes bastante recorriendo este lujoso
+patio de honor.
+~
+0 Y 0
+D0
+~
+~
+0 0 12033
+D1
+~
+~
+0 0 12027
+D3
+~
+~
+0 0 12029
+S
+#12029
+Patio interior~
+De aqui observas la entrada posterior del edificio principal,
+desde esta posicion se observa claramente todo lo que pasa a su
+alrededor.
+~
+0 Y 0
+D0
+~
+~
+0 0 12032
+D1
+~
+~
+0 0 12028
+D2
+~
+~
+0 0 12004
+D3
+~
+~
+0 0 12030
+S
+#12030
+Patio interior~
+Esquina sur-oeste de este patio, no muy lejos se observan 
+otras construcciones.
+~
+0 Y 0
+D0
+~
+~
+0 0 12031
+D1
+~
+~
+0 0 12029
+D3
+~
+~
+0 0 12045
+S
+#12031
+Patio interior~
+Que lindo , Que bonito , Que maravilloso , aqui hay un gran
+monolito del Padre de la Patria , que orgullo sientes.
+~
+0 Y 0
+D0
+~
+~
+0 0 12038
+D1
+~
+~
+0 0 12032
+D2
+~
+~
+0 0 12030
+S
+#12032
+Patio interior~
+Caminado por el patio con un soldado me encontre , como no
+tenia nombre , no lo pude llamar :)   .
+~
+0 Y 0
+D0
+~
+~
+0 0 12037
+D1
+~
+~
+0 0 12033
+D2
+~
+~
+0 0 12029
+D3
+~
+~
+0 0 12031
+S
+#12033
+Patio interior~
+Te das cuenta de lo bastante grande que es este patio , lo
+verde de su entorno te asombra.
+~
+0 Y 0
+D0
+~
+~
+0 0 12036
+D1
+~
+~
+0 0 12034
+D2
+~
+~
+0 0 12028
+D3
+~
+~
+0 0 12032
+S
+#12034
+Patio interior~
+Al este de este patio obervas que hay un modesto casino ,
+por lo que te das cuenta es el casino de soldados.
+~
+0 Y 0
+D0
+~
+~
+0 0 12035
+D1
+~
+~
+0 0 12043
+D2
+~
+~
+0 0 12027
+D3
+~
+~
+0 0 12033
+S
+#12035
+Patio interior~
+Esquina norte-este de este gran patio ... hacia el norte se 
+observa un camino , pero no sabes donde conduce.
+~
+0 Y 0
+D0
+~
+~
+0 0 12072
+D2
+~
+~
+0 0 12034
+D3
+~
+~
+0 0 12036
+S
+#12036
+Patio interior~
+Estas pasando frente a otra construcion ubicada al norte ,
+a traves de las ventanas ves muchas sillas y mesas.
+~
+0 Y 0
+D1
+~
+~
+0 0 12035
+D2
+~
+~
+0 0 12033
+D3
+~
+~
+0 0 12037
+S
+#12037
+Patio interior~
+De aqui observas un puerta doble hacia el norte , es la 
+entrada al rancho :) .
+~
+0 Y 0
+D0
+~
+~
+0 0 12057
+D1
+~
+~
+0 0 12036
+D2
+~
+~
+0 0 12032
+D3
+~
+~
+0 0 12038
+S
+#12038
+Patio interior~
+Estas ubicado en la esquina norte-oeste del patio , ya te sientes
+familiarizado con este lugar.
+~
+0 Y 0
+D1
+~
+~
+0 0 12037
+D2
+~
+~
+0 0 12031
+S
+#12039
+Escuadron Montado~
+Te encuantras en el interior del escuadron montado , hacia 
+arriba estan los dormitorios y al este los banios.
+~
+0 CY 0
+D1
+~
+~
+0 0 12040
+D3
+~
+~
+0 0 12026
+D4
+~
+~
+0 0 12041
+S
+#12040
+Bano~
+Te encuantras en los banios del escuadron montado , se nota que
+estan muy bien aseados.
+~
+0 Y 0
+D3
+~
+~
+0 0 12039
+S
+#12041
+Casilleros~
+Estas en el sector de casilleros , aqui los soldados de este
+escuadron guardan todas sus pertenencias, al este estan las
+literas.
+~
+0 Y 0
+D1
+~
+~
+0 0 12042
+D5
+~
+~
+0 0 12039
+S
+#12042
+Dormitorios~
+Ves un monton de literas muy ordenadas y alineadas unas con
+otras , pisos muy limpios y encerados.
+~
+0 Y 0
+D3
+~
+~
+0 0 12041
+S
+#12043
+Casino de Soldados~
+Estas en un humilde lugar, puedes ver television jugar ping pong
+o taca-taca , es un buen lugar para distraerse un rato.
+~
+0 Y 0
+D3
+~
+~
+0 0 12034
+S
+#12044
+Casino de Oficiales~
+Aqui puedes apreciar un hermoso casino , brilla por todas partes
+y la atencion es mu' guena.
+~
+0 Y 0
+D1
+~
+~
+0 0 12005
+S
+#12045
+Una vereda~
+Vas por una pequenia vereda que te conduce a otro escuadron
+pero a esta distancia no reconoces cual es.
+~
+0 Y 0
+D1
+~
+~
+0 0 12030
+D2
+~
+~
+0 0 12046
+D3
+~
+~
+0 0 12047
+S
+#12046
+Casino Sub-Oficiales~
+Este es un casino muy aseado , esta disponible para todos
+los suboficiales, preparan aqui muy buenas comidas.
+~
+0 Y 0
+D0
+~
+~
+0 0 12045
+S
+#12047
+Una calle~
+Esta calle pasa frente a otro gran escuadron del regimiento
+que es el escuadron plana mayor.
+~
+0 Y 0
+D0
+~
+~
+0 0 12052
+D1
+~
+~
+0 0 12045
+D3
+~
+~
+0 0 12048
+S
+#12048
+Escuadron Plana Mayor~
+Te encuentras dentro del Escuadron Plana Mayor , arriba estan
+los dormitorios,y ves que al lado estan los banios.
+~
+0 Y 0
+D1
+~
+~
+0 0 12047
+D3
+~
+~
+0 0 12049
+D4
+~
+~
+0 0 12050
+S
+#12049
+Banio~
+Estas en el interior del banio escuadron montado , se muy
+limpio y brilloso.
+~
+0 Y 0
+D1
+~
+~
+0 0 12048
+S
+#12050
+Casilleros~
+Sector de casilleros de los soldados escuadron plana mayor
+se ven muy seguros ... y tienen potentes candados.
+~
+0 Y 0
+D3
+~
+~
+0 0 12051
+D5
+~
+~
+0 0 12048
+S
+#12051
+Dormitorio~
+Aqui estan las literas de los soldados de este escuadron , se
+descata el orden que aqui hay.
+~
+0 Y 0
+D1
+~
+~
+0 0 12050
+S
+#12052
+Una calle~
+Ves que esta calle sigue derecho ... pero aun no sabes donde
+te puede conducir.
+~
+0 Y 0
+D0
+~
+~
+0 0 12053
+D2
+~
+~
+0 0 12047
+S
+#12053
+Una calle~
+Ves que la calle continua al norte , y hacia el weste puedes
+ver que hay una lavanderia.
+~
+0 Y 0
+D0
+~
+~
+0 0 12055
+D2
+~
+~
+0 0 12052
+D3
+~
+~
+0 0 12054
+S
+#12054
+Lavanderia~
+He aqui una lavanderia, en la cual se lavan los uniformes de
+los soldados cuando llegan de sus duras campanias.
+~
+0 Y 0
+D1
+~
+~
+0 0 12053
+S
+#12055
+Una calle~
+Esta calle no es muy larga , pero por aka transitan bastantes
+vehiculos.Hacia el oeste se ve un estacionamiento de vehiculos
+militares.
+~
+0 Y 0
+D0
+~
+~
+0 0 12056
+D2
+~
+~
+0 0 12053
+D3
+~
+~
+0 0 12063
+S
+#12056
+Una calle~
+Esta calle continua hacia el este y el sur, al norte se puede ver
+otra estructura , parece ser una gran cine.
+~
+0 Y 0
+D0
+~
+~
+0 0 12061
+D1
+~
+~
+0 0 12076
+D2
+~
+~
+0 0 12055
+S
+#12057
+Dentro del rancho~
+Te encuentras dentro de un sitio para comer, aqui los soldados
+reciben sus alimentos en sus horarios correspondientes , tambien
+se observa muchas mesas al este , al oeste esta la cocina , al sur
+la salida al patio interior y al norte una salida a los lavaderos.
+~
+0 Y 0
+D0
+~
+~
+0 0 12060
+D1
+~
+~
+0 0 12058
+D2
+~
+~
+0 0 12037
+D3
+~
+~
+0 0 12059
+S
+#12058
+Rancho~
+Este es el sector de las mesas las cuales estan todas muy bien
+ordenadas y limpias esperando a ser ocupadas por los soldados.
+~
+0 Y 0
+D3
+~
+~
+0 0 12057
+S
+#12059
+Cocina~
+Aqui se preparan todos los alimentos para este rancho , se ve
+mucha higiene, y hay una agradable aroma.
+~
+0 Y 0
+D1
+~
+~
+0 0 12057
+S
+#12060
+Lavaderos~
+Hay muchas llaves aqui ... donde los soldados puedes lavar
+sus servicios y bandeja que usan para comer.
+~
+0 Y 0
+D2
+~
+~
+0 0 12057
+S
+#12061
+Cine~
+Estas dentro del cine ... escuchas el ruido de peliculas de
+intruccion militar.
+~
+0 Y 0
+D0
+~
+~
+0 0 12062
+D2
+~
+~
+0 0 12056
+S
+#12062
+Interior del cine~
+Ves asientos por todos lados , y sientes las ganas de ponerte
+a ver lo que estan pasando por la pantalla.
+~
+0 Y 0
+D2
+~
+~
+0 0 12061
+S
+#12063
+Sector vehiculos militares~
+Este es un gran estacionamiento de vehiculos militares de
+todo tipo , desde un camion hasta una ambulancia.
+~
+0 Y 0
+D1
+~
+~
+0 0 12055
+D3
+~
+~
+0 0 12064
+S
+#12064
+Un camino~
+Este camino te conduce a otro escuadron muy resguardado y camuflado,
+este se encuantra hacia el oeste . Al este hay una gran estacionamiento.
+~
+0 Y 0
+D1
+~
+~
+0 0 12063
+D3
+~
+~
+0 0 12065
+S
+#12065
+Frente a los Comandos~
+Si observas bien hacia el norte , veras que se encuentra muy
+camuflado el escuadron de los comandos y hacia el sur hay unas
+pequenias canchas donde se entrenan.
+~
+0 Y 0
+D0
+~
+~
+0 0 12066
+D1
+~
+~
+0 0 12064
+D2
+~
+~
+0 0 12071
+S
+#12066
+Escuadron Comandos~
+Este es el escuadron comando ,los soldados que estan en este
+escuadron son muy sacrificados , y tienen duros entrenamientos.
+~
+0 Y 0
+D0
+~
+~
+0 0 12068
+D1
+~
+~
+0 0 12070
+D2
+~
+~
+0 0 12065
+D3
+~
+~
+0 0 12069
+D5
+~
+~
+0 0 12067
+S
+#12067
+Cancha de tiro~
+Estas en el subterraneo del escuadron , aqui hay una elegante cancha
+de tiro , donde dia y noche pueden estar practicando punteria.
+~
+0 Y 0
+D4
+~
+~
+0 0 12066
+S
+#12068
+Dormitorio Comandos~
+Aqui duermen silenciosamente los comando , y se les tiene prohibido
+roncar , al menor ruido seran castigados.
+~
+0 Y 0
+D2
+~
+~
+0 0 12066
+S
+#12069
+Banio comando~
+Aqui los comandos tienen que hacer sus necesidades en punti-codo
+ya que es parte de su entrenamiento.
+~
+0 Y 0
+D1
+~
+~
+0 0 12066
+S
+#12070
+Hall Comandos~
+Aqui los comandos pueden distraerse un poco en sus horas libres,
+tienen que aprovechar todo el rato que puedan.
+~
+0 Y 0
+D3
+~
+~
+0 0 12066
+S
+#12071
+Cancha de obstaculos~
+Ves una seria de canchas de obstaculos , aqui es donde soldados
+hacen parte de su entrenamiento.
+~
+0 Y 0
+D0
+~
+~
+0 0 12065
+S
+#12072
+borde del patio~
+Hacia el sur vez el patio ... y hacia el norte observas otra
+de las calles de este reciento.
+~
+0 Y 0
+D0
+~
+~
+0 0 12073
+D2
+~
+~
+0 0 12035
+S
+#12073
+Calle Principal~
+Estas en la calle principal , esta continua hacia el este y el oeste,
+es una calle bastante transitada, Al norte se aprecia una gran establo.
+~
+0 Y 0
+D0
+~
+~
+0 0 12088
+D1
+~
+~
+0 0 12082
+D2
+~
+~
+0 0 12072
+D3
+~
+~
+0 0 12074
+S
+#12074
+Calle principal~
+Aqui esta importante calle pasa frente a los establos donde estan
+guardados los finos caballos de polo.
+~
+0 Y 0
+D0
+~
+~
+0 0 12086
+D1
+~
+~
+0 0 12073
+D3
+~
+~
+0 0 12075
+S
+#12075
+Calle principal~
+Estas frente a los establos donde reposan los caballos usados
+para campania , y transporte de tropas.
+~
+0 Y 0
+D0
+~
+~
+0 0 12090
+D1
+~
+~
+0 0 12074
+D3
+~
+~
+0 0 12076
+S
+#12076
+Calle principal~
+Este es el lugar de encuentro de dos calles del reciento ,
+ambas son muy importantes.
+~
+0 Y 0
+D1
+~
+~
+0 0 12075
+D3
+~
+~
+0 0 12056
+S
+#12077
+Calle principal~
+Esta calle te lleva a los principales sectores de este reciento,
+tal vez si sigues este camino te orientara bastante.
+~
+0 Y 0
+D0
+~
+~
+0 0 12078
+D2
+~
+~
+0 0 12023
+S
+#12078
+Calle principal~
+Te das cuenta de cuan valioso es este lugar , la calle continua
+tanto para el norte como para el sur, pero ves que al oeste se
+encuantra la armeria.
+~
+0 Y 0
+D0
+~
+~
+0 0 12079
+D2
+~
+~
+0 0 12077
+D3
+~
+~
+0 0 12083
+S
+#12079
+Calle principal~
+Al lado oeste de esta calle puedes observar claramente una gran
+construccion , y te das cuenta que esta frente al galpon de utiles
+militares.
+~
+0 Y 0
+D0
+~
+~
+0 0 12080
+D2
+~
+~
+0 0 12078
+D3
+~
+~
+0 0 12084
+S
+#12080
+Calle principal~
+Ves que esta calle cambia aqui su direccion , continua hacia el sur
+y hacia el oeste .
+~
+0 Y 0
+D2
+~
+~
+0 0 12079
+D3
+~
+~
+0 0 12081
+S
+#12081
+Calle principal~
+Si miras hacia el sur de esta calle , podras observar una pequenia
+multicancha . La calle ahora esta en direccion oeste-este.
+~
+0 Y 0
+D1
+~
+~
+0 0 12080
+D2
+~
+~
+0 0 12085
+D3
+~
+~
+0 0 12082
+S
+#12082
+Calle principal~
+Ten cuidado al andar por aqui , no te vaya a pasar algun tanque
+por encima ... despues quien va a limpiar tus sesos ?? .
+~
+0 Y 0
+D1
+~
+~
+0 0 12081
+D3
+~
+~
+0 0 12073
+S
+#12083
+Armeria~
+Vez una enorme cantidad de arma ... y no sabrias eligir cual tomar
+si te dejaran , te das cuenta del inmenso poder del ejercito.
+~
+0 Y 0
+D1
+~
+~
+0 0 12078
+S
+#12084
+Cargos Militares~
+Aqui se encuantran todo tipo de utiles militares , tanto vestuario
+como utiles de combate.
+~
+0 Y 0
+D1
+~
+~
+0 0 12079
+S
+#12085
+Multicancha~
+Aqui hay una pequenia multicancha , donde puedes practicar varios
+deportes , aprovecha de jugar un rato , te sirve para distraerte.
+~
+0 Y 0
+D0
+~
+~
+0 0 12081
+S
+#12086
+Establo II~
+Aqui se encuantran los pequenios caballos de polos , son chicos
+ya que por su estatura se hace mas facil pegarle a la pelota.
+~
+0 Y 0
+D0
+~
+~
+0 0 12087
+D2
+~
+~
+0 0 12074
+S
+#12087
+Interior del establo II~
+Aca se observa la gran cantidad de estos pequenios caballos
+que posee el regimiento , son un AS en este deporte.
+~
+0 Y 0
+D0
+~
+~
+0 0 12093
+D2
+~
+~
+0 0 12086
+S
+#12088
+Establo I~
+Aqui se encuentran los valiosos caballos de salto , son los mas
+finos y los mas cuidados animales del regimiento.
+~
+0 Y 0
+D0
+~
+~
+0 0 12089
+D2
+~
+~
+0 0 12073
+S
+#12089
+Interior establo I~
+Te asombras de ver estos inmensos animales , son los caballos
+mas grandes que has visto , no le llegas ni a las rodillas.
+~
+0 Y 0
+D0
+~
+~
+0 0 12094
+D2
+~
+~
+0 0 12088
+S
+#12090
+Establo III~
+Aqui se encuantran los no tan finos pero valiosos caballos de tropas,
+los cuales transportan a los militares.
+~
+0 Y 0
+D0
+~
+~
+0 0 12091
+D2
+~
+~
+0 0 12075
+S
+#12091
+Interior establo III~
+Observas a los caballos mas esforzados del regimiento , su dura labor
+es irreemplazable , gracias a ellos existe todo esto.
+~
+0 Y 0
+D0
+~
+~
+0 0 12092
+D2
+~
+~
+0 0 12090
+S
+#12092
+Fuera del establo III~
+Te encuentras fuera de la salida posterior del establo III,
+persives un fuerte olor y no sabes que es. Al norte hay una cancha 
+de arena.
+~
+0 Y 0
+D0
+~
+~
+0 0 12096
+D1
+~
+~
+0 0 12093
+D2
+~
+~
+0 0 12091
+S
+#12093
+Fuera del establo II~
+Estas en la salida posterior del establo II , y el olor que hay
+te llama la atencion .
+~
+0 Y 0
+D0
+~
+~
+0 0 12095
+D1
+~
+~
+0 0 12094
+D2
+~
+~
+0 0 12087
+D3
+~
+~
+0 0 12092
+S
+#12094
+Fuera del establo I~
+Estas en la salida posterior del establo I , la brisa esta muy
+aromatica , y te trae aromas extranios.
+~
+0 Y 0
+D2
+~
+~
+0 0 12089
+D3
+~
+~
+0 0 12093
+S
+#12095
+Guaneras~
+Aqui se acumula todo el estiercol (MIERDA) que producen los caballos,
+harto edianda la wea ... pobre de los soldados que tienen que hacer
+aseo en este sector.
+~
+0 Y 0
+D2
+~
+~
+0 0 12093
+S
+#12096
+Cancha de Arena~
+Estas en un lugar de pura arena suelta ... te llegas a cansar 
+caminado en este lugar.
+~
+0 Y 0
+D0
+~
+~
+0 0 12097
+D1
+~
+~
+0 0 12098
+D2
+~
+~
+0 0 12092
+S
+#12097
+Cancha de Arena~
+Esta cancha es usada para entrenar a los caballos , y puedan
+tener un mejor rendimiento.
+~
+0 Y 0
+D1
+~
+~
+0 0 12099
+D2
+~
+~
+0 0 12096
+S
+#12098
+Cancha de Arena~
+Este lugar tambien es usado para aporrear soldados , haci que
+mejor obedece bien las ordenes que te dan ... o caeras aqui
+sin caballo ...
+~
+0 Y 0
+D0
+~
+~
+0 0 12099
+D3
+~
+~
+0 0 12096
+S
+#12099
+Cancha de Arena~
+Cuidado en montar un caballo si no lo conoces , puede ser una
+remonta , y caeras de ocico al suelo.
+~
+0 CY 0
+D2
+~
+~
+0 0 12098
+D3
+~
+~
+0 0 12097
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+M 0 12001 2 12001 2
+E 0 12004 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+O 0 12002 0 12002
+M 0 12010 1 12010 1
+M 0 12011 1 12011 1
+E 0 12020 0 6
+E 0 12021 0 5
+E 0 12006 0 8
+M 0 12012 1 12012 1
+M 0 12013 1 12013 1
+E 0 12020 0 6
+E 0 12021 0 5
+E 0 12006 0 8
+M 0 12014 1 12014 1
+E 0 12032 0 17
+M 0 12015 1 12015 1
+E 0 12008 0 2
+M 0 12026 1 12019 1
+E 0 12020 0 6
+E 0 12021 0 5
+E 0 12006 0 8
+M 0 12002 20 12020 1
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12022 2 12022 2
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12000 1 12022 1
+E 0 12003 0 6
+E 0 12011 0 12
+E 0 12009 0 3
+E 0 12009 0 4
+E 0 12012 0 7
+E 0 12006 0 8
+M 0 12019 1 12024 1
+O 0 12031 0 12031
+M 0 12002 20 12031 2
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12007 1 12033 1
+E 0 12003 0 6
+E 0 12011 0 12
+E 0 12015 0 7
+E 0 12012 0 8
+M 0 12002 20 12042 2
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12002 20 12043 2
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12044 1 12044 1
+E 0 12004 0 6
+E 0 12013 0 5
+E 0 12022 0 12
+E 0 12006 0 8
+M 0 12003 1 12046 1
+E 0 12020 0 6
+E 0 12021 0 5
+E 0 12006 0 8
+M 0 12002 20 12051 2
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12024 1 12052 1
+E 0 12034 0 3
+M 0 12002 20 12058 2
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12059 1 12059 1
+E 0 12019 0 6
+E 0 12017 0 5
+E 0 12012 0 7
+E 0 12006 0 8
+M 0 12002 20 12062 2
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12005 1 12067 1
+E 0 12010 0 4
+E 0 12010 0 3
+M 0 12006 8 12068 3
+E 0 12004 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12004 1 12070 1
+E 0 12004 0 6
+E 0 12023 0 5
+E 0 12022 0 12
+E 0 12006 0 8
+M 0 12006 8 12071 3
+E 0 12004 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12025 1 12072 1
+E 0 12034 0 3
+M 0 12008 1 12079 1
+E 0 12003 0 6
+E 0 12018 0 5
+E 0 12006 0 8
+M 0 12017 1 12083 1
+M 0 12018 1 12084 1
+M 0 12002 20 12085 2
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12002 20 12086 1
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12021 3 12087 2
+E 0 12033 0 8
+M 0 12002 20 12088 1
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12020 3 12089 2
+E 0 12033 0 8
+M 0 12002 20 12090 1
+E 0 12005 0 6
+E 0 12014 0 5
+E 0 12016 0 8
+M 0 12023 3 12091 2
+E 0 12033 0 8
+M 0 12095 1 12095 1
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+M 0 12016 1 12096 1
+E 0 12003 0 6
+E 0 12022 0 12
+E 0 12007 0 8
+M 0 12002 20 12099 2
+E 0 12003 0 6
+E 0 12014 0 5
+E 0 12015 0 7
+E 0 12016 0 8
+S
+
+
+
+#SHOPS
+12017 0 0 0 0 0 100 100 100 100 0 23
+12018 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

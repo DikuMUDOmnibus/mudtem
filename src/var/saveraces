@@ -1,0 +1,286 @@
+void	new_load_raza( FILE *fp, struct race_type *race, int id )
+{
+	char *word;
+	bool fMatch;
+	int i;
+
+	*race				= blank_race;
+	race->size			= SIZE_MEDIUM;
+	race->points			= 0;
+	race->race_id			= id;
+	for ( i = 0; i < MAX_CLASS; ++i )
+		race->class_mult[i]	= 100;
+	for ( i = 0; i < MAX_STATS; ++i )
+	{
+		race->stats[i]		= 13;
+		race->max_stats[i]	= 18;
+	}
+
+	for ( ; ; )
+	{
+		word   = feof( fp ) ? "End" : fread_word( fp );
+		fMatch = FALSE;
+
+		switch ( UPPER(word[0]) )
+		{
+			case 'A':
+			KEY( "Act",	race->act,		fread_flag( fp ) );
+			KEY( "Aff",	race->aff,		fread_flag( fp ) );
+			KEY( "Aff2",	race->aff2,		fread_flag( fp ) );
+			break;
+
+			case 'C':
+			if ( !str_cmp( word, "CMult" ) )
+			{
+				char * temp;
+				int clase;
+
+				temp = fread_string( fp );
+
+				clase = class_lookup( temp );
+
+				if ( clase == -1 )
+				{
+					bug( "Load_race : clase inexistente", 0 );
+					exit(1);
+				}
+
+				race->class_mult[clase] = fread_number( fp );
+				fMatch = TRUE;
+				break;
+			}
+			break;
+
+			case 'D':
+			KEY( "Damtype",	race->dam_type,		attack_lookup( fread_string(fp) ) );
+			break;
+
+			case 'E':
+			if ( !str_cmp( word, "End" ) )
+				return;
+			break;
+
+			case 'F':
+			KEY( "Form",	race->form,		fread_flag( fp ) );
+			break;
+
+			case 'H':
+			KEY( "Hate",	race->hate,		fread_string( fp ) );
+			KEY( "Hembra",	race->hembra,		fread_string( fp ) );
+			break;
+
+			case 'I':
+			KEY( "Imm",	race->imm,		fread_flag( fp ) );
+			break;
+
+			case 'L':
+			KEY( "Lang",	race->race_lang,	lang_lookup( fread_string( fp ) ) );
+			break;
+
+			case 'M':
+			KEY( "Macho",	race->macho,		fread_string( fp ) );
+			if ( !str_cmp( word, "MaxSt" ) )
+			{
+				int temp;
+
+				temp = fread_number( fp );
+
+				race->max_stats[temp] = fread_number( fp );
+				fMatch = TRUE;
+				break;
+			}
+			break;
+
+			case 'N':
+			KEY( "Name",	race->name,		fread_string( fp ) );
+			KEY( "NoClas",	race->no_clase,		fread_string( fp ) );
+			KEY( "NoAlign", race->noalign,		fread_flag( fp ) );
+			break;
+
+			case 'O':
+			KEY( "Off",	race->off,		fread_flag( fp ) );
+			break;
+
+			case 'P':
+			KEY( "Pc",	race->pc_race,		fread_number( fp ) );
+			KEY( "Parts",	race->parts,		fread_flag( fp ) );
+			KEY( "Points",	race->points,		fread_number( fp ) );
+			break;
+
+			case 'R':
+			KEY( "Res",	race->res,		fread_flag( fp ) );
+			KEY( "Remort",	race->remort_race,	fread_number( fp ) );
+			break;
+
+			case 'S':
+			KEY( "Salir",	race->msg_salir,	fread_string( fp ) );
+			KEY( "Selec",	race->seleccionable,	fread_number( fp ) );
+			KEY( "Size",	race->size,		size_lookup( fread_string( fp ) ) );
+			if ( !str_cmp( word, "Skills" ) )
+			{
+				int temp;
+
+				temp = fread_number( fp );
+
+				race->skills[temp] = fread_string( fp );
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "Stat" ) )
+			{
+				int temp;
+
+				temp = fread_number( fp );
+
+				race->stats[temp] = fread_number( fp );
+				fMatch = TRUE;
+				break;
+			}
+			break;
+
+			case 'W':
+			KEY( "Who",	race->who_name,		fread_string( fp ) );
+			break;
+
+			case 'V':
+			KEY( "Vuln",	race->vuln,		fread_flag( fp ) );
+			break;
+		} /* switch */
+
+		if ( !fMatch )
+		{
+			bug( "New_load_race : clave inexistente", 0 );
+			bug( word, 0 );
+			exit(1);
+		}
+	} /* for */
+}
+
+void	load_razas( void )
+{
+	FILE *fp;
+	int i = 0;
+	char *word;
+	
+	fp = fopen( RACE_FILE, "r" );
+	
+	if ( !fp )
+	{
+		bug( "No se pudo leer " RACE_FILE " para cargar razas.", 0 );
+		exit(1);
+	}
+	
+	fscanf( fp, "%d\n", &maxrace );
+	
+	race_table = malloc( sizeof(struct race_type) * (maxrace + 1) );
+	
+	if ( !race_table )
+	{
+		bug( "Error! Race_table == NULL, maxrace : %d", maxrace );
+		exit(1);
+	}
+
+	for ( ; ; )
+	{
+		word = fread_word( fp );
+		if ( !str_cmp( word, "#END" ) )
+			break;
+		if ( str_cmp( word, "#RACE" ) )
+		{
+			bug( "Load_races : clave inexistente", 0 );
+			bug( word, 0 );
+			exit(1);
+		}
+		if ( i >= maxrace )
+		{
+			bug( "Load_races : numero de razas mayor que maxrace", 0 );
+			exit(1);
+		}
+		new_load_raza( fp, &race_table[i], i );
+		i++;
+	}
+
+	race_table[maxrace].name = NULL;
+	
+	fclose(fp);
+}
+
+void new_writerace( FILE *fp, struct race_type raza )
+{
+	int i = 0;
+
+	fprintf( fp, "#RACE\n" );
+	fprintf( fp, "Name    %s~\n",	CHECKNULLSTR(raza.name) );
+	fprintf( fp, "Pc      %d\n",	raza.pc_race );
+	fprintf( fp, "Selec   %d\n",	raza.seleccionable );
+	fprintf( fp, "Act     %s\n",	print_flags(raza.act) );
+	fprintf( fp, "Aff     %s\n",	print_flags(raza.aff) );
+	fprintf( fp, "Aff2    %s\n",	print_flags(raza.aff2) );
+	fprintf( fp, "Off     %s\n",	print_flags(raza.off) );
+	fprintf( fp, "Imm     %s\n",	print_flags(raza.imm) );
+	fprintf( fp, "Res     %s\n",	print_flags(raza.res) );
+	fprintf( fp, "Vuln    %s\n",	print_flags(raza.vuln) );
+	fprintf( fp, "Form    %s\n",	print_flags(raza.form) );
+	fprintf( fp, "Parts   %s\n",	print_flags(raza.parts) );
+	fprintf( fp, "Remort  %d\n",	raza.remort_race );
+	fprintf( fp, "Lang    %s~\n",	lang_table[raza.race_lang].name );
+	fprintf( fp, "Hate    %s~\n",	CHECKNULLSTR(raza.hate) );
+	fprintf( fp, "Salir   %s~\n",	CHECKNULLSTR(raza.msg_salir) );
+	fprintf( fp, "Macho   %s~\n",	CHECKNULLSTR(raza.macho) );
+	fprintf( fp, "Hembra  %s~\n",	CHECKNULLSTR(raza.hembra) );
+	fprintf( fp, "Who     %s~\n",	CHECKNULLSTR(raza.who_name) );
+	fprintf( fp, "Points  %d\n",	raza.points );
+
+	for ( i = 0; i < MAX_CLASS; ++i )
+		fprintf( fp, "CMult   %s~ %d\n",  class_table[i].name,
+						raza.class_mult[i] );
+
+	for ( i = 0; i < 5; ++i )
+		fprintf( fp, "Skills  %d %s~\n", i, CHECKNULLSTR(raza.skills[i]) );
+
+	for ( i = 0; i < MAX_STATS; ++i )
+	{
+		fprintf( fp, "Stat    %d %d\n", i, raza.stats[i] );
+		fprintf( fp, "MaxSt   %d %d\n", i, raza.max_stats[i] );
+	}
+
+	fprintf( fp, "Size    %s~\n",	size_table[raza.size].name );
+	fprintf( fp, "NoClas  %s~\n",	CHECKNULLSTR(raza.no_clase) );
+	fprintf( fp, "Damtype %s~\n", attack_table[raza.dam_type].name );
+	fprintf( fp, "NoAlign %s\n\n",	print_flags(raza.noalign) );
+
+	fprintf( fp, "End\n\n" );
+}
+
+void save_races( void )
+{
+	int i;
+	FILE *fp;
+	char buf[MIL];
+
+	fclose( fpReserve );
+
+	sprintf( buf, "%s/razas", DATA_DIR );
+	fp = fopen( buf, "w" );
+
+	if ( !fp )
+	{
+		bug( "save_races : fp null al grabar razas", 0 );
+		fpReserve = fopen( NULL_FILE, "r" );
+		return;
+	}
+
+	i = 0;
+	while( race_table[i].name )
+		i++;
+	fprintf( fp, "%d\n\n", i );
+
+	for ( i = 0; race_table[i].name; ++i )
+		new_writerace( fp, race_table[i] );
+
+	fprintf( fp, "#END\n" );
+	fclose( fp );
+
+	fpReserve = fopen( NULL_FILE, "r" );
+}
+

@@ -1,0 +1,42 @@
+const struct olc_cmd_type oedit_table[] =
+{
+/* {	command		function	}, */
+
+   {	"addaffect",	oedit_addaffect	}, /**/
+   {	"addapply",	oedit_addapply	}, /**/
+   {	"commands",	show_commands	}, /**/
+   {	"cost",		oedit_cost	}, /**/
+   {	"create",	oedit_create	}, /**/
+   {	"delaffect",	oedit_delaffect	}, /**/
+   {	"ed",		oedit_ed	}, /**/
+   {	"long",		oedit_long	}, /**/
+   {	"name",		oedit_name	}, /**/
+   {	"short",	oedit_short	}, /**/
+   {	"show",		oedit_show	},
+   {	"v0",		oedit_value0	}, /**/
+   {	"v1",		oedit_value1	}, /**/
+   {	"v2",		oedit_value2	}, /**/
+   {	"v3",		oedit_value3	}, /**/
+   {	"v4",		oedit_value4	}, /**/
+   {	"weight",	oedit_weight	}, /**/
+
+   {	"extra",	oedit_extra	}, /**/
+   {	"wear",		oedit_wear	}, /**/
+   {	"type",		oedit_type	}, /**/
+   {	"material",	oedit_material	}, /**/
+   {	"level",	oedit_level	}, /**/
+   {	"condition",	oedit_condition	}, /**/
+   {	"trapset",	oedit_trapset	}, /**/
+   {	"trapremove",	oedit_trapremove}, /**/
+   {	"trapdam",	oedit_trapdam	}, /**/
+   {	"trapeff",	oedit_trapeff	}, /**/
+   {	"charges",	oedit_charges	}, /**/
+   {	"clan",		oedit_clan	}, /**/
+   {	"addoprog",	oedit_addoprog	}, /**/
+   {	"deloprog",	oedit_deloprog	}, /**/
+
+   {	"?",		show_help	}, /**/
+   {	"version",	show_version	}, /**/
+
+   {NULL, 0,}
+};

@@ -1,0 +1,131 @@
+		if ( IS_SET(ch->act, ACT_WARRIOR)
+		&&  !IS_MOB_CASTER(ch)
+		&&   ch->position == POS_STANDING
+		&&   ch->mana > ch->max_mana / 2
+		&&   ch->level > 24
+		&&   (obj = get_eq_char(ch, WEAR_WIELD))
+		&&   !is_obj_affected(obj,gsn_sobrecargar)
+		&&    pc_in_room(ch->in_room, ch) )
+			do_sobrecargar( ch, "" );
+
+void do_sobrecargar( CHAR_DATA *ch, char *argument )
+{
+	OBJ_DATA *obj;
+	int chance, temp = 0;
+	AFFECT_DATA af;
+
+	if ( IS_NPC(ch) && IS_AFFECTED(ch, AFF_CHARM) )
+		return;
+
+	if ( (chance = get_skill( ch, gsn_sobrecargar )) < 1 )
+	{
+		send_to_char( "No sabes como hacerlo.\n\r", ch );
+		return;
+	}
+
+	obj = get_eq_char( ch, WEAR_WIELD );
+
+	if ( obj == NULL )
+	{
+		send_to_char( "No estas esgrimiendo nada.\n\r", ch );
+		return;
+	}
+
+	if ( obj->item_type != ITEM_WEAPON )
+	{
+		act( "$p no es un arma.", ch, objToEnt(obj), NULL, TO_CHAR );
+		return;
+	}
+
+	if ( is_obj_affected( obj, gsn_sobrecargar ) )
+	{
+		act( "$P ya esta sobrecargada.", ch, NULL, objToEnt(obj), TO_CHAR );
+		return;
+	}
+
+	if ( !IS_NPC(ch) && (ch->mana < ch->max_mana / 2) )
+	{
+		send_to_char( "No tienes suficiente mana.\n\r", ch );
+		return;
+	}
+
+	WAIT_STATE(ch,skill_table[gsn_sobrecargar].beats);
+	ch->mana = UMAX(0, ch->mana - (3*ch->max_mana / 4) );
+
+	if ( !CHANCE(chance) )
+	{
+		send_to_char( "Fallaste.\n\r", ch );
+		obj->condition = UMAX( 1, obj->condition - 10 );
+		check_improve( ch, gsn_sobrecargar, FALSE, 1 );
+		return;
+	}
+
+	unequip_char(ch, obj);
+
+	af.where	= TO_OBJECT;
+	af.type		= gsn_sobrecargar;
+	af.level	= ch->level;
+	af.duration	= number_fuzzy(3) * (IS_NPC(ch) ? 2 : 1);
+	af.location	= APPLY_HITROLL;
+	af.modifier	= ch->level / 2;
+	af.bitvector	= 0;
+	affect_to_obj( obj, &af );
+
+	af.location	= APPLY_DAMROLL;
+	affect_to_obj( obj, &af );
+
+	af.location	= APPLY_HIT;
+	af.modifier	= ch->level * 3;
+	affect_to_obj( obj, &af );
+
+	af.location	= APPLY_STR;
+	af.modifier	= 2;
+	affect_to_obj( obj, &af );
+
+	af.location	= APPLY_DEX;
+	af.modifier	= 2;
+	affect_to_obj( obj, &af );
+
+	af.location	= APPLY_NONE;
+	af.modifier	= 0;
+	af.bitvector	= ITEM_NOREMOVE;
+	af.level	= MAX_LEVEL;
+
+	if ( !IS_OBJ_STAT(obj, ITEM_NOREMOVE) )
+		affect_to_obj( obj, &af );
+
+	af.bitvector	= ITEM_NODROP;
+
+	if ( !IS_OBJ_STAT(obj, ITEM_NODROP) )
+		affect_to_obj( obj, &af );
+
+	af.bitvector	= ITEM_NOUNCURSE;
+	if ( !IS_OBJ_STAT(obj, ITEM_NOUNCURSE) )
+		affect_to_obj( obj, &af );
+
+	switch(number_range(0,5))
+	{
+		case 0:	temp = WEAPON_FLAMING;	break;
+		case 1:	temp = WEAPON_VAMPIRIC;	break;
+		case 2: temp = WEAPON_SHARP;	break;
+		case 3:	temp = WEAPON_SHOCKING;	break;
+		case 4: temp = WEAPON_FROST;	break;
+		case 5:	temp = WEAPON_POISON;	break;
+	}
+
+	if ( !IS_WEAPON_STAT(obj, temp) )
+	{
+		af.where	= TO_WEAPON;
+		af.location	= APPLY_NONE;
+		af.modifier	= 0;
+		af.bitvector	= temp;
+		af.level	= ch->level;
+		affect_to_obj( obj, &af );
+	}
+
+	equip_char(ch, obj, WEAR_WIELD);
+
+	act( "$P de $n empieza a brillar!", ch, NULL, objToEnt(obj), TO_ALL );
+	check_improve( ch, gsn_sobrecargar, TRUE, 1 );
+}
+

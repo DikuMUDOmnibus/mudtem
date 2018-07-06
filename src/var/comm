@@ -1,0 +1,55 @@
+/*	if ( d->term == 0 || !ch )
+		return;
+
+	size = IS_NPC(ch) ? PAGELEN : (ch->pcdata->lines + 3);
+
+	sprintf( buf, term_table[d->term].barrain, size - 4, size - 1 );
+	write_to_buffer( d, buf, 0 );
+
+	write_to_buffer( d, "#BOLC#b", 0 );
+
+	write_to_buffer( d, term_table[d->term].barraout, 0 ); */
+
+
+//
+			char blah[100];
+			int cnt = 0;
+			char *lastw = "";
+
+			blah[0] = '\0';
+
+			if ( !IS_SET(class_table[getClasePr(ch)].noalign, NOALIGN_GOOD) )
+			{
+				lastw = "bueno";
+				cnt++;
+			}
+			if ( !IS_SET(class_table[getClasePr(ch)].noalign, NOALIGN_NEUTRAL) )
+			{
+				if (str_cmp(lastw, ""))
+					strcat( blah, lastw );
+				lastw = "neutral";
+				cnt++;
+			}
+			if ( !IS_SET(class_table[getClasePr(ch)].noalign, NOALIGN_EVIL) )
+			{
+				if (str_cmp(lastw, ""))
+				{
+					strcat( blah, ", " );
+					strcat( blah, lastw );
+				}
+				lastw = "malo";
+				cnt++;
+			}
+
+			if (cnt > 1)
+				strcat( blah, " o " );
+			strcat( blah, lastw );
+			
+			sprintf( buf, "\n\rPuedes ser %s.\n\r", blah );
+
+			write_to_buffer( d, buf, 0);
+
+			listar_alineacion(d, ch);
+
+			d->connected = CON_GET_ALIGNMENT;
+		}

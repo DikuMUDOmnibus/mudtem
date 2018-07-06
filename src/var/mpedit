@@ -1,0 +1,33 @@
+const struct olc_cmd_type mpedit_table[] =
+{
+/*     { command           function    }, */
+
+       { "commands",       show_commands },
+       { "create",         mpedit_create },
+       { "desc",	   mpedit_desc	 },
+       { "code",           mpedit_code   },
+       { "slangcode",	   mpedit_slangcode },
+       { "show",           mpedit_show   },
+       { "?",              show_help     },
+
+       { NULL,                 0           }
+};
+
+    for (cmd = 0; mpedit_table[cmd].name != NULL; cmd++)
+    {
+        if (!str_prefix(command, mpedit_table[cmd].name) )
+        {
+           if ((*mpedit_table[cmd].olc_fun) (ch, argument))
+           {
+           	MPROG_CODE *code;
+           	AREA_DATA *area;
+
+		EDIT_PROG(ch, code);
+
+		if (code && (area = get_vnum_area(code->vnum)))
+			SET_BIT(area->area_flags, AREA_CHANGED);
+	   }
+
+           return;
+        }
+    }

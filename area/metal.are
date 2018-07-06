@@ -1,0 +1,3734 @@
+#AREADATA
+Name MetalLand~
+Builders None~
+VNUMs 24000 24199
+Credits {30 60} Zatanas MetalLand~
+Security 9
+Prototipo 0
+Low 30
+High 60
+Version 2
+End
+
+
+
+#MOBILES
+#24000
+james hetfield~
+James Hetfield~
+El gran maestro James Hetfield esta aqui haciendote cagar los oidos
+~
+~
+'angel'
+AR H 0 1000 0
+45 22 25d10+2500 45d15+1600 5d8+14 none
+-15 -15 -15 -15
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24001
+lars ulrich~
+Lars Ulrich~
+Lars Ulrich esta aqui golpeando con sus baquetas todo lo que se mueva
+~
+~
+'angel'
+AT 0 0 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#24002
+kirk hammett~
+Kirk Hammett~
+Kirk Hammett esta aqui mandandose el medio solo
+~
+~
+'angel'
+AD 0 0 1000 0
+35 17 10d10+1100 35d14+1200 5d6+10 none
+-11 -11 -11 -11
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'psicionist'
+#24003
+jason newsted~
+Jason Newsted~
+Jason Newsted esta aqui mandandose la media cabesea
+~
+~
+'angel'
+AR 0 0 1000 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKU 0 0 0
+stand stand male 2000
+0 0 medium 'uranio'
+C 'mage'
+#24004
+cliff burton~
+Cliff Burton~
+Cliff Burton esta aqui creando unos solos de bajo
+~
+~
+'angel'
+AFR HN 0 1000 0
+42 21 15d10+1850 42d15+1500 17d2+13 none
+-14 -14 -14 -13
+FKTU 0 0 0
+stand stand male 0
+0 0 giant 'oro'
+C 'mage'
+#24005
+max cavalera~
+Max Cavalera~
+Max Cavalera esta aqui metale jalando
+~
+~
+'angel'
+AT 0 0 1000 0
+24 36 5d10+550 24d13+100 2d10+6 none
+-6 -6 -6 -5
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24006
+igor cavalera~
+Igor Cavalera~
+Igor Cavalera esta aqui tambien jalando
+~
+~
+'angel'
+AT 0 0 1000 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#24007
+dave mustaine~
+Dave Mustaine~
+Dave Mustaine esta aqui creando unos riffs infernales
+~
+~
+'angel'
+AT 0 0 1000 0
+32 48 10d10+1100 32d14+100 4d7+9 none
+-10 -10 -10 -9
+CDEFIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'oro'
+C 'warrior'
+#24008
+bruce dickinson~
+Bruce Dickinson~
+Bruce Dickinson esta aqui cantando unos temas de Maiden
+~
+~
+'angel'
+AT 0 0 0 0
+34 51 10d10+1300 34d14+100 5d6+10 none
+-11 -11 -11 -10
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24009
+steve harris~
+Steve Harris~
+Steve Harris esta aqui con su baja tocando muy chacalmente
+~
+~
+'angel'
+AT 0 0 0 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -10
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#24010
+angus young~
+Angus Young~
+Angus Young esta aqui arreglandose el uniforme escolar como weon
+~
+~
+'angel'
+AQ 0 0 1000 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+#24011
+bon scott~
+Bon Scott~
+Bon Scott esta aqui pegandose una cantaita
+~
+~
+'angel'
+AT 0 0 1000 0
+28 42 6d12+778 28d13+100 2d12+8 none
+-8 -8 -8 -7
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24012
+adrian smith~
+Adrian Smith~
+Adrian Smith esta aqui punteando de lo lindo
+~
+~
+'angel'
+AQ 0 0 1000 0
+34 17 10d10+1200 34d14+1200 4d7+9 none
+-11 -11 -11 -10
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24013
+ozzy~
+Ozzy~
+Ozzy esta enseniando como se canta
+~
+~
+'angel'
+AR 0 0 0 0
+41 20 15d10+1700 41d15+1400 16d2+12 none
+-13 -13 -13 -13
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'plata'
+C 'mage'
+#24014
+dio~
+Dio~
+Dio esta aqui cantando con unos viejos amigos
+~
+~
+'angel'
+AT 0 0 1000 0
+23 34 5d10+500 23d12+100 3d6+6 none
+-6 -6 -6 -4
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'paja'
+C 'warrior'
+#24015
+tom araya~
+Tom Araya~
+Tom Araya esta aqui Lisiando pos loco
+~
+~
+'angel'
+AT 0 0 1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'loco'
+C 'warrior'
+#24016
+kerry king~
+Kerry king~
+Kerry King esta aqui tocando guitarra
+~
+~
+'angel'
+AT 0 0 1000 0
+29 43 6d12+853 29d13+100 2d12+8 none
+-9 -9 -9 -7
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#24017
+david ellefson~
+David Ellefson~
+David Ellefson esta aqui tocando su bajo
+~
+~
+'angel'
+AT 0 0 0 0
+31 46 10d10+1000 31d13+100 6d4+9 none
+-10 -10 -10 -8
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24018
+toni iomi~
+Toni Iomi~
+El Gran Toni Iomi esta creando musica infernal
+~
+~
+'angel'
+AR 0 0 1000 0
+33 16 6d12+928 33d14+1200 4d6+8 none
+-10 -10 -10 -10
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24019
+paul stanley~
+Paul Stanley~
+Paul Stanley esta aqui creando sinfonias musicales
+~
+~
+'angel'
+AQ 0 0 1000 0
+32 16 10d10+1000 32d14+1100 4d6+8 none
+-10 -10 -10 -9
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24020
+gene simmons~
+Gene Simmons~
+Gene Simmons esta aqui sacando su poderosa lengua
+~
+~
+'angel'
+AR 0 0 1000 0
+36 18 10d10+1200 36d14+1300 7d4+10 none
+-11 -11 -11 -11
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24021
+peter cris~
+Peter Cris~
+Peter Cris esta metale tocando bateria
+~
+~
+'angel'
+AT 0 0 1000 0
+27 40 6d12+703 27d13+100 5d4+7 none
+-8 -8 -8 -6
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24022
+ace frehley~
+Ace Frehley~
+Ace Frehley esta aqui tocando guitarra
+~
+~
+'angel'
+AT 0 0 1000 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24023
+rex~
+Rex~
+Rex esta leseando con su bajo
+~
+~
+'angel'
+AS 0 0 1000 0
+29 19 6d12+703 29d13+100 2d12+8 none
+-8 -8 -8 -7
+BEFIJKNUV 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'thief'
+#24024
+phil anselmo~
+Phil Anselmo~
+Phil Anselmo esta aqui desgarrandose las cuerdas bucales
+~
+~
+'angel'
+AT 0 0 1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24025
+vinnie paul~
+Vinnie Paul~
+Vinnie Paul esta aqui tocando su bateria
+~
+~
+'angel'
+AR 0 0 1000 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24026
+darrell~
+Darrell~
+Darrell esta aqui descargando su guitarra
+~
+~
+'angel'
+AS 0 0 1000 0
+27 18 5d10+600 27d13+100 3d7+7 none
+-7 -7 -7 -6
+BEFIJKNUV 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'thief'
+#24027
+glen benton~
+Glen Benton~
+Glen Benton esta aqui invocando a Zatanas
+~
+~
+'angel'
+AQ 0 0 1000 0
+23 11 5d10+450 23d12+800 4d4+5 none
+-6 -6 -6 -5
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24028
+pera~
+Pera~
+El Pera esta aqui vasilandola
+~
+~
+'angel'
+AT 0 0 1000 0
+26 39 5d10+650 26d13+100 3d7+7 none
+-7 -7 -7 -6
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24029
+anarko~
+Anarko~
+El Anarko esta aqui pateando culos
+~
+~
+'angel'
+AR 0 0 1000 0
+20 10 3d9+283 20d12+700 3d4+4 none
+-4 -4 -4 -3
+FU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24030
+steve vai~
+Steve Vai~
+Steve Vai esta aqui tocando poderosamente
+~
+~
+'angel'
+AT 0 0 1000 0
+27 40 6d12+703 27d13+100 5d4+7 none
+-8 -8 -8 -6
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24031
+joe satriani~
+Joe Satriani~
+Joe Satriani esta aqui creando musica ultrapower
+~
+~
+'angel'
+AR 0 0 1000 0
+26 13 5d10+500 26d13+900 3d6+6 none
+-7 -7 -7 -6
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24032
+jimi hendrix~
+Jimi Hendrix~
+El gran maestro Jimi Hendrix esta aqui diciendo sus ensenianzas
+~
+~
+'angel'
+AQ 0 0 1000 0
+31 15 6d12+928 31d13+1100 2d12+8 none
+-10 -10 -10 -9
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24033
+slash~
+Slash~
+El weon de Slash esta aqui
+~
+~
+'angel'
+AHT 0 0 1000 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24034
+dave murray~
+Dave Murray~
+Dave Murray esta aqui con su super guitarra tocando
+~
+~
+'angel'
+AS 0 0 1000 0
+31 20 6d12+853 31d13+100 4d6+8 none
+-9 -9 -9 -8
+BEFIJKNTUV 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'thief'
+#24035
+thrasher~
+Thrasher~
+Un Thrasher esta aqui cabeseando
+~
+~
+'angel'
+AT 0 0 1000 0
+23 34 5d10+500 23d12+100 3d6+6 none
+-6 -6 -6 -4
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24036
+punk~
+Punk~
+Un Punk esta aqui imponiendo la marda
+~
+~
+'angel'
+AT 0 0 1000 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24037
+neo nazi~
+Neo-Nazi~
+UN neo-nazi esta aqui golpeando una abuelita
+~
+~
+'human'
+AT 0 0 1000 0
+15 22 3d9+233 15d11+100 2d6+3 none
+-2 -2 -2 0
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24039
+posser~
+Posser~
+Un Posser anda aqui cagando la onda ( igual que el Melvin en otra area )
+~
+~
+'angel'
+AH 0 0 1000 0
+17 8 3d9+258 17d12+600 3d4+4 none
+-3 -3 -3 -1
+U 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'mage'
+#24040
+carabinero paco~
+Paco~
+Un Paco anda buscando criminales pa llevarselos en cana
+~
+~
+'human'
+AT 0 0 1000 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24041
+diego armando maradona~
+Diego Armando Maradona~
+Diego Armando  Maradona esta aqui esperando tu pedido
+~
+~
+'angel'
+ABQ D 0 1000 0
+47 23 25d10+3500 47d15+1600 9d5+16 none
+-17 -17 -17 -15
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24042
+care loco~
+Cara Loco~
+Care Loco esta aqui 
+~
+~
+'angel'
+ABQ DH 0 1000 0
+47 23 25d10+3500 47d15+1600 9d5+16 none
+-17 -17 -17 -15
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24043
+luchita~
+Luchita~
+La Luchita espera como loca tu pedido
+~
+~
+'angel'
+ABR D 0 1000 0
+47 23 25d10+3000 47d15+1600 5d9+15 none
+-16 -16 -16 -15
+FKU 0 0 0
+stand stand female 0
+0 0 medium 'oro'
+C 'mage'
+#24044
+elvis presley~
+Elvis Presley~
+El rey del rock Elvis Presley esta aqui para encomendarte una mision
+~
+~
+'angel'
+ABQ DH 0 1000 0
+49 24 50d10+4000 49d16+1700 13d4+17 none
+-19 -19 -19 -17
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'cleric'
+#24045
+gonzalo caceres~
+Gonzalo Caceres~
+El fleto de Gonzalo Caceres esta aqui para atenderte
+~
+~
+'angel'
+ABR D 0 1000 0
+47 23 25d10+3000 47d15+1600 5d9+15 none
+-16 -16 -16 -15
+FKU 0 0 0
+stand stand either 0
+0 0 medium 'oro'
+C 'mage'
+#24046
+pedro carcuro~
+Pedro Carcuro~
+El gran Pedro Carcuro se pone de pie para atenderte.
+~
+~
+'angel'
+ABT DH 0 1000 0
+47 70 25d10+3750 47d15+100 13d4+17 none
+-17 -17 -17 -15
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24047
+quiltro~
+Quiltro~
+Un quiltro anda aqui esparciendo pulgas
+~
+~
+'dog'
+A 0 0 1000 0
+10 0 2d7+121 10d11+100 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'thief'
+#24048
+faraon~
+Faraon~
+El gran Faraon esta aqui sanando aqui sanando a sus discipulos
+~
+~
+'angel'
+ABTab DH 0 1000 0
+49 73 50d10+4500 49d16+100 11d5+18 none
+-19 -19 -19 -16
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+C 'warrior'
+#24049
+jem~
+Jem~
+La guachita de la Jem esta aqui esperando  tu pedido
+~
+Esta tellible e rica
+~
+'angel'
+ABR DH 0 1000 0
+47 23 25d10+3000 47d15+1600 5d9+15 none
+-16 -16 -16 -15
+FKTU 0 0 0
+stand stand female 0
+0 0 medium 'oro'
+C 'mage'
+#24050
+estatua~
+Estatua de Letman~
+La estatua del poderoso letman esta aqui 
+~
+~
+'angel'
+ABR H 0 0 0
+59 29 50d10+8000 59d17+2000 15d9+24 none
+-28 -28 -28 -27
+FKU 0 0 0
+stand stand male 1000
+0 0 medium 'unknown'
+C 'mage'
+#24051
+estatua ~
+Estatua de #BZatanas#b~
+La estatua de poderoso Zatanas esta aqui resguardando la pichicata del mud
+~
+~
+'angel'
+ABR DFGJNOUc 0 0 0
+60 30 50d10+8500 60d17+2100 15d10+24 none
+-29 -29 -29 -29
+FGHKTU 0 0 0
+stand stand male 0
+C 0 medium 'unknown'
+C 'mage'
+#24052
+trafica~
+Trafica~
+Un trafica esta aqui parao
+~
+~
+'angel'
+ABT 0 0 0 0
+47 70 25d10+3750 47d15+100 13d4+17 none
+-17 -17 -17 -15
+CDEFIKLTU 0 0 0
+stand stand none 3000
+0 0 medium 'unknown'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#24001
+guitarra electrica~
+guitarra electrica~
+Una pulenta guitarra alectrica esta ahi~
+oro~
+weapon A AN
+sword 5 6 'slice' 0
+23 450 29990 P
+A
+19 1
+A
+18 2
+A
+13 20
+#24002
+bajo~
+bajo~
+Un bajo tellible de bakan esta ahi~
+acero~
+weapon A AN
+mace 6 6 'charge' 0
+28 400 34990 P
+A
+19 3
+A
+18 1
+A
+5 1
+#24003
+cadena~
+cadena~
+Una cadena agresor esta bota ahi~
+plutonio~
+weapon 0 AN
+exotic 6 7 'pound' 0
+31 300 33990 P
+A
+19 3
+A
+18 1
+A
+13 40
+#24004
+baqueta~
+baqueta~
+Unas baquetas estan ahi botadas~
+oro~
+weapon 0 AN
+axe 5 6 'pound' 0
+28 100 39990 P
+A
+19 2
+A
+18 2
+A
+12 50
+#24005
+latigo~
+latigo~
+Un latigo esta botao ahi~
+oro~
+weapon B AN
+whip 5 5 'whip' 0
+25 25 24990 P
+A
+13 10
+A
+19 2
+#24006
+guitarra esp~
+ESP~
+Una guitarra ESP esta aqui.~
+acero~
+weapon A AN
+mace 6 7 'charge' 0
+30 50 49990 P
+A
+19 2
+A
+18 3
+A
+12 -50
+A
+13 -20
+#24007
+guitarra fender~
+Fender~
+Una guitarra Fender esta ahi~
+oro~
+weapon AJ AN
+sword 6 7 'charge' 0
+31 45 44990 P
+A
+19 2
+A
+14 -70
+A
+18 2
+#24008
+microfono~
+Microfono~
+Un microfono esta aqui tirado~
+oro~
+weapon J AN
+axe 5 6 'smash' 0
+25 100 24990 P
+A
+13 10
+A
+18 1
+A
+19 3
+#24009
+caja tambor~
+Caja~
+Una caja de bateria esta ahi tirada~
+oro~
+armor 0 AJ
+10 11 9 5 0
+31 20 24990 P
+A
+19 2
+A
+12 -20
+A
+18 2
+A
+13 20
+#24010
+bombo~
+Bombo~
+Un bombo esta ahi 
+~
+indef~
+armor AJ AJ
+10 10 10 9 0
+31 100 99990 P
+A
+12 -50
+A
+19 3
+A
+13 20
+#24011
+tarro basura~
+Tarro de Basura~
+Un tarro de basura esta ahi tirado.~
+acero~
+armor A AE
+9 8 9 5 0
+27 20 45990 P
+A
+14 -20
+A
+12 -15
+A
+18 1
+A
+19 1
+#24012
+gorro lana~
+Gorro de lana~
+Un gorro de lana esta ahi botao~
+lana~
+armor A AE
+8 7 6 5 0
+20 20 29990 P
+A
+14 -5
+A
+13 10
+A
+19 1
+A
+18 1
+#24013
+muniequera~
+Muniequeras~
+Unas muniequeras estan ahi botas~
+oro~
+armor A AM
+9 9 8 5 0
+30 10 23990 P
+A
+14 -12
+A
+13 10
+A
+18 1
+A
+19 1
+#24014
+anillo calaverico~
+Anillo Calaverico~
+Un anillo calaverico esta tirao ahi~
+oro~
+armor AJ AB
+7 7 8 7 0
+25 5 19990 P
+A
+13 5
+A
+19 1
+#24015
+cadenita~
+Cadenita~
+Una cadenita esta tirada ahi~
+oro~
+armor AJ AN
+9 8 9 4 0
+27 5 33990 P
+A
+14 -10
+A
+12 -5
+A
+13 10
+A
+19 1
+#24016
+chaqueta cuero~
+Chaqueta de Cuero~
+Una chaqueta de cuero esta ahi~
+oro~
+armor 0 AK
+9 9 9 6 0
+28 20 25990 P
+A
+3 -1
+A
+12 -10
+A
+18 2
+A
+13 10
+A
+19 1
+#24017
+polera metallica~
+Polera de Metallica~
+una polera de metallica esta bota ahi~
+oro~
+armor AJ AD
+11 12 10 7 0
+31 200 19990 P
+A
+13 10
+A
+14 -20
+A
+12 -30
+A
+18 2
+A
+19 2
+#24018
+polera megadeth~
+Polera de megadeth~
+Una polera de Megadeth esta ahi~
+oro~
+armor AJ AD
+9 8 9 6 0
+29 200 14990 P
+A
+12 -10
+A
+4 -1
+A
+3 -1
+A
+13 10
+A
+19 2
+A
+18 1
+#24019
+polera  kiss~
+Polera de Kiss~
+Una polera de Kiss esta ahi~
+oro~
+armor AJ AD
+8 9 8 4 0
+26 20 12990 P
+A
+13 10
+A
+19 2
+#24020
+polera iron maiden~
+Polera Iron Maiden~
+Una polera de Iron Maiden esta ahi bota~
+oro~
+armor AJ AD
+12 11 10 8 0
+34 200 29990 P
+A
+3 -1
+A
+12 -30
+A
+18 1
+A
+19 3
+#24021
+polera deicide~
+Polera Deicide~
+Una polera de Deicide esta ahi bota~
+oro~
+armor A AD
+5 4 4 2 0
+15 20 9990 P
+A
+19 1
+A
+13 5
+#24022
+polera acdc~
+Polera Acdc~
+Una polera de Acdc esta ahi~
+oro~
+armor AJ AD
+13 13 13 10 0
+38 20 49990 P
+A
+4 -1
+A
+12 -20
+A
+18 2
+A
+19 3
+A
+13 40
+#24023
+polera pantera~
+Polera de Pantera~
+Una polera de Pantera esta ahi bota~
+oro~
+armor 0 AD
+6 7 8 3 0
+24 20 9990 P
+A
+19 2
+A
+13 10
+#24024
+polera slayer~
+Polera Slayer~
+Una polera de Slayer esta ahhi~
+oro~
+armor AJ AD
+5 5 4 1 0
+20 20 5990 P
+A
+13 20
+A
+18 1
+#24025
+botas puntaefierro~
+Botas Puntaefierro~
+Unas botas puntaefierro estan ahi~
+oro~
+armor AJ AG
+9 9 10 7 0
+31 250 99990 P
+A
+19 3
+A
+18 -1
+A
+13 30
+A
+14 -10
+#24026
+caterpillar~
+Caterpillar~
+Unos caterpillar esta ahi botaos~
+oro~
+armor AJ AG
+13 13 14 10 0
+37 200 129990 P
+A
+19 3
+A
+18 3
+A
+12 -30
+A
+13 20
+A
+3 -2
+#24027
+parka~
+Parka~
+Una parka esta ahi~
+oro~
+armor AJ AK
+13 13 12 8 0
+36 30 79990 P
+A
+19 3
+A
+18 2
+A
+12 -30
+A
+4 -2
+#24028
+pantalones cuero~
+Pantalones de Cuero~
+Unos pantalones de cuero esta ahi~
+oro~
+armor AJ AF
+11 10 10 7 0
+30 130 136990 P
+A
+12 -10
+A
+4 -1
+A
+13 20
+A
+19 2
+A
+18 2
+#24029
+zancudo draculon~
+Zancudo Draculon~
+Un zancudo anda aqui picando a la genet~
+oro~
+armor AJ AQ
+8 9 9 4 0
+30 15 259990 P
+A
+18 2
+#24030
+linterna~
+Linterna~
+Una linterna esta ahi~
+oro~
+light AJ A
+0 0 30 0 0
+30 10 39990 P
+A
+18 1
+#24031
+luma~
+luma~
+Una luma esta ahi bota~
+oro~
+weapon 0 AN
+sword 3 4 'charge' 0
+20 20 9990 P
+A
+13 20
+#24032
+gorro paco~
+Gorro de Paco~
+Un gorro de paco esta ahi botao~
+oro~
+armor 0 AE
+5 4 4 2 0
+0 200 9990 P
+A
+19 2
+#24033
+moicano~
+Moicano~
+Un Moicano esta ahi tirao~
+oro~
+armor AJ AE
+8 7 7 4 0
+28 20 124990 P
+A
+3 -1
+A
+14 -1
+A
+19 2
+#24034
+cinturon balas~
+Cinturo de balas~
+Un cinturon de balas esta ahi tirao~
+balas~
+armor 0 AL
+9 8 8 4 0
+30 20 124990 P
+A
+13 -50
+A
+4 -1
+A
+1 4
+A
+19 2
+#24035
+fade to black~
+Fade to Black~
+La cancion fade to black esta ahi bota~
+oro~
+scroll 0 AO
+20 'bless' '' '' ''
+23 5 124990 P
+#24036
+cowboys from hell~
+Cowboys from Hell~
+Cowboys from hell est ahi bota~
+oro~
+scroll 0 AO
+20 'haste' '' '' ''
+25 6 124990 P
+#24037
+forwhom the bell tolls~
+For Whom The Bell Tolls~
+For whom the bell tolls esta ahi tira~
+oro~
+scroll A AO
+20 'detect invis' '' '' ''
+24 5 10990 P
+#24038
+number of the beast~
+Number of the beast~
+The number of the beast est ahi~
+oro~
+scroll 0 A
+10 'shield' '' '' ''
+27 5 23490 P
+#24039
+walk~
+walk~
+Walk esta ahi bota~
+oro~
+scroll 0 AO
+20 'estupidez' '' '' ''
+20 4 39990 P
+#24040
+territory~
+Territory~
+territory esta bota ahi~
+oro~
+scroll 0 AO
+29 'remove curse' '' '' ''
+29 7 34990 P
+#24041
+hangar 18~
+Hangar 18~
+hangar 18 esta ahi bota~
+plutonio~
+scroll 0 AO
+31 'disintegrate' '' '' ''
+31 4 234990 P
+#24042
+the four horsemen~
+The four horsemen~
+The four horsemen esta ahi tirada~
+oro~
+scroll 0 AO
+26 'cause critical' 'cause critical' '' ''
+26 5 23990 P
+#24043
+leche purita~
+Leche purita~
+Una leche purita esta ahi bota~
+oro~
+potion 0 AO
+10 'heal' '' '' ''
+15 5 24990 P
+#24044
+cristal~
+Cristal~
+Una Cristal esta ahi bota~
+oro~
+potion 0 AO
+20 'refresh' '' '' ''
+20 10 34990 P
+#24045
+baltica~
+Baltica~
+Una Baltica esta ahi~
+oro~
+potion 0 AO
+20 'refresh' '' '' ''
+28 10 44990 P
+#24046
+cochiguas~
+Cochiguas~
+Un Cochiguas esta ahi tirao~
+indef~
+potion 0 AO
+20 'calm' 'pass door' '' ''
+22 10 33990 P
+#24047
+escudo~
+Escudo~
+Una Escudo esta ahi bota~
+oro~
+potion 0 AO
+15 'refresh' '' '' ''
+24 10 33990 P
+#24048
+ballantines~
+Ballantines~
+Un Ballantines esta ahi tirado~
+indef~
+potion 0 AO
+31 'heal' 'levitation' 'ebriedad' ''
+31 12 49990 P
+#24049
+120~
+120~
+Una de 120 esta ahi bota~
+oro~
+potion 0 AO
+25 'biofeedback' '' '' ''
+25 12 34990 P
+#24050
+clos de pirque~
+Clos de pirque~
+Una de Clos de Pirque esta ahi~
+oro~
+potion 0 AO
+18 'ectoplasmic form' 'hambre' '' ''
+18 10 33990 P
+#24051
+wha~
+Wha~
+Un wha esta ahi botao~
+oro~
+wand AJ AO
+25 5 5 'ultrablast' 0
+31 10 125990 P
+#24052
+flanger~
+Flanger~
+Un Flanger esta ahi botao~
+oro~
+wand AJ AO
+20 5 5 'acid blast' 0
+27 10 129990 P
+#24053
+delay~
+Delay~
+Un delay esta ahi tirao~
+oro~
+wand AJ AO
+20 5 5 'detonate' 0
+25 10 123990 P
+#24054
+chorus~
+Chorus~
+Un chorus esta ahi botao~
+oro~
+wand AJ AO
+25 5 5 'psionic blast' 0
+30 10 120990 P
+#24055
+zoom 4040~
+Zoom 4040~
+Una pedalera Zoom 4040 esta bota ahi~
+oro~
+wand AJ AO
+20 10 10 'hellspawn' 0
+25 10 124990 P
+#24056
+cable~
+cable~
+Un cable esta botao~
+wolframio~
+weapon AJ AN
+mace 6 7 'whip' 0
+30 30 233990 P
+#24057
+unieta~
+unieta~
+Una unieta esta tira ahi~
+uranio~
+pill 0 AO
+30 'haste' '' '' ''
+30 10 499990 P
+#24058
+cuerda~
+cuerda~
+Una cuerda esta ahi bota~
+oro~
+armor AJ AO
+0 0 0 0 0
+30 10 20990 P
+A
+13 30
+A
+4 3
+A
+12 30
+#24059
+explorer~
+Explorer~
+Una explorer esta ahi bota~
+oro~
+weapon AF AN
+sword 7 9 'charge' 0
+45 30 494990 P
+A
+13 50
+A
+19 5
+A
+18 4
+#24060
+megabaqueta~
+megabaqueta~
+Una megabaqueta esta ahi bota~
+oro~
+weapon AH AN
+mace 7 8 'charge' 0
+40 30 323990 P
+A
+12 -100
+A
+19 5
+A
+13 50
+#24061
+spider~
+Spider~
+Una Spider esta ahi bota~
+oro~
+weapon A AN
+sword 6 8 'charge' 0
+35 450 199990 P
+A
+18 3
+A
+14 -50
+#24062
+electric bass~
+Electric Bass~
+Un Electric Bass esta ahi botao~
+oro~
+weapon AF AN
+mace 6 7 'charge' 0
+30 30 125990 P
+A
+19 1
+A
+13 1
+#24063
+Ultrabass~
+Ultrabass~
+Un pulento Ultrabass esta ahi botao~
+oro~
+weapon AFH AN
+sword 6 9 'thrust' 0
+42 30 499990 P
+A
+19 3
+A
+18 4
+A
+13 40
+#24064
+megabcrich~
+MegaBcRich~
+Una MegaBcRich esta ahi bota~
+uranio~
+weapon AH AN
+sword 5 7 'thrust' 0
+24 20 234990 P
+A
+13 20
+#24065
+palos~
+Palos~
+Unos palos estan ahi botaos~
+oro~
+weapon A AN
+exotic 4 7 'charge' 0
+20 20 24590 P
+A
+19 3
+#24066
+hiperjackson~
+HiperJackson~
+Una HiperJackson esta ahi bota~
+oro~
+weapon AFH AN
+sword 6 7 'charge' 0
+32 30 324990 P
+#24067
+megamicrofono~
+Megamicrofono~
+Un Megamicrofono esta ahi botao~
+oro~
+weapon AFH AN
+mace 5 8 'smash' 0
+34 450 254990 P
+A
+18 4
+A
+13 30
+#24068
+atomic bass~
+Atomic bass~
+Un Atomic Bass esta ahi botao~
+uranio~
+weapon AFH AN
+mace 5 8 'charge' 0
+35 500 499990 P
+A
+13 50
+A
+18 3
+#24069
+uranic gibson~
+Uranic Gibson~
+Una Uranic Gibson esta ahi tira~
+oro~
+weapon AF AN
+sword 5 7 'cleave' 0
+30 300 248990 P
+A
+18 2
+A
+19 5
+A
+13 30
+#24070
+electric microfono~
+Electric Microfono~
+Un Electric Microfono esta ahi~
+oro~
+weapon FH AN
+dagger 5 8 'stab' 0
+28 200 234990 P
+F
+A 0 0 X
+A
+18 2
+A
+13 30
+A
+19 5
+#24071
+ultrafender~
+UltraFender~
+Una pulenta UltraFender esta ahi~
+oro~
+weapon AFH AN
+sword 5 8 'crush' 0
+34 450 546990 P
+A
+18 3
+A
+13 30
+#24072
+apocaliptic microfono~
+Apocaliptic Microfono~
+Un Apocaliptic Microfono esta ahi botao~
+oro~
+weapon AFH AN
+dagger 5 9 'pierce' 0
+41 135 999990 P
+A
+13 60
+A
+18 5
+A
+19 5
+A
+17 100
+#24073
+hell microfono~
+Hell Microfono~
+Un Hell Microfono esta ahi~
+oro~
+weapon AF AN
+dagger 5 6 'pierce' 0
+23 300 789990 P
+A
+1 -1
+A
+13 30
+A
+19 3
+#24074
+destruction bass~
+Destruction Bass~
+Un Destruction Bass esta ahi~
+oro~
+weapon FGH AN
+mace 6 7 'pound' 0
+30 30 245990 P
+A
+13 20
+A
+18 3
+#24075
+laser guitar~
+Laser Guitar~
+Una Laser Guitar esta ahi~
+oro~
+weapon FGH AN
+sword 5 8 'pierce' 0
+29 300 346990 P
+A
+13 30
+A
+19 4
+#24076
+hiper bass~
+Hiper Bass~
+Un Hiper Bass esta ahi~
+oro~
+weapon AFH AN
+mace 6 3 'slash' 0
+31 30 234990 P
+A
+18 3
+A
+13 60
+A
+19 5
+#24077
+Atomic Guitar~
+Atomic Guitar~
+Una Atomic Guitar esta ahi~
+oro~
+weapon AF AN
+sword 6 5 'chop' 0
+33 30 342990 P
+A
+18 3
+A
+13 50
+A
+19 5
+#24078
+metal guitar~
+Metal Guitar~
+Una bakan Metal Guitar esta ahi~
+oro~
+weapon AFH AN
+sword 6 5 'slash' 0
+32 300 349990 P
+A
+19 5
+A
+13 40
+A
+12 40
+#24079
+metal bass~
+Metal Bass~
+Un Metal Bass esta ahi~
+oro~
+weapon AFH AN
+mace 5 8 'pound' 0
+36 300 345990 P
+#24080
+ultrabaqueta~
+Ultrabaqueta~
+Una ultrabaqueta esta ahi bota~
+oro~
+weapon AFH AN
+mace 1 8 'pound' 0
+27 35 346990 P
+A
+19 3
+A
+18 4
+#24081
+freedom guitar~
+Freedom Guitar~
+Una Freedom Guitar esta ahi bota~
+oro~
+weapon FGH AN
+sword 5 6 'slash' 0
+25 30 786990 P
+#24082
+bad bass~
+Bad Bass~
+Un Bad Bass esta ahi~
+oro~
+weapon FGH AN
+mace 2 8 'pound' 0
+29 40 342990 P
+A
+19 5
+A
+13 30
+#24083
+atomic microfono~
+Atomic Microfono~
+Un Atomic Microfono esta ahi~
+oro~
+weapon FGH AN
+dagger 5 2 'slash' 0
+24 30 345990 P
+A
+19 3
+A
+18 3
+#24084
+bad baq~
+Bad Baq~
+Una Bad Baq esta ahi~
+oro~
+weapon FGH AN
+mace 5 3 'pound' 0
+25 30 123990 P
+A
+19 4
+A
+13 30
+#24085
+demoniac guitar~
+Demoniac Guitar~
+Una Demoniac Guitar esta ahi~
+indef~
+weapon AFH AN
+sword 3 7 'thrust' 0
+27 30 567990 P
+A
+19 4
+A
+18 3
+#24086
+cruz muerte~
+#BCruz de La muerte#b~
+La #BCruz de La Muerte#b esta ahi tirada~
+indef~
+weapon FGH AN
+exotic 6 5 'wrath' 0
+23 35 999990 P
+A
+13 -10
+A
+18 4
+A
+19 6
+#24087
+lanzallamas~
+Lanzallamas~
+Un Lanzallamas esta botao aqui~
+ira~
+weapon FH AN
+exotic 5 4 'wrath' 0
+26 30 456990 P
+A
+13 30
+A
+19 4
+#24088
+m-16~
+M-16~
+Una M-16 esta ahi tira~
+oro~
+weapon A AN
+exotic 5 6 'wrath' 0
+20 300 456990 P
+A
+19 3
+#24089
+ibanez~
+Ibanez~
+Una Ibanez esta ahi~
+oro~
+weapon FGH AN
+sword 6 5 'pierce' 0
+27 30 456990 P
+A
+19 4
+A
+13 20
+#24090
+mega ibanez~
+Mega Ibanez~
+Una Mega Ibanez esta ahi bota~
+oro~
+weapon FH AN
+sword 5 6 'blast' 0
+26 350 789990 P
+A
+13 30
+A
+12 40
+A
+18 3
+#24091
+gibson magic~
+Gibson Magic~
+Una Gibson Magic esta ahi~
+oro~
+weapon FGH AN
+exotic 6 8 'magic' 0
+31 450 876990 P
+A
+13 30
+A
+18 3
+A
+19 4
+#24092
+mega gibson~
+Mega Gibson~
+Una Mega Gibson esta ahi~
+indef~
+weapon F AN
+sword 4 5 'slash' 0
+19 30 124990 P
+A
+18 3
+#24093
+malignus guitar~
+Malignus Guitar~
+Una Malignus Guitar esta ahi bota~
+oro~
+weapon AFGH AN
+sword 6 1 'thrust' 0
+31 30 234990 P
+A
+19 5
+A
+13 40
+A
+18 3
+#24094
+cocaina~
+Cocaina ~
+Un gramo de cocaina esta ahi botao~
+indef~
+pill A AO
+20 'frenzy' 'sed' 'hambre' ''
+20 5 543990 P
+#24095
+anfetamina~
+Anfetamina~
+Una anfetamina esta ahi bota~
+indef~
+pill A AO
+25 'shield' 'sleep' '' ''
+25 5 567990 P
+#24096
+viagra~
+Viagra~
+Una pastilla de Viagra esta ahi bota~
+indef~
+pill A AO
+30 'stone skin' '' '' ''
+30 5 699990 P
+#24097
+lsd~
+LSD~
+Un LSD esta ahi botao~
+indef~
+pill A AO
+28 'regeneracion' '' '' ''
+28 5 567990 P
+#24098
+neopren~
+Neopren~
+Un tarro de neopern esta ahi botao~
+indef~
+pill A AO
+15 'sanctuary' 'sed' '' ''
+15 5 345990 P
+#24099
+fuente agua~
+Fuente de agua~
+Una hermosa fuente de agua esta ahi~
+indef~
+fountain 0 0
+1000000000 1000000000 'water' 0 0
+0 1000 0 P
+#24100
+fuente sangre~
+Fuente de sangre~
+Una putrefacta fuente de sangre esta aqui~
+indef~
+fountain 0 0
+1000000000 1000000000 'blood' 0 0
+0 10000 0 P
+#24101
+banco metal~
+Banco metal~
+Un cajero del Banco metal esta aqui~
+indef~
+trash X 0
+0 0 0 0 0
+0 10000 0 P
+#0
+
+
+
+#ROOMS
+#24000
+#F#B ENTRADA #U METAL LAND #u#f#b~
+Has llegado al area mas chacal de todo este mud, has entrado a la
+dimension de #F#B#U METAL LAND#f#b#u , el pais del metal.  Aqui te
+encontraras con todos tus idolos musicales, los cuales te destruiran tus
+oidos con sus potentes Riffs.  
+En los muros ves un letrero luminoso ( #F#BLook Letrero#f#b ).
+~
+18530 C 0
+E
+letrero~
+*****************************************************************************
+ 
+       #B ESTA ES EL AREA DE METAL LAND, LA CUAL FUE CREADA POR 
+             EL GRAN GUERRERO MUDEANO ZATANAS EL INMORTAL
+          #uA MEDIADOS DEL ANIO 1998 DE LA ERA CRISTIANA#f#b
+ 
+*****************************************************************************
+~
+E
+letrero~
+~
+E
+letrero~
+******************************************************************************
+ 
+ 
+           Esta gran area fue creada por el gran ser sobrenatural
+                   #F#BZATANAS EL INMORTAL#f#B
+              A mediados del an-o 1998 de la era cristiana
+ 
+ 
+******************************************************************************
+~
+D0
+~
+~
+0 0 24001
+S
+#24001
+CRUCE ~
+A lo lejos puedes sentir los potentes sonidos que aqui aparecen.
+Tambien puedes divisar a mucha gente la cual disfruta de la musica metalera tanto o mas que tu.
+~
+0 0 0
+D0
+~
+~
+0 0 24011
+D1
+~
+~
+0 0 24002
+D2
+~
+~
+0 0 24000
+D3
+~
+~
+0 0 24003
+S
+#24002
+HELL STREET~
+Esta es una de las avenidas principales que hay en esta area.
+El ambiente a suciedad te conmueve y te llama a destruir todo a tu alrededor.
+No te sientes tranquilo, debido a la maldad que aqui se persive.
+~
+0 0 0
+D1
+~
+~
+0 0 24007
+D3
+~
+~
+0 0 24001
+S
+#24003
+HELL STREET~
+Esta es una de las avenidas principales que hay en esta area.
+El ambiente a suciedad te conmueve y te llama a destruir todo a tu alrededor.
+No te sientes tranquilo, debido a la maldad que aqui se persive.
+~
+0 0 0
+D1
+~
+~
+0 0 24001
+D3
+~
+~
+0 0 24004
+S
+#24004
+HELL STREET~
+Esta es una de las avenidas principales que hay en esta area.
+El ambiente a suciedad te conmueve y te llama a destruir todo a tu alrededor.
+No te sientes tranquilo, debido a la maldad que aqui se persive.
+~
+0 0 0
+D0
+~
+~
+0 0 24006
+D1
+~
+~
+0 0 24003
+D2
+~
+~
+0 0 24005
+S
+#24005
+FARMACIA PICHICATA~
+En esta farmacia tu podras encontrar todo lo necesario para que te
+sientas #B#F diferente#f#b.  Esta farmacia es atendida por el muy conocido
+drogo #F#B#U Diego Armando Maradona#f#b#u.  , el cual va a satisfacer todas
+tus necesidades.  
+En los muros puedes ver un aviso que puede interesarte (look aviso).
+~
+0 0 0
+E
+aviso~
+*****************************************************************************
+ 
+  SE COMUNICA A NUESTRA DISTINGUIDA CLIENTELA QUE A CONTAR DEL PROXIMO
+  ANIO SE PODRA CONSUMIR TODO TIPO DE PICHICATA AL POR MAYOR. TAMBIEN 
+  SE COMUNICA QUE YA SALIERON A LA VENTA LOS SUPOSITORIOS PICHICATIN
+  BOMBIN PARA LOS SERES QUE NECESITEN PICHICATA POR ALGUN OTRO ORIFICIO
+  DE SU CUERPO
+            ATTE.  DR MORTIS. (MINISTRO DE PICHICATA)
+ 
+*****************************************************************************
+~
+D0
+~
+~
+0 0 24004
+S
+#24006
+TIENDA DE CANCIONES~
+En esta tienda podras encontrar todos los cancioneros necesarios para poder entretenerte en este mud.
+Estas canciones te ayudaran a  relajarte y a sentir de una manera diferente la vida.
+~
+0 0 0
+D2
+~
+~
+0 0 24004
+S
+#24007
+HELL STREET~
+Esta es una de las avenidas principales que hay en esta area.
+El ambiente a suciedad te conmueve y te llama a destruir todo a tu alrededor.
+No te sientes tranquilo, debido a la maldad que aqui se persive.
+~
+0 0 0
+D2
+~
+~
+0 0 24008
+D3
+~
+~
+0 0 24002
+S
+#24008
+HELL STREET~
+Esta es una de las avenidas principales que hay en esta area.
+El ambiente a suciedad te conmueve y te llama a destruir todo a tu alrededor.
+No te sientes tranquilo, debido a la maldad que aqui se persive.
+~
+0 0 0
+D0
+~
+~
+0 0 24007
+D1
+~
+~
+0 0 24010
+D3
+~
+~
+0 0 24009
+S
+#24009
+PLAZA HEAVY~
+Aqui suelen juntarse todos los amantes del poderoso heavy metal a discutir sobre el futuro de esta tendencia musical.
+Las discuciones suelen ser apasionantes ya que esta religion no es comparable con nada.
+~
+0 0 0
+D1
+~
+~
+0 0 24008
+S
+#24010
+PLAZA DEATH~
+En esta plaza de esta area se juntan muy a menudo los amantes del death
+metal.  Estos sulen caracterizarse por sus voces guturales muy chacales que
+hacen retumbar todo el lugar.  
+~
+0 0 0
+D3
+~
+~
+0 0 24008
+S
+#24011
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24012
+D2
+~
+~
+0 0 24001
+S
+#24012
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24013
+D1
+~
+~
+0 0 24066
+D2
+~
+~
+0 0 24011
+S
+#24013
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24014
+D1
+~
+~
+0 0 24070
+D2
+~
+~
+0 0 24012
+S
+#24014
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24015
+D2
+~
+~
+0 0 24013
+S
+#24015
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24016
+D1
+~
+~
+0 0 24073
+D2
+~
+~
+0 0 24014
+S
+#24016
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24017
+D2
+~
+~
+0 0 24015
+D3
+~
+~
+0 0 24033
+S
+#24017
+METAL AVENUE~
+Esta es la avenida principal de esta area.  El clima es favorable para
+ejercer la musica.  El panorama es desolador y nada te conmueve.  Los
+personajes que aqui puedes ver son innumerables y chacales, mejor cuidate.  
+~
+0 0 0
+D0
+~
+~
+0 0 24018
+D2
+~
+~
+0 0 24016
+S
+#24018
+CRUCE THRASH~
+Este es uno de los cruces mas peligrosos de toda el area.  Siente que las
+cosas no andan como tu esperabas.  No sabes donde dirigirte y las dudas
+revuelven tu mente viajera.  
+~
+0 0 0
+D0
+~
+~
+0 0 24029
+D1
+~
+~
+0 0 24020
+D2
+~
+~
+0 0 24017
+D3
+~
+~
+0 0 24019
+S
+#24019
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D0
+~
+~
+0 0 24022
+D1
+~
+~
+0 0 24018
+S
+#24020
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D0
+~
+~
+0 0 24021
+D3
+~
+~
+0 0 24018
+S
+#24021
+THRASH HOUSE~
+Estas en la entrada de una pieza de un thrash.
+Ves cervezas botadas por todo el lugar y las colillas de cigarros abundan y tapan casi todo el suelo.
+~
+0 0 0
+D1
+~
+~
+0 0 24023
+D2
+~
+~
+0 0 24020
+S
+#24022
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D2
+~
+~
+0 0 24019
+D3
+~
+~
+0 0 24024
+S
+#24023
+SALON DEL TRAFICO~
+En este salon podras encontrar todo l necesario para el trafico de cosas
+inservibles para la mayoria de la gente.  Abundan todo tipo de objetos
+extranios que te llamam a ser comprados.  
+~
+0 0 0
+D3
+~
+~
+0 0 24021
+S
+#24024
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D0
+~
+~
+0 0 24025
+D1
+~
+~
+0 0 24022
+S
+#24025
+DEATH STREET~
+En esta calle los sonidos del Death Metal retumban de una manera
+sobresaliente.  La suciedad abunda y no te puedes mover entre tanta gente
+que piensa en destruir.  
+~
+0 0 0
+D2
+~
+~
+0 0 24024
+D3
+~
+~
+0 0 24026
+S
+#24026
+DEATH STREET~
+En esta calle los sonidos del Death Metal retumban de una manera
+sobresaliente.  La suciedad abunda y no te puedes mover entre tanta gente
+que piensa en destruir.  
+~
+0 0 0
+D1
+~
+~
+0 0 24025
+D3
+~
+~
+0 0 24027
+S
+#24027
+DEATH STREET~
+En esta calle los sonidos del Death Metal retumban de una manera
+sobresaliente.  La suciedad abunda y no te puedes mover entre tanta gente
+que piensa en destruir.  
+~
+0 0 0
+D1
+~
+~
+0 0 24026
+D3
+~
+~
+0 0 24028
+S
+#24028
+DEATH STREET~
+En esta calle los sonidos del Death Metal retumban de una manera
+sobresaliente.  La suciedad abunda y no te puedes mover entre tanta gente
+que piensa en destruir.  
+~
+0 0 0
+D1
+~
+~
+0 0 24027
+S
+#24029
+ENTRADA AL GIMNASIO~
+Te encuentras en la entrada de uno de los tantos gimnasios que abundan en
+esta area.  En este se suelen realizar a menudo muchos conciertos de musica
+metalera, los cuales suelen juntar a millares de personas en estos alegres
+lugares.  
+~
+0 0 0
+D0
+~
+~
+0 0 24030
+D2
+~
+~
+0 0 24018
+S
+#24030
+ESCENARIO~
+Estas en el escenario de este gimnasio.  Puedes notar que la gente se
+suele subir a este para tirarse al publico y nadar entre ese mar de gente. 
+El ruido es ensordecedor.  
+~
+10523 0 0
+D1
+~
+~
+0 0 24031
+D2
+~
+~
+0 0 24029
+D3
+~
+~
+0 0 24032
+S
+#24031
+CAMARIN~
+Estas dentro de un camarin del gimnasio.  Aqui suelen prepararse los
+musicos para cada concierto.  Notas que la adrenalina se apodera de ti y que
+lo unico que piensas es en salir luego al escenario y dejarte por entero
+ahi.  
+~
+0 0 0
+D3
+~
+~
+0 0 24030
+S
+#24032
+CAMARIN~
+Estas dentro de un camarin del gimnasio.  Aqui suelen prepararse los
+musicos para cada concierto.  Notas que la adrenalina se apodera de ti y que
+lo unico que piensas es en salir luego al escenario y dejarte por entero
+ahi.  
+~
+0 0 0
+D1
+~
+~
+0 0 24030
+S
+#24033
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D1
+~
+~
+0 0 24016
+D3
+~
+~
+0 0 24034
+S
+#24034
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D1
+~
+~
+0 0 24033
+D2
+~
+~
+0 0 24040
+D3
+~
+~
+0 0 24035
+S
+#24035
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D0
+~
+~
+0 0 24050
+D1
+~
+~
+0 0 24034
+D3
+~
+~
+0 0 24036
+S
+#24036
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D1
+~
+~
+0 0 24035
+D3
+~
+~
+0 0 24037
+S
+#24037
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D1
+~
+~
+0 0 24036
+D2
+~
+~
+0 0 24056
+D3
+~
+~
+0 0 24038
+S
+#24038
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D1
+~
+~
+0 0 24037
+D3
+~
+~
+0 0 24039
+S
+#24039
+THRASH AVENUE~
+Esta es otra de las avenidas principales de esta area.  Aqui, si te sabes
+ubicar, podras encontrar el comercio adecuado para ti.  La gente se ve
+alegre debido a que en esta avenida hay parlantes puestos y todo el dia se
+escucha musica metalera.  
+~
+0 0 0
+D0
+~
+~
+0 0 24060
+D1
+~
+~
+0 0 24038
+S
+#24040
+KERRANG STREET~
+Esta es la calle del comercio en esta area.  Aqui encontraras los
+negicios necesarios para abastecerte y poder pasarlo bien y tranquilo en
+esta area.  
+~
+0 0 0
+D0
+~
+~
+0 0 24034
+D2
+~
+~
+0 0 24041
+S
+#24041
+KERRANG STREET~
+Esta es la calle del comercio en esta area.  Aqui encontraras los
+negicios necesarios para abastecerte y poder pasarlo bien y tranquilo en
+esta area.  
+~
+0 0 0
+D0
+~
+~
+0 0 24040
+D1
+~
+~
+0 0 24048
+D2
+~
+~
+0 0 24042
+D3
+~
+~
+0 0 24049
+S
+#24042
+KERRANG STREET~
+Esta es la calle del comercio en esta area.  Aqui encontraras los
+negicios necesarios para abastecerte y poder pasarlo bien y tranquilo en
+esta area.  
+~
+0 0 0
+D0
+~
+~
+0 0 24041
+D1
+~
+~
+0 0 24046
+D2
+~
+~
+0 0 24043
+S
+#24043
+KERRANG STREET~
+Esta es la calle del comercio en esta area.  Aqui encontraras los
+negicios necesarios para abastecerte y poder pasarlo bien y tranquilo en
+esta area.  
+~
+0 0 0
+D0
+~
+~
+0 0 24042
+D1
+~
+~
+0 0 24045
+D3
+~
+~
+0 0 24044
+S
+#24044
+TIENDA CHAQUETAS~
+Esta es la tienda donde se puede comprar la mejor calidad en chaquetas de
+cuero y de otros materiales resistentes.  Te puedes regodiar , porque el
+surtido es muy variado.  
+~
+0 K 0
+D1
+~
+~
+0 0 24043
+S
+#24045
+TIENDA INSTRUMENTOS~
+Esta es la tienda mejor abastecida en instrumentos musicales de toda la
+comarca.  La variedad es la necesaria para cualquier guitarrista que desee
+destruir los oidos ajenos.  
+~
+0 0 0
+D3
+~
+~
+0 0 24043
+S
+#24046
+TIENDA DE EFECTOS~
+En esta tienda se pueden encontrar todos los efectos que ayudan a tener
+una mejor presentacion en un concierto.  Los efectos son de la mejor calidad
+y nunca te fallaran.  
+~
+0 K 0
+D3
+~
+~
+0 0 24042
+S
+#24048
+HOUSE~
+Esta es una pequenia casa de los muchos metaleros que existen es esta
+area.  Como puedes notar la musica esta muy fuerte y tus oidos son los que
+sufren.  El ambiente es de puro carrete y te sientes muy feliz aqui.  
+~
+0 0 0
+D3
+~
+~
+0 0 24041
+S
+#24049
+HOUSE~
+Esta es una pequenia casa de los muchos metaleros que existen es esta
+area.  Como puedes notar la musica esta muy fuerte y tus oidos son los que
+sufren.  El ambiente es de puro carrete y te sientes muy feliz aqui.  
+~
+0 0 0
+D1
+~
+~
+0 0 24041
+S
+#24050
+ESTUDIO DE GRABACIONES~
+Te encuentras dentro de un estudio de grabaciones.  En este estudio
+suelen grabarse la mayoria de los discos de los grupos mas chacales del
+mundo.  La tecnologia que aqui se aprecia es formidable y te impresiona.  
+~
+0 0 0
+D0
+~
+~
+0 0 24051
+D1
+~
+~
+0 0 24054
+D2
+~
+~
+0 0 24035
+D3
+~
+~
+0 0 24055
+S
+#24051
+SALA DE MUSICA~
+Esta es la sala de musica mas moderna del pais.  Todos los instrumentos
+esperan ser afinados y tocados por los grandes musicos del planeta.  El
+ambiente que te rodea es fundamental para la creacion , en pocas palabras te
+sientes en el cielo.  
+~
+0 0 0
+D1
+~
+~
+0 0 24052
+D2
+~
+~
+0 0 24050
+D3
+~
+~
+0 0 24053
+S
+#24052
+BANIO~
+Estas en el banio, no hay que explicartelo mejor , porque ya sabes lo que
+aqui sucede.  
+En los muros ves un grafiti (#F#B Look Grafiti#f#b )
+~
+0 0 0
+E
+grafiti~
+******************************************************************************
+  BIRDIE MARACO                         
+               BELFEGOR DE LA RECONCHESUMARE             SUECO CULIAO
+ 
+ 
+   ZATA EL CHACAL            DRAGONBLANCO              GANDALF FLETO
+                                 Y
+  AKUMA  GAY                   KENDRA                    9999999
+ 
+******************************************************************************
+~
+D3
+~
+~
+0 0 24051
+S
+#24053
+SALA DE CONTROL~
+En esta sala los mas prodigiosos ingenieros de sonido del mundo estan
+esperando que los musicos entreguen su talento al mundo.  La gran sabiduria
+que aqui se acuna es impresionante, ademas los sabios consejos que estos
+sabios te dan te llenan de una gran sabiduria.  
+~
+0 0 0
+D1
+~
+~
+0 0 24051
+S
+#24054
+SALA DE REPOSO~
+En esta sala los musicos suelen descansar despues de cada grabacion.  La
+comodidad que aqui existe es abismante y te dan unas locas ganas de ser
+algun dia como estos prodigiosos musicos.  
+~
+0 0 0
+D3
+~
+~
+0 0 24050
+S
+#24055
+SALA DE REPOSO~
+En esta sala los musicos suelen descansar despues de cada grabacion.  La
+comodidad que aqui existe es abismante y te dan unas locas ganas de ser
+algun dia como estos prodigiosos musicos.  
+~
+0 0 0
+D1
+~
+~
+0 0 24050
+S
+#24056
+PLAZA PUNK~
+En esta plaza suelen juntarse la mayoria de los punkies del area.  Hay
+que tener mucho cuidado con estos , ya que su sgresividad con la gente
+normal es abismante.  El clima de violencia que aqui se aprecia te conmueve
+de sobremanera.  
+~
+0 0 0
+D0
+~
+~
+0 0 24037
+D1
+~
+~
+0 0 24058
+D2
+~
+~
+0 0 24059
+D3
+~
+~
+0 0 24057
+S
+#24057
+HOUSE PUNK~
+Esta es la casa de un verdadero punkie.  Aqui la ley y el orden no
+existe, asi que mejor cuidate con ellos.  Notas que en todas las murallas
+existe el simbolo de la anarkia reinando.  
+~
+0 0 0
+D1
+~
+~
+0 0 24056
+S
+#24058
+HOUSE PUNK~
+Esta es la casa de un verdadero punkie.  Aqui la ley y el orden no
+existe, asi que mejor cuidate con ellos.  Notas que en todas las murallas
+existe el simbolo de la anarkia reinando.  
+~
+0 0 0
+D3
+~
+~
+0 0 24056
+S
+#24059
+BANCO METAL~
+Estas dentro del #F#BBanco Metal #f#b de esta area.  Aqui podras
+realizar todas las transsaciones financieras que te puedas imaginar.  
+~
+0 0 0
+D0
+~
+~
+0 0 24056
+S
+#24060
+STRING STREET~
+Te encuentras en unos de esos lugares desconocidos y poco poblados de
+esta area.  El ambiente es desolador y ya no te dan ganas de existir.  El
+bullicio de esta area aqui ya no se siente y el miedo se empieza a apoderar
+de ti.  
+~
+0 A 0
+D0
+~
+~
+0 0 24061
+D1
+~
+~
+0 0 24065
+D2
+~
+~
+0 0 24039
+D3
+~
+~
+0 0 24064
+S
+#24061
+STRING STREET~
+Te encuentras en unos de esos lugares desconocidos y poco poblados de
+esta area.  El ambiente es desolador y ya no te dan ganas de existir.  El
+bullicio de esta area aqui ya no se siente y el miedo se empieza a apoderar
+de ti.  
+~
+0 A 0
+D1
+~
+~
+0 0 24063
+D2
+~
+~
+0 0 24060
+D3
+~
+~
+0 0 24062
+S
+#24062
+TIENDA DE POLERAS~
+En esta pequenia tienda esta el paraiso de todos los metaleros.  Estas en
+la muy apetecida tienda de poleras.  Aqui podras encontrar las poleras de
+todos tus grupos favoritos a un precio muy barato.  
+ En la muralla ves un aviso (Look Aviso).
+~
+0 K 0
+E
+aviso~
+*****************************************************************************
+ 
+             #F#B La tienda se cambio a otro lugar #f#b
+ 
+*****************************************************************************
+~
+E
+aviso~
+' 'gf'
+ 
+ 
+ 
+~
+D1
+~
+~
+0 0 24061
+S
+#24063
+BASURERO~
+Estas en un lugar muy podrido de esta area.  El aroma no es muy alagador
+que digamos.  La basura tapiza el suelo y todas las cosas asquerosas estan
+aqui tiradas.  Este es el verdadero mundo de metal land.  
+~
+0 0 0
+D3
+~
+~
+0 0 24061
+S
+#24064
+GIMNASIO~
+En esta gimnasio tu podras esculpir tu cuerpo y aprender las las tecnicas
+ocultas de este mud.  Aqui existen las maquinas mas modernas para la
+realizacion de la mejor gimnasia del mundo.  
+~
+0 K 0
+D1
+~
+~
+0 0 24060
+S
+#24065
+ESCUELA DE TALENTOS~
+En esta escuela tu podras perfecionarte en todas las artes ocultas de
+este mud.  La musica que se escucha a lo lejos es sublime y te insita a
+perfeccionarte y algun dia llegar a ser como un gran dios.  
+~
+0 K 0
+D3
+~
+~
+0 0 24060
+S
+#24066
+RETEN DE CARABINEROS~
+Este es el lugar donde impera el orden y la verdad en este area.  El
+clima de orden te aterra y ves como los detenodos entran y pareciera que
+nunca mas van a salir de este lugar.  La musica del orfeon se puede escuchar
+a lo lejos de aqui.  
+En el muro ves un letrero muy raro (look letrero).
+~
+0 0 0
+E
+letrero~
+*****************************************************************************
+ 
+     EN ESTA CIUDAD ESTA ESTRICTAMENTE PROHIBIDA LA PICHICATA Y SUS
+     DERIVADOS. EL QUE SEA SORPRENDIDO PICHICATEANDOSE SERA DURAMEN-
+     TE SANCIONADO.
+             EL IMPLEMENTOR.
+ 
+*****************************************************************************
+~
+D2
+~
+~
+0 0 24067
+D3
+~
+~
+0 0 24012
+S
+#24067
+PASILLO~
+Este pasillo te lleva a la dimension desconocida de los calabosos de este
+terrible reten.  Los gritos de la gente que se encuentra aqui encerrada te
+lleman de terror y te pasas muchas peliculas por tu mente.  
+~
+0 0 0
+D0
+~
+~
+0 0 24066
+D1
+~
+~
+0 0 24068
+S
+#24068
+CALABOSO~
+En este calabosose encuentra n los criminales mas buscados del mud.  La
+pieza esta mus oscura y te da un mieda aterrador estar en este lugar.  Es
+mejor que te alejes de aqui rapidamente.  
+ En los muros puedes ver muchos grafitis (look grafiti)>
+~
+0 0 0
+E
+grafiti~
+*****************************************************************************
+ 
+  implementor maraco                     birdie chupalo
+         pacos culios             666                 simio culeco
+    gandalf                viva pinocho        ||||||        ........
+       y                 
+      pene                    metallica......          viva la pichicata
+ 
+*****************************************************************************
+~
+D1
+~
+~
+0 0 24069
+D3
+~
+~
+0 0 24067
+S
+#24069
+CALABOSO~
+En este calabosose encuentra n los criminales mas buscados del mud.  La
+pieza esta mus oscura y te da un mieda aterrador estar en este lugar.  Es
+mejor que te alejes de aqui rapidamente.  
+~
+0 0 0
+D3
+~
+~
+0 0 24068
+S
+#24070
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D1
+~
+~
+0 0 24071
+D3
+~
+~
+0 0 24013
+S
+#24071
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D1
+~
+~
+0 0 24072
+D3
+~
+~
+0 0 24070
+S
+#24072
+BANCO METAL~
+Estas dentro del #F#BBanco Metal #f#b de esta area.  Aqui podras
+realizar todas las transsaciones financieras que te puedas imaginar.  
+~
+0 0 0
+D3
+~
+~
+0 0 24071
+S
+#24073
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D1
+~
+~
+0 0 24074
+D3
+~
+~
+0 0 24015
+S
+#24074
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24076
+D2
+~
+~
+0 0 24075
+D3
+~
+~
+0 0 24073
+S
+#24075
+FUENTE~
+Esta es una de las muchas fuentes que existen en esta area.  Aqui podras
+saciar tu sed y podras recuperar energias necesarias para la lucha mudeana. 
+~
+0 0 0
+D0
+~
+~
+0 0 24074
+S
+#24076
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D1
+~
+~
+0 0 24078
+D2
+~
+~
+0 0 24074
+D3
+~
+~
+0 0 24077
+S
+#24077
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D1
+~
+~
+0 0 24076
+S
+#24078
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24079
+D3
+~
+~
+0 0 24076
+S
+#24079
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24080
+D2
+~
+~
+0 0 24078
+S
+#24080
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24081
+D2
+~
+~
+0 0 24079
+S
+#24081
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24082
+D2
+~
+~
+0 0 24080
+S
+#24082
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D2
+~
+~
+0 0 24081
+D3
+~
+~
+0 0 24083
+S
+#24083
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24084
+D1
+~
+~
+0 0 24082
+S
+#24084
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24087
+D1
+~
+~
+0 0 24086
+D2
+~
+~
+0 0 24083
+D3
+~
+~
+0 0 24085
+S
+#24085
+CUARTO DE #F#BLETMAN#f#b~
+Este es el cuarto del poderoso #B#F LETMAN #b#f .  Aqui este gran clerigo
+hechicero suele invocar las fuerzas del mas alla para traerlas al mas aca. 
+Aqui el suele tener sus innumerables orgias con las doncellas mas apetecidas
+de todas las comarcas mudeanas.  Tambien aqui el suele descanzar y reponer
+sus energias para asi seguir luchando con innumerables criaturas diabolicas.
+Tambien en este lugar este clerigo esta realizando los conjuros para que una
+fuerza del mas alla tome a Birdie y lo destruya para siempre , y asi poder
+recobrar la libertad tan ansiada en este mud, y asi darle el lugar que se
+merecen los clerigos.  
+~
+0 K 0
+D1
+~
+~
+0 0 24084
+M 200 H 150
+S
+#24086
+PIEZA DE #F#B ZATANAS#f#b~
+Esta es la pieza del ser mas chacal de este mud:#F#B#UZatanas el
+Inmortal#f#b#u Aqui el suele descanzar despues de cada lucha, ademas aqui el
+suele venir a meditar y a tomar las desisiones referentes al rumbo que debe
+seguir el mud.  Desde aqui el planea derrocar al malvado Birdie y apoderarse
+del mud para asi liberar a todos los Players de sus garras e imponer el
+sistema de #F#Bla pichicata al por mayor#f#b.  
+ En la estatua de Zatanas puedes ver una hermosa placa brillante ( #F#BLook Placa#f#b ).
+~
+0 K 0
+E
+placa~
+*****************************************************************************
+ 
+   #F#BEsta es la estatua creada para honrar al gran Zatanas el inmortal
+         El gran guerrero del mud que siempre ha luchado por la
+         pichicata de los players y la libertad del mud.........#f#b
+ 
+*****************************************************************************
+~
+D3
+~
+~
+0 0 24084
+M 150 H 200
+S
+#24087
+HEAVY AVENUE~
+Esta es una arteria muy transitada de esta area.  Es como el paseo
+Ahumada de nuestro querido santiago.  La gente suele chocar constantemente
+debido a la gran aglomeracion.  
+~
+0 0 0
+D0
+~
+~
+0 0 24090
+D1
+~
+~
+0 0 24089
+D2
+~
+~
+0 0 24084
+D3
+~
+~
+0 0 24088
+S
+#24088
+FUENTE DE SANGRE~
+En esta fuente por fin los vampiros tendran su fuente propia de sangre ,
+para asi poder alimentarse.  
+~
+0 0 0
+D1
+~
+~
+0 0 24087
+S
+#24089
+CALLEJON~
+Te encuentras en un lugar muy oscuro y tenebroso.  La humedad y el edor
+que aqui se persive es insoportable.  No te sientes seguro y lo unico en que
+piensas es en volver donde tu mamita para que te proteja.  
+~
+0 0 0
+D3
+~
+~
+0 0 24087
+S
+#24090
+ALTAR DEL FARAON~
+En este altar el gran faraon suele sanar a todos los metaleros del mud. 
+Desde aqui puedes divisar la mayoria de esta gran area.  Los muros son
+hechos de marmol y los pilares de este altar son hechos de craneos de
+personas possers.  
+~
+0 K 0
+D2
+~
+~
+0 0 24087
+M 200 H 200
+S
+#0
+
+
+
+#SPECIALS
+M 24004 spec_assassin
+M 24044 spec_questmaster
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+M 0 24001 1 24001 1
+E 0 24060 0 16
+M 0 24000 1 24004 1
+E 0 24059 0 16
+M 0 24041 1 24005 1
+G 0 24094 0
+G 0 24095 0
+G 0 24096 0
+G 0 24097 0
+G 0 24098 0
+M 0 24049 1 24006 1
+G 0 24035 0
+G 0 24036 0
+G 0 24037 0
+G 0 24038 0
+G 0 24039 0
+G 0 24040 0
+G 0 24041 0
+G 0 24042 0
+M 0 24034 1 24011 1
+E 0 24093 0 16
+M 0 24021 1 24012 1
+E 0 24080 0 16
+M 0 24033 1 24013 1
+E 0 24092 0 16
+M 0 24003 1 24015 1
+E 0 24062 0 16
+M 0 24039 3 24016 10
+M 0 24026 1 24017 1
+E 0 24085 0 16
+M 0 24027 1 24019 1
+E 0 24086 0 16
+M 0 24052 1 24023 1
+G 0 24059 0
+G 0 24060 0
+G 0 24061 0
+G 0 24062 0
+G 0 24063 0
+G 0 24064 0
+G 0 24065 0
+G 0 24066 0
+G 0 24067 0
+G 0 24068 0
+G 0 24069 0
+G 0 24070 0
+G 0 24071 0
+G 0 24072 0
+G 0 24073 0
+M 0 24006 1 24026 1
+E 0 24065 0 16
+M 0 24005 1 24028 1
+E 0 24064 0 16
+M 0 24004 1 24029 1
+E 0 24063 0 16
+M 0 24010 1 24031 1
+E 0 24069 0 16
+M 0 24016 1 24032 1
+E 0 24076 0 16
+M 0 24035 2 24033 10
+M 0 24035 2 24034 10
+M 0 24016 1 24034 1
+E 0 24075 0 16
+M 0 24017 1 24037 1
+E 0 24076 0 16
+M 0 24045 1 24044 1
+G 0 24016 0
+G 0 24017 0
+G 0 24018 0
+G 0 24019 0
+G 0 24020 0
+G 0 24021 0
+G 0 24022 0
+G 0 24023 0
+G 0 24024 0
+G 0 24025 0
+G 0 24026 0
+G 0 24027 0
+G 0 24028 0
+M 0 24042 1 24045 1
+G 0 24001 0
+G 0 24002 0
+G 0 24003 0
+G 0 24004 0
+G 0 24005 0
+G 0 24006 0
+G 0 24007 0
+G 0 24008 0
+G 0 24009 0
+G 0 24010 0
+M 0 24043 1 24046 1
+G 0 24011 0
+G 0 24012 0
+G 0 24013 0
+G 0 24014 0
+G 0 24015 0
+G 0 24052 0
+G 0 24053 0
+G 0 24054 0
+G 0 24055 0
+G 0 24056 0
+G 0 24057 0
+G 0 24058 0
+G 0 24051 0
+G 0 24029 0
+G 0 24030 0
+G 0 24033 0
+G 0 24034 0
+M 0 24032 1 24048 1
+E 0 24091 0 16
+M 0 24007 1 24050 1
+E 0 24066 0 16
+M 0 24008 1 24052 1
+E 0 24067 0 16
+M 0 24009 1 24053 1
+E 0 24068 0 16
+M 0 24031 1 24054 1
+E 0 24090 0 16
+M 0 24030 1 24055 1
+E 0 24089 0 16
+M 0 24036 5 24056 10
+M 0 24028 1 24057 1
+E 0 24087 0 16
+M 0 24029 1 24058 1
+E 0 24088 0 16
+O 0 24101 0 24059
+M 0 24018 1 24062 1
+E 0 24077 0 16
+M 0 24046 1 24063 1
+G 0 24074 0
+G 0 24075 0
+G 0 24076 0
+G 0 24077 0
+G 0 24078 0
+G 0 24079 0
+G 0 24080 0
+G 0 24081 0
+G 0 24082 0
+G 0 24083 0
+G 0 24084 0
+G 0 24085 0
+G 0 24086 0
+G 0 24087 0
+G 0 24088 0
+G 0 24089 0
+G 0 24090 0
+G 0 24091 0
+G 0 24092 0
+G 0 24093 0
+M 0 24019 1 24064 1
+E 0 24078 0 16
+M 0 24020 1 24065 1
+E 0 24079 0 16
+M 0 24040 2 24066 8
+E 0 24031 0 16
+E 0 24032 0 6
+M 0 24047 2 24067 10
+M 0 24002 1 24070 1
+E 0 24061 0 16
+M 0 24024 1 24071 1
+E 0 24083 0 16
+O 0 24101 0 24072
+O 0 24099 0 24075
+M 0 24025 1 24075 1
+E 0 24084 0 16
+M 0 24015 1 24077 1
+E 0 24074 0 16
+M 0 24011 1 24080 1
+E 0 24070 0 16
+M 0 24022 1 24081 1
+E 0 24081 0 16
+M 0 24012 1 24082 1
+E 0 24071 0 16
+M 0 24013 1 24083 1
+E 0 24072 0 16
+M 0 24014 1 24084 1
+E 0 24073 0 16
+M 0 24050 1 24085 1
+G 0 24043 0
+G 0 24044 0
+G 0 24045 0
+G 0 24046 0
+G 0 24047 0
+G 0 24048 0
+G 0 24049 0
+G 0 24050 0
+M 0 24051 1 24086 1
+M 0 24023 1 24087 1
+E 0 24082 0 16
+O 0 24100 0 24088
+M 0 24048 1 24090 1
+M 0 24044 1 24090 1
+S
+
+
+
+#SHOPS
+24041 0 0 0 0 0 100 100 100 100 0 23
+24042 0 0 0 0 0 100 100 100 100 0 23
+24043 0 0 0 0 0 100 100 100 100 0 23
+24045 0 0 0 0 0 100 100 100 100 0 23
+24046 0 0 0 0 0 100 100 100 100 0 23
+24049 0 0 0 0 0 100 100 100 100 0 23
+24050 0 0 0 0 0 100 100 100 100 0 23
+24052 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

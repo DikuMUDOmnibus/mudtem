@@ -1,0 +1,23 @@
+struct	hometown_type
+{
+	char	*name;
+	int	recall;
+	int	school;
+	int	morgue;
+	int	death;
+	int	mapa;
+	int	pit;
+};
+
+// en pc_data
+    sh_int		hometown;
+
+#define MORGUE(ch)	(ch->clan ? get_clan_table(ch->clan)->death : (IS_NPC(ch) ? ROOM_VNUM_ALTAR : hometown_table[ch->pcdata->hometown].morgue))
+
+const   struct  hometown_type   hometown_table  []      =
+{
+/*      {       "name",         recall, school, morgue, death,	mapa,	pit	}, */
+	{       "Midgaard",     3001,   3700,   3036,   3054,	3162,	3054	},
+	{       "New Thalos",   9506,   9506,   3036,   3054,	3167,	3054	},
+	{       NULL,           3001,   3001,   3001,   3001,	0,	0	}
+};

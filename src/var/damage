@@ -1,0 +1,670 @@
+FRetVal	damage		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dam,
+			        int dt, int class, bool show ) );
+
+/*
+ * Inflict damage from a hit.
+ */
+FRetVal damage(CHAR_DATA *ch,CHAR_DATA *victim,int dam,int dt,int dam_type,
+	    bool show) 
+{
+    bool immune;
+    OBJ_DATA *corpse;
+    FIGHT_DATA * fd;
+
+    if ( victim->position == POS_DEAD )
+	return FAIL;
+
+    /*
+     * Stop up any residual loopholes.
+     */
+    if ( dam > 1200 && dt >= TYPE_HIT)
+    {
+	bugf( "Damage: %d, maximo 1200, char %s, victima %s, vnum %d.",
+		dam, ch->name, victim->name, CHARVNUM(victim) );
+	dam = 1200;
+	if (!IS_IMMORTAL(ch))
+	{
+	    OBJ_DATA *obj;
+	    obj = get_eq_char( ch, WEAR_WIELD );
+	    send_to_char("Realmente, no debieras hacer trampas.\n\r",ch);
+	    if (obj != NULL)
+	    {
+		bugf( "Obj %s, vnum %d.", obj->name, obj->pIndexData->vnum );
+		extract_obj(obj);
+	    }
+	}
+    }
+
+    /* damage reduction */
+    if ( dam > 35)
+	dam = (dam - 35)*0.5 + 35;
+    if ( dam > 80)
+	dam = (dam - 80)*0.5 + 80;
+
+    if ( !IS_NPC(ch) )
+       	dam *= pcdam / 100;
+    else
+	dam *= mobdam / 100;
+
+    if ( victim != ch )
+    {
+	/*
+	 * Certain attacks are forbidden.
+	 * Most other attacks are returned.
+	 */
+	if ( is_safe( ch, victim ) )
+	    return FAIL;
+	check_killer( ch, victim );
+
+	if ( victim->position > POS_STUNNED )
+	{
+	    if ( victim->fighting == NULL )
+ 	    {
+		set_fighting( victim, ch );
+ 		if ( IS_NPC( victim ) && HAS_TRIGGER( victim, TRIG_KILL ) )
+		    mp_percent_trigger( victim, ch, NULL, NULL, TRIG_KILL );
+	    }
+	    if (victim->timer <= 4)
+	    	victim->position = POS_FIGHTING;
+	}
+
+	if ( ch->position > POS_STUNNED )
+	{
+	    if ( ch->fighting == NULL )
+		set_fighting( ch, victim );
+
+	    /*
+	     * If victim is charmed, ch might attack victim's master.
+	     taken out by Russ! */
+/*
+	    if ( IS_NPC(ch)
+	    &&   IS_NPC(victim)
+	    &&   IS_AFFECTED(victim, AFF_CHARM)
+	    &&   victim->master != NULL
+	    &&   victim->master->in_room == ch->in_room
+	    &&   number_bits( 3 ) == 0 )
+	    {
+		stop_fighting( ch, FALSE );
+		multi_hit( ch, victim->master, TYPE_UNDEFINED );
+		return FAIL;
+	    }
+*/
+	}
+
+	/*
+	 * More charm stuff.
+	 */
+	if ( victim->master == ch )
+	    stop_follower( victim );
+    }
+
+    /*
+     * Inviso attacks ... not.
+     */
+    if ( IS_AFFECTED(ch, AFF_INVISIBLE) )
+    {
+	affect_strip( ch, gsn_invis );
+	affect_strip( ch, gsn_mass_invis );
+	affect_strip( ch, gsn_predinvis );
+	REMOVE_BIT( ch->affected_by, AFF_INVISIBLE );
+	act( "$n aparece en esta realidad.", ch, NULL, NULL, TO_ROOM );
+    }
+
+    /*
+     * Damage modifiers.
+     */
+
+    if ( dam > 1 && !IS_NPC(victim) 
+    &&   victim->pcdata->condition[COND_DRUNK]  > 10 )
+	dam = 9 * dam / 10;
+
+    if ( dam > 1 && IS_AFFECTED(victim, AFF_SANCTUARY) && ch != victim )
+	dam = 3 * dam / 4; /* /2 */
+
+    if ( dam > 1 && ((IS_AFFECTED(victim, AFF_PROTECT_EVIL) && IS_EVIL(ch) )
+    ||		     (IS_AFFECTED(victim, AFF_PROTECT_GOOD) && IS_GOOD(ch) )))
+	dam -= dam / 4;
+
+    immune = FALSE;
+
+    /*
+     * Check for parry, and dodge.
+     */
+    if ( dt >= TYPE_HIT && ch != victim)
+    {
+        if ( check_parry( ch, victim ) )
+	    return FAIL;
+	if ( check_dodge( ch, victim ) )
+	    return FAIL;
+	if ( check_shield_block(ch,victim))
+	    return FAIL;
+    }
+
+    switch(check_immune(victim,dam_type))
+    {
+	case(IS_IMMUNE):
+	    immune = TRUE;
+	    dam = 0;
+	    break;
+	case(IS_RESISTANT):
+	    dam -= dam/4; /* 3 */
+	    break;
+	case(IS_VULNERABLE):
+	    dam += dam/4; /* 2 */
+	    break;
+    }
+
+    if (show)
+    	dam_message( ch, victim, dam, dt, immune );
+
+    if (dam < 1)
+	return FAIL;
+
+    /*
+     * Hurt the victim.
+     * Inform the victim of his new state.
+     */
+    if ( ch != victim )
+    {
+    	fd = fdata_lookup( ch, victim->id );
+
+    	if ( !fd )
+		fd = give_fd( ch, victim );
+    	else
+    		fd->dam += dam;
+    }
+
+    victim->hit -= dam;
+    if ( !IS_NPC(victim) && victim->hit < 1 )
+    {
+    	if ( victim->level >= LEVEL_IMMORTAL
+	||   (ch == victim && EN_ARENA(victim))
+	||   IS_SET(victim->in_room->room_flags, ROOM_PROTOTIPO) )
+		victim->hit = 1;
+    }
+
+    update_pos( victim );
+
+    switch( victim->position )
+    {
+    case POS_MORTAL:
+	act( "$n esta mortalmente herido, y morira pronto, si no es ayudado.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char( 
+	    "Estas mortalmente herido, y moriras pronto, si no te ayudan.\n\r",
+	    victim );
+	break;
+
+    case POS_INCAP:
+	act( "$n esta incapacitado y morira lentamente, si no es ayudado.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char(
+	    "Estas incapacitado y moriras lentamente, si no te ayudan.\n\r",
+	    victim );
+	break;
+
+    case POS_STUNNED:
+	act( "$n esta inconsciente, pero probablemente se recuperara.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char("Estas inconsciente, pero probablemente te recuperaras.\n\r",
+	    victim );
+	break;
+
+    case POS_DEAD:
+	act( "$n ha #BMUERTO#b!!", victim, 0, 0, TO_ROOM );
+	send_to_char( "Has #BMUERTO#b!!\n\r\n\r", victim );
+	break;
+
+    default:
+	if ( dam > victim->max_hit / 4 )
+	    send_to_char( "Eso realmente #BDOLIO#b!\n\r", victim );
+	if ( victim->hit < victim->max_hit / 4 )
+	    send_to_char( "Seguramente estas #3SANGRANDO#n!\n\r", victim );
+	break;
+    }
+
+    /*
+     * Sleep spells and extremely wounded folks.
+     */
+    if ( !IS_AWAKE(victim) )
+	stop_fighting( victim, FALSE );
+
+    /*
+     * Payoff for killing things.
+     */
+    if ( victim->position == POS_DEAD )
+    {
+	if ( !IS_NPC(victim) && EN_ARENA(victim) )
+	{
+		check_arena(ch, victim);
+		return victdead;
+	}
+
+	if ( !EN_ARENA(victim) )
+		group_gain( ch, victim );
+
+	if ( !IS_NPC(victim) )
+	{
+	    sprintf( log_buf, "%s murio a manos de %s en %d",
+		victim->name,
+		(IS_NPC(ch) ? ch->short_descr : ch->name),
+		ch->in_room->vnum );
+	    log_string( log_buf );
+
+	    /*
+	     * Dying penalty:
+	     * 2/3 way back to previous level.
+	     */
+	    if ( victim->exp > EXP_NIVEL(victim,victim->level-1) + 2*EXP_NIVEL(victim,1)/3 )
+	    {
+		int xp_lose;
+
+		xp_lose = (EXP_NIVEL(victim,victim->level - 1) + EXP_NIVEL(victim,1)/3 - victim->exp) / 2 + 50;
+		xp_lose = UMAX(-1 * exp_per_level(victim,victim->pcdata->points), xp_lose);
+
+		if ( xp_lose < 0 )
+			gain_exp( victim, xp_lose );
+	    }
+	}
+
+        sprintf( log_buf, "%s got toasted by %s at %s [room %d]",
+            (IS_NPC(victim) ? victim->short_descr : victim->name),
+            (IS_NPC(ch) ? ch->short_descr : ch->name),
+            ch->in_room->name, ch->in_room->vnum);
+
+        if (IS_NPC(victim))
+            wiznet(log_buf,NULL,NULL,WIZ_MOBDEATHS,0,0);
+        else
+            wiznet(log_buf,NULL,NULL,WIZ_DEATHS,0,0);
+
+	if ( !IS_NPC(ch) && is_clan(ch) )
+	{
+		if ( IS_NPC(victim) )
+			get_clan_table(ch->clan)->mkills++;
+		else
+			get_clan_table(ch->clan)->pkills++;
+	}
+			
+	if ( !IS_NPC(victim) && is_clan(victim) )
+	{
+		if ( IS_NPC(ch) )
+			get_clan_table(victim->clan)->mdeaths++;
+		else
+			get_clan_table(victim->clan)->pdeaths++;
+	}
+
+	if ( !IS_NPC(ch) && !IS_NPC(victim) && is_clan(ch)
+	  && is_clan(victim) && is_same_clan(ch, victim) )
+	{
+		get_clan_table(victim->clan)->illpkills++;
+		if ( ch->pcdata->clan_status < victim->pcdata->clan_status )
+		{
+			int temp = ch->pcdata->clan_status;
+			char buf[MIL];
+
+			ch->pcdata->clan_status = victim->pcdata->clan_status;
+			victim->pcdata->clan_status = temp;
+			sprintf( buf, "Ahora eres #B%s#b del clan #B%s#b!\n\r",
+				lookup_clan_status(ch->pcdata->clan_status),
+				get_clan_table(ch->clan)->name );
+			send_to_char( buf, ch );
+			sprintf( buf, "Ahora eres #B%s#b del clan #B%s#b!\n\r",
+				lookup_clan_status(victim->pcdata->clan_status),
+				get_clan_table(ch->clan)->name );
+			send_to_char( buf, victim );
+			REMOVE_BIT( ch->act, PLR_KILLER );
+			REMOVE_BIT( victim->act, PLR_KILLER );
+		}
+	}
+
+	/*
+	 * Death trigger
+	 */
+	if ( IS_NPC( victim ) && HAS_TRIGGER( victim, TRIG_DEATH) )
+	{
+	    victim->position = POS_STANDING;
+	    mp_percent_trigger( victim, ch, NULL, NULL, TRIG_DEATH );
+	}
+
+        /* dump the flags */
+        if (ch != victim
+	&& !IS_NPC(ch)
+        && !IS_NPC(victim)
+        && (!is_clan(ch)
+         || !is_clan(victim)
+         || ( is_clan(ch) && is_clan(victim) && !is_same_clan(ch,victim) ) ) )
+        {
+            if (IS_SET(victim->act,PLR_KILLER))
+                REMOVE_BIT(victim->act,PLR_KILLER);
+	    if (IS_SET(victim->act,PLR_THIEF))
+                REMOVE_BIT(victim->act,PLR_THIEF);
+        }
+
+        raw_kill ( ch, victim, dam_type );
+         
+        /* RT new auto commands */
+
+	if (!IS_NPC(ch)
+	&&  (corpse = get_obj_list(ch,"corpse",ch->in_room->contents)) != NULL
+	&&  corpse->item_type == ITEM_CORPSE_NPC && can_see_obj(ch,corpse))
+	{
+	    OBJ_DATA *coins;
+
+	    if ( IS_SET(ch->act, PLR_AUTOLOOT)
+		&& corpse->contains) /* not empty */
+		do_get( ch, "all corpse" );
+
+ 	    if (IS_SET(ch->act,PLR_AUTOGOLD)
+		&& corpse->contains  && /* exists and not empty */
+		!IS_SET(ch->act,PLR_AUTOLOOT))
+		if ((coins = get_obj_list(ch,"gcash",corpse->contains))
+		     != NULL)
+	      	    do_get(ch, "all.gcash corpse");
+            
+	    if ( IS_SET(ch->act, PLR_AUTOSAC) )
+	    {
+		if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse->contains)
+			return victdead;  /* leave if corpse has treasure */
+		else
+			do_sacrifice( ch, "corpse" );
+	    }
+	}
+
+	return victdead;
+    }
+
+    if ( victim == ch )
+	return OK;
+
+    /*
+     * Take care of link dead people.
+     */
+    if ( !IS_NPC(victim) && victim->desc == NULL )
+    {
+	if ( number_range( 0, victim->wait ) == 0 )
+	{
+	    do_recall( victim, "" );
+	    return OK;
+	}
+    }
+
+    /*
+     * Wimp out?
+     */
+    if ( IS_NPC(victim) && dam > 0 && victim->wait < PULSE_VIOLENCE / 2)
+    {
+	if ( ( IS_SET(victim->act, ACT_WIMPY) && number_bits( 2 ) == 0
+	&&   victim->hit < victim->max_hit / 4)
+	||   ( IS_AFFECTED(victim, AFF_CHARM) && victim->master != NULL
+	&&     victim->master->in_room != victim->in_room ) )
+	    do_flee( victim, "" );
+    }
+
+    if ( !IS_NPC(victim)
+    &&   victim->hit > 0
+    &&   victim->hit <= victim->wimpy
+    &&   victim->wait < PULSE_VIOLENCE / 2 )
+	{
+	    do_flee( victim, "" );
+	}
+
+    tail_chain( );
+    return OK;
+}
+
+bool	obj_damage	args( ( OBJ_DATA *obj, CHAR_DATA *victim, int dam,
+				int dt, int class, bool show ) );
+
+/*
+ * Inflict damage from a hit.
+ */
+bool obj_damage(OBJ_DATA *obj,CHAR_DATA *victim,int dam,int dt,int dam_type,
+	    bool show) 
+{
+    char buf[MAX_STRING_LENGTH];
+    bool immune;
+
+    if ( victim->position == POS_DEAD )
+	return FALSE;
+
+    /*
+     * Stop up any residual loopholes.
+     */
+    if ( dam > 1200 && dt >= TYPE_HIT)
+    {
+	bug( "Damage: %d: maximo es 1200 puntos!", dam );
+	sprintf( buf, "Objeto %s.", obj->short_descr );
+	bug( buf, 0 );
+	dam = 1200;
+    }
+
+    
+    /* damage reduction */
+    if ( dam > 35)
+	dam = (dam - 35)/2 + 35;
+    if ( dam > 80)
+	dam = (dam - 80)/2 + 80; 
+
+    /*
+     * Damage modifiers.
+     */
+
+    if ( dam > 1 && !IS_NPC(victim) 
+    &&   victim->pcdata->condition[COND_DRUNK]  > 10 )
+	dam = 9 * dam / 10;
+
+    if ( dam > 1 && IS_AFFECTED(victim, AFF_SANCTUARY) )
+	dam /= 2;
+
+    immune = FALSE;
+
+    switch(check_immune(victim,dam_type))
+    {
+	case(IS_IMMUNE):
+	    immune = TRUE;
+	    dam = 0;
+	    break;
+	case(IS_RESISTANT):	
+	    dam -= dam/3;
+	    break;
+	case(IS_VULNERABLE):
+	    dam += dam/2;
+	    break;
+    }
+
+    if (show)
+    	dam_obj_message( obj, victim, dam, dt, immune );
+
+    if (dam == 0)
+	return FALSE;
+
+    /*
+     * Hurt the victim.
+     * Inform the victim of his new state.
+     */
+    victim->hit -= dam;
+    if ( !IS_NPC(victim)
+    &&   victim->level >= LEVEL_IMMORTAL
+    &&   victim->hit < 1 )
+	victim->hit = 1;
+    update_pos( victim );
+
+    switch( victim->position )
+    {
+    case POS_MORTAL:
+	act( "$n esta mortalmente herido, y morira pronto, si no es ayudado.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char( 
+	    "Estas mortalmente herido, y moriras pronto, si no te ayudan.\n\r",
+	    victim );
+	break;
+
+    case POS_INCAP:
+	act( "$n is incapacitated and will slowly die, if not aided.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char(
+	    "You are incapacitated and will slowly die, if not aided.\n\r",
+	    victim );
+	break;
+
+    case POS_STUNNED:
+	act( "$n is stunned, but will probably recover.",
+	    victim, NULL, NULL, TO_ROOM );
+	send_to_char("You are stunned, but will probably recover.\n\r",
+	    victim );
+	break;
+
+    case POS_DEAD:
+	act( "$n ha #BMUERTO#b!!", victim, 0, 0, TO_ROOM );
+	send_to_char( "Has #BMUERTO#b!!\n\r\n\r", victim );
+	break;
+
+    default:
+	if ( dam > victim->max_hit / 4 )
+	    send_to_char( "Eso realmente #BDOLIO#b!\n\r", victim );
+	if ( victim->hit < victim->max_hit / 4 )
+	    send_to_char( "Seguramente estas #3SANGRANDO#n!\n\r", victim );
+	break;
+    }
+
+    /*
+     * Sleep spells and extremely wounded folks.
+     */
+    if ( !IS_AWAKE(victim) )
+	stop_fighting( victim, FALSE );
+
+    /*
+     * Payoff for killing things.
+     */
+    if ( victim->position == POS_DEAD )
+    {
+	if ( !IS_NPC(victim) )
+	{
+	    sprintf( log_buf, "%s murio a manos de %s (obj)",
+		victim->name,
+		obj->short_descr );
+	    log_string( log_buf );
+
+	    /*
+	     * Dying penalty:
+	     * 2/3 way back to previous level.
+	     */
+	    if ( victim->exp > EXP_NIVEL(victim,victim->level-1) + 2*EXP_NIVEL(victim,1)/3 )
+	    {
+		int xp_lose;
+
+		xp_lose = (EXP_NIVEL(victim,victim->level - 1) + EXP_NIVEL(victim,1)/2 - victim->exp) / 2 + 50;
+		gain_exp( victim, UMAX( -1 * exp_per_level(victim,victim->pcdata->points), xp_lose) );
+	    }
+	}
+
+        sprintf( log_buf, "%s got toasted by %s (obj)",
+            (IS_NPC(victim) ? victim->short_descr : victim->name),
+            obj->short_descr);
+
+        if (IS_NPC(victim))
+            wiznet(log_buf,NULL,NULL,WIZ_MOBDEATHS,0,0);
+        else
+            wiznet(log_buf,NULL,NULL,WIZ_DEATHS,0,0);
+
+        raw_kill ( NULL, victim, dam_type );
+         
+	return TRUE;
+    }
+
+    /*
+     * Take care of link dead people.
+     */
+    if ( !IS_NPC(victim) && victim->desc == NULL )
+    {
+	if ( number_range( 0, victim->wait ) == 0 )
+	{
+	    do_recall( victim, "" );
+	    return TRUE;
+	}
+    }
+
+    tail_chain( );
+    return TRUE;
+}
+
+void dam_obj_message( OBJ_DATA *obj, CHAR_DATA *victim,int dam,int dt,bool immune )
+{
+    char buf1[256], buf3[256];
+    const char *vs;
+    const char *vp;
+    const char *attack;
+    char punct;
+
+    if (obj == NULL || victim == NULL)
+	return;
+
+	 if ( dam ==   0 ) { vs = "yerra";	vp = "yerra";		}
+    else if ( dam <=   4 ) { vs = "rozas";	vp = "roza";		}
+    else if ( dam <=   8 ) { vs = "rasgunas";	vp = "rasguna";		}
+    else if ( dam <=  12 ) { vs = "aranas";	vp = "arana";		}
+    else if ( dam <=  16 ) { vs = "lastimas";	vp = "lastima";		}
+    else if ( dam <=  20 ) { vs = "hieres";	vp = "hiere";		}
+    else if ( dam <=  24 ) { vs = "danas";       vp = "dana";		}
+    else if ( dam <=  28 ) { vs = "diezmas";	vp = "diezma";		}
+    else if ( dam <=  32 ) { vs = "rompes";	vp = "rompe";		}
+    else if ( dam <=  36 ) { vs = "quiebras";	vp = "quiebra";		}
+    else if ( dam <=  40 ) { vs = "#BMUTILAS#b";	vp = "#BMUTILA#b";	}
+    else if ( dam <=  44 ) { vs = "#BDESTRIPAS#b";	vp = "#BDESTRIPA#b";	}
+    else if ( dam <=  48 ) { vs = "#BDESMIEMBRAS#b";	vp = "#BDESMIEMBRA#b";	}
+    else if ( dam <=  52 ) { vs = "#BMASACRAS#b";	vp = "#BMASACRA#b";	}
+    else if ( dam <=  56 ) { vs = "#BDESGARRAS#b";	vp = "#BDESGARRA#b";	}
+    else if ( dam <=  60 ) { vs = "#BDESTROZAS#b";	vp = "#BDESTROZA#b";	}
+    else if ( dam <=  67 ) { vs = "*** #BDEMUELES#b ***";
+			     vp = "*** #BDEMUELE#b ***";	}
+    else if ( dam <=  75 ) { vs = "*** #BDEVASTAS#b ***";
+			     vp = "*** #BDEVASTA#b ***";	}
+    else if ( dam <= 100)  { vs = "=== #BELIMINAS#b ===";
+			     vp = "=== #BELIMINA#b ===";	}
+    else if ( dam <= 125)  { vs = "#B#F>>> ANIQUILAS <<<#b#f";
+			     vp = "#B#F>>> ANIQUILA <<<#b#f";	}
+    else if ( dam <= 150)  { vs = "#B#F<<< ERRADICAS >>>#b#f";
+			     vp = "#B#F<<< ERRADICA >>>#b#f";	}
+    else if ( dam <= 175)  { vs = "#B#F<<<- DESTRUYES ->>>#b#f";
+    			     vp = "#B#F<<<- DESTRUYE ->>>#b#f";	}
+    else                   { vs = "hace cosas #BINDESCRIPTIBLES#b";
+			     vp = "hace cosas #BINDESCRIPTIBLES#b";	}
+
+    punct   = (dam <= 24) ? '.' : '!';
+
+    if ( dt == TYPE_HIT )
+    {
+	    sprintf( buf1, "$p %s a $n%c", vp, punct );
+	    sprintf( buf3, "$p te %s %c", vp, punct );
+    }
+    else
+    {
+	if ( dt >= 0 && dt < MAX_SKILL )
+	    attack	= skill_table[dt].noun_damage;
+	else if ( dt >= TYPE_HIT
+	&& dt < TYPE_HIT + MAX_DAMAGE_MESSAGE) 
+	    attack	= attack_table[dt - TYPE_HIT].noun;
+	else
+	{
+	    bug( "Dam_message: bad dt %d.", dt );
+	    dt  = TYPE_HIT;
+	    attack  = attack_table[0].name;
+	}
+
+	if (immune)
+	{
+	    	sprintf(buf1,"$n no fue afectado por %s %s de $p!", TIPO(attack), attack);
+	    	sprintf(buf3,"%s %s de $p es inutil en tu contra.", TIPO(attack), attack);
+	}
+	else
+	{
+	    	sprintf( buf1, "%s %s de $p %s a $n%c", TIPO(attack), attack, vp, punct );
+	    	sprintf( buf3, "%s %s de $p te %s%c", TIPO(attack), attack, vp, punct );
+	}
+    }
+
+    	act( buf1, victim, obj, NULL, TO_ROOM );
+    	act( buf3, victim, obj, NULL, TO_CHAR );
+
+    return;
+}

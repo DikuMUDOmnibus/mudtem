@@ -1,0 +1,3566 @@
+396
+
+#COMANDO
+name '~
+do_fun do_say~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ,~
+do_fun do_emote~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name .~
+do_fun do_gossip~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name /~
+do_fun do_recall~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name :~
+do_fun do_immtalk~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ;~
+do_fun do_gtell~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name =~
+do_fun do_clan_recall~
+position standing~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name arriba~
+do_fun do_up~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name abajo~
+do_fun do_down~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name at~
+do_fun do_at~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name auction~
+do_fun do_auction~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name astat~
+do_fun do_astat~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name affects~
+do_fun do_affects~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name areas~
+do_fun do_areas~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name alia~
+do_fun do_alia~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name alias~
+do_fun do_alias~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autolist~
+do_fun do_autolist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autoassist~
+do_fun do_autoassist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autoexit~
+do_fun do_autoexit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autogold~
+do_fun do_autogold~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autoloot~
+do_fun do_autoloot~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autosac~
+do_fun do_autosac~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name autosplit~
+do_fun do_autosplit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name afk~
+do_fun do_afk~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name advance~
+do_fun do_advance~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name allow~
+do_fun do_allow~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name addlag~
+do_fun do_addlag~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name asave~
+do_fun do_asave~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name alist~
+do_fun do_alist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name aedit~
+do_fun do_aedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name afilar~
+do_fun do_afilar~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name arena~
+do_fun do_arena~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name aceptar~
+do_fun do_aceptar~
+position standing~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name act~
+do_fun do_act~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name abrir~
+do_fun do_open~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name atacar~
+do_fun do_kill~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name buy~
+do_fun do_buy~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name beep~
+do_fun do_beep~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bug~
+do_fun do_bug~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name brew~
+do_fun do_brew~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bet~
+do_fun do_bet~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name brief~
+do_fun do_brief~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name brandish~
+do_fun do_brandish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bladethirst~
+do_fun do_bladethirst~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name backstab~
+do_fun do_backstab~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bash~
+do_fun do_bash~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bs~
+do_fun do_backstab~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name berserk~
+do_fun do_berserk~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ban~
+do_fun do_ban~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name bank~
+do_fun do_bank~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name barra~
+do_fun do_barra~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name beber~
+do_fun do_beber~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cast~
+do_fun do_cast~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name channels~
+do_fun do_channels~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clan~
+do_fun do_clantalk~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clear~
+do_fun do_clear~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name changes~
+do_fun do_changes~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name commands~
+do_fun do_newcommands~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name compare~
+do_fun do_compare~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name consider~
+do_fun do_consider~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name count~
+do_fun do_count~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name credits~
+do_fun do_credits~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name chameleon~
+do_fun do_chameleon~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name combine~
+do_fun do_combine~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name compact~
+do_fun do_compact~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name chat~
+do_fun do_gossip~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name close~
+do_fun do_close~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cotizar~
+do_fun do_cotizar~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name circle~
+do_fun do_circle~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name condicion~
+do_fun do_condicion~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name copyover~
+do_fun do_copyover~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clans~
+do_fun do_clans~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clanstatus~
+do_fun do_clanstatus~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clanrecall~
+do_fun do_clan_recall~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name clone~
+do_fun do_clone~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cedit~
+do_fun do_cedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cmdedit~
+do_fun do_cmdedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name comun~
+do_fun do_common~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cwho~
+do_fun do_cwho~
+position dead~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name calcular~
+do_fun do_calcular~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name corpse~
+do_fun do_corpse~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name comer~
+do_fun do_eat~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name color~
+do_fun do_color~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name config~
+do_fun do_config~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name citar~
+do_fun do_quote~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name comprar~
+do_fun do_buy~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name comparar~
+do_fun do_compare~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name cerrar~
+do_fun do_close~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name considerar~
+do_fun do_consider~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name down~
+do_fun do_down~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name dentro~
+do_fun do_dentro~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name description~
+do_fun do_description~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name delet~
+do_fun do_delet~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name delete~
+do_fun do_delete~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name deaf~
+do_fun do_deaf~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name drink~
+do_fun do_drink~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name drop~
+do_fun do_drop~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name donate~
+do_fun do_donate~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name dirt~
+do_fun do_dirt~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name disarm~
+do_fun do_disarm~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name dump~
+do_fun do_dump~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name dog~
+do_fun do_dog~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name deny~
+do_fun do_deny~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name disable~
+do_fun do_disable~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name disconnect~
+do_fun do_disconnect~
+position dead~
+level 57
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name drow~
+do_fun do_drow~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name deprototipizar~
+do_fun do_deprototipizar~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name destruccion~
+do_fun do_destruccion~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name donar~
+do_fun do_donate~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name east~
+do_fun do_east~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name este~
+do_fun do_east~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name exits~
+do_fun do_exits~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name evaluar~
+do_fun do_evaluar~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name equipment~
+do_fun do_equipment~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name examine~
+do_fun do_examine~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name emote~
+do_fun do_emote~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name eat~
+do_fun do_eat~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name envenom~
+do_fun do_envenom~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name enter~
+do_fun do_enter~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name exlist~
+do_fun do_exlist~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name echo~
+do_fun do_recho~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name edit~
+do_fun do_olc~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name enano~
+do_fun do_dwarvish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name elfo~
+do_fun do_elvish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name examinar~
+do_fun do_examine~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name esgrimir~
+do_fun do_wear~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name esconder~
+do_fun do_hide~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name fuera~
+do_fun do_fuera~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name fill~
+do_fun do_fill~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name fee~
+do_fun do_fee~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name feed~
+do_fun do_feed~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name flee~
+do_fun do_flee~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name follow~
+do_fun do_follow~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name fulldump~
+do_fun do_fulldump~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name flag~
+do_fun do_flag~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name freeze~
+do_fun do_freeze~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name force~
+do_fun do_force~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name get~
+do_fun do_get~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name goto~
+do_fun do_goto~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name group~
+do_fun do_group~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name guild~
+do_fun do_guild~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name grats~
+do_fun do_grats~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name gtell~
+do_fun do_gtell~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name give~
+do_fun do_give~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name gain~
+do_fun do_gain~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name go~
+do_fun do_enter~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name groups~
+do_fun do_groups~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name gecho~
+do_fun do_echo~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name gnomo~
+do_fun do_gnomish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name goblin~
+do_fun do_goblin~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name gedit~
+do_fun do_gedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name grep~
+do_fun do_grep~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hit~
+do_fun do_kill~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hunt~
+do_fun do_hunt~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name help~
+do_fun do_help~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name heighten~
+do_fun do_heighten~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name heal~
+do_fun do_heal~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hold~
+do_fun do_wear~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hide~
+do_fun do_hide~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name holylight~
+do_fun do_holylight~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name humano~
+do_fun do_human~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hobbit~
+do_fun do_hobbit~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name hedit~
+do_fun do_hedit~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name inventory~
+do_fun do_inventory~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name idea~
+do_fun do_idea~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name info~
+do_fun do_groups~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name informar~
+do_fun do_info~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name incognito~
+do_fun do_incognito~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name invis~
+do_fun do_invis~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name immtalk~
+do_fun do_immtalk~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name imotd~
+do_fun do_imotd~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ignorar~
+do_fun do_ignorar~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name identify~
+do_fun do_identify~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name junk~
+do_fun do_sacrifice~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name kill~
+do_fun do_kill~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name kick~
+do_fun do_kick~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name kobold~
+do_fun do_kobold~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name look~
+do_fun do_look~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name list~
+do_fun do_list~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name lock~
+do_fun do_lock~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name load~
+do_fun do_load~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name log~
+do_fun do_log~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name learn~
+do_fun do_learn~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name lset~
+do_fun do_lset~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name lstat~
+do_fun do_lstat~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name limpiar~
+do_fun do_limpiar~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name llenar~
+do_fun do_fill~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name limit~
+do_fun do_limit~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name music~
+do_fun do_music~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name motd~
+do_fun do_motd~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mensaje~
+do_fun do_mensaje~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name murde~
+do_fun do_murde~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name murder~
+do_fun do_murder~
+position fighting~
+level 5
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mob~
+do_fun do_mob~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mlevel~
+do_fun do_mlevel~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name memory~
+do_fun do_memory~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mwhere~
+do_fun do_mwhere~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mpdump~
+do_fun do_mpdump~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mpstat~
+do_fun do_mpstat~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mplist~
+do_fun do_mplist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name medit~
+do_fun do_medit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mpedit~
+do_fun do_pedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mapa~
+do_fun do_map~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name mirar~
+do_fun do_look~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name north~
+do_fun do_north~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name norte~
+do_fun do_north~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name news~
+do_fun do_news~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name nivel~
+do_fun do_nivel~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name nofollow~
+do_fun do_nofollow~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name noloot~
+do_fun do_noloot~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name nosummon~
+do_fun do_nosummon~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name note~
+do_fun do_note~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name newlock~
+do_fun do_newlock~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name nochannels~
+do_fun do_nochannels~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name noemote~
+do_fun do_noemote~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name noshout~
+do_fun do_noshout~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name notell~
+do_fun do_notell~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name netstat~
+do_fun do_netstat~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name nuke~
+do_fun do_nuke~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name newscore~
+do_fun do_newscore~
+position dead~
+level 0
+log none~
+show none~
+#END
+
+#COMANDO
+name oeste~
+do_fun do_west~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name order~
+do_fun do_order~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name oldwizhelp~
+do_fun do_wizhelp~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name outfit~
+do_fun do_outfit~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name open~
+do_fun do_open~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name oldcommands~
+do_fun do_commands~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name olevel~
+do_fun do_olevel~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name owhere~
+do_fun do_owhere~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name omni~
+do_fun do_omni~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name oedit~
+do_fun do_oedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name orco~
+do_fun do_orcish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ogro~
+do_fun do_ogre~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name practice~
+do_fun do_practice~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name poker~
+do_fun do_poker~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name ptell~
+do_fun do_ptell~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pinvis~
+do_fun do_invis_pred~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name password~
+do_fun do_password~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name prompt~
+do_fun do_prompt~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pmote~
+do_fun do_pmote~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pmem~
+do_fun do_pmem~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pose~
+do_fun do_pose~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pick~
+do_fun do_pick~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pour~
+do_fun do_pour~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name put~
+do_fun do_put~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name play~
+do_fun do_play~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name peticion~
+do_fun do_petition~
+position resting~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name permban~
+do_fun do_permban~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name protect~
+do_fun do_protect~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pecho~
+do_fun do_pecho~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pardon~
+do_fun do_pardon~
+position dead~
+level 57
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name purge~
+do_fun do_purge~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name puntajes~
+do_fun do_puntajes~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name poofin~
+do_fun do_bamfin~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name poofout~
+do_fun do_bamfout~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name peace~
+do_fun do_peace~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name penalty~
+do_fun do_penalty~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name prefi~
+do_fun do_prefi~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name prefix~
+do_fun do_prefix~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name pausa~
+do_fun do_pausa~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name prototipizar~
+do_fun do_prototipizar~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name prohibir~
+do_fun do_prohibir~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name plist~
+do_fun do_plist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name preguntar~
+do_fun do_question~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name quiet~
+do_fun do_quiet~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name quaff~
+do_fun do_quaff~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name qui~
+do_fun do_qui~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name quit~
+do_fun do_quit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name quest~
+do_fun do_quest~
+position standing~
+level 5
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name responder~
+do_fun do_answer~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rest~
+do_fun do_rest~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name read~
+do_fun do_read~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name report~
+do_fun do_report~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rules~
+do_fun do_rules~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name reply~
+do_fun do_reply~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name replay~
+do_fun do_replay~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name recite~
+do_fun do_recite~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name remove~
+do_fun do_remove~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name reparar~
+do_fun do_reparar~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rescue~
+do_fun do_rescue~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name recall~
+do_fun do_recall~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rent~
+do_fun do_rent~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name remor~
+do_fun do_remor~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name remort~
+do_fun do_remort~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name reboo~
+do_fun do_reboo~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name reboot~
+do_fun do_reboot~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rename~
+do_fun do_rename~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name restore~
+do_fun do_restore~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name return~
+do_fun do_return~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name resets~
+do_fun do_resets~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name redit~
+do_fun do_redit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name raedit~
+do_fun do_raedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name remate~
+do_fun do_auction~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rezar~
+do_fun do_rezar~
+position standing~
+level 20
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name retar~
+do_fun do_retar~
+position dead~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name rechazar~
+do_fun do_rechazar~
+position dead~
+level 10
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name recoger~
+do_fun do_get~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name south~
+do_fun do_south~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sur~
+do_fun do_south~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sit~
+do_fun do_sit~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sockets~
+do_fun do_sockets~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name stand~
+do_fun do_stand~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sstat~
+do_fun do_sstat~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name spoker~
+do_fun do_spoker~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name scan~
+do_fun do_scan~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name score~
+do_fun do_score~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name skills~
+do_fun do_skills~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name socials~
+do_fun do_socials~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name show~
+do_fun do_show~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name spells~
+do_fun do_spells~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name story~
+do_fun do_story~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name scribe~
+do_fun do_scribe~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name study~
+do_fun do_study~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name shadow~
+do_fun do_shadow~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name scroll~
+do_fun do_scroll~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name say~
+do_fun do_say~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name shout~
+do_fun do_shout~
+position resting~
+level 3
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sell~
+do_fun do_sell~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sacrifice~
+do_fun do_sacrifice~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name stake~
+do_fun do_stake~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name surrender~
+do_fun do_surrender~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name snare~
+do_fun do_snare~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name search~
+do_fun do_search~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name save~
+do_fun do_save~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sleep~
+do_fun do_sleep~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sneak~
+do_fun do_sneak~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name split~
+do_fun do_split~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name steal~
+do_fun do_steal~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name stop~
+do_fun do_stop~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name set~
+do_fun do_set~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name shutdow~
+do_fun do_shutdow~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name shutdown~
+do_fun do_shutdown~
+position dead~
+level 59
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name silencio~
+do_fun do_silencio~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sla~
+do_fun do_sla~
+position dead~
+level 57
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name slay~
+do_fun do_slay~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name snoop~
+do_fun do_snoop~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name stat~
+do_fun do_stat~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name string~
+do_fun do_string~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name switch~
+do_fun do_switch~
+position dead~
+level 54
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name smote~
+do_fun do_smote~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sedit~
+do_fun do_sedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name skedit~
+do_fun do_skedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name speak~
+do_fun do_speak~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name scedit~
+do_fun do_scedit~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name shell~
+do_fun do_shell~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name scommands~
+do_fun do_scommands~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name structsizes~
+do_fun do_structsizes~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name sostener~
+do_fun do_wear~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name tell~
+do_fun do_tell~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name time~
+do_fun do_time~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name typo~
+do_fun do_typo~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name taxi~
+do_fun do_taxi~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name title~
+do_fun do_title~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name take~
+do_fun do_get~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name tap~
+do_fun do_sacrifice~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name trip~
+do_fun do_trip~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name tail~
+do_fun do_tail~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name train~
+do_fun do_train~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name trust~
+do_fun do_trust~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name traplist~
+do_fun do_traplist~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name teleport~
+do_fun do_transfer~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name transfer~
+do_fun do_transfer~
+position dead~
+level 55
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name troll~
+do_fun do_trollish~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name trozar~
+do_fun do_trozar~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name test~
+do_fun do_test~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name temp~
+do_fun do_temp~
+position dead~
+level 60
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name term~
+do_fun do_term~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name up~
+do_fun do_up~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name unlock~
+do_fun do_unlock~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name unalias~
+do_fun do_unalias~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name unread~
+do_fun do_unread~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name untangle~
+do_fun do_untangle~
+position fighting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name update~
+do_fun do_update~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name value~
+do_fun do_value~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name visible~
+do_fun do_visible~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name violate~
+do_fun do_violate~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name vlist~
+do_fun do_vlist~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name vnum~
+do_fun do_vnum~
+position dead~
+level 53
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name vender~
+do_fun do_sell~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name west~
+do_fun do_west~
+position standing~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wield~
+do_fun do_wear~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wizhelp~
+do_fun do_newwizhelp~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name weather~
+do_fun do_weather~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name who~
+do_fun do_who~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name whois~
+do_fun do_whois~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wizlist~
+do_fun do_wizlist~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name worth~
+do_fun do_worth~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wimpy~
+do_fun do_wimpy~
+position dead~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wear~
+do_fun do_wear~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wake~
+do_fun do_wake~
+position sleeping~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name where~
+do_fun do_where~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wizlock~
+do_fun do_wizlock~
+position dead~
+level 58
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wizinvis~
+do_fun do_invis~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name wiznet~
+do_fun do_wiznet~
+position dead~
+level 52
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name yell~
+do_fun do_yell~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name zap~
+do_fun do_zap~
+position resting~
+level 0
+log log_normal~
+show none~
+#END
+
+#COMANDO
+name zecho~
+do_fun do_zecho~
+position dead~
+level 56
+log log_normal~
+show none~
+#END
+

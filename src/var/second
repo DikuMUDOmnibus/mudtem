@@ -1,0 +1,95 @@
+void do_second (CHAR_DATA *ch, char *argument)
+/* wear object as a secondary weapon */
+{
+    OBJ_DATA *obj;
+    char buf[MAX_STRING_LENGTH]; /* overkill, but what the heck */
+
+    if (argument[0] == '\0') /* empty */
+    {
+        send_to_char ("Usar que arma en tu mano secundaria?\n\r",ch);
+        return;
+    }
+
+    if ( get_skill(ch,gsn_ambidiestro) == 0
+    ||	 (!IS_NPC(ch)
+    &&	  ch->level < skill_table[gsn_ambidiestro].skill_level[ch->class]))
+    {
+    	send_to_char ("No eres ambidiestro.\n\r", ch);
+    	return;
+    }
+
+    obj = get_obj_carry (ch, argument, ch); /* find the obj withing ch's inventory */
+
+    if (obj == NULL)
+    {
+        send_to_char ("No tienes eso en tu inventario.\n\r",ch);
+        return;
+    }
+
+    if ( obj->item_type != ITEM_WEAPON )
+    {
+    	send_to_char( "Solo puedes esgrimir armas.\n\r", ch );
+    	return;
+    }
+
+    /* check if the char is using a shield or a held weapon */
+
+    if ( (get_eq_char (ch,WEAR_SHIELD) != NULL) ||
+         (get_eq_char (ch,WEAR_HOLD)   != NULL) )
+    {
+        send_to_char ("No puedes usar un arma secundaria si estas usando un escudo o sosteniendo un item.\n\r",ch);
+        return;
+    }
+
+    if ( IS_WEAPON_STAT (obj, WEAPON_TWO_HANDS) )
+    {
+    	send_to_char ("No puedes esgrimir un arma a dos manos en tu mano secundaria.\n\r", ch );
+    	return;
+    }
+
+    if ( ch->level < obj->level )
+    {
+        sprintf( buf, "Debes ser nivel %d para usar este objeto.\n\r",
+            obj->level );
+        send_to_char( buf, ch );
+        act( "$n intenta usar $p, pero no tiene suficiente experiencia.",
+            ch, objToEnt(obj), NULL, TO_ROOM );
+        return;
+    }
+
+/* check that the character is using a first weapon at all */
+    if (get_eq_char (ch, WEAR_WIELD) == NULL) /* oops - != here was a bit wrong :) */
+    {
+        send_to_char ("Debes esgrimir un arma primaria, antes de usar una secundaria!\n\r",ch);
+        return;
+    }
+
+
+/* check for str - secondary weapons have to be lighter */
+/*    if ( get_obj_weight( obj ) > ( str_app[get_curr_stat(ch,STAT_STR)].wield * 2 ) )
+    {
+        send_to_char( "Esta arma es demasiado pesada para ti.\n\r", ch );
+        return;
+    } */
+
+/* check if the secondary weapon is at least half as light as the primary weapon */
+ /* if ( (get_obj_weight (obj)*2) > get_obj_weight(get_eq_char(ch,WEAR_WIELD)) )
+    {
+        send_to_char ("Tu arma secundaria debe ser considerablemente mas ligera que la primaria.\n\r",ch);
+        return;
+    } */
+
+
+/* at last - the char uses the weapon */
+
+    if (!remove_obj(ch, WEAR_SECONDARY, TRUE)) /* remove the current weapon if any */
+        return;                                /* remove obj tells about any no_remove */
+
+/* char CAN use the item! that didn't take long at aaall */
+
+    act ("$n esgrime $p en su mano secundaria.",ch,objToEnt(obj),NULL,TO_ROOM);
+    act ("Esgrimes $p en tu mano secundaria.",ch,objToEnt(obj),NULL,TO_CHAR);
+    equip_char ( ch, obj, WEAR_SECONDARY);
+    return;
+}
+

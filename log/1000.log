@@ -1,0 +1,162 @@
+Tue Aug  7 00:16:59 2001 :: Cargando variables.
+Tue Aug  7 00:16:59 2001 :: mud_calloc : pidiendo 2500000 bytes
+Tue Aug  7 00:16:59 2001 :: Inicializando SLang
+Tue Aug  7 00:16:59 2001 :: Creando clan_table de largo 9, tama~no 468
+Tue Aug  7 00:16:59 2001 :: Tabla de clanes cargada.
+Tue Aug  7 00:16:59 2001 :: Cargando puntajes
+Tue Aug  7 00:16:59 2001 :: Cargando segundos
+Tue Aug  7 00:16:59 2001 :: Creando race_table de largo 57, tama~no 8436
+Tue Aug  7 00:16:59 2001 :: Tabla de razas cargada.
+Tue Aug  7 00:16:59 2001 :: Cargando skills
+Tue Aug  7 00:16:59 2001 :: Creando tabla de skills de largo 227, tama~no 18160
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: spell_function : spell spell_lepra inexistente
+Tue Aug  7 00:16:59 2001 :: Creando tabla hash de skills
+Tue Aug  7 00:16:59 2001 :: Cargando grupos
+Tue Aug  7 00:16:59 2001 :: Creando cmd_table de largo 402, tama~no 8040
+Tue Aug  7 00:16:59 2001 :: Tabla de comandos cargada.
+Tue Aug  7 00:16:59 2001 :: Creando tabla de acceso a comandos
+Tue Aug  7 00:16:59 2001 :: Creando laberinto
+Tue Aug  7 00:16:59 2001 :: Cargando areas
+Tue Aug  7 00:16:59 2001 :: Cargando script 3018.scr.
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: chapel.are LINE: 500
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: Load_objects : obj 3420 sin nom, short o desc.
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: limbo.are LINE: 376
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: Load_objects : obj 47 sin nom, short o desc.
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: lab.are LINE: 67
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: Load_mobiles : mob 31000 con nom, short o long desc NULL.
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: gstrong.are LINE: 265
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_objects : obj 16666 con MELT_DROP y NODROP
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 1889
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : cuarto 23575 con mana_rate 500
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 1889
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : cuarto 23575 con heal_rate 500
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 2129
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : room 23593 con ROOM_ARENA
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 2146
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : room 23594 con ROOM_ARENA
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 2162
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : room 23595 con ROOM_ARENA
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 2288
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : cuarto 23505 con mana_rate 300
+Tue Aug  7 00:16:59 2001 :: [*****] FILE: smoon.are LINE: 2288
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: load_rooms : cuarto 23505 con heal_rate 300
+Tue Aug  7 00:16:59 2001 :: [*****] BUG: Fix_exits: 22726:0 -> 22731:2 -> 22727.
+Err: obj Cetro Lunar (23509) -- 33, mob #BSerena#b, La princesa de la Luna (23505) -- 60
+Err: obj Espada de Endimion (23511) -- 35, mob #BEndimion#b, El Principe de la Tierra (23504) -- 55
+Err: obj laser Gun (24500) -- 30, mob Un Comandante Imperial (24510) -- 43
+Tue Aug  7 00:16:59 2001 :: Cargando notas
+Tue Aug  7 00:16:59 2001 :: Cargando comandos inhabilitados
+Tue Aug  7 00:16:59 2001 :: Cargando bans
+Tue Aug  7 00:16:59 2001 :: Creando social_table de largo 255, tama~no 9180
+Tue Aug  7 00:16:59 2001 :: Tabla de socials cargada.
+Tue Aug  7 00:16:59 2001 :: Cargando valor de las acciones
+Tue Aug  7 00:16:59 2001 :: Cargando canciones
+Tue Aug  7 00:16:59 2001 :: Tabla de peticiones cargada.
+Tue Aug  7 00:16:59 2001 :: Lista de jugadores cargada.
+Tue Aug  7 00:16:59 2001 :: Black Dragon Mud is ready to rock on port 27040.
+Tue Aug  7 00:17:07 2001 :: Creando socket 6 para 164.77.115.101
+Tue Aug  7 00:17:11 2001 :: Loading Birdie.
+Tue Aug  7 00:17:13 2001 :: Birdie@as5300-s17-091.cnt.entelchile.net se ha conectado.
+Tue Aug  7 00:17:16 2001 :: Log Birdie: limpiar
+Tue Aug  7 00:17:16 2001 :: Ayaxs...borrado.
+Tue Aug  7 00:17:16 2001 :: Alejandro...borrado.
+Tue Aug  7 00:17:16 2001 :: Angeldust...borrado.
+Tue Aug  7 00:17:16 2001 :: Ambar...borrado.
+Tue Aug  7 00:17:16 2001 :: Algo...borrado.
+Tue Aug  7 00:17:16 2001 :: Aniquilador...borrado.
+Tue Aug  7 00:17:16 2001 :: Blackx...borrado.
+Tue Aug  7 00:17:16 2001 :: Bargaf...borrado.
+Tue Aug  7 00:17:16 2001 :: Belfegor...borrado.
+Tue Aug  7 00:17:16 2001 :: Berkram...borrado.
+Tue Aug  7 00:17:16 2001 :: Bardawulf...borrado.
+Tue Aug  7 00:17:16 2001 :: Biketrex...borrado.
+Tue Aug  7 00:17:16 2001 :: Cazabampiros...borrado.
+Tue Aug  7 00:17:16 2001 :: Crisis...borrado.
+Tue Aug  7 00:17:16 2001 :: Crono...borrado.
+Tue Aug  7 00:17:16 2001 :: Charmy...borrado.
+Tue Aug  7 00:17:16 2001 :: Candonga...borrado.
+Tue Aug  7 00:17:16 2001 :: Connan...borrado.
+Tue Aug  7 00:17:16 2001 :: Crovaxx...borrado.
+Tue Aug  7 00:17:16 2001 :: Charmander...borrado.
+Tue Aug  7 00:17:16 2001 :: Cristal...borrado.
+Tue Aug  7 00:17:16 2001 :: Cyber...borrado.
+Tue Aug  7 00:17:16 2001 :: Charizard...borrado.
+Tue Aug  7 00:17:16 2001 :: Cronopio...borrado.
+Tue Aug  7 00:17:16 2001 :: Caliel...borrado.
+Tue Aug  7 00:17:16 2001 :: DarkDanteZ...borrado.
+Tue Aug  7 00:17:16 2001 :: Daniel...borrado.
+Tue Aug  7 00:17:16 2001 :: Deimus...borrado.
+Tue Aug  7 00:17:16 2001 :: Doomsday...borrado.
+Tue Aug  7 00:17:16 2001 :: Darkness...borrado.
+Tue Aug  7 00:17:16 2001 :: Diabolik...borrado.
+Tue Aug  7 00:17:16 2001 :: Dasszero...borrado.
+Tue Aug  7 00:17:16 2001 :: Detsu...borrado.
+Tue Aug  7 00:17:16 2001 :: Ecotopia...borrado.
+Tue Aug  7 00:17:16 2001 :: Feo...borrado.
+Tue Aug  7 00:17:16 2001 :: Fenomenoide...borrado.
+Tue Aug  7 00:17:16 2001 :: Flatt...borrado.
+Tue Aug  7 00:17:16 2001 :: Falcete...borrado.
+Tue Aug  7 00:17:16 2001 :: Fucker...borrado.
+Tue Aug  7 00:17:16 2001 :: Fuzz...borrado.
+Tue Aug  7 00:17:16 2001 :: Guidohc...borrado.
+Tue Aug  7 00:17:16 2001 :: Guido...borrado.
+Tue Aug  7 00:17:16 2001 :: Goku...borrado.
+Tue Aug  7 00:17:16 2001 :: Gaudi...borrado.
+Tue Aug  7 00:17:16 2001 :: Ght...borrado.
+Tue Aug  7 00:17:16 2001 :: Hiperkore...borrado.
+Tue Aug  7 00:17:16 2001 :: Idea...borrado.
+Tue Aug  7 00:17:16 2001 :: Jj...borrado.
+Tue Aug  7 00:17:16 2001 :: Joel...borrado.
+Tue Aug  7 00:17:16 2001 :: Kyo...borrado.
+Tue Aug  7 00:17:16 2001 :: Kali...borrado.
+Tue Aug  7 00:17:16 2001 :: Kodro...borrado.
+Tue Aug  7 00:17:16 2001 :: Lordnet...borrado.
+Tue Aug  7 00:17:16 2001 :: Lodnet...borrado.
+Tue Aug  7 00:17:16 2001 :: Locro...borrado.
+Tue Aug  7 00:17:16 2001 :: LiMuBai...borrado.
+Tue Aug  7 00:17:16 2001 :: Margari...borrado.
+Tue Aug  7 00:17:16 2001 :: Metalero...borrado.
+Tue Aug  7 00:17:16 2001 :: Miriya...borrado.
+Tue Aug  7 00:17:16 2001 :: Melkor...borrado.
+Tue Aug  7 00:17:16 2001 :: Mutilator...borrado.
+Tue Aug  7 00:17:16 2001 :: MasterGz...borrado.
+Tue Aug  7 00:17:16 2001 :: Nigthmare...borrado.
+Tue Aug  7 00:17:16 2001 :: Newo...borrado.
+Tue Aug  7 00:17:16 2001 :: Neptuno...borrado.
+Tue Aug  7 00:17:16 2001 :: Pumma...borrado.
+Tue Aug  7 00:17:16 2001 :: Presto...borrado.
+Tue Aug  7 00:17:16 2001 :: Partner...borrado.
+Tue Aug  7 00:17:16 2001 :: Proteus...borrado.
+Tue Aug  7 00:17:16 2001 :: Panchoprip...borrado.
+Tue Aug  7 00:17:16 2001 :: Querichicha...borrado.
+Tue Aug  7 00:17:16 2001 :: Reev...borrado.
+Tue Aug  7 00:17:16 2001 :: Rubilinda...borrado.
+Tue Aug  7 00:17:16 2001 :: Rediablo...borrado.
+Tue Aug  7 00:17:16 2001 :: Roderick...borrado.
+Tue Aug  7 00:17:16 2001 :: Rickhunter...borrado.
+Tue Aug  7 00:17:16 2001 :: Somebody...borrado.
+Tue Aug  7 00:17:16 2001 :: Spike...borrado.
+Tue Aug  7 00:17:16 2001 :: Striper...borrado.
+Tue Aug  7 00:17:16 2001 :: Sephiro...borrado.
+Tue Aug  7 00:17:16 2001 :: SuperGandalf...borrado.
+Tue Aug  7 00:17:16 2001 :: Shiryu...borrado.
+Tue Aug  7 00:17:16 2001 :: Sahaquiel...borrado.
+Tue Aug  7 00:17:16 2001 :: Shotaro...borrado.
+Tue Aug  7 00:17:16 2001 :: SyroK...borrado.
+Tue Aug  7 00:17:16 2001 :: TheRock...borrado.
+Tue Aug  7 00:17:16 2001 :: Voxdei...borrado.
+Tue Aug  7 00:20:13 2001 :: Creando socket 7 para 164.77.121.159
+Tue Aug  7 00:21:02 2001 :: Guido@as5300-s23-149.cnt.entelchile.net jugador nuevo.
+Tue Aug  7 00:25:00 2001 :: Guido se retira.
+Tue Aug  7 00:27:22 2001 :: Birdie se retira.
+Tue Aug  7 09:01:31 2001 :: Creando socket 6 para 164.77.121.158
+Tue Aug  7 09:01:45 2001 :: EOF encontrado al leer.
+Tue Aug  7 21:33:50 2001 :: Creando socket 6 para 164.77.122.143
+Read_from_descriptor: Connection reset by peer
+Wed Aug  8 10:29:00 2001 :: Creando socket 6 para 146.83.181.50
+Wed Aug  8 10:29:09 2001 :: Loading Guido.
+Wed Aug  8 10:29:12 2001 :: Cerrando link a Guido.
+Wed Aug  8 10:29:14 2001 :: Creando socket 6 para 146.83.181.50
+Wed Aug  8 10:29:17 2001 :: Loading Guido.
+Wed Aug  8 10:29:19 2001 :: Guido@amon.inf.utem.cl se ha conectado.
+Wed Aug  8 10:29:50 2001 :: Guido se retira.

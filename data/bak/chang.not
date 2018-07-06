@@ -1,0 +1,248 @@
+Sender  Birdie~
+Date    Fri May  9 22:09:38 1997~
+Stamp   863240978
+To      all~
+Subject Cambio en el scan y el recall~
+Text
+Ahora el scan te dice si hay puertas o no.  (onda 'Hay una puerta hacia
+
+el norte').  Al poner recall + argumento (para las ciudades) te setean la
+
+hometown a la ciudad a la que haces recall en ese momento, o sea, si pones
+
+recall new thalos todos los recalls que hagas despues seran a new thalos
+
+(hasta que pongas recall midgaard).  
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Sat May 10 17:07:01 1997~
+Stamp   863309221
+To      all~
+Subject cambio en el drop~
+Text
+Para evitar un poco el flood ahora al poner drop all.potion (p/ej), si
+
+tienes mas de 1 pocion te saldra : Botas 100*potion of fly (p/ej)...
+
+en vez de las 100 lineas que salian antes. Todavia no lo
+
+implemento para el get y el put...de a poco.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Sat Jul 19 13:32:00 1997~
+Stamp   869344320
+To      all~
+Subject Mas cambios~
+Text
+Si pones 'taxi lista' te dice la lista de lugares donde te puede llevar. 
+
+El spell 'fireproof' ahora puedes lanzarselo a jugadores tambien (antes era
+
+solamente para los objetos), te hace invulnerable al fuego.  Ahora si estas
+
+esgrimiendo un arma secundaria y dejas de esgrimir la primera,
+
+automaticmanete lo hace con la segunda tambien.  Ahora los objetos de quest
+
+puede que algunos mobs los esten llevando, el quest info debiera decir donde
+
+esta el objeto igual.  Ahora los taxis debieran funcionar un poco mejor... 
+
+A algunos mobs si ahora los desarmas recogeran el arma despues de un rato.  
+
+
+Eso no mas por ahora
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Mon Jul 21 22:09:49 1997~
+Stamp   869548189
+To      all~
+Subject Novedades~
+Text
+Ahora despues de un PK la victima tendra 3 minutos de proteccion.
+
+Ahora hay maquinas ATM (cajeros automaticos), todavia hay uno solo pero
+
+pronto habran mas...ahora te dan mas de un train al subir de nivel,
+
+depende de tu INT...
+
+algunas otras cosas mas que no me acuerdo.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Mon Jul 28 16:44:44 1997~
+Stamp   870133484
+To      all~
+Subject Detalles~
+Text
+Se modifico un poco el AC de algunos mobs para hacerlos mas faciles,
+
+ahora los de nivel bajo son mas faciles y los de nivel alto son mas
+
+dificiles...  
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Wed Jul 30 19:24:42 1997~
+Stamp   870315882
+To      all~
+Subject Comando nuevo~
+Text
+El comando IGNORAR te permite ignorar tells de personas non-gratas. 
+
+Despues se hara para los canales.  
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Tue Aug 19 03:33:04 1997~
+Stamp   871986784
+To      all~
+Subject Aliases~
+Text
+Ahora se pueden crear aliases mas complejos...  Si al crear un alias
+
+ponen un $1, $2...  $5 en alguna parte del alias, ese $1...  $5 es
+
+reemplazado por el 1er....  5to parametro que escriben al EJECUTAR el alias.
+
+Como es eso...digamos que hacen un alias que se llame 'gf'.
+
+Como lo hacen? escribiendo 'alias gf get $1 from $2'.
+
+Que hace este alias? Mientras juegan, si ponen :
+
+gf pie bag
+
+eso se transforma en el mud en algo asi como:
+
+get pie from bag
+
+Otro ejemplo...un alias tonto. Haz un alias que se llama 'temp'...
+
+Para crearlo escribes 'alias temp chat $3 $2 $1'...que hace?
+
+escribe 'temp dick my suck'...y compruebalo :P
+
+tambien pueden poner $*, que se transforma en TODO EL ARGUMENTO que ponen
+
+al llamar el alias...que significa? otro alias 'temp'....
+
+escribe 'alias temp chat #xB#xF#xR$*#xn'...que hace?
+
+si escribes 'temp I AM COOL' saldra el texto I AM COOL en negrita,
+
+parpadeante, y en reverse (es un poco idiotizante si lo miras con atencion)
+
+y cosas asi. experimenten :P
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Wed Aug 27 21:26:21 1997~
+Stamp   872742381
+To      all~
+Subject Rezar, clanes y demases...~
+Text
+Ahora si eres nivel 20 o mayor y mueres, tu cuerpo queda exactamente
+
+donde te mataron... si estas en clan puedes rezarle a tu divinidad para
+
+poder recuperar tu cuerpo (con el comando 'rezar').
+
+Dependiendo del align del dios, es posible o no que aparezca tu cuerpo en el
+
+lugar donde siempre suelen aparecer. No puedes rezar en cualquier
+
+parte, solo en santuarios, cosas asi :P
+
+P.D. : El comando se llama 'rezar'.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Fri Jan  9 13:41:47 1998~
+Stamp   884382107
+To      all~
+Subject Cambios varios~
+Text
+Ahora el questmaster da mas QP's por quest si es que no se han dado cuenta.
+
+Pueden pedir un prestamo en el banco, de hasta 100000 MO, con el comando
+
+'bank prestamo', solo funciona donde el banquero. Para pagarlo
+
+deben poner 'bank pagar'. A
+
+ahora el dinero depositado y los prestamos tienen un interes diario
+
+de 2 y 3% respectivamente, es decir, por cada dia de TIEMPO REAL
+
+que transcurra se ajusta la cantidad. Todavia no hay un plazo para pagar los prestamos
+
+ni algun tipo de castigo por ser deudor, pero no se confien :P
+
+el efecto de los intereses es retroactivo, o sea, para muchos de uds.
+
+sus cuentas van a aumentar un resto, considerenlo un 'regalo'.
+
+eso no +
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Mon Nov 23 16:19:43 1998~
+Stamp   911866783
+To      all~
+Subject Recall~
+Text
+Ahora el recall solo funciona para los niveles bajo 8. El resto tendra que
+
+comprar scrolls.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Tue Dec  1 13:20:36 1998~
+Stamp   912547236
+To      all~
+Subject Clanes~
+Text
+Ahora no hay 'rango PK' para los que esten en clan.  Pueden pelear entre
+
+todos, de cualquier nivel, clan, o align.  No hay restriccion.  Todavia no
+
+pueden atacar a los que no esten en clan en todo caso.  
+
+
+Birdie
+
+~

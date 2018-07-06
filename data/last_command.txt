@@ -1,0 +1,4 @@
+[    0] Partner in [ 3054] En el Altar del Templo: 
+ia: say No te gustaria probar una de mis deliciosas tortas?
+^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[A^[
+[A^[A^[A^[A^[A

@@ -1,0 +1,133 @@
+#PLAYER
+Name Guido~
+Id   997158020
+LogO 997280990
+Vers 5
+Race vampire~
+Sex  1
+Nivel 'thief' 1
+Plyd 313
+Luck -76
+Room 3700
+HMV  20 20 100 100 100 100
+Gold 0
+Silv 0
+Exp  1000
+Act  CDEFGHQ
+AfBy DFJTU
+Vuln X
+Comm NOQb
+Pos  8
+Prac 5
+Trai 3
+Save  -1
+Alig  -750
+Hit   1
+ACs 95 95 95 99
+Attr 12 15 13 15 15
+AMod 0 0 0 0 0
+Victorias 0
+Derrotas 0
+Term vt100~
+Scro 22
+Pass GuvHRHUxJuR8o~
+Not  0 0 0 0 0
+Learn 5
+Speak 1
+ClanS 0
+MinClanS 0
+MaxClanS 10
+Lang 0 100
+Lang 1 100
+Lang 2 0
+Lang 3 0
+Lang 4 0
+Lang 5 0
+Lang 6 0
+Lang 7 0
+Lang 8 0
+Lang 9 0
+Lang 10 0
+Lang 11 0
+Titl  el novato~
+WhoTxt @~
+Pnts 40
+TSex 1
+TAli 2
+TRac 8
+LLev 0
+HMVP 20 100 100
+Cnd  0 46 47 47
+Incr 1
+Muertes 0
+Sk 1 'stake'
+Sk 40 'dagger'
+Sk 1 'mace'
+Sk 1 'sword'
+Sk 1 'backstab'
+Sk 1 'disarm'
+Sk 1 'dodge'
+Sk 1 'trip'
+Sk 1 'second attack'
+Sk 1 'snare'
+Sk 1 'untangle'
+Sk 1 'evaluar'
+Sk 1 'hunt'
+Sk 1 'hide'
+Sk 1 'peek'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'steal'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 50 'recall'
+Gr 'rom basics'
+Gr 'thief basics'
+Gr 'thief default'
+End
+
+#O
+Vnum 3716
+Nest 0
+Wear 0
+Cost 0
+Val  0 0 199 0 0
+End
+
+#O
+Vnum 3703
+Nest 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 0
+Wear 20
+Cost 0
+End
+
+#O
+Vnum 3701
+Nest 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 3704
+Nest 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 3162
+Nest 0
+Wear -1
+Cost 500
+End
+
+#END

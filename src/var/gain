@@ -1,0 +1,214 @@
+/* used to get new skills */
+void do_gain(CHAR_DATA *ch, char *argument)
+{
+    char buf[MAX_STRING_LENGTH];
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *trainer;
+    int gn = 0, sn = 0;
+
+    if (IS_NPC(ch))
+	return;
+
+    /* find a trainer */
+    for ( trainer = ch->in_room->people; 
+	  trainer != NULL; 
+	  trainer = trainer->next_in_room)
+	if (IS_NPC(trainer) && IS_SET(trainer->act,ACT_GAIN))
+	    break;
+
+    if (trainer == NULL || !can_see(ch,trainer))
+    {
+	send_to_char("You can't do that here.\n\r",ch);
+	return;
+    }
+
+    one_argument(argument,arg);
+
+    if (arg[0] == '\0')
+    {
+	do_say(trainer,"Pardon me?");
+	return;
+    }
+
+    if (!str_prefix(arg,"list"))
+    {
+	int col;
+	
+	col = 0;
+
+	sprintf(buf, "%-18s %-5s %-18s %-5s %-18s %-5s\n\r",
+	             "group","cost","group","cost","group","cost");
+	send_to_char(buf,ch);
+
+	for (gn = 0; gn < MAX_GROUP; gn++)
+	{
+	    if (group_table[gn].name == NULL)
+		break;
+
+	    if (!ch->pcdata->group_known[gn]
+	    &&  group_table[gn].rating[getClasePr(ch)] > 0 )
+	    {
+		sprintf(buf,"%-18s %-5d ",
+		    group_table[gn].name,group_table[gn].rating[getClasePr(ch)]);
+		send_to_char(buf,ch);
+		if (++col % 3 == 0)
+		    send_to_char("\n\r",ch);
+	    }
+	}
+	if (col % 3 != 0)
+	    send_to_char("\n\r",ch);
+	
+	send_to_char("\n\r",ch);		
+
+	col = 0;
+
+        sprintf(buf, "%-18s %-5s %-18s %-5s %-18s %-5s\n\r",
+                     "skill","cost","skill","cost","skill","cost");
+        send_to_char(buf,ch);
+ 
+        for (sn = 0; sn < MAX_SKILL; sn++)
+        {
+            if (skill_table[sn].name == NULL)
+                break;
+ 
+            if (!ch->pcdata->learned[sn]
+            &&  skill_table[sn].rating[getClasePr(ch)] > 0
+            &&	getNivelPr(ch) >= skill_table[sn].skill_level[getClasePr(ch)]
+            &&  getNivelPr(trainer) >= skill_table[sn].skill_level[getClasePr(ch)]
+	    &&  skill_table[sn].spell_fun == spell_null)
+            {
+                sprintf(buf,"%-18s %-5d ",
+                    NOMBRE_SKILL(sn), skill_table[sn].rating[getClasePr(ch)]);
+                send_to_char(buf,ch);
+                if (++col % 3 == 0)
+                    send_to_char("\n\r",ch);
+            }
+        }
+        if (col % 3 != 0)
+            send_to_char("\n\r",ch);
+	return;
+    }
+
+    if (!str_prefix(arg,"convert"))
+    {
+	if (ch->practice < 10)
+	{
+	    act("$N tells you 'You are not yet ready.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	act("$N helps you apply your practice to training",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	ch->practice -= 10;
+	ch->train +=1 ;
+	return;
+    }
+
+    if (!str_prefix(arg,"points"))
+    {
+	if (ch->train < 2)
+	{
+	    act("$N tells you 'You are not yet ready.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	if (ch->pcdata->points <= 40)
+	{
+	    act("$N tells you 'There would be no point in that.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	act("$N trains you, and you feel more at ease with your skills.",
+	    ch,NULL,chToEnt(trainer),TO_CHAR);
+
+	ch->train -= 2;
+	ch->pcdata->points -= 1;
+	ch->exp = exp_per_level(ch,ch->pcdata->points) * getNivelPr(ch);
+	return;
+    }
+
+    /* else add a group/skill */
+
+    gn = group_lookup(argument);
+    if (gn > 0)
+    {
+	if (ch->pcdata->group_known[gn])
+	{
+	    act("$N tells you 'You already know that group!'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	if (group_table[gn].rating[getClasePr(ch)] <= 0)
+	{
+	    act("$N tells you 'That group is beyond your powers.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	if (ch->train < group_table[gn].rating[getClasePr(ch)])
+	{
+	    act("$N tells you 'You are not yet ready for that group.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	/* add the group */
+	gn_add(ch,gn);
+	act("$N trains you in the art of $t.",
+	    ch,strToEnt(group_table[gn].name,ch->in_room),chToEnt(trainer),TO_CHAR);
+	ch->train -= group_table[gn].rating[getClasePr(ch)];
+	return;
+    }
+
+    sn = skill_lookup(argument);
+    if (sn > -1)
+    {
+	if (getNivelPr(trainer) < skill_table[sn].skill_level[getClasePr(ch)] )
+	{
+	    act("$N te dice 'No conozco ese skill.'",
+	    	ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+	if (skill_table[sn].spell_fun != spell_null)
+	{
+	    act("$N tells you 'You must learn the full group.'",
+		ch,NULL,chToEnt(trainer),TO_CHAR);
+	    return;
+	}
+
+        if (ch->pcdata->learned[sn])
+        {
+            act("$N tells you 'You already know that skill!'",
+                ch,NULL,chToEnt(trainer),TO_CHAR);
+            return;
+        }
+ 
+        if (skill_table[sn].rating[getClasePr(ch)] <= 0)
+        {
+            act("$N tells you 'That skill is beyond your powers.'",
+                ch,NULL,chToEnt(trainer),TO_CHAR);
+            return;
+        }
+ 
+        if (ch->train < skill_table[sn].rating[getClasePr(ch)])
+        {
+            act("$N tells you 'You are not yet ready for that skill.'",
+                ch,NULL,chToEnt(trainer),TO_CHAR);
+            return;
+        }
+ 
+        /* add the skill */
+	ch->pcdata->learned[sn] = 1;
+        act("$N trains you in the art of $t",
+            ch,strToEnt(NOMBRE_SKILL(sn),ch->in_room),chToEnt(trainer),TO_CHAR);
+        ch->train -= skill_table[sn].rating[getClasePr(ch)];
+        return;
+    }
+
+    act("$N tells you 'I do not understand...'",ch,NULL,chToEnt(trainer),TO_CHAR);
+}

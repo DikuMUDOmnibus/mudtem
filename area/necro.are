@@ -1,0 +1,5734 @@
+#AREADATA
+Name Necropolis~
+Builders Leatherface~
+VNUMs 17000 17200
+Credits {30 60} Leatherface Necropolis~
+Security 9
+Prototipo 1
+Low 25
+High 60
+Version 2
+End
+
+
+
+#MOBILES
+#17001
+Armadura~
+armadura~
+Una armadura esta aqui...
+~
+~
+'doomsday'
+ABOTX 0 0 -1000 0
+30 45 6d12+928 30d13+100 4d6+8 slash
+-9 -9 -9 -9
+DEFKLTU 0 0 0
+stand stand none 0
+0 0 medium 'acero'
+C 'warrior'
+F off O
+#17005
+madre~
+La Madre De Norman~
+La Madre de Norman esta aqui
+~
+Es una horrible vieja dicecada con los pellejos colgando trata de
+ahorcarte para que pases directo al INFIERNO 
+~
+'human'
+ABOTX HM 0 -600 0
+35 52 10d10+1400 35d14+100 6d5+11 pound
+-11 -11 -11 -11
+CDEFHIKLTU AL HK F
+stand stand female 10
+I 0 medium 'unknown'
+C 'warrior'
+#17006
+Murcielago~
+Un Murcielago~
+Un Murcielago esta aqui ...
+~
+Son grandes con hambre de carne humana, con ojos rojos que ven el la
+obscuridad 
+~
+'bat'
+ABFOX DV 0 -1000 0
+19 0 3d9+308 19d12+100 2d7+5 none
+-4 -4 -4 -4
+U L C 0
+stand stand none 500
+0 0 medium 'unknown'
+C 'warrior'
+F off F
+#17008
+Ratas del infierno~
+Ratas del infierno~
+Unos ojos te miran en la oscuridad
+~
+Es una rata asquerosa con grandes dientes amarillos te mira para atacarte 
+~
+'rata'
+AFPX DV 0 -100 0
+15 0 3d9+208 15d11+100 2d6+3 none
+-2 -2 -2 0
+GU AE 0 F
+stand stand none 0
+0 0 small 'carne'
+C 'thief'
+F off CFM
+#17009
+Norman Bates~
+Norman Bates~
+Un desequilibrado mental esta aqui mirandote...
+~
+Esta realmente loco sus ojos lo dicen todo rojos y ojerosos llenos de ira
+contra su madre pero en este momento es contra ti 
+~
+'human'
+ABCOTX HVX 0 -800 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -13
+CDEFHIKLTU AIT C F
+stand stand male 40000
+I WX medium 'unknown'
+C 'warrior'
+#17010
+freddy~
+Freddy Kruegger~
+Un ser humano completamente quemado te mira...
+~
+Esta totalmente quemado de los pies a la cabeza y alza sus garras para
+asustarte 
+~
+'human'
+ABTX DHVa 0 -800 0
+45 67 25d10+3250 45d15+100 9d5+16 none
+-15 -15 -15 -14
+CDEFHIKLTU 0 CEF G
+stand stand none 1000
+0 0 medium 'unknown'
+C 'warrior'
+#17011
+discipulo~
+Un discipulo~
+Un discipulo de Pazuzu se encuentra aqui,recitando maleficios.
+~
+~
+'human'
+AFPQX 0 0 0 0
+25 12 5d10+550 25d13+900 3d6+6 slash
+-7 -7 -7 -6
+FIKMRU 0 DFN A
+sit stand none 3
+B QV medium 'unknown'
+C 'cleric'
+#17012
+Pazuzu~
+Pazuzu~
+Pazuzu,el Demonio de las Tinieblas esta siendo invocado aqui.
+~
+~
+'modron'
+ABOTX HUVZ 0 -1000 0
+35 52 10d10+1400 35d14+100 6d5+11 slash
+-11 -11 -11 -11
+CDEFHIKLTU AI EFT J
+stand stand none 900
+I 0 medium 'masa'
+C 'warrior'
+F res IK
+#17013
+Coloso~
+Un coloso de piedra~
+Un coloso de piedra te vigila sigilosamente....
+~
+~
+'dragon'
+ABESX 0 0 500 0
+30 20 6d12+778 30d13+100 2d12+8 none
+-9 -9 -9 -8
+BEFHIJKNTUV AET GIY K
+stand stand none 30000
+0 0 giant 'piedra'
+C 'thief'
+#17020
+ratas~
+ratas~
+Unos ojos te miran en la oscuridad
+~
+Son feos ratones de medio kilo cada uno con dientes amarrilos y colas
+peladas 
+~
+'rata'
+AFX MV 0 -1000 0
+10 0 2d7+121 10d11+100 2d4+2 none
+1 1 1 4
+U E AI D
+stand stand either 10
+0 0 tiny 'carne'
+C 'warrior'
+F off CFM
+#17021
+larva~
+Una larva~
+Una apestosa larva transita por entre las estalagmitas.
+~
+~
+'snake'
+ACPX 0 0 0 0
+10 0 2d7+121 10d11+100 2d4+2 acbite
+1 1 1 4
+HRU 0 PT J
+stand stand female 0
+R 0 medium 'unknown'
+C 'warrior'
+F res L
+F vul I
+F par KQVX
+#17022
+Estalactita~
+Estalactita viviente~
+La Estalactita viviente camina hacia ti, con ansias de contienda.
+~
+~
+'modron'
+ABX a F -500 0
+19 9 3d9+308 19d12+700 2d7+5 punch
+-4 -4 -4 -2
+U 0 0 C
+stand stand none 0
+K 0 medium 'piedra'
+C 'mage'
+F par CHJ
+#17023
+Larva Madre~
+La Larva Madre~
+La apestosa creadora de toda esta atmosfera reside aqui.
+~
+~
+'snake'
+ABX AFV 0 -500 0
+12 0 2d10+150 12d11+100 1d10+3 suction
+0 0 0 2
+U 0 K AGJ
+stand stand either 500
+S 0 medium 'Indeterminada'
+C 'warrior'
+F for X
+#17024
+pirana~
+Una pirana~
+Un pez con un aspecto feroz esta en el canal
+~
+~
+'fish'
+ABFX Va 0 -100 0
+10 0 2d7+121 10d11+100 2d4+2 slash
+1 1 1 4
+RU 0 L GI
+stand stand none 0
+0 0 medium 'carne'
+C 'warrior'
+F off H
+#17025
+Altar de lodo~
+El Altar de lodo~
+Un altar de lodo,quieto,esteril, y muy bien preservado se impone en este salon.
+~
+~
+'giant'
+ABTUX DHcd 0 500 0
+20 30 4d10+360 20d12+100 2d8+5 pierce
+-4 -4 -4 -3
+CDEFIKLPTU QT L K
+stand stand none 0
+0 0 medium 'lodo'
+C 'warrior'
+#17026
+zombie~
+Un zombie~
+Un Zombie esta apestando aqui..
+~
+~
+'human'
+ACFOTX GMad 0 0 0
+25 37 5d10+600 25d13+100 2d10+7 pound
+-7 -7 -7 -7
+CDEFIKLTU 0 I AH
+stand stand none 0
+0 0 medium 'carne'
+C 'warrior'
+#17027
+Sombra~
+La Sombra~
+Distingues una extrana figura unos metros mas alla.
+~
+Es una portentosa figura de unos 5 metros de alto.
+~
+'human'
+ABTX NTUZ 0 400 0
+16 24 3d9+258 16d12+100 2d6+4 whip
+-2 -2 -2 -1
+CEFIKLTU E Q S
+stand stand none 500
+0 0 large 'Indeterminado'
+C 'warrior'
+F par FK
+#17028
+Craneo~
+Un craneo~
+Un Craneo bastante podrido vuela alrededor tuyo.
+~
+Sus ojos parecerian observarte unicamente a ti.
+~
+'bat'
+ATX AGJV D -900 0
+13 19 2d10+190 13d11+100 2d5+3 charge
+-1 -1 -1 -1
+ACEKLRTU LQ BEHK DFI
+stand stand none 500
+HI 0 small 'hueso'
+C 'warrior'
+F for V
+F par ACDEFHJKP
+#17029
+El Destructor~
+El Destructor~
+El destructor te eliminara de la faz de la tierra...por imbecil!!!
+~
+Una enorme figura se avalanza sobre ti despiadadamente.
+~
+'predator'
+ASX FHVa 0 -1000 0
+30 20 6d12+778 30d13+100 2d12+8 slash
+-9 -9 -9 -8
+ABEFHIJKNTUV 0 GL Q
+stand stand none 100
+0 0 huge 'Desconocido'
+C 'thief'
+#17030
+demonio del desierto~
+Demonio de la arena~
+El guardian de la entrada a la piramide esta aqui
+~
+Es horrible es un gran demonio morador de la arena y te quiere matar....  
+~
+'predator'
+ABOTX DHV 0 -1000 0
+43 64 25d10+2750 43d15+100 10d4+15 bite
+-15 -15 -15 -15
+CDEFHIKLTU A L E
+stand stand male 1000
+I 0 giant 'carne'
+C 'warrior'
+#17032
+Momia ~
+momias~
+Una momia esta aqui ....
+~
+Esta todo envuelta con trapos y quiere asesinarte...  
+~
+'giant'
+ABOTX d 0 -1000 0
+38 57 15d10+1700 38d14+100 16d2+12 pound
+-13 -13 -13 -13
+CDEFHIKLTU A 0 0
+stand stand none 100
+0 0 giant 'unknown'
+C 'warrior'
+#17033
+Enter sadman~
+Enter sadman~
+El Enter #BSadman#b esta aqui..
+~
+Te quiere matar es lo unico que desea 
+~
+'human'
+AFOTX DHVa 0 -1000 0
+38 57 15d10+1700 38d14+100 16d2+12 slash
+-13 -13 -13 -13
+CDEFHIKLTU A C 0
+stand stand male 100
+I 0 medium 'carne'
+C 'warrior'
+#17034
+Tut-Anhk-Amon~
+Tut-Anhk-Amon~
+El Faraon #BTut-Anhk-Amon#b esta aqui
+~
+~
+'human'
+ABOTX CDEFGHJNOTUc 0 -1000 0
+52 78 50d10+6000 52d16+100 15d5+20 pound
+-22 -22 -22 -22
+CDEFGHIKLTU A 0 C
+stand stand male 0
+CJ 0 medium 'unknown'
+C 'warrior'
+#17035
+Nitocris~
+Nicrosis la princesa~
+#B Nitocris la princesa del Nilo
+~
+~
+'human'
+ABOTX CDHNOVZc 0 0 0
+47 70 25d10+3750 47d15+100 13d4+17 pierce
+-17 -17 -17 -17
+CDEFHIKLTU A 0 0
+stand stand none 0
+0 0 medium 'carne'
+C 'warrior'
+#17036
+Cobras Gigantes~
+Cobras Gigantes~
+Una cobra esta aqui
+~
+~
+'snake'
+AFTX MVX 0 0 0
+26 39 5d10+650 26d13+100 3d7+7 pierce
+-7 -7 -7 -6
+CDEFKLRTU A 0 0
+stand stand none 0
+0 0 giant 'carne'
+C 'warrior'
+#17037
+Esfinge~
+Esfinge~
+Una #BEsfinge#b esta aqui
+~
+~
+'dragon'
+ABFTX DHVX 0 0 0
+50 75 50d10+5000 50d16+100 10d6+19 slash
+-20 -20 -20 -17
+CDEFHIKLTU A 0 0
+stand stand none 50000
+0 0 giant 'unknown'
+C 'warrior'
+F off M
+#17038
+Ra~
+Ra~
+Ra, el Dios mas importante del Egipto yace inmovil.
+~
+Estas ante una verdadera divinidad, aun no lo puedes creer.
+~
+'human'
+ABNORX CDEFGHJNOTUacd 0 1000 0
+52 26 50d10+4500 52d16+1800 11d5+18 slash
+-21 -21 -21 -21
+FGHKTU 0 HKQ 0
+stand stand male 0
+CJ 0 medium 'piedra'
+C 'mage'
+#17039
+Horus~
+Horus~
+Horus, el Sol naciente esta aqui.
+~
+El dios del sol naciente, hijo del gran Osiris, yace aqui.
+~
+'human'
+ABORXa CFGHad 0 1000 0
+50 25 25d10+3750 50d16+1700 13d4+17 pound
+-19 -19 -19 -19
+FKTU LQ EF Z
+stand stand none 0
+I L medium 'piedra'
+C 'mage'
+F for AHMV
+F par DEF
+#17040
+Aton~
+Aton~
+Aton, El Dios Universal yace aqui.
+~
+El Dios dominador del Universo reside en este lugar.
+~
+'god'
+ABORX 0 0 1000 0
+50 25 25d10+3750 50d16+1700 13d4+17 pierce
+-19 -19 -19 -19
+TU 0 CQ K
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+F off CDEILNO
+#17041
+anubis~
+Anubis~
+Anubis, el dios con forma de chacal yace aqui.
+~
+Un dios con una extrana apariencia facial parece observarte todo el rato.
+~
+'god'
+ABTX 0 0 1000 0
+50 75 50d10+5000 50d16+100 10d6+19 slash
+-20 -20 -20 -20
+TU N C 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F off NO
+#17042
+thot~
+Thot~
+Thot, dios de la cabeza de ibis, yace aqui.
+~
+Thot, senor de Hermopolis, descansa en este sitio.
+~
+'god'
+AFTX 0 0 1000 0
+50 75 50d10+5000 50d16+100 10d6+19 slash
+-20 -20 -20 -20
+TU 0 Z Q
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F aff JNOc
+F off NO
+#17043
+El jinete sin cabeza~
+El jinete sin cabeza~
+Un jinete... sin cabeza esta a caballo
+~
+~
+'human'
+ABOPTX HV 0 -1000 0
+37 55 10d10+1600 37d14+100 8d4+12 slash
+-12 -12 -12 -12
+CDEFHIKLTU A C 0
+stand stand male 0
+I 0 medium 'carne'
+C 'warrior'
+F par AEJK
+#17044
+Caballo negro~
+Caballo negro~
+Una caballo negro esta aqui
+~
+~
+'caballo'
+ABPRX V 0 -1000 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKTU A 0 0
+stand stand male 100
+0 0 medium 'carne'
+C 'mage'
+F off CI
+F par K
+#17045
+Alacran~
+Alacran ~
+Un Alacran Gigante esta aqui
+~
+~
+'centipede'
+AOSX 0 0 0 0
+30 20 6d12+778 30d13+100 2d12+8 slash
+-9 -9 -9 -9
+BEFHIJKNTUV A 0 0
+stand stand male 100
+0 0 giant 'carne'
+C 'thief'
+F vul E
+#17046
+Lobo asesino~
+lobo asesino~
+Un Lobo Asesino te grunne en sennal de odio
+~
+~
+'wolf'
+ABTX 0 0 0 0
+37 55 10d10+1600 37d14+100 8d4+12 none
+-12 -12 -12 -11
+CDEIKLRTU A 0 0
+stand stand none 100
+0 0 medium 'unknown'
+C 'warrior'
+#17047
+Lobo Blanco~
+Lobo Blanco~
+El jefe de la manada un Lobo Blanco esta aqui
+~
+~
+'wolf'
+ABTX HV 0 -1000 0
+43 64 25d10+2750 43d15+100 10d4+15 none
+-15 -15 -15 -13
+CDEIKLTU A 0 0
+stand stand male 10000
+0 0 medium 'carne'
+C 'warrior'
+#17048
+Hombre Lobo~
+Hombre Lobo~
+El #BHombre Lobo#b esta aqui
+~
+~
+'human'
+ABSX DHVa 0 0 0
+47 31 25d10+3250 47d15+100 7d7+16 none
+-16 -16 -16 -15
+BEFHIJKNTUV A 0 0
+stand stand male 47000
+0 0 medium 'unknown'
+C 'thief'
+#17049
+Sombras~
+Sombras~
+Una sombra esta aqui
+~
+~
+'modron'
+ABTX BV 0 -1000 0
+39 58 15d10+1850 39d14+100 17d2+13 none
+-13 -13 -13 -12
+CDEFHIKLTU 0 0 0
+stand stand none 10000
+AMV DEFI medium 'unknown'
+C 'warrior'
+F off Q
+#17050
+Gran sombra~
+Sombra~
+Una sombra esta aqui
+~
+~
+'modron'
+ABTX H 0 0 0
+39 58 15d10+1850 39d14+100 17d2+13 none
+-13 -13 -13 -12
+CDEFHIKLTU 0 0 0
+stand stand none 10000
+0 0 giant 'unknown'
+C 'warrior'
+F off Q
+#17051
+triton~
+triton~
+El Triton guardia esta aqui
+~
+~
+'human'
+ABTX HV 0 0 0
+39 58 15d10+1850 39d14+100 17d2+13 none
+-13 -13 -13 -12
+CDEFHIKLTU A C 0
+stand stand male 10000
+0 0 medium 'unknown'
+C 'warrior'
+#17053
+Nodens~
+Nodens~
+Aqui esta #BNodens#b el sennor de las profundidades
+~
+~
+'fish'
+ABTX HT 0 -1000 0
+49 73 50d10+4500 49d16+100 11d5+18 none
+-19 -19 -19 -16
+CDEFIKLRTU A R C
+stand stand none 49000
+BHMVW BCGHIJPQV medium 'unknown'
+C 'warrior'
+#17055
+neptun~
+neptuno~
+#BNeptuno#b sennor de los siete mares
+~
+~
+'god'
+ABQX 0 F -1000 0
+54 27 50d10+6500 54d16+1900 15d5+20 none
+-24 -24 -24 -24
+TU A 0 0
+stand stand male 54000
+0 0 giant 'escamas'
+C 'cleric'
+F off CDELNO
+#17056
+Cocodrilo~
+Cocodrilos~
+Un cocodrilo gigante esta aqui
+~
+~
+'lizard'
+ABFSX Q 0 0 0
+30 20 6d12+778 30d13+100 2d12+8 pierce
+-9 -9 -9 -8
+BEFHIJKMNRTUV 0 0 0
+stand stand none 1000
+0 0 giant 'unknown'
+C 'thief'
+#17057
+karol j. VonHunter~
+Karol J. VonHunter~
+Un veterano caza vampiros esta aqui
+~
+~
+'human'
+ABTX H 0 0 0
+45 67 25d10+3250 45d15+100 9d5+16 none
+-15 -15 -15 -14
+CDEFHIKLTU ADF 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+M 'grall' 17000 100~
+#17058
+Igor~
+Igor~
+Igor el fiel sirviente del conde esta aqui
+~
+~
+'human'
+ABSX d 0 -1000 0
+29 19 6d12+703 29d13+100 2d12+8 none
+-8 -8 -8 -7
+BEFHIJKNTUV A 0 0
+stand stand male 10000
+0 0 small 'unknown'
+C 'thief'
+M 'grall' 17001 100~
+#17059
+Condesa Bathory~
+Condesa Bathory~
+Una hermosa mujer esta aqui
+~
+~
+'vampire'
+ABRX H 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKRTU AL 0 0
+stand stand female 10000
+0 0 medium 'unknown'
+C 'mage'
+F vul X
+M 'grall' 17002 100~
+#17060
+Vampiro~
+Vampiro~
+Un vampiro esta aqui
+~
+~
+'vampire'
+ASX 0 0 -800 0
+38 25 10d10+1500 38d14+100 8d4+12 none
+-12 -12 -12 -12
+BEFHIJKNTUV ALS 0 0
+stand stand none 1000
+0 0 medium 'carne'
+C 'thief'
+F vul X
+#17061
+Nosferatu~
+Nosferatu el Vampiro~
+Nosferatu el #BVampiro#b esta aqui listo para la lucha
+~
+~
+'vampire'
+AQX CEGHNOc 0 -1000 0
+53 26 50d10+6000 53d16+1800 5d13+20 none
+-23 -23 -23 -23
+FGHIKTU ALS 0 0
+stand stand male 10000
+CJ 0 medium 'unknown'
+C 'cleric'
+F vul X
+#17062
+sirviente~
+Sirvientes de dracula~
+Un Sirviente esta aqui
+~
+~
+'vampire'
+ABTX 0 0 -800 0
+38 57 15d10+1700 38d14+100 16d2+12 none
+-13 -13 -13 -13
+CDEFHIKLTU LS 0 0
+stand stand none 1000
+0 0 medium 'unknown'
+C 'warrior'
+F vul X
+#17063
+pitonisa~
+Pitonisa~
+La pitonisa de dracula esta aqui
+~
+~
+'vampire'
+ABQX CEGHNOVc 0 -1000 0
+49 24 50d10+4000 49d16+1700 13d4+17 none
+-19 -19 -19 -19
+FGHIKTU ALS 0 0
+stand stand female 10000
+CJ 0 medium 'unknown'
+C 'cleric'
+F vul X
+#17064
+conde~
+conde dracula~
+El #BGran Conde Dracula#b,El Empalador esta aqui
+~
+~
+'vampire'
+ABQX CEGHNOc 0 -1000 0
+55 27 50d10+7000 55d16+1900 15d6+21 none
+-25 -25 -25 -25
+FGHIKTU ALS 0 0
+stand stand male 55000
+CJ 0 medium 'pura_fibra'
+C 'cleric'
+F vul X
+M 'grall' 17003 100~
+#17065
+arbol ~
+arbol maldito~
+Un arbol esta aqui 
+~
+~
+'modron'
+ABOTX 0 0 -1000 0
+43 64 25d10+2750 43d15+100 10d4+15 none
+-15 -15 -15 -15
+CDEFHIKLTU 0 0 0
+stand stand none 0
+0 0 giant 'unknown'
+C 'warrior'
+#17066
+putas del averno~
+Putas del Averno~
+Una mujer de vida facil esta aqui
+~
+~
+'human'
+ACOSX H 0 -1000 0
+40 26 15d10+1700 40d15+100 17d2+13 none
+-13 -13 -13 -13
+BEFHIJKNTUV A 0 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'thief'
+#17067
+guerra~
+Guerra~
+Guerra el primer jinete del apocalipsis esta aqui
+~
+~
+'human'
+ABMTX CDEFGHJNOTUc 0 -1000 0
+50 75 50d10+5000 50d16+100 10d6+19 none
+-20 -20 -20 -20
+CDEFGHIKLQTU A 0 0
+stand stand male 1000
+CJ 0 giant 'unknown'
+C 'warrior'
+#17068
+caballo del apoclipsis~
+caballo del apocalipsis~
+Un caballo rojo esta aqui
+~
+~
+'caballo'
+ABFQX H 0 -1000 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FKQTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+F off C
+#17069
+peste lepra~
+Lepra~
+Lepra el segundo jinete del apocalipsis esta aqui
+~
+~
+'undead'
+ABMQX EHNOTXc 0 -1000 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+FGHIKTU A 0 0
+stand stand none 45000
+CJ 0 medium 'unknown'
+C 'cleric'
+#17070
+caballo peste~
+caballo~
+Un caballo leproso esta aqui
+~
+~
+'caballo'
+ABFOTX H 0 -100 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -11
+DEFKLQTU A 0 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'warrior'
+#17071
+hambre~
+Hambre~
+Hambre el tercer jinete del apocalipsis esta aqui
+~
+~
+'human'
+ABMSX CDEFGHJNOTUc 0 0 0
+45 30 25d10+2750 45d15+100 5d9+15 none
+-15 -15 -15 -15
+BEFGHIJKNTUV A 0 0
+stand stand male 0
+CJ 0 medium 'unknown'
+C 'thief'
+#17072
+caballo de hambre~
+caballo~
+Un caballo esqueletico esta aqui 
+~
+~
+'caballo'
+ABFTX H 0 0 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -10
+DEFKLQTU A 0 0
+stand stand male 10000
+0 0 medium 'unknown'
+C 'warrior'
+#17073
+Muerte~
+Muerte~
+Muerte el cuarto jinete del apocalipsis esta aqui
+~
+~
+'human'
+ABMORX CDEFGHJNOTUc 0 -1000 0
+45 22 25d10+2500 45d15+1600 5d8+14 none
+-15 -15 -15 -15
+FGHKTU A 0 0
+stand stand male 45000
+CJ 0 medium 'unknown'
+C 'mage'
+#17074
+caballo del apocalipsis~
+caballo del apocalipsis~
+Un caballo negro esta aqui
+~
+~
+'caballo'
+ATX H 0 0 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -10
+DEFKLQTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#17075
+Caronte~
+Caronte~
+Caronte El Taxista del infierno
+~
+~
+'human'
+ABLRX CDEFGHJNOTUc 0 0 0
+60 30 50d10+8500 60d17+2100 15d10+24 none
+-29 -29 -29 -29
+FGHKTU 0 0 0
+stand stand none 0
+CJ 0 medium 'unknown'
+C 'mage'
+M 'grall' 17004 100~
+#17076
+Cancerbero~
+Cancerbero~
+Cancerbero El Guardian del infierno
+~
+~
+'dog'
+ABFQX CDEFGHJNOTUc 0 0 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -20
+FGIKTU A 0 0
+stand stand none 50000
+CJM BGI giant 'unknown'
+C 'cleric'
+#17077
+satanas~
+#BSatanas#b~
+#BSatanas  #b esta aqui
+~
+~
+'angel'
+ABCQX DFGHJNOUc 0 -1000 0
+60 30 50d10+9500 60d17+2100 20d10+25 none
+-30 -30 -30 -30
+FGHIKTU AH 0 I
+stand stand none 60000
+C 0 medium 'unknown'
+C 'cleric'
+#17078
+Demonios del infierno~
+Demonio del infierno~
+Un Demonio del Infierno esta aqui
+~
+~
+'angel'
+ACTX H 0 0 0
+38 57 15d10+1700 38d14+100 16d2+12 none
+-13 -13 -13 -11
+CDEFHIKLTU AH 0 0
+stand stand none 38000
+0 0 medium 'unknown'
+C 'warrior'
+#17079
+Sepulturero~
+sepulturero~
+Selpulturero el guardian del cementerio esta aqui
+~
+~
+'undead'
+ABFSX H 0 -500 0
+25 16 5d10+500 25d13+100 2d10+6 none
+-6 -6 -6 -6
+BEFHIJKNUV A 0 0
+stand stand none 25000
+0 0 medium 'unknown'
+C 'thief'
+#17080
+alma errante~
+Alma Errante~
+Un alma en pena esta aqui
+~
+~
+'undead'
+ACFPTX H 0 -100 1
+20 30 4d10+360 20d12+100 2d8+5 cadenazo
+-4 -4 -4 -4
+CDEFIKLTU A C K
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#17081
+fido-janitor-drunk~
+fido-janitor-drunk-smurf-boar~
+Una masa de aglutinada de almas esta aqui
+~
+~
+'undead'
+ABCFTX EHNOTc 0 0 0
+37 55 10d10+1600 37d14+100 8d4+12 suction
+-12 -12 -12 -12
+CDEFGHIKLTU A 0 H
+stand stand none 37000
+CJ 0 medium 'unknown'
+C 'warrior'
+#17082
+Cripper~
+Cripper El banquero~
+Una figura calaverica esta aqui
+~
+~
+'undead'
+ABDXe 0 0 0 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FIKU ACDEFG 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#17083
+asarualimnunna~
+Asarualimnunna~
+Un vendedor muy extrao esta aqui
+~
+~
+'undead'
+ABDX H 0 -1000 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FIKU ACDF 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#17084
+garnilac~
+Garnilac ~
+Un Extrao vendedor esta aqui
+~
+~
+'undead'
+ABTX H 0 -1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -13
+CDEFIKLTU ACDEFGK 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#17085
+Sub-nighurat~
+Sub-nighurat~
+Un extrao vendedor esta aqui
+~
+~
+'undead'
+ABTX H 0 -1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -13
+CDEFIKLTU ABCDEGKL 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#17086
+Asenath~
+Asenath~
+Una bella mujer esta aqui
+~
+~
+'undead'
+ABTX H 0 -1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -13
+CDEFIKLTU ABCDEFGHJKPT 0 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'warrior'
+#17087
+dragonblanko~
+dragonblanco~
+Un agueona'o esta aqui
+~
+~
+'human'
+AX 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#17088
+Heberest Wells~
+Heberes Wells el Reanimador~
+Un ser despreciable te mira con caesta aqui
+~
+~
+'human'
+ASX H 0 -500 0
+30 20 6d12+778 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+BEFIJKNUV CD 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#0
+
+
+
+#OBJECTS
+#17001
+pala~
+una pala~
+Una pala esta ahi tirada ~
+indef~
+weapon BCId AN
+sword 5 7 'crush' E
+28 40 10000 P
+#17002
+armadura tripas~
+armadura de tripas~
+Un embrollo de tripas y carnes esta botado ~
+tripas~
+armor IJd AD
+10 15 10 0 0
+25 40 10000 P
+#17004
+tumba~
+tumba~
+Una tumba recien abierta esta tirada aqui~
+madera~
+furniture d 0
+1 5000 L -100 -50
+0 1000 0 P
+#17006
+bisturi~
+un Bisturi~
+Una hoja de metal muy afilada esta botada~
+indef~
+weapon AId AN
+dagger 5 10 'slice' 0
+42 30 1000 P
+A
+2 2
+#17007
+garras freddy~
+la garra de freddy~
+Un extra-o guante esta botado aqui~
+indef~
+weapon AEIJd AN
+exotic 5 11 'slice' H
+47 60 1000000 P
+#17009
+maza~
+una maza de piel humana~
+Una maza fabricada con piel de tus padres se encuentra aqui.~
+piel~
+weapon Gd AN
+mace 5 5 'crush' 0
+18 100 200 P
+#17010
+garras de krugger~
+garras de freddy~
+Un objeto extra-o esta ahi...~
+acero~
+weapon d AN
+exotic 5 10 'slash' D
+43 50 10000 P
+#17011
+anillo~
+un anillo~
+Un precioso anillo esta abandonado aqui.~
+diamante~
+gem AGIKNd AB
+0 0 0 0 0
+19 5 5000 P
+#17012
+maza~
+una maza~
+Distingues una maza muy rustica.~
+piedra~
+weapon Dd AN
+mace 4 5 'pound' H
+8 70 50 P
+#17013
+Espejo~
+un espejo~
+Un espejo..tal vez maldito...esta aqui.~
+vidrio~
+portal AGMWd 0
+100 A A 17047 0
+52 31073 50000 P
+#17014
+escudo~
+un escudo~
+Observas ansiosamente un escudo tirado en el piso.~
+platino~
+armor d AJ
+3 4 3 1 0
+5 20 100 P
+#17028
+casco~
+casco de hierro~
+Un casco esta tirado aqui~
+hierro~
+armor Jd AE
+8 10 8 5 0
+30 50 100000 P
+A
+4 2
+#17029
+botas de hierro~
+botas de hierro~
+Unas botas estan tiradas ahi...~
+hierro~
+armor GJd AF
+10 10 10 0 0
+27 150 100000 P
+A
+14 30
+#17030
+escudo de rodela~
+escudo de rodela~
+Un pedazo de metal redondo esta en el suelo~
+hierro~
+armor GJd AJ
+5 10 5 10 0
+25 50 10000 P
+A
+2 1
+#17031
+coraza~
+coraza negra~
+Una coraza negra de un material desconocido esta en el suelo~
+indef~
+armor BGd AD
+10 5 15 25 0
+27 50 10000 P
+A
+13 30
+#17032
+cimitarra del desierto~
+cimitarra del desierto~
+Una cimitarra esta en el suelo~
+indef~
+weapon BGId AN
+sword 6 10 'slash' F
+40 100 300000 P
+#17033
+Portal~
+un portal~
+El portal te invita a entrar en el.~
+indef~
+portal d P
+100 A A 17055 0
+1 0 5000 P
+#17034
+mazo de arena~
+mazo de arena~
+Una especie de mazo esta tirado ahi~
+tierra~
+weapon Bd AN
+mace 5 9 'crush' 0
+38 80 10000 P
+A
+1 2
+#17035
+papiro~
+papiro~
+Un rollo de papel esta ahi~
+papel~
+scroll GHd AO
+30 'energy drain' 'plague' '' ''
+35 5 10000 P
+#17036
+tesoro real ~
+tesoro real~
+El #Btesoro real#b del faraon esta tirado ahi~
+oro~
+trash ABRd AP
+0 0 0 0 0
+60 135 0 P
+T 2 4 1000
+#17037
+Cinturon de ra~
+cinturon de #BRA#b~
+Un cinturon esta tirado ahi~
+indef~
+armor BGId AL
+15 10 13 15 0
+42 60 1000000 P
+A
+4 3
+A
+13 30
+#17039
+diadema sol~
+diadema del sol~
+Un objeto brillante esta en el suelo~
+diamante~
+armor ABId AE
+10 10 10 15 0
+44 30 1000000 P
+A
+12 30
+A
+3 3
+#17040
+llave del sol~
+llave del sol~
+Una especie de llave esta en el suelo~
+oro~
+key Bd AO
+0 0 0 0 0
+0 20 1000000 P
+#17041
+Fuente~
+fuente~
+Una fuente esta aqui para que sacies tu sed~
+plata~
+fountain GJd 0
+100000 100000 'beer' 0 0
+0 1 100000000 P
+#17042
+llave del mar~
+llave del mar~
+Una especie de llave esta en el suelo~
+nacar~
+key BGd AO
+0 0 0 0 0
+25 13 1000 P
+#17043
+Mazo de nacar~
+mazo de nacar~
+Un mazo esta tirado en el suelo~
+nacar~
+weapon d AN
+mace 5 8 'crush' 0
+36 70 100000 P
+#17044
+espada profundidades~
+espada de las Profundidades~
+Una extranna espada esta tirada ahi~
+nacar~
+weapon ABGId AN
+sword 5 10 'slash' E
+43 250 1000000 P
+#17045
+Perla~
+perla~
+Una inmensa #BPerla#b esta en el suelo ~
+indef~
+treasure ABGIRd AP
+0 0 0 0 0
+10 27008 0 P
+T 2 2 1000
+#17046
+Mazo de las profundidades~
+mazo de las Profundidades~
+Un mazo esta tirado ahi~
+nacar~
+weapon BGId AN
+mace 4 12 'crush' E
+45 80 100000 P
+#17047
+armadura de nacar~
+armadura de nacar~
+Una armadura esta ahi tirada~
+nacar~
+armor BGd AD
+15 15 20 15 0
+45 60 10000 P
+A
+18 6
+A
+19 6
+A
+12 40
+A
+13 30
+A
+3 -2
+#17048
+llave de neptuno~
+llave de neptuno~
+Un pedazo de nacar esta en el suelo~
+nacar~
+key Bd AO
+0 0 0 0 0
+0 2 0 P
+#17049
+Flores ~
+flor de loto~
+Una flor muy bella y comestible esta ahi~
+fibra~
+food BGd A
+30 5 0 A 0
+30 2 0 P
+#17050
+pila oro~
+pila de oro~
+Una #Bpila de Oro#b esta en el suelo.~
+indef~
+trash Rd AP
+0 0 0 0 0
+30 20 30000 P
+T 2 5 1000
+#17051
+pocion ajo~
+pocion de ajo~
+Un frasco esta aqui tirado~
+ajo~
+potion BGd AO
+43 'exorcise' 'armor' 'cancellation' ''
+43 50 9000 P
+#17052
+Manuscrito ~
+manuscrito~
+Un pedazo de papel esta en el suelo~
+ajo~
+scroll d AO
+40 'fire breath' 'demonfire' '' ''
+40 5 5000 P
+#17053
+Crunches~
+crunches~
+Un pan en forma de cruz esta en el suelo~
+indef~
+food BId A
+40 20 0 0 0
+30 10 2000 P
+#17054
+llave darvula~
+llave darvula~
+Una llave de oro esta en el suelo ~
+oro~
+key d AO
+0 0 0 0 0
+30 10 10000 P
+#17055
+daga Vampirica~
+daga Vampirica~
+Una daga esta tirada en el suelo~
+plata~
+weapon BGd AN
+dagger 5 9 'stab' C
+39 80 1000 P
+#17056
+libro mal~
+libro del mal~
+Un objeto con forma de staff esta en el suelo~
+indef~
+staff Bd AO
+47 15 15 'amnesia' 0
+47 40 10000 P
+#17057
+tumba~
+tumba~
+La tumba de Dracula esta en el suelo~
+oro~
+portal ABd 0
+1000000 A A 2231 0
+40 16960 1000000000 P
+#17058
+espada~
+espada del Averno~
+Una espada esta en el suelo~
+indef~
+weapon ABGId AN
+sword 7 9 'slash' C
+48 250 100000 P
+#17059
+fruto deseo~
+fruto Del Deseo~
+Un Fruto Esta Tirado en el suelo~
+indef~
+food GId AO
+1000 40 0 A 0
+30 10 1 P
+#17060
+espada~
+espada de Altar~
+La gran espada del senio altar esta aqui.~
+oro~
+weapon AGd AN
+sword 5 5 'slash' H
+15 49 1000 P
+A
+13 10
+#17061
+Espada apocaliptica~
+espada apocaliptica~
+Una extranna espada seta en el suelo ~
+indef~
+weapon ABId AN
+sword 6 10 'slash' A
+47 250 1000000 P
+#17062
+anillo de guerra~
+anillo de guerra~
+Un objeto esta botado en el suelo~
+indef~
+armor ABd AB
+10 10 10 5 0
+45 15 100000 P
+A
+13 40
+A
+1 2
+#17063
+cinturon de peste~
+cinturon de peste~
+Un cinturon con extrannos simbolos esta en el suelo~
+indef~
+armor ABd AL
+10 12 13 10 0
+45 100 10000000 P
+A
+24 20
+A
+13 30
+#17064
+aros hambre~
+aros de hambre~
+Un objeto muy pequeno esta tirado ahi.~
+indef~
+armor ABJd AS
+14 12 10 5 0
+45 1 10000000 P
+A
+18 4
+A
+2 3
+A
+13 40
+#17065
+escudo de muerte~
+escudo de Muerte~
+Un escudo con extrannas inscripciones esta en el suelo~
+indef~
+armor ABd AJ
+14 15 10 10 0
+42 100 100000000 P
+A
+5 3
+A
+19 5
+A
+13 30
+#17066
+estatua leatherface~
+estatua de Leatherface~
+Una Gran Estatua del Tiranico Dios Leatherface se Levanta ante ti~
+oro~
+portal ABd 0
+1000000000 A A 17152 0
+60 1 0 P
+#17076
+Collar de cancerbero~
+collar de Cancerbero~
+Un gran collar esta en el suelo~
+indef~
+armor ABJd AC
+10 5 8 14 0
+40 100 2147483647 P
+A
+12 50
+A
+13 50
+#17077
+Llave del infierno~
+llave del infierno~
+Un pedazo de metal mohoso esta en el suelo~
+indef~
+key ABd A
+0 0 0 0 0
+0 2 1 P
+#17078
+Tridente de satanas~
+tridente de Satanas~
+Un tridente esta aqui en el suelo~
+indef~
+weapon ABIJd AN
+exotic 10 9 'slash' A
+60 30 0 P
+A
+13 90
+#17079
+Necronomicon~
+necronomicon~
+Un pequenno libro esta en el suelo~
+indef~
+trash d 0
+0 0 0 0 0
+0 10 0 P
+#17080
+capa de satan~
+capa de Satanas~
+Una capa esta en el suelo~
+indef~
+armor ABId AC
+30 30 30 30 0
+50 10 30000 P
+A
+13 100
+A
+12 200
+#17081
+Mazo del demonio~
+mazo del demonio~
+Un mazo esta esta tirado~
+indef~
+weapon Bd AN
+mace 5 8 'crush' 0
+35 80 0 P
+#17082
+pala~
+una Pala~
+Una pala esta en el suelo~
+indef~
+weapon Ad AN
+exotic 5 7 'thwack' 0
+28 100 1000 P
+M hacer 17082 100~
+#17083
+Tunica de pazuzu~
+Tunica de Pazuzu~
+Una tunica oscura pero bella esta tirada en el suelo~
+indef~
+armor BCEJcd AD
+15 20 10 10 0
+33 100 10000 P
+A
+19 3
+A
+18 2
+#17084
+cadenas de alma en pena~
+Cadenas de alma en pena~
+Unas cadenas oscuras esta aqui tiradas~
+indef~
+weapon ACd AN
+flail 5 5 'cadenazo' H
+19 10 10000 P
+#17085
+Ropas andrajosas~
+Ropas Andrajosas~
+Unos trapos estan botados~
+indef~
+armor Cd AD
+10 5 15 10 0
+19 12 100 P
+A
+13 30
+A
+19 3
+#17086
+portal~
+Un portal adimensional~
+Portal adimensional esta aqui~
+indef~
+portal BCd 0
+2147483647 0 0 17175 0
+0 1 0 P
+#17087
+amuleto de almas en pena~
+Amuleto de almas en pena~
+Una pedazo de piedra esta en el suelo~
+indef~
+armor ABd AC
+20 30 30 0 0
+30 10 10000000 P
+A
+17 10
+A
+19 4
+A
+18 4
+A
+12 100
+#17088
+Lanza Undead~
+Lanza Undead~
+Una gran lanza esta en el suelo~
+indef~
+weapon ABGId AN
+sword 6 8 'slice' H
+30 50 1000000 P
+#17089
+Llave Magica~
+#BLlave#b (hacia la paz)~
+un pedazo de metal esta en el suelo~
+indef~
+key Bd A
+0 0 0 0 0
+0 1 0 P
+#17090
+Negro Portal~
+Negro portal~
+Un portal negro se cierne sobre ti~
+indef~
+portal ABd 0
+2147483647 0 0 1 0
+0 1 0 P
+#17091
+Blanco portal~
+Blanco el portal ~
+Un portal blanco esta aqui ~
+indef~
+portal ABd 0
+1000000000 0 0 17138 0
+0 1 0 P
+#17092
+Rojo portal~
+Rojo Portal~
+un portal rojo se cierne sibre ti~
+indef~
+portal ABd 0
+2147483647 0 0 17167 0
+0 1 0 P
+#17093
+Verde portal~
+Verde portal~
+un portal verde se cierne sobre ti~
+indef~
+portal ABd 0
+2147483647 0 0 2231 0
+0 1 0 P
+#17094
+Necrobank~
+Necrobank~
+Necrobank cajero-automatico~
+Carne ~
+trash BXd 0
+0 0 0 0 0
+0 1 0 P
+#17095
+chaqueta de A. Hitler~
+Chaqueta de A. Hitler~
+Un Guerrera con jinetas de roro esta en el suelo~
+indef~
+armor CId AD
+5 0 8 4 0
+10 5 20000 P
+A
+14 50
+A
+1 2
+#17096
+Casco de Athila~
+Casco de Athila~
+un bello casco esta en el suelo~
+Extraterreste~
+armor BId AE
+7 3 14 0 0
+15 20 30000 P
+A
+13 20
+A
+18 1
+A
+19 1
+#17097
+Mutilacion~
+Mutilacion~
+Unas perneras estan en el suelo~
+indef~
+armor EGd AF
+7 0 7 14 0
+20 40 70000 P
+A
+17 -5
+A
+2 1
+A
+18 2
+A
+13 40
+A
+14 -50
+#17098
+Orgia~
+Orgia~
+Un cinturon llamado "Orgia" esta en el suelo~
+indef~
+armor GIPd AL
+10 0 7 13 0
+25 30 75000 P
+A
+1 1
+A
+19 1
+A
+18 2
+A
+14 -30
+A
+13 -20
+A
+9 -10
+#17099
+Putrefaccion~
+Putrefaccion~
+Unas Botas llamadas "Putrefaccion" estan en el suelo~
+indef~
+armor BPd AG
+9 0 12 16 0
+30 40 80000 P
+A
+18 2
+A
+15 -30
+A
+20 7
+A
+17 -5
+A
+13 -20
+A
+17 10
+A
+2 1
+A
+14 150
+#17100
+Poder~
+Poder~
+Un gran escudo llamado "Poder" esta en el suelo~
+indef~
+armor BGPd AJ
+5 0 9 7 0
+35 150 80000 P
+A
+20 -3
+A
+17 -10
+A
+18 3
+A
+19 -1
+A
+6 -1
+A
+15 -50
+A
+3 2
+A
+14 -30
+A
+5 2
+A
+13 20
+#17101
+Horror~
+Horror~
+Una armadura llamada "Horror" esta en el suelo~
+indef~
+armor BIPd AD
+0 0 15 20 0
+40 120 100000 P
+A
+2 -1
+A
+4 2
+A
+15 -20
+A
+12 50
+A
+19 3
+A
+14 -100
+A
+5 3
+#17102
+destruccion~
+Destruccion~
+Unas Protecciones para los brazos llamadas "Destruccion" estan en el suelo~
+indef~
+armor BPd AI
+0 0 20 30 0
+45 60 130000 P
+A
+15 -30
+A
+3 -1
+A
+12 -80
+A
+2 2
+A
+20 3
+A
+13 100
+A
+19 3
+A
+18 3
+#17103
+Abominacion~
+Abominacion~
+Un peque-o pedazo de metal esta en el suelo~
+indef~
+armor BIPd AS
+0 0 7 8 0
+18 10 20000 P
+A
+17 2
+A
+20 1
+A
+14 -20
+A
+6 -1
+A
+3 -2
+A
+4 -2
+A
+2 1
+A
+5 1
+A
+1 1
+#17104
+Toxinas~
+Toxinas~
+un par de mu-equeras llamadas "Toxinas" estan en el suelo~
+indef~
+armor GPd AM
+0 0 10 10 0
+27 10 38000 P
+A
+4 -1
+A
+19 2
+A
+14 -60
+A
+1 1
+A
+13 30
+#17105
+idpa~
+Idpa~
+Un frasco esta en el suelo~
+indef~
+potion Pd A
+20 'cure light' 'cure critical' 'poison' 'corrupt bond'
+10 20 900 P
+#17106
+uruku~
+UruKu~
+Un frasco esta en el suelo~
+indef~
+potion Pd A
+25 'haste' 'regeneracion' 'poison' 'curse'
+15 20 10000 P
+#17107
+Idimmu~
+Idimmu~
+Un frasco esta en el suelo~
+indef~
+potion Pd A
+30 'biofeedback' 'sate' 'weaken' 'mental barrier'
+25 20 10000 P
+#17108
+Odolum~
+Odolum~
+Un frasco esta en el suelo~
+indef~
+potion Pd A
+0 'share strength' 'cure critical' 'levitation' 'ebriedad'
+37 20 40000 P
+#17109
+Mardurk~
+Mardurk~
+Un frasco esta botado en el suelo~
+indef~
+potion Pd A
+45 'heal' 'cure critical' 'poison' 'curse'
+35 20 50000 P
+#17110
+Pocina de cthulhu's~
+Pocima de Cthulhu's~
+un peque-o frasco esta en el suelo~
+indef~
+potion Pd A
+40 'heal' 'heal' 'heal' 'weaken'
+43 20 50000 P
+#17111
+uruku~
+Uruku~
+Un frasco esta en el suelo~
+indef~
+potion Pd A
+0 'heal' 'heal' 'heal' 'plague'
+50 20 60000 P
+#17112
+jakemuchen~
+Jakemuchen~
+un frasco esta en el suelo~
+indef~
+potion Pd A
+0 'cure critical' 'cure critical' 'cure critical' 'cure critical'
+20 20 20000 P
+#17113
+vinchunga~
+Vinchunga~
+un frasco esta aqui~
+indef~
+potion d 0
+40 'detect hidden' 'detect good' 'detect magic' 'detect invis'
+15 10 5000 P
+#17114
+Mazo del apocalipsis~
+Mazo del apocalipsis~
+Un mazo esta botado en el suelo~
+indef~
+weapon BPd AN
+mace 6 5 'crush' F
+15 0 1065 P
+A
+18 1
+A
+19 1
+#17115
+type weapon~
+Distorcion~
+Una Lanza llamada Distorcion esta en el suelo~
+indef~
+weapon APd AN
+whip 7 8 'pierce' C
+20 0 1140 P
+A
+1 -1
+A
+12 -20
+A
+18 2
+#17116
+dolor~
+Dolor~
+una espada llamada dolor esta aqui~
+indef~
+weapon BPd AN
+sword 7 8 'slash' G
+25 30 40000 P
+A
+18 1
+A
+14 -60
+A
+2 -1
+#17117
+Fobia~
+Fobia~
+una daga llamada fobia esta aqui~
+indef~
+weapon BPd AN
+dagger 7 8 'stab' H
+30 40 50000 P
+A
+19 2
+A
+4 -2
+A
+12 -40
+A
+1 1
+A
+14 -30
+#17118
+Hecatombe~
+Hecatombe~
+Una hacha llamada Hecatombe esta aqui en el suelo~
+indef~
+weapon BPd AN
+axe 8 10 'crush' C
+35 80 40000 P
+A
+13 -50
+#17119
+Armagedon~
+Armagedon~
+Una espada llamada Armagedon esta aqui~
+indef~
+weapon BPd AN
+sword 10 9 'slash' AF
+40 100 60000 P
+A
+1 -1
+A
+2 -1
+A
+19 3
+A
+4 2
+A
+14 -80
+A
+5 -1
+A
+18 2
+#17120
+Traicion~
+Traicion~
+Una daga llamada Traicion esta aqui en el suelo~
+indef~
+weapon BPd AN
+dagger 5 7 'stab' B
+30 50 20000 P
+A
+17 28
+A
+18 2
+A
+19 2
+A
+12 -50
+#17121
+Purificacion~
+purificacion~
+gUna hoja de papel esta aqui~
+indef~
+scroll Pd A
+30 'cancellation' 'armor' 'sanctuary' ''
+5 10 1000 P
+#17122
+Combate~
+Combate~
+Una hoja de papel esta aqui~
+indef~
+scroll Pd A
+30 'haste' 'shield' 'combat mind' ''
+10 0 2000 P
+#17123
+Requiem's~
+Requiem's~
+Una hoja de papel esta aqui~
+indef~
+scroll Pd A
+30 'lepra' 'estupidez' '' ''
+15 10 4000 P
+#17124
+Misa negra~
+Misa negra~
+(no description)~
+indef~
+scroll Pd A
+30 'hellspawn' 'demonfire' '' ''
+25 10 7000 P
+#17125
+Sombras~
+Sombras~
+Una hoja de papel esta en el suelo~
+indef~
+scroll Pd A
+30 'ectoplasmic form' 'mass invis' 'aura sight' 'infravision'
+26 10 9000 P
+#17126
+Obituario~
+Obituario~
+Una hoja de papel esta aqui~
+indef~
+scroll Pd A
+40 'frost breath' 'heat metal' 'arco electrico' ''
+32 10 10000 P
+#17127
+Panico~
+Panico~
+Una Piedra tallada esta aqui~
+indef~
+scroll Pd A
+45 'iceball' 'iceball' '' ''
+45 100 30000 P
+#17128
+Poesia Maldita~
+Poesia Maldita~
+Una gran tabla esta en el suelo~
+indef~
+scroll Pd A
+20 'dispel magic' 'mute' 'heal' ''
+35 100 20000 P
+#0
+
+
+
+#ROOMS
+#17000
+Bajada al cementerio~
+Estas entrando en una monta-a la bajada es peligrosa ten cuidado 
+~
+0 ANY 5
+D5
+~
+~
+0 0 17001
+M 0 H 0
+S
+#17001
+Mirando el Cementerio~
+Estas parado en una gran meseta mirando a tu alrededor ves todo el
+cementerio, ves que tiene forma de pentagrama, a un  lado  el cementeri
+o nuevo ;y al otro el antiguo cementerio indio.
+     Sientes frio pero no importa SIGUE ADELANTE .....
+                                                 
+                                              LA MUERTE TE ESPERA!!!
+~
+0 Y 5
+D4
+~
+~
+0 0 17000
+D5
+~
+~
+0 0 17002
+M 0 H 0
+S
+#17002
+Centro del Cementerio~
+Estas en el centro del cementerio mas grande y lugubre que hallas
+visto al norte ahi una casita...  al oeste hay esta el viejo cementerio
+indio y al este el nuevo cementerio... al sur el mausoleo del conde 
+Dimitri Dracula.
+   Donde vas a ir ???? El mal ronda por todas partes...
+~
+0 Y 0
+D0
+~
+~
+0 0 17003
+D1
+~
+~
+0 0 17005
+D2
+~
+~
+0 0 17079
+D3
+~
+~
+0 0 17006
+D4
+~
+~
+0 0 17001
+M 0 H 0
+S
+#17003
+Camino a la Casa Cercana del Cementerio~
+Es un maldito sendero con maleza por todos lados y los cuervos volando
+de alla para aca.
+ A lo lejos se divisa un casa muy tenebrosa, vieja, pero hay una luz pren
+dida en la ultima ventana del ultimo piso...
+~
+0 Y 0
+D0
+~
+~
+0 0 17004
+D2
+~
+~
+0 0 17002
+M 0 H 0
+S
+#17004
+En frente de la casa cercana al cementerio~
+Estas frente a la casa mas tenebrosa que hallas visto en tu vida
+ves que en el segundo piso en la ultima ventana hay luz ... quien sera???
+   En la puerta hay la siguiente inscripcion
+   
+               Residencia de Norman Bates  AV Infierno #x666
+~
+0 Y 4
+D0
+~
+~
+0 0 17008
+D2
+~
+~
+0 0 17003
+M 0 H 0
+S
+#17005
+Lado Este del Cementerio~
+Gran cantidad de craneos sonrien macabramente al verte en este lugar,
+poseen una sonrisa muerta, espantosa.  Decenas de espeluznantes insectos se
+desbordan por entre los ojos y dientes de las oseas cabezas, crujiendo de
+una manera ESTREPITOSA.  
+~
+0 Y 0
+D3
+~
+~
+0 0 17002
+S
+#17006
+Al Oeste del Cementerio~
+En este sector del cementerio,gran cantidad de tumbas han sido
+desenterradas y muestran serias senhiales de profanacion. Mientras caminas
+lentamente, observas aterrado el paisaje que sobresale ante ti...un paisaje
+asqueroso y repugnante. Tienes deseos de abandonar rapidamente este lugar...
+pues un poderoso olor a muerte se deprende por entre las tumbas...
+~
+0 Y 0
+D1
+~
+~
+0 0 17002
+D3
+~
+~
+0 0 17012
+S
+#17008
+Dentro de la casa~
+Ves una escalera que conduce al segundo piso, y puertas a ambos lados
+la casa tiene un aspecto siniestro con pinturas de origen desconocido
+el cielo esta pintado negro no hay ventanas, una armadura vieja y enmoehcida
+parece observarte ....
+~
+0 AY 0
+D0
+~
+~
+0 0 17009
+D2
+~
+~
+0 0 17004
+D3
+~
+~
+0 0 17054
+M 0 H 0
+S
+#17009
+A los pies de la escalera~
+Esta a los pies de una gran escalera roida por los a-nos llena de polvo
+de aspecto endeble desde la parte superior se divisa una luz tenue como
+de vela ...
+Sera Norman quien esta descansando???
+Ve al este por la puerta trasera, o al oeste hacia la alcoba de la madre
+sigue tu camino..
+~
+0 Y 0
+D1
+~
+~
+0 0 17021
+D2
+~
+~
+0 0 17008
+D3
+~
+~
+0 0 17011
+D4
+~
+~
+0 0 17010
+M 0 H 0
+S
+#17010
+Escaleras~
+Vas por las escaleras oscuras y malolientas las paredes estan manchadas
+con sangre fresca tal vez humana sigues divisando la luz. Te atacan unos
+malditos murcielagos del demonio son grandes y con grandes dientes filosos 
+~
+0 Y 0
+D0
+~
+~
+0 0 17014
+D5
+~
+~
+0 0 17009
+S
+#17011
+Alcoba~
+Esta dentro de un dormitorio repugnantemente con olor a carne descompu
+esta,viejo,triste,humedo,oscuro.  Ya cuando tus ojos se acostumbran a la
+oscuridad logras divisar una gran ventana y un sillon ; alguien esta sentado
+dandote la espalda, te acercas a observar y HORROR ES LA MADRE DISECADA DE
+NORMAN BATES 
+~
+0 Y 0
+D1
+~
+~
+0 0 17009
+M 0 H 0
+S
+#17012
+El Sendero~
+Mientras caminas a traves del sendero, observas como tus huellas
+desaparecen tras de ti,entre la niebla espesa y brumosa.  No ves nada
+importante en este lugar...  Puedes proseguir o acobardarte y retroceder... 
+Es TU decision.  
+~
+0 Y 0
+D1
+~
+~
+0 0 17006
+D3
+~
+~
+0 0 17013
+S
+#17013
+Camino a lo Desconocido~
+Una fuerte ventisca golpea tu rostro con una violencia inusitada,el
+panico se apodera de ti por unos instantes,para luego desvanecerse por entre
+las sombras.  Apresuras el paso,pues sientes una especie de gritadera unos
+pocos metros mas alla.  
+~
+0 Y 0
+D1
+~
+~
+0 0 17012
+D3
+~
+~
+0 0 17020
+S
+#17014
+Entrada al cuarto de Norman Bates~
+Estas en la entrada del cuarto de Norman Bates siente un poco de
+nerviosismo de entrar ...  Ten cuidado las tablas del piso estan muy roidas
+y pueden desplomarse. Ten valor y enfrenta a Norman 
+~
+0 Y 0
+D0
+~
+~
+0 0 17019
+D2
+~
+~
+0 0 17010
+D5
+~
+~
+0 0 17015
+S
+#17015
+sigue la caida~
+HHHHHAAAAAAAA
+                      AAA 
+                            AAAA
+                                        AQ    A    A    A  
+                                                        A  A  A    A     A
+                  
+ 
+       A U X I L I O
+~
+0 Y 11
+D4
+~
+~
+0 0 17014
+D5
+~
+~
+0 0 17016
+S
+#17016
+caida~
+COOOOOOOOOONNNNNNNN
+ 
+                             CHEEEEEEEEEEEEEE
+ 
+                                          MIIIIIIIIIIIII.....
+ 
+ 
+        A          A   A  A  A
+AAA     
+                            AAAAAAAAAA    
+ 
+AAAA                   A              A          A  A  A 
+~
+0 Y 11
+D4
+~
+~
+0 0 17015
+D5
+~
+~
+0 0 17032
+M 0 H 0
+S
+#17017
+En el desierto~
+Solo arena encuentras aqui, pero ves a lo lejos una piramide.... 
+Espejismo????  No creo 
+~
+0 NY 10
+D0
+~
+~
+0 0 17018
+D1
+~
+~
+0 0 17054
+S
+#17018
+En el desierto~
+Sigues en el desierto pero si sigues avanzando llegaras a la piramide un
+momento ...  Ves un hombre a lo lejos que se hunde en la arena es un hombre
+que esta curtido por el sol arrugado, y con cara de pocos amigos quien podra
+ser...  No,no creo que sea EL 
+~
+0 NY 10
+D1
+~
+~
+0 0 17056
+D2
+~
+~
+0 0 17017
+M 0 H 0
+S
+#17019
+La Habitacion de Norman Bates~
+Estas frente a Norman cara a cara , se ve que es tipo con muchos
+problemas su cara demacrada y su aspecto psicotico te dan panico , sus
+grandes ojeras ,y su raquitico ser le dan la apariencia de debil cuidado con
+equivocarte...  
+~
+0 Y 0
+D2
+~
+~
+0 0 17014
+M 0 H 0
+S
+#17020
+En las Faldas de una Meseta~
+Despues de tanta caminata has llegado a las faldas de una meseta, su
+suelo es escabroso y se encuentra plagados de piedras y rocas.  Al alzar la
+vista,un claro se desprende por entre los pocos arbustos que alli existen. 
+Unos gritos anormales te llaman la atencion.  
+~
+0 Y 0
+D1
+~
+~
+0 0 17013
+D4
+~
+~
+0 0 17023
+S
+#17021
+Salida a la calle ELM'S~
+Estas en una especie de callejon no se ve salida alguna por estos lados
+es muy peligroso estar solo por aqui ...  A lo lejos ves una sombra ve para
+alla!!!!  
+~
+0 Y 1
+D0
+~
+~
+0 0 17022
+D3
+~
+~
+0 0 17009
+S
+#17022
+ELM'S~
+QUIEN ES EL !!!!  Esta todo quemado viste muy raro poleron a rayas un
+sombrero cafe pantalones de tela ,y unas garras en la mano.  Quien podra ser
+???  Pero te inspira miedo tiene un aspecto muy peligroso , se esta riendo
+de ti 
+~
+0 Y 1
+D2
+~
+~
+0 0 17021
+M 0 H 100
+S
+#17023
+Meseta de los Rituales~
+Has llegado a la cima de la meseta,el aire es mas frio y denso aqui,sera
+porque la poca vegetacion que existe ha sido toda quemada,con lo cual no
+obstruye el paso de la ventisca.  Desde aqui distingues mas claramente las
+sombras que alli danzan macabramente.  Para saber QUE o quienes son,solo
+avanza unos pasos...  Pero CUIDADO!!  No te entrometas con ellos,pues podria
+ser FATAL!  
+~
+0 Y 5
+D3
+~
+~
+0 0 17024
+D5
+~
+~
+0 0 17020
+S
+#17024
+La Meseta de las Invocaciones~
+IO!  IAO!  ABBU;NAR MATTARU,TEITAN..  PAZUZU,PAZUZU,ven aqui...  TE
+INVOCAMOS!!!...  Esas son las primeras palabras que escuchas al asomarte por
+entre las piedras.  Ahora las sombras se distinguen mucho mejor,pero no lo
+bastante para calmar tu peligrosa curiosidad.  Hacerte otro poco y veras... 
+Lo DESCONOCIDO.  
+~
+0 Y 0
+D0
+~
+~
+0 0 17025
+D1
+~
+~
+0 0 17023
+S
+#17025
+Pazuzu...El Inmortal.~
+PAZUZU,EL DIOS DE LAS TINIEBLAS SE ESTA FORMANDO ANTE TI!!!  ,un ser
+tentaculoso,con forma extrania y grotesca,parecido a nada que hayas visto
+algunas vez en tu vida.  Lo que se supone son sus extremidades,no son mas
+que malformaciones,cada una con una fuerza DESCOMUNAL!!  El miedo te a
+paralizado totalmente,tu sangre se congela,las venas se te comienzan a
+hinchar...  Trata de huir,sino....  Te aconsejo que REZES POR TU VIDA. 
+(Aunque de nada te servira).  
+~
+0 Y 0
+D2
+~
+~
+0 0 17024
+D4
+~
+~
+0 0 17026
+O li all~
+S
+#17026
+En la cima de la Meseta~
+Despues de una dificil travesia, por fin has llegado a la cumbre maxima
+de este lugar.  Un respiro de alivio renace desde tu alma, 'Ya todo ha
+pasado',murmuras...  Mirando hacia el sur, distinguiras el Cementerio que
+tanto sufrimiento te ha causado...  
+~
+0 KY 5
+D0
+~
+~
+0 0 17027
+D5
+~
+~
+0 0 17025
+S
+#17027
+El Lado norte de la Meseta~
+El cementerio ya ha desaparecido de tu vista,tu tiempo de relajamiento
+ha terminado,pues ahora tendras que descender de la meseta cuesta abajo.  No
+es un milagro el que necesitas para poder descender a tierra firme, pero
+tampoco existe mucha ayuda con la cual tratar de quedar ileso.  Desplazas tu
+vista de izquierda a derecha,buscando algo que te auxilie...  
+~
+0 Y 0
+D0
+~
+~
+0 0 17028
+D2
+~
+~
+0 0 17026
+S
+#17028
+Al borde de la Muerte~
+UFF!!  CUIDADO !!  , observa detenidamente donde pondras tus futuras
+pisadas,pues el suelo es demasiado inestable como para aguantar un peso como
+el tuyo.  Aferrandote de cualquier cosa que encuentres;llamense
+piedras,raices,craneos,etc, comienzan el viaje hacia mundos desconocidos,
+jamas vistos por criatura humana alguna.  
+   
+    Algo importante...AL COMENZAR EL DESCENSO,NO PODRAS VOLVER ATRAS.
+~
+0 Y 0
+D2
+~
+~
+0 0 17027
+D5
+~
+~
+0 0 17029
+S
+#17029
+Panico ante la Caida~
+Lo que al principio parecia algo sin inconvenientes, ahora comienza a
+transformarse en un verdadero INFIERNO!!!  , tus vestimentas dificilmente
+amortiguan los golpes, tus manos arden dolorosamente, y la sangre a causa de
+las heridas cubre tus extremidades casi por completo.  Nunca debiste venir
+aqui...  Haberlo pensado siquiera.  
+d
+~
+0 CY 0
+D5
+~
+~
+0 0 17030
+M 0 H 0
+S
+#17030
+...Y el Infierno Continua....~
+AAAAAAAAAAAAHHHHHHHHHHHH!!!!!!!!!!........  Es todo lo que puedes decir
+en un instante como este, reza por que esto termine lo mas pronto posible,
+ya que tu cuerpo no se encuentra en el mejor estado....  Y tu 'calida' caida
+aun no llega a su fin.  
+~
+0 Y 0
+D4
+~
+~
+0 0 17029
+D5
+~
+~
+0 0 17031
+S
+#17031
+Fin de la caida~
+Al fin se ha terminado toda esta 'aventura' espantosa que has pasado, 
+ahora solo tienes que descansar un tiempo para recuperarte de cualquier
+herida grave que hayas podido sufrir durante la caida.
+~
+0 Y 0
+D4
+~
+~
+0 0 17030
+D5
+~
+~
+0 0 17034
+M 150 H 200
+S
+#17032
+caida 2~
+AAAAAAAAAaaaaaaAa
+  
+           a         a                   A            
+        
+ 
+ 
+ 
+ 
+                    a       a    
+ 
+ 
+a
+                AA A  A      A  A        
+                              A  A  A     A  A  A A   
+~
+0 Y 11
+D4
+~
+~
+0 0 17016
+D5
+~
+~
+0 0 17033
+M 0 H 0
+S
+#17033
+caida 3~
+Todo esta muy oscuro solo sientes un olor muy desagradable ,nauseabundo y
+unos ruidos....  Pero un momento Ves unos ojos...  No son muchos...  
+~
+0 Y 11
+D4
+~
+~
+0 0 17032
+S
+#17034
+caida final~
+Al fin la denigrante caida a finalizado . Tu cuerpo no fue danado 
+peligrosamente, solo unos cuantos rasgunos pero eso es todo.
+~
+0 Y 0
+D0
+~
+~
+0 0 17035
+D4
+~
+~
+0 0 17031
+S
+#17035
+Un lugar desconocido...~
+Una portentosa y desconocida cavidad se alza arrogante frente a ti,
+formada por grandes riscos y penascos labrados magistralmente.
+~
+0 Y 0
+D0
+~
+~
+0 0 17036
+D2
+~
+~
+0 0 17034
+S
+#17036
+Dentro de la gruta.~
+Piedras finas y muy bien talladas constituyen el esqueleto que
+mantiene viva a esta gruta. Cientos de estalactitas cubren el techo
+formando un prodigioso e irregular sector.
+~
+0 Y 0
+D0
+~
+~
+0 0 17039
+D1
+~
+~
+0 0 17037
+D2
+~
+~
+0 0 17035
+D3
+~
+~
+0 0 17038
+S
+#17037
+Estalagmitas~
+El transito aqui se hace muy dificultoso,las estalagmitas cubren
+el piso casi en su totalidad y son muy pocos los sitios donde
+poder apoyarse.Una extrana sombra se mueve en el cuarto continuo...
+~
+0 Y 0
+D1
+~
+~
+0 0 17043
+D3
+~
+~
+0 0 17036
+S
+#17038
+Los Animales~
+Te llaman la atencion ciertas formas de vida existentes en esta
+cueva, tales como murcielagos,ratas y larvas. Estas a su vez parecen salidas
+de un experimento, de extrano y morbosos aspectos.
+~
+0 Y 0
+D1
+~
+~
+0 0 17036
+S
+#17039
+El Salon de Piedra~
+Una horrible conclusion de sentirte perdido comienza a imponerse cada
+vez mas fuerte dentro de tu confuso y renuente espiritu,el cual se
+revela como una espantosa incertidumbre.
+~
+0 Y 0
+D1
+~
+~
+0 0 17040
+D2
+~
+~
+0 0 17036
+D3
+~
+~
+0 0 17042
+S
+#17040
+Primeros vestigios de agua~
+Aqui la tierra seca comienza a desaparecer para dar paso al fango,que
+cubre la mayor parte de la habitacion.
+   Suaves e inofensivos hilitos de agua pulcra circulan por entre las
+piedras. Metros mas alla una roca impide tu avance.
+~
+0 Y 0
+D3
+~
+~
+0 0 17039
+S
+#17041
+El Altar de Lodo~
+Una vigorosa brisa congelante rebota de pared en pared, la cual rebota
+de pared en pared, manteniendo siempre seco y resistente un Altar
+de Lodo que aqui yace....quieto,esteril, aparentemente inofensivo.
+~
+0 CY 0
+O owner~
+S
+#17042
+El Canal Subterraneo~
+Durante el trayecto, lo ultimo que hubieras pensado era encontrar agua,
+pero ante cualquier pronostico...AQUI ESTA!!.,cristalina, transparente,
+ y ademas unos extranos trozos de carne vienen hacia ti. Al 
+observar mas detenidamente...observas con horror que son RATAS A MEDIO MASTICAR!!!.
+~
+0 Y 0
+D0
+~
+~
+0 0 17044
+D1
+~
+~
+0 0 17039
+D6
+~
+~
+0 0 17045
+S
+#17043
+Un sitio extrano...~
+Que diablos observan tus atonitos ojos!!!, la sombra que antes distin-
+guiste no era mas que una estactita...PERO CAMINANTE????.
+   Sus pupilas carbonizadas se dan cuenta de tuf presencia, observandote
+con un odio indescriptible.
+~
+0 Y 0
+D3
+~
+~
+0 0 17037
+S
+#17044
+La Guarida~
+He aqui donde la reproduccion de los seres que habitan este lugubre sitio
+se lleva a cabo.Un ritual de quejidos insoportables para el oido
+humano ocurre antes de que decenas de animalitos corran
+atrolondrados por entre la arena.
+~
+0 Y 0
+D2
+~
+~
+0 0 17042
+D4
+~
+~
+0 0 17046
+S
+#17045
+Centro del Canal~
+Tu cuerpo comienza a dar sintomas de fatiga, a causa de tanta vision
+inefable y tanto caminar; el agua de canal se desplaza a mayor velocidad
+aqui, dando la sensacion de que 'huye' de algo.
+~
+0 Y 6
+D7
+~
+~
+0 0 17042
+S
+#17046
+Altar de Lodo~
+Una vigorosa brisa congelante rebota de pared en pared,
+manteniendo siempre seco y resistente toda la habitacion.
+~
+0 Y 0
+D0
+~
+~
+0 0 17047
+D5
+~
+~
+0 0 17044
+S
+#17047
+Fin del camino....~
+En este sector se acaba la gruta, pero en vez de encontrar el llano
+pasadizo que te comunica con el mundo externo, encuentras un espejo
+con extranas caracteristicas, pues cada una de sus ondulaciones prove-
+nian de un solo sector del vidrio.A su vez se siente como si una fuerza 
+invisible te atrajera hacia el.
+~
+0 Y 0
+D2
+~
+~
+0 0 17046
+D6
+~
+~
+0 0 17048
+S
+#17048
+La Bruma~
+Una espesa y brumosa neblina circula dentro de la habitacion.  Un horro-
+roso y putrefacto olor emana por entre sus descuidadas paredes.  Con esta
+situacion tu vista a empeorado un poco.  E s un letrero esta aqui 
+~
+0 AGNY 0
+E
+letrero~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +
+#F#BTUS PODERES MAGICOS HAN SIDO DESTITUIDOS#f#b +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+~
+D4
+~
+~
+0 0 17049
+M 50 H 50
+S
+#17049
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 AGNY 8
+D0
+~
+~
+0 0 17169
+D2
+~
+~
+0 0 17174
+D5
+~
+~
+0 0 17048
+S
+#17050
+En el interior de la piramide~
+Esta muy oscuro lleno de momias que durante miles de a-nos , estos
+cuerpos descansan esplendidamente encerrados,con su vidriosa mirada envuelta
+hacia arriba cuando no eran visitados por malditos intrusos a la espera que
+su gran diosa Osiris les restituyera el alma e hiciera salir a las rigidas
+legiones de muertos de las sepultadas casas de ensue-no 
+~
+0 ANY 0
+D0
+~
+~
+0 0 17061
+D2
+~
+~
+ABCFG 0 17056
+M 0 H 0
+S
+#17051
+Fin del camino real~
+Toneladas y toneladas de piedra y roca obstruyen tu obstinado andar,
+aparentemente el camino se termina aqui...y por mas que lo intentes
+este sector no podra ser abierto nunca...puedes sentarte y pensar que
+hacer....
+~
+17001 KUY 0
+D0
+~
+~
+0 0 17055
+S
+#17052
+Dentro del Espejo~
+EL ESPEJO ERA UNA TRAMPA!!!. Sientes como tu cuerpo y tus cosas son
+absorvidas por una fuerza que jamas se habia manifestado ante ti.
+ 
+   Este es el momento de decidir....aun puedes retroceder y regresar por
+donde llegaste...pero si sigues adelante, EL REGRESO SERA ALGO IMPOSIBLE
+DE LOGRAR!!!!
+~
+0 Y 0
+D0
+~
+~
+0 0 17053
+S
+#17053
+C1~
+AHHHHHHHHHHHHHAAAAAA
+AHHHHHHAHH 
+                       AHAH H  AHA   H    AH   A H A  H      
+ 
+ 
+    AHAH   A       H AH  A       H   HA H A   
+ 
+                CONCHHHHHH 
+                                                                         EEEEESUMADRE !!!!1
+ 
+~
+0 NY 11
+D4
+~
+~
+0 0 17152
+D5
+~
+~
+0 0 17154
+M 0 H 0
+S
+#17054
+Camino a la piramide~
+Es un desierto muy extenso con un gran sol que te pega en tu malcrecho
+craneo los buitres revolotean en tu cabeza tu solamente quieres sombra a lo
+lejos se ve una gran piramide ojala ahi estes a salvo ....  
+~
+0 NY 10
+D1
+~
+~
+0 0 17008
+D3
+~
+~
+0 0 17017
+M 0 H 0
+S
+#17055
+Frente al portal~
+Has arrivado a un sector muy extrano...donde las leyes impuestas por
+la fisica no acontencen como deberian. Lo hermoso del lugar 
+cautiva tu interior....
+   Un GRABADO esta escrito en la pared.
+~
+0 Y 0
+E
+grabado~
+El portal que observas frente a ti, te llevara a lugares extraordinarios
+sitios del pasado donde jamas te imaginaste vivir.
+   Solo escribe 'ENTER PORTAL', y el tiempo y el espacio seran tuyos.....
+~
+D2
+~
+~
+0 0 17051
+S
+#17056
+En la arena a los pies de la piramide~
+Es una peque-a puerta con inscripciones y jeroglificos que relatan la
+historia de un faraon muy antiguo ,de hombres con cabeza de animales y
+animales con partes de hombres antiguas momias y rituales Pero quien es el
+es real no era un espejismo y va directamente a matarte...  
+~
+0 NY 10
+D0
+~
+~
+ABCFG 17040 17050
+D3
+~
+~
+0 0 17018
+M 0 H 0
+S
+#17057
+Al exterior de la esfinge~
+En este sector es muy poco lo que te puede llamar la atencion. Solo
+existen dunas bajas de arena y algunos simbolos.
+   Mas al oeste se encuentra la entrada a la Piramide.
+~
+0 Y 0
+D1
+~
+~
+0 0 17060
+D3
+~
+~
+0 0 17058
+S
+#17058
+Ante el monumento~
+Ante ti se alza la monstruosa piramide, el cual guarda en su interior
+un saber anterior a la humanidad y que hoy en dia son completamente
+inexplicables.
+~
+0 Y 0
+D0
+~
+~
+0 0 17071
+D1
+~
+~
+0 0 17057
+D2
+~
+~
+0 0 17070
+S
+#17060
+portal~
+Al dar unos pasos te das cuenta que has aparecido....FRENTE A UNA
+ESFINGE!!!.Antes de dar cualquier opinion sobre lo ocurrido, te sientas
+a descansar un momento, pues el viaje fue muy pesado.
+~
+0 Y 0
+D3
+~
+~
+0 0 17057
+S
+#17061
+El gran salon~
+Hay columnas interminables y un aroma cargado a putrefaccion ,esta lleno
+de sombras que crean horrores abominables y anormales, se escucha un
+ululante gorgogeo o estertor de muerte que rasga el ambiente la muerte esta
+cerca...  
+~
+0 ANY 0
+D0
+~
+~
+0 0 17064
+D1
+~
+~
+0 0 17062
+D2
+~
+~
+0 0 17050
+D3
+~
+~
+0 0 17063
+M 0 H 0
+S
+#17062
+Pasadizo~
+Estas en un muy peque-o pasadizo oscuro pero ves murcielagos y ves una
+placa 
+                  
+                CAMARA REAL DEL FARAON Y SU FAMILIA
+~
+0 ANY 0
+D3
+~
+~
+0 0 17061
+D6
+~
+~
+0 0 17065
+M 0 H 0
+S
+#17063
+Salon ~
+Tus ojos perversamente abiertos ,comtemplaron por un instante una vision
+que ninguna criatura humana hubiera logrado resistir o imaginar siquiera sin
+estremecerse de panico y perder el conocimiento ,esta lleno de seres
+horribles y momias mitad hombre y mitad hipopotamo...  Esto es la perdicion
+HUYE!!!!!  
+~
+0 ANY 0
+D1
+~
+~
+0 0 17061
+M 0 H 0
+S
+#17064
+Salon de la princesa~
+Este es el cuarto de #BNitocris#b la princesa que esta arrodillada la
+mitad derecha de su rostro esta devorado por ratas o seres necrofagos,sera
+mejor que cierres los ojos y te vallas por donde viniste antes de que sea
+muy tarde...  
+~
+0 NY 0
+D2
+~
+~
+0 0 17061
+M 0 H 0
+S
+#17065
+Camara real~
+Esta es la camara real del hijo del gran faraon #BTut-Anhk-Amon#b esta
+totalmente alajada y revestida de finos tapises y tesoros pero te llama la
+atencion unos jeroglificos que estan en la pared .  Sera verdad lo que dicen
+de la maldicion...  
+~
+0 ANY 0
+D0
+~
+~
+0 0 17067
+D5
+~
+~
+0 0 17066
+D7
+~
+~
+0 0 17062
+M 0 H 0
+S
+#17066
+Camara Secreta~
+Estas en la camara secreta del faraon el no te lo va a perdonar y ahora
+sabras de la maldicion del faraon...  
+~
+0 ANY 0
+D4
+~
+~
+0 0 17065
+M 0 H 0
+S
+#17067
+Salida de la piramide ~
+A lo lejos se divisa la majestuosa esfinge con esos ojos terribles y
+ciegos por tanto tiempodesde este lugar se ve vagamente desagradable la
+sonrisa de la esfinge y hace pensar en las leyendas sobre esa moustrosa
+criarura .  La viste moverse no es tu imaginacion eso espero...  
+~
+0 NY 10
+D2
+~
+~
+0 0 17065
+D3
+~
+~
+0 0 17068
+M 0 H 0
+S
+#17068
+Desierto~
+Esta lleno de serpientes cobra y aspid tu odias las serpientes matalas
+antes de que te envenenen...  
+~
+0 NY 10
+D1
+~
+~
+0 0 17067
+D3
+~
+~
+0 0 17069
+M 0 H 0
+S
+#17069
+La gran esfinge~
+Estas frente a la esfinge y tiene vida seguro moriras 
+~
+0 NY 10
+D1
+~
+~
+0 0 17068
+M 0 H 0
+S
+#17070
+Egipto~
+Tras de ti, el gran rio Nilo fluye incesantemente, adorado durante 
+siglos por los egipcios, desde que el valle fue ocupado a principios
+de la Era Cuaternaria.
+~
+0 Y 0
+D0
+~
+~
+0 0 17058
+S
+#17071
+En el pasillo~
+Has ingresado en un angosto e intrincado pasillo, por tu mente 
+comienzan a pasar todas las extranas lecturas antes leidas 
+sobre el secreto de las piramides y sus mortales trampas.
+~
+0 Y 0
+E
+door~
+~
+D0
+~
+~
+0 0 17072
+D2
+~
+~
+0 0 17058
+S
+#17072
+En el pasillo~
+Al continuar, simplemente la arena comienza a subir mas y mas, hasta
+cubrirte mas de la mitad de la pierna. Obviamente el andar es mucho
+mas dificultoso asi.
+~
+0 Y 0
+D0
+~
+~
+0 0 17073
+D2
+~
+~
+0 0 17071
+S
+#17073
+En el pasillo~
+Este sector no tiene nada de interesante....prosigues tu camino como
+si nada.
+~
+0 Y 0
+D2
+~
+~
+0 0 17072
+D5
+~
+~
+0 0 17074
+S
+#17074
+Sector Centro~
+Estas en el SECTOR DIVINO, las paredes son imposibles de distinguir,
+mientras que alrededor, un extrano aire divino inunda la sala.
+~
+0 Y 0
+D0
+~
+~
+0 0 17077
+D1
+~
+~
+0 0 17075
+D2
+~
+~
+0 0 17078
+D3
+~
+~
+0 0 17076
+D4
+~
+~
+0 0 17073
+S
+#17075
+Sector Este~
+Estas en el SECTOR DIVINO, las paredes son imposibles de distinguir,
+mientras que alrededor, un extrano aire divino inunda la sala.
+~
+0 Y 0
+D3
+~
+~
+0 0 17074
+S
+#17076
+Sector Oeste~
+Estas en el SECTOR DIVINO, las paredes son imposibles de distinguir,
+mientras que alrededor, un extrano aire divino inunda la sala.
+~
+0 Y 0
+D1
+~
+~
+0 0 17074
+S
+#17077
+Sector Norte~
+Estas en el SECTOR DIVINO, las paredes son imposibles de distinguir, 
+mientras que alrededor, un extrano aire divino inunda la sala.
+~
+0 Y 0
+D2
+~
+~
+0 0 17074
+S
+#17078
+Sector Sur~
+Estas en el SECTOR DIVINO, las paredes son imposibles de distinguir,
+mientras que alrededor, un estrano aire divino inunda la sala.
+~
+0 Y 0
+D0
+~
+~
+0 0 17074
+S
+#17079
+Camino a Transilvania~
+El lugar esta oscuro muy tenebroso la niebla no te deja ver a mas de 2. 
+Mts hayy una gran luna llena el terror se apodera de ti sientes miedo ,
+panico por todo tu cuerpo a lo lejos divisas u na especie montanna si eres
+valiente sigue hacia adelante...  
+~
+0 NY 2
+D0
+~
+~
+0 0 17002
+D2
+~
+~
+0 0 17080
+M 0 H 0
+S
+#17080
+Sigue el camino~
+Se esta despejando la niebla logras ver que al frente hay un puente a
+donde te llevara ?  , y a lo lejos ves un castillo.  Parece ser que podrias
+encontrar proteccion hay .  Los arboles se ven aterradores como si quisieran
+atraparte...  Corre huye hacia el castillo es tu unica salvacion 
+~
+0 NY 2
+D0
+~
+~
+0 0 17079
+D2
+~
+~
+0 0 17081
+M 0 H 0
+S
+#17081
+En el puente ~
+Estas en un puente colgante fragil y muy largo de fondo sigues teniendo
+el castillo talvez fue mala idea venir aca...  Pero hay que seguir adelante.
+Sientes un vago miedo que en cualquier momento se puede trasformar en terror
+, panico tu sexto sentido te avisa que mas adelante hay peligro , NO sigas
+adelante , no podras contarle a nadie esta aventura por que no terminaras
+con VIDA...  
+~
+0 NY 2
+D0
+~
+~
+0 0 17080
+D2
+~
+~
+0 0 17082
+M 0 H 0
+S
+#17082
+Puente~
+El puente esta muy fragil en cualquier momento podrias caer ten cuidado...  
+~
+0 NY 2
+D0
+~
+~
+0 0 17081
+D2
+~
+~
+0 0 17086
+D5
+~
+~
+0 0 17083
+M 0 H 0
+S
+#17083
+Caida del puente~
+AaAaAaAa
+                   Aa aaaaaaaaHHHHHHH !!!
+ 
+                                       ReEeEeEeChUUUUUUUChAaaaaaaaa!!!
+ 
+ 
+      MMMMMIIIIIIIII
+                         
+                             MAAAAAAAAAAAAADREEEEEEEEEEE!!!!
+            
+ 
+ 
+            A     A  A         A   A      
+   
+ 
+              A        A       A              A  A   A   A   A   A   
+ 
+ 
+ 
+ 
+  A     A       A  A  A  A         A  A      HHHHHHHHHHHH
+ 
+ 
+ 
+ AAAAA AAAAAA         AAAAAAAAAAAAAHHHHHHHHHHHHHHHH8
+~
+0 Y 11
+D4
+~
+~
+0 0 17082
+D5
+~
+~
+0 0 17084
+S
+#17084
+caida del puente~
+AHHHHHHHHAAAAAAAAHHHHHHHHHH
+ 
+ 
+                       AAAARGGGGGGGGGGG!!!!!!!!!
+ 
+ 
+ 
+              A    A   A      A  A  A          H  H H  HH         
+ 
+ 
+ 
+ 
+                        AH  H H AH  H HAH  H  H  H  H  AH    
+ 
+             H  H AH     
+                    H  H HAH   H   
+ 
+ 
+~
+0 Y 11
+D4
+~
+~
+0 0 17083
+D5
+~
+~
+0 0 17085
+S
+#17085
+En el Rio De La Desesperanza~
+Por suerte el agua amortiguo la caida...  PERO sabes nadar , nada rapido
+porque las pirannas te dejaran en los huesos 
+~
+0 Y 6
+D4
+~
+~
+0 0 17084
+M 0 H 0
+S
+#17086
+En el puente~
+El cielo de pronto se despeja y se deja ver la gran luna llena , un
+escalofrio recorre todo tu cuerpo ves una figura humana montada a caballo lo
+miras de los pies a la cabeza esta vestido con ropas del siglo pasado y un
+gran sable en su mano derecha...  PERO NO TIENE CABEZA !!!!  
+~
+0 NY 2
+D0
+~
+~
+0 0 17082
+D2
+~
+~
+0 0 17087
+M 0 H 0
+S
+#17087
+Transilvania~
+Es el fin del puente que te esperara mas alla ...  
+~
+0 NY 2
+D0
+~
+~
+0 0 17086
+D2
+~
+~
+0 0 17088
+M 0 H 0
+S
+#17088
+Rincon sagrado~
+Este es el unico rincon que no esta maldito aqui puedes rezar a tu Dios
+curar tus heridas y descanzar mas o menos a salvo  
+ Hay un letrero
+~
+0 Y 2
+E
+letrero~
+'
+             #B Bienvenido a Transilvania#b
+ 
+#BSur#b: Castillo del conde
+#Boeste#b: Cima de la Montanna
+#Beste#b:bosque de la perdicion
+~
+D0
+~
+~
+0 0 17087
+D1
+~
+~
+0 0 17090
+D2
+~
+~
+0 0 17112
+D3
+~
+~
+0 0 17089
+M 200 H 200
+S
+#17089
+Sendero ~
+Vas por un diminuto sendero con una vegetacion muy densa a lo lejos se ve
+un claro 
+~
+0 NY 3
+D1
+~
+~
+0 0 17088
+D3
+~
+~
+0 0 17091
+M 0 H 0
+S
+#17090
+sendero~
+Entras a un bosque espeso,en penumbras,los arboles te ponen nervioso
+corre,huye, arranca hasta perderte...  
+~
+0 Y 0
+D0
+~
+~
+0 0 17139
+D3
+~
+~
+0 0 17088
+S
+#17091
+Sigue el sendero~
+Por fin al frente hay una luz...  Tu salvacion?  
+~
+0 NY 3
+D1
+~
+~
+0 0 17089
+D3
+~
+~
+0 0 17092
+M 0 H 0
+S
+#17092
+Mas sendero~
+La vegetacion se hace menos densa ya ves la luz .  Corre hacia ella 
+~
+0 NY 3
+D0
+~
+~
+0 0 17099
+D1
+~
+~
+0 0 17091
+D3
+~
+~
+0 0 17093
+M 0 H 0
+S
+#17093
+A los pies de la montanna~
+Estas parado frente a una impresionante montanna , oscura tetrica con
+aires de maldita con muy poco vegetacion dicen que por las noches siempre
+aqui hay luna llena 
+~
+0 NY 5
+D0
+~
+~
+0 0 17094
+D1
+~
+~
+0 0 17092
+M 0 H 0
+S
+#17094
+Ascendiendo~
+Ahora se pone todo cuesta arriba.  Sabes escalar ?  Cuidate de los
+alacranes gigantes 
+~
+0 NY 5
+D2
+~
+~
+0 0 17093
+D4
+~
+~
+0 0 17095
+M 0 H 0
+S
+#17095
+En la meseta~
+Vas cuesta arriba esto se pone pesado , a lo lejos ves una gran meseta...  
+~
+0 NY 5
+D4
+~
+~
+0 0 17096
+D5
+~
+~
+0 0 17094
+M 0 H 0
+S
+#17096
+en la meseta~
+La meseta es muy amplia desde aqui se ve una gran luna llena y sientes
+unos horribles aullidos AAUUUUUUUUUUUUU !!!  AUUUUUUUUUUUU!!!!!  Que seran
+lobos...  , no tu te das cuenta cuando son ruidos de animales pero los animales no
+pueden hacer ruidos humanos 
+~
+0 NY 4
+D0
+~
+~
+0 0 17097
+D4
+~
+~
+0 0 17101
+D5
+~
+~
+0 0 17095
+M 0 H 0
+S
+#17097
+Meseta~
+La meseta es inmensa ,ves a contra luz una figura humana gritandole a la
+luna no puede ser posible tanto sufrimiento...  
+~
+0 NY 5
+D0
+~
+~
+0 0 17098
+D2
+~
+~
+0 0 17096
+M 0 H 0
+S
+#17098
+Meseta del Hombre Lobo~
+Estas frente a El y no crees lo que ves , que juego de la naturaleza fue
+es un Hombre Lobo y se ve furioso...  
+~
+0 NY 5
+D2
+~
+~
+0 0 17097
+M 0 H 0
+S
+#17099
+Bifurcacion~
+Al frente hay un pequenno claro...  Ve hacia el 
+~
+0 NY 3
+D0
+~
+~
+0 0 17100
+D2
+~
+~
+0 0 17092
+M 0 H 0
+S
+#17100
+Claro~
+Estas en un claro todo muy pacifico.  Aqui puedes rezar a tu Dios para un
+recall, saciar tu sed , descansar o dormir , sin ningun problema 
+~
+0 Y 3
+D2
+~
+~
+0 0 17099
+M 150 H 150
+S
+#17101
+Sigue ascendiendo~
+Sigue el ascenso con dificultad 
+~
+0 NY 5
+D4
+~
+~
+0 0 17102
+D5
+~
+~
+0 0 17096
+M 0 H 0
+S
+#17102
+Sigue el ascenso~
+El ascenso es muy dificultoso pero falta poco 
+ 
+ 
+~
+0 Y 5
+D4
+~
+~
+0 0 17103
+D5
+~
+~
+0 0 17101
+M 0 H 0
+S
+#17103
+Sigue el Ascenso~
+Falta poco sigue subiendo, es dificil ...  
+~
+0 NY 5
+D4
+~
+~
+0 0 17104
+D5
+~
+~
+0 0 17102
+M 0 H 0
+S
+#17104
+Acantilado~
+Por fin llegaste al frente ves una casa muy extranna ...  Que sera ???  
+ 
+~
+0 NY 5
+D0
+~
+~
+ABC 17042 17105
+D5
+~
+~
+0 0 17103
+M 0 H 0
+S
+#17105
+Al fin ~
+Por fin esta arriba ves una gran casa con ventanas de ojo de buey de
+segundo piso .  Las viejas leyendas dicen que "En esta casa se juntan el
+clan de Poseidon El Dios De LOs Siete Mares 
+~
+0 NY 5
+D0
+~
+~
+0 0 17106
+D2
+~
+~
+ABC 0 17104
+M 0 H 0
+S
+#17106
+en la casa~
+La casa tiene sus paredes grises como la roca, y su elevado pico se alza
+contra la blancura lechosa de los vapores marinos , sino un ventaculo sucio
+y enrejado, de cristales redondos segun la moda del siglo XVIII 
+~
+0 Y 5
+D0
+~
+~
+0 0 17109
+D1
+~
+~
+0 0 17107
+D2
+~
+~
+0 0 17105
+D3
+~
+~
+0 0 17108
+D4
+~
+~
+ABC 0 17110
+M 0 H 0
+S
+#17107
+En el interior~
+Aqui se congregan las sombras; sombras pequennas y furtivas que se
+esconden el los rincones y las mas atrevidas que se dejan ver...  
+~
+0 NY 0
+D3
+~
+~
+0 0 17106
+M 0 H 0
+S
+#17108
+En el interior~
+En todo su rededor no hay mas que nubes y caos, y no se distingue nada
+por debajo de la blancura de lo ilimitado 
+~
+0 NY 0
+D1
+~
+~
+0 0 17106
+M 0 H 0
+S
+#17109
+Cuarto~
+Este cuarto es muy extranno ...  Las paredes estan llenas de joyas
+intenta sacarlas 
+~
+0 NUY 0
+D2
+~
+~
+0 0 17106
+M 0 H 0
+S
+#17110
+antesala~
+Estas en la antesala del dios Poseidon o Neptunoesta frente a una gran
+concha con una perla inmensa esta llegar y tomar 
+~
+0 NY 0
+D0
+~
+~
+0 0 17111
+D5
+~
+~
+ABC 0 17106
+M 0 H 0
+S
+#17111
+Cuarto de #BNeptuno#b~
+Estas en el cuarto de #BNeptuno#b el Dios de los siete mares ...  
+~
+0 NY 0
+D2
+~
+~
+0 0 17110
+M 0 H 0
+S
+#17112
+Camino al castillo~
+Vas por un sendero muy estrecho...  Esta muy oscuro 
+~
+0 NY 3
+D0
+~
+~
+0 0 17088
+D2
+~
+~
+0 0 17113
+M 0 H 0
+S
+#17113
+Camino al castillo~
+SIgue muy oscuro ...  
+~
+0 NY 3
+D0
+~
+~
+0 0 17112
+D3
+~
+~
+0 0 17114
+M 0 H 0
+S
+#17114
+Sendero~
+Por entre las copas de los arboles alcanzas a divisar un castillo 
+~
+0 NY 3
+D0
+~
+~
+0 0 17115
+D1
+~
+~
+0 0 17113
+M 0 H 0
+S
+#17115
+Perdido en el bosque ~
+Sigue el sufrimiento...  
+~
+0 NY 3
+D0
+~
+~
+0 0 17116
+D2
+~
+~
+0 0 17114
+M 0 H 0
+S
+#17116
+Cerca del castillo~
+Estas a pasos del castillo, es alto y siniestro, lugubre ...  Que destino
+te esparara adentro huye ahora que puedes 
+~
+0 NY 3
+D0
+~
+~
+0 0 17117
+D2
+~
+~
+0 0 17115
+M 0 H 0
+S
+#17117
+Entrada del Castillo~
+Estas frente a un lugubre castillo del siglo XIV.  Alto y siniestro bien
+sirve como refugio pero un sexto sentido te dice que no entres Ves una
+#Bplaca#b en la pared 
+~
+0 NY 3
+E
+placa~
+***************************************************************************
+*                                                                         *
+*        Castillo  del #BConde Allucard    #b                                 *
+*                    *
+*                                                                         *
+*                                              fundado en 6-junio-1666    *
+*                    *
+***************************************************************************
+~
+D0
+~
+~
+0 0 17120
+D1
+~
+~
+0 0 17119
+D2
+~
+~
+0 0 17116
+D3
+~
+~
+0 0 17118
+M 0 H 0
+S
+#17118
+Costado del castillo~
+Estas a un costado del castillo hay unas plantas que se ven comestibles y
+parecen exquisitas 
+~
+0 NY 3
+D1
+~
+~
+0 0 17117
+M 0 H 0
+S
+#17119
+Costado Izq del castillo~
+Estas en el costado derecho del castillo, frente a ti hay un enorme pozo
+dentro del el ves brillar objetos que parecen joyas.  Al este ves la tienda
+de un caza-vampiros muy famoso 
+~
+0 NY 3
+D1
+~
+~
+0 0 17121
+D3
+~
+~
+0 0 17117
+D6
+~
+~
+0 0 17122
+M 0 H 0
+S
+#17120
+Puente Levadizo~
+Es un gran puente levadizo podrido por los annos en no muy lejos al
+frente ves la gran reja de fierro cerrada este castillo te da panico,te
+inspira terror mejor sera que te devuelvas en el acto ahora que puedes 
+~
+0 NY 2
+D0
+~
+~
+ABC 17054 17123
+D2
+~
+~
+0 0 17117
+M 0 H 0
+S
+#17121
+Tienda del Caza-Vampiros~
+Estas en una tienda con un fuerte olor a ajo y llena de estacas en la
+pared , su duenno es un hombre alto y fuerte desconfia de todo y de todos 
+~
+0 Y 0
+D3
+~
+~
+0 0 17119
+S
+#17122
+Dentro del pozo~
+Esta dentro del pozo todo se ve muy oscuro...  Ves una #BPila de monedas
+de oro#b.  Se acercan varios cuerpos a ti CORRE!!!  
+~
+0 NY 0
+D7
+~
+~
+0 0 17119
+M 0 H 0
+S
+#17123
+A los pies de la escalera~
+Estas en frente a una gran escalera en espiral con muchos
+peldannos,recoriendo la vista por el castillo te das cuenta que esta muy
+demasiado oscuro,aqui adentro la luz del sol no existe.  Hacia arriba no ves
+nada..  
+~
+0 Y 0
+D0
+~
+~
+0 0 17130
+D1
+~
+~
+0 0 17127
+D2
+~
+~
+ABC 0 17120
+D3
+~
+~
+0 0 17124
+S
+#17124
+Pasillo der~
+Esta muy oscuro como para ver algo...  Sientes los pasos de alguien 
+~
+0 ANY 0
+D1
+~
+~
+0 0 17123
+D3
+~
+~
+0 0 17125
+M 0 H 0
+S
+#17125
+pasillo der~
+En frente hay un pequenna luz se alcanza a ver una hermosa mujer sentada
+en una cama...  
+~
+0 ANY 0
+D0
+~
+~
+0 0 17126
+D1
+~
+~
+0 0 17124
+M 0 H 0
+S
+#17126
+Dormitorio~
+Estas frente a la Condesa Bathory.  Cuenta la leyenda que la Condesa fue
+la amnte preferida del Conde Dracula...  Se amaron por todo un mes lunar y
+este en pago le dio el secreto para la vida eterna , para llevar a cabo este
+necesita SANGRE FRESCA...  
+~
+0 ANY 0
+D2
+~
+~
+0 0 17125
+M 0 H 0
+S
+#17127
+Pasillo izq~
+Esta muy oscuro...  Hueles a los vampiros 
+~
+0 ANY 0
+D1
+~
+~
+0 0 17128
+D3
+~
+~
+0 0 17123
+M 0 H 0
+S
+#17128
+Pasillo izq~
+Ves una luz al frente...  Es un cuarto de juegos con una mesa de pool,y
+un grupo de jovenes de apariencia nada amistosa...  
+~
+0 ANY 0
+D0
+~
+~
+0 0 17129
+D3
+~
+~
+0 0 17127
+M 0 H 0
+S
+#17129
+Taberna Vrhujas~
+Estas frente a un grupo de jovenes de un clan muy especial,visten casacas
+de cuero,abrigos,zapatillas con canna...  Te parecen muy familiares .  Pero
+ten cuidado no se ven amistosos 
+~
+0 NY 0
+D2
+~
+~
+0 0 17128
+M 0 H 0
+S
+#17130
+Subiendo por las escaleras~
+Vas por las escaleras todo es muy tenebroso y oscuro cuidate por que el
+mal acecha por todos lados 
+~
+0 NY 0
+D2
+~
+~
+0 0 17123
+D4
+~
+~
+0 0 17131
+M 0 H 0
+S
+#17131
+Escaleras~
+Sigues subiendo...  
+~
+0 ANY 0
+D0
+~
+~
+0 0 17132
+D5
+~
+~
+0 0 17130
+M 0 H 0
+S
+#17132
+Pequenna estancia~
+Por fin terminaron las escaleras ahora te enfrentaras a la verdad ,tienes
+tu cruz lista ?  , tu ajo ?  , tu agua bendita...  No te servira de nada por
+que DRACULA es ATEO 
+~
+0 NY 0
+D1
+~
+~
+0 0 17133
+D2
+~
+~
+0 0 17131
+D4
+~
+~
+0 0 17134
+M 0 H 0
+S
+#17133
+pasillo oculto~
+Este es un pasillo secreto muy oscuro conduce a una pequenna sala al
+frente ves una puerta al norte 
+~
+0 NY 0
+D0
+~
+~
+AB 0 17136
+D3
+~
+~
+0 0 17132
+M 0 H 0
+S
+#17134
+En busca de El~
+Ya casi sientes el olor a vampiro ...  
+~
+0 NY 0
+D0
+~
+~
+0 0 17137
+D5
+~
+~
+0 0 17132
+M 0 H 0
+S
+#17136
+Dormitorio~
+Este es el cuarto del gran Nosferatu el Vampiro ,el cuarto esta muy bien
+decorado segun la moda del siglo XVII con un gran ataud al medio de la pieza
+,ten cuidado EL es muy peligroso..  
+~
+0 NY 0
+D2
+~
+~
+AB 0 17133
+M 0 H 0
+S
+#17137
+en la sala de los rituales~
+Todos los servidores del castillo estan aqui,desnudos y con los cuerpos
+relucientes por algun unguento de olor fragante, al parecer profesos de un
+extasis o embraguiez extranna.  Se encuentran en semicirculo ante un especie
+de altar, donde una mujer tambien desnuda oficial un especie de misa negra
+ante un diablo dotado de ornamenta de cuernos...  Al norte Hay una gran
+puerta 
+~
+0 NY 0
+D0
+~
+~
+AB 0 17138
+D2
+~
+~
+0 0 17134
+M 0 H 0
+S
+#17138
+Dormitorio de dracula~
+Hay colgados por los pies de ganchos y suspendidas sobre ataud tres
+mujeres desnudas,con las manos atadas colgado,y de sus munnecas,profundas y
+anchas heridas que vacian hilos de sangre el gran ataud, que se encuentra en
+el centro te da la leve impresion que es un portal..  
+~
+0 NY 0
+D2
+~
+~
+AB 0 17137
+M 0 H 0
+S
+#17139
+en el bosque~
+Escuchas ruidos raros ten cuidado en el bosque nadie sabe que puede
+pasar...  
+~
+0 ANY 3
+D2
+~
+~
+0 0 17090
+D3
+~
+~
+0 0 17140
+M 0 H 0
+S
+#17140
+Bosque denso~
+El bosque sigue poniendose cada vez mas oscuro,ten cuidado con perderte
+si sigues adelante no podras volver nunca mas...  
+~
+0 ANY 3
+D0
+~
+~
+0 0 17141
+D1
+~
+~
+0 0 17139
+M 0 H 0
+S
+#17141
+El principio del fin~
+Te has perdido en el bosque,no hay retorno,aqui Mota te olvida siempre
+porque esta area esta maldita...  Sigue adelante (no te queda otra).  
+~
+0 ANY 3
+D1
+~
+~
+0 0 17142
+D2
+~
+~
+0 0 17140
+M 0 H 0
+S
+#17142
+En busca de nada~
+Estas perdido para siempre a menos que encuentres el rincon sagrado para
+hacer peticion a tu dios.  A lo lejos sientes unos relinchos espantosos, el
+bosque es oscuro y denso casi como una selva...  Ten cuidado 
+~
+0 ANY 3
+D0
+~
+~
+0 0 17143
+D3
+~
+~
+0 0 17141
+M 50 H 50
+S
+#17143
+En el claro~
+Ten cuidado con para donde vas ya que podrias morir, ves en el suelo
+pisadas de caballos y rastros de lucha, restos humanos de otros caballeros
+que han venido por este lugar,y han dejado su vida aqui...  Por cierto has
+escuchado de los 4 jinetes del apocalipsis??  
+~
+0 NY 3
+D0
+~
+~
+0 0 17144
+D1
+~
+~
+0 0 17146
+D2
+~
+~
+0 0 17142
+D3
+~
+~
+0 0 17145
+D6
+~
+~
+0 0 17150
+M 0 H 0
+S
+#17144
+Sendero 3~
+Esta muy oscuro ..  Sigue al oeste si eres capaz de enfrentarte con el
+culpable de toda el hambre en al mundo.  Hambre el tercer jinete del
+apocalipsis 
+~
+0 NY 3
+D2
+~
+~
+0 0 17143
+D3
+~
+~
+0 0 17148
+M 0 H 0
+S
+#17145
+Sendero 1~
+Esta muy oscuro sigue al norte si eres digno de pelear con la guerra...  
+~
+0 ANY 3
+D0
+~
+~
+0 0 17147
+D1
+~
+~
+0 0 17143
+M 0 H 0
+S
+#17146
+sendero 2~
+Esta muy oscuro ...  Si te sientes capas de pelear con Peste sigue al sur 
+~
+0 NY 3
+D2
+~
+~
+0 0 17149
+D3
+~
+~
+0 0 17143
+S
+#17147
+Cueva 1~
+Estas de frente a un jinete te mira fijamente ,estas frente a una leyenda
+biblica que a causado terror ,muerte en todas las naciones del mundo 
+~
+0 NY 3
+D2
+~
+~
+0 0 17145
+M 0 H 0
+S
+#17148
+Cueva 3~
+Esta cueva esta muy oscura sientes la presencia de alguien mirandote . 
+Estas al frente del tercer jinete del apocalipsis 
+~
+0 ANY 0
+D1
+~
+~
+0 0 17144
+M 0 H 0
+S
+#17149
+cueva 2~
+Esta muy oscuro esta cueva apesta .  Al frente esta el culpable de las
+enfermedades del mundo el segundo jinete del apocalipsis 
+~
+0 ANY 0
+D0
+~
+~
+0 0 17146
+M 0 H 0
+S
+#17150
+sendero 4~
+Esta muy oscuro al norte esta el cuarto jinete Muerte...  
+~
+0 NY 0
+D0
+~
+~
+0 0 17151
+D7
+~
+~
+0 0 17143
+M 0 H 0
+S
+#17151
+Cueva 4~
+Estas frente al culpable de todas las muertes de este vulgar mundo.  El
+cuarto jinete de apocalipsis 
+~
+0 NY 0
+D2
+~
+~
+0 0 17150
+M 0 H 0
+S
+#17152
+Desenso al averno~
+Estas frente a un gran hoyo oscuro desde dentro de el sale un fetido olor
+a azufre .  No te queda otra que tirarte Suerte la necesitaras...  
+~
+0 ANY 0
+D5
+~
+~
+0 0 17053
+M 0 H 0
+S
+#17154
+C2~
+HAHAHAHAHAHAHHAHA
+A
+ 
+AHAHHHHA       AHA HHAHAHA
+ 
+ 
+AHAHAHHAHAHA!!!!!!!!
+ 
+HAAAAAAAAAAAAAA!!!!!!!!!!11
+ 
+ 
+ POOOOOOOR  LAAAAAAAAAA
+ 
+                                                CHUUUUUUUCHAAAAA!!!!
+~
+0 Y 11
+D4
+~
+~
+0 0 17053
+D5
+~
+~
+0 0 17155
+M 0 H 0
+S
+#17155
+C3~
+YA                              AAAAAAAAAAAA
+ 
+                         PPOOOOOOOOOOOSSSSSSSSSS
+ 
+                        MEEEEEEEEEE 
+ 
+ DUUUUUUEEEEEEELEEEEEEEE!!!!!
+ 
+~
+0 Y 11
+D4
+~
+~
+0 0 17154
+D5
+~
+~
+0 0 17156
+M 0 H 0
+S
+#17156
+Camino al infierno~
+La bajada fue muy dira ,esto esta muy oscuro esperas que los ojos se te
+acostumbres a la oscuridad .  Escuchas grunnidos y alaridos lamentos y
+llantos .  Sera posible que estes en el Infierno 
+~
+0 NY 0
+D0
+~
+~
+0 0 17157
+D4
+~
+~
+0 0 17155
+M 0 H 0
+S
+#17157
+Camino al infierno~
+Esta muy oscuro aqui...  Solo siente el mismo penetrante olor a azufre . 
+Cuidate el mal ronda en su maxima expresion 
+~
+0 ANY 0
+D0
+~
+~
+0 0 17158
+D2
+~
+~
+0 0 17156
+M 0 H 0
+S
+#17158
+Frente al Rio del Olvido~
+Llegaste al rio del olvido si lo crusas olvidate del mundo como lo
+conoces entraras al reino del Principe de las Tinieblas...  Ves una figura
+esqueletica que extiende su huesuda mano ...  
+~
+0 NY 0
+D0
+~
+~
+0 0 17159
+D2
+~
+~
+0 0 17157
+M 0 H 0
+S
+#17159
+En El Rio del Olvido~
+El rio es bravo ten cuidado que puedes caer y pasarias al olvido 
+~
+0 ANY 7
+D0
+~
+~
+0 0 17160
+D2
+~
+~
+0 0 17158
+M 0 H 0
+S
+#17160
+En El Rio del Olvido~
+Estas por llegar orilla.  En la otra orilla se ve UN Gran Portal...  Sera
+la tan ansiada puerta al infierno???  
+~
+0 NY 7
+D0
+~
+~
+0 0 17161
+D2
+~
+~
+0 0 17159
+M 0 H 0
+S
+#17161
+En las Puertas del Infierno~
+Estas frente a un gran portal lleno de inscripciones antidiluvianas... 
+Te da me inspira miedo aunque no sabes porque necesita la llave del portal
+para entrar .  Ten cuidado nadie sabe que pasa hay dentro...  Hay una figura
+de un perro gigante de tres cabezas 
+~
+0 Y 0
+D0
+~
+~
+ABCFG 17077 17162
+D2
+~
+~
+0 0 17160
+M 0 H 0
+S
+#17162
+Dentro de las puertas del Infierno~
+Estas dentro del reino de Satanas sientes como la maldad corroe el escaso
+aire en este lugar...  Ten mucho cuidado 
+~
+0 ANY 0
+D0
+~
+~
+0 0 17163
+D2
+~
+~
+ABCFG 0 17161
+M 0 H 0
+S
+#17163
+En el infierno~
+Estas a pasos de enfrentarte con Belcebus, al oeste hay una horda de
+demonios la igual que al este.  Las llamas te estan consumiendo, no te
+sientes bien piensalo antes de enfrentarte con El Principe De Las Tinieblas 
+~
+0 NY 0
+D1
+~
+~
+0 0 17166
+D2
+~
+~
+0 0 17162
+D3
+~
+~
+0 0 17168
+D5
+~
+~
+0 0 17165
+M 0 H 0
+S
+#17164
+Infierno~
+~
+0 CY 0
+S
+#17165
+INFIERNO~
+Estas es la unica parte mas apacible que podrias encontrar aqui puedes
+rezarle a tu dios aprovechala !!!!  Porque despues sera muy tarde 
+~
+0 AEY 0
+D0
+~
+~
+0 0 17167
+D4
+~
+~
+0 0 17163
+M 0 H 200
+S
+#17166
+En El INFIERNO~
+Esto se pone pesado esta lleno de demonios, HUYE mientras tengas alma ...
+~
+0 AENY 0
+D3
+~
+~
+0 0 17163
+M 0 H 0
+S
+#17167
+EN EL TRONO DE SATAN~
+Estas frente a EL Sennor De Las Tinieblas , El Dios Con Cuernos
+,Leviathan ,El angel caido , Belcebu, El cola e' flecha , El pata'e cabra,
+el mandinga, el cuco ,El anticristo, El diablo, La fuente de todo mal...  
+~
+0 AENY 0
+D2
+~
+~
+0 0 17165
+M 200 H 0
+S
+#17168
+En El INFIERNO~
+Aqui Estan Los Servidores de Luficer , Azathot , Pazuzu , Leviathan ,
+Yog-Sothoh , Cthulus...  Ellos se encargaran de ti 
+~
+0 AENY 0
+D1
+~
+~
+0 0 17163
+M 0 H 0
+S
+#17169
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 AGNY 0
+D1
+~
+~
+0 0 17170
+D2
+~
+~
+0 0 17049
+D4
+~
+~
+0 0 17170
+S
+#17170
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 Y 0
+D0
+~
+~
+0 0 17171
+D3
+~
+~
+0 0 17169
+D5
+~
+~
+0 0 17169
+S
+#17171
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 AGNY 8
+D2
+~
+~
+0 0 17170
+D5
+~
+~
+0 0 17172
+S
+#17172
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 AGNY 0
+D0
+~
+~
+0 0 17173
+D1
+~
+~
+0 0 17174
+D4
+~
+~
+0 0 17171
+S
+#17173
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez que
+comienza a caminar hacia ti...  E s Un portal finamente labrado te insita a
+que entres con unas finas inscripciones te dice "portal a NecroLan d 
+~
+0 AGNY 8
+D2
+~
+~
+0 0 17172
+S
+#17174
+Limbo ~
+Lo que mas te llama la atencion que antes de poder observar detenidamente
+la habitacion, sientes como una sombra te observa curiosamente a la vez
+que comienza a caminar hacia ti...
+~
+0 Y 0
+D0
+~
+~
+0 0 17049
+D3
+~
+~
+0 0 17172
+S
+#17175
+Camino a la aldea~
+E s Estas en un bosque muy denso y tetrico ten cuidado con las alima-as
+tipicas de este lugar...  El mal ronda por todos lados.  A lo lejos se
+divisa un peque-o Pueblo una columna de humo asi te lo indica 
+~
+0 CNY 3
+D4
+~
+~
+0 0 17176
+M 50 H 50
+S
+#17176
+Camino a la aldea~
+E s Estas en un bosque muy denso y tetrico ten cuidado con las alima-as
+tipicas de este lugar...  El mal ronda por todos lados.  A lo lejos se
+divisa un peque-o Pueblo una columna de humo asi te lo indica 
+~
+0 NY 3
+D1
+~
+~
+0 0 17178
+D3
+~
+~
+0 0 17179
+D5
+~
+~
+0 0 17175
+M 50 H 50
+S
+#17178
+Sendero~
+vas por un peque-o corredor
+~
+0 NY 0
+D1
+~
+~
+0 0 17183
+D3
+~
+~
+0 0 17176
+M 50 H 50
+S
+#17179
+En el bosque~
+E s Sigues en el bosque pero mas adelante tienes la unica opcion para
+rezar a tu dios #F#B(Para hacer recall)#f#b pero tienes que pelear mano a
+mano con un peque-o oponente y darle un sacrificio a tu dios no podras usar
+magia pero si eres un buen guerrero no temas pero si pierdes lo pagaras con
+tu vida 
+~
+0 NY 3
+D1
+~
+~
+0 0 17176
+D3
+~
+~
+0 0 17180
+M 50 H 50
+S
+#17180
+antesala del santuario~
+E s Descansa mientras puedas es lo unico que puedes hacer !!!!!  No te
+preocupes tu fin se acerca...  Lastima que te dolera mejor el dolor es bien
+recibido por tu dios y la sagre derramada de tu cuerpo pagara tus pecados,
+pecados que van desde matar un fido por placer o patear un drunk, castear un
+janitor....  Ect #F#BESTA ES TU PEOR PESADILLA^#f#b 
+~
+0 AGJNY 0
+D3
+~
+~
+0 0 17181
+M 50 H 50
+S
+#17181
+Estacia de fido-janitor-drunk~
+FRENTE A TI ESTA UNA MASA DE ALMAS QUE NO PUDIERON DESCANSAR EN PAZ POR
+TU UNICA CULPA, POR QUE TU LOS MATABAS POR GUSTO Y PLACER AHORA ELLOS SE
+VENGARAN.....  
+~
+0 AGNY 0
+D1
+~
+~
+0 17089 17180
+D3
+~
+~
+ABCFI 17089 17182
+M 50 H 50
+S
+#17182
+Habitacion de los portales~
+Estas Frente a #Bdos portales uno blanco y uno negro #b ten cuidado si
+tienes que ver el color de tu alma para que no cometas un error las
+sorpresas pueden seguir.....  
+~
+0 NY 0
+D1
+~
+~
+ABCFI 0 17181
+M 50 H 50
+S
+#17183
+Sendero~
+vas por un peque-o corredor
+~
+0 NY 0
+D1
+~
+~
+0 0 17184
+D3
+~
+~
+0 0 17178
+M 50 H 50
+S
+#17184
+Avenida Necropolis~
+Estas frente a una gran avenida llena de tiendas al norte existe una
+tienda de armaduras, y al sur una botica 
+ 
+~
+0 NY 0
+D0
+~
+~
+0 0 17191
+D1
+~
+~
+0 0 17185
+D2
+~
+~
+0 0 17190
+D3
+~
+~
+0 0 17183
+M 50 H 50
+S
+#17185
+Avenida Necropolis~
+Estas en la avenida principal ves mas tiendas al norte existe un
+Weaponshop, y al sur una tienda de scroll 
+~
+0 NY 0
+D0
+~
+~
+0 0 17192
+D1
+~
+~
+0 0 17186
+D2
+~
+~
+0 0 17189
+D3
+~
+~
+0 0 17184
+M 50 H 50
+S
+#17186
+Avenida Necropolis~
+Sigues en la misma gran avenida llena de tiendas aqui en ninguna parte
+puedes rezar a tu dios excepto si eres un player #BMENOR QUE 25 PUEDES IE AL
+ESTE Y REZAR SIN NINGUNA PREOCUPACION#b Al norte ves una tienda de mascotas
+y al sur una general store 
+~
+0 NY 0
+D0
+~
+~
+0 0 17193
+D1
+~
+~
+0 0 17187
+D2
+~
+~
+0 0 17188
+D3
+~
+~
+0 0 17185
+M 50 H 50
+S
+#17187
+cajero~
+Estas en la avenida necropolis al norte tuyo existe un banco se alcanza a
+leer un gran letrero "Banco Nacional de Necropolis".  
+~
+0 NY 0
+D0
+~
+~
+0 0 17195
+D1
+~
+~
+0 0 17194
+D3
+~
+~
+0 0 17186
+M 50 H 50
+S
+#17188
+General store~
+~
+0 NY 0
+D0
+~
+~
+0 0 17186
+M 50 H 50
+S
+#17189
+Scrolland~
+Esta en la tienda de scroll y objetos magicos.  Esta tierra esta
+caracterizada por su gran sabiduria en ocupar magia, ves mas al frente a la
+vendedora de este lugar una gran maga muy bella, extraordinariamente bella
+lo cual te extra-a en estas tierras del horror, pero mirando a tu al rededor
+ves una espejo en el cual se refleja el perfil de la maga Y VES SU REAL
+ROSTRO es una vision espeluznante si eres fuerte de espiritu lo podras
+resistir...  
+~
+0 NY 0
+D0
+~
+~
+0 0 17185
+M 50 H 50
+S
+#17190
+Botica Necrodead~
+Estas en una botica ves un gran demonio revolviendo ectoplasmas en
+calderos gigantes, es un ambiente hostil lleno de humores y vapores de
+colores y texturas raras y desconocidas, en las mesas hay tubos de ensayos y
+fluidos de colores que nunca podrias imaginar, extra-os colores que no se
+ven se sienten, se huelen con un espectro que no es de este planeta.  Ten
+cuidado el vendedor no se ve amigable, en realidad nada es amigable por
+aqui...  
+Un Gran Letrero Esta colgado en la pared
+~
+0 NY 0
+E
+letrero~
+Advertencia: Estas pociones al momento de tu muerte volveran a mi
+~
+D0
+~
+~
+0 0 17184
+M 50 H 50
+S
+#17191
+Tienda de armadura~
+En las paredes ves imagenes de grandes luchadores como athila el rey de
+los hunos, conan el barbaro,ayatola el sanguinario, todos en sus otras vidas
+despues de muertos...  Ves un gran demonio dispuesto a venderte estos
+tesoros por cualquier precio inclusotu alma..  No jueges con este vendedor
+porque es el que preside por sobre todas las armaduras y esta perfectamente
+versado en cuestiones militares, es capas de reunir un ejercito pertrechado
+con todas sus armas en solo tres dias Ves un gran #BLetrero#b 
+~
+0 NY 0
+E
+letrero~
+ADVERTECIA:#BCUIDA BIEN TUS OBJETOS PORQUE AL MOMENTO DE MORIR ELLOS
+VUELVEN A MI#b 
+~
+D2
+~
+~
+0 0 17184
+M 50 H 50
+S
+#17192
+Weaponshop~
+Estas en la tienda de de armas ves armas de todas las clases y tama-os la
+tienda es oscura solo ves la luz del fuelle esto arde mucho, ves una gran
+caldera de fuego intenso lanza sus llamas hacia ti...  Frente tuyo esta un
+gran demonio con sus alas extendidas mirandote fijamente , tambien hay un
+Letrero en la pared 
+~
+0 ENY 0
+E
+letrero~
+Advertecia: #F#BTodo al momento de tu muerte volvera a mi#f#b 
+~
+D2
+~
+~
+0 0 17185
+M 50 H 50
+S
+#17193
+Mascotas infernales~
+Estas en una especie de zoologico con muchas celdas llenos de animales
+raros, zombies, creaciones mutantes y ademas ves a un hombre con una bata de
+medico con su cara visiblemente traumatizada distorcionada, realmente
+atribulado , el tiene una jeringa en su mano con un liquido de color
+fosforecente que les inyenta a sus mascotas inanimadas, Y ESTE LIQUIDO LES
+DA FUERZA Y VIDA !!!!  
+~
+0 NY 0
+D2
+~
+~
+0 0 17186
+M 50 H 50
+S
+#17194
+~
+~
+0 NY 0
+D3
+~
+~
+0 0 17187
+M 50 H 50
+S
+#17195
+Banco Nacional Necropolis~
+Miras y ves un banco todo alumbrado por velas con un cajero con gorrito y
+mangas de tela negra Con su cara calaverica su pelo como si se lo hubieran
+tirado encima te recuerda a un programa antiguo de tv como era #B"Tales from
+de Crip"#b 
+~
+0 NY 0
+D2
+~
+~
+0 0 17187
+M 50 H 50
+S
+#0
+
+
+
+#SPECIALS
+M 17008 spec_caminante
+M 17012 spec_assassin
+M 17020 spec_rat
+M 17027 spec_cast_ghost
+M 17038 spec_cast_mage
+M 17039 spec_cast_mage
+M 17045 spec_poison
+M 17070 spec_plague
+M 17073 spec_cast_undead
+M 17078 spec_thief
+M 17079 spec_cast_undead
+M 17080 spec_hunter
+M 17081 spec_thief
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 17050 2 2
+D 0 17056 0 2
+D 0 17104 0 2
+D 0 17105 2 2
+D 0 17106 4 2
+D 0 17110 5 2
+D 0 17120 0 2
+D 0 17123 2 2
+D 0 17133 0 1
+D 0 17136 2 1
+D 0 17137 0 1
+D 0 17138 2 1
+D 0 17161 0 2
+D 0 17162 2 2
+D 0 17181 3 2
+D 0 17182 1 2
+M 0 17079 1 17001 1
+E 0 17082 0 16
+M 0 17020 1 17004 1
+M 0 17026 1 17006 1
+M 0 17026 1 17006 1
+M 0 17026 10 17006 10
+M 0 17008 10 17006 10
+M 0 17001 1 17008 1
+E 0 17028 0 6
+E 0 17029 0 7
+E 0 17030 0 11
+E 0 17031 0 5
+M 0 17006 5 17010 5
+M 0 17005 1 17011 1
+M 0 17033 2 17018 1
+E 0 17034 0 16
+M 0 17009 1 17019 1
+E 0 17006 0 16
+M 0 17010 1 17022 1
+E 0 17007 0 16
+E 0 17010 0 19
+M 0 17011 1 17023 1
+M 0 17012 1 17025 1
+E 0 17083 0 5
+M 0 17008 10 17033 10
+M 0 17020 1 17033 1
+M 0 17021 8 17038 3
+M 0 17022 1 17043 1
+O 0 17011 0 17043
+M 0 17023 1 17044 1
+M 0 17021 4 17044 2
+M 0 17020 5 17044 5
+O 0 17012 0 17045
+M 0 17024 10 17045 10
+M 0 17025 1 17046 1
+E 0 17060 0 16
+O 0 17013 0 17047
+M 0 17027 2 17049 2
+E 0 17009 0 16
+M 0 17028 10 17052 6
+O 0 17013 0 17052
+M 0 17030 1 17054 1
+E 0 17032 0 16
+O 0 17033 0 17055
+M 0 17033 2 17056 1
+E 0 17034 0 16
+E 0 17035 0 17
+G 0 17040 0
+O 0 17033 0 17060
+M 0 17032 3 17063 3
+M 0 17035 1 17064 1
+E 0 17037 0 13
+O 0 17036 0 17065
+O 0 17036 0 17065
+M 0 17034 1 17066 1
+M 0 17036 10 17068 10
+M 0 17037 1 17069 1
+E 0 17039 0 6
+M 0 17038 1 17074 1
+M 0 17042 1 17075 1
+M 0 17040 1 17076 1
+M 0 17039 1 17077 1
+M 0 17041 1 17078 1
+M 0 17024 10 17085 10
+M 0 17043 1 17086 1
+M 0 17044 1 17086 1
+M 0 17026 5 17087 5
+M 0 17045 7 17094 7
+M 0 17046 5 17096 5
+M 0 17047 1 17096 1
+M 0 17048 1 17098 1
+O 0 17041 0 17100
+M 0 17051 1 17104 1
+E 0 17043 0 16
+G 0 17042 0
+M 0 17050 1 17107 1
+G 0 17048 0
+M 0 17049 3 17107 3
+M 0 17053 1 17108 1
+E 0 17044 0 16
+M 0 17051 2 17108 2
+O 0 17045 0 17110
+O 0 17045 0 17110
+M 0 17055 1 17111 1
+E 0 17046 0 16
+E 0 17047 0 5
+O 0 17049 0 17118
+M 0 17058 1 17120 1
+G 0 17054 0
+M 0 17057 1 17121 1
+G 0 17051 0
+G 0 17052 0
+G 0 17053 0
+O 0 17050 0 17122
+M 0 17056 5 17122 5
+O 0 17050 0 17122
+M 0 17060 8 17124 8
+E 0 17055 0 16
+M 0 17059 1 17126 1
+M 0 17060 4 17127 4
+E 0 17055 0 16
+M 0 17061 1 17136 1
+E 0 17056 0 17
+M 0 17062 6 17137 6
+M 0 17063 1 17137 1
+M 0 17064 1 17138 1
+E 0 17058 0 16
+O 0 17057 0 17138
+M 0 17065 2 17139 2
+G 0 17059 0
+O 0 17066 0 17143
+M 0 17067 1 17147 1
+E 0 17061 0 16
+E 0 17062 0 1
+M 0 17068 1 17147 1
+M 0 17071 1 17148 1
+E 0 17061 0 16
+E 0 17064 0 21
+M 0 17072 1 17148 1
+M 0 17069 1 17149 1
+E 0 17061 0 16
+E 0 17063 0 13
+M 0 17070 1 17149 1
+M 0 17073 1 17151 1
+E 0 17061 0 16
+E 0 17065 0 11
+M 0 17074 1 17151 1
+M 0 17075 1 17158 1
+M 0 17076 1 17161 1
+E 0 17076 0 3
+G 0 17077 0
+M 0 17078 10 17163 10
+E 0 17081 0 16
+M 0 17077 1 17167 1
+E 0 17078 0 16
+E 0 17079 0 17
+E 0 17080 0 3
+M 0 17080 10 17169 2
+E 0 17084 0 16
+E 0 17085 0 5
+M 0 17080 10 17170 5
+E 0 17084 0 16
+E 0 17085 0 5
+M 0 17080 10 17171 2
+E 0 17084 0 16
+E 0 17085 0 5
+G 0 17086 0
+O 0 17086 0 17173
+M 0 17081 1 17181 1
+E 0 17087 0 3
+E 0 17088 0 16
+G 0 17089 0
+O 0 17091 0 17182
+O 0 17090 0 17182
+O 0 17092 0 17182
+O 0 17093 0 17182
+O 0 17094 0 17187
+M 0 17086 1 17189 1
+G 0 17121 0
+G 0 17122 0
+G 0 17123 0
+G 0 17124 0
+G 0 17125 0
+G 0 17126 0
+G 0 17127 0
+G 0 17128 0
+M 0 17084 1 17190 1
+G 0 17105 0
+G 0 17113 0
+G 0 17106 0
+G 0 17107 0
+G 0 17108 0
+G 0 17109 0
+G 0 17110 0
+G 0 17111 0
+G 0 17112 0
+M 0 17083 1 17191 1
+G 0 17095 0
+G 0 17096 0
+G 0 17097 0
+G 0 17098 0
+G 0 17099 0
+G 0 17100 0
+G 0 17101 0
+G 0 17102 0
+G 0 17103 0
+G 0 17104 0
+M 0 17085 1 17192 1
+G 0 17114 0
+G 0 17115 0
+G 0 17116 0
+G 0 17118 0
+G 0 17117 0
+G 0 17119 0
+G 0 17120 0
+M 0 17082 1 17195 1
+M 0 17087 1 17195 1
+S
+
+
+
+#SHOPS
+17057 10 2 19 0 0 100 100 100 100 0 23
+17083 0 0 0 0 0 100 100 100 100 0 23
+17084 0 0 0 0 0 100 100 100 100 0 23
+17085 0 0 0 0 0 100 100 100 100 0 23
+17086 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

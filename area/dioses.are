@@ -1,0 +1,284 @@
+#AREADATA
+Name New area~
+Builders Gandalf Heman Proteus Ultraman~
+VNUMs 11000 11099
+Credits None~
+Security 1
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#11000
+aro guerra~
+Un Aro de guerra Estandard~
+Un aro de oro finamente tallado esta aqui botado~
+indef~
+armor ABIUd AS
+1 1 1 1 0
+1 10 100 P
+A
+1 1
+#11001
+libro magia~
+Un libro de Magia Estandard~
+Un libro con unas inscripciones muy extranias esta botado aqui.~
+indef~
+gem BUd AO
+0 0 0 0 0
+1 10 100 P
+A
+3 1
+#11002
+pildora magica~
+Una pildora salvadora~
+Una pildora esta aqui flotando.~
+indef~
+pill d A
+5 '' '' 'heal' ''
+1 1 10 P
+#11003
+casco telepatico~
+Un casco telepatico~
+Un casco muy extranio esta botado aqui~
+indef~
+armor AIUd AE
+5 5 1 0 0
+1 30 100 P
+A
+4 1
+#11004
+brazalete oro destreza~
+Un brazalete de oro~
+Un brazalete de oro esta aqui tirado~
+indef~
+armor ABGd AL
+2 2 2 2 0
+1 10 100 P
+A
+2 1
+#0
+
+
+
+#ROOMS
+#11000
+Entrada a la Morada Eterna~
+Estas en la entrada al hermoso templo de los Antiguos dioses.  Grandes
+estatuas de Marmol, y otras de un metal negro parecido a la adamantita estan
+puestas en la Entrada.  Si eres nuevo, debes recorrer estos cuartos e
+interiorizarte del MUD, y probablemente algunos de estos dioses te daran
+algun objeto valioso.  
+~
+0 Y 0
+D2
+~
+~
+0 0 11001
+D4
+~
+~
+ABCF 0 3721
+S
+#11001
+Hall del Templo~
+Estas en un hermoso hall con el piso totalmente de oro, el cual parece que brillara mas aun en los sectores por donde vas pisando.
+Ves un arco hacia el Oeste, otro hacia el Este , y te das cuenta que tambien continua hacia el Sur.
+~
+0 Y 0
+D0
+~
+~
+0 0 11000
+D1
+~
+~
+0 0 11008
+D2
+~
+~
+0 0 11002
+D3
+~
+~
+0 0 11004
+S
+#11002
+~
+~
+0 Y 0
+D0
+~
+~
+0 0 11001
+D2
+~
+~
+0 0 11003
+S
+#11003
+~
+~
+0 Y 0
+D0
+~
+~
+0 0 11002
+S
+#11004
+En el Arco~
+Estas parado en un arco completamente de plata.
+Las paredes aqui parecen ser mucho mas blancas de lo que nunca antes te acuerdas de haber visto, y sientes un sensacion de bondad y calma.
+Hacia el Este ves el hall principal, mientras hacia el Oeste ves un gran salon.
+~
+0 Y 0
+D1
+~
+~
+0 0 11001
+D3
+~
+~
+0 0 11005
+S
+#11005
+En un Gran Salon~
+Estas en un gran salon, iluminado solo por una gran bola de Luz plateada, que
+surge del medio de la habitacion.
+A pesar de esto, puedes ver claramente en la habitacion como imagenes virtuales de los grandes dioses del Bien ayudan a los mortales.
+~
+0 Y 0
+D0
+~
+~
+0 0 11006
+D1
+~
+~
+0 0 11004
+D2
+~
+~
+0 0 11007
+S
+#11006
+Cuarto de Gandalf~
+Estas en el cuarto del Gran Mago Gandalf.
+Este cuarto esta lleno por todos lados de toda clase de articulos magicos ,
+scrolls, pociones,  varitas, collares, amuletos, brazaletes, y todo lo que
+se pueda encantar.
+Ademas se ven en las paredes cuadros de sus fabulosas batallas en sus tiempos
+de mortal.
+~
+0 Y 0
+D2
+~
+~
+0 0 11005
+S
+#11007
+Cuarto de Cthulu~
+Estas en un cuarto cubierto por  telas negras magicas, tipicas  de los 
+rituales que todavia sigue haciendo el dios Cthulu.
+Este parece observarte desde lo alto, dandole un aura de misterio a la 
+habitacion.
+~
+0 Y 0
+D0
+~
+~
+0 0 11005
+S
+#11008
+En el Arco~
+~
+0 Y 0
+D1
+~
+~
+0 0 11009
+D3
+~
+~
+0 0 11001
+S
+#11009
+En Otro Salon~
+Estas en otro salon del templo.  Sin embargo, este parece ser mucho mas
+tetrico que los demas y se siente un aura de terror, pero tambien de poder,
+emanando de todos los cuartos a los que conlleva.
+~
+0 Y 0
+D0
+~
+~
+0 0 11010
+D2
+~
+~
+0 0 11011
+D3
+~
+~
+0 0 11008
+S
+#11010
+Cuarto de Leatherface~
+En este cuarto, cubierto con pedazos de piel humana, deberia estar el
+dios Leatherface... sin embargo ... a pesar de que lo buscas...no se ve.
+~
+0 Y 0
+D2
+~
+~
+0 0 11009
+S
+#11011
+Cuarto de Belfegor~
+~
+0 Y 0
+D0
+~
+~
+0 0 11009
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 11000 4 2
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

@@ -1,0 +1,3090 @@
+#AREADATA
+Name Poseidon~
+Builders Dracul~
+VNUMs 17500 17649
+Credits { 5 35} M.Z.F.  Prototype for New Area~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#17500
+gato~
+El gato dorado~
+Un gato dorado magico zumba meditando aqui.
+~
+Es un gato totalmente dorado. Es el gato de un dios desaparecido 
+hace ya mucho tiempo atras. Tiene habilidades extraordinarias, esta
+esperando tu orden de: #B HEAL#n
+~
+'animal'
+ABQVXa DHJPQ 0 500 0
+60 30 50d10+9500 60d17+2100 20d10+25 claw
+-30 -30 -30 -28
+FKTU BCEP 0 0
+stand stand none 5000
+0 0 medium 'carne'
+C 'cleric'
+F act U
+F off C
+#17501
+morena~
+la morena~
+Una morena agresiva caza su presa por estos lares.
+~
+Es una morena, culebra marina de dos metros de largos con dientes.
+Es un animal realmente peligroso. Gracias a dios (dracul) es solo nivel 20.
+~
+'fish'
+ACDFX DFJQTUV 0 100 0
+20 10 3d9+283 20d12+700 2d7+5 acbite
+-4 -4 -4 -3
+FKU 0 E CK
+stand stand female 10
+0 0 medium 'unknown'
+C 'psicionist'
+F aff b
+#17502
+tester~
+El tester~
+Un mob todavia testeandose, pasea en este lugar.
+~
+Un mob prototipo
+~
+'human'
+ABRX Q 0 -1000 0
+53 5 3d9+308 80d12+100 3d4+4 claw
+-4 -4 -4 -3
+FTU 0 0 0
+stand stand female 100
+0 0 large 'teset'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+M 'greet' 17504 100~
+R
+#17503
+pinguino~
+un pinguino~
+Un pinguino camina agitado buscando algo.
+~
+Tiene alas negras y pecho blanco.  Tiene los ojos rojos y busca
+desesperado con la mirada en los alrrededores.  
+~
+'fish'
+AHTX DFV 0 200 0
+10 15 2d8+134 10d11+100 2d4+2 bite
+1 1 1 4
+CKLTU 0 0 0
+stand stand male 50
+0 0 small 'carne'
+C 'warrior'
+M 'greet' 17502 100~
+#17504
+izac craquen~
+Izac de Craquen~
+El poderoso guardian del Artico, Izac de Craquen.
+~
+Esta uno de los 7 generales de Poseidon que detendran tu paso hacia
+Athenas.  Tiene una fuerte armadura, sus ojos son verdes y tiene agallas y
+branquias en su cuello.  
+~
+'fish'
+ABCFTX DFHV 0 -900 0
+46 69 25d10+3500 46d15+100 7d7+16 bite
+-16 -16 -16 -15
+CDEFKLTU 0 L H
+stand stand male 50
+0 0 medium 'fish'
+C 'warrior'
+#17505
+kassa lunades~
+Kassa de Lunades~
+Un poderoso general de Poseidon, Kassa de Lunades, esta aqui.
+~
+Un enorme general, con branquias y agallas, de la armada de Poseidon. 
+Esta aqui para cuidar tu paso hacia los pilares.  Esta muy bien armado y
+tiene afilado hasta los dientes.  
+~
+'fish'
+ABTX DFHV 0 900 0
+46 69 25d10+3500 46d15+100 7d7+16 bite
+-16 -16 -16 -15
+CDEFKLTU 0 K P
+stand stand male 10
+0 0 large 'fish'
+C 'warrior'
+#17506
+eo sila~
+Eo de Sila~
+Un poderoso general de Poseidon, Eo de Sila, esta aqui.
+~
+El enorme general de la arma de Poseidon cuida aqui tus pasos hacia su
+pilar.  Su cara esta curtida por las batallas y no se inmuta por el clima. 
+Sus ojos denotan una furia increible.  
+~
+'dwarf'
+ABFTX DFHV 0 900 0
+46 69 25d10+3500 46d15+100 7d7+16 smash
+-16 -16 -16 -15
+CDEFIKLTU 0 0 0
+stand stand male 50
+0 0 medium 'carne'
+C 'warrior'
+#17507
+dragon marino~
+Dragon Marino~
+Un poderoso general de Poseidon, Dragon Marino, esta aqui.
+~
+General de la armada de Poseidon, tiene a su cargo el cuidado de los
+mares del Atlantico Norte.  Su mirada es penetrante y su piel llena de
+escamas.  Es un hombre dragon.  
+~
+'dragon'
+ABFTX DFHV 0 -900 0
+46 69 25d10+3500 46d15+100 7d7+16 claw
+-16 -16 -16 -15
+CDEFIKLTU 0 0 0
+stand stand male 10
+0 0 medium 'carne'
+C 'warrior'
+F off M
+#17508
+caballo marino~
+Caballo Marino~
+Un poderoso general de Poseidon, Caballo Marino, esta aqui.
+~
+El mas poderoso de los generales de poseidon.  Su cuerpo esta lleno de
+heridas de ciento de batallas vencidas para su emperador.  
+~
+'caballo'
+ABFTX DFHV 0 900 0
+46 69 25d10+3500 46d15+100 7d7+16 charge
+-16 -16 -16 -15
+DEFKLTU 0 E P
+stand stand male 0
+0 0 medium 'carne'
+C 'warrior'
+#17509
+sorrento sirena~
+Sorrento de Sirena~
+Un poderoso general de la armada de Poseidon, Sorrento de Sirena, aqui.
+~
+El mas fuerte de los generales que custodian los pilares.  Su armadura
+esta rodeada de una halo magico que paece absorver las energias.  Su mirada
+es pentetrante y el pelo cae sobre sus hombros.  Su porte es gigantesco y
+esta listo para la batalla.  Tiene un parecido increible con el caballero de
+la casa de Geminis.  
+~
+'human'
+ABCFTX DFHV 0 -1000 0
+47 70 25d10+3750 47d15+100 13d4+17 crush
+-17 -17 -17 -15
+CDEFKLTU 0 C HNP
+stand stand male 50
+0 0 large 'carne'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#17510
+pilar~
+el Pilar~
+Un enorme pilar se levanta desde aqui hasta los mares, alla arriba.
+~
+Un inmutable pilar frente a ti, se extiende sosteniendo los mares. 
+Aunque no se ve con vida se siente un aura a su alrrededor de energia.  Es
+enorme y la base se podria rodear no con menos de 10 hombres.  En una parte
+muy arriba, ves colgado una Llave.  
+~
+'robot'
+ABTX DFHV 0 1 0
+47 70 25d10+3750 47d15+100 13d4+17 crush
+-17 -17 -17 -17
+CDEFIKLTU L EQ 0
+rest stand either 1
+0 0 giant 'marmol'
+C 'warrior'
+#17511
+athena~
+Athena~
+Athena, la hermosa diosa, esta prisionera aqui.
+~
+Es Athena, prisionera de Poseidon, senior de los sietes mares.  Es bella
+aunque algo baja, tiene los ojos azules hermosos.  Fue sometida a las mas
+horribles torturas sexuales por los siete generales.  
+~
+'god'
+ABRXa 0 0 1000 0
+60 30 50d10+8500 60d17+2100 15d10+24 punch
+-29 -29 -29 -29
+U 0 FG CP
+stand stand female 0
+AH 0 small 'carne'
+C 'mage'
+F off CDEILNO
+M 'greet' 17505 100~
+#17512
+esmeralda~
+la esmeralda~
+Una gigantesca esmeralda brilla cegandote en este lugar.
+~
+Es una enorme esmeralda verde.  Debe valer cientos de monedas de plata. 
+El joyero de midgaard desfalleceria al verla.  
+~
+'school monster'
+ABRXa 0 0 1 0
+1 0 2d6+10 1d10+100 1d4+0 bite
+9 9 9 9
+U 0 0 0
+stand stand none 0
+0 0 small 'gem'
+C 'mage'
+M 'greet' 17504 100~
+#17526
+crishta trisaor~
+Crishta de Trisaor~
+Un poderoso general de Poseidon, Crishta de Trisaor, aqui.
+~
+Es gigante y poderoso.  Tiene la piel curtida por la inmesidad de
+batallas.  Sus ojos denotan falta de destreza mental.  Es uno de los
+generales que impedira tu busqueda de la 7 llaves de los portales.  
+~
+'giant'
+ABCTX EFHV 0 -900 0
+46 69 25d10+3500 46d15+100 7d7+16 punch
+-16 -16 -16 -15
+CDEFIKLTU 0 0 0
+stand stand male 20
+0 0 medium 'unknown'
+C 'warrior'
+#17560
+sirenos~
+el sireno~
+Un sireno custodia los dominios de emperador en este lugar.
+~
+Es mitad hombre y mitad pez.  Su cara es bastante desagradable y al parecer
+es un debil mental.  Su piel es durisima, seguro que las enfermedades no
+le afectan.
+~
+'fish'
+ABCFGTX FHc 0 -500 0
+38 57 15d10+1700 38d14+100 16d2+12 bite
+-13 -13 -13 -11
+CDEFIKLTU L EK P
+stand stand male 50
+V CHJ small 'unknown'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#17500
+nexus~
+nexus~
+Observas un Nexus negro.~
+nexus~
+portal d P
+200 A A 18540 0
+1 1 1 P
+E
+negro~
+Mmm.. No puedes observar bien.. solo crees ver: Un espiritu..
+~
+#17501
+llave blanca~
+una llave blanca~
+Una llave blanca, que colgaba del pilar Artico.~
+indef~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+blanca~
+Una llave blanca, que colgaba del pilar Artico.
+~
+#17502
+llave esmeralda~
+una llave esmeralda~
+Una llave esmeralda, que colgaba del pilar Indico.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+esmeralda~
+Una llave esmeralda, que colgaba del pilar Indico.
+~
+#17503
+llave azul~
+una llave azul~
+Una llave azul, que colgaba del pilar Artico.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+azul~
+Una llave azul, que colgaba del pilar Artico.
+~
+#17504
+llave roja~
+una llave roja~
+Una llave roja, que colgaba del pilar Pacifico sur.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+roja~
+Una llave roja, que colgaba del pilar Pacifico sur.
+~
+#17505
+llave amarilla~
+una llave amarilla~
+Una llave amarilla, que colgaba del pilar Atlantico norte.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+amarilla~
+Una llave amarilla, que colgaba del pilar Atlantico norte.
+~
+#17506
+llave magenta~
+una llave magenta~
+Una llave magenta, que colgaba del pilar Pacifico Norte.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+magenta~
+Una llave magenta, que colgaba del pilar Pacifico Norte.
+~
+#17507
+llave negra~
+una llave negra~
+Una llave negra, que colgaba del pilar Atlantico Sur.~
+acero~
+key AHYd AO
+0 0 0 0 0
+40 1 1 P
+E
+negra~
+Una llave negra, que colgaba del pilar Atlantico Sur.
+~
+#17508
+espada coral~
+espada de coral~
+Una hermosa espada de coral brilla gracias a la luz aqui.~
+coral~
+weapon GIPSd AN
+sword 9 10 'slash' 0
+45 8 15000 P
+#17509
+lanza espinas~
+una lanza de espinas~
+Una lanza de espinas de pez botada aqui.~
+espina~
+weapon GIPSd AN
+staff 9 10 'slice' 0
+45 5 3500 P
+A
+18 2
+E
+lanza~
+Una hermosa lanza de espinas blanca brilla.
+~
+#17510
+hueso dios~
+Hueso de Dios~
+El hueso de algun dios esta aqui.~
+hueso~
+weapon HJSYd AN
+dagger 13 15 'stab' E
+53 1 1000 P
+A
+19 90
+A
+18 90
+A
+3 10
+A
+5 10
+A
+2 10
+A
+4 10
+A
+17 -300
+A
+1 15
+#17511
+rejilla~
+una rejilla~
+Una pequenia luz viene de una esquina.~
+metal~
+portal d P
+200 A A 17600 0
+2 1 1 P
+E
+luz~
+Una rejilla pequenia detras de un arbusto.
+~
+E
+esquina~
+Una rejilla pequenia detras de un arbusto.
+~
+E
+rejilla~
+La rejilla esta entreabierta sin cerradura.
+~
+#17512
+hongo~
+un hongo gelatinoso~
+Un hongo crece aqui, oculto, en el suelo.~
+vegetal~
+pill HPad A
+20 'heal' 'cure critical' 'curse' 'curse'
+30 1 5000 P
+E
+hongo~
+Un pequenito hongo brota timido, tiene un olor alarmante.
+~
+#17513
+latigo escamas~
+una latigo de escamas~
+Un hermoso latigo de escamas doradas yace aqui.~
+escamas~
+weapon Pd AN
+whip 7 6 'whip' 0
+38 10 50000 P
+A
+2 1
+#17514
+cachos demonio~
+Cachos del Demonio~
+Los tremendos cachos de un demonio, humean aqui.~
+indef~
+armor LSYd AJ
+10 13 10 13 -1
+39 12 10000 P
+A
+19 3
+#17515
+casco diamantes~
+un casco de diamantes~
+Un diamante gigantesco, con abertura para la cabeza, aqui.~
+diamante~
+armor Ad AE
+9 9 9 9 0
+39 15 50000 P
+A
+19 1
+A
+17 -20
+#17516
+aro zafiro~
+un aro de zafiro~
+Un brillante aro de zafiro purpura yace aqui.~
+zafiro~
+gem APYd AS
+0 0 0 0 0
+39 5 50000 P
+A
+19 2
+A
+17 -20
+#17517
+koobie axe hacha~
+Koobi Axe~
+Koobie Axe, esplendida hacha gigante esta ahi.~
+koobi~
+weapon Sd AN
+axe 8 11 'thwack' D
+45 25 50000 P
+A
+12 -50
+#17518
+avatarium~
+la Avatarium~
+Una gigantesca arma zumba aqui, un simbolo negro humea.~
+kerkett~
+weapon BPSd AN
+dagger 9 11 'pierce' 0
+46 21 35000 P
+E
+negro~
+Dice:  *** The migthy AVATARIUM dagger ****
+~
+E
+simbolo~
+Dice:  *** The migthy AVATARIUM dagger ****
+~
+E
+avatarium~
+Descorrer una pequenia placa.. Click!
+Dice:  ** AVATARIUM DAGGER: THE MOST POWERFULL WEAPON EVER KNOW **
+ ...Only Until Your Die
+~
+#17519
+medallon rubi~
+un medallon de rubis~
+Un hermoso rubi con una lazo incrustado, yace aqui.~
+indef~
+armor Ad AC
+9 9 9 9 0
+43 5 50000 P
+A
+19 2
+A
+13 15
+#17520
+casco oso~
+el Casco del Oso~
+Una hermosa media cabeza de oso, metalica, yace aqui.~
+magico~
+armor HSd AE
+10 9 10 9 0
+44 10 60000 P
+F
+A 19 3 c
+#17521
+arcano brazal~
+el Brazal Arcano~
+Un brazal antiguo, con polvo y suciedad esta ahi.~
+madera~
+armor ISUd AI
+8 11 8 11 0
+45 10 5000 P
+A
+2 2
+A
+19 3
+A
+13 -15
+E
+arcano~
+Tiene unas inscripciones muy antiguas.
+Dice:   Objeto del Envy 2.0     Icarus!
+~
+#17522
+pental malla~
+una malla pental~
+Una malla con con cincos puntas esta ahi, brillante.~
+rejilla~
+armor Hd AH
+8 7 8 7 0
+43 5 12000 P
+A
+19 4
+A
+12 -15
+#17523
+guantes serpiente~
+unos guantes de Serpiente~
+Unos guantes de escamas verdes se agitan ahi.~
+escamas~
+armor HOd AH
+8 11 8 11 0
+46 7 20000 P
+F
+A 1 1 K
+F
+A 19 4 P
+E
+serpiente~
+Unos guantes de estilo de pelea serpiente.
+~
+#17524
+escudo polar~
+un escudo Polar~
+Un escudo recubierto de hielo se derrite...~
+hielo~
+armor SUd AJ
+15 15 15 15 0
+46 11 7000 P
+A
+18 -1
+E
+polar~
+Un hermoso escudo blanco con un Iceberg en su cara.
+~
+#17525
+manta cosmica~
+una manta cosmica~
+Una manta metalica llena de estrellas y lunas, brilla ahi.~
+kevlar~
+armor BSd AD
+13 10 13 10 0
+45 9 15000 P
+A
+19 4
+A
+24 -10
+E
+cosmica~
+Una manta cosmica, refleja en ella las hermosa estrellas.  Parece
+absorver energia de tus alrrededores.  
+~
+#17526
+coraza esqueletos~
+una coraza de esqueletos~
+Una torax de esqueletos, muy firme, se ve ahi.~
+escamas~
+armor HYd AD
+10 10 10 10 0
+43 9 33000 P
+A
+5 2
+A
+12 -15
+A
+18 4
+#17527
+cefalo~
+un Cefalo invulnerable~
+Un cefalo llenos de magulladuras y cortes yace aqui.~
+hueso~
+armor Pd AE
+14 13 14 13 0
+43 10 10000 P
+A
+13 5
+E
+cefalo~
+Ha resistido cientos de batallas.  Es virtualmente indestructible, un
+verdadero tesoro.  
+~
+#17528
+escama tiamat~
+una escama de Tiamat~
+Una escama gigante de piel de dragon.~
+cristal~
+armor FSd AK
+11 9 11 9 0
+44 12 11000 P
+A
+13 50
+E
+tiamat~
+Una sola escama del dragon Tiamat, forma la armadura.  Esta llena de
+#Bpoder#n y magia.  
+~
+#17529
+mammut piel~
+una piel de Mammut~
+Una piel petrificada, llena de pelos y cortes, yace aqui.~
+indef~
+armor PSd AK
+15 18 15 18 0
+46 11 5000 P
+A
+2 -1
+A
+14 -30
+#17530
+botas aladas~
+unas botas aladas~
+Unas botas con plumas en sus talones, parecen flotar aqui.~
+indef~
+armor BKSd AG
+7 6 7 6 0
+34 3 24000 P
+A
+2 3
+A
+19 3
+#17531
+garras demonio~
+las garras de un demonio~
+Las garras de una criatura hieden y pudren aqui.~
+marfil~
+armor BEd AG
+13 8 13 8 0
+43 10 20000 P
+A
+18 5
+A
+14 -10
+#17532
+Kartopants~
+Unos firmes Kartopants~
+Unos Kartopants revelan un aura dorada botados ahi.~
+marfil~
+armor GHPSd AF
+10 10 10 10 0
+45 10 11000 P
+A
+23 -8
+A
+24 -10
+A
+22 -8
+A
+21 -10
+A
+20 -8
+A
+13 -5
+A
+18 -2
+E
+kartopants~
+En un lugar oculto dicen:  Pruebe polymortpants (MR)
+~
+#17533
+platal marino~
+un platal marino~
+Un firme platal, con mangos, corroido por el mar, yace ahi.~
+marino~
+armor AHPSd AJ
+17 7 17 7 0
+43 10 23000 G
+A
+19 -1
+#17534
+rayo sol~
+Un brillante rayo de sol~
+Un rayo de sol se desvanece aqui.~
+sol~
+light AIPSUd A
+0 0 650 0 0
+42 5 35000 P
+A
+19 4
+A
+18 3
+#17535
+vara fuego~
+una vara de fuego~
+Una larga vara, parece quemarse aqui.~
+madera~
+wand Bd AO
+27 8 8 'flaming shield' 0
+41 2 20000 P
+#17536
+hueso guerrero~
+un hueso de guerrero~
+Un hueso de un guerrero ancestral sale del suelo aqui.~
+madera~
+wand GQSd AO
+39 4 4 'combat mind' 0
+42 3 23000 P
+E
+hueso~
+Pertenece a un antiguo guerrero de lucha cuerpo a cuerpo.
+~
+#17537
+prisma~
+un prisma reflectante~
+Un prisma refleja siete colores en todas direcciones.~
+indef~
+wand d AO
+30 8 8 'displacement' 0
+41 4 30000 P
+#17538
+nibelungo~
+la gema del Nibelungo~
+La gema del nibelungo esta pronto a desaparecer aqui...~
+gema~
+portal PSYd AQS
+200 AC AC 9605 0
+41 1 9999999 P
+A
+19 5
+E
+nibelungo~
+Es el NEXUS del NIBELUNGO que te dio Athena.  Salvara siempre tu vida
+como TU lo hiciste con la de Ella.  Tiene una #Bbola#n en el centro...  
+~
+E
+bola~
+Al mirar la bola tu conciencia se conecta y escuchas:
+***** INVOCACION: Enter NIBELUNGO
+~
+#17539
+sobremochila~
+una sobremochila~
+Una sobremochila negra, con cierres, esta ahi.~
+kevlar~
+container HSYd AK
+160 AC 0 250 80
+41 400 50000 P
+F
+A 17 -10 d
+E
+sobremochila~
+Es una bella sobremochila. Tiene un #Bparche#n sobre algo en una esquina.
+~
+E
+parche~
+Descorres el parche..
+DICE:     Mochilas Jansport (MR)
+DICE: Sobremochila Jansport. La mochila definitiva.
+~
+#17540
+trozo pilar~
+un trozo de pilar~
+Un enorme y pesado trozo de un pilar, yace aqui.~
+indef~
+weapon HMPSYZd AN
+exotic 5 7 'caida' F
+47 35 10000 P
+E
+trozo~
+Es un trozo de algun pilar de los que sostienen a los 7 mares.
+Esta encantado y su poder es abismante.
+~
+#0
+
+
+
+#ROOMS
+#17500
+Bajo el mar.~
+Estas bajo el agua, extraniamente hay construcciones aqui.  Ves pilares y
+edificaciones de formas griegas.  
+~
+0 DY 0
+E
+construcciones~
+Son construcciones estilo griego. Al parecer en alguna epoca de la historia estuvieron sobre la superficie del agua.
+~
+D0
+~
+~
+0 -1 17501
+S
+#17501
+Bajo el Mar.~
+Las construcciones se extienden por todo el suelo marino. Hay un letrero que parece MUY importante.
+~
+0 DY 0
+E
+construcciones~
+Son de estilo griego. Quizas pertenecieron a alguna ciudad hundida ahora.
+~
+E
+letrero~
+#B    Bienvenido a POSEIDON, area creada en 1997 por DRACUL#n
+ 
+Si eres bajo nivel 40 es recomendable #BNO#n entrar, en otro caso
+suerte.
+ 
+pd:   Junta todas las llaves de los 7 pilares.
+~
+D1
+Una puerta que lleva a los dominios de Poseidon.~
+puerta~
+ABG -1 17502
+D2
+~
+~
+0 -1 17500
+D3
+Una puerta que lleva a los dominios de Poseidon.
+~
+puerta~
+ABG -1 17503
+S
+#17502
+Dominios de Poseidon~
+Estas ya en los dominios de Poseidon.  Tras la busqueda de los 7 pilares,
+7 generales y por supuesto Athena.  Adelante!.  
+~
+0 DY 12
+D0
+~
+~
+0 -1 17510
+D3
+~
+~
+ABG -1 17501
+S
+#17503
+Dominios de Poseidon.~
+Estas ya en los dominios de Poseidon.
+Tras la busqueda de los 7 pilares, 7 generales y por supuesto Athena. Adelante!.
+~
+0 DY 12
+D0
+~
+~
+0 -1 17504
+D1
+Una puerta que lleva a los dominios de Poseidon.~
+puerta~
+ABG -1 17501
+S
+#17504
+Dominios de Poseidon.~
+Estas la ruta correcta. Atravesando las construcciones hacia el norte el camino parece seguir.
+~
+0 DY 12
+D0
+~
+~
+0 -1 17505
+D2
+~
+~
+0 -1 17503
+S
+#17505
+Dominios de Poseidon~
+Las algas aqui son de una extrania especie.  No hay peces ni animales. 
+La ruta al norte continua.  AL sur la salida de los dominios de Poseidon.  
+~
+0 DY 12
+E
+algas~
+Son algas que respiran oxigeno. Aqui no hay agua. Es extranio todo esto.
+~
+D0
+~
+~
+0 -1 17506
+D2
+~
+~
+0 -1 17504
+S
+#17506
+Dominios de Poseidon~
+De las construcciones provienen sonidos.  Parece ser un cuartel de
+guardias aqui.  
+~
+0 DY 12
+E
+construcciones~
+Definitivamente hay gente dentro de las construcciones.~
+D1
+~
+~
+0 -1 17507
+D2
+~
+~
+0 -1 17505
+S
+#17507
+Ruta a los pilares~
+Esta ya en la ruta hacia los pilares al norte.  Al Este y Oeste parecen
+haber capitanias de guardias.  
+~
+0 DY 12
+D0
+~
+~
+0 -1 17511
+D1
+~
+~
+0 -1 17508
+D3
+Una puerta que lleva a los dominios de Poseidon.
+~
+puerta~
+0 -1 17506
+S
+#17508
+Dominios de Poseidon~
+De las construcciones provienen sonidos.  Parece ser un cuartel de
+guardias aqui.  
+~
+0 DY 1
+E
+construcciones~
+Definitivamente hay gente en estas construcciones.~
+D2
+~
+~
+0 -1 17509
+D3
+Una puerta que lleva a los dominios de Poseidon.
+~
+puerta~
+0 -1 17507
+S
+#17509
+Dominios de Poseidon~
+Del norte provienen sonidos. Al sur la salida de los dominios. 
+Realmente es hermoso por aqui.
+~
+0 DY 12
+D0
+~
+~
+0 -1 17508
+D2
+~
+~
+0 -1 17510
+S
+#17510
+Dominios de Poseidon~
+Divisas pilares muy a la lejania.  Al sur la salida de los dominios de
+Poseidon.  Todo aqui es magico y encantado, de hecho respiras oxigeno, lo
+que ya es estranio.  
+~
+0 DY 12
+D0
+~
+~
+0 -1 17509
+D2
+~
+~
+0 -1 17502
+S
+#17511
+Ruta a los pilares~
+Cada vez te acercas mas a tu objetivo hacia el norte.
+Ya no divisas construcciones a los lados, solo el camino de norte a sur.
+~
+0 DY 12
+E
+camino~
+Es un camino de piedras blancas, sedimento marino se ve inscrustado en ellas.~
+D0
+~
+~
+0 -1 17512
+D2
+~
+~
+0 -1 17507
+S
+#17512
+Ruta a los pilares~
+La ruta continua de sur a norte.  Las algas crecen con mas fuerza aqui.  
+~
+0 DY 12
+E
+algas~
+Estas algas parecen crecer mas fornidas por accion de algun abono, encanto magico quizas.~
+D0
+~
+~
+0 -1 17514
+D1
+Hay una puerta aqui.
+~
+puerta~
+ABG -1 17513
+D2
+~
+~
+0 -1 17511
+S
+#17513
+Ruinas de santuario.~
+Aqui alguna vez existio un santuario.  Ahora todo esta maltrecho y
+destruido.  
+~
+0 DKY 12
+D3
+~
+puerta~
+ABG -1 17512
+M 170 H 170
+S
+#17514
+Ruta a los pilares~
+Estas en un extremo de la ruta a los pilares.  Al norte el centro de los
+dominios de Poseidon.  
+~
+0 DY 12
+D0
+~
+~
+0 -1 17515
+D2
+~
+~
+0 -1 17512
+R enter 21020 45~
+S
+#17515
+Centro del Mar~
+Estas en el centro de todas las aguas del mundo.  Todo aqui es
+increiblemente hermoso, ves el sor brillar tras el agua del cielo.  Al Este
+y Oeste, en la lejania, divisas 7 pilares.  Al norte ves un templo
+gigantesco.  
+~
+0 DY 1
+E
+templo~
+Es el grandioso templo de Poseidon. 
+Adornado con oro y columnas de rubies.
+Algo nunca visto por seres humanos.
+~
+D0
+~
+~
+0 -1 17516
+D1
+~
+~
+0 -1 17520
+D2
+~
+~
+0 -1 17514
+D3
+~
+~
+0 -1 17519
+S
+#17516
+Frente al templo~
+Ante ti un grandioso templo se extiende majestuso. Es el templo de Poseidon.
+Luces en forma de rayos provenien del interior.
+~
+0 DY 1
+E
+templo~
+Es el grandioso templo de Poseidon. 
+Adornado con oro y columnas de rubies.
+Algo nunca visto por seres humanos.~
+D0
+~
+~
+0 -1 17517
+D2
+~
+~
+0 -1 17515
+S
+#17517
+Templo de Poseidon~
+Estas dentro del templo, todo brilla con un aura divina. Esta hecho de plata, oro y rubies. Muy hacia el sur, esta el centro de los mares.
+~
+0 DY 1
+E
+rubies~
+No te los puedes robar.~
+E
+plata~
+No te la puedes  robar.~
+E
+oro~
+No te la puedes robar.~
+D0
+~
+~
+0 -1 17518
+D2
+~
+~
+0 -1 17516
+S
+#17518
+Primer Portal~
+Frente a ti el colosal portal del Oceano Antartico.  Posee simbolos
+dibujados en ella.  
+~
+0 CDNY 0
+E
+simbolos~
+Tiene un grabado del pilar del Oceano Antartico.~
+D0
+~
+~
+ABCFG 17501 17594
+D2
+~
+~
+0 -1 17517
+S
+#17519
+Camino a los pilares~
+Frente a ti se disparan cuatro caminos de marmol.  Al Este el centro de
+los mares.  
+~
+0 CDJY 1
+E
+caminos~
+Son tres caminos de marmol que te llevaran a cuatro pilares.~
+D0
+~
+~
+0 0 17566
+D1
+Hay una puerta aqui.
+~
+puerta~
+0 -1 17515
+D2
+~
+~
+0 0 17579
+D4
+~
+~
+0 0 17546
+D5
+~
+~
+0 0 17554
+S
+#17520
+Camino a los pilares~
+Frente a ti se trifurcan tres caminos de marmol.  Al Oeste el centro de
+los mares.  
+~
+0 CDNY 1
+E
+caminos~
+Estos te llevaran a 3 pilares distintos.~
+D0
+~
+~
+0 0 17528
+D1
+~
+~
+0 -1 17521
+D3
+~
+~
+0 -1 17515
+D5
+~
+~
+0 0 17537
+S
+#17521
+Ruta al OCEANO INDICO~
+Bien al Oeste el centro de los mares.  Muy a los lejos camino al Este el
+Oceano Indico se sostiene en su pilar.  
+~
+0 CDLNY 1
+D1
+~
+~
+0 -1 17522
+D3
+~
+~
+0 -1 17520
+S
+#17522
+Ruta al Oceano Indico~
+Pisas sobre marmol en una ruta que lleva al Oceano Indico hacia el Este. 
+Unas escaleras continuan hacia bajo tra un portal al este.  
+~
+0 DNY 1
+E
+escaleras~
+Las escaleras continuan tras la puerta, hacia el mar indico.
+~
+E
+desc~
+~
+D3
+~
+~
+0 -1 17521
+D5
+~
+~
+ABG 0 17523
+S
+#17523
+Escaleras al Oceano Indico~
+Unas escaleras a tus pies recorren un camino de Este a Oeste.  Tiene
+incrustaciones de joyas en los bordes de marmol.  
+~
+0 NY 0
+D1
+~
+~
+0 0 17524
+D4
+~
+~
+ABG 0 17522
+S
+#17524
+Escaleras al Oceano Indico~
+Una escalera a tus pies recorre el camino al Oceano Indico.  Extranias
+melodias provienen del Este.  Al Oeste, muy lejos esta el centro de los
+mares.  
+~
+0 NY 0
+D1
+~
+~
+0 0 17525
+D3
+~
+~
+0 0 17523
+R delay 17503 100~
+R enter 17501 55~
+S
+#17525
+Escaleras al oceano Indico~
+A tus pies se extiende una escalera de marmol.  Al Este la entrada al
+Oceano Indico, de alli provienen sonidos desconocidos para ti.  El agua es
+de un color turquesa hermoso.  
+~
+0 NY 0
+D1
+~
+~
+ABG 0 17526
+D3
+~
+~
+0 0 17524
+M 150 H 150
+S
+#17526
+Oceano Indico~
+El agua turquesa te seniala claramente que has llegado al Oceano Indico. 
+Estas aguas son protegidas por el general Crishta de Trisaor, un guerrero
+formidable.  Hacia arriba tu divisass el pilar que sostiene este Oceano.  Al
+este las escaleras al centro del mar.  
+~
+0 Y 0
+D3
+~
+~
+ABG 0 17525
+D4
+~
+~
+ABG 0 17527
+S
+#17527
+Pilar del Oceano Indico~
+Estas en el centro del oceano Indico.  Ante ti se debe encontrar el pilar
+que sostiene completamente este mar.  Los colores proveniente del mar en el
+cielo destellan azules, violetas y verdes.  Este es unos de los mas hermosos
+lugares de los dominios de Poseidon.  
+~
+0 JNY 1
+E
+pilar~
+Este pilar que sostiene el Oceano Indico es tu objetivo.
+Debes intertar destrozarlo con todas tus fuerzas internas.
+ 
+~
+D5
+~
+~
+ABG 0 17526
+S
+#17528
+Ruta al Atlantico Norte~
+Sobre una hermosa escalera de marmol, se extiende al norte un ruta hacia
+el pilar del Atlantico boreal.  Al sur el centro de los oceanos esta cerca. 
+Lugares peligrosos son muy comunes por aqui.  
+~
+0 CLNY 0
+D0
+~
+~
+0 0 17529
+D2
+~
+~
+0 0 17520
+S
+#17529
+Ruta al Atlantico Norte~
+La escalera de marmol extendiendose de Norte a Sur se muetra agrietada
+por choques de barcos que se han hundido.  El lugar es lugubre y misterioso.
+Al sur el camino al centro de los mares.  
+~
+0 NY 0
+E
+grietas~
+Las grietas son provocadas por el choque de los barcos con el marmol.
+~
+E
+barcos~
+A la lejania divisas barcos hundidos en los mares del Atlantico.
+Pesqueros, tanqueros y barcos mercantiles se hayan maltrechos.
+~
+D0
+~
+~
+0 0 17530
+D2
+~
+~
+0 0 17528
+S
+#17530
+Ruta al Atlantico Norte~
+Al Este las aguas se ven turbulentas y mas heladas.  Al sur puedes volver
+al centro del mar.  Comienzas a observar manchas de petroleo en el suelo.  
+~
+0 NY 0
+D1
+~
+~
+0 0 17531
+D2
+~
+~
+0 0 17529
+S
+#17531
+Ruta al Atlantico Norte~
+La vegetacion escacea por aqui, todo esta cubierto de petroleo y
+desechos.  El suelo de marmol se ve casi completamente negro.  Al Este
+continua el camino al pilar del Atalntico.  
+~
+0 NY 0
+D1
+~
+~
+0 0 17532
+D3
+~
+~
+0 0 17530
+S
+#17532
+Ruta al Atlantico Norte~
+El camino llano a llegado a su fin, las escaleras ahora se empinan por
+una montania que se hiza majestuosa frente a ti.  EL agua esta realmente
+sucia.  
+~
+0 NY 0
+D3
+~
+~
+0 0 17531
+D4
+~
+~
+0 0 17533
+R delay 17503 100~
+R enter 17501 33~
+S
+#17533
+Montania submarina~
+La montania comienza a empinarse cada vez mas.  De la negra escalera de
+marmol observa algas brotando de los bordes.  Hacia arriba continua el
+camino tras un portal.  
+~
+0 NY 0
+D4
+~
+~
+ABG 0 17534
+D5
+~
+~
+0 0 17532
+R enter 21020 70~
+S
+#17534
+Montania submarina~
+A tu izquierda y derecha ves contruido un fuerte militar, al parecer esta
+montania estuvo alguna vez sobre las aguas.  Hacia el Este, tras un portal,
+continua el camino hacia el pilar.  
+~
+0 NY 0
+D1
+~
+~
+ABG 0 17535
+D5
+~
+~
+ABG 0 17533
+R enter 17500 20~
+S
+#17535
+Cumbre del Atlantico Norte~
+Estas en la cumbre del Atlantico Norte, sobre la montania mas alta.  Al
+norte divisas el gran pilar tras una portal de cristal.  Este lugar es
+hermoso, con pilares, escalinatas y recovecos.  
+~
+0 Y 0
+E
+cristal~
+Un portal de cristal te corta el paso hacia el gran pilar.
+~
+E
+montania~
+La montania parece ser la mas alta de todo el atlantico norte
+~
+E
+north~
+Un portal de cristal te corta el paso hacia el pilar.
+~
+D0
+~
+~
+ABG 0 17536
+D3
+~
+~
+ABG 0 17534
+S
+#17536
+Pilar del ATLANTICO NORTE~
+Estas en el lugar donde se cierne el gigantesco pilar que sostiene las
+aguas del atlantico norte.  Este lugar es un santuario completamente, todo
+aqui tiene un halo mistico.  
+~
+0 JNY 1
+D2
+~
+~
+ABG 0 17535
+S
+#17537
+Ruta al Atlantico Sur~
+Aqui comienza un interminable camino hacia el gigantesco pilar del
+Atlantico Sur.  El suelo es una escalinata de zafiro.  Es maravilloso
+observar tu reflejo en la gema.  Al norte el camino al centro de los mares. 
+~
+0 CLNY 0
+D2
+~
+~
+0 0 17538
+D4
+~
+~
+0 0 17520
+S
+#17538
+Camino de Zafiro~
+La ruta de zafiro rojo continua su largo trayecto al sur.  Al norte
+puedes volver hacia el templo de Poseidon.  Mirando hacia el cielo observas
+el sol tras el mar.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17537
+D2
+~
+~
+0 0 17539
+S
+#17539
+Ruta de zafiro~
+La ruta de zafiro puro hace un giro hacia el Este camino al gran pilar. 
+El agua esta muy helada, hacia arriba observas ballenas nadando en el mar.  
+~
+0 NY 0
+E
+ballenas~
+Hermosas ballenas azules cruzan nadando el mar.
+~
+D0
+~
+~
+0 0 17538
+D1
+~
+~
+0 0 17540
+S
+#17540
+Ruta de zafiro~
+Al Oeste puedes volver hacia el centro del mar.  Hacia abajo un portal
+cerrado te llevara al gran pilar.  El zafiro brilla con menos fuerza ahora. 
+~
+0 NY 0
+E
+zafiro~
+No te lo puedes robar, esta totalmente incrustado.
+~
+D3
+~
+~
+0 0 17539
+D5
+~
+~
+AB 0 17541
+S
+#17541
+Ruta al Atlantico Sur~
+La ruta de zafiro es menos luminosa ahora, la luz falta y el camino
+cuesta abajo parece no tener fin.  El suelo parece temblar por las
+tronaduras submarinas de volcanes.  
+~
+0 NY 0
+D4
+~
+~
+AB 0 17540
+D5
+~
+~
+ABG 0 17542
+S
+#17542
+Ruta al Atlantico Sur~
+El agua se hace cada vez mas fria.  La escalera continua hacia las
+profundidades en forma progresiva.  Los muros a tu lado comienzan a crecer. 
+Hacia arriba puedes volver al centro de los mares tras mucho camino.  
+~
+0 NY 0
+D4
+~
+~
+ABG 0 17541
+D5
+~
+~
+ABG 0 17543
+S
+#17543
+Portal al gran Pilar~
+Estas en las ruinas de un portal, te llevara al gran pilar del Atlantico
+Sur.  El aire se siente agitado por aqui.  Hay vegetacion pero muy escasa.  
+~
+0 NY 0
+E
+portal~
+Un hermoso portal dorado esta en ruinas. Los jeroglificos en el
+hablan sobre un pilar que sostiene los mares del mundo.
+Ja! que iluso!
+~
+D4
+~
+~
+ABG 0 17542
+D5
+~
+~
+ABG 0 17544
+R enter 17500 40~
+S
+#17544
+En el Portal~
+Bajo el Portal que te llevara al gran Pilar del Atlantico Sur.  Antiguos
+guardianes han dejado sus huellas de batallas aqui, impactos en el suelo,
+marmol destrozado.  Ahora solo debes ir al Oeste para conocer el Pilar. 
+Hacia arriba vuelves, tras mucho camino, al centro de los mares.  
+~
+0 Y 0
+D3
+~
+~
+ABG 0 17545
+D4
+~
+~
+ABG 0 17543
+S
+#17545
+Pilar del ATLANTICO SUR~
+Estas donde se erige el gran pilar del Atlantico Sur.  Puedes observar
+como se extiende casi infinitamente hacia el mar que esta arriba.  EL agua,
+alla arriba, se ve tranquila y apacible.  Esta un poco frio por aqui.  Al
+Este puedes volver al centro de los mares.  
+~
+0 JNY 1
+D1
+~
+~
+ABG 0 17544
+S
+#17546
+Ruta al Oceano Artico~
+Estas en la ruta hacia el Oceano Artico.  Los caminos son de malaquita
+blanca.  El suelo tiene un frio sobre lo normal, la vegetacion es muy
+extrana y exotica.  
+~
+0 CLNY 1
+D0
+~
+~
+0 0 17547
+D5
+~
+~
+0 0 17519
+S
+#17547
+Ruta al Oceano Artico~
+El ambiente se hace mucho mas frio de lo normal.  Los caminos continuan
+con su rumbo.  Todo es muy blanco y fantasmal.  
+~
+0 JNY 1
+D0
+~
+~
+0 0 17548
+D2
+~
+~
+0 0 17546
+S
+#17548
+Ruta al Oceano Artico~
+El ambiente se hace mucho mas frio de lo normal.  Los caminos continuan
+con su rumbo.  Todo es muy blanco y fantasmal.  
+~
+0 JNY 1
+D2
+~
+~
+0 0 17547
+D4
+~
+~
+0 0 17549
+S
+#17549
+Colina al Artico~
+Una colina se eleva desde este punto.  Muy a lo lejos, en la cima,
+observas algo que parece ser un pilar.  El camino es una escalera de
+malaquita blanca.  Las piedras a tu alrrededor son de hielo.  Todo es muy
+helado.  
+~
+0 NY 1
+D3
+~
+~
+0 0 17550
+D5
+~
+~
+0 0 17548
+S
+#17550
+Colina al Artico~
+La colina se eleva a cada momento.  El camino esta muy bellamente
+diseniado.  La vegetacion es totalmente blanca y casi transparente.  El
+ambiente es frio y congelado.  
+~
+0 NY 1
+D1
+~
+~
+0 0 17549
+D4
+~
+~
+0 0 17551
+R delay 17503 100~
+R enter 17501 66~
+S
+#17551
+Colina al Artico~
+La colina se eleva a cada momento.  El camino esta muy bellamente
+diseniado.  La vegetacion es totalmente blanca y casi transparente.  El
+ambiente es frio y congelado.  
+~
+0 NY 1
+E
+vegetacion~
+La vegetacion es blanca y transparente, esta hecha hielo.
+Todos los arbusto estan congelados pero vivos. Es increible.
+ 
+~
+D0
+~
+~
+ABG 0 17552
+D5
+~
+~
+0 0 17550
+S
+#17552
+Cima de la colina~
+Esta es la cima de la colina que lleva al pilar del Oceano Artico.  El
+camino comienza su desenso en este lugar.  Todo es muy bello, las plantas y
+la hierba del suelo parece estar hecha de hielo.  Este es el lugar de
+guardia de uno de los generales de Poseidon.  
+~
+0 Y 1
+D1
+~
+~
+ABG 0 17553
+D2
+~
+~
+ABG 0 17551
+S
+#17553
+Pilar del Oceano Artico~
+Aqui se alza majestuoso el pilar del Oceano Artico.  Todo por aqui es muy
+helado, tu aliento es notorio por el vapor.  Alla arriba, muy arriba, estan
+los mares del polo norte.  Lo iceberg flotan amenazantes.  
+~
+0 JNY 1
+D3
+~
+~
+ABG 0 17552
+S
+#17554
+Ruta al Oceano Antartico~
+Desde este lugar una escalera blanca se extiende bajando hacia el mismo
+polo sur.  El agua, alla arriba, se ve bastante cristalina.  
+~
+0 CLNY 1
+D4
+~
+~
+0 0 17519
+D5
+~
+~
+0 0 17555
+S
+#17555
+Ruta al Oceano Antartico~
+El camino se siente cada vez mas frio.  La vegetacion parece dismunir asi
+como tu temperatura.  Muy a los lejos, hacia el sur, divisas un enorme
+pilar.  Algunos cachalotes nadan en el mar arriba.  
+~
+0 LNY 1
+E
+cachalote~
+Los cachalotes van en cardumen.  Uno, blanco y enorme, va al frente
+giando al grupo.  Se parece en algo a Birdie.  
+~
+D3
+~
+~
+0 0 17556
+D4
+~
+~
+0 0 17554
+S
+#17556
+Ruta al Oceano Antartico~
+El camino blanco ahora es trasparente, sin duda es de hielo.  Es muy
+resbaladizo y si no vuelas en cualquier momento puedes caer y acabar con tu
+vida.  La temperatura es facilmente bajo cero.  Tu armadura esta crujiendo. 
+~
+0 NY 1
+D0
+~
+~
+0 0 17557
+D1
+~
+~
+0 0 17555
+S
+#17557
+Camino de Hielo~
+El camino se extiende hacia el Este y el Sur.  El lugar, aunque frio, es
+muy hermoso.  Cientos de barcos hundidos se divisan a la lejania.  Tambien
+hay algo de basura submarina.  
+~
+0 NY 1
+E
+barcos~
+Parece ser petroleros, varios de ellos tienen un logo que dice COPEC
+~
+D1
+~
+~
+0 0 17558
+D2
+~
+~
+0 0 17556
+S
+#17558
+Camino de Hielo~
+Estas en un camino congelado.  Puedes ver el aire de tu respiracion al
+exhalar.  Unos peldanios muy peligrosos y resbaladizos bajan hacia el pilar.
+Al Oeste tras mucho camino puedes llegar al centro de los mares.  El mar
+alla arriba se ve bastante desolado.  
+~
+0 NY 1
+D3
+~
+~
+0 0 17557
+D5
+~
+~
+0 0 17559
+S
+#17559
+Camino de Hielo~
+El camino congelado sigue su ruta.  El ambiente es frio y misterioso. 
+Notas un cambio muy peculiar en la vegetacion.  Muy arriba puedes observar
+el mar azul y helado.  
+~
+0 NY 1
+D2
+~
+~
+0 0 17560
+D4
+~
+~
+0 0 17558
+S
+#17560
+Camino de Hielo~
+El camino congelado sigue su ruta.  El ambiente es frio y misterioso. 
+Notas un cambio muy peculiar en la vegetacion.  Muy arriba puedes observar
+el mar azul y helado.  
+~
+0 NY 1
+D0
+~
+~
+0 0 17559
+D1
+~
+~
+0 0 17561
+S
+#17561
+Camino de Hielo~
+El camino congelado sigue su ruta.  El ambiente es frio y misterioso. 
+Notas un cambio muy peculiar en la vegetacion.  Muy arriba puedes observar
+el mar azul y helado.  
+~
+0 NY 1
+D0
+~
+~
+0 0 17562
+D3
+~
+~
+0 0 17560
+R enter 17500 45~
+S
+#17562
+Camino de Hielo~
+El camino congelado sigue su ruta.  El ambiente es frio y misterioso. 
+Notas un cambio muy peculiar en la vegetacion.  Muy arriba puedes observar
+el mar azul y helado.  
+~
+0 NY 1
+D2
+~
+~
+0 0 17561
+D5
+~
+~
+0 0 17563
+S
+#17563
+Camino de Hielo~
+El camino congelado sigue su ruta.  El ambiente es frio y misterioso. 
+Notas un cambio muy peculiar en la vegetacion.  Muy arriba puedes observar
+el mar azul y helado.  Hacia abajo-sur observas un gran portal de Hielo.  
+~
+0 NY 1
+D4
+~
+~
+0 0 17562
+D5
+~
+~
+ABG 0 17564
+S
+#17564
+Oceano Antartico~
+Este es el cuartel de uno de los generales de Poseidon.  Todo esta
+congelado.  Sobre los muros y el suelo nacen plantas totalmente de escarcha,
+el piso esta resbaladizo y humedo.  El ambiente tiene un toque magico.  
+~
+0 Y 0
+D2
+~
+~
+ABG 0 17565
+D4
+~
+~
+ABG 0 17563
+S
+#17565
+Pilar del Ocano Antartico~
+Estas en el punto mas austral del mundo.  Todo aqui es demasiado helado
+para cualquiera que este vivo.  Muy hacia arriba observas iceberg flotar
+bajo el mar.  Pinguinos y ballenas danzan en rituales verdaderamentes
+maravillosos.  En este lugar las cosas tiene un color azul y turquesa.  
+~
+0 JNY 0
+D0
+~
+~
+ABG 0 17564
+S
+#17566
+Ruta al  Pacifico Norte~
+La ruta desde este lugar se extiende hacia la cumbre de una montania
+donde se encuentra el pilar del Pacifico Norte.  Al sur puedes volver al
+centro de los mares, hacia el templo de Poseidon.  El suelo tiene
+inscripciones que llaman tu atencion, el camino esta bastante bien cuidado
+para estar en las profundidades del mar.  
+~
+0 CLNY 0
+E
+inscripciones~
+Suck Birdie For Ever..
+ 
+~
+D0
+~
+~
+0 0 17567
+D2
+~
+~
+0 0 17519
+S
+#17567
+Ruta al Atlantico Norte~
+Las rocas en el camino se elevan a alturas increibles, casi parecieran
+tocar el mar.  La ruta continua estrecha por un camino serpenteante entre
+las piedras.  El clima esta helado y hay extranios sonidos que emanan de muy
+lejos.  
+~
+0 LNY 0
+D1
+~
+~
+0 0 17568
+D2
+~
+~
+0 0 17566
+S
+#17568
+Camino Volcanico~
+La ruta continua al Norte hacia una montania.  Todo esta bastante oscuro
+debido a la altura de las rocas que te rodean.  Hay cierto ruidos de
+explosiones muy a lo lejos.  Al Oeste el camino baja por un camino de
+piedras.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17569
+D3
+~
+~
+0 0 17567
+R enter 21020 55~
+S
+#17569
+Camino Volcanico~
+El suelo enegricido por la ceniza pierde su color dorado original.  Las
+laderas estan empinadas y quizas seria mejor no intentar escalarlas.  Hacia
+el sur la ruta baja por la montania.  Arriba todo esta algo oscuro.  
+~
+0 NY 0
+D2
+~
+~
+0 0 17568
+D4
+~
+~
+0 0 17570
+S
+#17570
+Camino Volcanico~
+La ladera esta empinada, puedes observar hacia abajo una ruta algo dorada
+y negra.  El camino continua al Oeste en una curva que parece no tener fin. 
+El ambiente expele un aire de tension que pocas veces has sentido.  El lugar
+comienza a estar mas caluroso.  
+~
+0 NY 0
+D3
+~
+~
+0 0 17571
+D5
+~
+~
+0 0 17569
+S
+#17571
+Camino volcanico~
+Continuas en una ruta negra hacia el pilar del Pacifico Norte.  El lugar
+parece ser un camino hacia la cima de una montania.  Muy arriba obervas el
+mar, tranquilo y dulce.  Estas algo sofocado por el calor.  
+~
+0 NY 0
+D1
+~
+~
+0 0 17570
+D2
+~
+~
+0 0 17572
+S
+#17572
+Camino volcanico~
+Continuas en una ruta negra hacia el pilar del Pacifico Norte.  El lugar
+parece ser un camino hacia la cima de una montania.  Muy arriba obervas el
+mar, tranquilo y dulce.  Estas algo sofocado por el calor.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17571
+D4
+~
+~
+0 0 17573
+S
+#17573
+Camino volcanico~
+Continuas en una ruta negra hacia el pilar del Pacifico Norte.  El lugar
+parece ser un camino hacia la cima de una montania.  Muy arriba obervas el
+mar, tranquilo y dulce.  Estas algo sofocado por el calor.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17574
+D5
+~
+~
+0 0 17572
+S
+#17574
+Cima del Volcan~
+Estas en la cima del volcan submarino.  El camino hacia el Pacifico norte
+corre por aqui.  Todo es extremadamente caluroso.  Al sur la ladera comienza
+su descenso.  Muy arriba puedes ver como el calor hace hervir el agua
+proliferando a los tiburones que nadan a lo lejos.  Al Oeste el calor es
+extremo.  
+~
+0 NY 0
+E
+tiburones~
+No lo puedes creer: Un nino acaba de caer al agua y los tiburones nadan
+hacia el velozmente..  No vas a hacer algo ?  
+~
+D2
+~
+~
+0 0 17573
+D3
+~
+~
+0 0 17575
+S
+#17575
+Cima del Volcan~
+Estas en el mismo creater del volcan. Un camino dorado pasa a 5 metros de altura
+sobre la lava hirviente. La ruta y el aire estan extremadamente caliente, sientes
+que te derretiras en cualquier momento.
+ .. Blup .. Blup .. La lava salpica !!
+~
+0 ENY 0
+D1
+~
+~
+0 0 17574
+D2
+~
+~
+0 0 17576
+S
+#17576
+Costado del Crater~
+Estas en el camino dorado de la ruta hacia el Pacifico Norte.  El calor
+es extremo por la cercania del crater del volcan.  Al norte el crater
+salpica lava ardiente por todos lados.  Logras divisar entre las rocas un
+recoveco por donde fluye la luz.  
+~
+0 NY 0
+E
+recoveco~
+Parece ser una camino hacia arriba.
+~
+D0
+~
+~
+0 0 17575
+D4
+Una curva por donde fluye la luz.
+~
+piedra~
+ABG 0 17577
+R enter 21020 80~
+S
+#17577
+Guardia de Caballo Marino~
+El lugar es hermoso, en contraste con las laderas del vocan, aqui todo es
+frio y parsimonioso.  Los muros llenos de esmeraldas preciosas que brillan
+cegandote.  Esta es la guardia del general de Poseidon que cuida el pilar
+del Pacifico norte.  Hay algunas pinturas colgadas junto a unos marcos de
+oro.  
+~
+0 Y 0
+E
+pinturas~
+Es una pintura clasica.  Dracul de Nilo.  Se oberva la hermosura de su
+figura.  
+~
+D0
+~
+~
+ABG 0 17578
+D5
+~
+~
+ABG 0 17576
+S
+#17578
+Pilar del Pacifico Norte~
+Estas frente al lugar donde se levanta el colosal pilar del Pacifico
+Norte.  El pilar sostiene las aguas del oceano evitando que el mar
+desaparesca.  El lugar es impresionante, es la cima de la montania mas alta
+del Oceano, desde aqui observas todos los lugares que recorriste para
+llegar.  
+~
+0 JNY 2
+D2
+~
+~
+ABG 0 17577
+S
+#17579
+Ruta al Pacifico Sur~
+Al sur comienza la ruta hacia el colosal pilar del Pacifico Sur.  Muy a
+los lejos observas su estructura que es guardada por el general de Poseidon,
+Eo de Sila.  El ambiente aun es tranquilo, al norte puedes llegar al centro
+de los mares.  El agua arriba esta algo agitada.  
+~
+0 CLNY 0
+D0
+~
+~
+0 0 17519
+D2
+~
+~
+0 0 17580
+S
+#17580
+Ruta al Pacifico Sur~
+Al Este la ruta hacia el pilar del Pacifico Sur continua entre unas
+contrucciones antiguas.  Al norte puedes intentar volver al centro de los
+mares.  El agua comienza adquirir un color verdoso.  Hay algunos barriles de
+petroleo no muy lejos en el suelo.  Cientos de cardumenes flotan sobre tu
+cabeza haciendo que la luz baile entre ellos.  
+~
+0 LNY 0
+E
+barriles~
+Los barriles dicen : DESECHOS TOXICO DE SPRINGFIELD.
+ 
+~
+D0
+~
+~
+0 0 17579
+D1
+~
+~
+0 0 17581
+S
+#17581
+Construcciones~
+La ruta entra en unas construcciones muy antiguas que recuerdan el estilo
+griego.  Hay cientos de vasijas rotas en el suelo, y columnas jonicas muy
+bellas.  Los muros tienen escenas sobre ellos pintadas en oleo que ha
+envejecido.  Al Oeste el camino sale de las construcciones, al Sur te
+adentras aun mas.  Deberas hacercarte mas para ver los oleos.  
+~
+0 NY 0
+E
+muros~
+Intentas limpiar con tu mano el polvo pero descorres la pintura...
+~
+E
+oleos~
+Intentas limpiar con tu mano el polvo pero descorres la pintura...
+~
+D2
+~
+~
+0 0 17582
+D3
+~
+~
+0 0 17580
+S
+#17582
+Construcciones~
+Estas claramente dentro de las contrucciones que rodean el camino hacia
+el pilar del Pacifico Sur.  La pintura en los muros comienza a ser mas
+nitida, puedes observar algunas bestias mitologicas y animales.  Tambien hay
+una imponente figura de un guerrero con armadura dorada.  
+~
+0 NY 0
+E
+guerrero~
+Sin lugar a duda es Eo de Sila, general de Poseidon. Su estilo es el poder de las bestias.
+~
+D0
+~
+~
+0 0 17581
+D2
+~
+~
+0 0 17583
+S
+#17583
+Ruta de las Bestias~
+Te encuentras en una ruta que te puede llevar al pilar del Pacifico Sur o
+al centro de los mares del mundo.  Los muros que rodean el camino estan
+repletos de figuras de bestias salvajes y animales.  Leones, oso, avispas,
+aguilas, cientos de ellos observas.  Algunos graznidos extranios se oyen no
+muy lejos.  Es hora de estar alerta.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17582
+D3
+~
+~
+0 0 17584
+S
+#17584
+Ruta de las Bestias~
+Las construcciones terminan aqui para dar paso a una escalera que sube. 
+Los muros ahora muestran un guerrero formidable lleno de bestias salvajes a
+su alrrededor como si fuera su amo.  Hay un gran oso pintado en uno de los
+muros.  Al Este las construcciones continuan.  
+~
+0 NY 0
+E
+oso~
+Tiene un parecido increible con Birdie... 
+~
+D1
+~
+~
+0 0 17583
+D4
+~
+~
+ABG 0 17585
+S
+#17585
+Jaulas~
+Estas en la puerta de un serie de jaulas de animales.  Esto si no lo
+esperabas.  Abajo obervas una escalera que lleva a unas construcciones
+antiguas.  Sientes un fuerte olor a animal salvaje por aqui.  Arriba aun vez
+el mar azul, hermoso, y algunos buques.  Un barrote de la jaula tiene un
+letrero borroso.  El suelo esta lleno de fecas.  
+~
+0 NY 0
+E
+letrero~
+Senior Eo, las jaulas tienen un sistema de proteccion para evitar la huida de sus
+animales..Esperamos le agrade.
+~
+D0
+~
+~
+ABG 0 17587
+D3
+~
+~
+ABG 0 17586
+D5
+~
+~
+ABG 0 17584
+S
+#17586
+Jaulas~
+Estas dentro de una jaula no muy pequenia, esta bastante oscura y tu luz
+no te permite ver tus pies.  Sientes un ruido muy fuerte pero no puedes
+determinar su procedencia.  El olor es inaguantable aqui.  
+~
+0 NY 0
+D1
+~
+~
+ABG 0 17585
+D3
+~
+~
+ABG 0 17589
+R enter 17500 60~
+S
+#17587
+Jaulas~
+Te encuentras dentro de una enorme jaula.  Realmente no te imaginas que
+animal puede necesitar una jaula tan grande.  El lugar es putrefacto y tiene
+carne quemada pegada en el suelo.  Los barrotes estan totalmente negros.  
+~
+0 NY 0
+D2
+~
+~
+ABG 0 17585
+D3
+~
+~
+ABG 0 17588
+S
+#17588
+Jaulas~
+Los barrotes de la jaula parecen ser mas gruesos que lo normal.  El suelo
+tiene unos huesos quebrados no sabes de que animales.  El lugar es pequenio
+y afixiante.  Un pequenio cartel esta pegado en el suelo.  
+~
+0 NY 0
+E
+cartel~
+Por si no lo sabias: CUIDADO CON LOS MUROS!!!!
+~
+D1
+~
+~
+ABG 0 17587
+D2
+~
+~
+ABG 0 17589
+R enter 21033 90~
+S
+#17589
+Jaulas~
+Estas en la puerta que parece ser la salida de las jaulas, hay una
+escalera hacia abajo que lleva a unas bellas estructuras.  Un olor
+nauseabundo sale del Norte y el Este.  La luz es tenue.  
+~
+0 NY 0
+D0
+~
+~
+ABG 0 17588
+D1
+~
+~
+ABG 0 17586
+D5
+~
+~
+0 0 17590
+S
+#17590
+Planicie~
+Estas en una bella planicie con estructuras hermosas de marmol.  Hay
+tallado en los muros hermosos animales y bestias.  Muy a lo lejos puedes ver
+un gigantesto pilar que se le eleva hasta los mares.  La ruta continua sobre
+un suelo frio hacia el Sur, al Norte una escalera sube.  Algunas algas se
+agitan a tu presencia.  
+~
+0 NY 0
+D2
+~
+~
+0 0 17591
+D4
+~
+~
+0 0 17589
+S
+#17591
+Estructuras~
+El marmol de los muros parece aun mas blanco que antes, el lugar es
+extremadamente hermoso.  Puedes sentir grunidos salvajes desde este lugar,
+al parecer del Oeste.  Ya el pilar del Pacifico Sur esta muy cerca tuyo, al
+Norte puedes intentar volver al centro de los mares.  
+~
+0 NY 0
+D0
+~
+~
+0 0 17590
+D3
+~
+~
+ABG 0 17592
+S
+#17592
+Guardia de Eo de Sila~
+Este es el hermoso lugar de guardia del general de Poseidon a cargo del
+pilar del Pacifico Sur y su proteccion.  Hay siete estatuas de animales y
+bestias que representan el estilo de pelea de Eo de Sila.  Hay hermosas
+esmeraldas incrustadas en los muros.  El suelo es de marmol blanco.  Es hora
+de tu mision.  
+~
+0 Y 2
+D1
+~
+~
+ABG 0 17591
+D2
+~
+~
+ABG 0 17593
+S
+#17593
+Pilar de Pacifico Sur~
+Estas en el lugar donde se levanta el magnifico pilar del Pacifico Sur. 
+El pilar sostiene las aguas que estan sobre tu cabeza.  La base esta hecha
+totalmente de concreto, las algas y corales parecieran tener vida.  Los
+peces alla arriba nadan agitados ante tu presencia.  Todo esta rodeado de un
+aura magica.  
+~
+0 JNY 0
+D0
+~
+~
+ABG 0 17592
+S
+#17594
+Segundo Portal~
+Se empina frente a ti un portal gigantesco.  Un simbolo mistico en la
+madera te dice que es el del Oceano Indico.  Esta lleno de inscripciones.  
+~
+0 CDLNY 0
+E
+inscripciones~
+Son simbolos hindues. Uno de ellos dice: Hare Hare Krishna
+~
+D0
+~
+~
+ABCFG 17502 17595
+D2
+~
+~
+ABCFG 17501 17518
+S
+#17595
+Tercer Portal~
+Frente a ti se eleva un colosal portal con un iceberg enorme pintado en
+el.  Tiene unas letras onas que dice Oceano Antartico.  El ambiente es frio.
+~
+0 CDLNY 0
+E
+iceberg~
+Es igual al que llevaron a la Expo Sevilla desde Chile.
+~
+D0
+~
+~
+ABCFG 17503 17596
+D2
+~
+~
+ABCFG 17502 17594
+S
+#17596
+Cuarto Portal~
+El gigantesco portal del Pacifico Sur se eleva frente a ti, esta
+hermosamente decorado con un gigantes volcan.  El portal es realmente
+enorme, un pequenio tallado sobresale en una esquina.  
+~
+0 CDLNY 0
+E
+esquina~
+Psst! player... al ESTE puedes ahorrar mucho camino... 
+  .......  Letman Was Here
+~
+E
+tallado~
+Psst! player... al ESTE puedes ahorrar mucho camino... 
+  .......  Letman Was Here
+~
+D0
+~
+~
+ABCFG 17504 17598
+D1
+~
+pasadizo~
+ABG 0 17597
+D2
+~
+~
+ABCFG 17503 17595
+S
+#17597
+Pasadizo~
+Obviamente esta no es la idea del implementor. No tan facil. Seras castigado.
+~
+17500 BJUY 2
+D3
+~
+~
+ABG 0 17596
+R enter 21033 100~
+S
+#17598
+Quinto Portal~
+Se levanta frente a ti el gigantesco portal del Atlantico Norte.  Su
+color gris los hace verse aun mas grande.  Las bisagras de oro se ven
+indestructibles.  
+~
+0 CDLNY 0
+E
+bisagras~
+No te las puedes robar.
+~
+D0
+~
+~
+ABCFG 17505 17599
+D2
+~
+~
+ABCFG 17504 17596
+S
+#17599
+Sexto Portal~
+Estas frente al increible portal del Pacifico Norte, una hermosa isla
+pintada en la madera te hace recordad lo hermoso de las mareas.  El porton
+es realmente gigantesco.  
+~
+0 CDLNY 0
+E
+bandera~
+La bandera tiene una inscripcion que dice:  (SEEK LIGHT FOR SHORTER PATH)
+ 
+~
+E
+isla~
+Parece ser la isla de hawai, tiene una bandera dibujada que te llama la atencion.
+~
+D0
+~
+~
+ABCFG 17506 17601
+D2
+~
+~
+ABCFG 17505 17598
+S
+#17600
+Muy Oscuro~
+>>>>>>> Caes en un cuarto muy oscuro ... No hay salida .. 
+~
+0 ACLY 11
+M 0 H 0
+S
+#17601
+Septimo Portal~
+Estas frente al mas grande portal existente.  Esta totalmente hecho de
+oro solido.  Tiene dos serpientes de plata sobresalientes recorriendo los
+bordes.  Es la ultimo portal para entrar el templo sagrado de Poseidon. 
+Tiene unos gigantescos simbolos que dice en runas Atlantico Sur.  
+~
+0 CDLNY 0
+E
+serpientes~
+Una parecio mover un ojo, mejor ten cuidado.
+~
+D0
+~
+~
+ABCFG 17507 17602
+D2
+~
+~
+ABCFG 17506 17599
+S
+#17602
+Camara Imperial~
+Dentro de la camara puedes observar la inmensidad del templo de Poseidon.
+Es una habitacion que podrian ser facilmente cien cuartos, no distinges bien
+su fin ni su comienzo.  Del norte proviene una inmensa presencia que nubla
+tus sentidos.  El techo parece estar a veinte metros de altura.  Decenas de
+pilares de esmeraldas sostienen el cuarto.  Es hora de rescatar a Athena.  
+~
+0 CDJKNY 0
+D0
+~
+~
+0 0 17603
+D2
+~
+~
+ABCFG 17507 17601
+S
+#17603
+Trono de Poseidon~
+Has llegado al trono de Poseidon.  Un enorme asiento de oro yace sobre
+una plataforma.  El lugar es sublime, cientos de esculturas griegas de
+safiro puro estan a tu alrrededor.  De las paredes cuelgan armas de plata y
+mithril esplendorosas en sus formas.  Este es el santuario final.  El lugar
+que tras siete llaves permanecio oculto hasta tu llegada.  
+~
+0 DJNY 0
+E
+esculturas~
+Parecen ser los grandes player de este mud, te acercas y lees algunas de
+ellas.  VES: ** Dracul ** Aragorn ** Avatar ** Loki ** Letman ** Gandalf ** 
+~
+E
+safiro~
+El safiro, es morado y puedes ver atravez de el.
+Ohh! mira tu cara se ve mas gorda en el reflejo.. ughh..
+~
+E
+armas~
+Las armas estan pegadas al muro, imposible removerlas.
+~
+D2
+~
+~
+0 0 17602
+D5
+Un portico que lleva a una escalera es la salida del lugar.
+~
+portico~
+ABG 0 17604
+S
+#17604
+Salon de los Nexus~
+Estas dentro de un magnifico salon.  En este lugar se lleva a cabo
+invocaciones magicas y espirituales.  El cuarto esta tapizado de negro. 
+Decenas de portales y nexus magicos se abren ante tus ojos.  Puedes observar
+dentro de ellos dragones, mares, dioses, fidos.  Al norte sientes la
+presencia inconfundible de Poseidon, dios de los mares.  Heroe!  Podeis
+enfrentar tu ultima prueba o si prefieres dormir en tus laureles.  Observas
+un Nexus rojo.  Obervas un Nexus blanco.  Obervas un Nexus azul.  
+~
+0 CDJY 0
+E
+rojo~
+Mmm.. No puedes observar bien.. solo crees ver: Un dragon..
+~
+E
+blanco~
+Mmm.. No puedes observar bien.. solo crees ver: Un demonio..
+~
+E
+azul~
+Mmm.. No puedes observar bien.. solo crees ver: Un ciclope..
+~
+D0
+~
+~
+ABG 0 17605
+D4
+~
+~
+ABG 0 17603
+M 200 H 200
+S
+#17605
+Banio de Poseidon~
+Dentro del Banio de Poseidon.  El lugar es simple tiene un espejo, un
+lavatorio, una tina, un excusado y un basurero.  Todo es de marmol.  
+~
+0 DNY 0
+D2
+~
+~
+ABG 0 17604
+M 20 H 20
+S
+#0
+
+
+
+#SPECIALS
+M 17500 spec_cast_cleric
+M 17501 spec_hunter
+M 17502 spec_cast_mage
+M 17505 spec_snake_charm
+M 17526 spec_snake_charm
+M 17560 spec_kungfu_poison
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 17501 1 1
+D 0 17501 3 1
+D 0 17502 3 1
+D 0 17503 1 1
+D 0 17512 1 1
+D 0 17513 3 1
+D 0 17518 0 2
+D 0 17522 5 1
+D 0 17523 4 1
+D 0 17525 1 1
+D 0 17526 3 1
+D 0 17526 4 1
+D 0 17527 5 1
+D 0 17533 4 1
+D 0 17534 1 1
+D 0 17534 5 1
+D 0 17535 0 1
+D 0 17535 3 1
+D 0 17536 2 1
+D 0 17540 5 1
+D 0 17541 4 1
+D 0 17541 5 1
+D 0 17542 4 1
+D 0 17542 5 1
+D 0 17543 4 1
+D 0 17543 5 1
+D 0 17544 3 1
+D 0 17544 4 1
+D 0 17545 1 1
+D 0 17551 0 1
+D 0 17552 1 1
+D 0 17552 2 1
+D 0 17553 3 1
+D 0 17563 5 1
+D 0 17564 2 1
+D 0 17564 4 1
+D 0 17565 0 1
+D 0 17576 4 1
+D 0 17577 0 1
+D 0 17577 5 1
+D 0 17578 2 1
+D 0 17584 4 1
+D 0 17585 0 1
+D 0 17585 3 1
+D 0 17585 5 1
+D 0 17586 1 1
+D 0 17586 3 1
+D 0 17587 2 1
+D 0 17587 3 1
+D 0 17588 1 1
+D 0 17588 2 1
+D 0 17589 0 1
+D 0 17589 1 1
+D 0 17591 3 1
+D 0 17592 1 1
+D 0 17592 2 1
+D 0 17593 0 1
+D 0 17594 0 2
+D 0 17594 2 2
+D 0 17595 0 2
+D 0 17595 2 2
+D 0 17596 0 2
+D 0 17596 1 1
+D 0 17596 2 2
+D 0 17597 3 1
+D 0 17598 0 2
+D 0 17598 2 2
+D 0 17599 0 2
+D 0 17599 2 2
+D 0 17601 0 2
+D 0 17601 2 2
+D 0 17602 2 2
+D 0 17603 5 1
+D 0 17604 0 1
+D 0 17604 4 1
+D 0 17605 2 1
+M 0 17502 1 17500 1
+E 0 17510 0 16
+E 0 17518 0 19
+E 0 17519 0 3
+E 0 17519 0 4
+E 0 17525 0 5
+E 0 17528 0 12
+G 0 17537 0
+E 0 17534 0 0
+E 0 17521 0 10
+E 0 17532 0 7
+E 0 17523 0 9
+E 0 17527 0 6
+G 0 17538 0
+G 0 17536 0
+G 0 17535 0
+G 0 17501 0
+G 0 17507 0
+M 0 17503 2 17501 1
+M 0 17560 10 17506 2
+E 0 17513 0 16
+E 0 17515 0 6
+E 0 17514 0 11
+E 0 17516 0 21
+M 0 17560 10 17506 2
+E 0 17513 0 16
+E 0 17513 0 19
+E 0 17516 0 21
+M 0 17560 10 17508 2
+E 0 17515 0 6
+E 0 17516 0 21
+E 0 17513 0 16
+M 0 17560 10 17508 2
+E 0 17514 0 11
+E 0 17513 0 16
+M 0 17503 3 17512 1
+M 0 17500 1 17513 1
+M 0 17501 2 17518 1
+O 0 17512 0 17525
+M 0 17526 1 17526 1
+E 0 17509 0 16
+E 0 17519 0 3
+E 0 17519 0 4
+E 0 17526 0 5
+E 0 17521 0 10
+E 0 17522 0 9
+E 0 17524 0 11
+E 0 17524 0 6
+E 0 17529 0 12
+E 0 17534 0 0
+G 0 17537 0
+M 0 17510 7 17527 1
+E 0 17540 0 16
+G 0 17502 0
+O 0 17512 0 17533
+M 0 17507 1 17535 1
+E 0 17539 0 12
+E 0 17536 0 17
+E 0 17517 0 16
+E 0 17523 0 9
+E 0 17520 0 6
+E 0 17533 0 11
+E 0 17526 0 5
+E 0 17519 0 3
+E 0 17519 0 4
+E 0 17534 0 0
+E 0 17531 0 8
+M 0 17510 7 17536 1
+E 0 17540 0 16
+G 0 17505 0
+M 0 17503 5 17540 1
+O 0 17512 0 17541
+M 0 17509 1 17544 1
+E 0 17518 0 16
+E 0 17518 0 19
+E 0 17519 0 4
+E 0 17519 0 3
+E 0 17527 0 6
+E 0 17521 0 10
+E 0 17523 0 9
+E 0 17525 0 5
+E 0 17529 0 12
+E 0 17531 0 8
+E 0 17534 0 0
+G 0 17537 0
+G 0 17539 0
+M 0 17510 7 17545 1
+E 0 17540 0 16
+G 0 17507 0
+O 0 17512 0 17549
+M 0 17504 1 17552 1
+E 0 17508 0 16
+E 0 17508 0 19
+E 0 17527 0 6
+E 0 17525 0 5
+E 0 17534 0 0
+E 0 17532 0 7
+E 0 17522 0 9
+E 0 17531 0 8
+M 0 17510 7 17553 1
+E 0 17540 0 16
+G 0 17501 0
+O 0 17512 0 17559
+M 0 17505 1 17564 1
+E 0 17533 0 11
+E 0 17534 0 0
+G 0 17535 0
+E 0 17519 0 4
+E 0 17519 0 3
+E 0 17523 0 9
+E 0 17521 0 10
+E 0 17520 0 6
+E 0 17530 0 8
+E 0 17529 0 12
+E 0 17526 0 5
+E 0 17532 0 7
+E 0 17517 0 16
+M 0 17510 7 17565 1
+E 0 17540 0 16
+G 0 17503 0
+O 0 17512 0 17573
+M 0 17508 1 17577 1
+E 0 17519 0 3
+E 0 17519 0 4
+E 0 17515 0 21
+E 0 17517 0 16
+E 0 17527 0 6
+E 0 17522 0 9
+E 0 17524 0 11
+E 0 17526 0 5
+E 0 17539 0 12
+E 0 17530 0 8
+E 0 17532 0 7
+E 0 17534 0 0
+E 0 17536 0 17
+M 0 17510 7 17578 1
+E 0 17540 0 16
+G 0 17506 0
+M 0 17503 3 17587 1
+O 0 17512 0 17590
+M 0 17506 1 17592 1
+E 0 17519 0 3
+E 0 17519 0 4
+E 0 17518 0 16
+E 0 17521 0 10
+E 0 17522 0 9
+E 0 17524 0 11
+E 0 17525 0 5
+E 0 17527 0 6
+E 0 17528 0 12
+E 0 17530 0 8
+E 0 17532 0 7
+E 0 17534 0 0
+M 0 17510 7 17593 1
+E 0 17540 0 16
+G 0 17504 0
+O 0 17511 0 17599
+M 0 17512 1 17602 1
+M 0 17511 1 17603 1
+O 0 17500 0 17604
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

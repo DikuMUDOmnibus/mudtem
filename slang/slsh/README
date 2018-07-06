@@ -1,0 +1,18 @@
+slsh (slang-shell) is a work in progress.  See the scripts/
+subdirectory for examples.
+
+Usage: slsh [--help ] [ --version ] [FILENAME ...]
+
+Upon startup, the program will search for a file called slsh.rc and
+try to interpret it's contents before reading in the script file. If
+the environment variable SLSH_LIB_DIR exists, it will look in that
+directory for slsh.rc.  Otherwise, if SLSH_LIB_DIR is not defined, it
+will search the following directories:
+
+    /usr/local/lib/slsh/
+    /usr/local/slsh/
+    /usr/lib/slsh/
+    /etc/slsh/
+
+A sample slrn.rc file is in the lib subdirectory.
+

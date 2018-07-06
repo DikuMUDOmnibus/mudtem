@@ -1,0 +1,4171 @@
+#AREADATA
+Name San Antonio~
+Builders None~
+VNUMs 17300 17400
+Credits {10 50} Zatan   San Antonio~
+Security 9
+Prototipo 0
+Low 20
+High 50
+Version 2
+End
+
+
+
+#MOBILES
+#17300
+Jimy Hendrix~
+Jimy~
+Jimy Hendrix esta esperando tu consulta
+~
+Es el mas grande maestro de la guitarra que ha existido en este mundo, algun dia querras ser como el
+~
+'human'
+ABR DHc 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKU ACL BCD 0
+stand stand male 30
+0 0 medium 'list'
+C 'mage'
+#17301
+pera~
+El Pera~
+El Pera te invita a fumarse unos joins
+~
+Este individuo siempre esta listo para weviar un rato con los locos volaos
+~
+'human'
+ABFS a 0 0 0
+20 13 3d9+308 20d12+100 2d7+5 none
+-4 -4 -4 -3
+BEFIJKNUV 0 I CFL
+stand stand male 3
+0 0 medium 'cogoyo'
+C 'thief'
+#17302
+Max Cavalera~
+Max Cavalera~
+Max Cavalera esta pensando en como destruir tus oidos
+~
+A pesar de estar un poco excedido unos kilitos igual se ve ve en forma para mandarse unos conciertos chacales
+~
+'human'
+ABFT Ha 0 0 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFIKLTU T H 0
+stand stand male 500
+0 0 medium 'metal'
+C 'warrior'
+#17303
+Thrasher~
+El Thrasher~
+El Thrasher en lo unico que piensa es en patiar tu fucking Ass
+~
+No le logras ver sus ojos debido a su larga cabellera , la cual infunde respeto.
+~
+'human'
+AFT DVa 0 -1000 0
+15 22 3d9+233 15d11+100 2d6+3 none
+-2 -2 -2 0
+CEFIKLTU T Z ADLP
+stand stand none 50
+0 0 medium 'laser'
+C 'warrior'
+#17304
+James Hetfield~
+James Hetfield~
+El rey del metal James Hetfield te mira con odio
+~
+Su gran taman-o te impresiona, sientes que te desmayas frente a este gran guerrero del metal. Su mirada es penetrante y fria.
+~
+'human'
+ABDF DGHVac 0 -100 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FHIKU HILOPT BCEILP G
+stand stand none 2000
+0 0 medium 'uranio'
+C 'psicionist'
+#17305
+Dave Mustaine~
+Dave Mustaine~
+Dave Mustaine esta aqui creando unos riffs infernales
+~
+Lo unico interesante que puedes ver su cabellera que se agita al viento con cada cabezeada de este  "Sen-or" del metal
+~
+'human'
+ABFR DGHc 0 0 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FHKTU ACLQT EHIJY P
+stand stand none 500
+0 0 medium 'plutonio'
+C 'mage'
+#17306
+Fidel Castro~
+Fidel Castro~
+Don Fidel espera tu pedido
+~
+A pesar de que no es el verdadero Fidel su parecido es extraordinario
+~
+'human'
+ABT DHc 0 -1000 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLPTU ACE CHIPZ T
+stand stand male 5000
+0 0 medium 'vino'
+C 'warrior'
+#17307
+anarko~
+El Anarko~
+El Anarko te mira y te pregunta si eres posser
+~
+El enorme taman-o de este ser metalero te impresiona, su vestimenta es un poco estran-a, pero igual te gusta
+~
+'human'
+AFT Dac 0 -1000 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLQTU CH ACI Q
+stand stand male 500
+0 0 giant 'metal'
+C 'warrior'
+#17308
+Belcebu~
+El demonio Belcebu~
+Belcebu esta aqui para hacer un pacto y tomar tu alma
+~
+Es indescriptible la maldad que este ser demuestra con sus ojos
+~
+'dragon'
+ABFR DHVc 0 -1000 0
+45 22 25d10+2500 45d15+1600 5d8+14 none
+-15 -15 -15 -15
+FHKQTU ACL G 0
+stand stand male 5000
+0 0 medium 'lava'
+C 'mage'
+F vul F
+#17309
+Trauco~
+El Trauco~
+El Trauco te mira y ve si eres virgen para hacerte gozar
+~
+Es horrible este horrible ser, no sabes como se puede agarrar las medias minas
+~
+'troll'
+ABFR 0 0 -1000 0
+35 17 10d10+1100 35d14+1200 4d7+9 none
+-11 -11 -11 -11
+FKU ACI 0 0
+stand stand male 500
+0 0 medium 'condon'
+C 'mage'
+F off D
+#17310
+Duende Verde~
+El Duende Verde~
+EL Duende Verde te mira y te maldice
+~
+Puaj!!!!!!!! es horrible
+~
+'troll'
+A 0 0 0 0
+10 5 2d7+121 10d11+400 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand none 0
+0 0 medium 'acero'
+C 'psicionist'
+F off D
+#17311
+Quesillo~
+El Quesillo~
+El Quesillo te ofrece unos pitos muy baratos.
+~
+Es un tipo muy loco y lo unico que piensa es en volarse
+~
+'human'
+ABS H 0 0 0
+15 10 2d10+190 15d11+100 1d12+3 none
+-1 -1 -1 0
+BEFIJKNUV C H I
+stand stand none 500
+0 0 medium 'join'
+C 'thief'
+#17312
+pescador~
+El Pescador~
+El Pescador esta pensando en unos copetes y minas
+~
+Ves su cara curtida por el inclemente sol del mar.
+~
+'human'
+AH 0 0 0 0
+8 4 2d7+96 8d11+300 1d7+2 none
+3 3 3 5
+U 0 I CEFG
+stand stand male 6000
+0 0 medium 'algas'
+C 'cleric'
+#17313
+paco de azul~
+El Paco de azul~
+El paco de azul te pide tu identificacion
+~
+Se ve maricon como todos los pacos
+~
+'human'
+AT O 0 0 0
+12 18 2d10+170 12d11+100 1d10+3 none
+0 0 0 2
+CEIKLTU 0 E AC
+stand stand none 500
+0 0 medium 'carne'
+C 'warrior'
+#17314
+minas~
+La Mina~
+Una feroz mina esta aqui pintando
+~
+Es la cosa mas rica que has podido ver en tu vida, te estan entrando pensamientos muy oscuros a tu mente
+~
+'human'
+AH c 0 0 0
+8 4 2d7+96 8d11+300 1d7+2 none
+3 3 3 5
+U L A HIP
+stand stand female 500
+0 0 medium 'rico'
+C 'cleric'
+#17315
+Juanita~
+La Juanita~
+La Juanita esta aqui para atender tu pedido
+~
+~
+'human'
+ABT DH 0 0 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFIKLTU AC E H
+stand stand female 5000
+0 0 medium 'empanada'
+C 'warrior'
+#17316
+cubano mutante~
+El Cubano Mutante~
+El Cubano Mutante esta aqui totalmente mutilado
+~
+Puedes ver que este cadaver viviente esta en una condicion espeluznante.
+~
+'human'
+AFT Ga 0 0 0
+22 33 5d10+450 22d12+100 4d4+6 wrath
+-5 -5 -5 -4
+CDEFHIKLRTU HI EG CP
+stand stand male 0
+0 0 medium 'petroleo'
+C 'warrior'
+#17317
+Merino~
+EL Almirante Merino~
+El almirante Merino te atiende y te ofrece un cacho de chicha
+~
+El almirante esta, como siempre, terrible de cocio.
+~
+'human'
+ABR DH 0 1000 0
+20 10 3d9+283 20d12+700 3d4+4 none
+-4 -4 -4 -3
+FU ACEH I T
+stand stand none 20000
+0 0 medium 'chicha'
+C 'mage'
+#17318
+tiburon~
+EL Tiburon~
+El Tiburon tiene ganas de devorarte
+~
+Son horripilantes.
+~
+'fish'
+ABFT a 0 0 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFKLRTU AC IP H
+stand stand none 50
+0 0 medium 'carne'
+C 'warrior'
+#17319
+bruja~
+La Bruja Violadora~
+La Buja te observa y te intenta violar
+~
+A pesar de su feo nombre es la hembra mas hermosa que puede existir.
+~
+'dragon'
+ABQV GHac 0 -1000 0
+43 21 25d10+2500 43d15+1500 12d3+14 none
+-15 -15 -15 -14
+FHIKQTU ACEGPZ I 0
+stand stand female 43000
+0 0 giant 'lava'
+C 'cleric'
+F vul I
+#17320
+capitan~
+El Capitan~
+El Capitan totalmente mutilado te observa y quiere tomar venganza contigo
+~
+Su cuerpo mutilado no tiene descripcion
+~
+'human'
+ABT Ha 0 0 0
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+CDEFHIKLTU AC EHI T
+stand stand none 500
+0 0 medium 'petroleo'
+C 'warrior'
+#17321
+sra teresa~
+La Sra. Teresa~
+La Sra Teresa esta aqui para darte una mision.
+~
+Es la sen-ora mas hermosa que puede existir en este mundo. Ella es la madre de Zatan.
+~
+'human'
+ABNR HOc 0 1000 0
+50 25 25d10+3750 50d16+1700 13d4+17 none
+-19 -19 -19 -18
+FHKPTU ABCDGT EHI 0
+stand stand female 50000
+0 0 medium 'amor'
+C 'mage'
+#17322
+Negra Ester~
+La Negra Ester~
+La Negra Ester esta aqui esperando satisfacer tus deseos
+~
+A pesar de sus an-os de experiencia todavia conserva esa jovialidad que la hace una reina en la cama
+~
+'human'
+ABR Dc 0 0 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKU C EHI 0
+stand stand female 5000
+0 0 medium 'sexo'
+C 'mage'
+#17323
+polo~
+El Polo~
+El Polo esta aqui tirando unos hechizos
+~
+A pesar de nunca pelear siempre se conserva en buena forma para una lucha, pero se atreve a desafiarlo.
+~
+'human'
+ABR DFHc 0 0 0
+55 27 50d10+6000 55d16+1900 15d5+20 none
+-24 -24 -24 -23
+FHKSU ACEFGLOPZ DHIQTXY 0
+stand stand male 50000
+0 0 giant 'acero'
+C 'mage'
+#17324
+vivi~
+La Vivi~
+La Vivi te mira detenidamente y te invita a su cama
+~
+A pesar de su juventud esta hermosa mujer esta dispuesta a hacerte gozar de lo lindo
+~
+'human'
+ABQ DVa 0 0 0
+25 12 5d10+550 25d13+900 3d6+6 none
+-7 -7 -7 -6
+FIKU AC EGLPT KZ
+stand stand none 500
+0 0 medium 'sexo'
+C 'cleric'
+#17325
+miranda~
+El maricon Miranda~
+El maricon miranda te mira y te empieza a agujonear
+~
+Es la cosa mas rara que se ha visto en toda la tierra, te produce repulsion
+~
+'human'
+AH DW 0 0 0
+10 5 2d7+121 10d11+400 2d4+2 none
+1 1 1 4
+U 0 ACLQ DEGO
+stand stand female 100
+0 0 medium 'pico'
+C 'mage'
+#17326
+Valeria Massa~
+Valeria Massa~
+Valeria Massa esta aqui como dios la mando al mundo
+~
+Esta hermosa mujer es la cosa mas linda que se pueda imaginar.
+~
+'human'
+AB DH 0 0 0
+20 10 3d9+333 20d12+700 2d8+5 none
+-4 -4 -4 -3
+RU 0 AC I
+stand stand none 200
+0 0 medium 'carne'
+C 'psicionist'
+#17327
+guardia personal~
+guardia~
+El guardia
+~
+Que xuxa
+~
+'human'
+ABT Ba 0 0 1
+14 21 3d9+208 14d11+100 1d12+3 none
+-1 -1 -1 1
+CEFIKLRTU 0 A HI
+stand stand none 12
+0 0 medium 'carne'
+C 'warrior'
+#17328
+maricon recepcionista~
+el maricon~
+El maricon recepcionista espera tu pedido para llevarte a una pieza.
+~
+Huuuuuuummmmmmmmmmm mama.
+~
+'human'
+ABd DH 0 0 0
+20 10 3d9+333 20d12+700 2d8+5 none
+-4 -4 -4 -3
+U A 0 EI
+stand stand either 20000
+0 0 medium 'unknown'
+C 'psicionist'
+#17329
+antoni~
+el antoni~
+El antoni esta entero e volao
+~
+Loco con plata y volao.
+~
+'human'
+AB 0 0 0 0
+10 5 2d7+121 10d11+400 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand male 10
+0 0 medium 'unknown'
+C 'mage'
+#17330
+Jorobado de Notre Damme~
+El Jorobado~
+El Jorabado de Notre Damme te mira y te pide agua
+~
+A pesar de su feo aspecto este noble ser siempre esta dispuesto a ayudarte, siempre que seas bueno.
+~
+'human'
+ABFS CHOc 0 0 0
+35 23 10d10+1200 35d14+100 5d6+10 none
+-11 -11 -11 -10
+BEFHIJKNPUV 0 AHI KP
+stand stand male 4000
+0 0 giant 'carne'
+C 'thief'
+#17331
+optimus prime~
+Optimus Prime~
+Optimus Prime esta buscando malechores
+~
+El lider de los autobots es tremendo de grande el weon.
+~
+'dragon'
+ADG a 0 0 0
+47 23 25d10+3000 47d15+1600 7d7+16 none
+-17 -17 -17 -15
+FIKPU B 0 0
+stand stand none 30000
+0 0 giant 'acero'
+C 'psicionist'
+F res B
+F vul I
+#17332
+manuel rodriguez~
+Manuel Rodriguez~
+Manuel Rodriguez, el gran guerrillero esta aqui luchando por la libertad del mud.
+~
+Su mirada refleja las ganas de libertad tan escasas en este mud
+~
+'human'
+AGT HJVab 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLSTU B CEGHIL P
+stand stand male 3000
+0 0 giant 'corcho'
+C 'warrior'
+#17333
+matador salas~
+Marcelo "matador" Salas~
+El Matador Salas
+~
+A pesar de su cara de indio se gasta la media mina esta weon. Pega las medias Chuletas
+~
+'human'
+AS Ha 0 0 0
+30 20 6d12+778 30d13+100 2d12+8 none
+-9 -9 -9 -8
+BEFIJKNPUV 0 AEGHI 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+#17334
+pulpo~
+El Pulpo~
+El pulpo de winia esta rascandose una pata
+~
+Sus multliples patas se mueven por todos lados.
+~
+'fido'
+AI 0 0 0 0
+20 0 3d9+333 20d12+100 2d8+5 none
+-4 -4 -4 -3
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#17335
+merluza~
+Una Merluza~
+La merlusa picarona te aturde con su edor.
+~
+Puajj que ediondo....
+~
+'animal'
+ABI 0 0 0 0
+25 0 5d10+550 25d13+100 2d10+7 none
+-7 -7 -7 -5
+0 0 0 0
+stand stand none 20
+0 0 medium 'flesh'
+C 'thief'
+#17336
+pejesapo~
+Un Pejesapo~
+El horrible pejesapo esta ahi sapeando.
+~
+Este extranio animal te mira extraniado por tu cara rara
+~
+'animal'
+ABI 0 0 0 0
+30 0 6d12+853 30d13+100 4d6+8 none
+-9 -9 -9 -8
+0 0 0 0
+stand stand male 34
+0 0 medium 'fesh'
+C 'warrior'
+F act G
+#17337
+veterinario~
+El Veterinario~
+El Veterinario espera tu pedido.
+~
+Su cara  de loco te recuerda a un viejo amigo.
+~
+'human'
+ABR DH 0 0 0
+20 10 3d9+283 20d12+700 3d4+4 none
+-4 -4 -4 -3
+FU A C 0
+stand stand male 20000
+0 0 medium 'fesh'
+C 'mage'
+#17338
+monje satanico~
+Un Monje del demonio~
+El monje demoniaco est ahaciendo mariguancias.
+~
+Es indescriptible
+~
+'human'
+AFGQ JVa 0 0 0
+24 12 5d10+500 24d13+900 4d4+6 none
+-6 -6 -6 -5
+FIKU A 0 H
+stand stand none 3000
+0 0 medium 'fesh'
+C 'cleric'
+#17339
+eduardo bonvallet~
+Eduardo Bomvallet~
+Eduardo Bomvallet esta hablando puras leseras.
+~
+Tiene una cara de maniatico , lo cual lo hace hablar puras weas.
+~
+'human'
+AGT DH 0 0 0
+30 45 6d12+928 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDEFIKLTU A HIK 0
+stand stand male 3000
+0 0 medium 'oro'
+C 'warrior'
+#17340
+pinochet~
+Pinochet~
+El general Pinochet  te mira y te asusta
+~
+A pesar de sus anios su mirada impone un respeto aterrador.
+~
+'dragon'
+AGQ Ha 0 0 0
+45 22 25d10+3000 45d15+1600 10d4+15 none
+-15 -15 -15 -15
+FIKPU AHI C 0
+stand stand none 3000
+0 0 giant 'cobre'
+C 'cleric'
+#17341
+glen benton~
+Glen Benton~
+Glen Benton te mira y te invita a unirte a Zatan
+~
+La cruz invertiva que tiene en su frente te deslumbra.
+~
+'dragon'
+ABD H 0 -1000 3
+33 16 6d12+928 33d14+1200 4d7+9 none
+-11 -11 -11 -10
+FIKU 0 0 0
+stand stand male 3000
+0 0 giant 'fesh'
+C 'psicionist'
+#17342
+perro melvin~
+El Perro Melvin~
+El Perro Melvin anda aqui cagando la fiesta
+~
+El Perro Melvin te mira con su cara de weon y te empieza a contradecir con sus anti-teoremas.
+~
+'fido'
+AGHM 0 0 0 0
+15 0 3d9+208 15d11+100 2d6+3 none
+-2 -2 -2 0
+U 0 0 0
+stand stand male 200
+0 0 medium 'nada'
+C 'warrior'
+F off F
+M 'grall' 17342 50~
+#17343
+aweolfo~
+Aweolfo~
+Aweolfo te mira con su cara weona
+~
+Aweolfo esta donde calienta el sol
+ 
+~
+'zombie'
+AG HK 0 0 0
+17 0 3d9+258 17d12+100 3d4+4 none
+-3 -3 -3 -3
+U 0 EHT CPY
+stand stand none 0
+0 0 medium 'madera'
+C 'warrior'
+#17344
+emilio~
+Emilio~
+Emilio anda con su tabla de surf por aqui
+~
+Emilio te mira con su tremenda chasca
+~
+'vampire'
+AGS 0 0 0 0
+20 13 3d9+308 20d12+100 2d7+5 bite
+-4 -4 -4 -4
+BEFIJKNUV 0 GHI EKP
+stand stand male 0
+0 0 medium 'pelo'
+C 'thief'
+F vul X
+#17345
+bernardo o'higgins~
+Bernardo O'higgins~
+Bernardo O'higgings esta aqui buscando soldados para liberar al mud
+~
+Esta noble ser, al igual que Manuel Rodriguez, tambien ansia la libertad en este mud.
+~
+'dragon'
+AGQ Ha 0 0 0
+43 21 25d10+2500 43d15+1500 12d3+14 none
+-15 -15 -15 -14
+FIKTU ACH 0 0
+stand stand male 4000
+0 0 medium 'unknown'
+C 'cleric'
+F res H
+F vul I
+#17346
+sebastian~
+Sebastian~
+Sebastian esta aqui mostrando sus musculos.
+~
+Sebastian esta tratando de aprender a cantar pero no puede...es muy fuerte.
+~
+'elf'
+AGT V 0 -800 0
+20 30 4d10+360 20d12+100 2d8+5 pierce
+-4 -4 -4 -3
+CDEFIKLTU A CHN DEFGLMQ
+stand stand male 4100
+0 0 medium 'acero'
+C 'warrior'
+F vul Z
+#17347
+apocalipsis~
+Apocalipsis~
+Apocalipsis..................
+~
+En su rostro se puede ver  lo terrible que va a ocurrir con nuestro planeta.
+~
+'dragon'
+AGR HVa 0 -1000 0
+47 23 25d10+3000 47d15+1600 5d9+15 none
+-16 -16 -16 -15
+FHKTU H 0 0
+stand stand none 30000
+0 0 giant 'hierro'
+C 'mage'
+F res H
+F vul FI
+#17348
+El Jote~
+El Jote~
+El Jote anda bolseando de un lugar en otro
+~
+El Jote es un personaje muy cafiche para sus cosas.
+~
+'human'
+ABF HJT 0 -1000 2
+12 6 2d10+150 12d11+500 1d10+3 pierce
+0 0 0 2
+AU A B EHIK
+stand stand male 500
+GZ PQUVX large 'hueso'
+C 'cleric'
+#17349
+Kirt Mcluck~
+Kirt Mcluck~
+Kirt Migluck esta tratando de tomar una que entuve.
+~
+Kirt Migluck se arrodilla sobre la tabla.
+Hace piruetas en el borde del tubo.
+~
+'human'
+ABT Vc 0 300 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+ACDEFIKLTU ACKO ET FGX
+stand stand male 2510
+0 0 large 'fibra'
+C 'warrior'
+#17350
+Kainoa Mcgee~
+Kainoa Mcgee~
+Kainoa Mcgee esta parado sobre la tabla Wave Rebel
+~
+Kainoa Mcgee es poderoso hace muchas piruetas en su tabla.
+~
+'elf'
+ABT DEVZa 0 1000 0
+36 54 10d10+1500 36d14+100 4d8+11 none
+-12 -12 -12 -11
+CDEFHIKLTU ACL HZ EKX
+stand stand male 7600
+0 0 medium 'fibra'
+C 'warrior'
+#17351
+Jose el Lugaren-o~
+Jose El Lugaren-o~
+Jose El Lugare-o esta mirando a la gente que pasa por aqui
+~
+Este es Jose el Lugaren-o que mira como pasan los turistas y forasteros.
+~
+'human'
+ABFT HVc 0 120 0
+12 18 2d10+170 12d11+100 1d10+3 none
+0 0 0 2
+CEIKLTU CLQ EH ACGP
+stand stand male 0
+0 0 large 'unknown'
+C 'warrior'
+#17352
+Cafiche~
+El Cafiche~
+El Cafiche te mira feo, para ver si puedes entrar
+~
+El Cafiche es muy fuerte y mira feo a todos lods que pasan por aqui.
+~
+'predator'
+AQ HVa 0 -300 0
+30 15 6d12+853 30d13+1100 2d12+8 pierce
+-9 -9 -9 -8
+FIKU A CHI 0
+stand stand male 15000
+0 0 large 'ule'
+C 'cleric'
+#17353
+sheaper~
+sheaper~
+El sheaper vende unas muy buenas armas...te serviran a medida de que subas de nivel
+~
+El Sheaper es muy poderoso...el es un sabio en como hacer armaduras y armas.
+~
+'human'
+ABT HV 0 300 0
+30 45 6d12+928 30d13+100 4d6+8 pierce
+-9 -9 -9 -8
+CDEFIKLTU A CDHI K
+stand stand male 100
+0 0 medium 'unknown'
+C 'warrior'
+#17354
+toby vega~
+Toby Vega~
+El Toby Vega hasta aqui entrenando.
+~
+Toby Vega es un gran jugador, da unos pases muy buenos es seleccionado chileno y jugador de Wanderers.
+~
+'human'
+ABGT EHV 0 -100 0
+27 40 6d12+703 27d13+100 5d4+7 none
+-8 -8 -8 -6
+CDEFIKLSTU A BCGHIPSY KMNQX
+stand stand male 27000
+0 0 medium 'cuero'
+C 'warrior'
+#17355
+marino sueco~
+Marino Sueco~
+Un Marino Sueco esta aqui esperando sarpar
+~
+El marino es bueno con los cuchillos..
+~
+'zombie'
+ABG GHV 0 0 2
+17 0 3d9+258 17d12+100 3d4+4 pierce
+-3 -3 -3 -3
+HU A CEHIK PT
+stand stand male 13000
+0 0 medium 'madera'
+C 'thief'
+F vul N
+#17356
+marino gringo~
+Marino Gringo~
+Un Marino Gringo esta aqui esperando sarpar.
+~
+Este marino es un poco estupido,... si te metes con el tienes que saber hacerlo.
+~
+'human'
+ABGT CVZ 0 -700 2
+18 27 3d9+308 18d12+100 2d7+4 pierce
+-3 -3 -3 -2
+ACDEFIKLTU A BCNOTY HKLMQ
+stand stand male 15000
+0 0 huge 'madera'
+C 'warrior'
+#17357
+deportino~
+Deportino~
+El Deportino esta aqui mostrando las armaduras.
+~
+El Deportino es muy habil y diestro.
+~
+'dragon'
+ABGR DH 0 800 0
+39 19 10d10+1500 39d14+1400 4d8+11 pierce
+-13 -13 -13 -12
+FKPU AB 0 0
+stand stand male 1200
+0 0 medium 'acero'
+C 'mage'
+#17358
+Pato Artesano~
+Pato Artesano~
+Pato Artesano esta tallando madera.
+~
+Pato Artesano se encuentra haciendo artesanias en madera.
+~
+'human'
+ABD DHJZ 0 0 0
+28 14 5d10+600 28d13+1000 5d4+7 none
+-8 -8 -8 -7
+FIKU C 0 0
+stand stand male 4000
+0 0 large 'madera'
+C 'psicionist'
+#17359
+anguila~
+Anguila~
+La Anguila es muy poderosa.
+~
+La Anguila es muy fuerte y poderosa.
+~
+'dragon'
+AI c 0 0 0
+26 13 5d10+600 26d13+900 3d7+7 none
+-7 -7 -7 -6
+CIKSV 0 CDFLO X
+stand stand male 5000
+0 0 medium 'acero'
+C 'mage'
+F off M
+F res E
+F vul FI
+#17368
+Salvavidas~
+Salvavidas~
+Los Salvavidas se dan vuelta por la playa viendo que nadie se ahoge.
+~
+Los Salvavidas se creen guardianes de la bahia.
+~
+'fish'
+AHT 0 0 500 0
+15 22 3d9+233 15d11+100 2d6+3 none
+-2 -2 -2 0
+CEFKLTU ACE BI FGJ
+stand stand male 0
+0 0 large 'plastico'
+C 'warrior'
+#17370
+Barza~
+El Barza~
+El Barza esta aqui bolseando plata.
+~
+El Barza es un personaje que ha bolseado mucho durante su vida.
+~
+'predator'
+ABS V 0 -400 0
+10 6 2d6+110 10d11+100 1d8+2 punch
+2 2 2 4
+BFJNTU CM HK ILOZ
+stand stand male 1000
+Z 0 large 'unknown'
+C 'thief'
+#17371
+Capitan Arturo Prat C.~
+Capitan Arturo Prat C.~
+Arturo Prat esta aqui recordando como se hundio la esmeralda.
+~
+El Capitan Arturo Prat C. esta mirando a los nuevos marinos que estan por embarcarse.
+~
+'human'
+ABT HOVZc 0 300 0
+38 57 15d10+1700 38d14+100 16d2+12 none
+-13 -13 -13 -11
+CDEFHIKLTU ACILM KOT H
+stand stand male 3500
+0 0 large 'platino'
+C 'warrior'
+#17372
+tiburon pez~
+un tiburon~
+Un tiburon de 6 metros esta aqui.
+~
+Este tiburon es muy fuerte...puede devorar a todos los que su amo le ordene.
+~
+'fish'
+ABIU HV 0 100 0
+25 0 5d10+550 25d13+100 2d10+7 pierce
+-7 -7 -7 -5
+BKV 0 BCFGKOP DEJLTX
+stand stand male 0
+Z 0 large 'coral'
+C 'warrior'
+F imm R
+#17373
+pelicano ave~
+pelicano~
+Un pelicano esta aqui paseando...espera que su amo le ordene.
+~
+Este pajarraco es muy flojo.
+~
+'animal'
+ABI DHV 0 100 0
+20 0 3d9+333 20d12+100 2d8+5 pierce
+-4 -4 -4 -3
+BLV 0 0 DKLQ
+stand stand male 0
+W 0 large 'pluma'
+C 'thief'
+#17374
+delfin~
+delfin~
+El Delfin de 5 metros esta aqui al lado de su amo
+~
+Este delfin es muy pacifico hasta que lo molestes.
+~
+'animal'
+ABI DZc 0 500 0
+28 0 6d12+703 28d13+100 2d12+8 pierce
+-8 -8 -8 -7
+V 0 C 0
+stand stand male 0
+0 0 large 'carne'
+C 'thief'
+#17382
+El Rapero~
+El Rapero~
+El Rapero baila unos raps.
+~
+El Rapero baila como los giles un rap y entre ellos hacen circulos.
+~
+'troll'
+AFH V 0 -300 0
+14 0 2d10+190 14d11+100 1d12+3 none
+-1 -1 -1 1
+U A IP DMOY
+stand stand male 2000
+0 0 small 'lana'
+C 'thief'
+F off D
+#17384
+Blondie Tecno's~
+Blondie Tecno's~
+El Blondie tecno's esta bailando aqui.
+~
+El chico tecno baila tecno-house junto a sus lolos amigos.
+~
+'scorpion'
+ACDH JVZ 0 500 0
+25 12 5d10+450 25d13+900 2d10+6 none
+-7 -7 -7 -6
+IKRU AC BHKT OZ
+stand stand male 2430
+Z 0 large 'disco'
+C 'psicionist'
+#17385
+antivampiro~
+Antivampiro~
+El antivampiro esta esperando que se le cruce un vampiro
+~
+Este antivampiro quiere matar a dracul y aragorn
+~
+'elf'
+AGT BCEFGHTUVZabc 0 -1000 2
+25 37 5d10+600 25d13+100 2d10+7 none
+-7 -7 -7 -5
+ACDEFIKLPTU AB MQ 0
+stand stand male 1000
+0 0 medium 'acero'
+C 'warrior'
+F res B
+#17387
+El Teniente~
+El Teniente~
+El Teniente mira como sus subditos trabajan mientras el se las tira.
+~
+El Teniente mira su pistola acariciandola y poniendole el cargador.
+~
+'human'
+ABT ac 0 400 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -3
+CDEFIKLTU ACKLM FOX EHRT
+stand stand male 842
+0 0 large 'cobre'
+C 'warrior'
+#17388
+guilherme tamega~
+Guilherme Tamega~
+Guilherme Tamega es el campeon mundial...es muy poderoso hay que tener cuidado con el.
+~
+Guilherme Tamega es el ultimo campeon...este brasileiro es muy capo para lo que hace...es un verdadero master.
+~
+'human'
+AT CEHTVZb 0 500 0
+43 64 25d10+2750 43d15+100 10d4+15 pierce
+-15 -15 -15 -13
+CDEFHIKLTU AR BCHINT KLQ
+stand stand male 43000
+GJbc OP large 'oro'
+C 'warrior'
+#17389
+heladero~
+El Heladero~
+El Heladero esta aqui ofreciendo sus ricos helados.
+~
+Este heladero es he hielo, el te ofrece sus ricos bocadillos.
+~
+'dragon'
+ABT DH 0 -1000 0
+30 45 6d12+928 30d13+100 4d6+8 pierce
+-9 -9 -9 -8
+CDEFIKLTU A 0 0
+stand stand male 0
+MV 0 giant 'hielo'
+C 'warrior'
+F off M
+#17390
+JP Guitar~
+JP Guitar~
+JP se esta preparando para empezar a tocar Anatta.
+~
+JP se encuentra afinando para empezar a tocar Anatta.
+~
+'human'
+ABT HVa 0 250 0
+30 45 6d12+928 30d13+100 4d6+8 pierce
+-9 -9 -9 -8
+CDEFIKLTU ABCJL EHIT PX
+stand stand male 3000
+0 0 large 'hierro'
+C 'warrior'
+#17391
+brian wise~
+Brian Wise~
+Brian wise anda buscando unas buenas olas.
+~
+Brian Wise anda buscando buenas olas, ya que aqui no son como las Australianas, el es muy amigable hasta que lo atacan por que ahi te dira....debes morir.
+ 
+~
+'angel'
+ACT HJV 0 500 0
+40 60 25d10+2000 40d15+100 6d6+13 pierce
+-13 -13 -13 -12
+CDEFHIKLTU AT BCIQZ H
+stand stand male 26000
+0 0 large 'sal'
+C 'warrior'
+#17392
+dragon dorado de mar~
+dragon dorado de mar~
+El Gran Dragon Dorado de Mar esta resguardando la tabla dorada
+~
+El Dragon Dorado es muy Especial es parte del mar y es muy poderoso.
+~
+'dragon'
+ABT HVZac 0 -500 0
+35 52 10d10+1400 35d14+100 6d5+11 pierce
+-11 -11 -11 -10
+CDEFHIKLTU A QT 0
+stand stand male 35000
+a 0 large 'oro'
+C 'warrior'
+F off M
+F vul I
+#17393
+Hammer Rap's~
+Hammer Rap's~
+Hammer Rap's canta con los otros raperos
+~
+Hammer Rap's canta el rap i so good.
+~
+'zombie'
+ABHT UVZ 0 -100 0
+20 30 4d10+360 20d12+100 2d8+5 none
+-4 -4 -4 -4
+CDEFIKLTU ABC EKLMTZ GHQ
+stand stand male 4560
+0 0 small 'cuero'
+C 'warrior'
+#17394
+Marinos~
+El Marinero~
+El Marino anda buscando al capitan Merino
+~
+El Marino se encuentra preocupado por su Capitan Merino.
+~
+'predator'
+AR CGHJb 0 -600 0
+25 12 5d10+450 25d13+900 4d4+6 slash
+-6 -6 -6 -6
+FKSTU AY BCEIKP HMT
+stand stand male 13200
+0 0 large 'cogoyo'
+C 'mage'
+#17395
+Fabio Aquino~
+Fabio Aquino~
+Fabio Aquino esta sacando su tabla de la funda.
+~
+Fabio Aquino se prepara con sus elementos para correr las mejores olas que tome.
+~
+'human'
+ABR DHUVZab 0 250 0
+35 17 10d10+1100 35d14+1200 4d7+9 none
+-11 -11 -11 -11
+FHKTU ABCFIKLMQ JRTX HOP
+stand stand male 3510
+b 0 large 'unknown'
+C 'mage'
+#17396
+Jeff Hubbard~
+Jeff Hubbard~
+Jeff Hubbard esta poniendose el traje para meterse al agua.
+~
+Jeff Hubbard  se prepara para meterse y tomar las mejores olas.
+~
+'predator'
+ABT HZab 0 120 0
+18 27 3d9+308 18d12+100 2d7+4 none
+-3 -3 -3 -2
+CDEFIKLRTU ACILPQ BKRTX EFGHMOZ
+stand stand male 1200
+b 0 large 'unknown'
+C 'warrior'
+#17397
+Chris Gagnon~
+Chris Gagnon~
+Chris Gagnon Esta tomando un tubo.
+~
+Chris Gagnon se encuentra saliendo desde el interior de un tubo.
+~
+'human'
+ABR Vc 0 -500 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+FKTU ACKLPX BIMT EFHZ
+stand stand male 640
+b 0 large 'fibra'
+C 'mage'
+#17398
+Jaime Guzman E.~
+El alma de Jaime Guzman E.~
+Aqui se encuentra el alma de Jaime Guzman E. cuidando el congreso.
+~
+Jaime Guzman E. mira a la gente que llega al congreso.
+~
+'human'
+ABT EUZ 0 300 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -10
+CDEFHIKLSTU ACHMP BINY EF
+stand stand male 5300
+0 0 large 'vidrio'
+C 'warrior'
+#17399
+Surf Guard~
+Surf Guard~
+Aqui el Surf guard esta vigilando el lugar.
+~
+El Surf guard esta viendo que solo entren los correctos.
+El mira para todos lados.
+~
+'giant'
+ABT EHVZc 0 200 0
+45 67 25d10+3250 45d15+100 9d5+16 slash
+-15 -15 -15 -14
+ACDEFHIKLTU ACP EFMS KQ
+stand stand male 25000
+0 0 large 'fibra-optica'
+C 'warrior'
+F vul P
+#17400
+Sergio Romero~
+Sergio Romero~
+Aqui esta Sergio Romero un politico que lee el acta para el dia, pasa asistencia pero nadie lo pesca
+~
+Sergio Romero recalca ser el presidente del senado, pero sus colegas no lo pescan mucho, lo dejan que hable solo mientras lee las actas.
+~
+'human'
+ABT HVa 0 -120 0
+22 33 5d10+450 22d12+100 4d4+6 none
+-5 -5 -5 -4
+CDEFIKLQTU AILP PT DEFG
+stand stand none 850
+0 0 medium 'marmol'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#17300
+tridente magnetico~
+tridente del diablo~
+Un tridente con extran-os dibujos llama tu atencion~
+uranio~
+weapon 0 AN
+sword 5 10 'slash' A
+45 80 5000 P
+#17301
+cadena~
+una Cadena~
+Una cadena metalera esta aqui tirada.~
+acero~
+weapon 0 AN
+mace 5 4 'pound' 0
+15 100 200 P
+A
+19 1
+#17302
+guitarra electrica~
+guitarra electrica~
+Una chacal guitarra electrica esta aqui desafinada~
+madera~
+weapon J AN
+mace 5 6 'charge' 0
+24 450 10000 P
+A
+18 2
+A
+13 10
+#17303
+baquetas~
+un par de baquetas~
+Unas baquetas autografiadas paracen atraerte~
+uranio~
+weapon C AN
+axe 3 5 'pound' 0
+25 10 500 P
+A
+19 3
+#17304
+bajo~
+bajo~
+Un Bajo parecido al de Cliff Burton te calienta al verlo~
+plutonio~
+weapon G AN
+sword 5 5 'blast' 0
+20 100 8000 P
+A
+18 1
+A
+13 5
+#17305
+corneta~
+la Corneta~
+Una Corneta esta aqui lista para ser  tocada~
+pico~
+weapon M AN
+sword 3 6 'thrust' 0
+15 63 100 P
+A
+2 1
+A
+18 1
+#17306
+piano~
+piano~
+EL Piano de Claudio Arrau esta aqui todo polvoriento~
+laser~
+weapon M AN
+mace 6 9 'pound' F
+35 500 15000 P
+A
+19 4
+A
+18 -2
+#17307
+camara~
+una camara~
+La camara de tractor totalmente parchada no te da confianza~
+goma~
+boat 0 A
+0 0 0 0 0
+3 3 20 P
+#17308
+patito de hule~
+un pato de  hule~
+El patito que nunca tuviste te invita a nadar~
+goma~
+boat 0 A
+0 0 0 0 0
+1 1 10 P
+#17309
+condon~
+un condon~
+Un condon listo para pisar esta tirado en el suelo~
+silicona~
+trash 0 AE
+0 0 0 0 0
+24 20 30000 P
+A
+12 10
+A
+18 2
+#17310
+yate~
+yate~
+El yate de Aristoteles Onasis esta genial para navegar~
+indef~
+boat 0 A
+0 0 0 0 0
+20 300 10000 P
+#17311
+sopa de choro~
+una sopa de choritos~
+Una sopita de choros para la noche no hace mal~
+choro~
+food 0 A
+10 10 0 0 0
+5 30 300 P
+#17312
+paila marina~
+paila marina~
+Una deliciosa paila marina te invita a degustarla~
+mariscos~
+food 0 A
+30 15 0 0 0
+0 1 500 P
+#17313
+pescado frito~
+un pescado frito~
+Un pescado frito te vuelve loco~
+pescado~
+food 0 A
+15 13 0 0 0
+1 3 200 P
+#17314
+pito~
+pito de marigua~
+Un pito de marihuana te seduce~
+indef~
+food 0 A
+17 12 0 0 0
+5 2 500 P
+A
+4 -1
+A
+2 1
+#17315
+limon soda~
+una limon soda~
+Una limon soda te quiere refrescar~
+soda~
+potion 0 A
+20 'refresh' '' '' ''
+20 40 10000 P
+#17316
+ron silver~
+un ron silver~
+Este extranio brebaje te incita a beberlo~
+indef~
+potion 0 AO
+30 'calm' 'sed' 'ebriedad' ''
+24 75 20000 P
+#17317
+picana~
+una picana~
+Una picana electrica ~
+acero~
+weapon 0 AN
+dagger 2 3 'charge' 0
+12 64 1000 P
+#17318
+chiwas rigan~
+chiwas rigan~
+Un whiscacho nacional de la mejor calidad~
+indef~
+potion 0 AO
+20 'sanctuary' 'ebriedad' 'sed' ''
+21 50 14700 P
+#17319
+join~
+un join~
+Un jugoso y apetitoso join esta aqui listo para ser fumando~
+cogoyo~
+potion 0 AO
+60 'estupidez' 'amnesia' 'mute' 'change sex'
+23 27 30000 P
+#17320
+poema~
+el poema~
+Un poema de Zatan Neruda esta aqui para que se lo recites a la mujer de tus suenios~
+papel~
+scroll 0 AO
+15 'alucinar' 'sanctuary' '' ''
+20 10 5000 P
+#17321
+espada justiciera~
+la espada justiciera~
+Una espada con grabados de marmol esta ahi tirada~
+acero~
+weapon A AN
+sword 5 9 'pierce' 0
+40 300 3000 P
+#17322
+zapatos futbol nike~
+unos Zapatos de Futbol #BNike#b~
+Unos zapatos de futbol nike autografiados por el matador estan ahi tirados~
+cuero~
+armor 0 AG
+5 5 7 3 0
+30 22 30000 P
+A
+18 2
+A
+14 50
+#17323
+pelota futbol balon~
+una Pelota~
+La pelota esta ahi lista para ser chuteada~
+cuero~
+wand 0 AO
+30 10 10 'estupidez' 0
+30 40 30000 P
+A
+13 10
+#17324
+camiseta seleccion roja~
+la roja con el numero 11~
+La camiseta 11 del Matador~
+seda~
+armor 0 AD
+3 2 6 1 0
+30 22 30000 P
+A
+19 1
+A
+18 1
+#17325
+guitarra jackson~
+una Jackson~
+Una guitarra Jackson negra es lo mas relevante que has visto aqui~
+uranio~
+weapon 0 AN
+sword 5 7 'thrust' 0
+30 350 50000 P
+#17326
+bcRich warlock guitarra~
+una guitarra BcRich~
+Una guitarra BcRich esta loca por que la toques~
+acero~
+weapon 0 AN
+exotic 5 6 'crush' 0
+24 200 30000 P
+A
+13 20
+A
+19 2
+#17327
+bomba atomica~
+bomba atomica~
+Una poderosa bomba atomica esta aqui tirada soltando radioactividad~
+uranio~
+wand 0 AO
+35 20 20 'flamestrike' 0
+35 144 1000 P
+#17334
+guitarra explorer esp~
+una explorer~
+Una guitarra modelo explorer negra esta aqui~
+plutonio~
+weapon 0 AN
+mace 6 9 'crush' 0
+40 200 100000 P
+A
+19 3
+A
+18 3
+A
+13 50
+#17335
+lanzallamas ultrasonico~
+lanzallamas~
+Un lanzallamas ultrasonico esta aqui siendo blandido por el demonio~
+acero~
+weapon 0 AN
+mace 5 8 'crush' 0
+33 200 50000 P
+#17336
+trompeta muerte~
+la Trompeta de la muerte~
+Un extranio instrumento esta flotando en el suelo~
+hierro~
+weapon 0 AN
+mace 7 10 'pound' A
+47 200 50000 P
+#17348
+espada barza~
+espada barza~
+Esta espada barza es muy buena...puedes ser un gran player.~
+cristal dorado~
+weapon 0 AN
+sword 4 6 'crush' F
+12 80 7000 P
+A
+24 1
+A
+18 1
+A
+19 1
+#17349
+tabla bodyboard bz~
+body BZ~
+El Body BZ es muy bueno para estas olas~
+Fibras Cruzadas~
+weapon 0 AN
+sword 5 5 'crush' 0
+20 200 2300 P
+A
+18 2
+A
+13 10
+#17350
+Wave Rebel Kainoa~
+wave Rebel Kainoa~
+Esta es la Tabla de Kainoa Mcgee una Wave Rebel World Team~
+Fibra~
+weapon IL AN
+sword 6 9 'thrust' 0
+36 150 13000 P
+A
+19 2
+A
+2 1
+A
+18 2
+A
+13 20
+#17351
+lunch vehicle M.S.~
+lunch Vehicle Mike Stewart~
+Esta tabla lunch vehicle es espectacular~
+fibra fija~
+weapon 0 AN
+sword 6 7 'crush' 0
+30 250 25000 P
+#17352
+tabla dorada~
+tabla Dorada~
+Esta tabla es un tesoro de surf.~
+oro~
+weapon AI AN
+sword 5 10 'charge' 0
+35 400 50000 P
+A
+13 30
+A
+12 30
+A
+1 -3
+A
+18 2
+A
+19 3
+#17353
+spyder surfboards tabla~
+spyder surfboards~
+La Spyder Surfboards mide 7'6'' es muy buena para olas d todo tipo~
+fibra~
+weapon I AN
+sword 5 7 'blast' F
+25 150 25000 P
+A
+2 -2
+A
+13 10
+A
+19 2
+A
+18 2
+A
+3 -1
+#17354
+armadura negra~
+armadura negra~
+La Armadura Negra brilla con su poder~
+platino~
+armor I AD
+10 10 10 7 0
+32 60 25000 P
+A
+1 1
+A
+19 1
+A
+18 2
+A
+24 2
+#17355
+byrne surfboards tabla~
+byrne surfboards~
+La tabla byrne surfboards es muy buena para todo tipo de olas, cuando corre es magica.~
+fibra magica~
+weapon 0 AN
+sword 5 6 'charge' 0
+27 300 27000 P
+A
+5 1
+A
+19 1
+A
+18 2
+#17356
+bodyboard mike stewart mach 7-40~
+mike stewart mach bodyboard~
+La mike stewart mach 7-40 es un buen bodyboard para estos lugares.~
+fibra cruzada~
+weapon 0 AN
+sword 5 5 'crush' 0
+20 80 20000 P
+A
+19 1
+A
+18 1
+A
+4 2
+A
+3 -1
+#17357
+bodyboard town country~
+bodyboard town & country~
+Este bobyboard town & country es bien bueno.~
+fibra~
+weapon 0 AN
+sword 5 6 'crush' 0
+25 200 23000 P
+A
+19 1
+A
+18 2
+A
+4 2
+A
+5 -2
+#17358
+hot mark espada~
+hot mark espada~
+La tabla hot mark es bastante buena~
+recina con fibra~
+weapon A AN
+sword 5 7 'crush' 0
+26 250 25000 P
+A
+19 2
+A
+18 1
+A
+4 1
+#17359
+surfboards nativas~
+surfboard nativas~
+Esta tabla de surf es una de las buenas de brazil.~
+fibra  cruzada con recina roja~
+weapon A AN
+sword 5 7 'slice' 0
+29 250 27000 P
+A
+4 1
+A
+19 2
+A
+18 2
+A
+5 -2
+#17360
+traje dorado~
+traje dorado~
+Este traje te protegera contra la maldad.~
+titanio~
+armor 0 AD
+12 10 11 10 0
+35 50 20000 P
+A
+17 -1
+A
+5 -2
+A
+12 20
+A
+4 2
+A
+24 2
+A
+1 3
+#17361
+traje rip curl pantalon~
+traje rip curl pantalon~
+Un pantalon Rip Curl esta aqui.~
+goma con titanio~
+armor 0 AF
+7 7 7 7 0
+25 30 20000 P
+A
+19 1
+A
+18 2
+A
+12 15
+A
+2 -1
+A
+3 2
+A
+5 -2
+#17362
+gorra de marino~
+gorra de marino~
+Una Gorra de Marinero se encuentra aqui.~
+oro~
+armor AB AE
+8 8 8 4 0
+25 10 10000 P
+A
+18 1
+A
+19 1
+A
+13 10
+A
+14 -10
+A
+5 -1
+#17363
+camiseta santiago wanderers~
+camiseta Santiago Wanderers~
+Una Camiseta del Toby Vega esta aqui.~
+acero~
+armor AJ AD
+8 8 8 2 0
+26 20 20000 P
+A
+1 2
+A
+12 -5
+A
+13 10
+A
+18 1
+#17364
+anillo toby vega~
+anillo Toby Vega~
+Un Anillo de Toby Vega esta tirado aqui.~
+oro~
+gem AB AB
+0 0 0 0 0
+25 7 10000 P
+A
+4 1
+A
+19 1
+A
+5 -1
+#17365
+coca cola potion~
+coca cola potion~
+Una coca cola se ve muy refrescante.~
+liquido negro~
+potion 0 A
+20 'sanctuary' 'refresh' '' ''
+20 10 90000 P
+#17366
+fanta~
+fanta~
+La Fanta es naranja y muy refrescante~
+liquido naranja~
+potion GI AO
+20 'refresh' '' '' ''
+20 10 30000 P
+#17367
+sprite~
+sprite~
+Una Sprite gaseosa se encuentra aqui.~
+liquido cristalino~
+potion A A
+25 'refresh' '' '' ''
+25 64 1750 P
+#17368
+dan dagger~
+dan dagger~
+Una dan esta tirada aqui..~
+hierro~
+weapon 0 AN
+dagger 4 6 'charge' 0
+15 30 2000 P
+A
+13 5
+A
+1 1
+A
+3 1
+#17369
+gorro santiago wanderers~
+gorro Santiago Wanderers~
+Un Gorro de color verde y blanco esta aqui.~
+lana~
+armor 0 AE
+7 8 8 1 0
+26 10 10000 P
+A
+1 1
+A
+12 -5
+A
+19 1
+A
+18 1
+#17370
+espada estoperol~
+espada Estoperol~
+Una gran espada rodeada de estoperoles esta qui.~
+acero~
+weapon AG AN
+sword 5 6 'charge' 0
+26 100 20000 P
+A
+18 -1
+A
+19 2
+A
+12 20
+#17371
+escudo de proteccion~
+escudo Proteccion~
+Un Gran escudo esta aqui tirado.~
+acero reforzado~
+armor A AJ
+8 8 8 0 0
+26 100 20000 P
+A
+13 20
+A
+17 -2
+A
+9 -3
+A
+12 20
+#17372
+estoperol magico~
+estoperol Magico~
+Un estoperol de aluminio esta tirado aqui.~
+aluminio~
+gem A AQ
+0 0 0 0 0
+20 5 500 P
+A
+5 2
+A
+4 2
+#17373
+argolla oro~
+argolla Oro~
+Una Argolla brillante esta aqui.~
+oro~
+gem B AS
+0 0 0 0 0
+25 5 1000 P
+A
+13 10
+A
+5 1
+A
+19 1
+A
+18 1
+#17374
+protector wrist reebok~
+protector Wrist Reebok~
+Un wrist reebok esta tirado aqui.~
+acero~
+armor 0 AM
+6 6 6 2 0
+24 5 1500 P
+A
+18 1
+A
+5 2
+#17375
+blue dagger daga~
+blue Dagger~
+Una daga esta aqui tirada~
+acero~
+weapon AG AN
+dagger 4 6 'pierce' 0
+16 28 10000 P
+A
+19 1
+A
+12 10
+A
+2 -1
+A
+5 -1
+A
+18 1
+#17376
+collar de diamantes~
+collar De Diamantes~
+Un Collar de Diamantes esta tirado aqui.~
+diamante~
+armor A AC
+8 8 8 3 0
+26 20 20000 P
+A
+13 15
+A
+19 1
+A
+18 2
+#17377
+daga marinera~
+daga marina~
+Una daga marina esta tirada aqui.~
+hierro~
+weapon A AN
+dagger 5 5 'stab' 0
+18 30 2000 P
+A
+1 1
+A
+4 1
+A
+13 10
+#17378
+buzo reebok~
+buzo Reebok~
+Un buzo esta tirado aqui.~
+acero~
+armor 0 AF
+8 8 8 1 0
+26 30 12000 P
+A
+13 20
+A
+19 1
+A
+18 2
+#17379
+zapatos futbol~
+zapatos Futbol~
+Un par de Zapatos de futbol estan aqui tirados.~
+acero~
+armor A AG
+8 8 8 1 0
+25 20 20000 P
+A
+19 1
+A
+9 -10
+A
+2 2
+#17384
+disco de plata~
+disco de plata~
+Es un disco de plata muy brillante~
+plata~
+weapon I AN
+dagger 5 6 'charge' F
+25 50 3850 P
+A
+1 1
+A
+13 5
+A
+18 3
+#17388
+wave rebel guilherme tamega~
+wave rebel guilherme tamega~
+Esta es la mejor tabla wave rebel.~
+fibra de oro~
+weapon 0 AN
+sword 5 9 'slice' 0
+38 250 32000 P
+A
+4 2
+A
+19 3
+A
+18 3
+A
+12 40
+A
+5 -2
+A
+3 1
+A
+13 50
+#17389
+t & c  chris gagnon~
+t & C Chris Gagnon~
+La tabla de Chris Gagnon esta tirada aqui.~
+titanio~
+weapon A AN
+sword 5 5 'crush' 0
+25 150 20000 P
+A
+18 2
+A
+19 2
+A
+1 2
+#17390
+guitar magic~
+guitar magic~
+La guitar magic es una excelente espada... con esta puedes ser poderoso....~
+hierro~
+weapon 0 AN
+sword 6 7 'charge' 0
+30 300 15000 P
+A
+18 2
+A
+12 20
+A
+13 20
+A
+19 2
+#17391
+wave rebel brian wise~
+wave Rebel Brian Wise~
+Es una tabla con arcel y fibra cruzada.~
+fibra blanca~
+weapon I AN
+sword 5 8 'slash' 0
+38 180 32000 P
+A
+4 2
+A
+19 4
+A
+18 3
+A
+13 10
+#17392
+sandalias reef~
+sandalias reef~
+Estas sandalias reef te protegen mucho los pies.~
+goma~
+armor 0 AG
+8 8 7 6 0
+25 20 12000 P
+A
+19 3
+A
+18 -2
+A
+13 20
+A
+12 50
+A
+2 -1
+#17393
+armadura jp~
+armadura de jp~
+La Armadura de JP esta tirada aqui.~
+acero~
+armor 0 AD
+10 10 10 7 0
+28 75 20000 P
+#17394
+traje rip curl~
+traje rip curl~
+Este traje de titanium es muy bueno.~
+titanio~
+armor 0 AD
+12 12 12 8 0
+38 70 25000 P
+#17395
+aletas readley~
+aletas readley~
+Estas aletas son muy buenas...por algo las usa tamega.~
+goma~
+armor 0 AG
+13 13 13 4 0
+42 10 12000 P
+#17396
+guantes bz~
+guantes bz~
+Estos guantes son buenos para entrar y tomar las olas...~
+goma~
+armor 0 AH
+13 13 13 7 0
+42 12 10230 P
+#17397
+espada muerte~
+espada de la muerte~
+La espada de la muerte esta aqui.~
+acero~
+weapon FGIJ AN
+sword 5 6 'charge' 0
+25 450 50000 P
+#17398
+libro dorado~
+libro Dorado~
+Un Libro Dorado esta aqui.~
+liquido~
+scroll AI A
+25 'pass door' '' '' ''
+25 5 30000 P
+#17399
+libro quijote~
+libro Quijote~
+El Libro del quijote esta aqui.~
+papel~
+scroll AB A
+25 'sanctuary' '' '' ''
+25 100 10000 P
+#0
+
+
+
+#ROOMS
+#17300
+LLEGADA A SAN ANTONIO~
+Ahora entraras a una nueva dimension en este mud.  Aqui habitan lo mas
+variado en especimenes raros.  Si no eres un jugador de un nivel mas o menos
+avanzado es mejor que te quedes donde estas.  Si quieres pasarlo bien entra
+y sabras lo que es entretencion.  
+Un letrero con signos de neon esta aqui. (look letrero)
+~
+0 ACN 5
+E
+letrero~
+Un letrero. Es indescriptible. Dice :
++-------------------------------------------------------------+
+| Esta area fue creada por Morey y Zatan a comienzos de 1998. |
++-------------------------------------------------------------+
+~
+D4
+~
+~
+0 0 6505
+D5
+~
+~
+0 0 17301
+S
+#17301
+CRUCE DE CARTAGENA~
+Te encuentras en el cruce , si vas al norte llegaras a Cartagena,
+Algarrobo, Las Cruces ,etc.  Si vas al oeste llegaras a San Antonio, en
+donde disfrutaras de sus placeres.  Al sur se encuentra el tenebroso San
+Juan 
+~
+0 0 5
+D0
+~
+~
+0 0 17304
+D2
+~
+~
+0 0 17302
+D3
+~
+~
+0 0 17303
+D4
+~
+~
+0 0 17300
+S
+#17302
+TRANQUE DE SAN JUAN~
+El tranque es un lugar donde se respira lo maligno.  Segun dicen las
+malas lenguas los duendes y demonios suelen atacar a los viajeros para
+robarles su energia.  Aunque el paisaje es bello no te inspira confianza, ya
+que se presiente algo malo en el aire.  
+~
+0 A 3
+D0
+~
+~
+0 0 17301
+D2
+~
+~
+0 0 17312
+D3
+~
+~
+0 0 17311
+S
+#17303
+SAN ANTONIO~
+Llegaste a San Antonio.  Ves salidas para todas las direcciones ,las
+cuales te conducen a los mas variados lugares donde disfrutar Es muy comun
+que los viejos lobos de mar se dirijan al burdel de la NEGRA ESTER para
+pasarlo muy bien.  
+~
+0 0 1
+D0
+~
+~
+0 0 17305
+D1
+~
+~
+0 0 17301
+D2
+~
+~
+0 0 17317
+D3
+~
+~
+0 0 17310
+S
+#17304
+CARTAGENA~
+Te encuentras en el balneario mas cool de Chile.  Ves las "hermosas"
+playas donde los MAX SURFISTAS hacen surf y body en sus tablas de cholguan. 
+Ademas ves todo tipo de raperos, thrashers, punkies , etc.  No faltan las
+viejas guatonas que vienen de camping a la playa.  
+~
+0 0 0
+D0
+~
+~
+0 0 17351
+D2
+~
+~
+0 0 17301
+S
+#17305
+BURDEL DE LA NEGRA ESTER~
+Tu has llegado al burdel mas famoso de la comarca, aqui puedes encontrar
+mujeres ,y no tan mujeres, las cuales te entregan todo tipo de placeres
+carnales.  Al parecer todos se ven alegres en este lugar, ya que los
+visios abundan junto con los placeres 
+~
+0 0 0
+D1
+~
+~
+0 0 17309
+D2
+~
+~
+0 0 17303
+D3
+~
+~
+0 0 17306
+D4
+~
+~
+0 0 17307
+S
+#17306
+BAR DEL BURDEL~
+Entraste al bar del burdel en donde ves viejos lobos de mar corriendole manos a las maracas mientras se toman su buen copete. Te das cuenta que la muralla esta llena de fotos de minas en pelota, quisas son las maracas que algun dia trabajaron ahi
+~
+0 0 0
+D1
+~
+~
+0 0 17305
+S
+#17307
+ALCOBAS DEL PLACER~
+Te has metido en las piezas de las maracas.  Aqui, estas esforzadas
+mujeres del trabajo venden su cuerpo y te entregan todos sus conocimientos. 
+Puedes ver que la pieza esta llena de objetos que las maracas ocupan para
+saciar sus deseos y los tuyos El olor es un afrodisiaco que te inspira a
+entrar en accion.  
+~
+0 0 0
+D3
+~
+~
+0 0 17308
+D5
+~
+~
+0 0 17305
+S
+#17308
+ALCOBA DE LA NEGRA ESTER~
+Esta es la alcoba de la muy conocida NEGRA ESTER. En sus murallas puedes ver las fotos de sus pretendientes, los cuales son de todo tipo. Desde aqui puedes escuchar los quejidos de las otras habitacionas y la musica del salon.
+~
+0 0 0
+D1
+~
+~
+0 0 17307
+S
+#17309
+SALON DE BAILE~
+En este gran salon ves a las maracas bailando mientras se sacan la ropa. Aqui no falta el viejo curado que trata de aprovecharse de estas dulces mujeres.al fondo de la pieza ves unos fletos que te invitan a "conocerlos mejor". Se va gran alegria
+~
+0 0 0
+D3
+~
+~
+0 0 17305
+S
+#17310
+ADUANA DEL PUERTO~
+La aduana es un lugar muy pintoresco, aqui ves alos traficas ofreciendote lo rabado en los barcos. Los pacos de azul son brigidos como en todos lados. A lo lejos puedes ver el puerto con todo su movimiento
+~
+0 0 6
+D1
+~
+~
+0 0 17303
+D3
+~
+~
+0 0 17316
+S
+#17311
+PUEBLO DE SAN JUAN~
+El pueblo de San Juan es el tipico pueblo fantasma donde la gente te mira como un intruso y solo piensa en eliminarte. Ves carretas, vacas, caballos y muchas casuchas. El lugar es el ideal para hacer sacrificios humanos, mejor cuidate
+~
+0 0 3
+D0
+~
+~
+0 0 17336
+D1
+~
+~
+0 0 17302
+D2
+~
+~
+0 0 17314
+D3
+~
+~
+0 0 17337
+D4
+~
+~
+0 0 17339
+S
+#17312
+CUEVA DE LOS DUENDES~
+En este lugar se realizan los mas variados sacrificios humanos.  Estos
+son realizados por brujos de todo el pais.  El aroma a sangre te aturde y
+solo piensas en vomitar al ver tanta descomposicion.  En los muros ves
+dibujos del trauco haciendo de las suyas , mejor cuidate que tambien te
+puede agarrar 
+~
+0 0 0
+D0
+~
+~
+0 0 17302
+D2
+~
+~
+0 0 17338
+D4
+~
+~
+0 0 17313
+S
+#17313
+PIEZA DEL TRAUCO~
+Esta es la piesa del muy conocido Trauco.  Se dice que aqui el trae a las
+virgenes para mostrarles lo que es vida.  Todo tipo de artefactos, como
+camaras de tortura, consoladores de acero ,etc, los cuales son ocupados por
+el trauco.  Ves algunos calsones botados junto con unos sostenes, parece que
+el trauco lo pasa bien 
+~
+0 0 4
+D3
+~
+~
+0 0 17319
+D5
+~
+~
+0 0 17312
+S
+#17314
+CASA DE ZATAN~
+YEAHHHH!!!!!!!!  Has llegado al lugar mas chacal de todo el mud, la casa
+del conocido Zatan.  Aqui se escucha metal todo el dia, ves posters de los
+mejores grupos del mundo.  Te podras entretener con su vecina, la cual es
+muy buena pal leseo.  Sientes un ambiente lleno de terror que te inspira a
+la maldad 
+~
+0 K 0
+D0
+~
+~
+0 0 17311
+D3
+~
+~
+0 0 17324
+D4
+~
+~
+0 0 17315
+S
+#17315
+CASA DE LA VIVI~
+La casa de la vivi es el lugar mas entretenido de San Juan.  Esta mina es
+azote pal leseo.  Si te lo propones lo puedes pasar muy bien aqui, ya que la
+mina es muy rica.  Sus hermanas no lo hacen nada de mal, pero es mejor que
+te cuides , ya que estas minas son muy rapidas.  Cachas que la Vivi te
+cierra un ojo como invitandote a gozar, en pocas palabras te tira los
+calzones.  
+~
+0 0 0
+D5
+~
+~
+0 0 17314
+S
+#17316
+PUERTO~
+El puerto es el lugar en donde se mueve todo tipo de marcancias.  Puedes
+ver camiones , gruas , pacos de azul, minas ejecutivas por todos lados.  Las
+torres de containers te impresionan, a lo lejos pudes ver los botes de los
+pescadores y los grandes mercantes.  La inmensidad del mar te sobrecoje , lo
+que te inspira a hacer cagadas.  
+~
+0 0 0
+D0
+~
+~
+0 0 17334
+D1
+~
+~
+0 0 17310
+S
+#17317
+LLO-LLEO~
+En llo-lleo puedes ver las minas mas ricas de la comarca, es una lastima
+que sean tan quebras las weonas.  El aire puro te apesta , ya que con ello
+abundan las tipicas abuelitas chochas.  Si vas al oeste podras llegar a la
+playa de Llo-lleo en donde encontraras muchas cosas.  
+~
+0 0 1
+D0
+~
+~
+0 0 17303
+D1
+~
+~
+0 0 17333
+D2
+~
+~
+0 0 17335
+D3
+~
+~
+0 0 17318
+S
+#17318
+PLAYA DE LLO-LLEO~
+En esta playa la basura abunda, en pocas palabras es un paisaje hermoso a
+la vista de los malvados.  El aire marino se mete por tus narices, lo cual
+te inspira a navegarpor estos turbios mares.  No faltan los turistas que
+preguntan wevadas.  Hacia el mar se ve al barco partido.  
+~
+0 0 0
+D1
+~
+~
+0 0 17317
+D3
+~
+~
+0 0 17320
+S
+#17319
+CUEVA DE LA BRUJA~
+Esta cueva es desoladora, ya que no te sientes seguro.  Segun cuentan las
+layendas esta bruja seducia a los viajeros y los violaba, luego los
+convertiaen duendes hermafroditas los cuales eran sus esclavos.  Debe ser
+cool que te agarre, pero para tu hacerle n-aca n-aca.  A proposito la bruja
+es super rica 
+~
+0 0 0
+D0
+~
+~
+0 0 17342
+D1
+~
+~
+0 0 17313
+S
+#17320
+OCEANO PACIFICO~
+El oceano se ve inmenso, ni siquiera puedes imaginarte su fin.  Aqui
+abundan los animales marinos, como focas , pinguinos, pelicanos, jureles,
+picorocos,etc.  Tambien este oceano esta infestado de los mas feroces
+tiburones, pulpos carnivoros, medusas.  
+~
+0 0 7
+D1
+~
+~
+0 0 17318
+D3
+~
+~
+0 0 17321
+S
+#17321
+RUINAS DEL BARCO~
+El paisaje es sumamente desolador, todavia se pueden ver las secuelas que
+dejo el mar en esta vieja barcasa.  El olor a pestilencia es conmovedor, las
+cabezas de los naufragos todavia se pueden ver flotando entre los fierros. 
+Sientes que alguien te observa maliciosamente, lo cual te preocupa
+demasiado.  
+~
+0 0 0
+D1
+~
+~
+0 0 17320
+D5
+~
+~
+0 0 17322
+S
+#17322
+SALA DE MAQUINAS~
+La sala de maquinas esta totalmente destruida por la accion del mar.  Los
+fierros flotan sin sentido alguno, como sintiendo una fuerza maligna que los
+controla.  Con tanto combustible es muy dificil el caminar y la mas pequen-a
+chispa puede desatar una ecatombe de proporciones.  
+~
+0 0 7
+D0
+~
+~
+0 0 17323
+D3
+~
+~
+0 0 17341
+D4
+~
+~
+0 0 17321
+S
+#17323
+OFICINA DEL CAPITAN~
+En esta oficina puedes ver lo mas variado en mapas de navegacion, los
+cuales te llaman mucho la atencion.  La sala esta adornada muy finamente ,
+demostrando la categoria de este viejo lobo de mar.  
+~
+0 0 7
+D2
+~
+~
+0 0 17322
+S
+#17324
+PIEZA DE ZATAN~
+ALL RIGHT!!!!!!!!!  Has entrado a una dimension desconocida en este mud. 
+Si subes podras llegar al chacal #BMETAL WORLD#b en donde encontraras a los
+seres mas chacales del ambiente metalero mundial.  En esta pieza el ruido es
+ensordecedor y lo unico en que piensas es en patiar traseros.  La piesa
+tiene un ambiente lugubre que te incita a destruir.  
+~
+0 K 0
+D1
+~
+~
+0 0 17314
+D4
+~
+~
+0 0 17325
+S
+#17325
+ENTRADA A METAL WORLD~
+En esta realidad paralela te puedes encontrar con lo mas variado en
+cuanto a musica.  Aqui los seres son muy AGRESOR lo cual hace muy peligroso
+la estadia en este lugar.  Si no eres un amante del metal y la violencia es
+mejor que no entres , ya que te puedes arrepentir.  
+~
+0 0 1
+D0
+~
+~
+0 0 17326
+D5
+~
+~
+0 0 17324
+S
+#17326
+METAL STREET~
+En esta calle es muy comun que te encuentres con una infinidad de
+tendencias metaleras.  Es comun que los thrashers inpongan justicia con sus
+cadenas y manoplas.  En pocas palabras este es el paraiso de los anarquistas
+, ya que la justicia aqui no existe.  
+~
+0 0 1
+D0
+~
+~
+0 0 17328
+D1
+~
+~
+0 0 17332
+D2
+~
+~
+0 0 17325
+D3
+~
+~
+0 0 17327
+S
+#17327
+GARAGE DE ENSAYO~
+Este el es conocido garage de Lars Ulrich, aqui es donde solia ensayar
+METALLICA en sus comiensos.  En el suelo ves tirados una cantidad infinita
+de cables, lo cuales hacen que te tropieses continuamente.  Las guitarras
+estan super desafinadas y siempre se escucha un ruido subliminal que te hace
+pensar en violencia.  
+~
+0 0 0
+D1
+~
+~
+0 0 17326
+S
+#17328
+METAL STREET~
+Esta es la continuacion de la calle mas chacal del mud.  Al mirar a tu
+alrededor puedes ver a muchos metaleros famosos que te saludan y te invitan
+a pasar un buen rato.  El lugar siempre esta sucio debido a que siempre
+asaltan al basurero para robarle la basura.  Todo es tetrico y piensas que
+nunca debiste haber venido a este lugar 
+~
+0 0 1
+D0
+~
+~
+0 0 17329
+D1
+~
+~
+0 0 17331
+D2
+~
+~
+0 0 17326
+D3
+~
+~
+0 0 17330
+S
+#17329
+MANUEL PLAZA~
+Has entrado al conocido gimnasio Manuel Plaza, lugar donde siempre hay
+algun evento metalero de envergadura.  Ves muchos chascones cabezeando con
+la musica de CRIMINAL, grupo que acostumbraa a deleitarnos con su musica
+infernal.  Los tarros de cervesa se ven por doquier por el suelo y el olor a
+marihuana te sobrecoje YEAHHHHHHH!!!!!!!!!!  
+~
+0 0 0
+D2
+~
+~
+0 0 17328
+D4
+~
+~
+0 0 17344
+S
+#17330
+TIENDA DE MUSICA~
+En esta tienda puedes encontrar todo lo que necesita un verdadero musico
+para ejercer su oficio.  La tienda es atendida por el gran Jimy Hendrix , el
+cual te ayudara a escoger el mejor artefacto.  Se escucha "Fade to black",
+lo cual hace que te pongas melancolico.  Al fondo puedes ver al Pera
+fumandose unos "joins" para entrar en onda.  
+~
+0 0 0
+D1
+~
+~
+0 0 17328
+S
+#17331
+SEPULTURA HOUSE~
+Esta es la casa del grupo SEPULTURA, aqui suelen escucharse ruidos
+infernales, los cuales destruyen tus oidos.  El alcohol y las drogas estan
+tiradas por todo el local y ves afiches de los proximos conciertos del
+grupo.  Afura se puede eschucar la destruccion que tienen sus fans por poder
+entrar 
+~
+0 0 0
+D3
+~
+~
+0 0 17328
+S
+#17332
+ESTUDIO DE GRABACIONES~
+En este estudio esta lo mas moderno en tecnicas de grabacion
+computacional.  En este momento MEGADETH esta grabando unos demos para su
+proximo lp.  Toda la gente parece concentrada en su trabajo, ya que el menor
+error les puede costar la vida.  La musica que se escucha es sublime y
+agresiva , te sientes como en el infierno.  
+~
+0 0 0
+D3
+~
+~
+0 0 17326
+S
+#17333
+RESTAURANT LA JUANITA~
+Este es un lugar muy conocido por todos los turistas que vivitan este
+bello puerto.  Aqui puedes encontrar toda clase de comidas marinas.  El
+lugar se ve muy acogedor y las meseras te demuestran su carin-o alegremente 
+~
+0 0 0
+D3
+~
+~
+0 0 17317
+S
+#17334
+CALETA DE PESCADORES~
+La caleta es un lugar en donde se ve a los esforsados hombres de mar
+traer su mercancia.  Por el suelo se ven las cabezas de los pescados, trozos
+de tiburones, redes, etc.  Los gritos de los pescadores te producen mucha
+risa ya que estos suelen ser muy alegres y amables con los viajeros 
+l
+~
+0 0 0
+D2
+~
+~
+0 0 17316
+S
+#17335
+ROCAS DE SANTO DOMINGO~
+Este hermoso balneario se caracteriza por sus bellos jardines y hermosas
+mujeres.  Aqui la tranquilidad es apestante para cualquier guerrero.  Sus
+hermosas casas parecen faciles de ser asaltadas, pero es muy comun
+encontrarse con los pacos, que por aqui son muy agresor.  
+~
+0 0 0
+D0
+~
+~
+0 0 17317
+S
+#17336
+PLANTA ABANDONADA~
+La planta es el lugar ideal para carretear, debido a que por aqui nunca
+vienen los pacos.  Es muy comun que en este lugar ocurran todo tipo de
+violaciones.  Las garrafas tapizan el suelo junto con los papelillos.  Es
+facil que te encuentres con el muy conocido quesillo, el cual te entregara
+toda su mercaderia.  
+~
+0 0 0
+D2
+~
+~
+0 0 17311
+S
+#17337
+BOTILLERIA EL GUACHACA~
+En esta pintoresca botilleria es muy facil que te encuentres con lo mas
+variado en "bombas".  El lugar es atendido por un sujeto que te recuerda
+mucho a Fidel Castro, pero este tipo es un verdadero sicopata.  Es mejor que
+te cuides debido a la maldad que por aqui abunda.  
+~
+0 0 0
+D1
+~
+~
+0 0 17311
+S
+#17338
+SALON DE SACRIFICIOS~
+En este gran salon puedes ver las murallas manchadas con la sangre de los
+que alguna ves trataron de entrar a escondidas.  Todavia puedes sentir los
+lamentos de esos pobres nin-os que fueron asesinados por los brujos
+carnivoros.  La pestilencia y la asquerosidad mas grande te viene a la mente
+cuando ves los sesos de las abuelitas sacrificadas tirados por todo el
+salon.  Al fondo se puede ver un cuadro del "Sen-or de las Tinieblas"
+ordenando a sus sacerdotes a realizar los sacrificios.  
+~
+0 A 11
+D0
+~
+~
+0 0 17312
+D2
+~
+~
+0 0 17345
+S
+#17339
+MOTEL LA CACHIMBA~
+Este es el motel con mas an-os de trayectoria de toda la provincia.  Por
+aqui han pasado grandes personalidades para saciar sus deseos.  En el
+mostrador notas la presencia de un fleto el cual te indicara cuales son las
+pizas disponibles.  Incluso aqui puedes comprar toda clase de condones y
+pastillas anticonceptivas para evitar los malos ratos.  
+~
+0 0 0
+D3
+~
+~
+0 0 17340
+D5
+~
+~
+0 0 17311
+S
+#17340
+HOOoooo YEEEEeeeeeeessss~
+WOooooooooooooauuuuuuu nolo puedes creer aqui te encontraste con la
+Valeria Massa , la cual te esta esperando como dios la hecho al mundo. 
+Notas que su cuerpo esta a tu medida y lo unico que quiere es pasarlo bien
+con un macho como tu.  Mejor no doy mas descripciones y atina rapido antes
+que te cagen, suerte.  
+~
+0 0 0
+D1
+~
+~
+0 0 17339
+S
+#17341
+CAMAROTES DE LOS CUBANOS~
+Los camarotes estan totalmente destruidos a causa de la accion del mar. 
+Puedes ver algunas fotos de los parientes de los marineros cubanos.  Los
+peces suelen chapotear constantemente.  
+~
+0 0 7
+D1
+~
+~
+0 0 17322
+S
+#17342
+CATEDRAL DE NOTRE DAMME~
+En esta vieja catedral de estilo gotico viven los seres mas abismantes
+que se puedan imaginar.  El tan-ir de las campanas es sublime para las
+personas que se dedican a pensar en como destruir al mundo 
+~
+0 0 0
+D2
+~
+~
+0 0 17319
+D4
+~
+~
+0 0 17343
+S
+#17343
+CAMPANARIO~
+Las enormes campanas que se pueden ver aqui estan catalogadas como unas
+de las que tienen el sonido mas puro y sublime.  Segun las malas lenguas
+aqui suele vivir el muy conocido Jorobado de Notre Damme.  
+~
+0 0 0
+D5
+~
+~
+0 0 17342
+S
+#17344
+ESCENARIO~
+En este escenario el ruido es tan ensordecedor que tus oidos parecen
+estallar.  Los chascones vuelan por los aires demostrando quienes son los
+seres mas chacales de este mud.  
+~
+0 0 0
+D5
+~
+~
+0 0 17329
+S
+#17345
+SALON DEL INFIERNO~
+Este gran salon esta decorado con unos muebles que denotan la locura de
+los seres que habitan en este lugar desconocido del mud.  Los craneos y
+huesos estan formando extran-os simbolos diabolicos que parecen invocar a
+las bestias del apocalipsis.  Al estar en este lugar piensas que el mundo no
+tiene ninguna salvacion debido a su maldad.  Lo mejor es arrepentirse y
+pensar en como arreglar todo lo malo hecho.  
+~
+0 A 0
+D0
+~
+~
+0 0 17338
+D1
+~
+~
+0 0 17346
+D2
+~
+~
+0 0 17347
+D3
+~
+~
+0 0 17346
+S
+#17346
+SALA DE CRUCIFICCION~
+En esta cueva suelen ser crucificados todos los que algun dia suen-an con
+llegar a ser monjes de Belcebu.  Para ello se debe ser de un corazon
+malevolo y despiadado.  Era muy comun que las pruebas consistieran en
+asesinar a la familia de sus seres mas queridos para demostrar su lealtad a
+Belcebu.  
+~
+0 0 11
+D1
+~
+~
+0 0 17345
+D3
+~
+~
+0 0 17345
+S
+#17347
+SALON DE LA LOCURA~
+En este salon se suelen ver las pinturas de los grandes monjes negros,
+los cuales se caracterizaban por su locura.  La iniciacion consistia en
+quemar a sus madres para luego ocupar sus cenisas para hacer pan demoniaco. 
+Luego comias este pan y la locura te embargaba hasta lo mas recondito de tu
+ser.  
+~
+0 0 0
+D0
+~
+~
+0 0 17345
+S
+#17348
+#BHABITACION DE MOREY#b~
+Esta es la Habitacion de Morey, en sus paredes hay cuadros que tienen
+fotografias de las olas de Indonesia, Hawaii, Puerto Surf, Totoralillo,
+Iquique y Bells.  Hay una cama en la cual descansa Morey, este recupera
+fuerzas y energia.  Hacia #BARRIBA#b se encuentra la conexion de entrada a
+Area Surfboard.  
+~
+0 C 1
+D5
+~
+~
+0 0 17349
+M 200 H 200
+S
+#17349
+PLAYA DE REGNACA~
+Es una playa con arena gruesa y blanca, se ven surfistas poniendose el
+traje y preparandose para entrar a correr olas.  Se ve a Kirt con su
+Bodyboard haciendo un bad fleed y un 360 aereo.  Un Salvavidas pinta los
+monos pero nadie lo pesca.  Los marinos se pasean.  
+~
+0 A 6
+D1
+~
+~
+0 0 17391
+D4
+~
+~
+0 0 17348
+S
+#17350
+PUERTO DE VALPARAISO~
+Estas en el puerto de Valparaiso, aqui llegan grandes barcos y marinos de
+otras nacionalidades.  En el hay un grupo de gringos conversando con un
+Chileno acerca de los lugares que hay para pasarlo bien.  El Chileno le
+responde que deben ir al Club Valparaiso y a los bares.  
+~
+0 AN 6
+D1
+~
+~
+0 0 17398
+M 120 H 120
+S
+#17351
+SAN SEBASTIAN~
+Al SUR regresas a Cartagena.  Al NORTE se encuentra una pintoresca playa
+llamada Las Cruces.  Al OESTE se encuentra la avenida central que lleva a la
+playa.  Al ESTE la avenida central te lleva a unos cerros misteriosos.  
+~
+0 0 1
+D0
+~
+~
+0 0 17352
+D1
+~
+~
+0 0 17354
+D2
+~
+~
+0 0 17304
+D3
+~
+~
+0 0 17353
+S
+#17352
+LAS CRUCES~
+Aqui ves un reten de pacos vacio, con un solo paco parado en la puerta
+con ganas de que le hagan compan-ia.  Al OESTE se encuentran las playas.  Al
+ESTE se encuentra un Night Club.  Al NORTE se encuentra El Tabo.  
+~
+0 0 1
+D0
+~
+~
+0 0 17373
+D1
+~
+~
+0 0 17372
+D2
+~
+~
+0 0 17351
+D3
+~
+~
+0 0 17363
+S
+#17353
+Avenida Central~
+Esta avenida es una calle de tierra con arena, la cual se dimidia por unos bloques rayados en zig-zag con colores fuertes. Al OESTE se encuentra la playa. Al SUR esta la calle Primera Oriente.
+~
+0 0 10
+D1
+~
+~
+0 0 17351
+D2
+~
+~
+0 0 17356
+D3
+~
+~
+0 0 17357
+S
+#17354
+Avenida Central up~
+Es una calle de tierra con arena llena de hoyos con gente muy pintoresca de la zona. Al ESTE se encuentra el bosque de yerba escondida. Al SUR se encuentra la casa de Paloma.
+~
+0 0 5
+D1
+~
+~
+0 0 17362
+D2
+~
+~
+0 0 17359
+D3
+~
+~
+0 0 17351
+S
+#17355
+La Quebrada~
+Es un lugar humedo lleno de ranas y ratones infectados con virus hanta y escondidos detras de unas matas, detras de las matas se encuentran unas plantas raras conocidas cientificamente como Cannabis Satibas.
+~
+0 A 11
+D0
+~
+~
+0 0 17360
+S
+#17356
+PRIMERA ORIENTE PARIS HOUSE~
+Esta es la casa de Paris, es de madera con pequen-as ventanas y una puerta en malas condiciones. Al SUR hay un pozo con mal olor. Al OESTE se encuentra el Pato Artesano fumandose un pito.
+~
+0 0 1
+D0
+~
+~
+0 0 17353
+D1
+~
+~
+0 0 17358
+S
+#17357
+Playa de San Sebastian~
+Esta playa es muy sucia, los Salvavidas dan lastima por su atuendo y sus estaciones. La arena es negra y se encuentra llena de carpas con gente  comiendo sandia y votando las cascaras al suelo.
+~
+0 0 6
+D1
+~
+~
+0 0 17353
+S
+#17358
+PATO'S ROOM~
+Esta pieza es de madera y en las murallas se encuentran redes de pescar y curiosamente un televisor de 44 pulgadas con un video y un microhondas. En las redes hay aros, conchas y pipas que estan colgados
+~
+0 0 1
+D3
+~
+~
+0 0 17356
+S
+#17359
+Tercera Poniente~
+Es una calle angosta con casas de todos los colores y curiosamente no enumeradas. El color que mas resalta es la casa de paloma. Al ESTE se encuentra la casa de Paloma. Al Norte regresas a la avenida central.
+~
+0 0 0
+D0
+~
+~
+0 0 17354
+D1
+~
+~
+0 0 17360
+S
+#17360
+Paloma's House~
+Al frente tuyo tienes la casa de Paloma la cual tiene una escalera larga hacia arriba, hacia el sur hay una quebrada misteriosa. Es una casa de madera de color celeste con la pintura descascarada y muchas plantas extran-as alrededor.
+~
+0 0 1
+D2
+~
+~
+0 0 17355
+D3
+~
+~
+0 0 17359
+D4
+~
+~
+0 0 17361
+S
+#17361
+Paloma's Room~
+Esta pieza se encuentra rayada con spray de distintos colores, hay un camarote de madera en mal estado. El aire esta enrarecido, divisas un velador artesanal hecho por Pato Artesano.
+~
+0 0 1
+D5
+~
+~
+0 0 17360
+S
+#17362
+Bosque de Yerba~
+Es un bosque con arboles de pino y eucaliptus con unos hongos raros. En el piso hay botellas, garrafas e inclusive condones usados que se han dejado por ahi
+~
+0 0 3
+D3
+~
+~
+0 0 17354
+S
+#17363
+Avenida Las Cruces~
+Te encuentras donde hay muchos taquillas dando vueltas y macheteros pidiendo plata.Al OESTE se encuentra la division de las playas.Al NORTE hay una fonda.
+~
+0 0 1
+D1
+~
+~
+0 0 17352
+D3
+~
+~
+0 0 17364
+S
+#17364
+Cruce de Playas~
+Te encuentras con el cruce para dirigirte a la playa y la playa grande,
+observando alrededor ves algunos personajes tipicos como pescadores,
+turistas, ancianos tomando sol.  Al NORTE te encuentras con la calle que te
+llevara a la playa grande.  Al SUR se encuentra la calle que te dirigira a
+la playa chica 
+~
+0 0 1
+D0
+~
+~
+0 0 17365
+D1
+~
+~
+0 0 17363
+D2
+~
+~
+0 0 17366
+S
+#17365
+Calle Playa Grande~
+En este lugar se ven muchos turistas, perros callejeros, pescadores,
+ancianos y pacos mirando alrededor para que no ocurran robos.  Los ancianos
+se ven que son muy sabios y comparten con los los chicos.  Hay unas tiendas
+donde venden ropa deportiva para nadar en la playa.  Al OESTE se encuentra
+la playa grande.  
+~
+0 0 6
+D2
+~
+~
+0 0 17364
+D3
+~
+~
+0 0 17368
+D6
+~
+~
+0 0 17369
+S
+#17366
+Calle Playa Chica~
+Es una calle chica con muchos hoyos en el piso de tierra media arcillosa.
+Se ven jovenes jipies, raperos y punkies.  Si te diriges al OESTE llegaras a
+la playa chica.  
+~
+0 0 6
+D0
+~
+~
+0 0 17364
+D3
+~
+~
+0 0 17367
+S
+#17367
+Playa Chica~
+En esta playa se ven unos pescadores con sus barcos de madera
+preparandose para en cualquier momento ir a pescar al mar los mejores
+pescados de esta zona tambien logras ver unos jipies haciendo pitos y
+escuchando musica del recital de Woodstock.  
+~
+0 0 6
+D1
+~
+~
+0 0 17366
+S
+#17368
+PLAYA GRANDE~
+En esta playa el agua es un poco helada, pero igual se ven chicas que te
+sacan de tus casillas.  Ademas ves unos chicos haciendo Bodyboard en la
+orilla de la playa.  Si vas al OESTE entraras en una isla de rocas la cual
+contiene tesoros, personajes muy raros.  
+~
+0 0 6
+D1
+~
+~
+0 0 17365
+D3
+~
+~
+0 0 17370
+S
+#17369
+Tienda Deportiva de Las Cruces~
+Aqui tienes una variada cantidad de equipos para poder hacer deportes
+nauticos entre los cuales se ven varias marcas de trajes de ban-o, de buceo,
+de pesca, etc.  Entre las cosas mas exoticas se encuentran cayak, algunas
+tablas de Bodyboard pero para chicos, tambien se ven unos vestidores en el
+cual hay chicas desnudas buscando un bikini.  
+~
+0 0 1
+D7
+~
+~
+0 0 17365
+S
+#17370
+Isla Las Cruces~
+Esta isla contiene grandes personajes de batallas marinas, algunos
+animales como por ejemplo focas, lobos marinos, gaviotas, pelicanos y unos
+pesces voladores.  
+~
+0 A 6
+D0
+~
+~
+0 0 17371
+D1
+~
+~
+0 0 17368
+S
+#17371
+CAVERNA DEL CAPITAN ARTURO PRAT~
+Esta caverna es oscura con marinos tomando cerveza y con mujeres buscando
+a los marinos.  Si buscas al Capitan Arturo Prat lo encontraras al lado de
+Carlos Condell discutiendo por el combate Naval de Iquique.  Se ven unas
+focas comiendo pescado de la mano del cocinero del barco.  
+~
+0 A 0
+D2
+~
+~
+0 0 17370
+S
+#17372
+Night Club~
+En este Night Club se encuentras unas minas muy buenas y se encuentran en
+periodo de calentura.  En la puerta se encuentra un Maton que te mira feo. 
+La mujer con mas experiencia da clases en la pasarella.  
+~
+0 A 5
+D3
+~
+~
+0 0 17352
+M 200 H 200
+S
+#17373
+EL TABO~
+Esta es una playa con pocos habitantes, abundan los vagos, volados y
+cafiches.  Si miras alrededor veras unas casas, almacenes y lo infaltable
+una comiseria con unos pacos rasos que te miran feo.  Al SUR te encuentras
+con Las Cruces.  Al NORTE te encuentras con El Quisco.  Al ESTE esta la
+disco del Tabo.  Al OESTE esta La Playa.  Hacia ABAJO esta el Fishderman.  
+~
+0 0 0
+D0
+~
+~
+0 0 17374
+D1
+~
+~
+0 0 17376
+D2
+~
+~
+0 0 17352
+D3
+~
+~
+0 0 17375
+D5
+~
+~
+AB 0 17377
+S
+#17374
+EL QUISCO~
+Estas en El Quisco donde se ven bellas mujeres que estan jugando en el
+agua en toples.  La Arena es blanca con algunas garrafas enterradas para ser
+bebidas a la noche.  Se ve la Miss Quisco que se pasea como modelo por la
+playa.  
+~
+0 0 1
+D0
+~
+~
+0 0 17390
+D2
+~
+~
+0 0 17373
+D3
+~
+~
+0 0 17387
+D4
+~
+~
+AB 0 17386
+S
+#17375
+BAJADA A LA PLAYA~
+Aqui existe una escalera que tiene una bajada a la Playa, esta escalera
+es de piedras.  Existe gran afluencia de gente por esta escalera, pero esta
+custodiada por dos Marinos para ver que exista seguridad en la playa.  Hacia
+ABAJO esta la Playa.  Al NORTE esta la tienda de el Heladero.  Al SUR esta
+una tienda donde comprar algo de comer.  
+~
+0 0 1
+D0
+~
+~
+0 0 17379
+D1
+~
+~
+0 0 17373
+D2
+~
+~
+0 0 17380
+S
+#17376
+Discoteke Tabito's~
+Suena musica fuerte, alrededor hay distintos tipos de gente.  Bailan
+algunos Raperos, Lolito's, Tecnomaniacos y algunos seguidores del Grunch. 
+Al NORTE estan los Raperos.  Al SUR estan los Lolito's.  Hacia ABAJO estan
+los que les gusta el Grunch.  En cambio hacia ARRIBA estan los
+tecnomaniacos.  
+~
+0 A 0
+D0
+~
+~
+AB 0 17382
+D2
+~
+~
+AB 0 17383
+D3
+~
+~
+0 0 17373
+D4
+~
+~
+AB 0 17384
+D5
+~
+~
+AB 0 17385
+S
+#17377
+Tienda de Mascotas Marinas~
+Es una tienda con olor a puerto la cual se escucha el ruido que generan
+lobos marinos, gaviotas, pelicanos y otros animales.  El Fishderman esta
+alimentando las mascotas.  Se logran ver en el interior algunos lobos
+marinos y otros animales.  
+~
+0 M 6
+D4
+~
+~
+AB 0 17373
+S
+#17378
+Guarderia de mascotas~
+En este cuarto se guardan las mascotas.
+~
+0 C 8
+M 200 H 200
+S
+#17379
+Tienda de Helados~
+Esta tienda es un poco fria, existe un poco de nubosidad debido al vapor
+helado que sale de las maquinas.  Hay un letrero en el que salen los
+distintos tipos de helados que vende.  El Heladero es como hielo, mantiene
+bien frio su cuerpo, porque se puede derretir.  
+~
+0 0 1
+D2
+~
+~
+0 0 17375
+M 200 H 200
+S
+#17380
+Tienda Masas-Pet~
+Esta tienda tiene un color medio blanco por la harina que hay en el
+lugar, se ven sacos harineros botados en el suelo, tambien se ven tiestos de
+preparacion.  El Masero esta cocinando preparando unas masas y las aplana
+con el uslero mientras tu miras.  En el fondo de la pieza hay unas cajas que
+contienen mercaderia guardada.  
+~
+0 0 0
+D0
+~
+~
+0 0 17375
+S
+#17381
+Rocas El Tabo~
+En este lugar se juntan los jovenes de distintas edades a tocar guitarra,
+tomarse un copete y fumarse unos join.  Las rocas son grandes y muy
+refalosas al, menor descuido te puedes resfalar.  Se ve un trafica que
+pregunta en los distintos grupos de jovenes si desean unos join.  
+~
+0 C 5
+S
+#17382
+Music of Rapero's~
+En este lugar existen los Raperos, son raros con un gorro muy largo para
+algunos y otro gorro chico para otros.  La musica es muy escandalosa, comete
+el abuso de ruidos raros.  El Rapero jefe es muy ediondo, su gorro es muy
+largo y ocupa unos pantalones que les sobra como si andubiera con un saco de
+papas.  
+~
+0 A 0
+D2
+~
+puerta~
+AB 0 17376
+S
+#17383
+Musica para Lolito's~
+La musica que suena en este lugar es tipica de lolito's taquillas que
+fuman mientras bailan y tambien se toman un copete.  Entre ellos se reparten
+sus Telefonos para hacer una fiesta en El Tabo.  
+~
+0 A 0
+D0
+~
+~
+AB 0 17376
+S
+#17384
+Tecnomania~
+La musica de este lugar es con abundancia de teclado e inclusive mucho
+arreglo computacional.  Los Tecnomaniacos se mueven de distintas formas,
+alzan sus manos desde abajo hacia arriba.  Algunos tecnitas se ven con
+colores fuertes e impactantes.  
+~
+0 A 0
+D5
+~
+reja~
+AB 0 17376
+S
+#17385
+Musica Grunch~
+Aqui se escucha una musica media melancolica, aunque aveces rapida y
+fuerte.  En este lugar se ven jovenes alabando a Nirvana especialmente a su
+lider muerto.  Tambien se escuchan otros grupos.  En la muralla hay un
+cuadro de Kurt Coobein, Nirvana y otros.  
+~
+0 A 0
+D4
+~
+~
+AB 0 17376
+S
+#17386
+BOTILLERIA CENTRAL~
+Esta botilleria es la mejor del lugar venden unos copetes muy buenos,
+pero solo si tienes la edad suficiente.  El Botellero esta reponiendo las
+maquinas de cervezas y vinos.  
+~
+0 0 1
+D5
+~
+~
+AB 0 17374
+S
+#17387
+YACHTING~
+Se escucha musica de fondo que suena, pero el portero aun no habre y
+quiere que le pagen el sueldo sino no abrira.  Se ve un grupo de minas que
+estan calientes por agarrarse a alguien.  El Cajero duerme en la caja y las
+minas le lloran por que abra luego.  Al NORTE esta la playa.  Al SUR esta la
+teniencia de pacos.  
+~
+0 A 1
+D0
+~
+~
+0 0 17388
+D1
+~
+~
+0 0 17374
+D2
+~
+~
+0 0 17389
+S
+#17388
+Playa El Quisco~
+Es una playa de arena blanca en la que se ve llena de toallas donde se
+posan muchas minas en toples.  Las minas conversan sobre que haran a la
+noche.  En otro lado se ve unos Borrachos que se quedaron dormidos en la
+noche del dia anterior.  
+~
+0 0 6
+D2
+~
+~
+0 0 17387
+S
+#17389
+TENIENCIA EL QUISCO~
+Esta Teniencia es de color verde con blanco.  Afuera hay dos pacos
+vigilando.  Se ve como llegan los furgones con algunos ladrones y Borrachos
+recogidos en la noche.  
+~
+0 0 1
+D0
+~
+~
+0 0 17387
+S
+#17390
+VALPARAISO~
+Aqui destaca el edificio del congreso, la aduana, la escuela naval y por
+los cerros se ve la casa de JP, se escucha una guitarra y es la de JP, se
+encuentra tocando Anatta.  Se ven unos pescadores que van arrastrando sus
+redes por las calles.  
+sc
+~
+0 0 1
+D0
+~
+~
+0 0 17391
+D1
+~
+~
+AB 0 17395
+D2
+~
+~
+0 0 17374
+D3
+~
+~
+0 0 17392
+D4
+~
+~
+0 0 17400
+D5
+~
+~
+0 0 17398
+S
+#17391
+REGNACA~
+En este lugar se ven muchos jovenes que vienen a surfear, en particular
+se algunos cuicos que se creen las raja y no saben ni pararse en la tabla. 
+Se ven algunos ariquen-os, Iquiquen-os y algunos suren-os que vienen a ver
+como estan las olas.  Resalta entre ellos Elvis Munoz de Pichilemu, Nedelko
+de Arica y Sensei de Iquique.  Los de Totoralillo se van porque las olas son
+muy charchas y se devuelven a toto.  
+~
+0 0 6
+D2
+~
+~
+0 0 17390
+D3
+~
+~
+0 0 17349
+D4
+~
+~
+0 0 17399
+M 200 H 200
+S
+#17392
+Universidad de Playa Ancha~
+Estas en la UPLA, en los alrededores se ven algunos jovenes comunistas
+preparandose para guerrear con los pacos.  En otro lado hay jovenes
+estudiando para los examenes finales.  El la cancha hay unos mechones
+jugando futbol.  Se ve a un profesor que esta entregando las notas, el profe
+dice Troncosho va a reprovar.  
+~
+0 0 1
+D1
+~
+~
+0 0 17390
+D2
+~
+~
+AB 0 17393
+S
+#17393
+Escuela Naval~
+Estas en la puerta de la escuela naval, ves a un batallon de cadetes que
+trotan de un lugar a otro, en otro lugar hay unos marinos castigando a unos
+cadetes que han desobedecido.  Mas alla se ve al almirante Jorge Martinez
+Bush dando un discurso de bienvenida a los nuevos cadetes.  
+~
+0 0 1
+D0
+~
+~
+AB 0 17392
+D1
+~
+~
+0 0 17394
+S
+#17394
+Estadio de Santiago Wanderers~
+Aqui esta el estadio de Santiago Wanderers, se ve en la cancha a el
+equipo de honor de entrenando para su crucial partido con la Universidad de
+Chile.  Dentro de los Jugadores destacan TOBY Vega, Mario Venner y un
+ex-jugador del club Claudio Nun-ez.  
+~
+0 0 3
+D3
+~
+~
+0 0 17393
+M 200 H 200
+S
+#17395
+CLUB VALPARAISO~
+Estas en el club valparaiso, en el se ven unas minas con minis muy
+cortas, tambien unas que lo muestran todo.  En la puerta esta el Portero
+Jacinto que les pide a todos carnet.  En la Caja el Cajero les mira las
+tetas a las minas.  Hay unas minas que se mueren por entrar pero el portero
+no las deja porque tienen 17 an-os.  En la vereda hay un loco que esta
+enfermo de borracho y vomita a cada rato.  
+~
+0 A 1
+D2
+~
+~
+0 0 17396
+D3
+~
+~
+AB 0 17390
+S
+#17396
+BAR SPIDER~
+En este bar se escucha musica fuerte y en la entrada hay un portero que
+te regala cerveza de tres cuartos al entrar.  Afuera esta lleno de gente que
+se achoclona por entrar.  Hay unos vendedores de anticuchos y empanadas para
+el bajon.  Tambien se logra divisar unos pacos que revisan a la gente.  
+~
+0 A 5
+D0
+~
+~
+0 0 17395
+D6
+~
+~
+0 0 17397
+S
+#17397
+DENTRO DEL BAR SPIDER~
+Aqui esta el barman ofraciendo copetes, se ve alrededor gente bailando y
+tomando cerveza.  En el rincon hay una pareja corriendose mano, la mina le
+agarra el paquete al tipo el loco le mete la mano abajo.  Un joven se queda
+dormido de lo borracho.  
+~
+0 A 5
+D7
+~
+~
+0 0 17396
+S
+#17398
+ADUANA DE VALPARAISO~
+En esta aduana se encuentran unos cargadores acarriando algunas cajas con
+objetos traidos del extranjero.  \ Hay unos container que estan cerrados. 
+El Guardia Aduanero esta controlando el ingreso y egreso a este.  
+~
+0 A 1
+D3
+~
+~
+0 0 17350
+D4
+~
+~
+0 0 17390
+S
+#17399
+DEPARTAMENTOS DE REGNACA~
+Estos departamentos estan muy comodos y placenteros.  Tiene una cama apta
+para que cualquier jugador pueda dormir.  En el sofa hay una almohada muy
+comoda.  
+~
+0 0 5
+D5
+~
+~
+0 0 17391
+M 200 H 200
+S
+#17400
+CONGRESO NACIONAL~
+Es un edificio alto que es reguardado por el tirano de Sergio Romero que
+desea aniquilar a los que se le crucen por delante.  Tambien esta el Alma de
+Jaime Guzman E.  Vengando su muerte y logrando de que efectue todo en orden.
+~
+0 A 1
+D5
+~
+~
+0 0 17390
+S
+#0
+
+
+
+#SPECIALS
+M 17308 spec_breath_fire
+M 17321 spec_questmaster
+M 17323 spec_cast_adept
+M 17340 spec_cast_undead
+M 17345 spec_breath_any
+M 17347 spec_breath_any
+M 17371 spec_amnesia
+M 17385 spec_antivampiro
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 17373 5 1
+D 0 17374 4 1
+D 0 17376 0 1
+D 0 17376 2 1
+D 0 17376 4 1
+D 0 17376 5 1
+D 0 17377 4 1
+D 0 17382 2 1
+D 0 17383 0 1
+D 0 17384 5 1
+D 0 17385 4 1
+D 0 17386 5 1
+D 0 17390 1 1
+D 0 17392 2 1
+D 0 17393 0 1
+D 0 17395 3 1
+M 0 17344 5 17300 1
+M 0 17341 1 17301 1
+E 0 17335 0 16
+M 0 17343 20 17301 3
+M 0 17347 1 17302 1
+E 0 17336 0 16
+M 0 17313 1 17303 1
+M 0 17312 20 17303 3
+M 0 17342 30 17304 2
+M 0 17312 1 17305 1
+M 0 17312 1 17305 1
+M 0 17325 40 17306 2
+M 0 17312 40 17306 2
+M 0 17322 1 17308 1
+M 0 17325 40 17309 3
+M 0 17394 50 17310 4
+M 0 17313 20 17310 3
+M 0 17310 1 17311 1
+M 0 17331 1 17311 1
+E 0 17321 0 16
+M 0 17310 1 17312 1
+M 0 17310 1 17312 1
+M 0 17309 1 17313 1
+M 0 17310 40 17313 2
+M 0 17310 40 17313 2
+M 0 17321 1 17314 1
+M 0 17324 1 17315 1
+M 0 17313 20 17316 3
+E 0 17317 0 16
+M 0 17314 40 17317 2
+M 0 17317 1 17318 1
+G 0 17307 0
+G 0 17308 0
+G 0 17310 0
+M 0 17310 1 17319 1
+M 0 17319 1 17319 1
+M 0 17318 30 17320 4
+M 0 17316 1 17322 1
+M 0 17320 1 17323 1
+M 0 17323 1 17324 1
+M 0 17303 20 17325 10
+E 0 17301 0 16
+E 0 17301 0 19
+M 0 17303 1 17326 1
+E 0 17301 0 16
+M 0 17304 1 17327 1
+E 0 17334 0 16
+E 0 17327 0 17
+M 0 17303 1 17328 1
+E 0 17301 0 16
+M 0 17301 1 17328 1
+G 0 17319 0
+M 0 17307 1 17329 1
+E 0 17301 0 16
+M 0 17300 1 17330 1
+G 0 17303 0
+G 0 17304 0
+G 0 17302 0
+G 0 17305 0
+G 0 17306 0
+M 0 17302 1 17331 1
+E 0 17326 0 16
+M 0 17305 1 17332 1
+E 0 17325 0 16
+M 0 17315 1 17333 1
+G 0 17311 0
+G 0 17312 0
+G 0 17313 0
+M 0 17342 30 17334 4
+M 0 17311 1 17336 1
+G 0 17314 0
+M 0 17306 1 17337 1
+G 0 17316 0
+G 0 17318 0
+G 0 17315 0
+G 0 17320 0
+G 0 17367 0
+M 0 17308 1 17338 1
+E 0 17300 0 16
+M 0 17328 1 17339 1
+G 0 17309 0
+M 0 17326 1 17340 1
+M 0 17327 3 17340 3
+M 0 17316 20 17341 4
+M 0 17330 1 17343 1
+M 0 17329 2 17344 2
+M 0 17338 20 17345 4
+M 0 17395 2 17349 1
+M 0 17350 1 17349 1
+E 0 17354 0 5
+E 0 17350 0 16
+M 0 17397 2 17349 1
+E 0 17389 0 16
+M 0 17349 2 17349 1
+E 0 17349 0 16
+M 0 17391 1 17349 1
+E 0 17391 0 16
+M 0 17370 3 17350 2
+M 0 17355 3 17350 2
+E 0 17368 0 16
+M 0 17356 3 17350 2
+E 0 17377 0 16
+M 0 17351 1 17351 1
+M 0 17343 20 17352 2
+E 0 17375 0 16
+M 0 17394 40 17357 4
+E 0 17362 0 6
+M 0 17358 1 17358 1
+M 0 17394 20 17367 4
+E 0 17362 0 6
+M 0 17368 30 17368 5
+M 0 17357 1 17369 1
+G 0 17356 0
+G 0 17358 0
+G 0 17359 0
+G 0 17360 0
+G 0 17361 0
+G 0 17389 0
+G 0 17395 0
+G 0 17392 0
+G 0 17353 0
+G 0 17355 0
+G 0 17375 0
+G 0 17357 0
+G 0 17351 0
+M 0 17392 1 17370 1
+E 0 17352 0 16
+E 0 17360 0 5
+M 0 17371 1 17371 1
+M 0 17394 40 17371 10
+E 0 17362 0 6
+M 0 17352 1 17372 1
+M 0 17370 4 17372 4
+M 0 17345 1 17373 1
+E 0 17321 0 16
+M 0 17370 1 17373 1
+M 0 17342 30 17373 2
+M 0 17387 21 17374 1
+M 0 17337 1 17377 1
+M 0 17334 1 17378 1
+M 0 17335 1 17378 1
+M 0 17336 1 17378 1
+M 0 17372 1 17378 1
+M 0 17373 1 17378 1
+M 0 17374 1 17378 1
+M 0 17359 1 17378 1
+M 0 17389 1 17379 1
+G 0 17365 0
+G 0 17366 0
+G 0 17367 0
+G 0 17398 0
+G 0 17399 0
+M 0 17393 2 17382 1
+M 0 17382 15 17382 8
+M 0 17384 20 17384 6
+E 0 17384 0 16
+M 0 17370 3 17386 3
+M 0 17387 5 17389 4
+M 0 17390 1 17390 1
+E 0 17390 0 16
+E 0 17393 0 5
+M 0 17339 1 17390 1
+M 0 17348 2 17391 2
+E 0 17348 0 16
+M 0 17388 1 17391 1
+E 0 17388 0 16
+E 0 17394 0 5
+E 0 17395 0 8
+E 0 17396 0 9
+M 0 17385 2 17391 2
+E 0 17397 0 16
+M 0 17332 1 17392 1
+E 0 17321 0 16
+M 0 17333 1 17394 1
+E 0 17322 0 8
+E 0 17323 0 17
+E 0 17324 0 5
+M 0 17354 1 17394 1
+E 0 17363 0 5
+E 0 17364 0 2
+E 0 17364 0 1
+E 0 17369 0 6
+E 0 17370 0 16
+E 0 17371 0 11
+E 0 17372 0 18
+E 0 17373 0 21
+E 0 17374 0 14
+E 0 17374 0 15
+E 0 17376 0 3
+E 0 17376 0 4
+E 0 17378 0 7
+E 0 17379 0 8
+M 0 17399 5 17399 2
+M 0 17398 1 17400 1
+M 0 17400 1 17400 1
+M 0 17370 2 17400 2
+S
+
+
+
+#SHOPS
+17300 0 0 0 0 0 100 100 100 100 0 23
+17306 0 0 0 0 0 100 100 100 100 0 23
+17311 0 0 0 0 0 100 100 100 100 0 23
+17315 0 0 0 0 0 100 100 100 100 0 23
+17317 0 0 0 0 0 100 100 100 100 0 23
+17328 0 0 0 0 0 100 100 100 100 0 23
+17337 0 0 0 0 0 100 100 100 100 0 23
+17353 5 0 0 0 0 100 100 100 100 0 23
+17357 0 0 0 0 0 100 100 100 100 0 23
+17389 0 0 0 0 0 200 200 200 200 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

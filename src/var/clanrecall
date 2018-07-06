@@ -1,0 +1,72 @@
+void do_clan_recall( CHAR_DATA *ch, char *argument )
+{
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+    ROOM_INDEX_DATA *location;
+
+    if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
+    {
+        send_to_char("Solo los jugadores pueden revocar.\n\r",ch);
+        return;
+    }
+
+    act( "$n ruega por transporte!", ch, 0, 0, TO_ROOM );
+
+    if ( ( location = get_room_index( get_clan_table(ch->clan)->recall) ) == NULL )
+    {
+        send_to_char( "Estas completamente perdido.\n\r", ch );
+        return;
+    }
+
+    if ( ch->in_room == location )
+        return;
+
+    if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
+    ||   IS_AFFECTED(ch, AFF_CURSE))
+    {
+        send_to_char( "Los Dioses te han olvidado.\n\r", ch );
+        return;
+    }
+
+    if ( ( victim = ch->fighting ) != NULL )
+    {
+        int lose,skill;
+
+        skill = get_skill(ch,gsn_recall);
+
+        if ( number_percent() < 80 * skill / 100 )
+        {
+            check_improve(ch,gsn_recall,FALSE,6);
+            WAIT_STATE( ch, 4 );
+            sprintf( buf, "Fallaste!.\n\r");
+            send_to_char( buf, ch );
+            return;
+        }
+
+        lose = (ch->desc != NULL) ? 25 : 50;
+        gain_exp( ch, 0 - lose );
+        check_improve(ch,gsn_recall,TRUE,4);
+        sprintf( buf, "Revocas del combate!  Pierdes %d exps.\n\r", lose );
+        send_to_char( buf, ch );
+        stop_fighting( ch, TRUE );
+    }
+
+    if ( !CHANCE(get_skill(ch,gsn_recall)) && CHANCE(getNivelPr(ch)) )
+	location = get_random_room( chToEnt(ch) );
+
+    ch->move /= 2;
+    act( "$n desaparece.", ch, NULL, NULL, TO_ROOM );
+    char_from_room( ch );
+    char_to_room( ch, location );
+    act( "$n aparece en el cuarto.", ch, NULL, NULL, TO_ROOM );
+    do_look( ch, "auto" );
+
+    if (ch->pet != NULL)
+    {
+    	ch->pet->clan = ch->clan;
+        do_clan_recall(ch->pet,"");
+    }
+
+    return;
+}
+

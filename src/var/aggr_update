@@ -1,0 +1,141 @@
+/*
+ * Aggress.
+ *
+ * for each mortal PC
+ *     for each mob in room
+ *         aggress on some random PC
+ *
+ * This function takes 25% to 35% of ALL Merc cpu time.
+ * Unfortunately, checking on each PC move is too tricky,
+ *   because we don't the mob to just attack the first PC
+ *   who leads the party into the room.
+ *
+ * -- Furey
+ */
+void aggr_update( void )
+{
+    CHAR_DATA       *ch;
+    CHAR_DATA       *mch;
+    CHAR_DATA       *vch;
+    CHAR_DATA       *victim;
+    DESCRIPTOR_DATA *d;
+
+    /*
+     * Let's not worry about link dead characters. -Kahn
+     */
+    for ( d = descriptor_list; d; d = d->next )
+    {
+	ch = d->character;
+
+	if ( d->connected != CON_PLAYING
+	    || getNivelPr(ch) >= LEVEL_IMMORTAL
+	    || !ch->in_room
+	    ||  ch->in_room->area->empty)
+	    continue;
+
+	/* mch wont get hurt */
+	for ( mch = ch->in_room->people; mch; mch = mch->next_in_room )
+	{
+	    int count;
+	    bool hate = FALSE;
+
+	    if ( !IS_NPC(mch)
+	    ||   ( !IS_SET(mch->act, ACT_AGGRESSIVE) && !HATES(mch,ch) )
+	    ||   IS_SET(mch->in_room->room_flags,ROOM_SAFE)
+	    ||   IS_SET(mch->in_room->room_flags,ROOM_PET_SHOP)
+	    ||   IS_AFFECTED(mch,AFF_CALM)
+	    ||   mch->fighting
+	    ||   IS_AFFECTED(mch, AFF_CHARM)
+	    ||   !IS_AWAKE(mch)
+	    ||   ( IS_SET(mch->act, ACT_WIMPY) && IS_AWAKE(ch) )
+	    ||   !can_see( mch, ch ) 
+	    ||   (number_bits(1) == 0)
+	    ||   mch->pIndexData->pShop
+	    ||   mch->pIndexData->pRepair
+	    ||   ( is_clan(mch) && (mch->clan == ch->clan) )
+	    ||   IS_SET(mch->act, ACT_PROTOTIPO)
+	    ||   IS_SET(mch->act, ACT_TRAIN)
+	    ||   IS_SET(mch->act, ACT_GAIN)
+	    ||   IS_SET(mch->act, ACT_PRACTICE)
+	    ||   IS_SET(mch->act, ACT_BANKER)
+	    ||   IS_SET(mch->act, ACT_IS_CHANGER)
+	    ||   ( !is_clan(mch) && HATES(mch,ch) && (getNivelPr(ch) < 9 || abs(getNivelPr(mch) - getNivelPr(ch)) > 2 )) )
+		continue;
+
+	   if (HATES(mch,ch))
+	        hate = TRUE;
+
+	    /*
+	     * Ok we have a 'ch' player character and a 'mch' npc aggressor.
+	     * Now make the aggressor fight a RANDOM pc victim in the room,
+	     *   giving each 'vch' an equal chance of selection.
+	     */
+	    count       = 0;
+	    victim      = NULL;
+	    for ( vch = mch->in_room->people; vch ; vch = vch->next_in_room )
+	    {
+		if ((!IS_NPC(vch) || IS_PET(vch))
+		&&   getNivelPr(vch) < LEVEL_IMMORTAL
+		&&   getNivelPr(mch) >= getNivelPr(vch) - 5 
+		&&   ( !IS_SET(mch->act, ACT_WIMPY) || !IS_AWAKE(vch) )
+		&&   vch->master != mch		/* mascotas no */
+		&&   can_see( mch, vch ) )
+		{
+		  if ( !hate || ( hate && HATES(mch,vch) ) )
+		  {
+		    if ( number_range( 0, count ) == 0 )
+			victim = vch;
+		    count++;
+		  }
+		}
+	    }
+
+	    if ( !victim )
+	        continue;
+
+	    if ( !IS_NPC(victim)
+	    &&    victim->pet
+	    &&    IS_NPC(victim->pet)
+	    &&    victim->pet->in_room == victim->in_room
+	    &&    getNivelPr(victim->pet) < getNivelPr(victim)
+	    &&    getNivelPr(victim->pet) < getNivelPr(mch)
+	    &&    victim->pet->hit < victim->hit
+	    &&    CHANCE( getNivelPr(mch) * 2 ) )
+		victim = victim->pet;
+
+	    if ( HATES(mch, victim) )
+	    {
+		char *point;
+		char mensaje[MIL];
+
+		if ( IS_FORM(mch, FORM_ANIMAL) )
+		{
+			act( "$n grune y se lanza sobre $N!", mch, NULL, chToEnt(victim), TO_ROOM );
+			act( "$n grune y se lanza sobre ti!", mch, NULL, chToEnt(victim), TO_VICT );
+		}
+		else
+		{
+			if ( victim->sex == SEX_FEMALE )
+				point = race_table[victim->race].hembra;
+			else
+				point = race_table[victim->race].macho;
+
+			if ( IS_NULLSTR(point) )
+				point = race_table[victim->race].name;
+
+	 	   	sprintf( mensaje, "Muere, asqueros%c %s!!!",
+	    			(victim->sex == SEX_FEMALE) ? 'a' : 'o',
+	    			point );
+
+			act( "$n te mira con odio y grita '$t'", mch, strToEnt(mensaje,mch->in_room), chToEnt(victim), TO_VICT );
+			act( "$n mira con odio a $N y grita '$t'", mch, strToEnt(mensaje,mch->in_room), chToEnt(victim), TO_NOTVICT );
+		}
+	    }
+
+	    multi_hit( mch, victim, TYPE_UNDEFINED );
+	} /* mch loop */
+
+    } /* descriptor loop */
+
+    return;
+}

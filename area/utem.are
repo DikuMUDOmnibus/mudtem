@@ -1,0 +1,1623 @@
+#AREADATA
+Name Utem~
+Builders Gandalf~
+VNUMs 20000 20099
+Credits /// AREA EN CONSTRUCCION ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#20000
+mechon estudiante~
+El Mechon~
+Un mechon esta aqui preguntando por la sala A-406.
+~
+Ves un compadre terrible de urgio, que mira para todos lados constantemente como si lo anduviera persiguiendo un paco...
+~
+human~
+AGHTX H 0 -1000 0
+20 20 4d10+360 20d12+100 3d6+6 slash
+-5 -5 -5 -4
+CDEFIKLTU 0 DFG B
+stand stand male 1000
+0 0 medium 'carne'
+C 'warrior'
+F par GHIJK
+#20001
+mechona estudiante~
+La Mechona~
+Ves una mechona con la polera toda cortada, mojada, y con la cara pintada.
+~
+Esta terriblemente rica.
+Si te acercas y le ofreces tu proteccion quiza salga algo..
+~
+human~
+AGHTX J 0 1000 0
+20 20 4d10+360 20d12+100 3d6+6 slash
+-5 -5 -5 -4
+CDEFIKLTU 0 B Z
+stand stand female 0
+0 0 medium 'carne'
+C 'warrior'
+#20002
+Profesor~
+El Profesor~
+El Profe tiene una cara de perro...
+~
+Al mirarlo recuerdas que mañana tienes prueba de Calculo 2.
+~
+human~
+AGTX 0 0 -100 0
+12 12 2d10+170 12d11+100 2d6+3 slash
+-1 -1 -1 1
+CEIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20003
+portero vicioso~
+El portero~
+El portero esta aqui viendo tele en su pequenia cabina de vidrios.
+~
+Esta un poco obeso debido a su continuo estar sentado aqui .
+~
+human~
+ABGTX Va 0 0 0
+15 15 3d9+233 15d11+100 2d7+4 pierce
+-3 -3 -3 -1
+CEFIKLTU 0 DGHKP B
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20004
+MUDtante~
+El MUDtante~
+El MUDtante se ve fornido y poderoso como cualquier adepto del MUD.
+~
+Cuando lo miras aprovecha para pedirte una cuenta pa jugar MUD.
+~
+human~
+ABGTX 0 0 0 0
+20 20 4d10+360 20d12+100 3d6+6 pound
+-5 -5 -5 -4
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20005
+vIRCioso~
+El vIRCioso~
+El vIRCioso esta sentado frente al terminal apretando teclas como weon!
+~
+Al Mirarlo se hace el weon pa que no le pidas el terminal.
+~
+human~
+ABGHTX 0 0 0 0
+15 15 3d9+233 15d11+100 2d7+4 pierce
+-3 -3 -3 -1
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20006
+Pinto~
+El Pinto~
+El pinto se pasea weviando con los plumones.
+~
+Al mirarlo te dice Chi-Chi-Chi...
+~
+human~
+AGHTX 0 0 0 0
+15 15 3d9+233 15d11+100 2d7+4 pierce
+-3 -3 -3 -1
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20007
+Serrano~
+El Serrano~
+El Serrano es flaquito y lleva una "linda" bufanda.
+~
+El mirarlo te hace recordar a Felo...
+~
+human~
+AGHTX 0 0 0 0
+1 1 2d7+21 1d10+100 1d5+1 slash
+7 7 7 9
+KLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20008
+mina~
+La mina enpelota~
+La mina enpelota se ducha, se llena de jabon todo su cuerpito.
+~
+Al mirarla pepito se levanta,esta mas rica, ahora es tu oportunidad ... derrepente se escucha un grito :DEGENERADO!
+~
+human~
+ABGTX 0 0 0 0
+10 10 2d8+134 10d11+100 2d5+3 pierce
+0 0 0 2
+CIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20009
+Pichanguero~
+El Pichanguero~
+El Pichanguero corre como weon detras del balon.
+~
+Al mirarlo te dan unas ganas de chutear un ratito.
+~
+human~
+AGTX 0 0 0 0
+12 12 2d10+170 12d11+100 2d6+3 slash
+-1 -1 -1 1
+CEIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20010
+Simio~
+El Simio~
+El Simio Juega Arkanoid en su PC!, diciendo "algun dia sere operador".
+~
+El Simio Te mira y te pide el carnet pa entrar al laboratorio, quizas su llave te pueda servir!
+~
+human~
+ABGTX H 0 0 0
+10 10 2d8+134 10d11+100 2d5+3 suction
+0 0 0 2
+CIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20011
+Borracho~
+El Borracho~
+El Borracho camina zigzaguiante, juntando moneas pa una Chela.
+~
+Al Mirarlo el Aprovecha pa pedirte plata pa un copete.
+~
+human~
+ABCGTX 0 0 0 0
+15 15 3d9+233 15d11+100 2d7+4 slash
+-3 -3 -3 -1
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20012
+Carretera~
+La mina carretera~
+La mina Carretera conversa con todos pa ver si alguien se la agarra!
+~
+Al mirarla te tira un besito y te dice GUACHITO RICO!
+~
+human~
+ACGTX 0 0 0 0
+8 8 2d6+110 8d11+100 1d10+2 pierce
+1 1 1 4
+CIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20013
+volao~
+El Volao~
+El Volao esta sentao cagandose de la risa!
+~
+El Volao esta en la dimension ultra conocida.
+~
+human~
+ABGTX 0 0 0 0
+11 11 2d10+150 11d11+100 1d12+3 slash
+-1 -1 -1 1
+CEIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20014
+maestro~
+El maestro~
+El maestro de la constru, acarrea ladrillos de un lado pa otro!
+~
+Te dice echese pa un lao Socio!
+~
+human~
+ABGTX 0 0 0 0
+15 15 3d9+233 15d11+100 2d7+4 pierce
+-3 -3 -3 -1
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20015
+capataz~
+El capataz~
+El capataz le da las intrucciones a los maestros.
+~
+El capataz te pide que te retires de la zona en construccion.
+~
+human~
+ABFGTX 0 0 0 0
+12 12 2d10+170 12d11+100 2d6+3 pound
+-1 -1 -1 1
+CEIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20016
+pury~
+la pury~
+La pury esta sacando fotocopias
+~
+La pury te pregunta cuantas fotocopias vas a sacar.
+~
+human~
+ABGTX 0 0 0 0
+10 10 2d8+134 10d11+100 2d5+3 pierce
+0 0 0 2
+CIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20017
+cocinero~
+el cocinero~
+El cocinero prepara unos italianos.
+~
+El cocinero te ofrece un completo.
+~
+human~
+ABGTX 0 0 0 0
+12 12 2d10+170 12d11+100 2d6+3 pierce
+-1 -1 -1 1
+CEIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20018
+cocinera~
+la cocinera~
+La cocinera prepara unos ricos porotos.
+~
+La cocinera te dice -mijito saque su vale colacion en caja.
+~
+human~
+ABGTX 0 0 0 0
+10 10 2d8+134 10d11+100 2d5+3 pierce
+0 0 0 2
+CIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20019
+operador~
+el guaton~
+Guaton es el operador supremo de la Red.
+~
+El guaton te mira agresivamente, te dice -que haces tu aqui weon!
+~
+human~
+ABFGTX 0 0 0 0
+20 20 4d10+360 20d12+100 3d6+6 pound
+-5 -5 -5 -4
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20020
+operador1~
+el flaco~
+El flaco es el mas maricon de todos los operadores!
+~
+El flaco te dice : Le acabo de cerrar la cuenta!
+~
+human~
+ABGTX 0 0 0 0
+17 17 3d9+283 17d12+100 2d8+5 pierce
+-4 -4 -4 -2
+CEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20021
+operador2~
+el chico~
+El chico es el mas buena onda de los operadores.
+~
+El chico te dice: yo le abro la cuenta digame su id.
+~
+human~
+ABGTX 0 0 0 0
+19 19 3d9+333 19d12+100 4d4+6 pierce
+-5 -5 -5 -3
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#20022
+beti secretaria ~
+la Beti~
+La beti esta aqui ayudando a los alumnos
+~
+Es una persona semi-gordita, pero re-buena voluntad que esta dispuesta a ayudar a cualquiera
+~
+human~
+ABQX H 0 1000 0
+30 15 6d12+853 30d13+600 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 BDHKLQ 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'cleric'
+#20023
+corbinau cordinador ricardo~
+Ricardo Corbinaud~
+El Cordinador, Ricardo Corbinaud, esta aqui.
+~
+Es un guatoncito muy simpatico, pero cuando se pone pesado..no hay quien lo
+haga cambiar de lo que dice.
+~
+human~
+ABQTX HV 0 -100 0
+30 35 6d12+928 30d15+100 4d6+13 none
+-9 -9 -9 -4
+DTU 0 CDHKL HK
+stand stand male 0
+0 0 medium 'carne'
+C 'ranger'
+R
+#20024
+ayudante elementos~
+El ayudante~
+Ves a un ayudante ensenandole y agujoneando a las mechonas
+~
+Ves a un ayudante enputecido ensenando.
+~
+human~
+ABTX CDHVac 0 0 0
+25 25 5d10+600 25d13+100 2d12+8 pound
+-8 -8 -8 -6
+CDEFIKLTU 0 0 C
+stand stand male 720
+0 0 medium 'pascal'
+C 'warrior'
+#20025
+player mago poderoso~
+El poderoso mago~
+Un poderoso mago esta aqui majumajeando a los Dragonlance!!.
+~
+~
+dragon~
+ABHTX DEFHVac 0 1000 0
+10 10 2d8+134 10d11+100 2d5+3 none
+0 0 0 2
+CIKLTU 0 0 0
+stand stand female 0
+0 0 medium 'eterno'
+C 'warrior'
+F off M
+F res BEH
+#20026
+quilicuariano estudiante~
+el quilicuriano~
+Un estudiante esta aqui, hablando de MUD.
+~
+~
+human~
+ABRX 0 0 1000 0
+26 13 5d10+550 26d13+500 3d6+6 wrath
+-7 -7 -7 -6
+FKU 0 0 0
+stand stand male 1000
+0 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#20027
+janito nose~
+El nose ~
+El ayudante del cordinador esta aqui, escribiendo en su computador.
+~
+Esta aqui para responder a todas tus preguntas con nose
+~
+human~
+ABTX H 0 0 0
+20 20 4d10+360 20d12+100 3d6+6 pound
+-5 -5 -5 -4
+CDEFIKLTU 0 0 0
+stand stand male 200
+0 0 medium 'carne'
+C 'warrior'
+M nspeech 20001 xxx~
+#20028
+vendedor sopaipillas tio~
+El tio de las Sopaipillas~
+Una persona de edad esta aqui vendiendo sopaipillas calientitas.
+~
+Ves una persona de edad, pero de cara amable que te dice: Son $60.
+~
+human~
+ABTX DH 0 -1000 0
+30 30 6d12+928 30d13+100 7d4+10 none
+-10 -10 -10 -9
+CDEFIKLTU B FG 0
+stand stand male 0
+0 0 medium 'humano'
+C 'warrior'
+#20029
+tia comida casino~
+La tia del Casino~
+La tia del Casino esta aqui vendiendo comidas y dulces
+~
+Ves que su cara amable te inspira confianza.
+~
+human~
+ABRX Q 0 0 0
+40 20 15d10+1700 40d15+700 8d4+12 none
+-13 -13 -13 -13
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#20030
+profesor fome profe~
+El Profe Fome~
+Un profe terrible de fome esta aqui lateando a sus alumnos.
+~
+Se ve que en sus largos anios nadie lo ha podido convencer de alguna de sus
+teorias erroneas..tu no seras diferente.
+~
+human~
+ABTX cd 0 -1000 0
+40 40 25d10+2000 40d16+100 6d5+15 wrath
+-13 -13 -13 -7
+CEFK B CH 0
+stand stand male 0
+0 0 medium 'carne'
+C 'warrior'
+R
+#20031
+bazooca jugador~
+Bazooca~
+Un jugador de ping-pong esta aqui parafernaleando.
+~
+Tiene como cara de Scooby. Pero es simpatico.
+~
+human~
+ABTX 0 0 0 0
+40 40 25d10+2000 40d15+100 10d4+15 none
+-14 -14 -14 -13
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'carne'
+C 'warrior'
+#20032
+krilin jugador~
+krilin ~
+Krilin esta aqui creyendose todo
+~
+~
+human~
+ABX 0 0 -1000 0
+15 7 3d9+208 15d11+300 2d6+3 none
+-2 -2 -2 0
+U 0 0 CHK
+stand stand none 15000
+0 0 medium 'unknown'
+C 'mage'
+#0
+
+
+
+#OBJECTS
+#20000
+llave~
+la llave~
+Un pequeña llave marca chancha reposa aqui.~
+none~
+key d AN
+0 A BC ABD 0
+0 5 0 P
+#20001
+VAX~
+un VAX~
+Un Asqueroso VAX reposa aqui.~
+none~
+trash d N
+0 A BC ABD 0
+0 5 0 P
+#20002
+RISC~
+un RISC~
+Un pulentoso risc reposa aqui.~
+none~
+treasure Ad N
+0 A BC ABD 0
+0 5 0 P
+#20003
+papel~
+un papel~
+Un papel esta pegado aqui dice: no entre si su acceso no es superior a 20.~
+none~
+trash d N
+0 A BC ABD 0
+0 5 0 P
+#20004
+espada~
+una espada llamada escalibur~
+Una espada reflejando el rostro de arturo rey de britannia~
+gold~
+weapon Ad AN
+sword 5 7 'slash' 0
+23 10 5000 P
+#20005
+daga madera~
+Daga de Madera~
+Una daga hecha de la madera de alguna viga esta tirada aqui.
+~
+wood~
+weapon SYd AN
+dagger 6 6 'stab' 0
+30 50 100 P
+A
+19 3
+A
+5 2
+A
+1 1
+#20006
+mace~
+plastic mace~
+An ugly plastic mace~
+plastic~
+weapon d AN
+mace 5 5 'pound' 0
+22 90 0 P
+#20007
+escritorio desk~
+un Escritorio~
+Un escritorio con un computador esta aqui.~
+madera~
+container Bd P
+100000 A 0 10000 1000000
+1 16960 1 P
+#20008
+teclado hp hewlett packard~
+un Teclado Hewlett Packard~
+Un teclado Hewlett Packard esta aqui .~
+plastico-circuitos~
+weapon ABGd AN
+mace 5 8 'pound' G
+30 100 1000000 P
+A
+1 2
+A
+2 3
+#20009
+raton mouse periferico~
+un mouse Genius~
+Un Mouse Genius esta aqui tiradito en el piso..~
+fibra vidrio~
+weapon Ucd ANO
+whip 5 5 'whip' 0
+20 50 100000 P
+A
+19 1
+A
+13 15
+#20010
+sopaipilla caliente~
+Una sopaipilla~
+Una gran sopaipa esta aqui botada en el piso.
+~
+masa~
+pill d AO
+30 'fireproof' 'haste' 'giant strength' 'sate'
+30 40 100000 P
+#20011
+completo hotdog~
+Un completo~
+Un rico completo esta aqui humeando de lo caliente que esta.
+~
+masa con carne~
+food d A
+10 10 0 0 0
+5 10 10000 P
+#20012
+italiano hotdog~
+Un italiano~
+Un rico italiano esta aqui tirado con la palta escurriendosele..
+~
+carne~
+food d A
+40 50 0 0 0
+10 30 50000 P
+#20013
+bebida cocacola~
+Una Coca-Cola~
+Una Coca cola heladita esta aqui en el piso
+~
+unknown~
+drink d A
+100 100 'orange juice' 0 0
+5 40 60000 P
+#0
+
+
+
+#ROOMS
+#20000
+En la Entrada~
+Estas parado en el el hall de Entrada a la Universidad.  Puedes ver un
+letrero azul con letras blancas en la entrada....  Un poco rallado por la
+reciente toma.  
+~
+0 Y 1
+E
+letrero~
+El letrero dice:
+|------------------------------------------------------------------------|
+| #B U N I V E R S I D A D                  #b                               |
+| #B T E C N O L O G I C A       M E T R O P O L I T A N A           #b      |
+|------------------------------------------------------------------------|
+~
+D0
+~
+~
+0 0 20001
+S
+#20001
+En la porteria~
+Estas en la porteria de la #F#BUTEM#f#b.  Ves a una persona dentro de una cabina
+que lo unico que hace durante todo el dia es ver television y responder el
+telefono.
+~
+0 Y 0
+D0
+~
+~
+0 0 20002
+D2
+~
+~
+0 0 20000
+S
+#20002
+El Hall~
+Estas parado en un hall de baldosas blancas y negras.  En la pared de la
+derecha ves el panel de notas del departamento de Fisica, mas conocido como
+el famoso "MURO de los LAmentos". Hacia tu izquierda puedes ves la entrada
+a las cordinaciones de Ingenieria Civil en computacion y de Ingenieria en
+Informatica.
+~
+0 Y 0
+D0
+~
+~
+0 0 20003
+D2
+~
+~
+0 0 20001
+D3
+~
+~
+0 0 20013
+S
+#20003
+El gran pasillo~
+Estas en el gran pasillo de la UTEM, que conecta todas las dependencias.
+Ves un R2D2 dispuesto a recibir tu basura.....
+~
+0 Y 1
+D0
+~
+~
+0 0 20004
+D2
+~
+~
+0 0 20002
+S
+#20004
+En la plaza chica~
+Estas en una interseccion en forma de pequenia plaza. Al Norte ves la entrada
+al popular casino de la Universidad, mientras que al Oeste una bifurcacion te
+lleva a la Biblioteca y al Laboratorio de Computacion.
+~
+0 Y 1
+D0
+~
+~
+0 0 20019
+D2
+~
+~
+0 0 20003
+D3
+~
+~
+0 0 20018
+S
+#20005
+Senda a los Terminales y Biblioteca.~
+Esta senda te llevara a los poderosos RISC y los pajeros VAX,
+ademas de la biblioteca, pero quien quiere ir alla.
+~
+0 CY 1
+S
+#20006
+Entrada del laboratorio.~
+Tu estas en la entrada al laboratorio de computacion de la Escuela de
+#Binformatica#b de la #BUTEM#b.  
+~
+0 Y 0
+D0
+~
+~
+0 20000 20008
+D1
+~
+~
+0 -1 20007
+D4
+~
+~
+AB 0 20026
+S
+#20007
+La Jaula del Mono~
+Esta es la jaula del mono donde se encierra que impide el acceso a los
+terminales.  
+~
+0 Y 0
+D3
+~
+~
+0 -1 20006
+S
+#20008
+Los #BRISC#b~
+Estas en una pequena habitacion llena de computadores por todas partes, ves un #BLuminoso#b y poderoso #BRISCK#b.
+~
+0 Y 0
+D0
+~
+~
+0 -1 20009
+D2
+~
+~
+0 -1 20006
+D3
+~
+~
+0 0 20028
+S
+#20009
+Los RISC~
+Estas en una pequeña habitacion llena de computadores, por todas partes
+ves los poderosos RISCs.  
+~
+0 Y 0
+D0
+~
+~
+0 -1 20010
+D2
+~
+~
+0 -1 20008
+M 100 H 200
+S
+#20010
+Los VAX~
+Estas en una habitacion llena de Pcs con un sistema de redes Arcaico: el
+#F#BVAX#f#b.  Ves que muchos alumnos nuevos esta aqui y te preguntan... 
+Para que sirve hacer #F#BDir?????  #f#b 
+~
+0 Y 0
+D0
+~
+~
+0 -1 20011
+D2
+~
+~
+0 -1 20009
+S
+#20011
+La recepcion del servidor.~
+Estas en una habitacion con unos grandes ventanales. Adentro se ven algunos Pcs con multimedia.
+~
+0 Y 0
+D1
+~
+~
+0 -1 20012
+D2
+~
+~
+0 -1 20010
+S
+#20012
+El Servidor~
+Estas en la habitacion donde se encuentra el servidor que alimenta todos los RISC y VAX, tu sueño al fin es realidad.
+~
+0 Y 0
+D3
+~
+~
+0 -1 20011
+S
+#20013
+En las Cordinaciones~
+Estas en un estrecho pasillo entero alfombrado al parecer con guarenes,
+ya que ha sido usado por muchos estudiantes para sentarse, jugar cartas, y
+otros ociosos que de repente juegan Uno.  Hacia el Sur ves la entrada a la
+Cordinacion de Ingenieria Civil en Computacion mientras que hacia el oeste
+se ve la entrada a la Cordinacion de Ingenieria en Informatica.  
+~
+0 Y 0
+D1
+~
+~
+0 0 20002
+D2
+~
+~
+AB 0 20014
+D3
+~
+~
+0 0 20015
+S
+#20014
+Descordinacion de Civil~
+Estas en un cuarto muy bien iluminado con un escritorio y un computador
+con su respectiva secretaria.  El salon lleva hacia el Oeste por una puerta
+a la cordinacion de Informatica, mientras que al Sur esta la Cordinadora de
+Civil.  
+~
+0 Y 0
+D0
+~
+~
+AB 0 20013
+D3
+~
+~
+AB 0 20016
+S
+#20015
+En las cordinaciones~
+Estas frente a la puerta de la cordinacion de Ingenieria en Informatica. Hacia el Norte ves la puerta del director de Relaciones Estudiantiles, mientras que
+hacia el sur ves la Entrada a la dichosa Cordinacion.
+~
+0 Y 0
+D1
+~
+~
+0 0 20013
+D2
+~
+~
+AB 0 20016
+S
+#20016
+Descordinacion de Informatica~
+Estas en la cordinacion de la Carrera de Ingeniera en Informatica. En medio
+de la habitacion hay un escritorio con un computador rodeado por algunos 
+Kardex con unas fechas del anio de la pera...
+Hacia el Oeste ves los cordinadores trabajando en sus computadores, mientras
+que al Este se ve una puerta que te conduce a la Cordinacion de Civil.
+~
+0 Y 0
+D0
+~
+~
+AB 0 20015
+D1
+~
+~
+AB 0 20014
+D3
+~
+~
+AB 0 20017
+S
+#20017
+Cordinacion de Info~
+Estas en una sala mas o menos amplia rodeada de algunas mesas en las cuales
+se ven los cordinadores cambiandole los horarios a algunos alumnos...etc.
+~
+0 Y 0
+D1
+~
+~
+AB 0 20016
+S
+#20018
+Camino a la Biblioteca~
+Ves un largo pasillo, al caminar por el te llaman la atencion las mas
+#Bmulas#b motos de los alumnos de la #BUTEM#b.  
+~
+0 Y 0
+D1
+~
+~
+0 0 20004
+D3
+~
+~
+0 0 20026
+S
+#20019
+Entrada al Casino~
+Estas en la Entrada al Casino de la UTEM.  Ves a muchos estudiantes que
+se pasan entrando y saliendo como almas en pena.  Al Oeste esta la entrada,
+mientras que al Norte el pasillo Continua y hacia arriba esta el pabellon B
+(de Informatica).  
+~
+0 Y 0
+D0
+~
+~
+0 0 20039
+D1
+~
+~
+0 0 20040
+D2
+~
+~
+0 0 20004
+D3
+~
+~
+0 0 20020
+D4
+~
+~
+0 0 20022
+S
+#20020
+En el Casino~
+Estas en el casino de la Universidad.  Este este formado por muchas mesas
+en las que se encuentran mechones y viejos ya sea conversando, estudiando,
+algunos estan jugando cartas y otros aun mas ociosos estan jugando Magic o
+Rol.  
+~
+0 Y 0
+D1
+~
+~
+0 0 20019
+D3
+~
+~
+0 0 20021
+S
+#20021
+En el Casino~
+Estas en el casino de la Universidad.  Este esta formado por muchas mesas
+en las que se encuentran mechones y viejos ya sea conversando, estudiando,
+algunos estan jugando cartas y otros aun mas ociosos estan jugando Magic o
+Rol.  
+~
+0 Y 0
+D1
+~
+~
+0 0 20020
+S
+#20022
+Escalas pabellon B~
+Estas en las escalas del pabellon B de la Utem. Este generalmente es usado para las clases de los informaticos y su escalera esta hecha de baldosas.
+~
+0 Y 0
+D4
+~
+~
+0 0 20023
+D5
+~
+~
+0 0 20019
+S
+#20023
+Segundo Piso~
+Estas en el segundo piso del Pabellon B. La misma escalera que te comunica con el primer piso sigue hacia arriba.
+~
+0 Y 0
+D3
+~
+~
+0 0 20025
+D4
+~
+~
+0 0 20034
+D5
+~
+~
+0 0 20022
+S
+#20025
+En el pasillo~
+Estas en el pasillo de el pabellon B. Un semi-balcon que mira hacia la pequena plaza se encuentra aqui.
+~
+0 Y 0
+D0
+~
+~
+0 0 20033
+D1
+~
+~
+0 0 20023
+D3
+~
+~
+0 0 20031
+S
+#20026
+Bajada al Laboratorio~
+Estas en la entrada a un subterraneo pequenio donde se ven alumnos entrando y saliendo repetidas veces.
+~
+0 Y 0
+D1
+~
+~
+0 0 20018
+D3
+~
+~
+0 0 20047
+D5
+~
+~
+AB 0 20006
+S
+#20027
+Cuarto de los servidores~
+En este cuarto eres encandilado por la increible aura que emana de los
+poderosos #BRisc#b.  
+~
+0 CY 0
+S
+#20028
+Pasillo~
+Estas en direccion a la sala de sistemas, en un momento logras ver a un
+mechon dejando la cagada en un computador.  
+~
+0 Y 0
+D0
+~
+~
+0 0 20029
+D1
+~
+~
+0 0 20008
+D3
+~
+~
+0 0 20030
+S
+#20029
+Sala de Sistemas y Multimedia~
+Aqui ves una pila de computadores con multimedia que solo los alumnos que
+le chuplican al profe tienen acceso a ellos.  
+~
+0 Y 0
+D2
+~
+~
+0 0 20028
+S
+#20030
+Sala de sistemas~
+Aqui ves una gran cantidad de "#BProgramadores#b" trabanjando urgidos en
+turbo pascal, y otros echando puteadas por los malditos informes.  
+~
+0 Y 0
+D1
+~
+~
+0 0 20028
+S
+#20031
+Pasillo~
+Estas en el pasillo del pabellon B. Un semi-balcon aqui te deja ver el Santa Isabel y algo del patio. Tambien ves una sala al Norte.
+~
+0 Y 0
+D0
+~
+~
+0 0 20032
+D1
+~
+~
+0 0 20025
+S
+#20032
+Sala B-202~
+Estas en la sala A-202. Ves multiple mobiliario hecho tira y algunos mechones rayando las mesas...
+~
+0 Y 0
+D2
+~
+~
+0 0 20031
+S
+#20033
+Sala B-201~
+Estas en la sala B-201.  Algunos estudiantes estan aqui estudiando de un
+Larson.  
+~
+0 Y 0
+D2
+~
+~
+0 0 20025
+S
+#20034
+En las Escaleras~
+Estas llegando a el tercer piso del pabellon B. Ves algunas de las tias del aseo copuchando ....
+~
+0 Y 0
+D3
+~
+~
+0 0 20035
+D5
+~
+~
+0 0 20023
+S
+#20035
+En el pabellon B.~
+Estas en lo mas alto del pabellon B.  Desde aqui se ven las mismas cosas
+que del segundo piso, pero, obviamente, mas alto.  
+~
+0 Y 0
+D0
+~
+~
+0 0 20038
+D1
+~
+~
+0 0 20034
+D3
+~
+~
+0 0 20036
+S
+#20036
+Fin del pabellon B.~
+Estas en el final del pasillo del pabellon B. Ves que al Oeste se ven muchas mujeres entrando y saliendo...hay un letrerito ahi en la puerta.
+~
+0 Y 0
+E
+letrero~
+El letrerito dice:
++--------------------------------------+
+|            Mujeres                   |
++--------------------------------------+
+~
+D0
+~
+~
+0 0 20037
+D1
+~
+~
+0 0 20035
+S
+#20037
+Sala B-302~
+~
+0 Y 0
+D2
+~
+~
+0 0 20036
+S
+#20038
+Sala B-302~
+Ves que esta sala esta un poco vacia, ya que nadie se da la flojera de venir a clases en este piso, excepto por las pruebas.
+~
+0 Y 0
+D2
+~
+~
+0 0 20035
+S
+#20039
+Pasillo~
+Vas caminando por un pasillo muy concurrido.  Ves unos faroles a tu
+derecha e izquierda, que solo se prenden pasadas las 9:30 de la noche,
+cuando ya no hay nadie.  
+Ves tambien un pequenio anuncio pegado casi en el techo.
+~
+0 Y 0
+E
+anuncio~
+el anuncio dice:
++============+
+| #F#B    C  #f#b    |
++===========+
+~
+D2
+~
+~
+0 0 20019
+D4
+~
+~
+0 0 20049
+S
+#20040
+Camino al Gimnasio~
+Estas en un pasillo de pastelones, que al norte te lleva a la Federacion y al  Este te lleva al Gimnasio techado de la UTEM.
+~
+0 Y 0
+D0
+~
+~
+AB 0 20042
+D1
+~
+~
+0 0 20041
+D3
+~
+~
+0 0 20019
+S
+#20041
+Entrada Al Gimnasio~
+Estas en la entrada del Gimnasio.  Ves que hacia el Norte se sienten unos
+golpeteos de pelotas de ping-pong, mientras que al sur se ven unos
+#BInmensos#b basureros y los camarines de hombres y mujeres.  
+~
+0 Y 0
+D0
+~
+~
+0 0 20043
+D1
+~
+~
+AB 0 20044
+D2
+~
+~
+0 0 20046
+D3
+~
+~
+0 0 20040
+S
+#20042
+Federacion de Estudiantes~
+Estas en un cuarto donde se ven varias personas durante todo el dia entrando y saliendo y llamando por telefono como contratados.
+~
+0 Y 0
+D2
+~
+~
+AB 0 20040
+S
+#20043
+En direccion al SESAES~
+Estas en una galeria con una reciente mesa de ping-pong en su centro.
+Ves algunos mechones esperando pacientemente su turno.
+~
+0 Y 0
+D0
+~
+~
+AB 0 20045
+D2
+~
+~
+0 0 20041
+S
+#20044
+En el Gimnasio~
+Estas en el Gimnasio de la UTEM. Ves que la cancha esta hecha de adoquines de 
+madera con el rayado oficial de Futbol, Basketbol y Voleybol. 
+Tambien ves algunas graderias con estudiantes escuchando personal o estudiando.
+~
+0 Y 0
+D3
+~
+~
+AB 0 20041
+S
+#20045
+En el Sesaes~
+Estas en el Servicio de salud del Estudiante. Ves una secretaria que te pide
+los datos para tu ficha personal y algunos estudiantes sentados en las sillas.
+~
+0 Y 0
+D2
+~
+~
+AB 0 20043
+S
+#20046
+Entrada a los camarines~
+Estas en donde un basurero muy grande se ubica.  Tambien ves la entrada
+al camarin de los hombres y el de las mujeres que esta un poco mas al Norte.
+~
+0 Y 0
+D0
+~
+~
+0 0 20041
+S
+#20047
+Entrada a Biblioteca~
+Estas en un edificio de cuatro pisos con estudiantes que entran y salen
+de el.  
+~
+0 Y 0
+D0
+~
+~
+0 0 20048
+D1
+~
+~
+0 0 20026
+S
+#20048
+Biblioteca~
+Estas en la biblioteca de la UTEM.  Ves que dos ayudantes muy simpaticos
+de Bibliotecologia estan atendiendo y una vieja muy pesada que molesta a los
+estudiantes.  
+~
+0 Y 0
+D2
+~
+~
+0 0 20047
+S
+#20049
+Escaleras~
+Estas subiendo por unas oscuras escaleras al segundo piso del pabellon C.
+~
+0 Y 0
+D4
+~
+~
+0 0 20050
+D5
+~
+~
+0 0 20039
+S
+#20050
+Segundo piso pabellon C.~
+Estas en el segundo piso del pabellon C. Unas escaleras se ven hacia arriba y hacia abajo.
+~
+0 Y 0
+D1
+~
+~
+0 0 20051
+D5
+~
+~
+0 0 20049
+S
+#20051
+Pasillo~
+Estas en el pasillo del segundo piso del pabellon C.Este usualmente es usado
+por alumnos de la carrera de Electronica, Mecanica y otras carreras.
+Ves una sala Al Norte.
+~
+0 Y 0
+D0
+~
+~
+AB 0 20052
+D1
+~
+~
+0 0 20053
+D3
+~
+~
+0 0 20050
+D4
+~
+~
+0 0 20055
+S
+#20052
+Sala C-201~
+Estas en la Sala C-201.  Ves algunos estudiantes jugando a las cartas
+terrible piola, por que estan en clases con un profe que nadie pesca.  
+~
+0 Y 0
+D2
+~
+~
+AB 0 20051
+S
+#20053
+Pasillo~
+Estas en el pasillo del segundo piso del pabellon C.
+Ves otra sala mas al Norte.
+~
+0 Y 0
+D0
+~
+~
+AB 0 20054
+D3
+~
+~
+0 0 20051
+S
+#20054
+Sala C-202~
+Estas en la sala C-202.
+Por fin encuentras un profesor que esta haciendo clases terriblemente aburridas y tratando de hacer chistes jocosos.
+Ahora te das cuenta por que los alumnos no van a clases.
+~
+0 Y 0
+D2
+~
+~
+AB 0 20053
+S
+#20055
+En las escaleras de fierro~
+Estas en este instante en unas escaleras de fierro que te llevan a la ultima 
+sala del ultimo piso del Pabellon C.
+Ves un profe tratando de explicarle a sus alumnos por que reprobaron....
+~
+0 Y 0
+D4
+~
+~
+0 0 20056
+D5
+~
+~
+0 0 20051
+S
+#20056
+Ultima Morada~
+Estas en una sala Comoda, amplia y llena de sillas y mesas. Aqui es donde
+usualmente se hacen las reuniones del Centro de Alumnos de todas las carreras, asi que la mantienen hasta limpia.
+~
+0 Y 0
+D5
+~
+~
+0 0 20055
+S
+#0
+
+
+
+#SPECIALS
+M 20011 spec_thief
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 20006 4 1
+D 0 20013 2 1
+D 0 20014 0 1
+D 0 20014 3 1
+D 0 20015 2 1
+D 0 20016 0 1
+D 0 20016 1 1
+D 0 20016 3 1
+D 0 20017 1 1
+D 0 20026 5 1
+D 0 20040 0 1
+D 0 20041 1 1
+D 0 20042 2 1
+D 0 20043 0 1
+D 0 20044 3 1
+D 0 20045 2 1
+D 0 20051 0 1
+D 0 20052 2 1
+D 0 20053 0 1
+D 0 20054 2 1
+M 0 20028 1 20000 1
+G 0 20010 0
+M 0 20003 1 20001 1
+M 0 20001 1 20005 1
+M 0 20010 1 20007 1
+G 0 20000 0
+M 0 20025 1 20008 1
+M 0 20004 1 20008 1
+M 0 20004 1 20008 1
+M 0 20005 1 20008 1
+M 0 20005 1 20009 1
+M 0 20004 1 20009 1
+M 0 20004 1 20009 1
+M 0 20005 1 20009 1
+M 0 20024 3 20010 1
+M 0 20000 20 20010 2
+M 0 20001 10 20010 4
+M 0 20020 1 20011 1
+M 0 20021 1 20011 1
+M 0 20019 1 20012 1
+M 0 20022 1 20014 1
+O 0 20007 0 20014
+P 0 20008 1 20007 1
+M 0 20027 1 20016 1
+M 0 20023 1 20017 1
+G 0 20009 0
+M 0 20000 20 20020 2
+M 0 20029 1 20021 1
+G 0 20011 0
+G 0 20012 0
+G 0 20013 0
+M 0 20031 1 20043 1
+M 0 20032 1 20043 1
+M 0 20030 1 20056 1
+G 0 20005 0
+S
+
+
+
+#SHOPS
+20029 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

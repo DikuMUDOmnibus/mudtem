@@ -1,0 +1,960 @@
+#AREADATA
+Name Little Haven~
+Builders None~
+VNUMs 1801 1899
+Credits {10 30} Mahatma Little Haven~
+Security 9
+Prototipo 0
+Low 25
+High 30
+Version 2
+End
+
+
+
+#MOBILES
+#1801
+gnome busy~
+the busy gnome~
+The busy gnome shuffles past you.
+~
+The weather does not phase him in the least.  She is ready
+to defend himself to the death.  There is a glazed look
+about her eyes.
+~
+'gnome'
+ACGT P 0 100 0
+16 24 3d9+258 16d12+100 2d6+4 pierce
+-2 -2 -2 -1
+CEFIKLRTU 0 0 0
+stand stand female 1
+0 0 medium 'none'
+C 'warrior'
+F aff J
+#1802
+gnome guard~
+the gnome guard~
+The gnome guard stands at attention.
+~
+There is a glazed look about her eyes.
+~
+'gnome'
+ABT P 0 100 0
+21 31 5d10+400 21d12+100 4d4+5 pierce
+-5 -5 -5 -3
+CDEFIKLRTU 0 0 0
+stand stand female 2
+0 0 medium 'none'
+C 'warrior'
+F aff J
+#1803
+bear giant polar~
+the giant polar bear~
+The giant polar bear doesn't like you disturbing her sleep.
+~
+She blends with the snow.
+~
+'bear'
+ABFT DQ 0 0 0
+24 36 5d10+550 24d13+100 2d10+6 pound
+-6 -6 -6 -5
+CFIKLRTU 0 0 0
+stand stand female 5
+0 0 medium 'none'
+C 'warrior'
+F off O
+#1804
+dragon white~
+the white dragon~
+The white dragon glares at you.
+~
+He is an enormous, mature dragon, ready to freeze you.
+~
+'dragon'
+ABT H 0 -1000 0
+25 37 5d10+600 25d13+100 2d10+7 slash
+-7 -7 -7 -5
+CDEFIKLRTU 0 0 0
+stand stand male 25
+0 0 medium 'none'
+C 'warrior'
+F aff JT
+F off M
+#1805
+dragon blue~
+the blue dragon~
+The blue dragon dislikes being here.
+~
+She is an enormous, mature dragon, with an attitude
+to match her electric blue scales.
+~
+'dragon'
+AFT DH 0 -1000 0
+26 39 5d10+650 26d13+100 3d7+7 pound
+-7 -7 -7 -6
+CDEFIKLRTU 0 0 0
+stand stand female 37
+0 0 medium 'none'
+C 'warrior'
+F aff JT
+F off M
+#1806
+queen snow~
+the Snow Queen~
+The Queen of Snows did not invite you to be here.
+~
+Dressed in all white, she almost charms you with her placidness.
+~
+'human'
+ABT H 0 0 0
+31 46 10d10+1000 31d13+100 6d4+9 slash
+-10 -10 -10 -8
+CDEFHIKLTU 0 0 0
+stand stand female 25
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#1807
+giant frost guard~
+the cold frost giant~
+The frost giant guard is ready for intruders.
+~
+He's blue, and he doesn't really like gnomes
+but they keep him fed.
+~
+'giant'
+ACT D 0 0 0
+20 30 4d10+360 20d12+100 2d8+5 pound
+-4 -4 -4 -3
+CDEFIKLRTU 0 0 0
+stand stand male 1
+0 0 medium 'none'
+C 'warrior'
+#1808
+mistress white~
+the white mistress~
+The white mistress leaps and shouts "Intruder!"
+~
+She is a fanatical servant to the Snow Queen.
+~
+'human'
+ABCFT DF 0 -500 0
+19 28 3d9+333 19d12+100 2d7+5 pierce
+-4 -4 -4 -2
+CDEFIKLTU 0 0 0
+stand stand female 7
+0 0 medium 'none'
+C 'warrior'
+F par GHIJK
+#1809
+master herbal~
+the master herbal~
+The master herbal is playing with her mints.
+~
+She is too busy to consider you.
+~
+'human'
+ABT F 0 0 0
+19 28 3d9+333 19d12+100 2d7+5 pound
+-4 -4 -4 -2
+CDEFIKLRTU 0 0 0
+stand stand female 5
+0 0 medium 'none'
+C 'warrior'
+#1810
+thief~
+the thief~
+A thief is here, sneaking between the shadows.
+~
+He REALLY likes your money!
+~
+'human'
+AHS P 0 -500 0
+6 4 2d6+60 6d10+100 1d6+1 pierce
+5 5 5 7
+BFJNRTU 0 0 0
+stand stand male 0
+0 0 medium 'none'
+C 'thief'
+#0
+
+
+
+#OBJECTS
+#1801
+staff ice~
+an ice staff~
+A frozen branch lies on the ground.~
+indef~
+staff A AO
+21 3 3 'frost breath' 0
+0 7 0 P
+#1802
+wand fire~
+a wand of fire~
+A glowing ember of wood melts the snow beneath it.~
+indef~
+wand A AO
+15 3 3 'fireball' 0
+19 7 190 P
+#1803
+flaming axe~
+a flaming axe~
+An axe of blue flame boils the water beneath it.~
+indef~
+weapon A AN
+axe 5 5 'slash' 0
+19 14 190 P
+A
+18 2
+A
+13 2
+#1804
+shield south wind~
+the Shield of the South Wind~
+A beautiful shield lies at your feet.~
+indef~
+armor A AJ
+9 9 9 0 0
+31 8 310 P
+A
+2 3
+A
+5 1
+A
+1 1
+#1805
+mint sprig~
+a sprig of mints~
+A sprig of mint sprouts at your feet.~
+indef~
+light AG AO
+0 0 999 0 0
+19 1 190 P
+A
+13 1
+A
+14 100
+#1806
+fuschia potion~
+a fuschia potion~
+A pinkish purple potion is on the floor.~
+indef~
+potion 0 A
+15 'shield' 'remove curse' '' ''
+20 1 200 P
+#0
+
+
+
+#ROOMS
+#1801
+The Big, Blue Ocean~
+WHOOSH!  A whirlpool sucks you down and spits you out!
+You see the city to the east, with Redferne's castle above,
+teeming with all sorts of life.  The ocean is alive!
+You wonder about the creatures below.
+~
+18 0 7
+D0
+~
+~
+0 0 222
+D3
+~
+~
+0 -1 1802
+S
+#1802
+The Big, Blue Ocean~
+The currents are strong here, guiding you south.  They whisk
+you off in a most magical nature.
+~
+18 0 7
+D2
+~
+~
+0 -1 1803
+S
+#1803
+The Big, Blue Ocean~
+The currents are even stronger, as if your boat
+has a mind of its own.  The fish bob there heads
+up at you, mouthing words half-intelligible.  It seems
+you cannot go back but must follow the current.
+~
+18 0 7
+D2
+~
+~
+0 -1 1804
+S
+#1804
+The Icy Waters~
+Brrr!  It's cold.  You see floes of white ice
+masses moving slowly across the see.  The one
+up ahead looks like you could get a footing
+on it and not slip off.
+~
+18 0 7
+D2
+~
+~
+0 -1 1805
+S
+#1805
+The Hardpack~
+You don't see any footprints in the snow.  The wind
+bites through your magical armor like teeth on bare skin.
+Off in the distance you see a high mountain
+and the seemings of a castle turret.
+~
+18 0 2
+D0
+~
+~
+0 -1 1804
+D2
+~
+~
+0 -1 1806
+S
+#1806
+The Snow-filled Land~
+You could get lost in the snow, you know.
+The snow is cold, white, and deep.
+It seems you have miles to go...
+~
+18 0 2
+D0
+~
+~
+0 -1 1805
+D1
+~
+~
+0 -1 1831
+D2
+~
+~
+0 -1 1832
+D3
+~
+~
+0 -1 1831
+S
+#1807
+The Gnome Outpost~
+You see a well-built outpost made of snow
+that actually seems cozy with a small fire
+in the middle keeping the place warm.  The walls while 
+undecorated are clean and well-kempt, though you think 
+to yourself "Who'd want to live out here?"
+The only exist you see is to the north.
+~
+18 D 0
+D0
+~
+~
+0 -1 1833
+D5
+You see a poorly-camouflaged door.~
+secret-door~
+AF -1 1808
+S
+#1808
+The Tight Passage~
+This is place is very cozy for someone under four feet,
+but not for you.  You find that the passage goes
+down further, with bits of droppings forming
+snug places for you to hang on too.  Yuck!
+~
+18 AD 1
+D4
+You see a poorly-camouflaged door.~
+secret-door~
+AF -1 1807
+D5
+~
+~
+0 -1 1809
+S
+#1809
+The Even Tighter Passage~
+It's a bit of a squeeze here and you think that
+last pot pie you ate a while back is getting
+revenge on you now.  The walls are smooth,
+with finger holes for you to hang on to.
+Down there seems to be flooring to stand on to,
+with the passage to return to the surface.
+~
+18 AD 1
+D4
+~
+~
+0 -1 1808
+D5
+~
+~
+0 -1 1810
+S
+#1810
+The Center Chamber~
+Before you is the gnome city called Little Haven.
+It's bustling, with cheery little folk who seem
+dwarven in ancestry and yet look upon you with
+a little suspicion.  The tunnels are vast, and from this
+vantage point you can see the huge fortress way
+in the distance.  You have a long way to go.
+~
+18 D 1
+D1
+~
+~
+0 -1 1811
+D3
+~
+~
+0 -1 1813
+S
+#1811
+A Passageway~
+Gnomes left, gnomes right, all busy and unminding
+of you.  Their faces seem too happy, their manners
+predictable.  The passage is human-sized, not gnome,
+with unidentifiable inscriptions on the walls.
+~
+18 D 1
+D1
+~
+~
+0 -1 1812
+D3
+~
+~
+0 -1 1810
+S
+#1812
+The Cold Passageway~
+You are reminded of the biting winds outside,
+as the tunnel suddenly drops in temperature.
+You feel chilling breezes from the north.
+~
+18 D 1
+D0
+~
+~
+0 -1 1821
+D3
+~
+~
+0 -1 1811
+S
+#1813
+The Warm Passageway~
+It's even warmer in here than you could imagine.
+The walls are glowing, not from magic, but
+from the heat of some furnace on the other
+side of the wall.  To the west you hear chanting.
+~
+18 D 1
+D1
+~
+~
+0 -1 1810
+D3
+~
+~
+0 -1 1816
+S
+#1814
+The Little Temple~
+You wonder how these gnomes could pray in this
+temple with all the screaming outside,
+but they do.  It is very immaculate with
+bits of fruit and food offered here,
+precious commodities in a barren place.
+~
+18 D 1
+D0
+~
+~
+0 -1 1817
+D2
+~
+~
+0 -1 1815
+S
+#1815
+The Vestibule~
+The door above you shuts and vanishes.
+Lots of herbs and spices are here, though with
+the climate outside you wonder how they could
+exisit in such abundance.  There's a hint of mint
+here.  There are exits to the south and north.
+~
+18 D 1
+D0
+~
+~
+0 -1 1814
+D2
+~
+~
+0 -1 1818
+S
+#1816
+The Chanting Room~
+Icons of a blue deity abound in this room,
+with seats outlining a large circle in the
+middle.  The herbal scent is stronger here
+than anywhere else, with torches at each
+column giving the room an air of dancing.
+You hear the hideous songs of "la LA la ..."
+~
+18 D 1
+D0
+~
+~
+0 -1 1818
+D1
+~
+~
+0 -1 1813
+S
+#1817
+The Furnace~
+The air is dusty, with the stench of burnt
+carcasses of various animals and meager bits
+of wood.  The heat here is almost unbearable.
+~
+18 D 1
+D0
+~
+~
+0 -1 1827
+D2
+~
+~
+0 -1 1814
+S
+#1818
+The Arboretum~
+This is where the gnomes seem to grow their plants.
+There is a room to the east, while the well paved
+path you walk on goes north.  To the south, there
+is a small room where you can hear chanting.
+There is a sign here.
+~
+18 D 1
+E
+sign~
+The sign reads "Woe to the unwelcomed of
+this place!"~
+D0
+~
+~
+0 -1 1815
+D1
+The door reads "KEEP OUT!"
+~
+door east~
+AF -1 1820
+D2
+You see the Chanting Room south of here.
+~
+~
+0 0 1816
+S
+#1819
+The Snow Queen's Chamber~
+Tall, white, with columns that blend with the walls
+like water in water.  There is a quiet, almost solemn,
+almost saddening calm that envelops you, as if
+some great loss had taken place here.
+There is no physical escape from here.
+~
+18 CD 1
+S
+#1820
+The Master Herbal's Room~
+Maps of Midgaard and Asgard abound in this room
+with each forest marked for its herbal plant
+growing seasons.  The scent of parsley, sage,
+rosemary and thyme permeate the air.
+~
+18 D 1
+D3
+~
+door west~
+AF -1 1818
+D5
+~
+secret-door down~
+AF -1 1815
+S
+#1821
+The Guard's Dining Hall~
+Statues of Odin and Thor decorate this
+lavish hall complete with benches and dining
+tables for a thousand warriors. You hear
+sounds of song and cheer and begin to understand
+how the alliance of Frost Giants and gnomes came
+about.  There are exits to the south and north and a
+room to the east.
+~
+18 D 1
+D0
+~
+~
+0 -1 1823
+D1
+~
+~
+0 -1 1822
+D2
+~
+~
+0 -1 1812
+S
+#1822
+The Vat Room~
+MMMmmmmmmmmmm.  Smells real good in here.
+You see a big vat in the middle of the room.
+~
+18 D 1
+E
+vat~
+You see a black vat, melted into the ground.~
+D3
+~
+~
+0 -1 1821
+S
+#1823
+The Frost Giant Guard Quarters~
+The beds are unmade, unkempt, with typical
+male noises of drunkeness coming from behind
+the door to the east.  You smell brewed hops
+and remnants of mead soaking through your 
+belongings.  Bits of chewed bones lie about.
+The only visible exit is to the south.
+~
+18 D 1
+D0
+The wall surface looks uneven here.~
+sliding-door north~
+AF -1 1826
+D2
+~
+~
+0 -1 1821
+S
+#1824
+The White Dragon's Lair~
+Dark and cold, and very dreary, with stalactites
+hanging from the ceiling like teeth.  The Snow Queen
+has furnished her pet with corpses of lost
+adventurers.  Perhaps yours is next!
+You see a door to the south.
+~
+18 D 1
+D0
+The nothern wall seems to give way.~
+secret-door north~
+AF -1 1825
+D2
+They must keep it locked for a reason.~
+door south~
+AF -1 1826
+S
+#1825
+The Blue Dragon's Lair~
+What's this?  Another dragon's lair?  Just how powerful
+is this Snow Queen you wonder?  The air in here
+is cold, dry, desert evening-like with a few
+eggs cracked open, as if a hatching just occured.
+The only exit is the crawlway down.
+~
+18 D 1
+D5
+~
+~
+0 -1 1822
+S
+#1826
+The connecting tunnel~
+This tunnel is very wide, as if any huge beast
+could trample through it in a second.  Great
+howling abounds from behind the great door
+to the north.
+~
+18 AD 2
+D0
+They must keep it locked for a reason.
+~
+door north~
+0 -1 1824
+D2
+The wall surface looks uneven here.
+~
+sliding-door south~
+0 -1 1823
+S
+#1827
+The Great Door~
+You see before you a huge oaken door with adamantite 
+trim that reads "LITTLE HAVEN."  The rest of this place
+seems to be made of glass, giving it an almost mirror-like
+quality.  The gnomish runes are inscribed as well
+as a few you understand: that of the Snow Queen.
+There is a giant key hole here, but it looks well 
+worn by the snow and wind.  You feel the heat
+of the furnace room to the south.
+~
+18 D 1
+D0
+It must be locked to keep you out.
+~
+door north~
+0 -1 1828
+D2
+~
+~
+0 -1 1817
+S
+#1828
+The Snow Queen's Entry Hall~
+A veritable hall of mirrors, all twisty
+and confusing.  You're not sure what is real
+and what isn't.  The ceiling and the floor
+seem far away and you get dizzy from the
+reflections.
+
+The white mistress leaps and shouts "Intruder!"
+~
+18 D 1
+D0
+~
+~
+0 -1 1829
+D1
+~
+~
+0 -1 1829
+D2
+~
+door south~
+AF -1 1827
+D3
+~
+~
+0 -1 1829
+S
+#1829
+Another Mirrored Room~
+Walls of mirrors adorn this room.  You see many
+rooms leading into many directions, making
+you completely dizzy!  There is
+a big plaque on the wall.
+
+The white mistress leaps and shouts "Intruder!"
+~
+18 DK 1
+E
+plaque~
+The plaque reads, "Created by Mahatma 5/24/90
+with thanks to Alander, Hatchet, & Little.
+Thanks to Savaki & Drustan for starting me on
+this junk.  & the sprig of mints are for Andersen."
+~
+D0
+~
+~
+0 0 1830
+D1
+~
+~
+0 0 1828
+D2
+~
+~
+0 0 1828
+D3
+~
+~
+0 -1 1828
+S
+#1830
+Another Mirrored Room~
+Yet another mirrored room, same as before.
+
+The white mistress leaps and shouts "Intruder!"
+~
+18 DK 1
+D0
+~
+~
+0 -1 1819
+D1
+~
+~
+0 -1 1830
+D2
+~
+~
+0 -1 1829
+D3
+~
+~
+0 -1 1830
+S
+#1831
+The Snow-filled Land~
+You could get lost in the snow, you know.
+The snow is cold, white, and deep.
+It seems you have miles to go before you sleep.
+~
+18 0 2
+D0
+~
+~
+0 -1 1832
+D1
+~
+~
+0 -1 1806
+D2
+~
+~
+0 -1 1833
+D3
+~
+~
+0 -1 1806
+S
+#1832
+The Snow-filled Land~
+You could get lost in the snow, you know.
+The snow is cold, white, and deep.
+It seems you have miles to go before you sleep.
+~
+18 0 2
+D0
+~
+~
+0 -1 1806
+D1
+~
+~
+0 -1 1833
+D2
+~
+~
+0 -1 1831
+D3
+~
+~
+0 -1 1833
+S
+#1833
+The Snow-filled Land~
+You could get lost in the snow, you know.
+The snow is cold, white, and deep.
+It seems you have miles to go before you sleep,
+...miles to go before you sleep.
+You see an outpost to the south.
+~
+18 0 2
+D0
+~
+~
+0 -1 1831
+D1
+~
+~
+0 0 1832
+D2
+~
+~
+0 -1 1807
+D3
+~
+~
+0 0 1832
+S
+#0
+
+
+
+#SPECIALS
+M 1804 spec_cast_mage
+M 1805 spec_cast_mage
+M 1806 spec_cast_mage
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+M 0 1803 1 1805 1
+R 0 1806 4
+M 0 1802 4 1807 4
+M 0 1802 4 1807 4
+M 0 1801 10 1810 10
+M 0 1801 10 1811 10
+M 0 1801 10 1812 10
+M 0 1810 10 1812 10
+M 0 1801 10 1813 10
+M 0 1801 10 1814 10
+M 0 1807 5 1814 5
+G 0 1806 0
+M 0 1807 5 1818 5
+G 0 1806 0
+M 0 1806 1 1819 1
+E 0 1804 0 11
+E 0 1804 0 17
+M 0 1809 1 1820 1
+G 0 1805 0
+M 0 1807 5 1821 5
+G 0 1806 0
+M 0 1804 1 1824 1
+E 0 1802 0 17
+M 0 1805 1 1825 1
+E 0 1803 0 16
+M 0 1807 5 1827 5
+G 0 1806 0
+M 0 1807 5 1827 5
+M 0 1808 1 1828 1
+M 0 1808 1 1828 1
+E 0 1803 0 16
+R 0 1828 4
+R 0 1829 4
+M 0 1808 1 1830 1
+E 0 1802 0 17
+R 0 1830 4
+M 0 1803 1 1831 1
+R 0 1831 4
+M 0 1803 1 1832 1
+R 0 1832 4
+M 0 1803 1 1833 1
+R 0 1833 4
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

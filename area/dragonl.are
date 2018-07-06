@@ -1,0 +1,1290 @@
+#AREADATA
+Name DragonLance~
+Builders None~
+VNUMs 18000 18099
+Credits {50 60} Waylorn Dragonlance~
+Security 9
+Prototipo 0
+Low 0
+High 0
+Clan Dragonlance~
+Version 2
+End
+
+
+
+#MOBILES
+#18000
+Huma Exterminadragones~
+Huma Exterminadragones~
+Huma exterminadragones esta custodiando la puerta.
+~
+Esta frente a ti un poderoso caballero del bien.
+~
+'human'
+ABCDFG DFJNV 0 1000 0
+50 25 25d10+3750 50d16+1700 11d5+18 divine
+-20 -20 -20 -18
+FHIKSTU ABE HI 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'psicionist'
+#18001
+Crysania~
+La mas hermosa de las humanas~
+La hermosa curadora CRYSANIA, esta aqui.
+~
+La hermosa sacerdotisa Crysania, hija predilecta de Paladine, te obserba con sus hermosos ojos.
+~
+'human'
+ABQa 0 0 0 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKTU 0 0 0
+stand stand female 0
+0 0 medium 'carne'
+L 'dragonlance'
+C 'cleric'
+#18002
+Vinas solamnus~
+Vinas Solamnus~
+El caballero VINAS SOLAMNUS, esta aqui para darte un quest.
+~
+Este caballero tiene pinta de hacer todo: quest, train, gain e incluso sacarte la xuxa si lo hueveas mucho.
+~
+'human'
+ABT 0 0 1000 0
+60 90 50d10+9500 60d17+100 50d10+28 none
+-30 -30 -30 -27
+CDEFHIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'morrocotudo'
+L 'dragonlance'
+C 'warrior'
+#18004
+Reorx~
+el dios REORX~
+El dios Reorx, de la forja.
+~
+~
+'human'
+ABQ 0 0 0 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -18
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#18005
+viejo morrocotudo~
+Viejo morrocotudo~
+UN viejo con cara morrocotuda, parecido a Pedro carcuro, esta aqui.
+~
+El viejo tiene una cara amable
+~
+'human'
+ABTZ 0 0 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFHKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#18006
+Sestun~
+Sestum el sirviente~
+El sirviente SESTUM el enano esta aqui para ayudarte.
+~
+Es un enano bonachon.
+~
+'dwarf'
+ABT 0 0 1000 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFHIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'warrior'
+#18007
+HABBAKUK~
+dios HABBAKUK~
+El gran dios HABBAKUK esta aqui.
+~
+Parece un ave mas que un humanoide.
+~
+'human'
+ABJT 0 0 1000 0
+50 75 50d10+5000 50d16+100 10d6+19 none
+-20 -20 -20 -17
+CDEFHKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#18008
+dios kiri-jolith~
+dios KIRI-JOLITH~
+El dios espada de justicia, KIRI-JOLITH ,esta aqui.
+~
+Frente a ti el mas poderoso guerrero, solo superado por Waylorn.
+~
+'human'
+ABTb 0 0 1000 0
+55 82 50d10+7500 55d16+100 15d8+23 none
+-25 -25 -25 -22
+CDEFHIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'warrior'
+#18009
+draconiano dorado lengua~
+draconiano dorado~
+El maldito draconiano lengua de serpiente se rie de ti.
+~
+~
+'dragon'
+ABQ 0 0 -1000 0
+29 14 6d12+778 29d13+1000 5d4+7 claw
+-9 -9 -9 -8
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'escamas'
+L 'dragonlance'
+C 'cleric'
+#18010
+Espiritu Vinas~
+El espiritu de Vinas~
+El espiritu de Vinas Solamnus esta aqui buscando extranios
+~
+Ves que se disuelve en el aire apenas lo distingues....
+~
+'god'
+ACGQ BP 0 0 0
+55 27 50d10+7000 55d16+1900 15d6+21 divine
+-25 -25 -25 -25
+TU ABP GHIJQS C
+stand stand male 0
+AH 0 medium 'intangible'
+L 'dragonlance'
+C 'cleric'
+F off CDELNO
+#18011
+vendedor viejito~
+Un viejito amable~
+Un viejito con una cara amable ilumina el cuarto con su antorcha..
+~
+Ves que las arrugas cruzan por su cara, mientras acaricia a 'algo' que tu no 
+ves...
+~
+'human'
+ABT HVa 0 0 0
+50 75 50d10+5000 50d16+100 10d6+19 none
+-20 -20 -20 -17
+CDEFHIKLTU 0 0 0
+rest rest male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'warrior'
+#18012
+murcielago~
+Un Murcielago~
+Un vampiro esta aqui volado sobre tu cabeza
+~
+Es un pequenio murcielago, pero muy tierno y bonito..
+~
+'bat'
+ABI 0 0 0 0
+26 0 5d10+600 26d13+100 3d7+7 claw
+-7 -7 -7 -6
+CDKLTU 0 0 HJK
+stand stand either 0
+0 0 medium 'genetico'
+L 'dragonlance'
+C 'thief'
+F vul S
+#18013
+mago vendedor~
+El Mago Abriazam~
+Un mago esta aqui casi invisible a tu vista.
+~
+Esta cubierto completamente con una tunica roja. Ademas te ve y dice unas 
+palabras incomprensibles....
+~
+'human'
+ABQ U 0 0 0
+50 25 50d10+4500 50d16+1700 5d11+18 divine
+-20 -20 -20 -18
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'dragonlance'
+C 'cleric'
+#18014
+jaguar mascota~
+Un jaguar~
+Un Felino esta aqui agazapado listo para atacarte.
+~
+Sus grandes manchas verdeamarillentas se le ven hasta por debajo del lomo.
+Parece un excelente luchador..
+~
+'werewolf'
+ABI V 0 0 0
+30 0 6d12+853 30d13+100 4d6+8 none
+-9 -9 -9 -8
+CDKLTU 0 0 0
+stand stand either 0
+0 0 medium 'carne'
+L 'dragonlance'
+C 'thief'
+F aff Q
+F vul Y
+#18015
+lobo caza~
+El lobo de Caza~
+Un enorme lobo pardo esta aqui olfateando el aire.
+~
+Esta totalmente cubierto de sangre (pero no la de el) y parece ser un excelente ayudante..
+~
+'wolf'
+ABI V 0 0 0
+25 0 5d10+550 25d13+100 2d10+7 none
+-7 -7 -7 -5
+BCKNUV 0 0 0
+stand stand male 0
+0 0 medium 'carne'
+L 'dragonlance'
+C 'warrior'
+#18016
+ladron ~
+Un Ladron de otro clan~
+Un ladron de quizas que clan esta aqui con parte de tu armadura
+~
+ES ASQUEROSO!!!
+~
+'human'
+ABCFS HV 0 1000 0
+25 16 5d10+500 25d13+100 2d10+6 magic
+-6 -6 -6 -5
+BEFIJKNTUV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#18017
+jefe ladron~
+El jefe de los Ladrones~
+Un jefe del Clan CAIN esta aqui con las ultimas partes de tu armadura
+~
+Parece ser Psionico, y se cree bacan, pero realmente no salva a nadie y se q
+quebra por nada....
+~
+'human'
+ABFT BHNOTVZ 0 -1000 0
+26 39 5d10+650 26d13+100 3d7+7 none
+-7 -7 -7 -6
+CDEFIKLTU 0 CDFGHIJKP LOS
+stand stand female 0
+0 0 medium 'unknown'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#18000
+Lanza Dragon~
+lanza de Dragon~
+Estas frente a una lanza de dragon autentica~
+indef~
+weapon IKR ANP
+staff 8 10 'thrust' A
+50 100 100000 P
+#18001
+fuente~
+una bella fuente~
+Aqui esta la fuente mas hermosa del mundo.~
+oro~
+fountain I P
+100000000 1000000 'water' 0 0
+50 31072 10000 P
+#18003
+TOTEM PODER~
+el TOTEM del PODER~
+Estas frente al #B#FTOTEM DEL PODER#b#f del clan #B#FDRAGONLANCE#b#f.~
+gema~
+jewelry AG AP
+0 0 0 0 0
+40 5000 10000000 P
+#18004
+escudo huma~
+el escudo de Huma~
+El poderoso escudo de HUMA EXTERMINADRAGONES~
+metal~
+armor GIK AJ
+12 9 10 10 0
+40 30 70000 P
+A
+2 2
+N 'dragonlance'
+#18005
+armadura~
+armadura de placas~
+Armadura solamnica de campagnia~
+metal~
+armor GK AK
+12 10 11 10 0
+43 20 50000 P
+A
+13 30
+A
+5 2
+A
+19 3
+A
+18 5
+N 'dragonlance'
+#18006
+brazos ergoth~
+brazo de plata de Ergoth~
+Un hermoso par de brazos de plata estan aqui.~
+metal~
+armor GK AI
+10 8 10 8 0
+41 20 90000 P
+A
+1 2
+A
+18 2
+A
+19 5
+N 'dragonlance'
+#18007
+brazalete~
+brazalete de fidelidad~
+Este brazalete de bronce tiene tallado un halcon~
+metal~
+armor GK AM
+10 8 10 12 0
+40 10 69000 P
+A
+4 2
+N 'dragonlance'
+#18008
+vara~
+vara de golpear~
+Una extrania vara de poder.~
+indef~
+armor GK AO
+0 0 0 5 0
+30 10 90000 P
+A
+18 3
+A
+13 50
+A
+19 2
+N 'dragonlance'
+#18009
+anillo naturaleza~
+anillo de la naturaleza~
+Vez un simple anillo tallado que parece una rama.~
+metal~
+armor GK AB
+5 5 5 4 0
+35 3 77000 P
+A
+18 2
+A
+19 2
+N 'dragonlance'
+#18010
+botas~
+botas solamnicas~
+Un par de batos hechas en solamnia.~
+metal~
+armor GK AG
+8 8 8 5 0
+37 10 50000 P
+A
+14 50
+A
+13 30
+A
+18 3
+N 'dragonlance'
+#18011
+medallon~
+medallon de fe~
+El poderoso medallon de la fe~
+indef~
+armor IK AC
+5 5 5 2 0
+38 10 10000 P
+A
+18 3
+A
+19 3
+N 'dragonlance'
+#18012
+Casco~
+casco solamnico~
+Un hermoso casco solamnico~
+metal~
+armor GK AE
+10 10 10 7 0
+38 10 30000 P
+A
+3 2
+A
+12 50
+N 'dragonlance'
+#18013
+Polainas caballeria~
+polainas de caballeria~
+Un par de polainas de caballeria de solamnia.~
+metal~
+armor GK AF
+8 8 8 5 0
+35 10 15000 P
+A
+5 1
+N 'dragonlance'
+#18014
+redbank~
+rEDBANK~
+Ves un gran #B#FREDBANK#n.~
+metal~
+trash X P
+0 0 0 0 0
+0 10000 0 P
+#18015
+pocion mishakal curadora~
+pocion curadora~
+Pocion curadora de Mishakal.~
+indef~
+potion GK AO
+28 'heal' 'heal' '' ''
+30 400 1000 P
+N 'dragonlance'
+#18016
+pocion protectora~
+pocion de proteccion~
+Poderosa pocion de proteccion de Paladine.~
+metal~
+potion G AO
+35 'sanctuary' 'shield' '' ''
+35 1 50000 P
+N 'dragonlance'
+#18017
+pocion contra mal~
+pocion contra el mal~
+Pocion contra el mal de KIRI-JOLITH, espada justiciera.~
+metal~
+potion G AO
+38 'bless' 'protection evil' '' ''
+40 1 50000 P
+N 'dragonlance'
+#18018
+Estofado~
+estofado de Rata.~
+Un delicioso estofado de rata australiana.~
+ratones y demas~
+food B AO
+50 50 0 0 0
+30 30 300 P
+N 'dragonlance'
+#18019
+cantimplora~
+cantimplora~
+Cantimplora con una lanza dibujada~
+cuero chancho~
+drink A AO
+100 100 'water' 0 0
+30 5 300 P
+N 'dragonlance'
+#18020
+piedra afilar~
+piedra de afilar magica~
+Piedra magica para afilar~
+metal~
+pedernal G AQ
+0 0 0 0 0
+30 1 1000 P
+A
+1 2
+A
+3 1
+N 'dragonlance'
+#18021
+armadura dragonlance~
+armadura del clan dragonlance~
+Armadura del clan dragonlance.~
+metal~
+armor GI AD
+8 8 8 8 0
+30 30 10000 P
+A
+5 1
+#18022
+casco dragonlance~
+casco del clan DRAGONLANCE.~
+CASCO del clan DRAGON LANCE.~
+metal~
+armor GK AE
+5 5 5 3 0
+30 50 10000 P
+A
+4 1
+A
+3 1
+#18023
+botas dragonlance~
+botas del clan DRAGONLANCE~
+BOTAS del clan DRAGONLANCE~
+indef~
+armor GK AG
+5 5 5 5 0
+30 50 10000 P
+A
+14 50
+#18024
+guantes dragonlance~
+guantes del clan DRAGONLANCE~
+Guantes del clan DRAGONLANCE~
+metal~
+armor GK AH
+5 5 5 5 0
+30 30 10000 P
+A
+18 2
+A
+19 1
+#18025
+guantes rojos~
+unos Guantes Rojos~
+Unos hermosos guantes de seda rojo con la inscripcion Dl estan aqui botados~
+seda~
+armor BG AH
+2 3 4 8 0
+25 50 10000 P
+A
+18 1
+#18026
+Escudo Rojo~
+un Escudo Rojo~
+Un Escudo Rojo con un Dragon inscrito en el esta aqui apoyado en el suelo~
+hierro~
+armor AB AJ
+8 8 8 1 0
+25 300 10000 P
+A
+19 1
+A
+18 1
+#18027
+botas rojas~
+unas Botas rojas~
+Unas Hermosas botas color escarlata, con un simbolo Dl estan aqui botadas~
+seda~
+armor BG AG
+9 3 4 7 0
+25 100 10000 P
+A
+14 20
+A
+19 1
+#18028
+Casco Rojo~
+un Casco Rojo~
+Un Hermoso Casco Rojo con unas alas de Dragon esta aqui~
+hierro~
+armor ABG AE
+7 3 3 3 0
+25 100 10000 P
+A
+19 1
+A
+4 1
+#18029
+Armadura Roja~
+una Armadura Roja~
+Una Hermosa pieza de Armadura esta aqui botada~
+indef~
+armor ABG AD
+10 10 10 9 0
+25 300 15000 P
+A
+1 2
+A
+19 2
+#18030
+mazo solamnico~
+un Mazo Solamnico~
+Un Mazo Rojo con unas runas muy extranas esta tirado aqui.~
+hierro~
+weapon B AN
+mace 5 6 'pound' F
+25 100 10000 P
+N 'dragonlance'
+#18031
+daga dorada~
+una Daga dorada~
+Una daga reluciente esta aqui tirada en el piso~
+hierro~
+weapon B AN
+dagger 6 4 'stab' 0
+25 100 10000 P
+N 'dragonlance'
+#18032
+espada solamnica~
+una espada Solamnica~
+Una antiquisima espada esta botada aqui ~
+hierro~
+weapon ABC AN
+sword 5 7 'slash' 0
+25 150 10000 P
+A
+19 2
+N 'dragonlance'
+#18033
+hacha doble~
+un Hacha a Dos Manos~
+Un #BEnorme#b hacha esta totalmente ensangrentada aqui en el piso.~
+acero~
+weapon ABG AN
+axe 6 7 'chop' F
+25 200 10000 P
+N 'dragonlance'
+#18034
+vara roble~
+una varita de Roble~
+Una vara de alguna material parecido a la madera esta tirada aqui..~
+roble~
+wand BG AO
+20 4 4 'cancellation' 0
+30 50 10000 P
+N 'dragonlance'
+#18035
+vara luz~
+una varita de luz~
+Una hermosa varita resplandece aqui en el piso..~
+indef~
+wand ABG AO
+10 2 2 'demonfire' 0
+30 50 1000 P
+N 'dragonlance'
+#18036
+hierba athela~
+una hierba Athela~
+Una hierba extrania crece aqui en el suelo.~
+pasto~
+pill GI A
+35 'bless' 'armor' '' ''
+35 50 5000 P
+N 'dragonlance'
+#18037
+esfera roja dragon~
+una Esfera Roja del Dragon~
+Una esfera de cristal rojizo esta aqui flotando en el aire~
+indef~
+staff ABGI AO
+25 4 4 'shield' 0
+28 200 5000 P
+A
+4 2
+N 'dragonlance'
+#18038
+vara oscura~
+vara oscura~
+Una pieza de algun material oscuro esta tirada aqui.~
+indef~
+wand BI AO
+25 4 4 'ray of truth' 0
+30 50 1000 P
+N 'dragonlance'
+#18039
+esfera verde dragon~
+una Esfera Verde Dragon~
+Una esfera verde de dragon esta aqui flotando en el aire.~
+vidrio~
+staff ABG AO
+30 4 4 'sanctuary' 0
+36 200 10000 P
+N 'dragonlance'
+#18040
+scroll antiguo~
+un scroll antiguo~
+Un antiguo scroll esta aqui botado~
+papel~
+scroll G AO
+20 'stone skin' '' '' ''
+30 10 10000 P
+N 'dragonlance'
+#18041
+espada exterminawyverns~
+espada exterminawyverns~
+Ves una espada cubierta con sangre de dragon.~
+metal~
+weapon 0 AN
+sword 5 11 'slice' B
+45 450 1000000 P
+A
+19 2
+A
+18 1
+N 'dragonlance'
+#18042
+donation pit altar~
+un altar~
+El altar del clan DRAGONLANCE esta aqui.~
+indef~
+container 0 0
+10000 0 0 10000 100
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#18000
+Entrada del clan~
+Estas frente a la entrada del clan de DRAGONLANCE.  
+~
+0 N 0
+D0
+~
+~
+0 0 18011
+D2
+~
+~
+0 0 3301
+S
+#18001
+En el interior del clan~
+Estas en el interior de la sede, con un bello jardin con flores espinudas
+y todo tipo de pajaros hueviando por ahi. Vez al norte el temple de tu dios 
+paladin y al oeste la Armeria.
+~
+0 0 0
+D0
+~
+~
+0 0 18002
+D1
+~
+~
+0 0 18004
+D2
+~
+~
+0 0 18013
+D3
+~
+~
+0 0 18003
+D5
+~
+~
+0 0 18010
+S
+#18002
+Altar a paladine~
+Una hermosa habitacion con estatuas del dios paladine, su esposa Mishakal
+y todos sus hijos.  
+~
+0 KZ 0
+D2
+~
+~
+0 0 18001
+M 200 H 200
+S
+#18003
+Entrada del mercado~
+Estas en la entrada de la plaza del mercado de tu bien amado clan. Ves a tu
+alrededor todo tipo de productos y hacia arriba una gran escalera.
+~
+0 0 0
+D0
+~
+~
+0 0 18005
+D1
+~
+~
+0 0 18001
+D2
+~
+~
+0 0 18006
+D3
+~
+~
+0 0 18007
+D4
+~
+~
+0 0 18015
+D5
+~
+~
+AB 0 18019
+S
+#18004
+Armaduria~
+Acabas de ingresar a la armaduria del clan.  Estas armaduras son
+carisimas dada su mitologia y poder recuerda lo bueno siempre costara.  
+Hay una pequenia nota pegada a la pared...deberias leerla ('Look nota').
+~
+0 0 0
+E
+nota~
+La nota dice:
+Viles ladrones han robado las partes de la Armadura Roja. Tu deber, si es que
+no te acobardas, es ir a buscarlas y #F#BDESTRUIR#f#b a los malditos ladrones
+que lo hicieron....
+- dios Reorx -    (Solo para niveles 25-27).
+(Tienes que ir a las mazmorras, debajo del REDBANK).
+~
+D3
+~
+~
+0 0 18001
+S
+#18005
+Pociones #BM#borrocotudas~
+Estas en una tienda morrocotuda, con posiones morrocotudamente caras,
+pero increiblemente poderosas , aqui llega un viejito a atenderte.  
+~
+0 0 0
+D2
+~
+~
+0 0 18003
+S
+#18006
+Tienda de Provisiones~
+Estas en el cuarto de provisiones de tu querido clan lanza de dragon.
+~
+0 0 0
+D0
+~
+~
+0 0 18003
+S
+#18007
+Sala De Guerra~
+Estas en la sala de guerra del clan aqui, haras tus train y tus gain. 
+Asesorado por HABBAKUK (rey pescador) y KIRI-JOLITH (espada de justicia). 
+Tambien puedes comprar alguna de las armas que estos #B#RPODEROSOS#b#r
+dioses han forjado.  
+~
+0 0 0
+D1
+~
+~
+0 0 18003
+D3
+~
+~
+0 0 18008
+S
+#18008
+Tu gran PRUEBA~
+En este cuarto hay un enemigo del clan. El desgraciado robo tu armadura debes destruirlo, para recuperarla.
+~
+0 0 0
+D1
+~
+~
+0 0 18007
+S
+#18010
+MORGUE DE LOS VALIENTES~
+Estas en un frio panteon, junto a ti esta la mas tetrica de las tumbas,
+tu tumba!.  Sera mejor que tomes tus cosas y marches en pos de un combate,
+para que honres a PALADINE tu dios.  
+~
+0 0 0
+D4
+~
+~
+0 0 18001
+S
+#18011
+En el Cruce~
+Estas en un cruce de pasillos muy gruesos.  Pilares antiguos con runas
+elficas y humanas estan tallados aqui.  
+~
+0 N 0
+D0
+~
+~
+0 0 18012
+D1
+~
+~
+0 0 18013
+D2
+~
+~
+0 0 18000
+D3
+~
+~
+0 0 18014
+S
+#18012
+En el pasillo~
+Estas en el pasillo del hermoso edificio que rodea el clan Dragonlance.
+Un enorme piso embaldosado de marmol negro cubre todo el lugar.
+~
+0 N 0
+D2
+~
+~
+0 0 18011
+S
+#18013
+En el pasillo~
+Estas en el enorme pasillo que llena todo el edificio. Te sientes mas seguro
+que en cualquier otra parte.
+Una luz se vislumbra al NORTE
+~
+0 N 0
+D0
+~
+~
+0 0 18001
+D3
+~
+~
+0 0 18011
+S
+#18014
+En los balcones~
+Estas en los balcones que vislumbran toda la ciudad de Midgaard. 
+Obviamente son de Marmol Negro.  
+~
+0 N 0
+D1
+~
+~
+0 0 18011
+S
+#18015
+En la Gran escalera~
+Vas escalando una gran escalera. Ves que a tu alrededor se levantan enormes
+cuadros de tus dioses guerreros preferidos.
+Tambien ves una inmensa luz hacia arriba...te preguntas que sera..
+~
+0 0 0
+D0
+~
+~
+AB 0 18018
+D4
+~
+~
+0 0 18016
+D5
+~
+~
+0 0 18003
+S
+#18016
+En la Sala de Jaulas~
+Estas en una pequenia sala iluminada solo por viejas antorchas.  A tu
+alrededor sientes multiples grunidos y gritos de diversas criaturas justo
+cuando entraste .  
+~
+0 M 0
+D5
+~
+~
+0 0 18015
+S
+#18017
+Jaula~
+Este es el almacen de todas las criaturas de la Mascoteria....(Chuspalo).
+~
+0 CN 0
+S
+#18018
+En la tienda del Mago~
+Estas en una pequenia cabania iluminada solo por una debil luz que emana una
+pequenia esfera de Cristal que se encuentra flotando en el aire cerca tuyo.
+Sin embargo, a una palabra del mago, la esfera se ilumina mas y mas y el mago
+sonrie  con una sonrisa ironica....
+~
+0 0 0
+D2
+~
+puerta~
+AB 0 18015
+S
+#18019
+En las mazmorras~
+Vas bajando hacia las horribles mazmorras. Desde que supiste que los cochinos
+miembros de algun clan robaron las partes de tu armadura Roja.
+~
+0 L 0
+D4
+~
+~
+AB 0 18003
+D5
+~
+~
+0 0 18020
+S
+#18020
+En las Mazmorras~
+Te encuentras al pie de la inmensa escalera que conduce a las mazmorras. Este
+horripilante lugar te recuerda casi la Gruta de Abraxas, pero mas fea. Gritos
+se oyen por doquier mientras te preguntas donde estaran los cochinos ladrones
+de tu armadura.
+~
+0 L 0
+D0
+~
+~
+AB 0 18021
+D1
+~
+~
+AB 0 18023
+D2
+~
+~
+AB 0 18024
+D3
+~
+~
+AB 0 18022
+D4
+~
+~
+0 0 18019
+S
+#18021
+En la Jaula~
+Estas en una jaula celosamente cerrada por algun encanto magico. Un cochino
+miembro de otro clan esta aqui.
+~
+0 0 0
+D2
+~
+~
+AB 0 18020
+S
+#18022
+En otra Jaula~
+Estas en otra jaula de ladrones de clan. DESTRUYELOS!!!!!!
+~
+0 0 0
+D1
+~
+~
+AB 0 18020
+S
+#18023
+En la mazmorra principal~
+Estas en una mazmorra con solo la puerta.Ni siquiera tiene ventana para evitar
+cualquier intento de ayuda desesperada de alguno de sus amigos.
+~
+0 0 0
+D3
+~
+~
+AB 0 18020
+S
+#18024
+La mazmorra mas poderosa~
+Estas en la mazmorra mas poderosa del mud. Ni siquiera los implementors se 
+atreven a entrar aqui, pues algo horripilante se fusiona con el aire.
+ 
+~
+0 0 0
+D0
+~
+~
+AB 0 18020
+S
+#0
+
+
+
+#SPECIALS
+M 18000 spec_hunter
+M 18001 spec_cast_adept
+M 18002 spec_questmaster
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 18003 5 1
+D 0 18015 0 1
+D 0 18018 2 1
+D 0 18019 4 1
+D 0 18020 0 1
+D 0 18020 1 1
+D 0 18020 2 1
+D 0 18020 3 1
+D 0 18021 2 1
+D 0 18022 1 1
+D 0 18023 3 1
+D 0 18024 0 1
+M 0 18000 9 18000 2
+E 0 18000 0 16
+M 0 18000 9 18000 2
+E 0 18000 0 16
+O 0 18001 0 18001
+M 0 18010 1 18001 1
+O 0 18042 0 18002
+M 0 18001 1 18002 1
+M 0 18002 1 18002 1
+O 0 18003 0 18002
+O 0 18014 0 18003
+M 0 18004 1 18004 1
+G 0 18004 0
+G 0 18005 0
+G 0 18006 0
+G 0 18007 0
+G 0 18008 0
+G 0 18009 0
+G 0 18010 0
+G 0 18011 0
+G 0 18012 0
+G 0 18013 0
+M 0 18005 1 18005 1
+G 0 18015 0
+G 0 18016 0
+G 0 18017 0
+M 0 18006 1 18006 1
+G 0 18020 0
+G 0 18019 0
+G 0 18018 0
+M 0 18007 1 18007 1
+G 0 18030 0
+G 0 18031 0
+G 0 18032 0
+G 0 18041 0
+G 0 18033 0
+M 0 18008 1 18007 1
+M 0 18009 1 18008 1
+G 0 18021 0
+G 0 18022 0
+G 0 18023 0
+G 0 18024 0
+M 0 18000 9 18011 1
+E 0 18000 0 16
+M 0 18000 9 18012 1
+M 0 18000 9 18012 2
+M 0 18000 3 18012 1
+M 0 18000 9 18013 3
+E 0 18000 0 16
+M 0 18000 9 18014 2
+E 0 18000 0 16
+M 0 18011 1 18016 1
+M 0 18012 1 18017 1
+M 0 18014 1 18017 1
+M 0 18015 1 18017 1
+M 0 18013 1 18018 1
+G 0 18039 0
+G 0 18038 0
+G 0 18037 0
+G 0 18036 0
+G 0 18035 0
+G 0 18034 0
+G 0 18040 0
+M 0 18016 4 18021 1
+E 0 18026 0 9
+M 0 18016 4 18022 1
+E 0 18025 0 9
+M 0 18016 4 18023 1
+G 0 18027 0
+M 0 18017 1 18024 1
+E 0 18028 0 6
+E 0 18029 0 5
+S
+
+
+
+#SHOPS
+18004 0 0 0 0 0 100 100 100 100 0 23
+18005 0 0 0 0 0 100 100 100 100 0 23
+18006 0 0 0 0 0 100 100 100 100 0 23
+18007 0 0 0 0 0 100 100 100 100 0 23
+18011 0 0 0 0 0 100 100 100 100 0 23
+18013 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+18008 5 9 15 0 0 0 23
+0
+
+
+
+#HELPS
+-1 untangle~
+Sintaxis: untangle <criatura>
+ 
+Esta habilidad le permite a los guerreros y ladrones desenredarse de algunas
+redes o telaranias magicas que les puedan afectar.
+Tambien puede ser aplicado en otras personas.
+~
+
+0 estupidez~
+Sintaxis: cast 'estupidez' <victima>
+ 
+Este conjuro de hechicero, hace que, al tocar a su victima, le reste puntos de
+inteligencia por un cierto periodo de tiempo.
+El conjuro se basa en el nivel del hechicero para ver cuan "tonta" deja a su
+victima.
+~
+
+0 sobrecargar~
+Sintaxis: sobrecargar <arma>
+ 
+Esta es la habilidad maxima de un guerrero, con la cual invoca la ayuda divina
+de su dios de la Guerra, y al mismo tiempo concentra su fuerza vital, para
+dejar el arma extremadamente PODEROSA por un cierto periodo de tiempo.
+Al sobrecargar su arma, un guerrero obtiene, si es que resulta, mas vitalidad,
+mas fuerza, mas constitucion, mas destreza, e incluso le mejora, al arma,
+la posibilidad de impacto y el modificador de danio (Hitroll y Damroll).
+El unico problema es que, al desgastar tanto su mente, su concentracion mental
+queda enormemente disminuida.
+~
+
+0 acid arrow~
+Sintaxis: cast 'acid arrow' <victima>
+ 
+Con este conjuro de hechicero, el invocador lanza una flecha acida hacia su
+victima, la cual le inflinge danio, y sigue provocando el sufrimiento, hasta
+que el conjuro ha terminado o hasta que el invocador es muerto.
+Su danio no es mucho, pero si trabaja desgastando al oponente.
+~
+
+-1 $~
+
+#$

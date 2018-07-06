@@ -1,0 +1,2656 @@
+#AREADATA
+Name Jurassic Park~
+Builders None~
+VNUMs 19000 19149
+Credits {25 40} Gandalf Jurassic Park~
+Security 9
+Prototipo 0
+Low 25
+High 40
+Version 2
+End
+
+
+
+#MOBILES
+#19000
+velociraptor Raptor~
+Un Raptor~
+Un Reptil te mira casi adivinandote los pensamientos.....
+~
+Es casi de tu porte, pero en sus manos posee fuertes garras que no dudara en usar contra ti.
+En su cabeza se ven las multiples cicatrices de dientes de sus companieros y en su mirada se ve como si casi entendiera tu actitud de panico hacia el......deberias escapar...
+~
+'lizard'
+ACFGQ FHJOPVc 0 -1000 0
+30 30 6d12+853 30d13+3100 3d12+12 claw
+-9 -9 -9 -8
+FHIKMQRTU AY IOQS CDH
+stand stand female 0
+0 BUX medium 'genetico'
+C 'cleric'
+#19001
+tiranosaurio rex saurio dinosaurio~
+Un Tiranosaurio Rex~
+Un Inmenso Reptil se acerca a ti para engullirte.....CORRE POR TU VIDA!!!!!!
+~
+Es realmente enorme y ves que al arrastrar su cola deja enormes marcas en el piso......
+~
+'lizard'
+AFR HVa 0 -1000 0
+45 45 25d10+2500 45d15+4600 7d8+21 claw
+-15 -15 -15 -15
+AFHKMRTU A CEIKNP H
+stand stand male 0
+0 BU huge 'carne'
+C 'mage'
+F vul I
+M 'random' 19001 50~
+#19002
+estegosaurio saurio reptil~
+Un Estegosaurio~
+Un Dinosaurio con una larga aleta esta caminando lentamente por aqui.
+~
+Parece ser muy amigable, aunque sin duda se defendera si lo atacas...
+~
+'human'
+ABCDGH HNUVa 0 100 0
+25 12 5d10+500 75d14+100 4d4+6 none
+-6 -6 -6 -3
+FHIKMU A EIKPST DGHO
+stand stand female 0
+0 LQX medium 'carne'
+C 'psicionist'
+F for AMV
+F par BEFGHIJK
+R
+#19003
+diplodoco saurio dinosaurio~
+Un Diplodosaurio~
+Un dinosaurio mas o menos de tu porte, pero con dos aletas cerca de las cabeza, esta aqui mirandote con cara de curiosidad..
+~
+Te mira casi tratando de comprender por que estas en su territorio....Ves que desde los lados de su cabeza salen largas como aletas que inspiran temor........
+Ademas, ves que emite unos sonidos como "grrrrgggggr".
+~
+'human'
+ABCGT FJVZc 0 0 0
+23 14 5d10+500 23d13+100 3d6+6 claw
+-6 -6 -6 -2
+CDEFHIKLTU B CEKLMNQZ DGHIO
+stand stand male 0
+X QU small 'carne'
+C 'warrior'
+F for AMV
+F par EGHIJK
+R
+#19004
+braquiosaurio saurio~
+Un Braquiosaurio~
+Un #BENORME#b braquiosaurio esta aqui saliendo del lago lleno de musgo..
+~
+Ves un enorme Dinosaurio que emerge de las profundidades del lago...parece 
+que tuviera el cuerpo escamoso y ademas su cuello es extremadamente largo...
+~
+'lizard'
+ABT HUVa 0 1000 0
+30 60 6d12+928 30d13+100 6d6+42 bite
+-10 -10 -10 -9
+CDEFIKLQTU A BCIJOPST DFHJ
+stand stand either 0
+0 0 medium 'adn'
+C 'warrior'
+F res L
+F vul I
+#19005
+turista gringo~
+un turista~
+Un turista gringo esta aqui sacandole fotos a todo lo que se mueve...
+~
+Esta vestido como los tipicos gringos extranjeros, su "short", camisa con
+flores (extraniamente parecida a la de 'adrian y los dados negros') y su
+infaltable camara fotografica 'Cannon'.
+~
+'human'
+ACT DV 0 0 0
+19 38 3d9+333 19d12+100 3d7+26 punch
+-5 -5 -5 -3
+CDEFIKLTU PT CDEJKS FGHILMQ
+stand stand none 0
+0 0 medium 'goma'
+C 'warrior'
+M 'grall' 19005 100~
+M 'delay' 19006 100~
+#19006
+chico vendedor~
+El Vendedor~
+Un Chico esta aqui revisando las cajas de carne y guardandose algo..
+~
+~
+'human'
+ABT 0 0 0 0
+30 60 6d12+928 30d13+100 6d6+42 none
+-10 -10 -10 -9
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#19007
+ayudante goma~
+Un ayudante de cocina.~
+Un joven lleno de espinillas y botando todo a su paso esta aqui mirandote
+~
+Ves que tiene la cara cubierta de espinillas y la voz le sale entre algunos
+divertidos cambios de tono...Ademas ves que todos los cocineros que se ven
+mas viejos se alejan de el.....Te imaginas por que...
+~
+'human'
+ACT HJUVac 0 0 0
+15 30 3d9+233 15d11+100 3d6+19 charge
+-3 -3 -3 -1
+CEFIKLQTU A CJLMPQSY DFGHIK
+stand stand male 0
+0 0 medium 'carne'
+C 'warrior'
+M 'random' 19007 4~
+#19008
+cocinero~
+Un Cocinero~
+Un Cocinero esta aqui gritandole a alguno de sus ayudantes...
+~
+Es un hombre gordo...MUY GORDO!!!!
+Ves que le grita a casi toda la gente, excepto a ti, por que no te ha visto 
+todavia....
+~
+'human'
+ABR FHJVa 0 0 0
+30 30 6d12+703 30d13+3100 7d4+10 none
+-9 -9 -9 -8
+FKTU A BEHILQ DFGK
+stand stand none 0
+0 0 medium 'carne'
+C 'mage'
+M 'speech' 19008 descontar~
+#19009
+triceratops saurio~
+Una triceratops~
+Una triceratops esta echada aqui gimiendo de dolor....
+~
+Ves que finalmente la loma en la que estabas era esta triceratops que gime
+como si le hubieran dado yumbina....
+~
+'lizard'
+AT HMNcd 0 1000 0
+30 60 6d12+928 30d13+100 6d6+42 claw
+-10 -10 -10 -9
+CDEFIKLQTU A EP CDHQ
+rest rest female 0
+0 0 medium 'genetico'
+C 'warrior'
+F res L
+#19010
+parasaurio saurio reptil~
+Un Parasaurio~
+Un Dinosaurio con pico de pato esta aqui bebiendo agua tranquilamente
+~
+Parece ser de una raza amigable, ya que cuando entraste te vio y ni siquiera
+te pesco...deberias dejarlo en paz..
+~
+'lizard'
+ABHQ HPUVc 0 1000 0
+30 30 6d12+853 30d13+3100 3d12+12 claw
+-9 -9 -9 -8
+FIKMTU A CJKPT DH
+stand stand male 0
+0 0 medium 'genetico'
+C 'cleric'
+#19011
+triceratops jefe ~
+El Jefe-Triceratops~
+El Jefe de los Triceratops conduce su manada aqui.
+~
+Sus largos cuernos y su piel casi impenetrable hacen de este dinosaurio un 
+adversario casi invencible.
+~
+'lizard'
+ABFT FVa 0 -1000 0
+35 100 10d10+1400 35d14+100 9d5+51 none
+-12 -12 -12 -11
+CDEFHIKLTU AP CGI DFHKL
+stand stand male 0
+0 0 medium 'genetico'
+C 'warrior'
+F res L
+F vul I
+#19012
+cefalosaurio saurio reptil~
+Un Cefalosaurio~
+Un Dinosaurio con la cabeza aplanada y huesos afilados en ella esta aqui
+~
+Parece ser un ladron, ya que en sus gestos se denota que siempre trata  de 
+estar detras tuyo para robarte algo o hacerte backstab...
+~
+'lizard'
+ABGS PQVZ 0 -1000 0
+30 45 6d12+778 30d13+100 3d12+12 claw
+-9 -9 -9 -8
+BEFIJKMNUV M BFIP DHK
+stand stand male 0
+0 0 medium 'genetico'
+C 'thief'
+F vul I
+#19013
+piepequenio saurio Brontosaurio~
+Pie pequenio~
+Un Joven Brontosaurio esta aqui mirandote con cara de extranio...
+~
+Se nota que ha peleado grandes batallas, a pesar de estar en este tiempo de 
+paz.. No deberias molestarlo....
+~
+'lizard'
+ABCQ DFHNZcd 0 1000 0
+45 45 25d10+3000 45d15+4600 15d4+22 bite
+-15 -15 -15 -15
+FHIKMTU E BDHKNPS FKQ
+stand stand male 0
+0 0 medium 'genetico'
+C 'cleric'
+F res L
+#19014
+brontosaurio saurio Elder~
+Un Brontosaurio~
+Aqui hay un #BEnorme#b Brontosaurio
+~
+Es realmente enorme y en sus escamas ves lo antiguo que es...no deberias 
+meterte con el ya que Piepequenio podria atacarte.
+~
+'lizard'
+ABRS HKNcd 0 1000 0
+40 35 15d10+1700 200d16+100 8d4+20 claw
+-13 -13 -13 -11
+BDFHIKMNQTU B EFIKMOPQ DGH
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+R
+#19015
+dinosaurio saurio pequenio~
+Un pequenio dinosaurio~
+Un pequenio dinosaurio corretea feliz por aqui.
+~
+Es como un ninito que corre despreocupado por el valle como si fuera su 
+paraiso personal...
+~
+'lizard'
+ACT FHVZ 0 500 0
+15 30 3d9+233 15d11+100 3d6+19 bite
+-3 -3 -3 -1
+CEFHIKLTU 0 BHIJKOPS DQ
+stand stand male 1000
+0 0 medium 'unknown'
+C 'warrior'
+#19016
+sara triceratops saurio~
+Sara, la Triceratops~
+Sara esta aqui chocando sus osamentas con los de su raza ..
+~
+Sus grandes cuernos parecen ser el preambulo de lo que sera tu destruccion ..
+~
+'lizard'
+ABFT HVac 0 -1000 0
+40 140 25d10+2000 40d15+100 9d6+59 claw
+-14 -14 -14 -13
+CDEFHIKLTU E ABCIJMOPS DFGHK
+stand stand female 1000
+0 0 medium 'unknown'
+C 'warrior'
+F vul I
+#19017
+triceratops padre~
+El padre de Sarah~
+El Padre de Sarah esta aqui enseniandole a pelear....
+~
+Parece ser el segundo a cargo de la manda de Triceratops. Sus grandes cuernos
+caen como gruesos troncos de Alerces anosos sobre su frente...
+~
+'lizard'
+ABQ FHVa 0 1000 0
+41 41 25d10+2000 41d15+4200 25d2+19 bite
+-14 -14 -14 -13
+FHIKMTU 0 EIJOPST DFGHK
+stand stand male 1000
+0 0 medium 'genetico'
+C 'cleric'
+F vul I
+#19018
+pequenios patosaurios~
+un pequenio patosaurio~
+Un pequenio patosaurio busca su laguna para mojar las patitas ..
+~
+Es tan tierno....que te dan ganas inmediatamente de matarlo....
+~
+'lizard'
+AT HVa 0 0 0
+20 40 4d10+360 20d12+100 3d8+27 bite
+-5 -5 -5 -4
+CDEFIKLTU L AEIJOPQS BDGHK
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F vul I
+#19019
+ripper mutante~
+Un ripper~
+Un ripper esta aqui, semi escondido entre las sombras
+~
+Es como la cara de un canguro, pero las garras de un alien, ademas ves que
+esta dotado de inmensas orejas...como de conejo ...
+~
+'giant'
+ABFT BHJPVZa D 1000 0
+30 60 6d12+928 30d13+100 6d6+42 claw
+-10 -10 -10 -9
+CDEFHIKLTU A BKMOPQ DFG
+stand stand male 0
+0 0 medium 'guerrero'
+C 'warrior'
+#19020
+ancestro dinosaurio~
+Un dinosaurio no identificado~
+Una extrania mezcla de dinosaurio y pez esta aqui culebreando..
+~
+Cuando lo miras, sientes lo que las culebras deben pensar cuanto ven a alguna
+otra criatura..
+~
+'lizard'
+AFS HKPZd 0 0 10
+12 18 2d8+134 12d11+100 1d10+3 none
+1 1 1 2
+BEFJMNU 0 K DGH
+stand stand male 1000
+0 0 medium 'gentico'
+C 'thief'
+#19021
+vendedor lava monstruo~
+Un monstruo de lava~
+Un #BEnorme#b monstruo de lava esta aqui listo para engullirte.
+~
+~
+'human'
+AT DFHJPV 0 0 0
+40 140 25d10+2000 40d15+100 9d6+59 none
+-14 -14 -14 -13
+CDEFKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#19022
+pterodactilo saurio madre~
+Una Madre pterodactilo~
+Un Gran Pterodactilo extiende sus alas en un arbol.
+~
+Su Gran Pico parece listo para atacarte y destrozarte sin piedad si tocas  a
+alguno de sus hijos...
+~
+'lizard'
+ABQ H 0 -1000 0
+40 40 15d10+1850 40d15+4100 24d2+18 bite
+-13 -13 -13 -13
+AFIKMRU A DEK FJ
+stand stand female 0
+0 PU medium 'genetico'
+C 'cleric'
+F vul I
+F par EV
+#19023
+guardia laboratorio~
+un Guardia~
+Un guardia esta aqui impidiendote la entrada al Laboratorio.
+~
+~
+'human'
+ABQRT HMd D -500 0
+28 14 6d12+703 84d14+100 2d10+8 slash
+-8 -8 -8 -6
+DKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+R
+#19024
+pequenio T-rex saurio~
+Un pequenio T-rex~
+Un pequenio T-rex anda por aqui husmeando todo.
+~
+~
+'lizard'
+ABT ad 0 0 0
+25 50 5d10+600 25d13+100 3d10+35 bite
+-8 -8 -8 -6
+CDEFIKLTU 0 0 HKP
+stand stand male 0
+0 0 medium 'genetico'
+C 'warrior'
+#19025
+ingeniero genetico~
+Un Ingeniero Genetico~
+Una persona vestida entera de blanco vigila el lugar.
+~
+Ves que esta persona lleva unas grandes gafas y corrige a todas las personas en
+su trabajo....con cara de NERD.
+~
+'human'
+ABQ HQXZ D -500 0
+32 15 6d12+853 120d15+100 2d10+10 punch
+-9 -9 -9 -6
+DFIU 0 BDP HL
+stand stand male 1000
+0 0 medium 'carne'
+C 'cleric'
+R
+#19026
+ingeniero parque computadoras~
+Ingeniero en Computadoras~
+Ves un hombre con gruesos lentes que revisa el sistema unix .
+~
+Esta entero vestido con un delantal blanco, casi parece un medico.
+~
+'human'
+ABST HVZ 0 0 1
+25 12 5d10+550 25d14+100 2d10+7 slice
+-6 -6 -6 -3
+BFK IM DFG HKO
+stand stand none 100
+0 0 medium 'unknown'
+C 'thief'
+R
+#19088
+pequenio pterodactilo saurio~
+Un pequenio Pterodactilo~
+Un pequenio pterodactilo juguetea alegremente tratando de volar..
+~
+~
+'lizard'
+ABT H 0 -500 0
+25 50 5d10+600 25d13+100 3d10+35 bite
+-8 -8 -8 -6
+CDEFIKLTU 0 BFH DKLO
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+F vul I
+#19089
+humano john creador~
+John Hammond~
+El Creador del parque, John Hammond esta aqui cenando.
+~
+Ves a un hombre cincuenton, de larga barba blanca y cabellos del mismo color.
+En su mano tiene un maletin donde lleva la contabilidad del Parque.
+~
+'human'
+ABJRae H B -1000 0
+45 58 1d1+99 420d20+100 20d10+100 none
+-30 -30 -30 -24
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+R
+#0
+
+
+
+#OBJECTS
+#19000
+Garra~
+una Garra de Raptor~
+Una especia de garra esta aqui botada en el suelo..~
+hueso~
+weapon C AN
+exotic 5 7 'claw' D
+29 10 10000 P
+A
+18 5
+#19002
+huevo roto water~
+un cascaron~
+Un Inmenso cascaron de huevo esta semi-enterrado en el piso..esta lleno de agua.~
+ectoplasma~
+fountain C 0
+10000 10000 'water' 0 0
+50 0 0 P
+#19003
+pocion meditacion~
+una pocion cristalina~
+Un frasquito esta aqui tirado en el piso..~
+vidrio~
+potion 0 A
+35 'concentracion' 'enhance health' 'poison' 'curse'
+35 50 10000 P
+#19004
+camara fotografica~
+una Camara Cannon~
+Una Hermosa Camara Fotografica esta aqui con el obturador cerrado.~
+plastico~
+weapon AG AN
+exotic 5 4 'thrust' G
+17 100 1000000 P
+#19005
+carne congelada~
+un trozo de carne~
+Un gran trozo de algun animal esta tirado aqui..~
+carne~
+food B A
+30 30 0 0 0
+1 4 500 P
+#19006
+ramitas ~
+ramitas Barcel (M.R)~
+Un paquete de ramitas esta aqui tirado en el piso...~
+papa~
+food A A
+20 20 0 0 0
+1 1 120 P
+#19007
+delantal uniforme~
+un uniforme de ayudante~
+Un uniforme de cocinero con las iniciales #BJ.P.#b esta aqui botado.~
+tela~
+armor BG AD
+4 3 4 20 0
+15 10 1000 P
+#19008
+toga uniforme~
+un Delantal de Cocinero~
+Ves un delantal muy largo tirado aqui..~
+tela~
+armor AB AD
+10 6 6 12 0
+29 100 10000 P
+A
+19 2
+A
+18 3
+#19009
+Pata de Triceratops~
+pata de Triceratops~
+Una pierna de triceratops descompuesta esta aqui.~
+carne~
+staff BG AO
+30 4 4 'earthquake' 0
+30 100 1000 P
+#19010
+lago agua water~
+el Lago~
+En el agua cristalina de aqui puedes saciar tu sed~
+agua~
+fountain A P
+100000 100000 'water' 0 0
+1 31072 0 P
+#19011
+cuerno triceratops~
+un Cuerno de Triceratops~
+Un Cuerno de algun animal extranio esta tirado aqui en el piso~
+hueso~
+wand ABCG AO
+30 2 2 'frenzy' 0
+30 30 10000 P
+#19012
+craneo oseo casco~
+un Craneo de Humano~
+Un Craneo semi-mordido de alguna criatura esta aqui..~
+hueso~
+armor BCM AE
+9 2 9 5 0
+30 100 1000 P
+#19013
+craneo rodilleras oseo~
+un Femur Elfo~
+Un Femur de hueso de alguna criatura esta aqui descaradamente botado~
+hueso~
+armor BC AF
+9 5 7 7 0
+30 100 1000 P
+A
+19 2
+A
+1 1
+#19014
+Medallon antiguo~
+un medallon de Oro~
+Un #F#BBrillante#f#b medallon de oro esta botado aqui~
+oro~
+jewelry ABG AC
+0 0 0 0 0
+30 50 100000 P
+A
+4 -2
+A
+12 1
+A
+13 20
+A
+20 -7
+#19015
+enano oseo craneo~
+huesos de Enano~
+Un par de huesos estan aqui tirados en el piso~
+hueso~
+armor BC AI
+7 7 10 4 0
+30 100 1000 P
+A
+13 5
+A
+5 2
+#19016
+pocion ancestral~
+una pocion Ancestral~
+Una pocion con extranios simbolos elficos esta aqui flotando en el aire~
+vidrio~
+potion ABCGI AO
+40 'alucinar' 'curse' '' ''
+40 50 100000 P
+#19017
+cuerno sara~
+el cuerno de SaraH~
+Un Enorme cuerno esta botado aqui en el piso..~
+hueso~
+armor AG AE
+8 11 10 7 0
+39 150 1000 P
+A
+4 -2
+A
+13 10
+A
+19 2
+A
+3 -2
+#19018
+brazo humano~
+un brazo humano~
+Un brazo de humano esta aqui pudriendose ..~
+carne~
+pill CT AO
+35 'general purpose' 'poison' 'cure disease' 'complete healing'
+30 100 100 B
+R 0 5
+L 2659 0
+#19019
+aleta diplodoco~
+una Aleta de Diplodosaurio~
+Una larga aleta esta tirada aqui..~
+espinas~
+armor ABC AE
+4 5 7 10 0
+22 200 2000 P
+A
+13 30
+A
+1 2
+A
+17 4
+A
+4 -2
+#19020
+yelmo flamigero ~
+un Yelmo Flamigero~
+Una pequenia llamarada sale del suelo .~
+Fuego~
+armor ABILM AE
+4 4 5 10 0
+30 100 2500 P
+A
+17 20
+A
+13 5
+A
+12 10
+A
+1 -2
+#19021
+brazalete fuego flamigero~
+un Brazalete de Fuego ~
+Una pequenia llamita sale del piso ..~
+fuego~
+armor ABHIM AM
+6 2 3 9 0
+30 50 10000 P
+A
+13 5
+A
+12 10
+A
+3 -3
+A
+19 2
+A
+2 -2
+#19022
+botas fuego flamigeras~
+unas botas de Fuego~
+Unas llamaradas salen del piso aqui ~
+fuego~
+armor ABHILM AG
+6 6 1 6 0
+30 100 1000 P
+A
+2 2
+A
+4 -2
+A
+19 -2
+A
+1 2
+#19023
+llave verde calavera~
+una llave con una calavera~
+Una llave verde con una calavera en su superficie esta aqui botada.~
+plastico~
+key 0 AO
+0 0 0 0 0
+27 50 1000 P
+A
+4 -1
+#19024
+feto criogenizado~
+feto de Raptor~
+Frascos con fetos estan tirados en el piso.~
+genetico~
+pill BY AO
+25 'adrenaline control' '' '' ''
+25 300 1000000 P
+#19025
+llave oso~
+una llave con un Oso~
+Un llavero con un Oso se encuentra tirado aqui.~
+acero~
+key 0 AO
+0 0 0 0 0
+25 50 1000 P
+A
+4 2
+#19026
+atlante tabla~
+Una tabla Atlante~
+Una tabla con unas extranias inscripciones esta aqui semi-enterrado en el piso.~
+coral~
+key C AO
+0 0 0 0 0
+1 400 1000 P
+#19027
+nido ave~
+un nido de pterodactilo~
+Un nido de Pterodactilo con algunos objetos, esta aqui.~
+paja~
+container B P
+0 0 0 100 0
+0 100 100 P
+#0
+
+
+
+#ROOMS
+#19000
+A turn in the deep, dark forest..~
+Estas totalmente desorientado donde te encuentras..parece q hubieras sido teleportado desde algun remoto lugar...
+#F(Glowing)#f #B(Humming)#b Un letrero esta aqui pegado en la pared .
+~
+0 AN 0
+E
+letrero~
+El letrero dice:
+|------------------------------------------------------------------------|
+|                     Area Creada y diseniada por                        |
+|                             Gandalf                                    |
+|                                                                        |
+| Se recomienda a los viajeros:                                          |
+|     1.-   Entrar en grupo ....                                         |
+|     2.-   Ser de nivel mayor de 25                                     |
+|     3.-   Tener mucha suerte  ........                                 |  
+|                                                                        |
+|                                              Copyright, 1997 (Rom-mud) |
+|------------------------------------------------------------------------|
+ 
+~
+D0
+~
+~
+0 0 6137
+D2
+~
+~
+0 0 19001
+S
+#19001
+En La Jungla~
+Ves que has llegado a una especie de Jungla semitropical..Ves que al Este, Oeste, Sur y Norte se extienden densos brazos de la selva... deberias volver por donde llegaste.....
+~
+0 N 3
+D1
+~
+~
+0 0 19003
+D2
+~
+~
+0 0 19007
+D3
+~
+~
+0 0 19002
+S
+#19002
+En la Jungla~
+Estas totalmente seguro de que volviste por el norte o el sur...  Mas los
+pasitos que se sientes hacen que realmente te de miedo volver sobre tus
+pasos...  
+~
+0 N 3
+D1
+~
+~
+0 0 19001
+D2
+~
+~
+0 0 19004
+S
+#19003
+En la Jungla~
+Ademas de los tipicos arboles, arbustos, y densa flora sientes unos pasos
+que vienen como de detras tuyo....  Deberias escapar!!!!!!..  
+~
+0 N 3
+D2
+~
+~
+0 0 19010
+D3
+~
+~
+0 0 19001
+S
+#19004
+En la Jungla~
+Estas terriblemente perdido y atemorizado, pues sientes pasos que te
+siguen pero cuando das la vuelta ves....  #Bnada!!!!!  #b.  
+~
+0 N 3
+D0
+~
+~
+0 0 19002
+D1
+~
+~
+0 0 19007
+D2
+~
+~
+0 0 19005
+S
+#19005
+En la Jungla~
+Senderos cruzan la intrincada selva por todos lados, sin embargo al mirarlos bien te das cuenta que son senderos creados por pies de #Banimales!!!!!!#b.
+~
+0 N 3
+D0
+~
+~
+0 0 19004
+D1
+~
+~
+0 0 19008
+D2
+~
+~
+0 0 19006
+S
+#19006
+En La Jungla~
+Ademas de las multiples pisadas que cruzan el barro selvatico, tambien
+ves algunos cascarones de huevos del porte de un huevo de avestruz....  
+~
+0 N 3
+D0
+~
+~
+0 0 19005
+D1
+~
+~
+0 0 19009
+S
+#19007
+En la Jungla~
+Caminando por la jungla ves que no solo pisadas pequenias, sino grandes y muy variadas pisadas tienen la hierba cercana aplastada....
+~
+0 N 3
+D0
+~
+~
+0 0 19001
+D2
+~
+~
+0 0 19008
+S
+#19008
+En La Jungla~
+Para desgracia tuya estas llegando a un matorral que se mueve
+extraniamente......  Deberias ver que se oculta detras....  
+~
+0 N 3
+D0
+~
+~
+0 0 19007
+D2
+~
+~
+0 0 19009
+D3
+~
+~
+0 0 19005
+S
+#19009
+En la jungla~
+Estas terriblemente perdido en la inmensa selva ....Ves que a tu alrededor se levantan impresionantes Alerces de miles de anios de antiguedad y algunos en la
+lejania se ven  #Bsin hojas???#b..
+~
+0 N 3
+D0
+~
+~
+0 0 19008
+D2
+~
+reja~
+AB 0 19014
+D3
+~
+~
+0 0 19006
+S
+#19010
+En la espesura~
+Estas en una espesa jungla cubierta casi toda por densos matorrales que no te
+dejan mirar..ni siquiera hacer #Brecall!!!!!!#b.
+~
+0 N 3
+D0
+~
+~
+0 0 19003
+S
+#19011
+En el camino~
+Ves que al salir de la Jungla te encontraste con un camino que lleva una
+como espada pero tan larga que no ves su final al Este ni al Oeste..... 
+Ademas,  esta espada va justo por el medio del camino....  
+ 
+~
+0 NT 3
+D1
+~
+~
+0 0 19013
+D3
+~
+~
+0 0 19012
+S
+#19012
+En el camino~
+Sigues caminando por el largo camino con la espada en el medio...ves que la 
+alambrada sigue alrededor de los dos lados del camino...te preguntas por que..
+~
+0 N 0
+D1
+~
+~
+0 0 19011
+D3
+~
+~
+0 0 19083
+S
+#19013
+En El Cruce del camino~
+Estas en un cruce en el extranio camino alrededor de la selva subtropical que
+te rodea... ves que hay aqui un letrero muy extranio..parado en la mitad del
+piso...
+~
+0 N 0
+E
+letrero~
+El letrero dice:
+|-------------------------------------|
+|                Muelles              |
+|                  |                  |
+|                  |                  |
+|                  ------ Sector Rep  |
+|                  |                  |
+|                  |                  |
+|                Centro Jp            |
+---------------------------------------
+~
+D0
+~
+~
+0 0 19098
+D2
+~
+~
+0 0 19015
+D3
+~
+~
+0 0 19011
+S
+#19014
+En la Alambrada~
+Estas llegando a lo que tu muy bien conoces como un alambrada, de esas que se usan en el Norte para detener los orcos que roban las granjas...sin embargo esta
+parece diferente, ya que tiene una especie de guinda gigante en su punto mas
+alto y a su lado una guinda , pero de color verde....
+~
+0 N 3
+D0
+~
+reja~
+AB 0 19009
+D2
+~
+reja~
+AB 0 19011
+M 200 H 200
+S
+#19015
+Camino al Museo~
+Estas camino al Museo Oficial Jurassik Park, ves que a los lados del camino
+se levantan grandes palmeras y otros arboles que no puedes identificar...
+~
+0 N 3
+D0
+~
+~
+0 0 19013
+D2
+~
+~
+0 0 19016
+S
+#19016
+En la pequenia laguna ~
+Estas situado ahora en una pequenia laguna artificial creada por el
+creador del parque...  Parece que todavia escucharas las palabras de el al
+viento "No Repare en Gastos" 
+~
+0 N 6
+D0
+~
+~
+0 0 19015
+D2
+~
+~
+0 0 19017
+S
+#19017
+En la Entrada al Museo~
+Estas en la entrada misma al Museo Oficial de Jurassik Park.
+Ves que en los pilares de los lados de la puerta se ven tallados esqueletos
+de dinosaurios ya extintos..ademas ves que la entrada es como un gran portal
+de entrada a una antigua Caverna...
+~
+0 N 0
+D0
+~
+~
+0 0 19016
+D1
+~
+portal~
+AB 0 19018
+S
+#19018
+En el Lobby~
+Entraste al fin al Museo Oficial de Jurassik Park.....En todos los murales ,
+finamente tallados, se ven los esqueletos de muchos dinosaurios.
+Un velo se levanta al Norte, mientras que al Este se ve donde estan los 
+turistas..
+~
+0 N 0
+D0
+~
+~
+0 0 19020
+D1
+~
+~
+0 0 19019
+D3
+~
+portal~
+AB 0 19017
+S
+#19019
+Cuarto de Espera~
+Estas en un cuarto adornado tipicamente como los cuartos de espera gringos..
+Ves unas pequenias televisiones cada tres asientos que tienen un letrerito
+que dice "Insert Coins", ademas ves que hay un gran anuncio en letras muy
+fosforescentes..deberias leerlo.
+~
+0 N 0
+E
+anuncio~
+|-----------------------------------------------------------------------|
+|             Bienvenidos a Jurassik Park  ->                           |
+|             ---------------------------                               |
+|                                                                       |
+|         Horario de Tours:                                             |
+|         Primer   Tour :  9:00 Hrs (am).
+|         Tours intermedios: Cada 1 Hora.
+|         Ultimo Tour      : 10:00 (pm).                              |
+|                                                                     |
+|                                                                     |
+| nota: Jurassik Park no se responsabiliza por perdidas menores, como |
+| bolsos, carteras, lentes, hijos, u mascotas.                            |
+|-------------------------------------------------------------------------|
+~
+D3
+~
+~
+0 0 19018
+S
+#19020
+En la division del Museo~
+Estas en una gran sala en donde se ven multiples anuncios en ingles..no cachas
+ni una de lo que dicen sin embargo ves que todos se dirigen hacia al norte por
+una puerta de vidrios opacos....
+Ademas ves una puerta al Este.
+~
+0 N 0
+D0
+~
+~
+0 0 19031
+D1
+~
+puerta~
+AB 0 19021
+D2
+~
+~
+0 0 19018
+S
+#19021
+En la Sala Principal~
+Uff..al fin encontraste la sala principal dentro de este gran recinto...ves
+que hay ahora esqueletos colgando como marionetas por todo el salon...Mientras
+ves que se extiende una escalera hacia el ya visible segundo piso.
+Hacia el Norte ves un pequenio letrero....
+~
+0 N 0
+E
+letrero~
+El letrero dice:
+|-----------------------------------------|
+|                                         |
+|             #BKitchen#b                     |
+|              ---------                  |
+|                                         |
+|-----------------------------------------|
+~
+D0
+~
+puerta~
+ABG 0 19022
+D3
+~
+puerta~
+AB 0 19020
+S
+#19022
+Cerca de la Cocina~
+Como ya habras podido adivinar, cocina significa kitchen....y a tus lados ves
+un enorme pasillo que se abre a tu derecha e izquierda..
+~
+0 N 0
+D1
+~
+~
+0 0 19025
+D2
+~
+~
+ABG 0 19021
+D3
+~
+~
+0 0 19023
+S
+#19023
+En la puerta de la Conservadora de Alimentos~
+Estas en la gran puerta del conservador de alimentos congelados del parque...
+(Que mania esta que tienen los gringos de congelar todo no???).
+~
+0 N 0
+D0
+~
+~
+AB 0 19024
+D1
+~
+~
+0 0 19022
+S
+#19024
+En el Congelador~
+Entraste al inmenso congelador de alimentos..Ves que esta lleno de bandejas ,
+platos de metal, cocteleras y demases, ademas de los alimentos congelados que
+se pueden ver ...
+~
+0 N 0
+D2
+~
+~
+AB 0 19023
+S
+#19025
+En el Fuego~
+Estas en la parte de la cocina donde se ven todos los cocineros, ayudantes y
+auxiliares de mozos. Ves que todos estan ocupados haciendo algo, ya sea lavando
+platos, limpiando bandejas, prendiendo fuegos y otros cocinando....
+Te sientes seguro que nadie te presta atencion..
+~
+0 N 0
+D0
+~
+corrediza~
+ABG 0 19027
+D3
+~
+~
+0 0 19022
+S
+#19027
+Camino al Comedor~
+Estas caminando por un estrecho pasillo.De vez en cuando vez algunas personas
+que pasan apuradisimas y haciendo equilibrio como con 10 platos en sus manos.
+~
+0 N 0
+D0
+~
+~
+0 0 19028
+D2
+~
+corrediza~
+ABG 0 19025
+M 0 H 0
+S
+#19028
+En el Comedor~
+Estas en un comedor generosamente ataviado para que los turistaa coman hasta
+saciarse...ves que los platos estan calientes y la mesa puesta, sin embargo,
+ves que la placa de la pared ha sido violentamente rajada como por una
+inmensa garra....
+Ves ademas una pequenia puerta verde hacia abajo.
+~
+0 CKN 0
+D0
+~
+~
+0 0 19029
+D5
+~
+puerta~
+AB 0 19088
+M 200 H 200
+S
+#19029
+Hacia el lobby~
+Estas caminando por un largo pasillo que seguramente te llevara a algun lobby
+de invitados o algo asi, tipico de los hoteles y restaurantes famosos...
+~
+0 N 0
+D0
+~
+~
+0 0 19030
+D2
+~
+~
+0 0 19028
+S
+#19030
+En otro lobby~
+Llegaste a otro lobby finamente decorado. Ves que los comodos asientos que
+hay en este recinto albergan tambien a algunos desamparados de la calle.
+Hacia el Este ves la salida a la entrada del Museo.
+~
+0 N 0
+D1
+~
+~
+0 0 19017
+D2
+~
+~
+0 0 19029
+S
+#19031
+Cerca de la estacion~
+Estas caminando por un pasillo que te lleva  a la salida de los tours de el
+impresionante Museo de Jurassik Park.
+~
+0 N 0
+D0
+~
+~
+0 0 19032
+D2
+~
+~
+0 0 19020
+S
+#19032
+En la Partida~
+Estas en una pequenia como estacion donde se ven muchos vehiculos de colores 
+similares a los de algun Dino-Espectaculo.....Gente se sube a ellos como
+moscas a la azucar....
+Al Oeste se ven un camino.
+~
+0 N 0
+D2
+~
+~
+0 0 19031
+D3
+~
+~
+0 0 19033
+S
+#19033
+En el sendero~
+Estas caminando por un sendero que esta rodeado completamente por alambres a
+uno y otro lado. El Guia te dice que luego llegaran al sitio de Trice-1 (que
+tu supones es de la Triceratops) .
+~
+0 N 10
+D0
+~
+~
+0 0 19034
+D1
+~
+~
+0 0 19032
+S
+#19034
+Sector Tri-1~
+Por lo que te pueden explicar los pocos traductores del grupo, estas en la
+parte donde podrias ver a los Triceratops, aunque todavia no has visto 
+ninguno en tu vida, crees que deben ser espectaculares.
+~
+0 N 3
+D1
+~
+~
+0 0 19035
+D2
+~
+~
+0 0 19033
+D3
+~
+~
+0 0 19037
+S
+#19035
+En el campo~
+Estas en una pequenia pradera cubierta de espinas, ortigas y zarzamoras.Crees
+que esta debe ser la parte fea de Jurassik Park, justo cuando sientes algunos
+sonidos guturales desde el norte....
+~
+0 N 2
+D0
+~
+~
+0 0 19036
+D3
+~
+~
+0 0 19034
+S
+#19036
+En la lomita~
+Estas en una pequenia lomita entremedio de las zarzas y espinas, crees que el 
+ruido puede venir de aqui, pero no ves a "nadie" desde el cual pueda provenir
+el sonido, excepto esta pequenia loma de color cafe pardo, que de repente
+empieza a moverse....arriba...abajo...es como una respiracion...
+~
+0 N 0
+D2
+~
+~
+0 0 19035
+S
+#19037
+En la espesura~
+Estas entrando por la alambrada, y sientes ruidos como de manadas de Dinos
+en batalla...
+Se escuchan mas claramente hacia el Norte.
+~
+0 N 3
+D0
+~
+~
+0 0 19038
+D1
+~
+~
+0 0 19034
+S
+#19038
+Cerca del lago~
+Estas caminando por un terreno semi-pantanoso, en el cual se pueden observar
+claramente las #Binmensas#b huellas de algun Tiranosaurio Rex o alguna manada
+de Triceratops. Piensas alejarte luego de este lugar..pues es realmente como
+sacado de una pelicula de terror.
+~
+0 N 6
+D0
+~
+~
+0 0 19039
+D2
+~
+~
+0 0 19037
+S
+#19039
+En el Lago~
+Te encuentras en el gran Lago de este sector, crees que aqui se
+encuentran casi todos los reptiles de los diferentes sectores, ya que ves
+diferentes "senderos" por algunos de los lados del lago.  Fauna abundante y
+demasiado pacifica se encuentra aqui tratando de beber algo de agua.  
+~
+0 N 6
+D0
+~
+~
+0 0 19040
+D2
+~
+~
+0 0 19038
+S
+#19040
+En el Lago~
+Estas caminando todavia por el la orilla, en el lecho semi-fangoso del Lago.
+Todavia ves numerosas criaturas bebiendo apaciblemente a la orilla de este.
+Sin embargo, te fijas que de cada especie hay uno que se concentra mirando
+fijamente al horizonte, con todos los sentidos realzados, esperando a algun
+depredador....
+~
+0 N 6
+D1
+~
+~
+0 0 19041
+D2
+~
+~
+0 0 19039
+S
+#19041
+Cerca del Lago~
+Estas cerca del gran lago de Jurassik Park..Te preguntas por que todos los 
+animales te estan mirando como bicho raro, luego te das cuenta que no es a ti
+sino que estan como esperando #BAlgo??#b....
+Hacia el este ves una montania entre la cual se ven algunas grietas...
+~
+0 N 3
+D1
+~
+~
+0 0 19042
+D3
+~
+~
+0 0 19040
+S
+#19042
+Cerca de la Montania~
+Vas caminando por un estrecho sendero que corre entre medio de espesasa zarzas
+y rocas semi-fundidas...piensas que es mejor seguir al Oeste, donde se puede
+vislumbrar mas alla un gran lago...
+~
+0 N 3
+D1
+~
+~
+0 0 19043
+D3
+~
+~
+0 0 19041
+S
+#19043
+Cerca de las Grietas~
+Estas casi al pie de una enorme y muy escarpada montania, ves en lo alto 
+algunos pterodactilos que escudrinian el lugar donde estas y parece que piensan
+en lanzarse ....
+~
+0 N 10
+D0
+~
+~
+0 0 19044
+D3
+~
+~
+0 0 19042
+D4
+~
+~
+0 0 19085
+S
+#19044
+En la Entrada a la Montania~
+Estas en la entrada a una de las inmensas grietas que corren por la montania,
+ves que el sol empieza a dejar de filtrarse y la oscuridad empieza a reinar
+en el interior...
+~
+0 N 5
+D0
+~
+~
+0 0 19045
+D2
+~
+~
+0 0 19043
+S
+#19045
+En la Grieta~
+Estas en una grieta oscura desde la cual no se ve absolutamente nada mas
+que lo que alumbra tu luz...  
+~
+0 AN 5
+D0
+~
+~
+0 0 19046
+D2
+~
+~
+0 0 19044
+S
+#19046
+Dentro de la Montania~
+Estas caminando por un sucio laberinto de tuneles que no tienes idea de donde
+te pueden llevar, de hecho, parece que ya has pasado por aqui mas de una vez.
+~
+0 AN 5
+D0
+~
+~
+0 0 19049
+D1
+~
+~
+0 0 19048
+D2
+~
+~
+0 0 19045
+D3
+~
+~
+0 0 19047
+S
+#19047
+Dentro de la montania~
+Estas caminando por un sucio laberinto de tuneles que no tienes idea de donde
+te pueden llevar, de hecho, parece que ya has pasado por aqui mas de una vez.
+~
+0 AN 5
+D1
+~
+~
+0 0 19046
+D5
+~
+trapdoor~
+AB 0 19075
+S
+#19048
+Dentro de la Montania~
+Estas caminando por un sucio laberinto de tuneles que no tienes idea de donde
+te pueden llevar, de hecho, parece que ya has pasado por aqui mas de una vez.
+~
+0 AN 5
+D3
+~
+~
+0 0 19046
+S
+#19049
+Dentro de la montania~
+Estas caminando por un sucio laberinto de tuneles que no tienes idea de donde
+te pueden llevar, de hecho, crees haber pasado alguna vez por aqui.
+~
+0 AN 5
+D2
+~
+~
+0 0 19046
+D5
+~
+trapdoor~
+AB 0 19050
+S
+#19050
+En la Caverna~
+Estas bajando por una tenebrosa caverna, mal iluminada y llena de craneos de
+humanos y otras criaturas . Los craneos se ven semi-mordisqueados y ademas
+ves que algunas sombras se ven como esperando el momento justo para lanzarse
+sobre ti.....o estaras alucinando???
+~
+0 AN 0
+D2
+~
+~
+0 0 19051
+S
+#19051
+En la Caverna~
+Todavia te encuentras dentro de la apestosa caverna que  esta llena de algun
+extranio olor..parece olor a excremento de algun animal...las osamentas no
+dejan de estar esparcidas por todo el piso...
+~
+0 AN 0
+D0
+~
+~
+0 0 19050
+D2
+~
+~
+0 0 19052
+S
+#19052
+En el Fondo de la Cueva~
+Ufff...Al fin llegaste al fondo de esta inmensa caverna llena de sucios  y
+asquerosos ladrones-saurios y sus excrementos...ves que hacia abajo la salida
+se empieza a iluminar un poco...
+.
+~
+0 AN 0
+D0
+~
+~
+0 0 19051
+D5
+~
+trapdoor~
+AB 0 19053
+S
+#19053
+Por otra grieta~
+Al fin te alegras de que hayas eliminado o escapado de esos Cefalosaurios ,
+sin embargo, no te alegres todavia, por que la salida de aqui con vida se 
+ve muy dificil ..
+~
+0 AN 0
+D0
+~
+~
+0 0 19054
+D4
+~
+~
+AB 0 19052
+S
+#19054
+Cerca de una luz~
+Despues de haber caminado por casi toda la montania lo unico que deseas es 
+descansar, sim embargo, al ver una pequenia luz hacia el norte, crees que 
+podras salir de aqui...
+~
+0 AN 0
+D0
+~
+~
+0 0 19055
+D2
+~
+~
+0 0 19053
+S
+#19055
+La #BLuz!!!!!!!#b!!~
+#BUffff#b. Al fin has salido a la luz del dia y puedes contemplar feliz  el
+hermoso cielo que desde esta parte se ve...tus pies apoyados firmemente en..
+en... en... #Baaaaaaaaaaaaahhhhhhhhhhggggggggggggggggggggggg#b!!!!!
+~
+0 N 11
+D2
+~
+~
+0 0 19054
+D5
+~
+~
+0 0 19056
+S
+#19056
+Por el barranco~
+Estas firmemente apoyado en un barranco...suerte que no caiste,ya que la caida
+se ve aterrorizante (#Bo aterrizante#b) hacia abajo.
+~
+0 N 11
+D4
+~
+~
+0 0 19055
+D5
+~
+~
+0 0 19057
+S
+#19057
+Por el barranco~
+Sigues bajando lentamente por el gran barranco que cae desde la montania....
+Realmente no sabes como la caverna estaba ubicada tan sobre el nivel del
+mar....o serias tu alucinando por salir de ahi???
+~
+0 N 11
+D4
+~
+~
+0 0 19056
+D5
+~
+~
+0 0 19058
+S
+#19058
+En el final del barranco~
+Uff...si no caiste mas fuerte es por que estabas volando, bajaste escalando o
+por tu constitucion...
+Ves que hacia el norte se ven unos matorrales de un verde claro que no va
+con este lugar...
+~
+0 N 4
+D0
+~
+~
+0 0 19059
+S
+#19059
+En los matorrales~
+Ahh..Pasaste los matorrales y viste que realmente lo que habia detras de los
+matorrales era.....#BEl GRAN VALLE?????#b??
+~
+0 N 0
+D0
+~
+~
+0 0 19060
+D2
+~
+~
+0 0 19058
+S
+#19060
+En la Entrada al Valle~
+Estas en la entrada a un hermoso valle .  Desde esta parte se pueden ver
+todas las clases de dinosaurios que se te puedan ocurrir.  Tambien ves
+algunos aventureros (crees tu) que se pasean sonriendo por el.  
+~
+0 N 3
+D0
+~
+~
+0 0 19061
+D2
+~
+~
+0 0 19059
+S
+#19061
+En el Valle~
+Todo es hermosura...todo es paz...todo es belleza...esto ya esta empezando a 
+hartarte y deseas encontrar solo alguna victima para tu Arma...
+~
+0 N 3
+D0
+~
+~
+0 0 19062
+D1
+~
+~
+0 0 19063
+D2
+~
+~
+0 0 19060
+S
+#19062
+En el Valle~
+Sigues viendo la hermosura de este inmenso valle, piensas seguir buscando
+hasta que encuentres algo de comer o beber..  Ya que te esta empezando a dar
+hambre.  
+Manadas de Tricerarops se ven al Este.
+~
+0 N 3
+D0
+~
+~
+0 0 19069
+D1
+~
+~
+0 0 19065
+D2
+~
+~
+0 0 19061
+D3
+~
+~
+0 0 19067
+S
+#19063
+En el Valle~
+Ves que por todos lados pequenios dinos corren como ninios chicos, piensas 
+matar unos pocos para divertirte..pero justo en ese instante ves a las madres
+que te miran con cara  de Hambre.....
+~
+0 N 3
+D1
+~
+~
+0 0 19064
+D3
+~
+~
+0 0 19061
+S
+#19064
+Un rincon en el Valle~
+Estas en un rincon muy apacible del gran Valle, ves que una manada de dinos
+que parecen ser brontosaurios por sus largos cuellos esta pastando aqui.
+~
+0 N 3
+D3
+~
+~
+0 0 19063
+S
+#19065
+En la loma..~
+Estas caminando por una pequenia senda pisoteada por toneladas de peso, al 
+parecer los "dinos" han estado leseando por aqui ...
+~
+0 N 10
+D1
+~
+~
+0 0 19066
+D3
+~
+~
+0 0 19062
+S
+#19066
+En otro rincon del Valle~
+Estas en un rincon mucho mas "batallado" que el resto del valle, ves algunos
+triceratops chocandose los cuernos y otros pastando tranquilamente ...
+~
+0 N 0
+D3
+~
+~
+0 0 19065
+M 0 H 0
+S
+#19067
+En el pequenio Charco~
+Estas caminando hacia una pequenia laguna donde se ven algunos Caras de pato
+nadando..
+~
+0 N 3
+D1
+~
+~
+0 0 19062
+D3
+~
+~
+0 0 19068
+S
+#19068
+En la pequenia laguna~
+Estas en una pequenia laguna donde ves algunos picos-de-pato nadando muy,pero
+muy tranquilamente, ya que su mama esta a su lado..
+~
+0 N 6
+D1
+~
+~
+0 0 19067
+S
+#19069
+Saliendo del Gran valle~
+Uff...al fin dejas de ver esas asquerosas bestias pequenias hijas de los ya
+extintos ( Por ti) dinosaurios .
+Al Norte ves una cascada que cierra el valle...
+~
+0 N 3
+D0
+~
+~
+0 0 19070
+D2
+~
+~
+0 0 19062
+S
+#19070
+En la Cascada~
+Estas en una #BGran#b cascada que cae aproximadamente 30 Metros. Ahora te das
+cuenta de lo bueno que es estar volando, ya que o si no estarias abajo de 
+esta probablemente muerto......
+~
+0 N 11
+D2
+~
+~
+0 0 19069
+D5
+~
+~
+0 0 19071
+S
+#19071
+En el lecho del rio~
+Estas caminando por el lecho del rio de la enorme cascada que cae ahora casi
+detras de tu espalda, ves que la vegetacion esta completamente muerta a este 
+lado, sin embargo sientes que te vigilan, aunque escrutando el horizonte no
+"veas" nada ...
+~
+0 N 6
+D0
+~
+~
+0 0 19072
+D4
+~
+~
+0 0 19070
+R enter 21088 100~
+S
+#19072
+Entrando al Portal~
+Estas entrando a un extranio portal con unas inscripciones muy conocidas para
+ti. Deberias leer la inscripcion .
+~
+0 N 0
+E
+inscripcion~
+La inscripcion dice:
+"Porque al final del viaje el cambia - planos te ayudara a invocar a tu dios
+en un vano ejemplo para tus similares..sin embargo, la muerte le esperara a 
+aquellos cobardes y de mala ventura que pasen sin tomar en cuenta los peligros
+pasados .....
+~
+D2
+~
+~
+0 0 19071
+D5
+~
+~
+0 0 19073
+S
+#19073
+En el Inter-Plano ~
+Estas en un lugar realmente extranio, parece que todos tus recuerdos pasados
+y recientes se agolparan en tu mente, ademas ves que muchas criaturas que son
+desconocidas para ti te ven con ojos de "vete"....
+~
+0 ACN 0
+D0
+~
+~
+0 0 19074
+M 200 H 200
+S
+#19074
+En la luz~
+La luz te puede cegar, sin embargo, ves que hacia arriba se vislumbra la semi
+figura de un #BGran guerrero#b...ojala que no sea tu enemigo .....
+~
+0 ACN 0
+D2
+~
+~
+0 0 19073
+D4
+~
+~
+0 0 3001
+S
+#19075
+Caverna oscura (2.link)~
+Estas en una caverna que nunca pensaste que fuera tan oscura, es mas, parece
+que la noche hubiera entrado aqui para quedarse.......
+~
+0 N 0
+D2
+~
+~
+0 0 19076
+S
+#19076
+Entrada a la Guarida~
+Estas en la entrada a la guarida de unas criaturas realmente asquerosas...son
+como aliens...pero saltan como canguros....en el polvo hay escrito algo...
+~
+0 AN 0
+E
+polvo~
+Escrito con sangre dice:
+"Alejense de los rippers, las Bxxxxs qxx no solo ataxxx y dexxxxxxx sino que 
+axxmas te pxxden transfxxxxx en uxx perxxxx xxxxxx ......"
+~
+D0
+~
+~
+0 0 19075
+D2
+~
+~
+0 0 19077
+S
+#19077
+En la Guarida~
+Estas en la guarida de los Rippers, ves que pareciera que el piso estuviera 
+casi nuevo..parece que estos seres no caminaran....
+Ademas las huellas no te guian a nada siendo solo como marcas de pesos muy
+livianos...te sientes confundido.
+~
+0 AN 11
+D0
+~
+~
+0 0 19076
+D1
+~
+~
+0 0 19078
+D3
+~
+~
+0 0 19079
+D5
+~
+~
+0 0 19080
+S
+#19078
+Una curva en la Guarida~
+Estas en una especie de pasillo en donde se pueden ven letreros escritos en 
+extranias lenguas....
+~
+0 N 0
+D3
+~
+~
+0 0 19077
+S
+#19079
+En la guarida~
+Te encuentras todavia en la guarida de los Rippers, al parecer no hay nadie 
+en este hermoso recinto adornado con mesas como para humanos, con sillas 
+como para humanos.... con todo lo que cualquier hosteria podria contar ...
+~
+0 AN 0
+D1
+~
+~
+0 0 19077
+S
+#19080
+En el tubo~
+Estas bajando rapidamente por un oscuro tubo que parece ser de plomeria o de
+algo similar..algunas fecas se ven a tu lado cuando pasas...el fondo se ve
+extremadamente negro ......
+~
+0 N 11
+D5
+~
+~
+0 0 19081
+S
+#19081
+En el fondo del tubo~
+Estas al final del tubo ..Ves que las fecas que viste en la bajada ahora caen
+sobre ti .....
+~
+0 N 0
+D2
+~
+~
+0 0 19082
+D4
+~
+~
+0 0 19080
+S
+#19082
+RECALL~
+Estas cerca de la gran luz de la puerta..parece que salieras a algun campo de
+batalla, ya que ves un gran guerrero parado en la puerta..mirandote...
+~
+0 0 0
+D0
+~
+~
+0 0 19081
+D4
+~
+~
+0 0 3001
+S
+#19083
+En la celda de los raptors~
+Estas lo que probablemente era la celda de los raptors. Rejas corroidas por 
+dientes y puertas ....Abiertas??? se ven por todos lados, piensas en salir, y 
+solo entonces te das cuenta que no supiste por donde entraste....
+Ademas te das cuenta que no se ve ninguno de estos horripilantes dinosaurios,
+lo que te pone los nervios de punta.
+~
+0 N 11
+D5
+~
+~
+0 0 19084
+S
+#19084
+Dentro del rio de lava~
+Caiste por una grieta dentro de la montania y en este preciso
+instante,mientras ves en donde te encuentras, sientes un pequenio calorcito
+dentro de tu armadura.  
+~
+0 E 0
+D4
+~
+~
+0 0 19083
+M 50 H 50
+S
+#19085
+Escalando la Montania~
+Estas subiendo por la montana, acercandote donde crees que puede haber algo
+para comer o matar....al final...va a dar lo mismo....
+~
+0 0 11
+D4
+~
+~
+0 0 19086
+D5
+~
+~
+0 0 19043
+S
+#19086
+En Cima~
+#BUff#b, al fin llegaste a la cima de esta apestosa montania, ves algunos 
+pterodactilos que revolotean junto a sus madres, que no te miran muy contentas
+con tu presencia...
+~
+0 0 0
+D0
+~
+~
+0 0 19087
+D5
+~
+~
+0 0 19085
+S
+#19087
+En el nido Pterodactilo~
+Estas justamente dentro del inmenso nido de Pterodactilos, ves que muchas aves
+se juntan y ayudan a volar a sus hijos, que te parecen extremadamente fragiles
+Ademas, sientes que el viento, muy fuerte en esta parte, entorpece tus palabras
+~
+0 C 9
+S
+#19088
+En las Escaleras~
+Estas en unas escaleras metalicas que te llevan, por abajo, a una sala
+muy bien iluminada; y por arriba al gran comedor del parque.  
+~
+0 0 0
+D4
+~
+~
+AB 0 19028
+D5
+~
+~
+0 0 19089
+S
+#19089
+En la Plataforma metalica~
+Estas en una gran sala que puedes vislumbrar desde un semi-entrepiso. Las 
+grandes luces que iluminan el lugar te dejan ciego por un momento, pero luego
+ves aparecer una serie de computadores y al final de la sala una pequenia 
+puerta con un cartel que no alcanzas a leer desde aqui.
+Si quieres saber que dice deberias bajar de la plataforma.
+~
+0 0 0
+D0
+~
+~
+0 0 19090
+D4
+~
+~
+0 0 19088
+S
+#19090
+Escaleras~
+Te encuentras en este momento en las escaleras que llevan a la Sala de Control
+de Jurassik Park hacia abajo, y por arriba te dejan en el comedor.
+~
+0 0 0
+D0
+~
+~
+0 0 19100
+D2
+~
+~
+0 0 19089
+D5
+~
+~
+0 0 19091
+S
+#19091
+Sala de Control~
+Estas en la Sala de Control de Jurassik Park. Desde aqui se controlan las 
+computadoras que revisan y chequean el sistema de puertas, luminarias, y rejas
+electrificadas.
+Hacia el sur ves un grupo de operadores que en este instante se encuentran 
+tratando de decifrar un password.
+Hacia el norte ves una pequenia puerta con unos extranios simbolos.
+~
+0 0 0
+D0
+~
+~
+0 0 19092
+D2
+~
+~
+0 0 19093
+D4
+~
+~
+0 0 19090
+S
+#19092
+En la puerta~
+Estas en una puerta completamente metalica con solo un ojo de vidrio que te
+deja ver al otro lado solo algunas personas vestidas como doctores.
+~
+0 0 0
+D0
+~
+puerta~
+ABC 19023 19094
+D2
+~
+~
+0 0 19091
+S
+#19093
+Sector de Computadoras~
+En esta parte ves algunos tipos absortos en calculos matematicos, dentro de
+una computadora.
+Mientras, por otro lado ves a una persona mirando como un computador  se
+encuentra administrando todas las funciones mas importantes del parque.
+~
+0 0 0
+D0
+~
+~
+0 0 19091
+S
+#19094
+Laboratorio de Criogenia~
+Estas en un inmenso laboratorio cubierto de herramientas,muestras de tejidos 
+microscopios, y toda clase de instrumentos quirurgicos.
+Tambien ves a algunos frascos que, a tu parecer, deben contener poderosas
+pociones....
+Al Este ves una pequenia como capsula, en donde se ven pequenios fetos de
+dinosaurios completamente congelados, en unos grandes frascos.
+~
+0 0 0
+D0
+~
+~
+0 0 19096
+D1
+~
+~
+AB 19025 19095
+D2
+~
+puerta~
+ABC 0 19092
+S
+#19095
+CrioFreezer~
+Estas en una capsula gigantesca en donde se ven multiples pedestales que
+contienen fetos de Dinosaurios y ovulos de estos mismos congelados y 
+ordenados por nombre.
+Una calcomania esta pegada en la pared con vivos colores.
+~
+0 N 0
+E
+calcomania~
+La calcomania dice:
+Por favor no sacar los fetos del CrioFreezer, a menos que sea estrictamente
+necesario.
+PD: La violacion sera multada con 2 Creditos J.P.
+~
+D3
+~
+~
+AB 0 19094
+M 200 H 200
+S
+#19096
+Incubadora~
+Estas en un cuarto en el que desde el medio emerge una incubadora geotermica,
+con la cual se fertilizan los huevos de los dinosaurios que seran despues 
+enviados al Parque.
+Llegas justo en el momento en que un huevo se abre....
+~
+0 0 0
+D0
+~
+~
+0 0 19097
+D2
+~
+~
+0 0 19094
+S
+#19097
+Salida~
+Estas en un cuarto sumamente calido, el cual te llena de energias positivas
+y te recupera facilmente....sientes como tu cuerpo se llena con esta aura
+magica y ademas te fijas que hacia arriba se ve un portal de color verdoso ...
+~
+0 CJ 0
+D4
+~
+~
+0 0 3001
+M 200 H 200
+S
+#19098
+En los muelles~
+Estas en los muelles del Parque. Solo los empleados tienen acceso a esta
+parte ademas de los turistas, que se supone llegarian por Barco en cruceros,
+de lujo..
+~
+0 0 0
+D0
+~
+~
+0 0 19099
+D2
+~
+~
+0 0 19013
+S
+#19099
+Fin de los muelles~
+Estas en la parte final de los muelles de Jurassik Park.  El lujo que
+rodea esta parte te fascina, ya que las enormes Palmeras Antediluvianas te
+atraen la atencion poderosamente, ademas de las hermosas senioritas que te
+reciben ..  
+~
+0 0 0
+D2
+~
+~
+0 0 19098
+S
+#19100
+En el Aire...~
+Te encuentras en el aire...suerte que puedes volar o te habrias sacado la ....
+#@#!^($#%^&*****3w4.
+~
+0 0 11
+D2
+~
+~
+0 0 19090
+D5
+~
+~
+0 0 19093
+S
+#0
+
+
+
+#SPECIALS
+M 19000 spec_caminante
+M 19001 spec_hunter
+M 19003 spec_poison
+M 19005 spec_hunter
+M 19011 spec_hunter
+M 19015 spec_caminante
+M 19016 spec_ogre_member
+M 19017 spec_hunter
+M 19018 spec_caminante
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 19009 2 1
+D 0 19014 0 1
+D 0 19014 2 1
+D 0 19017 1 1
+D 0 19018 3 1
+D 0 19020 1 1
+D 0 19021 0 1
+D 0 19021 3 1
+D 0 19022 2 1
+D 0 19023 0 1
+D 0 19024 2 1
+D 0 19025 0 1
+D 0 19027 2 1
+D 0 19028 5 1
+D 0 19047 5 1
+D 0 19049 5 1
+D 0 19052 5 1
+D 0 19053 4 1
+D 0 19088 4 1
+D 0 19092 0 2
+D 0 19094 1 1
+D 0 19094 2 2
+D 0 19095 3 1
+M 0 19000 10 19001 2
+G 0 19000 0
+M 0 19000 1 19006 1
+M 0 19001 1 19008 1
+G 0 19018 0
+O 0 19002 0 19009
+M 0 19003 1 19014 1
+E 0 19019 0 6
+M 0 19005 10 19019 10
+E 0 19004 0 16
+M 0 19007 10 19022 10
+E 0 19007 0 5
+M 0 19007 10 19023 10
+E 0 19007 0 5
+M 0 19008 10 19023 3
+M 0 19006 1 19024 1
+G 0 19005 0
+G 0 19006 0
+M 0 19008 4 19025 4
+E 0 19008 0 5
+M 0 19007 10 19025 10
+E 0 19007 0 5
+M 0 19089 1 19028 1
+M 0 19009 1 19036 1
+G 0 19009 0
+O 0 19010 0 19039
+M 0 19010 5 19039 1
+M 0 19011 1 19039 1
+G 0 19011 0
+M 0 19000 10 19040 2
+E 0 19000 0 16
+M 0 19010 5 19040 1
+M 0 19012 9 19050 2
+E 0 19012 0 6
+M 0 19012 9 19050 2
+G 0 19014 0
+M 0 19012 9 19051 1
+E 0 19013 0 7
+M 0 19012 9 19051 2
+E 0 19015 0 10
+M 0 19015 5 19062 1
+M 0 19015 30 19062 1
+M 0 19015 20 19063 1
+M 0 19013 1 19064 1
+G 0 19016 0
+M 0 19014 1 19064 1
+M 0 19016 1 19066 1
+E 0 19017 0 6
+M 0 19017 1 19066 1
+M 0 19010 4 19068 1
+M 0 19018 3 19068 2
+M 0 19019 4 19079 2
+M 0 19021 1 19084 1
+G 0 19020 0
+G 0 19021 0
+G 0 19022 0
+M 0 19022 1 19087 1
+M 0 19088 1 19087 1
+O 0 19027 0 19087
+P 0 19026 1 19027 1
+M 0 19026 3 19091 1
+M 0 19023 3 19092 1
+G 0 19023 0
+M 0 19026 4 19093 1
+M 0 19023 3 19094 1
+G 0 19025 0
+M 0 19024 2 19095 2
+G 0 19024 0
+M 0 19025 4 19096 1
+G 0 19024 0
+S
+
+
+
+#SHOPS
+19006 0 0 0 0 0 100 100 100 100 0 23
+19021 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#HELPS
+-1 vampire vampiros~
+Los VAMPIROS son criaturas de la oscuridad, adaptadas para vivir, algunas 
+veces en el dia, y cuyo unico proposito en la vida es transmitir la estirpe
+a otras criaturas.
+Los VAMPIROS son criaturas capaces de alimentarse de otras (llamese MOBs   o
+Players) y tienen algunas caracteristicas propias.
+Los VAMPIROS tienen la habilidad (ya que son de la noche) de detectar casi
+todas las formas de invisibilidad, detectar las cosas escondidas, poder 
+atravesar puertas a voluntad, y obviamente pueden volar.
+Sin embargo, ya que no todo puede ser bueno, ellos no cuentan con la habilidad
+de defenderse de los CAZA-VAMPIROS, los cuales pueden dejar a un vampiro
+inutilizado (aunque sea por poco tiempo).
+Por lo mismo, estas criaturas deben esconderse de los otros, ya que TODOS
+los odian..
+~
+
+-1 hobbit~
+Los HOBBITS son criaturas diestras, inteligentes y sabias que habitan en 
+pequenias cuevas a las que ellos llaman casas.
+Debido a su pequenia estatura, los HOBBITS no tienen mucha constitucion ni
+fuerza, lo que compensan con su alta sabiduria.
+Los HOBBITS poseen (gracias a habitar en sus cuevitas) Infravision, lo que
+les permite detectar a las criaturas de sangre caliente en el mismo cuarto
+que ellos, aunque no tengan luz.
+Ademas poseen la habilidad natural de esconderse en las sombras (hide)
+y la habilidad de caminar en silencio (sneak).
+Los HOBBITS pueden llegar a ser excelentes ladrones y magos, siendo su peor
+cualidad la de ser guerreros.
+~
+
+-1 cromagnon~
+Los CROMANIONS son una raza de semi-humanos, de apariencia simiesca, que
+luchaban sin cesar contra cualquier cosa viva, por el solo hecho de ver la
+sangre correr.
+Sus agitadas vidas siempre tuvieron  como motivo principal exterminar a 
+las criaturas magicas, ya que estas podian maltratarlos impunemente.
+A raiz de esto los CROMAGNIONES odian la magia y lo que se le parezca (llamese
+tambien psionica), volviendose, sin embargo, extremadamente duros a los golpes
+de tipo cortante y punzante.
+Los CROMAGNIONES son una excelente raza guerrera, y pueden contener la mayoria
+de sus emociones y encausarlas hacia la guerra (berserk).
+~
+
+-1 angel angeles~
+Los ANGELES son criaturas del bien que han bajado a la tierra a destruir a 
+las criaturas malvadas con sus poderes.
+Los ANGELES son seres que pueden llegar a ser muy sabios, inteligentes, y
+con alta resistencia fisica.
+Ademas de poseer la habilidad natural de volar, pueden tambien detectar la
+magia y la maldad de sus oponentes.
+Los angeles pueden ser buenos en casi todo, no teniendo restricciones de  
+clase.
+~
+
+-1 $~
+
+#$

@@ -1,0 +1,395 @@
+34
+rom basics~
+0 0 0 0 0 0 
+scrolls~
+staves~
+wands~
+recall~
+stake~
+untangle~
+End~
+
+mage basics~
+0 -1 -1 -1 -1 -1 
+dagger~
+End~
+
+cleric basics~
+-1 0 -1 -1 -1 -1 
+mace~
+End~
+
+thief basics~
+-1 -1 0 -1 -1 -1 
+dagger~
+steal~
+evaluar~
+End~
+
+warrior basics~
+-1 -1 -1 0 -1 -1 
+sword~
+second attack~
+End~
+
+psi basics~
+-1 -1 -1 -1 0 -1 
+dagger~
+End~
+
+ranger basics~
+-1 -1 -1 -1 -1 0 
+dagger~
+sword~
+axe~
+hunt~
+second attack~
+ambidiestro~
+third attack~
+End~
+
+psi default~
+-1 -1 -1 -1 40 -1 
+ataques mentales~
+autocontrol mental~
+control mental~
+End~
+
+mage default~
+40 -1 -1 -1 -1 -1 
+lore~
+beguiling~
+kombat~
+detection~
+enhancement~
+illusion~
+maladictions~
+protective~
+transportation~
+weather~
+concentracion~
+End~
+
+cleric default~
+-1 40 -1 -1 -1 -1 
+flail~
+attack~
+creation~
+curative~
+benedictions~
+detection~
+healing~
+maladictions~
+protective~
+shield block~
+transportation~
+weather~
+harmful~
+concentracion~
+regeneracion~
+End~
+
+thief default~
+-1 -1 40 -1 -1 -1 
+mace~
+sword~
+backstab~
+disarm~
+dodge~
+second attack~
+trip~
+hide~
+peek~
+pick lock~
+sneak~
+hunt~
+snare~
+End~
+
+warrior default~
+-1 -1 -1 40 -1 -1 
+weaponsmaster~
+shield block~
+bash~
+disarm~
+enhanced damage~
+parry~
+rescue~
+kick~
+third attack~
+hand to hand~
+hunt~
+afilar~
+berserk~
+trozar~
+blind fighting~
+End~
+
+ranger default~
+-1 -1 -1 -1 -1 40 
+kick~
+sneak~
+hand to hand~
+curative~
+protective~
+healing~
+detection~
+earthquake~
+harmful~
+weather~
+afilar~
+trozar~
+End~
+
+ataques mentales~
+-1 -1 -1 -1 15 -1 
+agitation~
+awe~
+ballistic attack~
+control flames~
+death field~
+detonate~
+disintegrate~
+ego whip~
+inflict pain~
+mind thrust~
+project force~
+psionic blast~
+psychic crush~
+psychic drain~
+ultrablast~
+hellspawn~
+End~
+
+autocontrol mental~
+-1 -1 -1 -1 15 -1 
+adrenaline control~
+biofeedback~
+cell adjustment~
+complete heal~
+displacement~
+ectoplasmic form~
+energy containment~
+enhance armor~
+enhanced strength~
+flesh armor~
+mental barrier~
+thought shield~
+chameleon power~
+shadow form~
+heighten senses~
+concentracion~
+End~
+
+control mental~
+-1 -1 -1 -1 15 -1 
+combat mind~
+aura sight~
+create sound~
+domination~
+inertial barrier~
+intellect fortress~
+lend health~
+levitation~
+share strength~
+psychic healing~
+End~
+
+weaponsmaster~
+40 40 40 20 40 40 
+axe~
+dagger~
+flail~
+mace~
+polearm~
+spear~
+sword~
+whip~
+End~
+
+attack~
+-1 5 -1 8 10 6 
+demonfire~
+dispel evil~
+dispel good~
+earthquake~
+flamestrike~
+heat metal~
+ray of truth~
+End~
+
+beguiling~
+4 -1 6 -1 -1 -1 
+calm~
+charm person~
+sleep~
+End~
+
+benedictions~
+-1 4 -1 8 10 6 
+bless~
+calm~
+frenzy~
+holy word~
+remove curse~
+quench~
+sate~
+levantar muertos~
+combat mind~
+cone of silence~
+exorcise~
+turn undead~
+End~
+
+kombat~
+6 -1 10 9 12 -1 
+acid blast~
+burning hands~
+chain lightning~
+chill touch~
+colour spray~
+fireball~
+lightning bolt~
+magic missile~
+shocking grasp~
+hellspawn~
+acid arrow~
+power word of kill~
+iceball~
+End~
+
+creation~
+4 4 8 8 8 7 
+brew~
+scribe~
+continual light~
+create food~
+create spring~
+create water~
+create rose~
+floating disc~
+raise fire~
+End~
+
+curative~
+-1 4 -1 8 10 4 
+cure blindness~
+cure disease~
+cure poison~
+End~
+
+detection~
+4 3 6 -1 10 2 
+detect evil~
+detect good~
+detect hidden~
+detect invis~
+detect magic~
+detect poison~
+farsight~
+identify~
+know alignment~
+locate object~
+End~
+
+draconian~
+8 -1 -1 -1 -1 -1 
+acid breath~
+fire breath~
+frost breath~
+gas breath~
+lightning breath~
+End~
+
+enchantment~
+6 -1 -1 -1 -1 -1 
+enchant armor~
+enchant weapon~
+fireproof~
+recharge~
+End~
+
+enhancement~
+5 -1 9 9 9 10 
+giant strength~
+haste~
+infravision~
+refresh~
+enhance health~
+End~
+
+harmful~
+-1 3 -1 6 6 3 
+cause critical~
+cause light~
+cause serious~
+harm~
+End~
+
+healing~
+-1 3 -1 6 9 3 
+cure critical~
+cure light~
+cure serious~
+heal~
+mass healing~
+refresh~
+End~
+
+illusion~
+4 -1 7 -1 9 -1 
+invis~
+mass invis~
+ventriloquate~
+web~
+End~
+
+maladictions~
+5 5 9 9 9 5 
+blindness~
+change sex~
+curse~
+energy drain~
+plague~
+poison~
+slow~
+weaken~
+mute~
+amnesia~
+End~
+
+protective~
+4 4 7 8 8 4 
+armor~
+cancellation~
+dispel magic~
+fireproof~
+protection evil~
+protection good~
+sanctuary~
+shield~
+stone skin~
+mystic armor~
+End~
+
+transportation~
+4 4 8 9 8 6 
+fly~
+gate~
+nexus~
+pass door~
+portal~
+summon~
+teleport~
+word of recall~
+End~
+
+weather~
+4 4 8 8 8 6 
+call lightning~
+control weather~
+faerie fire~
+faerie fog~
+lightning bolt~
+End~
+

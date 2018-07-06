@@ -1,0 +1,4821 @@
+#AREADATA
+Name Alcantarillas~
+Builders None~
+VNUMs 7000 7499
+Credits { 5 30} Tsarina Alcantarillas~
+Security 9
+Prototipo 0
+Low 5
+High 30
+Version 2
+End
+
+
+
+#MOBILES
+#7000
+monstruo de barro~
+el horroroso monstruo de barro~
+Un monstruo horroroso esta evolucionando a partir del barro...
+~
+Parece sacado de una pelicula de terror. Es una figura enorme que aparenta
+estar hecha solo de barro, pero eso no es lo peor, lo peor es que parece
+que haya desayunado aventurero con huevos fritos y ahora quiera cenar
+aventurero a l'ast.
+~
+'human'
+AG P 0 -250 0
+12 0 2d10+150 12d11+100 1d10+3 none
+0 0 0 2
+U 0 0 0
+rest rest none 5
+0 0 medium '0'
+C 'thief'
+#7001
+murcielago~
+el pequenyo murcielago~
+El pequenyo murcielago con cara de mala leche esta colgado del techo.
+~
+En tu vida has visto un animal tan pequenyo y con tanta cara de mala leche,
+la idea de molestarle en lo mas minimo no es especialmente atractiva a la
+vista de su aspecto.
+~
+'bat'
+AFG P 0 -500 0
+1 0 2d6+10 1d10+100 1d4+0 none
+9 9 9 9
+RU 0 0 0
+sleep sleep none 0
+0 0 medium '0'
+C 'warrior'
+F off F
+#7002
+rata~
+la rata gigante de las alcantarillas~
+La inmensa rata de alcantarilla esta aqui.
+~
+~
+'human'
+AF J 0 -1000 0
+5 0 2d6+60 5d10+100 1d6+1 none
+5 5 5 8
+U 0 0 0
+stand stand male 2
+0 0 medium '0'
+C 'thief'
+#7003
+aranya~
+la pequenya aranya~
+La pequenya aranya peluda.
+~
+~
+'human'
+AF P 0 -700 0
+1 0 2d6+10 1d10+100 1d4+0 none
+9 9 9 9
+U 0 0 0
+stand stand male 0
+0 0 medium '0'
+C 'cleric'
+#7004
+cucaracha~
+la cucaracha gigante~
+La cucaracha gigante se acerca a ti de manera amenazadora.
+~
+~
+'human'
+A J 0 -300 0
+8 0 2d7+96 8d11+100 1d7+2 none
+3 3 3 5
+U 0 0 0
+stand stand male 5
+0 0 medium '0'
+C 'thief'
+#7005
+gusano~
+el gusano~
+El gusano gigante se te acerca con cara de hambre.
+~
+~
+'human'
+A J 0 300 0
+3 1 2d6+35 3d10+200 1d6+0 none
+7 7 7 9
+U 0 0 0
+stand stand male 0
+0 0 medium '0'
+C 'psicionist'
+#7006
+serpiente~
+la serpiente~
+La serpiente 'serpentea' hacia ti.
+~
+~
+'snake'
+AF J 0 -500 0
+4 0 2d7+46 4d10+100 1d5+1 none
+6 6 6 9
+RU 0 0 0
+stand stand none 0
+0 0 medium '0'
+C 'warrior'
+#7007
+merodeador~
+el merodeador~
+El merodeador se te ha quedado mirando.
+~
+El merodeador es muy delgado. Lleva una capa gris sobre su huesudo cuerpo.
+~
+'human'
+ACH J 0 -1000 0
+10 0 2d7+121 10d11+100 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand male 15
+0 0 medium '0'
+C 'thief'
+#7008
+homunculo homonculo~
+la cosa rara~
+El homunculo esta aqui, mirandote de manera muy perversa.
+~
+El homunculo tiene un aspecto ligeramente humano, no es muy alto y tiene
+una piel de aspecto reptiliano, verde, tambien tiene alas y una boca
+semiabierta que parece la de un murcielago, mostrandote amenazadoramente
+sus colmillos amarillentos.
+~
+'human'
+A DJ 0 -780 0
+11 5 2d8+134 11d11+400 1d10+2 none
+1 1 1 3
+U 0 0 0
+stand stand none 25
+0 0 medium '0'
+C 'psicionist'
+#7010
+chreffn~
+el malvado chreffn~
+Los chreffn se estan arrastrando por aqui, inspeccionandolo todo con sus
+brillantes ojos amarillos.
+~
+La cabeza y el torso de los chreffn estan cubiertos de cobre, tiene unos
+brillantes ojos amarillos y el abdomen de un extranyo tono naranja.
+~
+'human'
+ACHT DP 0 -830 0
+12 18 2d10+170 12d11+100 1d10+3 none
+0 0 0 2
+CEIKLTU 0 0 0
+stand stand none 75
+0 0 medium '0'
+C 'warrior'
+#7011
+morkoth~
+el sombrio morkoth~
+El morkoth esta aqui, buscando alguien a quien MATAR!
+~
+Mide aproximadamente 1,5 metros, tiene una aspecto que se asemeja a un
+cruce entre un humano y una rata. Respira con ansia, y te mira con un
+brillo en los ojos que parece indicar que tiene MUCHA HAMBRE!.
+~
+'human'
+AFH J 0 -900 0
+10 5 2d7+121 10d11+400 2d4+2 none
+1 1 1 4
+U 0 0 0
+stand stand none 0
+0 0 medium '0'
+C 'ranger'
+#7013
+monstruo de barro~
+el horroroso monstruo de barro~
+Un monstruo horroroso esta evolucionando a partir del barro...
+~
+Parece sacado de una pelicula de terror. Es una figura enorme que aparenta
+estar hecha solo de barro, pero eso no es lo peor, lo peor es que parece
+que haya desayunado aventurero con huevos fritos y ahora quiera cenar
+aventurero a l'ast.
+~
+'human'
+AFG P 0 -250 0
+12 0 2d10+150 12d11+100 1d10+3 none
+0 0 0 2
+U 0 0 0
+rest rest none 50
+0 0 medium '0'
+C 'warrior'
+#7040
+dragon rojo~
+el dragon rojo~
+El impresionante dragon rojo te mira con cara de cabreo.
+~
+El dragon rojo te mira muy cabreado, a la vez que se levanta.          
+Se te acerca y te dice 'humano insignificante, me has DESPERTADO 
+... , es que no puede uno dormir tranquilo?...'.
+~
+'human'
+ABFT DJ 0 -1000 0
+32 48 10d10+1100 32d14+100 4d7+9 none
+-10 -10 -10 -9
+CDEFHIKLTU 0 0 0
+stand stand none 5000
+0 0 medium '0'
+C 'warrior'
+#7041
+bruja marina~
+la bruja marina~
+La bruja marina esta nadando aqui.
+~
+La bruja marina tiene un aspecto cadaverico, repugnante.
+Te mira con sus ojos amarillos como sus dientes. Tiene unas orejas gigantes,
+incluso puedes distinguir unos pequenyos cuernos. Es como una folclorica sin
+maquillar.
+~
+'human'
+AFO J 0 -800 0
+14 7 2d10+190 14d11+500 1d12+3 none
+-1 -1 -1 -1
+U 0 0 0
+stand stand female 0
+0 0 medium '0'
+C 'ranger'
+#7042
+guardian naga~
+el guardian naga~
+El guardian naga te mira amablemente.
+~
+Los naga son parecidos a serpientes. Esta cubierto de escamas verde-oro
+con pequenyos triangulos plateados en su espalda. Sus ojos son dorados.
+Advierte que te estas fijando en el y te dice:'Cuidado, este camino lleva
+a las moradas de criaturas muy peligrosas'.
+~
+'human'
+ABQ J 0 700 0
+12 6 2d10+150 12d11+500 2d4+2 none
+0 0 0 1
+ITU 0 0 0
+stand stand female 5
+0 0 medium '0'
+C 'cleric'
+#7043
+basilisco~
+el basilisk~
+El basilisco se te acerca lentamente.
+~
+El basilisco tiene un aspecto reptiliano acentuado por sus poderosas y
+bien armadas mandibulas, tiene ocho patas y un color marron que se torna
+en amarillo en su abdomen. Sus ojos son de un brillante verde palido.
+~
+'human'
+ACF DJ 0 -250 0
+13 0 2d10+170 13d11+100 2d5+3 none
+-1 -1 -1 1
+U 0 0 0
+stand stand male 17
+0 0 medium '0'
+C 'warrior'
+#7044
+lemur masa~
+el lemur masa~
+El lemur masa se te acerca preparandose para atacar!
+~
+Tiene un aspecto vagamente humano. Grandes ojos amarillos, boca salida.
+No parece estar muy interesado en ti, pero te ataca igualmente. Parece
+que su mente ha sido totalmente destruida.
+~
+'human'
+AF P 0 -500 0
+5 2 2d6+60 5d10+200 1d6+1 none
+5 5 5 8
+U 0 0 0
+stand stand none 0
+0 0 medium '0'
+C 'mage'
+#7045
+jones machaca ettin~
+Jones~
+Jones 'Machaca' el ettin te esta mirando.
+~
+Al primer vistazo creiste que Jones era un orco, pero cuando se te acerco
+viste su segunda cabeza. Lleva unas sucias y andrajosas ropas de piel.
+Huele QUE ALIMENTA!...
+~
+'human'
+ACF J 0 -480 0
+10 5 2d7+121 10d11+400 2d4+2 none
+1 1 1 4
+U 0 0 0
+rest rest male 3
+0 0 medium '0'
+C 'ranger'
+#7046
+herald matarratas ettin~
+Herald~
+Herald 'matarratas' el ettin te mira sin saber que hacer.
+~
+Cuando miras a Herald te sientes realmente mal. Sus ropas tienen un
+aspecto penoso, y tiene una cabeza casi inutil. Lleva una cuerda alrededor
+de su cintura con ratas y demas bichos colgando. Huele peor de lo que
+puedes imaginar que huela un ser vivo.
+~
+'human'
+AC J 0 200 0
+6 3 2d7+71 6d10+300 1d7+1 none
+4 4 4 7
+U 0 0 0
+rest rest male 2
+0 0 medium '0'
+C 'ranger'
+#7200
+experto mente desolla-mentes~
+el experto desolla-mentes~
+El experto desolla-mentes esta aqui, mirandote con mala cara.
+~
+Mide unos dos metros y lleva una capa purpura, esta sosteniendo un baston
+negro y purpura por encima de tu cabeza, listo para atacarte en cualquier
+momento. Enmedio de su cabeza tiene cuatro tentaculos con afilados extremos.
+~
+'human'
+ACFR DJ 0 -800 0
+14 7 2d10+150 14d11+500 1d10+2 none
+-1 -1 -1 0
+U 0 0 0
+stand stand none 50
+0 0 medium '0'
+C 'mage'
+#7201
+senior mente desolla-mentes~
+el desolla-mentes senior~
+El desolla-mentes senior esta aqui, buscando algo util.
+~
+Tiene un aspecto horroroso. Va vestido de negro y purpura y lleva una maza
+gigante en su mano. En el centro de su cabeza tiene cuatro largos tentaculos
+con unos extremos muy afilados.
+~
+'human'
+ACFR DJ 0 -600 0
+8 4 2d7+71 8d11+300 1d6+1 none
+4 4 4 4
+U 0 0 0
+stand stand none 20
+0 0 medium '0'
+C 'mage'
+#7202
+desolla-mentes junior~
+el desolla-mentes junior~
+El desolla-mentes junior te vigila atentamente desde una esquina.
+~
+Este desolla-mentes lleva una pequenya maza en su cinturon, que sujeta unos
+ropajes de color negro y purpura. Tiene cuatro pequenyos tentaculos en el
+centro de su cabeza.
+~
+'human'
+ACFR DJ 0 -350 0
+6 3 2d7+46 6d10+300 1d6+0 none
+5 5 5 6
+U 0 0 0
+stand stand none 10
+0 0 medium '0'
+C 'mage'
+#7203
+rata hombre-rata~
+el horrible hombre-rata~
+Un horrible hombre-rata esta aqui, mirandote de una manera muy rara...
+~
+El hombre-rata mide un metro y pico. Se parece mas bien a una rata excepto
+por su posicion erguida.
+~
+'human'
+ACFG J 0 -700 0
+6 3 2d7+71 6d10+300 1d7+1 none
+4 4 4 7
+U 0 0 0
+stand stand none 2
+0 0 medium '0'
+C 'mage'
+#7204
+rata gigante~
+la rata gigante~
+Aqui hay una rata gigante, mirandote como a un plato de comida...
+~
+La rata gigante mide mas de dos metros y medio, sus garras son tan grandes
+como tu cabezay parecen muy afiladas.
+~
+'human'
+ABF J 0 -800 0
+12 6 2d10+150 12d11+500 1d10+3 none
+0 0 0 2
+U 0 0 0
+sleep stand male 125
+0 0 medium '0'
+C 'cleric'
+#0
+
+
+
+#OBJECTS
+#7190
+anillo plata~
+un brillante anillo de plata~
+Aqui hay un anillo de plata~
+indef~
+jewelry G AB
+0 0 0 0 0
+7 10 468 P
+A
+18 1
+A
+17 -1
+#7200
+baston diabolico~
+el baston diabolico~
+El misterioso baston diabolico esta en el suelo~
+indef~
+weapon G AN
+exotic 3 4 'pound' C
+15 60 2300 P
+A
+1 1
+A
+18 2
+E
+baston diabolico~
+Este baston es realmente misterioso. Tiene una base negra y cuatro 
+tentaculos purpuras en el extremo.
+~
+#7201
+gran maza~
+la gran maza~
+Aqui hay una gran maza.~
+indef~
+weapon G AN
+mace 1 10 'crush' 0
+8 100 610 P
+A
+19 2
+E
+gran maza~
+La maza es bastante grande, debe pesar unas 10 lbs. La cabeza esta formada
+por cuatro tentaculos muy juntos.
+~
+#7202
+maza~
+la pequenya maza~
+Una pequenya maza ha sido olvidada aqui.~
+indef~
+weapon G AN
+mace 2 5 'crush' 0
+8 60 480 P
+A
+19 1
+E
+pequenya maza~
+Este arma no parece demasiado potente, pero nunca se sabe...
+~
+#7203
+capa~
+capa purpura~
+Hay una capa purpura tirada en el suelo.~
+indef~
+armor G AC
+6 6 6 0 0
+15 200 1250 P
+A
+20 -1
+#7204
+pocion~
+pocion azul neon~
+Una pocion azul neon esta en el suelo.~
+indef~
+potion G A
+14 'cure critical' 'invisibility' 'word of recall' ''
+17 40 1490 P
+#7205
+llave negra~
+una llave negra~
+Una llave negra ha sido dejada aqui.~
+indef~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+#7206
+calavera blanca~
+una extranya calavera blanca~
+Una extranya calavera blanca te mira desde el suelo.~
+indef~
+armor GH AE
+1 1 1 0 0
+0 300 10 P
+A
+2 -4
+E
+texto escrito~
+Lees el numero '666'.
+~
+E
+calavera blanca~
+La calavera tiene dos pequenyos cuernos en la frente. Descubres algo 
+escrito en su interior.
+~
+#7208
+palo pequenyo luz~
+un pequeno palo~
+Un pequenyo palo yace en el suelo.~
+indef~
+light 0 AO
+0 0 120 0 0
+0 10 5 P
+E
+letras letra~
+esta escrito 'sostenme'.
+~
+E
+pequenyo palo~
+El pequenyo palo no ofrece ningun rasgo interesante. Justo cuando te 
+dispones a tirarlo descubres unas pequenyas letras grabadas en el.
+~
+#7209
+botas embarradas~
+un par de botas embarradas~
+Aqui ves un par de botas embarradas.~
+indef~
+armor G AG
+3 3 3 0 0
+7 200 900 P
+A
+2 1
+E
+Las botas estan llenas de barro, aunque parecen confortables.~
+~
+#7210
+monedas tesoro~
+un gran tesoro~
+Aqui hay un gran tesoro, parece muy valioso.~
+indef~
+money 0 A
+400 3 0 0 0
+0 0 0 P
+E
+tesoro~
+es una pequenya fortuna.
+~
+#7211
+espada corta~
+una espada corta~
+Una espada corta yace aqui.~
+indef~
+weapon 0 AN
+sword 2 4 'pierce' 0
+5 40 540 P
+A
+18 1
+#7216
+garra roja garra-roja~
+una roja garra de dragon~
+Aqui hay una roja garra de dragon.~
+indef~
+weapon G AN
+exotic 2 15 'claw' 0
+31 190 5800 P
+A
+19 5
+A
+17 2
+E
+garra roja garra-roja~
+Esta enorme garra parece parte de un dragon.
+~
+#7217
+armadura plateada~
+una armadura plateada~
+Ves una armadura plateada en el suelo.~
+indef~
+armor GIKL AD
+8 8 8 2 0
+32 400 12400 P
+A
+1 3
+E
+armadura plateada~
+Ves una rosa grabada en la armadura, que a su vez parece estar hecha de
+plata o platino.
+~
+#7218
+perneras plateadas~
+unas perneras plateadas~
+Ves unas perneras plateadas en el suelo.~
+indef~
+armor GIKL AF
+8 8 8 2 0
+32 200 10100 P
+A
+3 3
+E
+perneras plateadas~
+Parecen estar hechas de plata o platino. Tienen una rosa dibujada.
+~
+#7219
+guantes plateados~
+un par de guantes plateados~
+Puedes ver un par de guantes plateados en el suelo.~
+indef~
+armor GIKL AH
+8 8 8 2 0
+27 140 3700 P
+A
+19 1
+A
+18 2
+E
+guantes plateados~
+Los guantes estan hechos de fibras de plata.
+~
+#7220
+yelmo plateado~
+un yelmo plateado~
+El yelmo plateado ha sido dejado aqui.~
+indef~
+armor GIKL AE
+9 9 9 2 0
+32 350 10600 P
+A
+4 3
+E
+yelmo plateado~
+El yelmo esta hecho de plata o platino y tiene un adorno blanco.
+~
+#7221
+escudo~
+el escudo de la rosa~
+El escudo de la rosa espera a ser recogido.~
+indef~
+armor GIKL AJ
+8 8 8 3 0
+30 600 5800 P
+A
+17 -7
+E
+escudo~
+Puedes distinguir el dibujo de una rosa roja sobre un fondo blanco.
+Tambien hay una inscripcion que reza:'Pax Est Sanctuum'.
+~
+#7222
+botas plateadas~
+un par de botas plateadas~
+Aqui hay un par de botas plateadas esperando a ser recogidas.~
+indef~
+armor GIKL AG
+8 8 8 2 0
+32 400 10100 P
+A
+2 3
+E
+botas plateadas~
+Las botas estan hechas de un material que parece plata.
+~
+#7223
+brazales plateados~
+unos brazales plateados~
+Alguien ha dejado unos brazales plateados en el suelo.~
+indef~
+armor GIKL AI
+8 8 8 2 0
+32 400 10100 P
+A
+5 3
+E
+brazales plateados~
+Parecen hechos de plata o platino. Tienen adornos en forma de rosa.
+~
+#7224
+capa blanca~
+una capa blanca~
+Una capa blanca esta tirada en el suelo~
+indef~
+armor GIKL AK
+9 9 9 2 0
+31 200 3700 P
+A
+20 -2
+E
+capa blanca~
+Es una magnifica capa de un material desconocido, que tiene un intenso
+brillo blanco.
+~
+#7298
+tesoro monedas~
+un gran tesoro~
+Un gran tesoro espera aqui a ser recogido.~
+indef~
+money 0 A
+400 12 0 0 0
+0 0 0 P
+E
+tesoro~
+Aqui hay un MONTON de monedas.
+~
+#7299
+espada corta~
+una espada corta~
+En el suelo hay una espada corta.~
+indef~
+weapon 0 AN
+sword 2 5 'stab' 0
+7 40 610 P
+E
+espada corta~
+Esta es una magnifica arma corta.
+~
+#7300
+mochila~
+una mochila~
+Ves una mochila en el suelo.~
+indef~
+container 0 AK
+60 AC 0 6 100
+0 20 100 P
+#7301
+bolsa~
+una gran bolsa~
+En el suelo ves una gran bolsa.~
+indef~
+container 0 AL
+5 AC 0 1 100
+0 10 20 P
+#7303
+orbe~
+el rojo orbe del dragon~
+Una esfera de intensos tonos rojos esta en el centro de la habitacion.~
+indef~
+staff GJ AO
+13 10 10 'sanctuary' 0
+21 50 18600 P
+A
+4 2
+A
+3 2
+#7304
+torso rojo~
+un torso rojo de dragon~
+En el suelo ves un monton de escamas de dragon rojas.~
+indef~
+armor GJ AD
+9 9 9 4 0
+29 300 6400 P
+A
+19 2
+A
+2 -1
+#7305
+perneras rojas~
+perneras rojas de dragon~
+Hay dos perneras rojas en el suelo, parecen estar hechas de escamas.~
+indef~
+armor GJ AF
+9 9 9 4 0
+29 170 3700 P
+A
+19 2
+A
+2 -1
+#7306
+garras dragon rojas~
+un par de garras de dragon rojas~
+Ves un par de garras de dragon rojasen el suelo.~
+indef~
+furniture GJ AH
+9 0 0 0 0
+20 40 1150 P
+A
+19 2
+#7307
+calavera yelmo dragon rojo~
+un yelmo de dragon rojo~
+Aqui hay un casco con forma de calavera de dragon.~
+indef~
+armor GJ AE
+9 9 9 4 0
+29 150 7000 P
+A
+4 2
+A
+19 2
+A
+2 -1
+#7308
+escudo rojo~
+el escudo de dragon rojo~
+Un escudo de dragon rojo espera ser recogido del suelo.~
+indef~
+armor GJ AJ
+10 10 10 5 0
+35 100 6900 P
+A
+19 2
+#7309
+patas rojas~
+un par de rojas patas traseras de dragon~
+Un par de rojas patas traseras de dragon estan el el suelo.~
+indef~
+armor GJ AG
+9 9 9 4 0
+29 400 3700 P
+A
+2 -1
+A
+19 2
+#7310
+brazaletes rojos~
+rojos brazaletes de dragon~
+Puedes ver un par de rojos brazaletes de dragon en el suelo.~
+indef~
+armor GJ AI
+9 9 9 4 0
+29 400 3700 P
+A
+2 -1
+A
+19 2
+#0
+
+
+
+#ROOMS
+#7190
+Vacio~
+Estas en la posicion mas desafortunada  de todo el mud. El resultado de tan 
+enorme tonteria deberia ser castigado con la muerte, lo sabes. Estas 
+descendiendo el Abismo con una aceleracion de unos 9.82 metros por segundo 
+cuadrado. Lo que te espera alla abajo seguira siendo un misterio. Adios
+Mundo Cruel.
+
+Te has caido y no puedes levantarte!!!
+
+~
+0 CD 0
+S
+#7199
+El borde del agua~
+El borde de la piscina esta debilmente iluminado por tu luz. No ves 
+absolutamente nada cerca. La oscuridad aqui parece oprimente. El aire 
+esta humedo y la roca sobre la que estas es muy resbaladiza. La piscina
+esta muy oscura para ver nada en ella. La roca puede ser escalada desde
+aqui.
+~
+0 ACD 5
+D4
+~
+~
+0 -1 7099
+S
+#7200
+El tesoro~
+Estas en una pequenia pero bien equipada habitacion del tesoro. Puedes ver 
+algo escrito en la pared. El techo desprende un extranio brillo que hace
+que puedas ver bien. Puedes volver dentro de la guarida a traves de la  
+puerta de piedra que esta al este.
+~
+0 CD 0
+E
+escritura~
+Lees el numero '666'.
+~
+E
+piedra puerta~
+Es una pesada puerta de piedra negra y parece muy solida.
+~
+D1
+Miras a traves de la abertura hacia la guarida.
+~
+puerta piedra~
+0 7205 7201
+S
+#7201
+Dentro de la guarida~
+Estas en una habitacion octogonal con lisas paredes de piedra purpura.
+El suelo esta hecho de piedra negra.En la pared oeste ves una gran puerta
+de piedra.
+~
+0 AD 0
+D2
+Miras atras a traves de la puerta hacia la guarida.
+~
+puerta madera~
+AB -1 7202
+D3
+Ves el tesoro
+~
+puerta piedra~
+ABC 7205 7200
+S
+#7202
+La guarida~
+Ves en el suelo un monton de restos humanos, huesos y calveras. Tambien 
+hay un monton de cieno.En la pared hay una antorcha situada en su soporte.
+Hacia el norte hay una puerta de madera.
+~
+0 D 1
+E
+antorcha soporte~
+La antorcha esta sujeta al soporte y este sujeto a la pared.
+~
+E
+cieno~
+El cieno es cenagoso y para nada interesante.
+~
+E
+calavera calaveras huesos restos~
+En todas las calaveras ves un agujero de unos cinco centimetros en la 
+frente. Todos los huesos estan rotos y son viejos.
+~
+D0
+Ves el centro del cubil.
+~
+puerta madera~
+AB -1 7201
+D1
+Ves otra parte de la guarida.
+~
+~
+0 -1 7205
+D2
+Ves otra parte de la guarida.
+~
+~
+0 -1 7203
+S
+#7203
+El cubil~
+En el suelo ves un monton de restos humanos, huesos y calaveras. Tambien 
+ves un monton de cieno. En la pared una antorcha descansa en su soporte.
+~
+0 D 1
+E
+antorcha soporte~
+La antorcha esta sujeta a su soporte y este a la pared.
+~
+E
+cieno~
+El cieno es cenagoso y no tiene nada de interesante
+~
+E
+calavera calveras huesos restos~
+En todas las calveras ves un agujero de unos cinco centimetros en la 
+frente. Todos los huesos estan rotos y son viejos.
+~
+D0
+Ves otra parte del cubil.
+~
+~
+0 -1 7202
+D1
+Ves otra parte del cubil.
+~
+~
+0 -1 7206
+D2
+Ves otra parte del cubil.
+~
+~
+0 -1 7204
+S
+#7204
+El cubil~
+En el suelo ves un monton de despojos humanos, huesos y calaveras. 
+Tambien hay un monton de cieno. En la pared hay una antorcha en su 
+soporte.
+~
+0 D 1
+E
+antorcha soporte~
+La antorcha esta sujeta al soporte y este a la pared.
+~
+E
+cieno~
+El cieno es cenagoso y no parece nada interesante.~
+E
+calavera calaveras huesos despojos~
+En todas las calaveras hay un agujero de unos cinco centimetros en la 
+frente. Todos los huesos estan rotos y son viejos.
+~
+D0
+Ves otra zona del cubil.
+~
+~
+0 -1 7203
+D1
+Ves otra zona del cubil.
+~
+~
+0 -1 7207
+D2
+Ves la entrada al cubil.
+~
+puerta madera~
+0 -1 7208
+S
+#7205
+El cubil~
+En el suelo ves un monton de despojos humanos, huesos y calaveras. 
+Tambien hay un monton de cieno. En la pared hay una antorcha en su 
+soporte.
+~
+0 D 1
+E
+antorcha soporte~
+La antorcha esta fijasa en su pedestal y este lo esta a la pared.
+~
+E
+cieno~
+El cieno es cenagoso y no tiene nada de interes.
+~
+E
+calavera calaveras huesos despojos~
+En todas las calaveras ves un agujero de unos cinco centimetros en la 
+frente. Todos los huesos estan rotos y son antiguos.
+~
+D2
+Ves otra zona del cubil.
+~
+~
+0 -1 7206
+D3
+Ves otra zona del cubil.
+~
+~
+0 -1 7202
+S
+#7206
+El cubil~
+En el suelo hay un monton de despojos humanos.Tambien hay un monton de 
+cieno. En la pared hay una antorcha en su soporte.
+~
+0 CD 1
+E
+antorcha soporte~
+La antorcha esta sujeta al soporte y este lo esta a la pared.
+~
+E
+cieno~
+El cieno es cenagoso y no tiene nada de interesante.
+~
+E
+huesos despojos~
+Todos los huesos estan rotos y son viejos.
+~
+D0
+Ves otra zona del cubil.
+~
+~
+0 -1 7205
+D2
+Ves otra parte del cubil.
+~
+~
+0 -1 7207
+D3
+Ves otra parte del cubil.
+~
+~
+0 -1 7203
+S
+#7207
+El cubil.~
+En el suelo hay montones de restos humanos, como calaveras y huesos. 
+Tambien ves cieno y una antorcha en la pared.
+~
+0 D 1
+E
+antorcha soporte~
+La antorcha esta sujeta al soporte de la pared.
+~
+E
+cieno~
+El cieno es cenagoso y no tiene nada de interes.
+~
+E
+calavera calaveras huesos despojos~
+En todas las calaveras ves un agujero de unos cinco centimetros en la 
+frente. Todos los huesos estan viejos y rotos.
+~
+D0
+Ves otra zona del cubil.
+~
+~
+0 -1 7206
+D3
+Ves otra zona del cubil.
+~
+~
+0 -1 7204
+S
+#7208
+La entrada al cubil.~
+Estas en una parte seca de la alcantarilla. Hacia el norte hay una puerta 
+de madera, ves algo de cieno en los bajos de la puerta. Tambien puedes 
+ver algunas calaveras y algunos huesos rotos.
+~
+0 ACD 2
+E
+cieno~
+El cieno es cengoso y no tiene nada de interes.
+~
+D0
+Ves el cubil.
+~
+puerta madera~
+AB -1 7204
+D1
+Ves un agujero por el que podrias caber pero solo si avanzas a gatas.
+~
+~
+0 -1 7209
+S
+#7209
+El agujero~
+Estas en un estrecho agujero. No ves nada interesante por aqui.
+~
+0 AD 3
+D1
+Ves un cruce de cuatro caminos.
+~
+~
+0 -1 7210
+D3
+Ves la entrada al cubil.
+~
+~
+0 -1 7208
+S
+#7210
+El curce de cuatro caminos.~
+Estas en un cruce de alcantarillas. Hacia el norte hay un pequenio 
+agujero, hacia el oeste un estrecho pasadizo y hacia el sur y al este 
+continua la alcantarilla.
+~
+0 AD 3
+D0
+Ves una habitacion que mas que una habitacion parece una cueva.
+~
+~
+0 -1 7211
+D1
+Ves un sumidero de alcantarilla.
+~
+~
+0 -1 7212
+D2
+Ves un sumidero de alcantarilla.
+~
+~
+0 -1 7215
+D3
+Ves un estrecho pasadizo.
+~
+~
+0 -1 7209
+S
+#7211
+La pequenia cueva.~
+Estas en un sumidero que se ha colapsado, ahora mas bien parece una 
+pequenia cueva.
+~
+0 AD 3
+D2
+Miras hacia atras al cruce de cuatro caminos.
+~
+~
+0 -1 7210
+S
+#7212
+El sumidero de alcantarilla.~
+Estas en un sumidero seco que lleva hacia el norte.
+~
+0 AD 3
+D0
+Ves el sumidero que continua hacia el norte.
+~
+~
+0 -1 7213
+D3
+Ves el cruce de cuatro caminos.
+~
+~
+0 -1 7210
+S
+#7213
+El sumidero de alcantarilla.~
+Estas en un sumidero seco que lleva hacia el este.
+~
+0 AD 3
+D1
+Ves el sumidero que lleva al este.
+~
+~
+0 -1 7214
+D2
+Ves el sumidero que continua al sur.
+~
+~
+0 -1 7212
+S
+#7214
+El final del sumidero.~
+Estas en el final del sumidero, alrededor tuyo la alcantarilla se ha 
+colapsado, la unica salida esta al oeste.
+~
+0 AD 3
+D3
+Ves el sumidero.
+~
+~
+0 -1 7213
+S
+#7215
+El sumidero medio humedo.~
+Estas en un sumidero donde el suelo esta cubierto de agua. Hacia el norte 
+parece mas seco, el sur de todas formas baja hasta el agua.
+~
+0 AD 4
+E
+agua~
+El agua esta sucia pero parece que puedes nadar en ella.
+~
+D0
+Hacia el norte hay un cruce de cuatro caminos seco.
+~
+~
+0 -1 7210
+D2
+Hacia el sur ves un sumidero de la alcantarilla lleno de agua.
+~
+~
+0 -1 7216
+S
+#7216
+Bajo el agua en la alcantarilla.~
+Nadas en agua sucia, no puedes respirar bien. mejos continuas antes de 
+ahogarte. Es una suerte que puedas sostener tu luz por encima del nivel 
+del agua. 
+~
+0 AD 6
+D0
+Es dificil de ver pero parece que el sumidero asciende.
+~
+~
+0 -1 7215
+D2
+Es dificil de ver, pero parece que el sumidero asciende un poco.
+~
+~
+0 -1 7217
+S
+#7217
+El sumidero semiseco.~
+Estas en un sumidero semi-seco. Hacia el norte el sumidero baja un poco 
+a un sitio con agua, al este ves un agujero. al oeste ves otro sumidero.
+~
+0 AD 4
+E
+agujero~
+A trves del agujero solo puedes ver una pequenia habitacion.
+~
+E
+agua~
+El agua esta sucia pero parece que podrias nadar en ella.
+~
+D0
+Ves el sumidero que va hacia abajo y se adentra en el agua.
+~
+~
+0 -1 7216
+D1
+A traves del agujero solo puedes ver una habitacion muy pequenia.
+~
+~
+0 -1 7218
+D3
+Ves un sumidero que va al oeste.
+~
+~
+0 -1 7219
+S
+#7218
+La habitacion pequenia.~
+Estas en una habitacion muy pequenia, no tiene nada de interes.
+~
+0 AD 3
+D3
+A traves del pequenio agujero solo puedes ver una  pequenia habitacion.
+~
+~
+0 -1 7217
+S
+#7219
+Un sumidero seco.~
+Estas en un sumidero seco y sucio. El sumidero continua al este y al sur.
+~
+0 AD 3
+D1
+Ves un sumidero semi-seco, o quiza es semi.mojado, no estas seguro.
+~
+~
+0 -1 7217
+D2
+Ves otro aburrido sumidero de alcantarilla.
+~
+~
+0 -1 7220
+S
+#7220
+Un aburrido sumidero.~
+Etas en otro maldito sumidero, no tiene nada nuevo, es un sumidero y 
+punto. Ta claro??
+~
+0 AD 3
+D0
+Ves que un sumidero continua al norte.
+~
+~
+0 -1 7219
+D1
+Ves otro sumidero que lleva al este.
+~
+~
+0 -1 7221
+S
+#7221
+El sumidero de alcantarilla.~
+Estas en un sumidero de alcantarilla, no hay nada especial aqui-
+aqui.qui-ui-i. Conio-onio-nio-io-o, HAY ECO-ECO-ECO-CO-O.
+~
+0 AD 3
+D1
+Ves otro sumidero de alcantarilla.
+~
+~
+0 -1 7222
+D3
+Ves otro sumidero de alcantarilla que lleva al oeste.
+~
+~
+0 -1 7220
+D4
+Ves una hilera de alcantarillas.
+~
+~
+0 -1 7129
+S
+#7222
+El sumidero de alcantarilla.~
+Estas en un sumidero con agua apestosa en el suelo.
+~
+0 AD 3
+E
+agua apestosa~
+El agua  fluye hacia el este.
+~
+D1
+Ves una curva en la alcantarilla.
+~
+~
+0 -1 7223
+D3
+Ves un sumidero.
+~
+~
+0 -1 7221
+S
+#7223
+La curva en la alcantarilla.~
+Te encuentras en una curva de alcantarilla. Lleva al oeste y al norte.
+~
+0 AD 3
+D0
+Ves otro sumidero.
+~
+~
+0 -1 7224
+D3
+Ves un sumidero.
+~
+~
+0 -1 7222
+S
+#7224
+El cruce de alcantarillas.~
+Estas en el cruce de tres sumideros.Ves unos antiguos araniazos en la
+ pared del tubo. como si los hubiese hecho una rata gigante. Al norte 
+y al sur la alcantarilla continua, como siempre, pero al oeste notas 
+algo raro.
+~
+0 AD 3
+D0
+No ves nada mas que un sumidero.
+~
+~
+0 -1 7225
+D2
+No ves nada mas que un sumidero de alcantarilla.
+~
+~
+0 -1 7223
+D3
+Ves un extranio tunel de alcantarilla.
+~
+~
+0 -1 7229
+S
+#7225
+La alcantarilla~
+Estas en una alcantarilla, hay agua apestosa que baja por un pequenio agujero.
+Ves unos extranios araniazos en la pared de la tuberis, como hechos por una
+rata gigante. Hay un sumidero de alcantarilla al sur.
+~
+0 AD 3
+D2
+Ves un sumidero de alcantarilla.
+~
+~
+0 -1 7224
+S
+#7229
+La extrania alcantarilla~
+Estas en una alcantarilla muy extrania, hay unos raros araniazos en la pared,
+como de una rata gigante. Tambien ves un monton de despojos organicos, por 
+ejemplo huesos de animales y HUMANOS. Al oeste el sumider va suavemente 
+hacia arriba.
+~
+0 AD 3
+D1
+Ves un cruce de alcantarillas.
+~
+~
+0 -1 7224
+D3
+Ves un apastoso sumidero.
+~
+~
+0 -1 7230
+S
+#7230
+La alcantarilla humeda.~
+Estas en una alcantarilla con una rara substancia en el suelo, esa substancia 
+esta formada por despojos. Ves unos extranios araniazos en la pared, como 
+de una rata gigante. Tanto el tunel deleste como el del oeste parece que bajan.
+~
+0 ACD 3
+D1
+Ves una alcantarilla.
+~
+~
+0 -1 7229
+D3
+Ves una alcantarilla.
+~
+~
+0 -1 7231
+S
+#7231
+La extrania  alcantarilla.~
+Estas en una alcantarilla normal excepto por los araniazos de la pared y un  
+monton de escombrosen el suelo.
+~
+0 AD 3
+E
+escombros~
+Ves un monton de despojos organicos en el suelo.
+~
+D1
+Ves  la alcantarilla.
+~
+~
+0 -1 7230
+D3
+Ves otra alcantarilla.
+~
+~
+0 -1 7232
+S
+#7232
+La alcantarilla.~
+Estas en una alcantarilla con mas araniazos en las paredes. Por supuesto 
+tambien hay un monton de despojos. El sumidero lleva de este a norte. 
+~
+0 AD 3
+D0
+Ves otra hilera de alcantarillas.
+~
+~
+0 -1 7233
+D1
+Ves un tunel de alcantarilla.
+~
+~
+0 -1 7231
+S
+#7233
+El sumidero.~
+Estas en un sumidero, ves una especie de habitacion que mas bien parece
+una cueva. Ves unos extranios araniazos en la pared del sumidero. La 
+alcantarilla continua al sur. 
+~
+0 AD 3
+D1
+Ves una habitacion que parece una cueva.
+~
+~
+0 -1 7234
+D2
+Ves una alcantarilla.
+~
+~
+0 -1 7232
+S
+#7234
+El cubil de la rata.~
+Estas en una pequenia cueva. Ves muchos escombros  en el suelo. Hay un 
+sumidero al oeste.
+~
+0 AD 3
+D3
+Por ese camino ves el  sistema de alcantarillado.
+~
+~
+0 -1 7233
+S
+#7279
+La pared del Abismo.~
+Estas sobre unos escalones que llevan  hacia abajo adentrandose en la oscuridad
+Hay una salida hacia arriba, pero tendras que abrir la roca de nuevo.
+~
+0 AD 5
+D4
+~
+~
+0 -1 7111
+D5
+~
+~
+0 -1 7399
+S
+#7280
+La entrada.~
+Estas en una habitacion muy oscura. Te das cuenta de que algunas caras te 
+estan mirando desde dentro de las paredes. En medio de la habitacion hay 
+un pequenio altar. Hacia el norte hay una pequenia puerta redonda. 
+~
+0 AD 1
+E
+triangulo~
+El triangulo esta lleno de unos pequenios simbolos escritos en un lenguaje 
+que jamas habias visto.
+~
+E
+altar~
+Este altar es muy especial. Hay en el caras sonrientes. Hay un triangulo en 
+todo lo alto del altar.
+~
+D0
+Un rayo de luz roja se filtra por un agujero en la puerta.
+~
+pequenia puerta redonda~
+0 -1 7281
+D4
+~
+puereta secreta~
+AB -1 7116
+S
+#7281
+El corredor.~
+El corredor esta rodeado de un matiz rojo oprimente. Puedes oir a alguien
+gemir a traves de un agujero negro que hay hacia el este. Al sur hay una 
+puerta redonda .
+~
+0 D 1
+E
+paredes~
+Parece que las paredes estan vivas.
+~
+E
+luz roja~
+La luz roja emana de las paredes.
+~
+E
+pequenia puerta redonda~
+La puerta es completamante redonda y tiene una cerradura.
+~
+D1
+El agujero parece mas oscuro que  la noche. Parece que se come la luz roja.
+~
+~
+0 -1 7282
+D2
+~
+pequenia puerta redonda~
+0 -1 7280
+S
+#7282
+La esfera de las almas perdidas.~
+Estas de pie en la nada. Todo lo que hay alrededor tuyo son estrellas.
+De vez en cuando una sombra pasa al lado tuyo, gimiendo. Hacia el norte 
+hay un pequenio agujero brillante. Hacia el oeste hay un pequenio agujero
+rojo. 
+~
+0 D 0
+E
+sombra~
+La sombra parece un hombre que sufre un inmenso dolor.
+~
+D0
+Miras dentro de un agujero muy brillante.
+~
+~
+0 -1 7283
+D3
+Miras dentro de un agujero rojo.
+~
+~
+0 -1 7281
+S
+#7283
+El cruce en forma de T~
+Estas en un pequenio vestibulo. Hay puertas al oeste y al este. Hacia el sur hay 
+un agujero negro. Hay una escritura en la pared. Puedes oir gemidos del sur.
+~
+0 ACD 1
+E
+escritura~
+La escritura dice ' El del este, pertenece a una bestia. El del oeste seguramente
+sera el FIN de tu avetura!'.
+~
+D1
+Demasiado oscuro para expresarlo con palabras.
+~
+~
+0 -1 7286
+D2
+Un agujero  negro en la pared.
+~
+~
+0 -1 7282
+D3
+Ves un gran fuego al oeste. Parece un lugar insano para entar en el.
+~
+~
+0 -1 7284
+S
+#7284
+El fuago de la muerte.~
+Esta habitacion esta muy caliente. Las llamas te rodean. No ves ninguna
+salida, solo ves esqueletos!!!!!.
+~
+0 CD 1
+E
+escritura pared~
+La escritura dice 'No se oiran los ruegos a los DIOSES, la unica salida es la 
+muerte... MAMA, te quiero'
+~
+E
+esqueletos~
+Los esqueletos parecen haber muerto de hambre. Parece que uno ha escrito 
+algo en la pared.
+~
+S
+#7285
+La sala de torturas.~
+Estas enmedio de una habitacion cuadrada. A lo largo de las paredes hay
+esqueletos colgados de cadenas herrumbrosas. En medio de la habitacion
+hay una gran caja de madera, cubierta de polvo. Hacia el sur solo puedes  
+ver una pequenia salida.
+~
+0 D 1
+E
+gran caja de metal~
+la caja de metal esta cubierta de polvo. Te das cuenta de que una vez hubo 
+carbon en ella, aun quedan restos.
+~
+E
+esqueletos~
+Cuando miras a los esqueletos, ves que sufrieron una tortura impensable
+antes de poder morir y descansar. Estan colgados por los brazos, y algunos 
+de ellos fueron asesinados con un instrumento afilado.
+~
+D2
+Demasiado oscuro.
+~
+puerta hierro~
+0 -1 7286
+S
+#7286
+El patio del infierno~
+Estas en un monton de lodo. Un olor desagradable reina en el ambiente y 
+te marea. De vez en cuando pequenias llamas salen del lodo caliente. Hacia
+ el oeste hay una pequenia puerta. Hacia el norte hay una puerta de hierro.
+~
+0 CD 5
+D0
+Demasiado oscuro.
+~
+puerta hierro~
+0 -1 7285
+D3
+Demasiado oscuro.
+~
+~
+0 -1 7283
+S
+#7301
+La entrada a la esfera del silencio.~
+El lugar esta en absoluto silencio. Cuando miras alrededor ves que no ha 
+vivido aqui nadie en muchisimo tiempo. El polvo forma gruesas capas sobre 
+el suelo y sobre los muebles. En la pared hay un desgastado y poco valioso 
+tapiz.Una tortuosa escalera de piedra sube adentrandose en la negrura. En la
+pared oeste ves una gran antorcha encajada en la solida roca. Algo te bloquea 
+el camino al norte.
+~
+0 CD 2
+E
+escalon escalera~
+Parece que hubiese estadoaqui lo menos 12 siglos. Esta muy desgastada y grietas 
+en la superficie se mezclan con los nucleos de mineral que penetran la roca
+en la que estan cincelados los escalones.
+~
+E
+antorcha luz~
+Esta antorcha tan antigua parece haber estado encendida decadas, a pesar
+de que no se ven marcas de fuego en ellla!!
+~
+E
+obstaculo puerta~
+Parece una puerta excepcionalmente pesada, hecha de resistente acero.
+~
+S
+#7399
+En las paredes del Abismo~
+Te aferras a la pared para no caerte.
+Hay un gran cartel que dice:
+                    No he ido mas lejos, todavia...
+                Pero tengo ganas de terminar con esta sucia
+                   alcantarilla. Adios y buen viaje!!
+
+                   Redferne el Noble.
+Aqui se acaba el camino hacia abajo, la unica salida esta hacia arriba.
+~
+0 AD 5
+D4
+~
+~
+0 -1 7279
+D5
+~
+~
+0 0 16223
+S
+#7400
+La entrada de la cueva~
+Estas en la entrada de la cueva. Esta muy oscuro alla 
+abajo. Hay una escritura en la pared. Hay una salida
+hacia el norte. Una escalera lleva arriba.
+~
+0 AD 1
+E
+escritura pared~
+La escritura dice 'CUIDADIN aventurero!!'
+~
+D0
+Hacia el norte ves un pequenio tunel.
+~
+~
+0 -1 7401
+D4
+Ves las escaleras que asciende en la oscuridad.
+~
+~
+0 -1 7102
+S
+#7401
+Tunel en la cueva~
+Caminas por un tunel. Hace mucho frio. Sientes la  
+presencia de un ser viviente... en algun sitio.
+~
+0 AD 1
+D0
+Hacia el norte ves que continua el tunel.
+~
+~
+0 -1 7402
+D2
+Hacia el sur continua el tunel.
+~
+~
+0 -1 7400
+S
+#7402
+Habitacion en la cueva~
+Estas en una habitacion. Hace mucho mas frio. Las 
+paredes brillan.
+~
+0 D 1
+D1
+Hacia el este ves un tunel que va hacia abajo.
+~
+~
+0 -1 7403
+D2
+Hacia el sur ves un tunel oscuro.
+~
+~
+0 -1 7401
+D3
+~
+~
+0 -1 7421
+S
+#7403
+Cueva en forma de T~
+Estas en una sustancia parecida al fango. El olor es 
+repugnante. Hacia el oeste ves una luz.
+~
+0 AD 2
+E
+gusanos~
+The worms are purple. They do not look edible.
+~
+E
+fango~
+Cuando examinas el fango, ves gusanos que se arrastran 
+por el.
+~
+D1
+Hacia el este el tunel baja aun mas.
+~
+~
+0 -1 7404
+D2
+~
+~
+0 -1 7408
+D3
+Ves una luz hacia el oeste.
+~
+~
+0 -1 7402
+S
+#7404
+Cueva punto-de-vuelta~
+El fango se esta haciendo mas profundo. Te preguntas:
+No seria una buena idea salir de aqui antes de 
+desaparecer? Hacia el sur hay una piedra lisa y redonda
+bloqueando el camino. Hacia el oeste ves lodo.
+~
+0 AD 2
+E
+piedra lisa redonda~
+La piedra no parece nada interesante. PERO justo cuando 
+te vas a dar la vuelta, ves un tenue rayo de luz sale de 
+un pequenio agujero. Conclusion: la piedra se mueve 
+*smile*.
+~
+D2
+Ves una abertura tras la piedra.
+~
+piedra lisa redonda~
+AB -1 7405
+D3
+~
+~
+0 -1 7403
+S
+#7405
+La habitacion secreta.~
+Hay polvo por todo el lugar. Parece como si nadie hubiese 
+estado aqui por epocas. Enmedio de la habitacion ves
+un globo de cristal en un pedestal. El globo brilla con 
+una luz que parpadea. Hacia el norte ves una puerta de 
+piedra. Hacia el sur ves un obstaculo gris.
+~
+0 D 1
+E
+globo de cristal~
+El globo de cristal brilla con una luz que parpadea.
+Parece como si hubiese humo dentro.
+~
+E
+pedestal~
+El pedestal parece el trabajo de un enano.Es MUY 
+bonito.
+~
+D0
+Ves una puerta redonda de piedra.
+~
+puerta redonda de piedra~
+AB -1 7404
+D2
+Ves un obstaculeo gris.
+~
+obstaculo gris~
+AB -1 7406
+S
+#7406
+El agujero de lodo~
+Estas sobre un monton de lodo. El lodo te llega hasta 
+el pecho. Sientes la presencia de algo EN el lodo. La 
+unica salida esta al oeste.
+~
+0 AD 6
+D0
+No ves nada en absoluto.
+~
+obstaculo gris~
+AB -1 7405
+D3
+~
+~
+0 -1 7407
+S
+#7407
+Tunel~
+El lodo te llega hasta las rodillas.A parte de eso  
+el tunel parece normal.
+~
+0 AD 5
+D0
+~
+~
+0 -1 7408
+D1
+Ves un agujero de lodo.
+~
+~
+0 -1 7406
+D2
+~
+~
+0 -1 7409
+S
+#7408
+El largo tunel.~
+Casi no hay lodo, mientras estas sobre una pequenia
+roca. Justo a tu lado ves una inscripcion que dice:
+' CUIDADIN!! Los gusanos son peligrosos!'.
+~
+0 AD 1
+D0
+Ves un monton de lodo. Aghh...!
+~
+~
+0 -1 7403
+D2
+El tunel baja un poco.
+~
+~
+0 -1 7407
+S
+#7409
+La habitacion caliente~
+Estas muy sorprendido, para variar esta habitacion esta
+caliente en lugar de fria. Hacia el norte el tunel baja
+adentrandose en el lodo. Tambien hay una salida al oeste.
+~
+0 AD 1
+D0
+Ves un monton de lodo.
+~
+~
+0 -1 7407
+D3
+Ves la entrada ha una pequenia habitacion.
+~
+~
+0 -1 7410
+S
+#7410
+La pequenia habitacion~
+Cuando miras te das cuenta de que hay una estatua. Hay
+una salida al oeste y otra al este.
+~
+0 AD 1
+E
+pequenia estatua~
+Esta es una estatua de un diablillo, seniala hacia el 
+oeste. El diablillo parece un hombre con cuernos y cola.
+~
+D1
+Esta totalmente a oscuras alla afuera.
+~
+~
+0 -1 7409
+D3
+Ves un vestibulo MUY largo.
+~
+~
+0 -1 7411
+S
+#7411
+La cueva de estalagmitas.~
+Estas en una cueva de estalagmitas. El agua brota de las 
+paredes. Hace mucho frio aqui.
+~
+0 AD 2
+E
+estalagmitas~
+Las estalagmitas son muy altas y hermosas.
+~
+D0
+~
+~
+0 -1 7414
+D1
+Ves un largo vestibulo, y algo de lodo.
+~
+~
+0 -1 7410
+D2
+~
+~
+0 -1 7412
+S
+#7412
+El tunel de estalagmitas~
+Has entrado en un pequenio tunel. Aqui esta muy seco.
+quiza seria una buena idea descansar aqui.
+~
+0 AD 1
+D0
+Ves un pequenia cueva al norte.
+~
+~
+0 -1 7411
+D3
+~
+~
+0 -1 7413
+S
+#7413
+La habitacion pastel~
+Definitivamente NO te gusta este area. Esta muy oscuro y la 
+mayoria de los sitios estan muy humedos.
+~
+0 CD 3
+D1
+~
+~
+0 -1 7412
+D3
+~
+~
+0 -1 7445
+S
+#7414
+El cruce de tuneles de estalagmitas en forma de T~
+Estas en un cruce. Hacia el norte ves una luz. Por
+lo demas esta totalmente a oscuras.
+~
+0 CD 1
+D0
+Ves una luz delante.
+~
+~
+0 -1 7417
+D1
+~
+~
+0 -1 7415
+D2
+~
+~
+0 -1 7411
+S
+#7415
+Habitacion sin salida~
+Esta habitacion es evidentemente el final del camino. 
+Hacia el norte ves un cuadro primitivo.
+~
+0 AD 1
+E
+cuadro primitivo~
+Ves unas personas bailando alrededor de un gran sol.
+El sol tiene unos siete pies de diametro, esto muestra 
+el tamanio del cuadro.
+~
+D0
+Ves un cuadro primitivo.
+~
+sol~
+AB -1 7416
+D3
+~
+~
+0 -1 7414
+S
+#7416
+La habitacion del tesoro~
+Esta habitacion esta ricamente ornamentada. En las paredes
+hay grabados de personas bailando en torno a un sol dibujado
+en el suelo. Parece muy antiguo, y esta lleno de polvo.
+Hacia el sur ves una puerta secreta.
+~
+0 AD 1
+D2
+ves un gran cuadro con personas danzando alrededor de 
+la luna.
+~
+puerta cuadro sol luna~
+AB -1 7415
+S
+#7417
+La guarida cuadrada~
+Estas en la zona sureste del cubil. Ves un esqueleto en 
+la pared.
+~
+0 D 1
+E
+esqueleto~
+Parece un aventurero que no ha tenido mucha suerte. Mejor 
+sera que estes alerta.
+~
+D0
+Otra parte del cubil.
+~
+~
+0 -1 7418
+D2
+~
+~
+0 -1 7414
+D3
+Otra zona del cubil.
+~
+~
+0 -1 7420
+S
+#7418
+La guarida cuadrada~
+Estas en la parte noreste del cubil. Ves un cartel en la 
+pared.
+~
+0 AD 1
+E
+cartel pared~
+El cartel dice:
+             'DIOSES DE LA GUERRA, mi espada es mi companiera,
+              busco una luz libre de falsos orgullos'
+                Reymele Grug.....
+
+~
+D1
+Ves una puerta de madera.
+~
+puerta de madera~
+AB -1 7421
+D2
+Otra zona del cubil.
+~
+~
+0 -1 7417
+D3
+Otra zona del cubil.
+~
+~
+0 -1 7419
+S
+#7419
+La guarida cuadrada~
+Estas en la parte noroeste del cunbil. Aqui hay otra nota.
+La salida del cubil esta al norte.
+~
+0 AD 1
+E
+nota~
+La nota dice:
+        'Estoy dando vueltas en una historia interminable,
+                buscando la luz para volver a ganar
+                        mi orgullo.
+                Corama...
+~
+D0
+Ves un pequenio tunel que lleva al norte.
+~
+~
+0 -1 7422
+D1
+Otra zona del cubil.
+~
+~
+0 -1 7418
+D2
+otra zona del cubil.
+~
+~
+0 -1 7420
+S
+#7420
+El final del cubil.~
+Ves una mesa en frente de ti. Esta muy polvoriento.
+A la mesa estan sentados cinco esqueletos. Las salidas
+estan al norte y al este.
+~
+0 AD 1
+E
+estatua del dragon~
+Parece un dragon de plata. Esta clavada en la mesa. El 
+dragon esta sentado en otro dragon que parece muerto. Pero
+los ojos del dragon brillan con un parpadeo rojo. Te sientes
+absorbido.
+~
+E
+esqueleto esqueletos~
+Ves que han sido asesinados de alguna forma extrania. No por 
+espada o porra.
+~
+E
+mesa~
+La mesa esta llena de polvo, en el centro hay una pequenia 
+estatua de un dragon durmiendo.
+~
+D0
+La parte norte del cubil.
+~
+~
+0 -1 7419
+D1
+La parte este del cubil.
+~
+~
+0 -1 7417
+S
+#7421
+Tunel este~
+Estas en un oscuro tunel, las salidas estan al este y al oeste.
+Hacia el oeste ves una puerta de madera.
+~
+0 CD 1
+D1
+Ves un tunel enfangado.
+~
+~
+0 -1 7402
+D3
+Ves una puerta de madera.
+~
+puerta de madera~
+AB -1 7418
+S
+#7422
+Tunel norte~
+Estas en un tunel oscuro, lleva hacia arriba.
+~
+0 AD 1
+D0
+El tunel oscuro continua.
+~
+~
+0 -1 7423
+D2
+Ves el cubil.
+~
+~
+0 -1 7419
+D3
+Ves la entrada de una cueva.
+~
+~
+0 -1 7436
+S
+#7423
+La habitacion con forma de L.~
+Estas en una oscuridad completa. Hacia el sur hay una pequenia salida.
+Hacia el este ves un agujero vacio.
+~
+0 AD 1
+D1
+~
+~
+0 -1 7424
+D2
+~
+~
+0 -1 7422
+S
+#7424
+El vestibulo circular.~
+Estas en un vestibulo circular. Hacia el norte,este y sur
+ves una cabeza de piedra colgada de la pared.
+~
+0 AD 1
+E
+azul~
+Parece un buen dragon.
+~
+E
+rojo~
+parece un dragon neutral
+~
+E
+verde~
+Parece un dragon malvado
+~
+E
+cabeza cabezas~
+Cuando estudias las caras ves que son caras de dragon.
+La cabeza del norte es roja, la del este verde y la del
+sur es azul.
+~
+D1
+no ves nada especial.
+~
+verde cabeza dragon escultura cara~
+AB -1 7425
+D3
+Ves una pared muy oscura.
+~
+~
+0 -1 7423
+S
+#7425
+Tunel polvoriento~
+Estas cubierto de polvo hasta las orejas. Este es un lugar que
+no ha sido tocada en mucho tiempo. El resto de la 
+habitacion es muy aburrido, parece un lugar para 
+descansar! Hacia el oeste ves el contorno de una puerta
+Un tunel lleva al este.
+~
+0 CD 1
+D1
+Ves un tunel que lleva hacia abajo.Esta muy oscuro.
+~
+~
+0 -1 7426
+D3
+Ves el contrno de una puerta.Simplemente como en la 
+descripcion!!
+~
+puerta~
+AB -1 7424
+S
+#7426
+El cruce~
+Estas en un cruce de vestibulos. Puedes abandonar esta sala por todas
+las direcciones excepto por arriba y por abajo. En el polvo ves una 
+extranias huellas.
+~
+0 AD 1
+E
+huellas posadas~
+No habias visto este tipo de huellas antes!
+~
+D0
+~
+~
+0 -1 7431
+D1
+~
+~
+0 -1 7430
+D2
+~
+~
+0 -1 7427
+D3
+~
+~
+0 -1 7425
+S
+#7427
+La habitacion en forma de L~
+Estas en una habitacion en forma de L. Oyes sonidos que vienen del 
+largo tunel que hay al este. Tienes miedo!! Una nota cuelga de la 
+pared.
+~
+0 AD 2
+E
+nota~
+La nota dice 'PELIGRO!!'.
+~
+D0
+~
+~
+0 -1 7426
+D1
+un tunel largo y  oscuro.
+~
+~
+0 -1 7428
+S
+#7428
+El cubil del DRAGON~
+Puedes ver las paredes quemadas, las piedras del suelo son rojo fuego. Hay
+todo tipo de huesos repartidos por el suelo. En las paredes ves algunas 
+formas quemadas. Hueles a carne tostada.. Dos criaturas se han derretido en 
+el suelo. TU ERES EL SIGUIENTE.
+~
+0 AD 2
+D0
+Ves un largo tunel.
+~
+~
+0 -1 7429
+D3
+No ves nada mas que oscuridad.
+~
+~
+0 -1 7427
+S
+#7429
+La habitacion quemada~
+Estas en una habitacion, que una vez estubo muy quemada. Hay algo
+escrito en la pared.
+~
+0 AD 1
+E
+nota~
+El escrito dice:'PELIGRO!!!'
+~
+D2
+ves un brillo rojo
+~
+~
+0 -1 7428
+D3
+~
+~
+0 -1 7430
+S
+#7430
+El tunel de viento.~
+EStas en un tunel. Por encima de ti sientes una brisa.
+~
+0 AD 1
+E
+brisa~
+La brisa viene de un agujero que tienes encima. NO hay
+forma de poder subir por ahi.
+~
+D1
+Muy oscuro.
+~
+~
+0 -1 7429
+D3
+~
+~
+0 -1 7426
+S
+#7431
+La habitacion brillante~
+Esta habitacion es toda brillo. En las paredes ves algo
+de plata. Las salidas son: Oeste, este y sur.
+~
+0 D 1
+E
+brillo paredes plata~
+La plata que brilla parece estar DENTRO de las paredes.
+~
+D1
+~
+~
+0 -1 7432
+D2
+~
+~
+0 -1 7426
+D3
+~
+~
+0 -1 7433
+S
+#7432
+El pasaje secreto.~
+Estas en una habitacion muy pequenia. HABIA una salida hacia abajo,
+ahora solo la hay al oeste.
+~
+0 AD 1
+E
+abajo~
+Hay un cartel bloqueando el camino. Dice:'hemos cerrado la entrada
+a la MUERTE'
+~
+D3
+Ves una luz al oeste.
+~
+~
+0 -1 7431
+S
+#7433
+Final del largo tunel~
+Estas al final de un largo tunel. Justo en frente de ti, ves
+una masa gris. Hacia el este ves un tunel tremedamente largo,
+pero sabes que, ya has estado aqui.
+~
+0 AD 5
+E
+masa gris~
+La masa no es otra cosa que masa, pero es muy sospechosa!
+~
+D1
+Largo tunel. JUSTO como en la descripcion.
+~
+~
+0 -1 7431
+D3
+Una masa gris esta bloqueando el camino.
+~
+~
+0 -1 7434
+S
+#7434
+Habitacion de la escalera~
+Estas en una pequnenia habitacion. Hay pintadas de caras que sufren en 
+las paredes. Sientes que la oscuridad se ha apoderado del lugar.
+Hay dos salidas:sur y abajo. Tienes la impresion de que el camino que
+va hacia abajo no esta terminado todavia.
+~
+0 AD 1
+D2
+nada mas que oscuridad
+~
+~
+0 -1 7435
+S
+#7435
+Tunel oscuro~
+Estas en un tunel oscuro. Continua al norte y al sur. Hay huesos 
+esparcidos por todo el suelo.
+~
+0 AD 1
+E
+hueso huesos~
+parecen huesos humanos.
+~
+D0
+~
+~
+0 -1 7434
+D2
+~
+~
+0 -1 7436
+S
+#7436
+Entrada al cubil~
+El hedor es repelente. Hacia el sur ves algo de humo. El tunel lleva
+al norte y al este.
+~
+0 ACD 2
+D0
+~
+~
+0 -1 7435
+D1
+Una pequenia cueva esta al este.
+~
+~
+0 -1 7422
+D2
+La unica cosa que ves es humo.
+~
+~
+0 -1 7437
+S
+#7437
+Parete noreste de la cueva de Basiliscos~
+Es dificil de ver por el humo. Hacia el norte distingues vagamente un 
+pequenio tunel. Hay otras salidas hacia el sur y al oeste.
+~
+0 AD 2
+D0
+~
+~
+0 -1 7436
+D2
+~
+~
+0 -1 7438
+D3
+~
+~
+0 -1 7439
+S
+#7438
+Parte sur este de la cueva de los Basiliscos.~
+Hay un agujero muy pequenio en la pared, de el sale el humo. El 
+resto de la zona esta oscura. Las salidas estan al norte y al oeste.
+~
+0 AD 2
+E
+pequenio agujero~
+Es un pequenio agujero. Tiene cerca de un pie de diametro.
+~
+D0
+No ves nada mas que humo.
+~
+~
+0 -1 7437
+D3
+No ves nada mas que humo.
+~
+~
+0 -1 7440
+S
+#7439
+Parte noroeste de la cueva de los Basiliscos~
+Ves algo de heno esparcido por el suelo. El hedor es repugnante, y te
+hace sentirmareado. El basilisco duerme aqui. Cuidadin ... A lo peor no
+esta muy lejos. 
+~
+0 AD 2
+E
+heno~
+El heno esta muy sucio. Su asqueroso hedor te hace sentir mareado.
+~
+D1
+~
+~
+0 -1 7437
+D2
+~
+~
+0 -1 7440
+S
+#7440
+Parte sur oeste de la cueva de los Basiliscos.~
+No ves nada mas que humo.
+~
+0 AD 5
+D0
+~
+~
+0 -1 7439
+D1
+~
+~
+0 -1 7438
+D2
+~
+~
+0 -1 7441
+S
+#7441
+La pequenia cueva~
+Estas en una pequenia cueva. Ves algo de luz al fondo. Las salidas
+estan al norte y al sur.
+~
+0 ACD 2
+D0
+Solo ves humo.
+~
+~
+0 -1 7440
+D2
+Ves un brillo azul. Sientes una brisa fresca.
+~
+~
+0 -1 7442
+S
+#7442
+El final norte de la piscina~
+Tienes los pies humedos, estas sobre agua. El agua esta en calma.
+Te das cuenta de que es un gran lago. La luz proviene del agua.
+~
+0 D 4
+D0
+Ves una pequenia cueva.
+~
+~
+0 -1 7441
+D1
+Ves mas agua.
+~
+~
+0 -1 7443
+D2
+Ves agua.
+~
+~
+0 -1 7444
+S
+#7443
+La piscina~
+Estas nadando en agua. Se esta haciendo profundo. Esta oscuro por 
+esta parte.
+~
+0 AD 6
+D2
+Ves algunas burbujas en el agua.
+~
+~
+0 -1 7445
+D3
+Ves agua en calma.
+~
+~
+0 -1 7442
+S
+#7444
+La parte sur de la piscina~
+El agua te llega hasta el cuello. Solo ves agua.
+~
+0 D 5
+D0
+Ves agua en calma.
+~
+~
+0 -1 7442
+D1
+Demasiado oscuro, pero sientes algo cerca.
+~
+~
+0 -1 7445
+S
+#7445
+La piscina~
+Estas nadando en la OSCURIDAD. Sientes algo que te toca la pierna 
+derecha.
+~
+0 AD 6
+D0
+Demasiado oscuro.
+~
+~
+0 -1 7443
+D1
+Sientes una pequenia brisa.
+~
+~
+0 -1 7413
+D3
+~
+~
+0 -1 7444
+S
+#7001
+La enfangada alcantarilla~
+Estas de barro hasta las rodillas. No parece que hayas elegido el mejor
+sitio para ir de excursion...la alcantarilla sigue hacia al sur.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, se podria decir que el olor es repugnante si no fuese
+porque en realidad es ASQUEROSO.
+~
+D2
+Ves que la enfangada alcantarilla continua hacia el sur. ~
+~
+0 -1 7002
+S
+#7002
+El enfangado cruce de alcantarillas~
+Esta alcantarilla lleva hacia el sur. No parece estar muy concurrida.
+Puedes ir al norte, sur y este desde aqui.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero eso no es lo peor, lo peor es el olor... es
+absolutamente APESTOSO.
+~
+D0
+La fangosa alcantarilla se extiende en la oscuridad hacia el norte. 
+~
+~
+0 -1 7001
+D1
+Este.La fangosa alcantarilla lleva a una curva hacia el sur. 
+~
+~
+0 -1 7007
+D2
+Sur. Por este camino la fangosa alcantarilla termina en un pozo de
+lodo. 
+~
+~
+0 -1 7003
+S
+#7003
+El agujero~
+Estas del famoso barro del MUD ';-)' hasta los mismisimos. La alcantarilla
+lleva al norte. En el centro puedes ver una tuberia que lleva hacia abajo.
+~
+0 ACD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. El enfangado cruce de alcantarillas esta en esa direccion. 
+~
+~
+0 -1 7002
+D5
+La enfangada tuberia de drenaje lleva hacia abajo a traves del lodo,
+ademas esta completamente oscura. 
+~
+~
+0 -1 7101
+S
+#7004
+El abismo oscuro~
+Estas al filo de un abismo que llega hasta la mas profunda oscuridad.
+El olor es realmente inaguantable, estas cloacas se superan a si mismas
+con cada paso que das.
+~
+0 AD 0
+D1
+Este. La alcantarilla lleva al cruce de alcantarillas. 
+~
+~
+0 -1 7009
+D5
+El Abismo lleva tan abajo que no llegas a ver el final. Ves una escalerilla
+al lado.
+~
+~
+0 -1 7102
+S
+#7005
+La alcantarilla embarrada~
+Estas en una curva de las alcantarillas, esta muy oscuro. El camino sigue
+al este y al sur desde aqui.
+~
+0 AD 4
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D1
+Este. Lo unico que se ve en la oscuridad es el fango. 
+~
+~
+0 -1 7011
+D2
+Sur. Increible!! Hay incluso mas fango en esta direccion que donde
+estas ahora. 
+~
+~
+0 -1 7006
+S
+#7006
+La alcantarilla enfangada~
+Estas sobre algo que te recuerda mucho a los cereales del desayuno aunque
+no esta caliente, de hecho esta bastante frio. La tuberia gira al norte y
+al este.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+La tuberia lleva a una curva hacia el este. 
+~
+~
+0 -1 7005
+D1
+La tuberia lleva a una curva hacia el sur. Que interesante!! Por alli hay
+lodo en el suelo. ~
+~
+0 -1 7012
+S
+#7007
+La curva en la mugrienta alcantarilla~
+Esta no es la idea de un paraiso terrenal, estas metido hasta las
+rodillas en algo que parece ser lodo, pero no puedes estar seguro de si
+lo es. La curva en la que estas lleva al oeste y al sur.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D2
+La tuberia lleva a una bifurcacion al sur y al este. El suelo aqui sigue
+cubierto de lodo.
+~
+~
+0 -1 7008
+D3
+La tuberia(aun llena de lodo) lleva a una bifurcacion al norte y al
+sur.Que interesante.
+~
+~
+0 -1 7002
+S
+#7008
+Un cruce enfangado~
+Tienes ambos pies atascados en el barro. Lo peor no es el barro sino el
+hedor putrefacto, los sonidos, la absoluta negrura que te rodea. Todo
+aqui es tan deprimente...Una tuberia cubierta de lodo lleva al norte,
+otra al este y otra al sur.
+~
+0 AD 4
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. La tuberia lleva a traves de del fango que abunda incluso en las
+paredes. La curva lleva al oeste.
+~
+~
+0 -1 7007
+D1
+Este. Este camino es perfecto para el festival anual del fango, a pesar
+de que el hedor no permite mucha alegr=EDa. La tuberia lleva a una curva
+que gira hacia el norte.
+~
+~
+0 -1 7014
+D2
+Sur. Hay menos fango en esta direccion. *smile*. Tu luz no ilumina mas
+que para ver que la tuberia lleva a algun tipo de cruce.
+~
+~
+0 -1 7009
+S
+#7009
+El cruce de alcantarillas~
+Estas en medio de un gran cruce de alcantarillas justo debajo de lo que
+parece ser un pozo de aire. los tuneles llevan al norte,sur,este y oeste.
+Parece imposible forzar la salida por arriba.
+~
+0 AD 3
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. El fango es lo que forma el suelo en esa direccion. 
+~
+~
+0 -1 7008
+D1
+YYEEUUCH! BOOH! ESO parece un buen lugar para criaturas que se arrastren. 
+~
+~
+0 -1 7017
+D2
+Norte. Esta direccion se te antoja preciosa en comparacion con otras. El
+tunel gira mas adelante hacia el este.
+~
+~
+0 -1 7010
+D3
+Unos metros mas alante - lejos de este cruce - hay un foso que lleva
+hacia abajo, pero el aroma que sale de el...>PHEWW<.
+~
+~
+0 -1 7004
+S
+#7010
+Una curva en el tunel~
+Estas en una curva. Un fuerte aroma viene del norte. La alcantarilla sigue
+al norte y al este.
+
+~
+0 AD 2
+D0
+Norte. Miras hacia un gran cruce que tiene salidas en todas las
+direcciones. 
+~
+~
+0 -1 7009
+D1
+Este. El tunel se adentra en una profunda negrura. 
+~
+~
+0 -1 7018
+S
+#7011
+El tunel enfangado~
+Estas en algun tipo de interseccion entre tuneles que llevan al sur,
+oeste y este. Tus piernas estan cubiertas de lodo hasta las rodillas.
+Realmente ASQUEROSO.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D1
+Este. Hay menos fango en esa direccion o asi te lo parece.
+~
+~
+0 -1 7024
+D2
+Ese camino se pierde en la oscuridad, a pesar de ello crees que hay
+menos fango en esa direccion, quiza incluso el final de esta mierda que
+te rodea.
+~
+~
+0 -1 7021
+D3
+Oeste. El lodo sube por las paredes por este camino.
+~
+~
+0 -1 7005
+S
+#7012
+La curva en la enfangada alcantarilla~
+Esta no es tu idea de unas vacaciones. Estas metido en el lodo hasta
+las rodillas. Es absolutamente inconcebible como todo este lodo a
+podido acumularse aqui. El tunel lleva al oeste y al sur.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D2
+Sur. Increible, Hay incluso mas fango en esta direccion. A pesar de
+ello parece que hay un cruce en el sistema de alcantarillas que lleva
+al este y al sur.
+~
+~
+0 -1 7013
+D3
+Oeste. Todo lo que puedes ver en esa direccion es que el tunel lleva a
+una curva que gira hacia en norte. Pero hay menos fango en esa
+direccion, por extranio que parezca.
+~
+~
+0 -1 7006
+S
+#7013
+Un cruce ENFANGADO~
+No te gustaria experimentar la verdadera sensacion de estar metido hasta
+las caderas eneste fango tan repugnante. >BWAADR<. Tu mente solo piensa
+ahora en un banio caliente. Realmente esto no es un fango muy limpio
+recuerda que estas en las alcantarillas!!!.
+Los tuneles llevan al norte, sur y este.
+~
+0 AD 5
+E
+sedimentos~
+No es el tipo de asunto que te interesaria normalmente, pero como estas
+en medio de el, sencillamente se puede convertir en tu principal
+preocupacion. Realmente ASQUEROSO!!!
+~
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. El fango llena completamente este corredor que lleva a una
+curva que gira hacia el oeste
+
+~
+~
+0 -1 7012
+D1
+Este. No ves absolutamente nada interesante en esa direccion (Quiza es
+por eso que es tan interesante ) Ademas no hay lodo en esa direccion,
+FANTASTICO!!
+~
+~
+0 -1 7026
+D2
+Sur. Todo lo que puedes ver es mas lodo! . El tunel lleva a un giro
+hacia el oeste.
+~
+~
+0 -1 7014
+S
+#7014
+Alcantarilla enfangada~
+Estas enuna curva de un tunel del sistema de alcantarillado con fango
+hasta la cintura. Pensar en algun nivel de existencia superior a los
+microbios seria pura imaginacion, es imposible porque solo el hedor
+mantendria a cualquier ser inteligente fuera de este repugnante fin del
+mundo.La curva va de norte a oeste.
+~
+0 AD 5
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. Otro cruce lleno de lodo. Que paisaje mas aburrido!
+Los tuneles llevan al norte y al este.
+~
+~
+0 -1 7013
+D3
+Oeste. Hay menos lodo por aqui, a lo mejor es la salida de este
+ASQUEROSO lugar.
+~
+~
+0 -1 7008
+S
+#7015
+El antiguo pozo~
+Estas al lado de un pozo viejo y desgastado de antes de este siglo. La
+alcantarilla lleva al este desde aqui y el pozo se adentra hacia abajo en
+la negrura. Barras de metal estan colocadas en la pared del pozo a modo
+de escalera.
+~
+0 AD 3
+E
+barras~
+Parecen muy simples y poco seguras pero quiza lo suficiente como para
+bajar, agarrandote con AMBAS manos.
+~
+D1
+Este. No ves absolutamente nada debido a la oscuridad que te rodea, tu
+luz no sirve de mucho para ese tipo de oscuridad.
+~
+~
+0 -1 7028
+D5
+Mas abajo en el pozo hay incluso menos luz que aqui arriba, asi que 
+sintiendolo mucho NO PUEDES VER NADA. Hay barras de metal que llevan
+hacia abajo adentrandose en la negrura.
+~
+~
+0 -1 7105
+S
+#7016
+Una curva corriente.~
+Estas en medio de una curva en el sistema de tuneles del sistema de
+alcantarillado. Que lugar!!! El tunel lleva al sur y al este.
+~
+0 AD 1
+D1
+Este. Que lugar mas tranquilo has encontrado aqui abajo. Es un cruce
+que tiene tuneles que van al norte y al este.
+~
+~
+0 -1 7021
+D2
+Sur. No ves nada en esa direccion esta muy oscuro. 
+~
+~
+0 -1 7017
+S
+#7017
+El cruce de alcantarillas~
+Estas en otro aburrido cruce , salidas al norte, oeste y sur.
+~
+0 AD 1
+D0
+Norte. Ves una curva.
+~
+~
+0 -1 7016
+D2
+Sur. Parece otro cruce igual a este en el que estas. Parece que
+lleva a este y oeste.
+~
+~
+0 -1 7018
+D3
+Oeste. Hay un cruce de cuatro tuneles ahi delante. 
+~
+~
+0 -1 7009
+S
+#7018
+El cruce~
+Parece un cruce normal y corriente, de hecho parece muy tranquilo. Los
+tuneles llevan a oeste, este y norte.
+~
+0 ACD 1
+D0
+Hacia el norte puedes ver otro cruce como este, lleva al norte y al oeste.
+~
+~
+0 -1 7017
+D1
+Hacia el este no hay nada de especial interes, lo unico importante es que
+ves otro cruce que lleva al norte y al este.
+~
+~
+0 -1 7031
+D3
+Al oeste hay una curva que gira hacia el norte.
+~
+~
+0 -1 7010
+S
+#7021
+Un cruce tranquilo~
+Este es justo el tipo de lugar ideal para descansar, a pesar de que
+el olor podria ser mucho mejor. La alcantarilla sigue al este, norte
+y oeste.
+~
+0 ACD 1
+D0
+En esa direccion no puedes ver nada, sencillamente esta muy oscuro.
+~
+~
+0 -1 7011
+D1
+Hay un sencillo cruce en el sistema de tuneles hacia el este
+~
+~
+0 -1 7029
+D3
+Oeste. Hay una sencilla curva que lleva al sur hacia el sistema de
+alcantarillado.
+~
+~
+0 -1 7016
+S
+#7022
+La extrania habitacion con paredes ahumadas~
+Segun entra escuchas un pequenio *click* de una de las paredes...
+Empiezas a caer caer caer y caer...
+.
+.
+.
+.
+ ... Y llegas de repente al final de tu caida. Esto es bastante extranio.
+Hay una entrada en forma de arco que lleva hacia abajo.
+~
+0 AD 5
+D5
+Abajo. Esta completamente oscuro por este camino, a pesar de ello
+puedes discernir vagamente una interseccion de tuneles de
+alcantarillado que llevan al oeste, este y norte.
+~
+entrada~
+0 -1 7112
+S
+#7024
+La alcantarilla~
+Estas de lodo hasta los tobillos.Esto es una interseccion de tuneles que
+llevan al este , oeste y sur.
+~
+0 ACD 1
+D1
+Al este hay una peculiar habitacion redonda.
+~
+~
+0 -1 7037
+D2
+Hacia el sur hay otro cruce con tuneles que van al sur y al este.
+~
+~
+0 -1 7025
+D3
+Hacia el este hay otra interseccion como esta, con tuneles de
+alcantarilla que llavan al sur y al oeste.
+~
+~
+0 -1 7011
+S
+#7025
+Otro cruce~
+Otro maldito cruce esto empieza a burrir... Lleva al norte sur y este.
+~
+0 AD 1
+D0
+Hacia el norte hay un cruce, los tuneles llevan al oeste y al este.Te das
+cuenta de que el suelo del tunel oeste esta cubierto de lodo.
+~
+~
+0 -1 7024
+D1
+Este. No ves nada interesante en esa direccion. Solo otra interseccion
+que lleva a este y sur.
+~
+~
+0 -1 7038
+D2
+Otro cruce aparece al sur. Lleva al oeste y al sur.
+~
+~
+0 -1 7026
+S
+#7026
+Un cruce~
+Este parece interesante. Una gran diferencia con los otros. Parece mas
+limpio --Que raro-- Algo que parece una camara de aire esta sobre tu
+cabeza. Pero parece muy muy resbalidizo para subir. Los tuneles llevan
+al sur, oeste y norte.
+~
+0 ACD 0
+E
+porqueria~
+Esta muy oscuro, pero lo peor es el aroma, realmente repugnante!!.
+~
+D0
+Norte. Ves otra interseccion, lleva al norte y al este.
+~
+~
+0 -1 7025
+D2
+Hacia el sur hay OTRO cruce, lleva al oeste y al este.
+~
+~
+0 -1 7028
+D3
+Hacia el oeste ves una acumulacion de fango y lodo en la alcantarilla.
+Eso debe ser una interseccion pero no puedes estar seguro.
+~
+~
+0 -1 7013
+S
+#7028
+El cruce de alcantarillas~
+Estas en un cruce de alcantarillas que llevan al norte , este y oeste.
+~
+0 AD 1
+D0
+~
+~
+0 -1 7026
+D1
+Hacia el este ves una curva que tuerce hacia el sur.
+~
+~
+0 -1 7034
+D3
+Hacia el oeste solo te parece ver un antiguo pozo.
+~
+~
+0 -1 7015
+S
+#7029
+El cruce triple~
+Estas en medio de un gran cruce de tuneles de hormigon. Los tuneles
+llevan en tres direcciones diferentes:este, sur y oeste.
+~
+0 AD 1
+D1
+Este. Puedes ver ungiro en el tunel que lleva al norte.
+~
+~
+0 -1 7035
+D2
+Hacia el sur hay un ENORME cruce cuadruple, todo el iluminado por una
+extrania luz.
+~
+~
+0 -1 7030
+D3
+Hacia el sur solo puedes discernir vagamente otro cruce similar a este en
+el que estas.
+~
+~
+0 -1 7021
+S
+#7030
+El cruce cuadruple bajo el Basurero~
+Estas frente a algo que te recuerda a la entrada de un hormiguero. Hay
+enormes tuneles de Hormigon que llevan al norte, sur, este y oeste.
+Tambien hay una escalera metalica que sube hacia el basurero.
+~
+0 ACD 1
+E
+Escalera~
+Parece estar hecha de acero inoxidable, y podria ser ideal para pegar
+mamporros, pero ... no puedes cogerla porque esta firmemente empotrada 
+en la pared.
+~
+D0
+Hacia el norte ves un gran cruce triple con tuneles que llevan a este y
+oeste.
+~
+~
+0 -1 7029
+D1
+Este. Puedes ver un pozo en el suelo.
+~
+~
+0 -1 7036
+D2
+Hacia el sur hay un gran cruce con tuneles que llevan al este y al oeste.
+~
+~
+0 -1 7031
+D3
+Hacia el oeste hay una antigua habitcion con las paredes totalmente lisas.
+~
+~
+0 -1 7022
+D4
+Arriba entre la basura te parece ver el basurero de Midgaard.
+~
+~
+0 -1 3030
+S
+#7031
+Un cruce triple~
+Estas en un cruce con tuneles que llevan al oeste norte y este.
+~
+0 AD 1
+D0
+Hacia el norte hay un ENORME cruce cuadruple, todo el iluminado con una
+extrania luz.
+~
+~
+0 -1 7030
+D1
+Este. Distingues vagamente  un cruce triple que lleva al norte y al 
+este.
+~
+~
+0 -1 7044
+D3
+Oeste. Distingues vagamente un cruce triple, lleva al norte y oeste.
+~
+~
+0 -1 7018
+S
+#7034
+Una curva en el tunel.~
+Puedes mirar en dos direcciones : sur y este.
+~
+0 AD 2
+D2
+Hacia el sur ves otra curva que lleva al oeste.
+~
+~
+0 -1 7035
+D3
+Oeste. Distingues vagamente un cruce triple, lleva al norte y este.
+~
+~
+0 -1 7028
+S
+#7035
+La curva de la alcantarilla~
+Puedes mirar en dos direcciones hacia las que lle van sendos tuneles:
+Oeste y Norte.
+~
+0 AD 2
+D0
+Norte. Ves otra curva que  gira hacia el oeste.
+~
+~
+0 -1 7034
+D3
+Puedes ver otro cruce triple que lleva al sur y al oeste.
+~
+~
+0 -1 7029
+S
+#7036
+El pozo~
+Estas en un tunel sin salida. En el suelo hay un pozo que lleva hacia
+abajo. Hay hierros situados en una de las paredes del pozo, a modo de
+escalera.
+~
+0 AD 5
+D3
+Oeste. puedes ver un cruce cuadruple vagamente iluminado, tiene una
+salida hacia arriba.
+~
+~
+0 -1 7030
+D5
+Hacia abajo el pozo esta completamente a oscuras, no puedes ver nada.
+~
+~
+0 -1 7122
+S
+#7037
+La habitacion circular~
+Segun entras en la habitacion, esta empieza a girar - Al principio
+lentamente, despues mas rapido, mas , mas... - Estas totalmente confuso a
+cerca de donde esta el arriba y donde el abajo, pero estas seguro de que
+la puerta esta en el lugar opuesto a que estaba cuando entraste. Ahora
+lleva al este. Solo habia esta salida.
+~
+0 AD 1
+D1
+Puedes distinguir muy vagamente una habitacion mas pequenia con una
+silla.
+~
+~
+0 -1 7050
+S
+#7038
+El cruce triple~
+Estas en un cruce que lleva al oeste, este y sur.
+~
+0 AD 1
+D1
+Este. puedes ver la habitacion del guardia escasamente iluminada.
+~
+~
+0 -1 7045
+D2
+Hacia el sur puedes ver lo que parece un almacen.
+~
+~
+0 -1 7039
+D3
+Oeste. Ves otro cruce similar a este que lleva al norte y al sur.
+~
+~
+0 -1 7025
+S
+#7039
+El almacen de la alcantarilla~
+Estas en una pequenia habitacion iluminada por una unica antorcha en la
+pared. La unica salida esta al norte.
+~
+0 D 1
+D0
+Hacia el norte ves un cruce de tuneles.
+~
+~
+0 -1 7038
+S
+#7041
+El pozo~
+Estas en el borde de un profundo y oscuro pozo que lleva hacia abajo. Una
+escalera es tu unica herramienta para bajar si es que quieres. Desde aqui
+el tunel lleva hacia el sur.
+~
+0 AD 1
+E
+escalera~
+Esta firmemente fijada en la pared del pozo, parece imposible moverla.
+~
+D2
+Hacia el sur ves que el tunel continua mas alla perdiendose en la negrura.
+~
+~
+0 -1 7043
+D5
+Hacia abajo, completamente a oscuras. No hay absolutamente nada en esa
+direccion.
+~
+~
+0 -1 7123
+S
+#7043
+La entrada a la alcantarilla~
+Estas en medio de un tunel que lleva al norte y al sur. Sobre ti hay un
+pozo de aire que lleva hacia arriba a la luz. Parece totalmente imposible
+ir hacia arriba por ese camino.
+~
+0 AD 1
+D0
+Hacia el norte distingues vagamente un gran pozo que lleva hacia abajo.
+~
+~
+0 -1 7041
+D2
+Hacia el sur ves un cruce triple que lleva a oeste y este.
+~
+~
+0 -1 7044
+S
+#7044
+El cruce de tres caminos.~
+Estas en un pasage entre los tuneles de l sistema de alcantarillado que
+llevan al norte, este y oeste.
+~
+0 AD 1
+D0
+Ves un tunel de alcantarilla que lleva al norte.
+~
+~
+0 -1 7043
+D1
+~
+~
+0 -1 7049
+D3
+Oeste. Ves otro cruce similar a este, pero que lleva al norte y al oeste.
+~
+~
+0 -1 7031
+S
+#7045
+Una habitacion en las alcantarillas~
+Estas en una gran habitacion con sillas junto a las paredes. Tienes la
+impresion de que te vigilan. Hacia el sur hay una entrada hacia una
+habitacion mas grande todavia. La habitacion esta iluminada con cinco
+antorchas, tambien en las paredes. Hacia el oeste hay una puerta que
+lleva a las alcantarillas de nuevo.
+~
+0 D 1
+D2
+Ves una habitacion todavia mas grande que esta, muy iluminada.
+~
+~
+0 -1 7046
+D3
+Hacia el oeste ves las alcantarillas.
+~
+~
+0 -1 7038
+S
+#7046
+Una habitacion en las alcantarillas~
+Esta es una habitacion con las paredes relucientes como los chorros del
+oro. Es extranio, parece que el brillo de las paredes ilumina todo.
+Parece muy brillante. Hacia el sur el suelo esta cubierto de agua. El
+norte lleva hacia algo parecido a la habitacion del guardia.
+~
+0 D 1
+D0
+Hacia el norte ves la habitacion del guardia.
+~
+~
+0 -1 7045
+D2
+Hacia el sur no hay nada mas que agua y la salida lleva la este desde
+aqui.
+~
+~
+0 -1 7047
+S
+#7047
+La piscina de la alcantarilla~
+Estas metido en agua hasta la cintura. Hacia el norte esta la entrada a
+esta habitacion. una unica puerta lleva hacia el este.
+~
+0 D 1
+D0
+Hacia el norte esta la entrada a esta habitacion.
+~
+~
+0 -1 7046
+D1
+Ves un enorme vestibulo a traves de la puerta.
+~
+~
+0 -1 7053
+S
+#7048
+Las alcantarillas~
+Estas en un tunel sin salida. La unica salida esta al sur. Ves un pozo
+que lleva hacia arriba, pero parece muy dificil ir haci arriba por ese
+camino.
+~
+0 AD 1
+D2
+~
+~
+0 -1 7049
+S
+#7049
+El cruce~
+Estas en un cruce que lleva al norte, oeste y este.
+~
+0 AD 1
+D0
+~
+~
+0 -1 7048
+D1
+La oscuridad se cierra sobre esta parte del sistema de alcantarillado, 
+no ves nada en esa direccion.
+~
+~
+0 -1 7060
+D3
+Oeste. Ves otro cruce muy parecido a este pero que lleva al norte y al
+oeste.
+~
+~
+0 -1 7044
+S
+#7050
+La pequenia habitacion~
+La unica cosa de interes en esta habitacion es una silla, y esta pegada
+al suelo. Una puerta lleva alsur y otra al este se adentra en la
+oscuridad.
+~
+0 AD 1
+E
+silla~
+Esta silla esta hecha de marmol, pero el hecho de que esta pegada al
+suelo te hace pensarlo dos veces antes de llevartela.
+~
+D1
+Completamente a oscuras...!!
+~
+~
+0 -1 7055
+D2
+Ves una habitacion muy iluminada. No puedes distinguir ningun detalle en
+la misma.
+~
+~
+0 -1 7051
+S
+#7051
+El tunel de alcantarilla~
+Estas en lo que te recuerda a una asquerosa alcantarilla, como si te
+gustase estar aqui!! Puedes ver dos salidas que llevan al norte y al sur.
+~
+0 D 1
+D0
+~
+~
+0 -1 7050
+D2
+Hacia el sur puedes ver una extrania luz que proviene de alli.
+~
+~
+0 -1 7052
+S
+#7052
+La gran alcantarilla~
+Estas en un gran tunel de alcantarillado. Este se extiende hacia el sur.
+Es muy largo!! Una puerta lleva hacia el este.
+~
+0 D 1
+D0
+Hacia el norte ves una puerta.
+~
+~
+0 -1 7051
+D1
+No puedes ver nada, esta muy oscuro...
+~
+~
+0 -1 7056
+D2
+En el sur el 'suelo esta completamente lleno de agua
+~
+~
+0 -1 7053
+S
+#7053
+El final sur del gran tunel~
+Estas rodeado de agua hasta las rodillasuna puerta lleva hacia el 
+oeste desde aqui. El tunel se extiende hacia el norte.
+~
+0 D 1
+D0
+Ves un monton de cuadros decorando las paredes.
+~
+~
+0 -1 7052
+D3
+~
+~
+0 -1 7047
+S
+#7055
+El borde de la alcantarilla de agua~
+Estas en una habitacion donde la mitad del suelo esta cubierto de
+agua. El agua esta al este y una puerta lleva hacia el oeste.
+~
+0 AD 3
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D1
+Puedes adivinar que el camino en es direccion esta cubierto de agua.
+~
+~
+0 -1 7061
+D3
+~
+~
+0 -1 7050
+S
+#7056
+El oscuro vestibulo~
+No puedes ver mucho incluso con tu luz. El vestibulo lleva hacia un 
+pasaje hacia el sur. Una puerta lleva hacia el oeste.
+~
+0 AD 1
+D2
+No puedes ver absolutamente nada, por que en esa direccion esta 
+totalmente a oscuras.
+~
+~
+0 -1 7057
+D3
+Ves un monton de luz, brillante como la luz del dia, pero no ves nada 
+interesante
+~
+~
+0 -1 7052
+S
+#7057
+El oscuro pasaje~
+No ves nada excepto el suelo en el que tienes los pies.Parece que el 
+pasje continua al sur y al norte.
+~
+0 AD 1
+D0
+No puedes ver nada en esa direccion, ademas tu luz no llega tan lejos.
+~
+~
+0 -1 7056
+D2
+No puedes ver nada en esa direccion, ademas tu luz no llega tan lejos.
+~
+~
+0 -1 7058
+S
+#7058
+El oscuro pasadizo~
+No puedes ver nada mas que el suelo donde tienes los pies. El pasadizo 
+parece continuar hacia el sur y el norte.
+~
+0 AD 1
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7057
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7059
+S
+#7059
+El oscuro pasadizo~
+No puedes ver nada mas alla del suelo en el que pones los pies. El
+pasadizo parece continuar hacia el sur y el norte.
+~
+0 AD 1
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7058
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7060
+S
+#7060
+El oscuro pasadizo~
+No ves mas que el suelo en el que pones los pies. El pasadizo parece
+continuar al oeste y al norte. Hacia el este el suelo esta cubierto 
+de agua y el pasadizo lleva a traves de un arco hasta una 
+alcantarilla llena de agua.
+~
+0 AD 1
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7059
+D1
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7068
+D3
+Distingues vagamente un cruce triple que lleva al norte y al oeste.
+~
+~
+0 -1 7049
+S
+#7061
+La curva en alcantarilla de agua~
+No puedes ver notra cosa que el agua que te llega hasta la cintura.
+Parece que la alcantarilla gira y lleva hacia el sur y el oeste.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7062
+D3
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7055
+S
+#7062
+La alcantarilla de agua~
+No puedes ver otra cosa que el agua que te llega a la cintura. La
+alcantarilla parece llevar al sur y al norte.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7061
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7063
+S
+#7063
+La alcantarilla de agua~
+No puedes ver nada mas alla del agua que te llega a la cintura. La 
+alcantarilla parece llevar al sur y al norte.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7062
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7064
+S
+#7064
+El cruce en la alcantarilla de agua~
+No puedes ver nada mas alla del agua que rodea tu cintura. La 
+alcantarilla parece llevar a un cruce que lleva al sur, norte y este.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7063
+D1
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7069
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7065
+S
+#7065
+La alcantarilla de agua~
+No puedes ver nada mas alla del agua que te rodea hasta la cintura. La
+alcantarilla lleva al sur y al norte.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7064
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7066
+S
+#7066
+El cruce en la alcantarilla de agua~
+No puedes ver nada mas alla del agua que te rodea hasta la cintura.La 
+alcantarilla parece llevar hacia uncruce de tuneles que van al norte, 
+sur y este.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7065
+D1
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7070
+D2
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7067
+S
+#7067
+La alcantarilla de agua~
+No puedes ver nada mas alla del agua que te rodea hasta la cintura.La 
+alcantarilla parece llevar al sur y al norte.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7066
+D2
+No puedes ver nada en esa direccion,tu luz no llega a esa distancia.
+~
+~
+0 -1 7068
+S
+#7068
+La curva en la alcantarilla de agua~
+No puedes ver nada mas alla del agua que te rodea hasta la cintura. La
+alcantarilla parece girar y llevar oeste y norte.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7067
+D3
+No puedes ver nada en esa direccion, tu luz no llega a esa distancia.
+~
+~
+0 -1 7060
+S
+#7069
+La plataforma junto a la piscina oscura~
+No puedes ver nada por aqui pero el eco te dice que hay una gran caida.
+Solo puedes distinguir vagamente una gran piscina en la oscuridad,
+quiza debido a al goteo continuo de agua. El agua de la alcantarilla  
+resbala por la plataforma haciendola muy escurridiza. Desde aqui cae como 
+una cascada hasta la piscina que hay alla abajo.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D2
+No puedes ver nada. Esta muy oscuro.
+~
+~
+0 -1 7070
+D3
+No puedes ver nada. Esta muy oscuro.
+~
+~
+0 -1 7064
+S
+#7070
+Una plataforma junto a la oscura piscina~
+No puedes ver mucho desde aqui pero el eco te dice que hay una gran caida.
+Distingues vagamente una gran piscina en la oscuridad, gracias al goteo 
+continuo de agua. El agua de la alcantarilla desliza por la plataforma
+haciendola muy escurridiza. Desde aqui cae, como una cascada hasta la 
+piscina que hayalla abajo. Estas encima de una fisura en la roca. Parece 
+suficientemente grande para que entrasen varias personas.
+~
+0 AD 5
+E
+agua~
+Parece oscura y sucia, ademas emana de ella un hedor repugnante.
+~
+D0
+No puedes ver nada. Esta muy oscuro.
+~
+~
+0 -1 7069
+D3
+No puedes ver nada. Esta muy oscuro.
+~
+~
+0 -1 7066
+D5
+~
+~
+0 -1 7099
+S
+#7099
+La fisura bajo la plataforma~
+Esta es una pequenia fisura en la solida roca. Debajo de ti esta la oscura 
+y profunda piscina. El agua cae desde la plataforma que hay sobre ti. El 
+agua huele a agua de alcantarilla (que curioso).
+~
+0 ACD 5
+D4
+~
+~
+0 -1 7070
+D5
+El borde del agua.
+~
+~
+0 -1 7199
+S
+#7101
+Bajo el pozo de lodo~
+Estas en una habitacion con una gran abertura en el techo. Desde esta 
+abertura cae lodo en forma de grandes grumos. >YUCK<. Puedes oler el
+hedor repugnante que emana del pegajoso sedimento mientras intentas no
+terminar cubierto por el fango que cae. Hacia el este hay una entrada que 
+lleva hacia fuera, parece totalmente imposible bajar por la pendiente 
+enfangada.
+~
+0 ACD 5
+E
+lodo~
+Jamas has visto algo tan repugnante, casi te hace vomitar.
+~
+D1
+Este. No ves nada interesante.
+~
+~
+0 -1 7103
+S
+#7102
+Bajo el oscuro pozo~
+Bonito lugar has encontrado. Estas en medio de una habitacion con solo dos 
+salidas, arriba y este. Una escalera alta ha sido dejada aqui de forma que
+puedes escalar el pozo sin necesidad de cuerdas.
+~
+0 AD 1
+E
+escalera~
+Parece una endeble escalera, pero en una inspeccion mas a fondo decubres
+que esta magicamente unida a la pared! No puedes moverla ni un pelo aun 
+usando todas tus fuerzas!!
+~
+D1
+~
+~
+0 -1 7104
+D4
+Arriba. No puedes ver nada alla arriba, esta muy oscuro.
+~
+~
+0 -1 7004
+D5
+~
+escotilla~
+0 -1 7400
+S
+#7103
+La enfangada curva en el sistema de alcantarillado~
+Estas en lo que parece una curva en el sistema de alcantarillado. El 
+'suelo' esta totalmente cubierto de lodo!! Esto incluye tus piernas y 
+rodillas que tambien estan cubiertas de esa repugnante substancia.
+El tunel lleva al oeste y al sur.
+~
+0 AD 4
+E
+lodo~
+Jamas has visto algo tan repugnante, casi te hace vomitar.
+~
+D2
+Hacia el sur hay menos lodo!! incluso parece que aqui se acaba! Tienes
+la impresion de que seria hermoso tener los pies libres de lodo otra vez.
+~
+~
+0 -1 7104
+D3
+Ves una habitacion en la que el lodo gotea sobre el suelo en forma de 
+grandes grumos de fango. No parece haber ninguna salida de esa habitacion
+a excepcion de la entrada.
+~
+~
+0 -1 7101
+S
+#7104
+Un tunel en los tuneles de alcantarillado~
+Estas enmedio de lo que parece un cruce triple de tuneles que llevan al 
+este, oeste y norte.
+~
+0 AD 1
+D0
+Puedes ver un area que empieza en esa direccion, esta llena de lodo.
+~
+~
+0 -1 7103
+D1
+Este. No puedes ver absolutamente nada, esta muy oscuro.
+~
+~
+0 -1 7112
+D3
+Oeste. Hay una habitacion con una escalera que lleva arriba.
+~
+~
+0 -1 7102
+S
+#7105
+Bajo el antiguo pozo~
+Estas colgado en los resbaladizos bordes del antiguo pozo, puedes ir abajo
+y arriba. El unico punto seguro de apoyo son las barras de metal que estan
+en los bordes, a las cuales te aferras para no caer. Quien sabe como de
+profundo es el pozo?
+~
+0 AD 5
+E
+barras~
+Parecen muy resbaladizas, ademas no son muy seguras, mejor no bajes mas.
+~
+D4
+Hay una pequenia, debil luz que proviene de arriba, o quiza es cosa de tu 
+imaginacion.De todas formas parece mas oscuro ahi abajo que aqui, si es que 
+eso es posible.
+~
+~
+0 -1 7015
+S
+#7106
+La esquina noroeste de la plataforma~
+Estas casi a punto de salirte de la plataforma, con solo unos pequenios 
+centimetros de solida y segura plataforma bajo tus pies. La plataforma
+continua al este pero no puedes ir hacia atras al sur. Parece demasiado
+estrecho como para dar la vuelta asi que tendras que continuar adelante.
+~
+0 ACD 5
+D1
+La plataforma continua al este.
+~
+~
+0 -1 7113
+D2
+La plataforma continua al sur.
+~
+~
+0 -1 7107
+S
+#7107
+La estrecha cornisa~
+Estas obligado a continuar adelante por la cornisa, ya que el camino es 
+demasiado estrecho para dar la vuelta. HAy otra salida de aqui pero creo que 
+no te apetece una sesion gratuita de caida libre, verdad?
+~
+0 ACD 5
+D0
+Norte. La cornisa lleva a una esquina y gira hacia el este.
+~
+~
+0 -1 7106
+D1
+Estas mirando al vacio, y te das cuenta que no hay absolutamente nada mas
+que oscuridad. Te estremeces solo de pensar en una caida desde una altura
+totalmente desconocida.
+~
+~
+0 -1 7190
+D2
+Sur. La cornisa se adentra aun mas en la oscuridad hacia ek sur.
+~
+~
+0 -1 7108
+S
+#7108
+La estrecha cornisa~
+Sigues el camino a traves de la cornisa ya que no puedes hacer otra cosa 
+porque no te puedes dar la vuelta. HAY otra salida de aqui pero implica
+una clase gratuita de caida libre...
+~
+0 ACD 5
+D0
+Norte. La cornisa lleva hacia el norte.
+~
+~
+0 -1 7107
+D1
+Miras al vacio y te das cuenta de no hay nada mas que una completa 
+oscuridad. Tiemblas solo de pensar en la tremenda caida que debe haber.
+~
+~
+0 -1 7190
+D2
+La cornisa continua hacia el sur adentrandose aun mas en la oscuridad.
+~
+~
+0 -1 7109
+S
+#7109
+La estrecha cornisa~
+Continuas tu camino a lo largo de la cornisa ya que es demasiado estrecha
+para dar la vuelta. Alo mejor bajarias mas rapido saltando al vacio. Como
+llevas las clases de vuelo???
+~
+0 ACD 5
+D0
+Norte. La cornisa continua al norte.
+~
+~
+0 -1 7108
+D1
+Miras al vacio y tiemblas de pensar en la enome caida que debe haber.
+~
+~
+0 -1 7190
+D2
+La cornisa continua al sur en la oscuridad.
+~
+~
+0 -1 7110
+S
+#7110
+La estrecha cornisa~
+continuas el camino por la estrecha cornisa, no puedes dar la vuelta. Lo que 
+si puedes hacer es echarle cojones y saltar al vacio, a lo mejor no es tanto.
+~
+0 ACD 5
+D0
+Norte. La cornisa continua al norte.
+~
+~
+0 -1 7109
+D1
+Miras al vacio y te entra un tembleque solo de pensar en la caida.
+~
+~
+0 -1 7190
+D2
+Sur. Puedes distinguir la esquina suroeste de la cornisa.
+~
+~
+0 -1 7111
+S
+#7111
+La esquina suroeste de la cornisa~
+Esta cornisa parece un poco mas ancha que la del norte. Parece que la 
+cornisa rodea alguna especie de Abismo de oscuridad. La cornisa tiene un
+borde muy extranio por esta zona.
+~
+0 ACD 5
+E
+roca~
+Parece como si pudiese ser abierta a modo de puerta. Quiza es el 
+camino hacia abajo.
+~
+E
+escalon~
+Una pequnia roca sobresale justo debajo de el, a parte de ello el camino
+baja y baja y baja...
+~
+E
+El borde extranio~
+Tienes ante ti una pieza de artesania realmente extrania. El borde parece
+formar un escalon que lleva hacia abajo, pero MENUDO ESCALON. El abismo
+se abre alla abajo llevando a lo que parece una muerte segura.
+~
+D0
+Norte. La cornisa continua al norte.
+~
+~
+0 -1 7110
+D1
+Ves una cornisa un poco mas ancha que lleva al este.
+~
+~
+0 -1 7115
+D2
+Hacia el sur esta el final de la cornisa.
+~
+~
+0 -1 7112
+D5
+El Abismo yace allla abajo. Quien sabe lo que puede acechar alla abajo.
+~
+~
+0 -1 7279
+S
+#7112
+Un extranio cruce~
+Estas en un cruce de tuneles realmente extranio. Los tuneles ya no parecen
+tuneles, ahora son cuevas. Mas correctamente parece como si hubiesen sido
+recortados directamente de la roca. Los caminos llevan desde aqui al norte
+este y oeste.
+~
+0 AD 1
+D0
+Norte. Ves algo  que se parece a un abismo.
+~
+~
+0 -1 7111
+D1
+~
+~
+0 -1 7122
+D3
+~
+~
+0 -1 7104
+S
+#7113
+La estrecha cornisa que va de este a oeste~
+Estas de camino a traves de la cornisa, como no puedes dar la vuelta porque
+es muy estrecha, sigues adelante. Tambien podrias ver que hay abajo pero
+ultimamente le estas cogiendo miedo a dar pequenios salititos...
+~
+0 ACD 5
+D1
+La cornisa sigue al oeste.
+~
+~
+0 -1 7116
+D2
+Miras al vacio y no ves nada en la oscuridad. Lo unico que sabes es que hay 
+una gran caida desde aqui.
+~
+~
+0 -1 7190
+D3
+La cornisa continua al oeste.
+~
+~
+0 -1 7106
+S
+#7114
+Vacio~
+Estas en la posicion mas desafortunada  de todo el mud. El resultado de tan 
+enorme tonteria deberia ser castigado con la muerte, lo sabes. Estas 
+descendiendo el Abismo con una aceleracion de unos 9.82 metros por segundo 
+cuadrado. Lo que te espera alla abajo seguira siendo un misterio. Adios
+Mundo Cruel.
+
+Te has caido y no puedes levantarte!!!
+~
+0 CD 0
+S
+#7115
+La cornisa ancha~
+Estas en una cornisa que no parece mucho mas larga que las otras cornisas.
+Esta lleva al este y oeste, ademas tiene una salida al sur. A pesar de que
+podrias saltar al vacio esta podriano ser una gran idea. El camino hacia 
+el sur esta completamente a oscras.
+~
+0 ACD 4
+D0
+~
+~
+0 -1 7114
+D1
+~
+~
+0 -1 7121
+D2
+~
+~
+0 -1 7129
+D3
+~
+~
+0 -1 7111
+S
+#7116
+La esquina noroeste de la cornisa~
+Estas en una estrecha cornisa de solo unos pocos centimetros de espesor. La
+cornisa continua al oeste y lleva al sur desde aqui hacia la oscuridad.
+~
+0 ACD 5
+E
+suelo blando tierra~
+Distingues vagamente los bordes de una trampilla aqui en el suelo. Parece 
+que la tierra ha sido puesta aqui para ocultar la entrada secreta. Esta 
+parece llevar hacia abajo a traves de lo que pareca la solida roca que 
+forma la cornisa
+~
+E
+suelo cornisa roca~
+El suelo aqui parece un poco diferente de el del resto de cornisas que 
+rodean el Abismo. Es algun tipo de suelo blando el de esta cornisa, quiza 
+deberias mirarlo mas atentamente. Parece interesante.
+~
+D2
+~
+~
+0 -1 7117
+D3
+La cornisa continua al oeste.
+~
+~
+0 -1 7113
+D5
+~
+secreta trampilla entrada~
+AB -1 7280
+S
+#7117
+La estrecha cornisa del este~
+Caminas por una cornisa muy estrecha, no puedes darte la vuelta por que es 
+muy estrecha, aunque tambien podrias lanzarte al vacio y aprender de paso 
+una leccion de vuelo sin motor. El Abismo esta al OESTE asi que ten cuidadin
+con donde pones los pies.
+~
+0 ACD 5
+D2
+La cornisa lleva hacia el sur.
+~
+~
+0 -1 7118
+D3
+Miras al vacio mientras piensas en lo que debe doler espachurrarse contra el
+suelo desde esta altura.
+~
+~
+0 -1 7114
+S
+#7118
+La estrecha cornisa del este~
+Caminas por una cornisa, no te puedes dar la vuelta por lo estrecha que es.
+Aunque lo que si podrias hacer es averiguar si puedes volar lanzandote al 
+vacio a ver que pasa. Por cierto, el vacio esta al oeste, asi que ten 
+cuidado con donde pones los pies.
+~
+0 ACD 5
+D2
+La cornisa sigue al sur.
+~
+~
+0 -1 7119
+D3
+Miras al vacio y te preguntas cuanto deben costar unas cuantas clases de 
+caida libre.
+~
+~
+0 -1 7114
+S
+#7119
+La estrecha cornisa del este~
+Caminas por una cornisa muy angosta para poder darte la vuelta asi que solo
+puedes seguir adelante. Tambien puedes comprobar tus habilidades de 
+imitacion lanzandote al vacio y viendo cuanto te puedes parecer a un pajaro.
+Por cierto el vacio esta al oeste.
+~
+0 ACD 5
+D2
+La cornisa sigue al sur.
+~
+~
+0 -1 7120
+D3
+Miras al vacio y te das cuenta de lo util que hubiese sido aquel curso de 
+vuelo que no quisiste dar.
+~
+~
+0 -1 7114
+S
+#7120
+La estrecha cornisa del estes~
+Caminas por una cornisa tan estrecha que no puedes darte la vuelta, solo 
+Hay camino hacia adelante, claro que pensandolo mejor porque no dar una 
+alegria a la suegra dando un pasito hacia el oeste.
+Ves una pequenia abertura hacia el este.
+~
+0 ACD 5
+D1
+Este. Solo ves oscuridad.
+~
+~
+0 -1 7123
+D2
+La cornisa continua al sur.
+~
+~
+0 -1 7121
+D3
+Miras al vacio y piensas en lo agradables que deben ser las enfermeras de 
+la unidad de caidas tontas del hospital de Midgaard.
+~
+~
+0 -1 7114
+S
+#7121
+La esquina sureste de la cornisa~
+Esta cornisa parece un poco mas ancha que la que se extiende al norte.
+La cornisa parece bordear alguna especie de abismo totalmente a oscuras.
+~
+0 ACD 5
+D0
+Hacia el norte ves una cornisa.
+~
+~
+0 -1 7120
+D3
+La cornisa continua al oeste.
+~
+~
+0 -1 7115
+S
+#7122
+Bajo el pozo~
+Estas en una caverna totalmente oscura que lleva hacia el oeste. 
+Es un lugar muy extranio.
+~
+0 AD 0
+E
+pared~
+Hay una grieta aqui que parece haber sido hecha recientemente.
+~
+D3
+~
+~
+0 -1 7112
+S
+#7123
+Bajo el pozo~
+Una escalera lleva hacia arriba al pozo.
+Una pequenia abertura lleva al oeste desde aqui.
+~
+0 AD 5
+D3
+Puedes ver una estrecha cornisa que va de norte a sur
+~
+~
+0 -1 7120
+D4
+Esta muy oscuro alla arriba.
+~
+~
+0 -1 7041
+S
+#7129
+La linea de alcantarillado~
+Estas en una estrecha parte de el sistema de alcantarillas. Hacia abajo 
+continua la alcantarilla y hacia el norte esta la cornisa.
+~
+0 AD 3
+D0
+Puedes ver la parte sur de la cornisa.
+~
+~
+0 -1 7115
+D5
+Miras Hacia abajo por un sumidero.
+~
+~
+0 -1 7221
+S
+#7130
+El tunel de alcantarilla~
+Estas en un extranio tunel que tiene extranios araniazos en las paredes, 
+como si los hubiese hecho una rata gigante. Ves un reguero de agua que 
+desciende por un sumidero, al norte continua el sumidero.
+~
+0 ACD 3
+S
+#0
+
+
+
+#SPECIALS
+M 7200 spec_cast_mage
+M 7201 spec_cast_mage
+M 7202 spec_cast_mage
+M 7203 spec_rat
+M 7204 spec_rat
+M 7002 spec_rat
+M 7006 spec_poison
+M 7040 spec_breath_fire
+M 7041 spec_cast_undead
+M 7042 spec_cast_cleric
+M 7043 spec_breath_any
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 7201 2 1
+D 0 7201 3 2
+D 0 7202 0 1
+D 0 7208 0 1
+D 0 7280 4 1
+D 0 7404 2 1
+D 0 7405 0 1
+D 0 7405 2 1
+D 0 7406 0 1
+D 0 7415 0 1
+D 0 7416 2 1
+D 0 7418 1 1
+D 0 7421 3 1
+D 0 7424 1 1
+D 0 7425 3 1
+D 0 7116 5 1
+O 0 7204 0 7200
+M 0 7200 1 7201 1
+E 0 7200 0 16
+E 0 7203 0 3
+G 0 7205 0
+M 0 7201 1 7203 1
+E 0 7201 0 16
+M 0 7202 2 7205 1
+E 0 7202 0 16
+O 0 7206 0 7206
+M 0 7202 2 7207 1
+E 0 7202 0 16
+M 0 7203 10 7213 1
+E 0 7211 0 16
+M 0 7203 10 7214 1
+E 0 7211 0 16
+M 0 7203 10 7215 1
+E 0 7211 0 16
+M 0 7203 10 7217 1
+G 0 7208 0
+E 0 7211 0 16
+M 0 7203 10 7219 1
+E 0 7209 0 8
+E 0 7211 0 16
+M 0 7203 10 7221 1
+G 0 7208 0
+E 0 7211 0 16
+M 0 7203 10 7223 1
+E 0 7209 0 8
+E 0 7211 0 16
+M 0 7203 10 7225 1
+E 0 7211 0 16
+M 0 7203 10 7233 1
+G 0 7208 0
+E 0 7211 0 16
+M 0 7203 10 7233 1
+E 0 7209 0 8
+E 0 7211 0 16
+M 0 7204 1 7234 1
+M 0 7000 8 7280 1
+M 0 7000 8 7281 2
+M 0 7000 8 7281 2
+M 0 7002 7 7285 1
+E 0 7190 0 2
+M 0 7002 7 7285 1
+M 0 7000 8 7286 2
+M 0 7013 8 7286 2
+M 0 7008 4 7401 4
+M 0 7013 3 7403 3
+M 0 7044 6 7406 6
+M 0 7013 3 7412 3
+M 0 7045 1 7419 1
+M 0 7007 3 7422 3
+M 0 7011 3 7423 3
+M 0 7046 1 7424 1
+M 0 7040 1 7428 1
+E 0 7304 0 5
+E 0 7305 0 7
+E 0 7306 0 9
+E 0 7307 0 6
+E 0 7308 0 11
+E 0 7309 0 10
+E 0 7310 0 8
+E 0 7216 0 16
+E 0 7303 0 17
+M 0 7010 2 7429 2
+M 0 7042 2 7435 2
+M 0 7043 3 7439 3
+O 0 7300 0 7439
+M 0 7041 2 7444 2
+M 0 7001 12 7004 6
+M 0 7001 12 7004 6
+M 0 7001 12 7025 3
+M 0 7002 7 7031 1
+M 0 7003 8 7037 3
+M 0 7003 8 7037 3
+M 0 7003 8 7039 3
+M 0 7003 8 7039 3
+M 0 7003 8 7039 3
+M 0 7001 12 7041 3
+M 0 7002 7 7049 1
+M 0 7003 8 7050 2
+M 0 7006 6 7101 2
+M 0 7004 3 7102 3
+M 0 7006 6 7102 2
+M 0 7000 8 7103 3
+M 0 7000 8 7103 3
+M 0 7002 7 7104 3
+M 0 7006 6 7104 2
+M 0 7005 7 7112 4
+M 0 7005 7 7112 4
+M 0 7005 7 7122 3
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

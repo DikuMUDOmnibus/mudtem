@@ -1,0 +1,30 @@
+	DECLARE_DO_FUN(do_recite);
+	DECLARE_DO_FUN(do_quaff);
+	DECLARE_SPELL_FUN(spell_word_of_recall);
+
+	if ( IS_IMMORTAL(ch)
+	||   ch->level < 8 )
+		spell_word_of_recall( gsn_word_of_recall,
+					ch->level,
+					chToEnt(ch),
+					chToEnt(ch),
+					TO_CHAR );
+	else
+	{
+		OBJ_DATA *obj = get_obj_carry( ch, "recall", ch );
+
+		if ( obj != NULL )
+			switch(obj->item_type)
+			{
+				case ITEM_SCROLL:
+				do_recite( ch, "recall" );
+				return;
+
+				case ITEM_POTION:
+				do_quaff( ch, "recall" );
+				return;
+			}
+
+		act( "$t te ignora.", ch, strToEnt(CLAN_GOD(ch), ch->in_room), NULL, TO_CHAR );
+		return;
+	}

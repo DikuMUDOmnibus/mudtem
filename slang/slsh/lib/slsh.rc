@@ -1,0 +1,17 @@
+% -*- slang -*-
+
+% This file gets loaded whenever slsh runs.   The primary purpose of this
+% file is to declare some autoloaded fuctions and to load a user initialization
+% file.
+
+$1 = getenv ("HOME");
+if ($1 != NULL)
+{
+   $1 += ".slshrc";
+   
+   $2 = stat_file ($1);
+   if ($2 != NULL)
+     () = evalfile ("$1");
+}
+
+	

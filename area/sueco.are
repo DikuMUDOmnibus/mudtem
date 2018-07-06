@@ -1,0 +1,1908 @@
+#AREADATA
+Name New area~
+Builders Mithril Belfegor~
+VNUMs 23000 23099
+Credits /// AREA EN CONSTRUCCION ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#23000
+nambi clerigo~
+Nambi~
+Un pequeno clerigo, justo aqui.
+~
+Ves a un pequeno Clerigo vestido de blanco, que esta al servicio de la
+ciudad de Minas Tirith.  
+~
+human~
+ABQXa 0 0 1000 0
+20 10 3d9+333 20d12+400 2d7+4 none
+-4 -4 -4 -3
+IKU 0 0 0
+stand stand male 2000
+0 0 medium 'Flesh'
+C 'cleric'
+#23001
+.~
+.~
+DragonBlanco
+~
+Ves a un Guardia Rojo ...  El te devuelve la mirada y dice 'Hmmm...  No
+lo intentaria de estar en tu armadura....  ' 
+~
+halfelf~
+ABRX BCDFGOPQV B 1000 0
+28 14 5d10+650 28d13+500 2d10+7 whip
+-8 -8 -8 -7
+FKTU CHKLQ 0 EI
+stand stand none 1000
+0 0 medium 'flesh'
+C 'mage'
+F aff J
+F vul Z
+#23002
+guardia real blanco~
+Guardia real blanco~
+Un guardia real blanco, justo aqui.
+~
+Ves a un Guardia Real #RBlanco#n...  Mejor sera que no lo ataques !!!  
+~
+halfelf~
+ADGX BCFGHNPQV 0 1000 0
+36 18 10d10+1200 36d14+700 6d5+11 pierce
+-12 -12 -12 -11
+FIKTU C AIKLQ EGH
+stand stand male 10000
+0 0 medium 'flesh'
+C 'psicionist'
+F aff J
+#23003
+guardia real rojo~
+Guardia real rojo~
+Un guardia real rojo, justo aqui...
+~
+Observas a un poderoso Guardia Real #BRojo#b de la ciudad de Minas Tirith... 
+Mejor mantente alejado de este poderoso guerrero...  
+~
+halfelf~
+ATX BCFGNPQV B 1000 0
+36 36 10d10+1500 36d14+100 17d2+13 chop
+-13 -13 -13 -11
+CDEFIKLTU DHLQ 0 C
+stand stand male 2000
+0 0 medium 'flesh'
+C 'warrior'
+F aff J
+#23004
+boromir~
+boromir~
+(no long description)
+~
+~
+human~
+ATX 0 0 0 0
+43 43 25d10+2750 43d15+100 7d7+16 crush
+-15 -15 -15 -14
+CDEFIKLTU 0 0 0
+stand stand male 5000
+0 0 large 'flesh'
+C 'warrior'
+#23005
+no name~
+faramir~
+(no long description)
+~
+~
+human~
+AX 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJK
+#23006
+no name~
+denethor~
+(no long description)
+~
+~
+human~
+AX 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJK
+#23007
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+AX 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+F for AHMV
+F par ABCDEFGHIJK
+#23008
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+AX 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#23084
+troll cadete~
+Troll cadete~
+Un troll con rango de cadete, justo aqui.
+~
+~
+troll~
+ABFPSX DHU 0 -1000 23008
+15 10 2d10+190 15d11+100 1d12+3 slash
+-1 -1 -1 0
+BEFIJKNUV Q 0 0
+stand stand male 500
+0 0 medium 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23003 1520~
+#23085
+derman~
+Derman~
+El Poderoso Derman esta aqui !
+~
+Que miras ?, te dice Derman, al ver tu cara horrenda.
+~
+troll~
+ABFPSX DHU 0 -1000 23008
+32 21 6d12+928 32d14+100 6d4+9 chop
+-10 -10 -10 -9
+BEFIJKNTUV L 0 0
+stand stand male 1000
+0 0 huge 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23003 1520~
+#23086
+troll capitan~
+Troll capitan~
+Un capitan ayudando a el gran Gnubb, justo aqui.
+~
+~
+troll~
+ABFPTX HU 0 -1000 23001
+20 20 4d10+360 20d12+100 3d6+6 slice
+-5 -5 -5 -4
+CEFIKLTU Q 0 0
+stand stand male 1000
+0 0 large 'flesh'
+C 'warrior'
+M entryall 23099 100~
+M greet 23099 100~
+M time 23001 1520~
+#23087
+troll goma~
+Troll goma~
+Una goma intrusiando a todos, justo aqui.
+~
+~
+troll~
+ABFPSX U 0 -1000 23007
+10 6 2d6+110 10d11+100 1d8+2 pierce
+2 2 2 4
+BFJNU 0 0 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23008 1520~
+#23088
+troll goma~
+Troll goma~
+Una goma espiando aqui.
+~
+~
+troll~
+ABFPSX U 0 -1000 23006
+10 6 2d6+110 10d11+100 1d8+2 pierce
+2 2 2 4
+BFJNU 0 0 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23007 1520~
+#23089
+troll goma~
+Troll goma~
+Una goma vigilando aqui.
+~
+~
+troll~
+ABFPSX U 0 -1000 23005
+10 6 2d6+110 10d11+100 1d8+2 pierce
+2 2 2 4
+BFJNU 0 0 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23006 1520~
+#23090
+troll cadete~
+Troll cadete~
+Un cadete esta aqui ejercitando.
+~
+~
+troll~
+ABFPSX DHU 0 -1000 23003
+15 10 2d10+190 15d11+100 1d12+3 slash
+-1 -1 -1 0
+BEFIJKNUV Q 0 0
+stand stand male 500
+0 0 medium 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23002 1520~
+#23091
+troll capitan~
+Troll capitan~
+Un capitan, observando a todos, justo aqui.
+~
+~
+troll~
+ABFPSX HU 0 -1000 23007
+20 13 3d9+308 20d12+100 2d7+5 slice
+-4 -4 -4 -3
+BEFIJKNTUV Q 0 0
+stand stand male 1000
+0 0 large 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23008 1520~
+#23092
+troll capitan~
+Troll capitan~
+Un capitan te mira con cara de odio !!!
+~
+~
+troll~
+ABFPTX HU 0 -1000 23006
+20 20 4d10+360 20d12+100 3d6+6 slice
+-5 -5 -5 -4
+CEFIKLTU Q 0 0
+stand stand male 1000
+0 0 large 'flesh'
+C 'warrior'
+M greet 23099 100~
+M entryall 23099 100~
+M time 23007 1520~
+#23093
+troll capitan~
+Troll capitan~
+Un capitan, justo aqui.
+~
+~
+troll~
+ABFPSX HU 0 -1000 23005
+20 13 3d9+308 20d12+100 2d7+5 slice
+-4 -4 -4 -3
+BEFIJKNTUV Q 0 0
+stand stand male 1000
+0 0 large 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23006 1520~
+#23094
+durman~
+Durman~
+El gran Durman esta aqui !
+~
+Que miras ?, te dice Durman, al ver tu cara horrenda.
+~
+troll~
+ABFPSX DHU 0 -1000 23003
+32 21 6d12+928 32d14+100 6d4+9 pierce
+-10 -10 -10 -9
+BEFIJKNTUV L 0 0
+stand stand male 1000
+0 0 huge 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23002 1520~
+#23095
+troll goma~
+Troll goma~
+Una goma esperando instrucciones, justo aqui.
+~
+~
+troll~
+ABFPSX U 0 -1000 23004
+10 6 2d6+110 10d11+100 1d8+2 pierce
+2 2 2 4
+BFJNU 0 0 0
+stand stand male 100
+0 0 medium 'unknown'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23005 1520~
+#23096
+troll cadete~
+Troll cadete~
+Un troll con rango de cadete, justo aqui.
+~
+~
+troll~
+ABFPSX DHU 0 -1000 23002
+15 10 2d10+190 15d11+100 1d12+3 slash
+-1 -1 -1 0
+BEFIJKNUV Q 0 0
+stand stand male 500
+0 0 medium 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23004 1520~
+#23097
+troll capitan~
+Troll capitan~
+Un troll con rango de capitan, justo aqui.
+~
+~
+troll~
+ABFPSX HU 0 -1000 23004
+20 13 3d9+308 20d12+100 2d7+5 slice
+-4 -4 -4 -3
+BEFIJKNTUV Q 0 0
+stand stand male 1000
+0 0 large 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23005 1520~
+#23098
+barliman~
+Barliman~
+El gran Barliman esta aqui !
+~
+Que miras ?, te dice Barliman, al ver tu cara horrenda.
+~
+troll~
+ABFPSX DHU 0 -1000 23002
+32 21 6d12+928 32d14+100 6d4+9 chop
+-10 -10 -10 -9
+BEFIJKNTUV L 0 0
+stand stand male 1000
+0 0 huge 'flesh'
+C 'thief'
+F off D
+M greet 23099 100~
+M entryall 23099 100~
+M time 23004 1520~
+#23099
+gnubb~
+King Gnubb~
+El poderoso Gnubb, justo aqui.
+~
+Ves a un horrible troll mirandote con cara de hambre, apunto de ataquarte !  
+~
+troll~
+ABFPSX DHUV 0 -1000 23001
+44 29 25d10+2500 44d15+100 10d4+15 crush
+-15 -15 -15 -14
+BEFIJKNTUV Q 0 0
+stand stand male 10000
+0 0 giant 'Flesh'
+C 'thief'
+F aff c
+F off D
+M entry 23000 100~
+M entryall 23099 100~
+M greet 23099 100~
+M time 23001 1520~
+#0
+
+
+
+#OBJECTS
+#23000
+ataud~
+Ataud de marmol~
+Un Ataud negro, justo aqui.~
+Marmol~
+container d P
+99999 ACHJKPQ 0 300 50
+0 1000 0 P
+#23001
+brazo real~
+brazo real~
+Un brazo esta apestando el ambiente.~
+Flesh~
+food d AO
+10 10 0 A 0
+1 1 95 P
+#23002
+perdon de dios~
+pergamino de perdon~
+Un pergamino de Nambi, tirado aqui.~
+Papiro~
+scroll d AO
+20 'cure poison' 'cure disease' 'cancellation' 'cure light'
+10 1 100 P
+#23003
+proteccion de Dios~
+pergamino protectivo~
+Un papiro de Nambi, botado aqui.~
+Papiro~
+scroll d AO
+20 'bless' 'armor' 'protection evil' 'cure serious'
+10 1 100 P
+#23004
+varita somnifera~
+Varita somnifera~
+Una Varita con las letras ZZZ incrustadas, durmiendo aqui.~
+suenos~
+wand BFd AO
+52 10 10 'sleep' 0
+52 100 1000 P
+#23005
+tattered scroll~
+Tattered scroll~
+A tattered scroll, lying here.~
+marmor~
+scroll d AO
+52 'enchant weapon' 'enchant armor' '' ''
+52 0 0 P
+#23006
+varita silenciosa~
+Varita silenciadora~
+Una varita para dejarte sin el habla, esta callada aqui.~
+silencio~
+wand BFd AO
+52 10 10 'mute' 0
+52 0 0 P
+#23095
+daga demoniaca troll~
+Daga Demoniaca~
+Una daga malefica alumbrando aqui~
+Silver~
+weapon ABCEd AN
+dagger 5 4 'pierce' A
+10 190 150 P
+M wear 23009 100~
+#23096
+espada corta troll~
+Espada Corta Oscura~
+Una espada negra, flotando aqui.~
+iron~
+weapon ACd AN
+sword 4 6 'slash' 0
+15 200 10000 P
+A
+4 1
+M wear 23009 100~
+#23097
+espada larga troll~
+Espada Larga Negra~
+Una espada rarra tirada aqui...~
+rock~
+weapon ACEd AN
+sword 5 5 'slice' A
+20 250 1000 P
+A
+13 25
+A
+12 25
+M wear 23009 100~
+#23098
+hacha negra troll~
+Hacha Negra~
+Una hacha gris tirada aqui...~
+iron~
+weapon ABCd AN
+axe 6 6 'chop' F
+25 150 500 P
+A
+18 10
+A
+19 10
+A
+13 50
+A
+12 -60
+M wear 23009 100~
+#23099
+martillo gigante de troll~
+Martillo Gigante~
+Un enorme martillo negro, justo aqui...~
+Iron~
+weapon CEd AN
+mace 7 7 'crush' 0
+43 300 10000 P
+A
+19 5
+A
+18 5
+A
+13 500
+M wear 23009 100~
+#0
+
+
+
+#ROOMS
+#23000
+Las catacumbas de la ciudad.~
+Has entrado a las catacumbas de los antiguos reyes de Minas Tirith, el
+ambiente esta cargado de misterio.  
+Ves un par de ataudes con los restos de los antiguos reyes de la ciudad
+El hoyo en el techo parece ser la unica forma de entrar y salir de
+este mistico y hermoso lugar. Lamentablemente esta ubicado a unos doce pies 
+sobre el piso. Asi que de no saber volar, estas con un pequenio problema.
+o a menos que el mithril te haga una de sus shacras y te cree una varita de
+#B#FVOLAR#f jajajajajja. y no es chiste
+~
+0 Y 11
+D4
+~
+~
+0 0 23001
+S
+#23001
+Antecamara~
+Estas en un tunel que une a la capilla con las catacumbas.  Las paredes
+son muy toscas y esta muy oscuro.  El olor aqui es de un inminente encierro
+y te preguntas que diablos estas haciendo aqui.  
+~
+0 Y 11
+D4
+~
+~
+0 0 23002
+D5
+~
+~
+0 0 23000
+S
+#23002
+Capilla real~
+Estas en una hermosa capilla llena de imagenes de los dioses, en forma de
+estatuas, pinturas y tallados.  Puedes entre ellas reconoser al gran guerrero
+Mithril, que esta representado por una hermosa pintura.  El ambiente en su
+generalidad esta cargado de una suerte de espiritismo.  
+~
+0 Y 0
+D2
+~
+~
+0 0 23003
+D5
+~
+~
+0 0 23001
+S
+#23003
+cementerio~
+Estas en un tetrico sementerio donde llegan todos los difuntos de la
+ciudad.  Al norte ves una pequena pero simpatica capilla al servicio de
+Minas Tirith.  Al sur se encuentra la plaza de esta misma, lo cual
+constituye un punto importante de la ciudad.  Ten cuidado con los hoyos !!! 
+~
+0 Y 11
+D0
+~
+~
+0 0 23002
+D2
+~
+~
+0 0 23004
+D5
+~
+~
+0 0 23013
+S
+#23004
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  Hacia el norte esta el
+camino al cementerio y al sur esta el centro de la plaza. 
+~
+0 Y 0
+D0
+~
+~
+0 0 23003
+D1
+~
+~
+0 0 23011
+D2
+~
+~
+0 0 23012
+D3
+~
+~
+0 0 23005
+S
+#23005
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23004
+D2
+~
+~
+0 0 23006
+S
+#23006
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23005
+D1
+~
+~
+0 0 23012
+D2
+~
+~
+0 0 23007
+S
+#23007
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23006
+D1
+~
+~
+0 0 23008
+S
+#23008
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23012
+D1
+~
+~
+0 0 23009
+D3
+~
+~
+0 0 23007
+S
+#23009
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23010
+D3
+~
+~
+0 0 23008
+S
+#23010
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23011
+D2
+~
+~
+0 0 23009
+D3
+~
+~
+0 0 23012
+S
+#23011
+plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D2
+~
+~
+0 0 23010
+D3
+~
+~
+0 0 23004
+S
+#23012
+centro de la plaza real~
+Estas en una hermosa plaza que constituye un punto importantisimo de la
+ciudad.  Cuidado con los ratoneros de estos lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23004
+D1
+~
+~
+0 0 23010
+D2
+~
+~
+0 0 23008
+D3
+~
+~
+0 0 23006
+S
+#23013
+en el hoyo~
+-#B#FN   N#n
+-#B#FNN  N#n
+-#B#FN N N#n
+-#B#FN N N#n
+-#B#FN  NN#n
+-#B#FN   N   OOO#n
+-#B#F       O   O#n
+-#B#F       O   O#n
+-#B#F       O   O#n
+-#B#F       O   O#n
+-#B#F       O   O#n
+-#B#F        OOO#n
+-
+-#B#F          OOO#n
+-#B#F         O   O#n
+-#B#F         O   O#n
+-#B#F         O   O#n
+-#B#F         O   O#n
+-#B#F         O   O#n
+-#B#F          OOO#n
+~
+0 Y 11
+D5
+~
+~
+0 0 23014
+S
+#23014
+en el hoyo~
+-#B#F       OOO#n
+-#B#F      O   O#n
+-#B#F      O   O#n
+-#B#F      O   O#n
+-#B#F      O   O#n
+-#B#F      O   O#n
+-#B#F       OOO#n
+-
+-
+-
+-#B#F      OOO#n
+-#B#F     O   O#n
+-#B#F     O   O#n
+-#B#F     O   O#n
+a
+a
+a
+a
+a
+a
+~
+0 Y 11
+D5
+~
+~
+0 0 23015
+S
+#23015
+en el hoyo~
+-#B#F            OOO#n
+-#B#F           O   O#n
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+done
+redit 23003
+donw
+~
+0 CY 11
+S
+#23016
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23017
+D2
+~
+~
+0 0 23063
+D4
+~
+~
+0 0 23010
+S
+#23017
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23018
+D2
+~
+~
+0 0 23064
+D3
+~
+~
+0 0 23016
+S
+#23018
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.
+~
+0 CY 0
+D1
+~
+~
+0 0 23019
+D2
+~
+~
+0 0 23065
+D3
+~
+~
+0 0 23017
+S
+#23019
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23020
+D2
+~
+~
+0 0 23066
+D3
+~
+~
+0 0 23018
+S
+#23020
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.  
+~
+0 Y 0
+D2
+~
+~
+0 0 23067
+D3
+~
+~
+0 0 23019
+S
+#23021
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23022
+S
+#23022
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23023
+D3
+~
+~
+0 0 23021
+S
+#23023
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23024
+D3
+~
+~
+0 0 23022
+S
+#23024
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23025
+D3
+~
+~
+0 0 23023
+S
+#23025
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23026
+D3
+~
+~
+0 0 23024
+S
+#23026
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23027
+D3
+~
+~
+0 0 23025
+S
+#23027
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirith, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D0
+~
+~
+0 0 23067
+D1
+~
+~
+0 0 23028
+D3
+~
+~
+0 0 23026
+S
+#23028
+Segunda Torre~
+Estas dentro de la segunda torre de Minas Tirith...  El enorme porton de
+roca solida cuenta con unos simbolos misteriosos en las orillas, dotandolo
+de poderes inimaginalbles...  Hacia abajo esta el camino real.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23029
+D3
+~
+~
+0 0 23027
+D5
+~
+~
+0 0 23036
+S
+#23029
+Segundo Muro~
+Estas sobre el segundo de los tres muros de la ciudad de Minas Tirth, El
+muro de un material gris es virtualmente indestructible...  
+~
+0 Y 0
+D3
+~
+~
+0 0 23028
+S
+#23030
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23031
+S
+#23031
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23032
+D2
+~
+~
+0 0 23037
+D3
+~
+~
+0 0 23030
+S
+#23032
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23033
+D2
+~
+~
+0 0 23038
+D3
+~
+~
+0 0 23031
+S
+#23033
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo. 
+Aqui el camino real doble hacia el este...  
+~
+0 Y 0
+D1
+~
+~
+0 0 23034
+D2
+~
+~
+0 0 23039
+D3
+~
+~
+0 0 23032
+S
+#23034
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23035
+D2
+~
+~
+0 0 23040
+D3
+~
+~
+0 0 23033
+S
+#23035
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo.  
+~
+0 Y 0
+D1
+~
+~
+0 0 23036
+D2
+~
+~
+0 0 23041
+D3
+~
+~
+0 0 23034
+S
+#23036
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo.  
+~
+0 Y 0
+D3
+~
+~
+0 0 23035
+D4
+~
+~
+0 0 23028
+S
+#23037
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23031
+D1
+~
+~
+0 0 23038
+S
+#23038
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23032
+D1
+~
+~
+0 0 23039
+D3
+~
+~
+0 0 23037
+S
+#23039
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23033
+D1
+~
+~
+0 0 23040
+D2
+~
+~
+0 0 23043
+D3
+~
+~
+0 0 23038
+S
+#23040
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23034
+D1
+~
+~
+0 0 23041
+D3
+~
+~
+0 0 23039
+S
+#23041
+Plaza Principal~
+Estas en la plaza principal de Minas Tirith, un mercado lleno de
+productos de distintas partes lejanas y cercanas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23035
+D3
+~
+~
+0 0 23040
+S
+#23042
+.~
+~
+0 CY 0
+S
+#23043
+Camino Real~
+Estas sobre un camino de marmol que une a el primer muro con el segundo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23039
+D2
+~
+~
+0 0 23046
+S
+#23044
+.~
+~
+0 CY 0
+S
+#23045
+Torre Principal~
+~
+0 Y 0
+D1
+~
+~
+0 0 23046
+D2
+~
+~
+0 0 23053
+S
+#23046
+Torre Principal~
+Estas sobre un camino de marmol que una al primer muro con el segundo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23043
+D1
+~
+~
+0 0 23047
+D2
+~
+~
+0 0 23054
+D3
+~
+~
+0 0 23045
+S
+#23047
+Torre Principal~
+~
+0 Y 0
+D2
+~
+~
+0 0 23055
+D3
+~
+~
+0 0 23046
+S
+#23048
+Armaduria~
+~
+0 Y 0
+D2
+~
+~
+0 0 23056
+S
+#23049
+Primer Muro~
+~
+0 Y 0
+D1
+~
+~
+0 0 23050
+S
+#23050
+Primer Muro~
+~
+0 Y 0
+D2
+~
+~
+0 0 23068
+D3
+~
+~
+0 0 23049
+S
+#23051
+Primer Muro~
+~
+0 Y 0
+D1
+~
+~
+0 0 23052
+D3
+~
+~
+0 0 23068
+S
+#23052
+Primer Muro~
+~
+0 Y 0
+D0
+~
+~
+0 0 23061
+D1
+~
+~
+0 0 23053
+D3
+~
+~
+0 0 23051
+S
+#23053
+Torre Principal~
+~
+0 Y 0
+D0
+~
+~
+0 0 23045
+D1
+~
+~
+0 0 23054
+D3
+~
+~
+0 0 23052
+S
+#23054
+Torre Principal de #BMinas Tirith#n~
+Estas en una gran torre de un material blanco muy duro...
+~
+0 Y 0
+D0
+~
+~
+0 0 23046
+D1
+~
+~
+0 0 23055
+D2
+~
+~
+0 0 23071
+D3
+~
+~
+0 0 23053
+S
+#23055
+Torre Principal~
+~
+0 Y 0
+D0
+~
+~
+0 0 23047
+D1
+~
+~
+0 0 23056
+D3
+~
+~
+0 0 23054
+S
+#23056
+Primer Muro~
+~
+0 Y 0
+D0
+~
+~
+0 0 23048
+D1
+~
+~
+0 0 23057
+D3
+~
+~
+0 0 23055
+S
+#23057
+Primer Muro~
+~
+0 Y 0
+D1
+~
+~
+0 0 23058
+D3
+~
+~
+0 0 23056
+S
+#23058
+Primer Muro~
+~
+0 Y 0
+D0
+~
+~
+0 0 23059
+D3
+~
+~
+0 0 23057
+S
+#23059
+Primer Muro~
+~
+0 Y 0
+D1
+~
+~
+0 0 23060
+D2
+~
+~
+0 0 23058
+S
+#23060
+Prime Muro~
+~
+0 Y 0
+D3
+~
+~
+0 0 23059
+S
+#23061
+Armeria~
+~
+0 Y 0
+D2
+~
+~
+0 0 23052
+S
+#23062
+Los Dormitorios~
+Ests en una habitacion llena de camas y cortinas divisoras.  Por el
+momento no parece haber nadie...  
+~
+0 Y 0
+D5
+~
+~
+0 0 23005
+S
+#23063
+Segunda Plaza~
+Estas en una hermosa plaza llena de gente comprando distintas cosas, todo
+te parece a una extraccion de un sueno...  
+~
+0 Y 0
+D0
+~
+~
+0 0 23016
+D1
+~
+~
+0 0 23064
+S
+#23064
+Segunda Plaza~
+Estas en una hermosa plaza llena de gente comprando distintas cosas, todo
+te parece a una extraccion de un sueno...  
+~
+0 Y 0
+D0
+~
+~
+0 0 23017
+D1
+~
+~
+0 0 23065
+D3
+~
+~
+0 0 23063
+S
+#23065
+Segunda Plaza~
+Estas en una hermosa plaza llena de gente comprando distintas cosas, todo
+te parece a una extraccion de un sueno...  
+~
+0 Y 0
+D0
+~
+~
+0 0 23018
+D1
+~
+~
+0 0 23066
+D3
+~
+~
+0 0 23064
+S
+#23066
+Segunda Plaza~
+Estas en una hermosa plaza llena de gente comprando distintas cosas, todo
+te parece a una extraccion de un sueno...  
+~
+0 Y 0
+D0
+~
+~
+0 0 23019
+D1
+~
+~
+0 0 23067
+D3
+~
+~
+0 0 23065
+S
+#23067
+Camino Real~
+Estas sobre un camino de marmol que une a el segundo muro con el tercero.  
+~
+0 Y 0
+D0
+~
+~
+0 0 23020
+D2
+~
+~
+0 0 23027
+D3
+~
+~
+0 0 23066
+S
+#23068
+Primer Muro~
+~
+0 Y 0
+D0
+~
+~
+0 0 23050
+D1
+~
+~
+0 0 23051
+S
+#23069
+Camino~
+~
+0 Y 0
+D1
+~
+~
+0 0 23070
+S
+#23070
+Camino~
+~
+0 Y 0
+D1
+~
+~
+0 0 23071
+D3
+~
+~
+0 0 23069
+S
+#23071
+Entrada A #BMinas Tirith#n~
+~
+0 Y 0
+D0
+~
+~
+0 0 23054
+D1
+~
+~
+0 0 23072
+D2
+~
+~
+0 0 23074
+D3
+~
+~
+0 0 23070
+S
+#23072
+Camino~
+~
+0 Y 0
+D1
+~
+~
+0 0 23073
+D3
+~
+~
+0 0 23071
+S
+#23073
+Camino~
+~
+0 Y 0
+D3
+~
+~
+0 0 23072
+S
+#23074
+Camino a #BMinas Tirith#n~
+~
+0 Y 0
+D0
+~
+~
+0 0 23071
+D2
+~
+~
+0 0 23075
+S
+#23075
+Camino a la Ciudad~
+~
+0 Y 0
+D0
+~
+~
+0 0 23074
+S
+#23090
+Troll Castle~
+Una pieza llena de Troll's dispuestos a invadir a MidGaard...  
+~
+0 CY 5
+M 200 H 200
+S
+#23091
+Troll Castle ~
+~
+0 Y 5
+D3
+~
+~
+0 0 23090
+M 200 H 200
+S
+#23092
+~
+~
+0 CY 0
+S
+#0
+
+
+
+#SPECIALS
+M 23001 spec_patrolman
+M 23002 spec_patrolman
+M 23003 spec_patrolman
+M 23084 spec_troll_noche
+M 23085 spec_troll_noche
+M 23086 spec_troll_noche
+M 23087 spec_troll_noche
+M 23088 spec_troll_noche
+M 23089 spec_troll_noche
+M 23090 spec_troll_noche
+M 23091 spec_troll_noche
+M 23092 spec_troll_noche
+M 23093 spec_troll_noche
+M 23094 spec_troll_noche
+M 23095 spec_troll_noche
+M 23096 spec_troll_noche
+M 23097 spec_troll_noche
+M 23098 spec_troll_noche
+M 23099 spec_troll_noche
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+O 0 23000 0 23000
+O 0 23004 0 23000
+P 0 23001 1 23000 1
+M 0 23000 1 23002 1
+G 0 23002 0
+G 0 23003 0
+O 0 23004 0 23003
+O 0 23006 0 23003
+M 0 23099 1 23090 1
+E 0 23099 0 16
+E 0 23099 0 19
+M 0 23098 1 23090 1
+E 0 23098 0 16
+M 0 23094 1 23090 1
+E 0 23098 0 16
+M 0 23085 1 23090 1
+E 0 23098 0 16
+M 0 23097 1 23090 1
+E 0 23097 0 16
+M 0 23093 1 23090 1
+E 0 23097 0 16
+M 0 23092 1 23090 1
+E 0 23097 0 16
+M 0 23091 1 23090 1
+E 0 23097 0 16
+M 0 23086 3 23090 3
+E 0 23097 0 16
+M 0 23096 3 23090 3
+E 0 23096 0 16
+M 0 23090 3 23090 3
+E 0 23096 0 16
+M 0 23095 6 23090 6
+E 0 23095 0 16
+M 0 23089 6 23090 6
+E 0 23095 0 16
+M 0 23088 6 23090 6
+E 0 23095 0 16
+M 0 23087 6 23090 6
+E 0 23095 0 16
+M 0 23084 3 23090 3
+E 0 23096 0 16
+S
+
+
+
+#SHOPS
+23000 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

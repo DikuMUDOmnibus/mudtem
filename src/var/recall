@@ -1,0 +1,100 @@
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+    ROOM_INDEX_DATA *location;
+    int temp = -1, tempvnum;
+
+    if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
+    {
+	send_to_char("Solo los jugadores pueden revocar.\n\r",ch);
+	return;
+    }
+  
+    if ( !IS_NULLSTR(argument) )
+    {
+    	temp = get_hometown(argument);
+
+    	if ( temp == -1 )
+    	{
+    		send_to_char( "Debes poner una ciudad como argumento.\n\r", ch );
+    		return;
+    	}
+    }
+
+    act( "$n ruega por transporte!", ch, NULL, NULL, TO_ROOM );
+
+    if ( IS_NPC(ch) && IS_PET(ch) && ch->position == POS_FIGHTING )
+    	return;
+
+    if ( temp > -1 )
+    {
+    	tempvnum = hometown_table[temp].recall;
+	if ( !IS_NPC(ch) )
+		ch->pcdata->hometown = temp;
+    }
+    else
+    {
+    	if ( IS_NPC(ch)
+    	&&   IS_SET(ch->act,ACT_PET)
+    	&&   ch->master
+    	&&  !IS_NPC(ch->master) )
+    		tempvnum = hometown_table[ch->master->pcdata->hometown].recall;
+    	else    	
+	if ( !IS_NPC(ch) )
+    		tempvnum = hometown_table[ch->pcdata->hometown].recall;
+    	else
+    		tempvnum = ROOM_VNUM_TEMPLE;
+    }
+
+    if ( ( location = get_room_index( tempvnum ) ) == NULL )
+    {
+	send_to_char( "Estas completamente perdido.\n\r", ch );
+	return;
+    }
+
+    if ( ch->in_room == location )
+	return;
+
+    if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
+    ||   IS_AFFECTED(ch, AFF_CURSE))
+    {
+	send_to_char( "Mota te ha olvidado.\n\r", ch );
+	return;
+    }
+
+    if ( ( victim = ch->fighting ) != NULL )
+    {
+	int lose,skill;
+
+	skill = get_skill(ch,gsn_recall);
+
+	if ( number_percent() < 80 * skill / 100 )
+	{
+	    check_improve(ch,gsn_recall,FALSE,2);
+	    WAIT_STATE( ch, 4 );
+	    send_to_char( "Fallaste!\n\r", ch );
+	    return;
+	}
+
+	lose = (ch->desc != NULL) ? 25 : 50;
+	gain_exp( ch, 0 - lose );
+	check_improve(ch,gsn_recall,TRUE,2);
+	sprintf( buf, "Revocas del combate!  Pierdes %d exps.\n\r", lose );
+	send_to_char( buf, ch );
+	stop_fighting( ch, TRUE );
+    }
+
+    if ( (ch->level > 14) && !CHANCE(get_skill(ch,gsn_recall)) && CHANCE(ch->level) )
+	location = get_random_room( chToEnt(ch) );
+
+    ch->move /= 2;
+    act( "$n desaparece.", ch, NULL, NULL, TO_ROOM );
+    char_from_room( ch );
+    char_to_room( ch, location );
+    act( "$n aparece en el cuarto.", ch, NULL, NULL, TO_ROOM );
+    do_look( ch, "auto" );
+    check_improve(ch,gsn_recall,TRUE,3);
+    
+    if (ch->pet != NULL)
+	do_recall(ch->pet,"");
+
+    return;

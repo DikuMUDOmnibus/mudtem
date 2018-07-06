@@ -1,0 +1,132 @@
+void load_peticion(FILE *fp, PETITION_DATA *pet)
+{
+	char *word;
+	bool fMatch;
+
+	while(TRUE)
+	{
+		word = fread_word( fp );
+		fMatch = FALSE;
+
+		switch(UPPER(word[0]))
+		{
+			case 'C':
+			KEY( "Clan", pet->clan, clan_lookup(fread_string(fp)));
+			break;
+
+			case 'E':
+			if ( !str_cmp( word, "End" ) )
+			{
+				pet->next	= petition_list;
+				petition_list	= pet;
+				return;
+			}
+			break;
+
+			case 'I':
+			KEY( "Id",	pet->id,	fread_number(fp) );
+			break;
+
+			case 'N':
+			KEY( "Name",	pet->name,	fread_string(fp) );
+			KEY( "Nivel",	pet->nivel,	fread_number(fp) );
+			break;
+
+			case 'O':
+			KEY( "Oldclan",	pet->oldclan,	clan_lookup(fread_string(fp)) );
+			break;
+
+			case 'S':
+			KEY( "Status",	pet->status,	fread_number(fp) );
+			break;
+		}
+
+		if ( fMatch == FALSE )
+		{
+			bugf( "load_peticion : clave %s invalida", word );
+			return;
+		}
+	}
+}
+
+void load_peticiones(void)
+{
+	FILE *fp;
+	PETITION_DATA *pet;
+	char *word;
+
+	fp = fopen( DATA_DIR "peticiones", "r" );
+
+	if ( !fp )
+	{
+		perror( "peticiones" );
+		return;
+	}
+
+	word = fread_word( fp );
+
+	if ( str_cmp( word, "#PETICIONES" ) )
+	{
+		bug( "load_peticiones : archivo corrupto", 0 );
+		fclose( fp );
+		return;
+	}
+
+	while (TRUE)
+	{
+		word = fread_word( fp );
+
+		if ( !str_cmp( word, "#END" ) )
+		{
+			fclose( fp );
+			return;
+		}
+
+		if ( !str_cmp( word, "#PETICION" ) )
+		{
+			pet		= new_petition();
+			load_peticion( fp, pet );
+			continue;
+		}
+
+		bugf( "load_peticiones : clave %s invalida", word );
+		fclose(fp);
+		return;
+	}
+}
+
+void save_peticion( FILE *fp, PETITION_DATA *pet )
+{
+	fprintf( fp, "\n#PETICION\n" );
+	fprintf( fp, "Name    %s~\n", pet->name );
+	fprintf( fp, "Id      %ld\n", pet->id );
+	fprintf( fp, "Nivel   %d\n", pet->nivel );
+	fprintf( fp, "Oldclan %s~\n", clan_table[pet->oldclan].name );
+	fprintf( fp, "Clan    %s~\n", clan_table[pet->clan].name );
+	fprintf( fp, "Status  %d\n", pet->status );
+	fprintf( fp, "End\n" );
+}
+
+void save_peticiones( void )
+{
+	FILE *fp;
+	PETITION_DATA *pet;
+
+	fp = fopen( DATA_DIR "peticiones", "w" );
+
+	if ( !fp )
+	{
+		perror( "peticiones" );
+		return;
+	}
+
+	fprintf( fp, "#PETICIONES\n" );
+
+	for ( pet = petition_list; pet; pet = pet->next )
+		save_peticion( fp, pet );
+
+	fprintf( fp, "\n#END\n" );
+
+	fclose( fp );
+}
+

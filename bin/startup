@@ -1,0 +1,32 @@
+#!/bin/csh
+# Written by Furey.
+# With additions from Tony and Alander.
+
+# Set limits.
+if ( -e ../data/shutdown.txt ) rm -f ../data/shutdown.txt
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 1000
+    while ( 1 )
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+	@ index++
+    end
+
+    cd ../bin
+
+    if ( -e rom.new ) mv -f rom.new rom
+
+    # Run rom.
+    ./rom 27040 >&! $logfile
+
+    # Restart, giving old connections a chance to die.
+    if ( -e ../data/shutdown.txt ) then
+	rm -f ../data/shutdown.txt
+	exit 0
+    endif
+
+    sleep 15
+end

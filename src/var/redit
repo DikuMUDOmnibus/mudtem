@@ -1,0 +1,46 @@
+const struct olc_cmd_type redit_table[] =
+{
+/* {	command		function	}, */
+
+   {	"commands", 	show_commands	}, /**/
+   {	"create", 	redit_create	},
+   {	"desc", 	redit_desc	}, /**/
+   {	"ed", 		redit_ed	}, /**/
+   {	"format", 	redit_format	},
+   {	"name", 	redit_name	}, /**/
+   {	"show", 	redit_show	},
+   {	"heal", 	redit_heal	}, /**/
+   {	"mana", 	redit_mana	}, /**/
+   {	"clan", 	redit_clan	}, /**/
+
+   {	"north", 	redit_north	}, /**/
+   {	"south", 	redit_south	}, /**/
+   {	"east", 	redit_east	}, /**/
+   {	"west", 	redit_west	}, /**/
+   {	"up",	 	redit_up	}, /**/
+   {	"down", 	redit_down	}, /**/
+   {	"dentro", 	redit_inside	}, /**/
+   {	"fuera", 	redit_outside	}, /**/
+
+	/* New reset commands. */
+   {	"mreset", 	redit_mreset	},
+   {	"oreset", 	redit_oreset	},
+   {	"mlist", 	redit_mlist	},
+   {	"rlist", 	redit_rlist	},
+   {	"olist", 	redit_olist	},
+   {	"mshow", 	redit_mshow	},
+   {	"oshow", 	redit_oshow	},
+   {	"teleport", 	redit_teleport	}, /**/
+   {	"owner", 	redit_owner	}, /**/
+   {	"addrprog",	redit_addrprog	},
+   {	"delrprog",	redit_delrprog	},
+   {	"listreset",	redit_listreset },
+   {	"checkobj",	redit_checkobj	},
+   {	"checkmob",	redit_checkmob	},
+   {	"copy",		redit_copy	},
+
+   {	"?",	 	show_help	}, /**/
+   {	"version", 	show_version	}, /**/
+
+   {	NULL,	 	0		}
+};

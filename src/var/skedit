@@ -1,0 +1,82 @@
+const struct olc_cmd_type skedit_table[] =
+{
+	{	"commands",	show_commands	},
+	{	"show",		skedit_show	}, /**/
+	{	"name",		skedit_name	}, /**/
+	{	"nombre",	skedit_nombre	}, /**/
+	{	"beats",	skedit_beats	}, /**/
+	{	"position",	skedit_position	}, /**/
+	{	"slot",		skedit_slot	}, /**/
+	{	"target",	skedit_target	}, /**/
+	{	"mana",		skedit_mana	}, /**/
+	{	"nivel",	skedit_nivel	}, /**/
+	{	"rating",	skedit_rating	}, /**/
+	{	"list",		skedit_list	}, /**/
+	{	"gsn",		skedit_gsn	}, /**/
+	{	"spell",	skedit_spell	}, /**/
+	{	"noun",		skedit_noun	}, /**/
+	{	"off",		skedit_off	}, /**/
+	{	"obj",		skedit_obj	}, /**/
+	{	"room",		skedit_room	}, /**/
+	{	"new",		skedit_new	}, /**/
+	{	"formula",	skedit_script	}, /**/
+	{	"tipo",		skedit_tipo	}, /**/
+	{	"free",		skedit_free	}, /**/
+	{	"cmsg",		skedit_cmsg	}, /**/
+	{	"callback",	skedit_callback	}, /**/
+	{	"flags",	skedit_flags	}, /**/
+	{	"?",		show_help	}, /**/
+	{	NULL,		0		}
+};
+
+void skedit( CHAR_DATA *ch, char *argument)
+{
+    struct skill_type *pSkill;
+    char arg[MAX_INPUT_LENGTH];
+    char command[MAX_INPUT_LENGTH];
+    int cmd;
+
+    smash_tilde(argument);
+    strcpy(arg, argument);
+    argument = one_argument( argument, command);
+
+    EDIT_SKILL(ch, pSkill);
+    if (ch->pcdata->security < 5)
+    {
+        send_to_char("SKEdit: Insuficiente seguridad para modificar skill.\n\r",ch);
+        edit_done(ch);
+        return;
+    }
+
+    if (command[0] == '\0')
+    {
+        skedit_show(ch, argument);
+        return;
+    }
+
+    if (!str_cmp(command, "done") )
+    {
+        edit_done(ch);
+        return;
+    }
+
+    if (!str_cmp(command, "save") )
+    {
+    	save_skills();
+    	return;
+    }
+
+    for (cmd = 0; skedit_table[cmd].name != NULL; cmd++)
+    {
+        if (!str_prefix(command, skedit_table[cmd].name) )
+        {
+           if ((*skedit_table[cmd].olc_fun) (ch, argument))
+           	save_skills();
+           return;
+        }
+    }
+
+    interpret(ch, arg);
+    return;
+}
+

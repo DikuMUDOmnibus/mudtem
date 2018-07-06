@@ -1,0 +1,2756 @@
+#AREADATA
+Name Warlord~
+Builders None~
+VNUMs 15000 15199
+Credits /// AREA EN CONSTRUCCION ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Clan Warlord~
+Version 2
+End
+
+
+
+#MOBILES
+#15000
+Crovax vendedor~
+Crovax~
+Ves un mago entero de negro, con una larga barba que le llega a los pies.
+~
+Ves un mago vestido entero de negro, con una larga barba que le llega a los pies.
+~
+'human'
+ABXd H 0 0 0
+25 21 5d10+500 25d14+100 2d10+13 magic
+-6 -6 -6 -3
+FKNUV 0 0 0
+stand stand none 0
+0 0 medium 'magia'
+L 'warlord'
+C 'cleric'
+R
+#15001
+Karvek vendedor~
+Karvek ~
+Karvek, el vendedor de varitas y staffs, esta aqui.
+~
+Ves una persona con unas vestiduras muy extranias...
+~
+'human'
+ABRX H 0 0 0
+25 19 5d10+500 125d14+100 3d6+12 none
+-6 -6 -6 -4
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+L 'warlord'
+C 'mage'
+R
+#15002
+dalila vendedora~
+Dalila~
+Dalila, la entrenadora de seguidores, esta aqui~
+~
+'human'
+ABRX H 0 0 0
+25 19 5d10+500 125d14+100 3d6+12 none
+-6 -6 -6 -4
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+L 'warlord'
+C 'mage'
+R
+#15003
+basilisco pet~
+Un basilisco~
+Una bestia parecida a un dragon, pero pequenio, esta aqui.
+~
+A pesar de ser tan agresivo, fue domesticado por Dalila para el Clan Warlords.
+~
+'lizard'
+AIX V 0 -1000 0
+25 2 3d9+208 25d14+100 2d6+9 claw
+-2 -2 -2 8
+D 0 0 0
+stand stand male 1000
+0 0 medium 'unknown'
+C 'thief'
+R
+#15004
+kezerdrix mascota pet~
+Kezerdrix.~
+Una Aterradora bestia de Combate.
+~
+Es una bestia creada por las mentes malevolas de la pichicata..!!
+~
+'harpy'
+AIRTX FHTVc 0 0 0
+30 30 10d10+500 30d15+100 10d10+30 wrath
+-3 -3 -3 10
+CDEFIKLO EK 0 G
+stand stand male 0
+CJV GI medium 'Mithril'
+C 'mage'
+F aff B
+R
+#15005
+Borracho~
+borracho~
+Esta pidiendo una moneda pa un copete
+~
+Esta pidiendo una moneda pa un copete.
+~
+'human'
+ABHRX HVa 0 1 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+FKU EL G EGKL
+stand stand male 5000
+G 0 small 'Cerveza'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJ
+#15006
+goliath vendedor~
+Goliath~
+Ves a un guerrero con gran musculatura.
+~
+Ves un guerrero con gran musculatura, y una hermosa armadura plateada.
+~
+'dragon'
+ABDJKXb DHVa 0 0 0
+25 12 5d10+450 25d13+900 2d10+6 none
+-7 -7 -7 -6
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'oro'
+L 'warlord'
+C 'psicionist'
+#15007
+sanson vendedor~
+Sanson~
+Ves un hombre de larga cabellera la cual es la clave de su increible poder
+~
+Ves un hombre de larga cabellera, la cual es la clave de su increible poder.
+~
+'human'
+ABRX H 0 0 0
+30 15 6d12+703 30d13+1100 5d4+7 none
+-9 -9 -9 -8
+FKU 0 0 0
+stand stand male 0
+0 0 medium 'mithril'
+L 'warlord'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#15008
+athila vendedor~
+Athila~
+Ves aqui a Athila, el mas despiadado de los guerreros.
+~
+Ves aqui el mas, despiadado de los guerreros.
+~
+'human'
+ABRX H 0 0 0
+35 17 10d10+1100 35d14+1200 4d7+9 none
+-11 -11 -11 -11
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'uno'
+L 'warlord'
+C 'mage'
+F for AHMV
+F par ABCDEFGHIJK
+#15009
+penelope vendedora~
+Penelope~
+Ves aqui una hermosa mujer de largos cabellos y una figura hermosamente iimcomparable.
+~
+Ves aqui una hermosa mujer de largos cabellos y una figura hermosamente imcomparable..
+ 
+~
+'angel'
+ABQX H 0 0 0
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand female 0
+0 0 medium 'mana'
+L 'warlord'
+C 'cleric'
+#15010
+juan pablo davila banquero~
+Juan Pablo Davila~
+Juan Pablo Davila, el mas confiable de los ejecutivos, esta aqui.
+~
+Ves aqui al mas confiable de los ejecutivos de cuentas bancarias.
+~
+'human'
+ABDXde H 0 0 0
+30 15 6d12+703 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'psicionist'
+#15011
+Saruman ~
+Saruman~
+Ves aqui a Saruman el blanco el mas grande de los magos.
+~
+Ves aqui a saruman el blanco el mas grande de los magos.
+~
+'elf'
+ABDX H 0 0 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'noche'
+L 'warlord'
+C 'psicionist'
+#15012
+hercules reparador~
+Hercules~
+Ves aqui a un hombre de gran carisma.
+~
+Ves aqui a un hombre con un gran carisma.
+ 
+~
+'angel'
+ABDX H 0 0 0
+30 15 6d12+703 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'celestial'
+C 'psicionist'
+#15013
+gen-gis-khan questmaster~
+Gen-Gis-Khan~
+Gen-Gis-Khan esta aqui para dar un quest.
+~
+Gen-Gis-Khan esta aqui para darte un quest.
+~
+'human'
+ABNQX H 0 0 0
+30 26 6d12+853 180d15+100 2d12+17 none
+-9 -9 -9 -6
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+R
+#15014
+skeletor healer~
+Skeletor~
+Ves aqui a un hombre de contextura muy delgada casi transparente.
+~
+Ves al mas diabolico de los seres que alguna vez han habitado Eternia.
+~
+'dragon'
+ABRXa H 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#15016
+Goliat~
+Goliat~
+Un gigante guerrero 
+~
+Ves un guerrero de 4 metros de altura, y una larga barba negra esperando
+ver quien es capas de quitarle su mazo...  
+ 
+~
+'human'
+ABTX 0 0 -1000 0
+40 60 25d10+2000 40d15+100 6d6+13 slash
+-13 -13 -13 -12
+CDEFIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#15017
+DragonWar~
+Dragon Guerrero~
+Un Gigante #BDragon#b espera la orden de su amo
+~
+Soy un Gran Dragon Gigante, 'Experto en combate'... Luchare hasta la muerte
+~
+'dragon'
+ADIX HNOa 0 1000 0
+35 17 10d10+1100 35d14+1200 5d6+10 flame
+-11 -11 -11 -11
+0 0 0 0
+stand stand male 0
+0 0 giant 'Lava'
+C 'psicionist'
+#15018
+War-Exterminaclanes~
+War-Exterminaclanes~
+Ves un gran dragon que esta custodiando este cuarto.
+~
+Ves un enorme dragon el cual te dice que no te atrevas a robar mi tesoro.
+~
+'dragon'
+ABDX BDFHa 0 0 0
+55 27 50d10+6000 55d16+1900 15d7+22 none
+-25 -25 -25 -23
+FIKPTU 0 0 0
+stand stand none 0
+MV 0 medium 'unknown'
+C 'psicionist'
+#15019
+angel de serra~
+Angel de Serra~
+Aqui esta el Angel de Serra
+~
+El Angel de Serra te mira y se rie despiadadamente mientras se dispone a
+#B#FATACARTE#f#b.  
+~
+'angel'
+ADFX H 0 0 0
+32 16 6d12+853 32d14+1100 6d4+9 none
+-10 -10 -10 -9
+FIKU A 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#15020
+khali~
+Khali~
+Aqui se encuentra la gran diosa #BKhali#b, que te ayudara con sus hechizos.
+~
+Ves una hermosa mujer que te siega con su esplandor.
+~
+'angel'
+ABQXa DFH 0 0 0
+50 25 50d10+4500 50d16+1700 5d11+18 none
+-20 -20 -20 -18
+FIKTU 0 0 0
+stand stand none 0
+0 0 medium 'plata'
+C 'cleric'
+F aff E
+#15021
+saron~
+Saron~
+Ves un mago que te mira con unos ojos de ira.
+~
+El gran Saron esta listo para la pelea, atrevete.
+~
+'elf'
+ABFRX DHa 0 0 0
+32 16 6d12+853 32d14+1100 2d12+8 none
+-10 -10 -10 -9
+FKU 0 0 0
+stand stand female 0
+0 0 medium 'iron'
+C 'mage'
+#15022
+mitos~
+Mitos~
+Ves un gran hombre de alrededor de unos 2.50 mts, con una gran espada en su poder.
+~
+Hola maldito bastardo, te asesinare.
+~
+'giant'
+ABTX DHa 0 0 0
+32 48 10d10+1100 32d14+100 4d7+9 none
+-10 -10 -10 -9
+CDEFIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#15023
+xavier~
+Xavier~
+Ves un hombre con un gran poder mental.
+~
+Ves un hombre de una baja estatura esperando que lo ataques, pero no te confies de el.
+~
+'human'
+ABDFX DHVa 0 0 0
+32 16 6d12+853 32d14+1100 6d4+9 none
+-10 -10 -10 -9
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'oro'
+C 'psicionist'
+F for AHMV
+F par ABCDEFGHIJK
+#15024
+doncan~
+Doncan~
+Te encuentra con un dragon muy agresivo.
+~
+Doncan te mira con sus ojos diabolicos y escupe fuego para atemorizarte.
+~
+'dragon'
+ABFQX DHa 0 0 0
+32 16 10d10+1000 32d14+1100 4d6+8 none
+-10 -10 -10 -9
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+#15025
+anascacha~
+anascacha~
+Ves a la hermosa esposa de Belfegor limpiando su habitacion.
+~
+Esta esperando que llegue el hombre que la hace tira culiando, el gran Belfegor.
+~
+'elf'
+ABTX 0 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLTU 0 0 EK
+stand stand none 40000
+0 0 medium 'oro'
+C 'warrior'
+#15026
+andres lacho~
+Andres~
+El lacho de dragonblanco
+~
+Ves al lacho de dragonblanco
+~
+'elf'
+ABTX 0 0 0 0
+45 67 25d10+3250 45d15+100 9d5+16 none
+-15 -15 -15 -14
+CDEFIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#15027
+shadowstalker~
+shadowstlaker~
+VEs una amenazadora criatura aqui.
+~
+V un animal muy dforme el cual tiene gran cantidad de bello por todos
+lados y logras distinguir 5 de sus ojos e s 
+~
+'scorpion'
+AIRX HVac 0 0 0
+25 12 5d10+450 25d13+900 4d4+6 none
+-6 -6 -6 -6
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#15028
+shake~
+shake~
+Ves una enorme criatura descansando aqui.
+~
+Es una criatura con 6 patas , dos cabezas y un par de brazos.
+~
+'human'
+AITX HVa 0 0 0
+35 52 10d10+1400 35d14+100 6d5+11 none
+-11 -11 -11 -10
+0 0 0 K
+stand stand none 0
+0 0 medium 'oro'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#15029
+Lobo asesino~
+Lobo Asesino~
+Un Gigante lobo asesino
+~
+Hooooo!!! un gigante lobo asesino espera una presa y parece que la presa 
+eres TU.
+~
+'giant'
+AIRX HVa 0 0 0
+38 19 10d10+1400 38d14+1300 6d5+11 acbite
+-12 -12 -12 -12
+0 0 0 0
+stand stand none 0
+0 0 giant 'Carne'
+C 'mage'
+#15030
+Serpiente Dorada~
+Serpiente Dorada~
+Una Serpiente Dorada
+~
+Es una serpiente enorme pero que acostumbra rondar invisible a sus presas
+~
+'cromagnon'
+AITX a 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 flame
+-13 -13 -13 -12
+0 0 D 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F res FG
+#15031
+Tigre Blanco~
+Tigre Blanco ~
+Tigre Blanco de las montanas
+~
+Un tigre Blanco esta aqui recordando cuantos negritos se a comido...
+~
+'giant'
+AITX 0 0 0 0
+42 63 25d10+2500 42d15+100 5d8+14 scratch
+-14 -14 -14 -13
+0 0 0 0
+stand stand none 0
+0 0 giant 'unknown'
+C 'warrior'
+#15032
+Dragon zombi~
+DRAGON ZOMBI~
+Un Dragon Zombi
+~
+Un Dragon que fue revivido en forma de zombi esta aqui
+~
+'dragon'
+AIOTUX a 0 0 0
+45 67 25d10+3250 45d15+100 9d5+16 none
+-15 -15 -15 -15
+FKU 0 I JNP
+stand stand none 0
+IMVc 0 medium 'unknown'
+C 'warrior'
+#15033
+soldado~
+Soldado Warlord~
+Un soldado del clan Warlord
+~
+Es un soldado del clan warlord dispuesto a ayudarte a cumplir tu mision
+~
+'modron'
+AIRX Ha 0 0 0
+37 18 10d10+1300 37d14+1300 5d6+10 punch
+-12 -12 -12 -11
+BFIKNUV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+F imm BMNPQ
+#15034
+cully~
+Cully~
+Ves un inocente y patetico ratoncito con cara de hambre
+~
+El cully te mira con cierta indiferencia, ves que un extranyo brillo le rodea el cuerpo, te sientes inquieto
+~
+'rata'
+ADIX 0 0 0 0
+27 13 5d10+550 27d13+1000 3d7+7 none
+-8 -8 -8 -7
+0 0 Q K
+stand stand none 0
+0 0 small 'unknown'
+C 'psicionist'
+F vul C
+#15035
+Lobo Vampiro~
+Lobo Vampiro~
+Ves un lobo de aspecto terrible que esta olfateando el aire. Comienzas a sentir miedo
+~
+Al verlo directamente a los ojos solo puedes ver sombras y maldad.
+El te observa analiticamente, previendo tus movimientos, sin apartarte la vista de encima...
+~
+'werewolf'
+ADIX FT 0 -1000 0
+32 16 6d12+853 32d14+1100 6d4+9 none
+-10 -10 -10 -9
+DM 0 BEH 0
+stand stand none 0
+BMVZ BGIPQVX medium 'unknown'
+C 'psicionist'
+F aff Q
+#15036
+piruxal~
+piruxal~
+Ves un enorme cuerpo enrollado aqui.
+~
+Ves sobre su dorso la mas grande las armaduras de los dragones.
+~
+'dragon'
+ABRX Ha 0 0 0
+27 13 5d10+550 27d13+1000 2d10+6 none
+-7 -7 -7 -7
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#15037
+borboso~
+borboso~
+Ves un hombre de gran estatura.
+~
+~
+'human'
+ABTX Ha 0 0 0
+32 48 10d10+1100 32d14+100 4d7+9 none
+-10 -10 -10 -9
+CDEFKLTU 0 0 0
+stand stand none 32000
+0 0 medium 'unknown'
+C 'warrior'
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#15000
+fuente de agua~
+Fuente Agua~
+Ves una #BBrillante #b Fuente de  Agua~
+oro~
+fountain AOd P
+-1 -1 'water' 0 0
+1 400 1 P
+#15001
+espada warlord~
+Espada Warlord's~
+Una  hermosa espada con el simbolo del clan Warlord's esta aqui.~
+acero~
+weapon ABGd AN
+sword 5 9 'slash' AC
+40 500 100000 P
+A
+12 -20
+A
+13 10
+A
+18 4
+A
+19 6
+N 'warlord'
+#15002
+pararrayos vara~
+Un pararrayos~
+Un pararrayos esta aqui  haciendo tierra  con el aire.~
+magia~
+wand Bd AO
+20 3 3 'ray of truth' 0
+25 50 10000 P
+N 'warlord'
+#15003
+Pergamino Maldito~
+Pergamino Maldito~
+Ves un papiro con el sello de WarLords~
+papel~
+scroll Ad AO
+30 'amnesia' 'estupidez' 'cansancio' 'weaken'
+35 10 10000 P
+N 'warlord'
+#15004
+Genesis~
+Genesis~
+Ves un versiculo de la Biblia~
+papel~
+scroll d AO
+20 'psionic blast' 'heat metal' 'vampiric bite' 'weaken'
+28 10 10000 P
+N 'warlord'
+#15005
+apocalipsis scroll~
+Apocalipsis~
+Ves un versiculo del Apocalipsis~
+papel~
+scroll d AO
+25 'flaming shield' 'heal' 'mental barrier' 'shield'
+30 100 25000 P
+N 'warlord'
+#15006
+Exodo~
+Exodo~
+Ves un versiculo del Exodo~
+acero~
+scroll d AO
+20 'blindness' 'sleep' 'curse' 'alucinar'
+25 30 10000 P
+N 'warlord'
+#15007
+Pacto Diabolico~
+Pacto diabolico~
+Ves un papel firmado con sangre~
+Caca~
+scroll d AO
+20 'chill touch' 'slow' 'faerie fire' 'poison'
+25 50 20000 P
+N 'warlord'
+#15008
+requiem scroll~
+Requiem~
+Ves un melancolico soneto~
+papel~
+scroll d AO
+10 'fireball' 'iceball' '' ''
+30 100 3000 P
+N 'warlord'
+#15009
+arenga frenetica scroll~
+Arenga frenetica~
+Ves un papel totalmente destructivo~
+oro~
+scroll d AO
+20 'dispel magic' 'heat metal' 'ultrablast' 'disintegrate'
+35 25 10000 P
+N 'warlord'
+#15010
+vara demoniaca ~
+Vara Demoniaca~
+Ves una vara con el sello de WarLords~
+oro~
+wand ABd AO
+35 4 4 'power word of kill' 0
+28 100 100000 P
+N 'warlord'
+#15011
+pocion recuperadora~
+Pocion Recuperadora~
+Una pocion recuperadora esta aqui flotando en el aire...~
+vidrio~
+potion d AO
+30 'heal' 'heal' '' ''
+30 50 10000 P
+N 'warlord'
+#15012
+proteccion scroll divina~
+Scroll de Proteccion divina~
+Un brillante scroll esta aqui flotando ...~
+papel~
+scroll d AO
+35 'haste' 'adrenaline control' '' 'concentracion'
+35 80 12000 P
+N 'warlord'
+#15013
+espada bramadora~
+Espada Bramadora~
+Una espada larga que parece bramar esta aqui en el piso.~
+piedra~
+weapon ABd AN
+sword 6 8 'slash' 0
+35 100 50000 P
+A
+18 2
+A
+13 20
+A
+19 2
+N 'warlord'
+#15014
+espada sometedora~
+Espada Sometedora~
+Una espada esta aqui botada, te #B#Fobliga#n a tomarla~
+indef~
+weapon d AN
+sword 6 6 'slash' 0
+30 150 25000 P
+A
+5 -2
+A
+3 2
+A
+19 3
+A
+18 1
+N 'warlord'
+#15015
+espada emancipadora~
+Espada Emancipadora~
+Una gran espada esta aqui ensartada en el suelo.~
+acero~
+weapon ABd AN
+sword 5 6 'slash' 0
+25 100 10000 P
+A
+13 10
+A
+19 1
+A
+18 2
+N 'warlord'
+#15016
+espada exterminaclanes~
+la #BPODEROSA#b Espada Exterminaclanes~
+Un arma tan brillante que te ciega, esta aqui en el piso.~
+indef~
+weapon Ad AN
+sword 6 10 'slash' DF
+45 450 150000 P
+A
+12 -30
+A
+13 30
+A
+18 10
+A
+19 10
+N 'warlord'
+#15017
+daga maligna~
+Daga Maligna~
+Ves una daga, que en su empunadura tiene el numero 666.~
+acero~
+weapon d AN
+dagger 5 6 'stab' 0
+25 50 10000 P
+A
+12 30
+A
+13 -10
+A
+19 2
+A
+18 2
+N 'warlord'
+#15018
+daga abrumadora~
+Daga Abrumadora~
+Ves una hermosa daga tirada aqui.~
+indef~
+weapon d AN
+dagger 5 7 'stab' 0
+30 50 25000 P
+A
+13 -20
+A
+12 40
+A
+19 3
+A
+18 2
+N 'warlord'
+#15019
+daga celestial~
+Daga Celestial~
+Ves una hermosa daga con la forma de una cruz~
+oro~
+weapon d AN
+dagger 9 5 'stab' 0
+35 180 50000 P
+A
+12 -15
+A
+13 25
+A
+19 3
+A
+18 2
+N 'warlord'
+#15020
+mazo trionico~
+Mazo trionico~
+Ves un mazo agitandose en el suelo.~
+acero~
+weapon d AN
+mace 9 5 'pound' 0
+30 400 25000 P
+A
+19 3
+A
+18 1
+N 'warlord'
+#15021
+hacha destripadora~
+Hacha Destripadora~
+Un hacha de gran tamanio esta en el suelo.~
+mithril~
+weapon d AN
+axe 7 5 'slash' DF
+30 200 25000 P
+A
+12 -20
+A
+13 20
+A
+19 3
+A
+18 2
+N 'warlord'
+#15022
+pocion sagrada~
+Pocion Sagrada~
+Ves una pocion dando vueltas aqui.~
+cuero~
+potion d AO
+40 'heal' 'heal' '' ''
+40 150 100000 P
+N 'warlord'
+#15023
+pocion warlords~
+Pocion WarLords~
+Ves una pocion flotando aqui.~
+vidrio~
+potion d AO
+20 'stone skin' 'armor' 'sanctuary' 'combat mind'
+25 15 10000 P
+N 'warlord'
+#15024
+pocion de la ira~
+Pocion de Ira~
+Ves una pocion que te consume por la rabia.~
+oro~
+potion d AO
+20 'frenzy' 'pass door' 'haste' 'enhance health'
+30 15 200000 P
+N 'warlord'
+#15025
+pocion detectadora~
+Pocion Detectadora~
+Ves una hermosa pocion saltando aqui.~
+cristal~
+potion ABd AO
+25 'detect invis' 'detect magic' 'detect hidden' 'detect poison'
+25 15 5000 P
+N 'warlord'
+#15026
+pocion mistica~
+Pocion Mistica~
+Ves una pocion que te impresiona por su increible aura.~
+indef~
+potion d AO
+35 'share strength' '' 'bless' 'adrenaline control'
+35 20 150000 P
+N 'warlord'
+#15027
+fuente de sangre~
+Fuente de Sangre~
+Ves una fuente la cual rebalsa por el mas sabroso de los alimentos~
+mithril~
+fountain ABd P
+-1 -1 'blood' 0 0
+0 1000 0 P
+#15028
+fuente de cerveza~
+Fuente de Cerveza~
+Ves una fuente que te llama la atencion por el color de su liquido.~
+madera~
+fountain ABd P
+-1 -1 'beer' 0 0
+0 1000 0 P
+#15029
+anillo~
+Anillo WarLords~
+Ves un hermoso anillo girando, y levantando una gran nube de polvo.~
+oro~
+armor ABGKd AB
+7 7 7 4 0
+30 5 100000 P
+A
+18 2
+A
+19 2
+#15030
+collar ~
+Collar WarLords Celestial~
+ves un despanpanante collar tirado aqui.~
+diamante~
+armor ABGKd AC
+8 8 8 7 0
+30 20 0 P
+A
+18 2
+A
+19 2
+#15031
+casco~
+Casco WarLord Celestial~
+Ves el mas raro de los cascos tirado aqui~
+indef~
+armor ABKd AE
+9 8 7 5 0
+30 50 100000 P
+A
+19 2
+A
+18 2
+#15032
+pierneras~
+Pierneras WarLord Celestial~
+Ves una gran piernera que te somete a tomarlas.~
+oro~
+armor ABKd AF
+10 9 9 9 0
+30 10 100000 P
+A
+18 2
+A
+19 2
+A
+13 10
+#15033
+capa~
+Capa WarLord Celestial~
+Ves una hermosa capa tirada aqui.~
+oro~
+armor ABKd AD
+10 10 10 9 0
+30 10 0 P
+A
+13 10
+A
+18 2
+A
+19 2
+#15034
+sandalias~
+Sandalias WarLord Celestial~
+Ves un hermoso par de sandalias con incrustaciones de piedras precias.~
+oro~
+armor d AG
+10 10 10 9 0
+30 15 100000 P
+A
+19 1
+A
+18 2
+#15035
+coderas~
+Coderas WarLord Celestial~
+Ves un gran par de coderas tiradas aqui.~
+oro~
+armor ABKd AI
+10 10 10 8 0
+30 15 100000 P
+A
+18 2
+A
+19 2
+#15036
+guantes~
+Guantes WarLord Celestial~
+Ves unos guantes con el escudo de armas del clan WarLord~
+oro~
+armor ABKd AH
+10 10 10 9 0
+30 10 100000 P
+A
+13 10
+A
+18 2
+A
+19 2
+#15037
+coraza~
+Coraza WarLord Celestial~
+Ves una hermosa coraza con piezas de adamantius.~
+oro~
+armor ABKd A
+10 7 7 9 0
+30 150 99990 P
+A
+19 2
+A
+12 30
+A
+18 2
+#15038
+munnequeras~
+Mu-equeras WarLord Celestial~
+Ves un par de mu-equeras con un dragon grabado en ellas.~
+indef~
+armor ABKd AM
+7 7 7 5 0
+30 50 99990 P
+A
+19 3
+#15039
+aros~
+Aros WarLord Celestiales~
+VEs un par de aros tirados aqui.~
+oro~
+armor ABFKd AS
+10 9 8 9 0
+30 20 99990 P
+A
+18 3
+#15040
+lentes~
+Lentes WarLords Celestial~
+ves un par de lentes ray-ban~
+ray-ban~
+armor ABFd AR
+5 9 11 5 0
+30 150 99990 P
+A
+19 2
+#15041
+mazo ~
+Un Mazo de Cristal~
+Un mazo negro frio como el hielo...~
+mithril~
+weapon ABd AN
+mace 6 9 'pound' B
+38 10000 500000 P
+#15042
+anillo~
+Anillo WarLord Infernal~
+Ves un Hermoso anillo del clan #B WarLords#b~
+adamantio~
+armor ABJd AB
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15043
+collar~
+Collar WarLords Infernal~
+Ves un Precioso collar del Clan #BWarlords#b~
+esmeralda~
+armor ABJd AC
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15044
+casco~
+Casco Warlords Infernal~
+Ves un casco de hechura perfecta, es del clan #BWarlords#b~
+hierro~
+armor ABJd AE
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15045
+pierneras~
+Pierneras WarLords Infernal~
+Ves un par de pierneras del #B#FPODEROSO#f#b clan #BWarLords#b~
+bronce~
+armor ABJd AF
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15046
+capa~
+Capa WarLords Infernal~
+Ves una capa del Clan #BWarLords#b, confeccionada con la mas fina de las sedas~
+seda~
+armor ABJd AD
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15047
+sandalias~
+Sandalias WarLords Infernal~
+Ves un par de sandalias de curero pertenecientes al clan #BWarLords#b~
+cuero~
+armor ABJd AG
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15048
+guantes~
+Guantes Warlords Infernales~
+Ves un par de hermosos guantes de un precioso metal. Pertenecen al clan #BWarLords#b~
+mithril~
+armor ABJd AH
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15049
+coderas~
+Coderas Warlords Infernales~
+Ves una codera del Clan #BWarLords#b~
+adamantio~
+armor ABJd AI
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15050
+coraza~
+Coraza Warlords Infernal~
+Ves un preciosa coraza del Clan #BWarlLords#b~
+mithril~
+armor ABJd AK
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15051
+Mu-equeras~
+Mu-equeras Warlords Infernales~
+Ves una Munyequera del clan #BWarLords#b~
+cuero~
+armor ABJd AM
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15052
+aros~
+Aros WarLords Infernales~
+Ves Un aro del clan #B WarLords#b~
+oro~
+armor ABFJd AS
+11 11 11 11 0
+30 20 0 P
+A
+19 2
+A
+18 2
+#15053
+lentes~
+Lentes WarLords Infernales~
+Ves un Par de Lentes del clan #BWarLords#b~
+grafito~
+armor ABFJd AR
+11 11 11 11 0
+30 0 0 P
+A
+19 2
+A
+18 2
+#15054
+corrosiva vara~
+vara corrosiva~
+Ves una vara corroida por el acido~
+magia~
+wand Bd AO
+30 5 5 'acid blast' 0
+30 10 2000 P
+N 'warlord'
+#15055
+Arcaica vara~
+Vara Arcaica~
+Ves una vara muy antigua del Clan #BWarLords#b~
+piedra~
+wand Bd AO
+23 5 5 'colour spray' 0
+20 5 1000 P
+N 'warlord'
+#15056
+TNT vara~
+vara esplosiva~
+Ves una vara de un material desconocido y de aspecto muy #Bpeligroso#b~
+TNT~
+wand Bd AO
+33 5 5 'detonate' 0
+33 5 2000 P
+N 'warlord'
+#15057
+epidemia vara~
+Vara de epidemia~
+Ves una vara de aspecto horrible. #BNo te Acerques!!!#b. ~
+magia~
+wand Bd AO
+35 4 4 'lepra' 0
+35 10 25000 P
+N 'warlord'
+#15058
+arco vara~
+Un arco~
+Ves un extranyo arco del Clan #BWarLords#b~
+madera~
+wand Bd AO
+37 5 5 'disintegrate' 0
+37 5 2000 P
+N 'warlord'
+#15059
+incandescente vara~
+Vara incandescente~
+Ves una vara en llamas ~
+fuego~
+wand ABd AO
+38 7 7 'hellspawn' 0
+37 10 2500 P
+N 'warlord'
+#15060
+cobre vara~
+Vara de cobre~
+Ves una Vara de cobre que esta produciendo un campo electrico #BE#b a su alrededor~
+cobre~
+wand Bd AO
+43 5 5 'lightning bolt' 0
+43 5 2500 P
+N 'warlord'
+#15061
+magica vara~
+Vara magica~
+Ves una varita magica a tus pies~
+oro~
+wand Bd AO
+25 10 10 'acid arrow' 0
+23 10 1000 P
+N 'warlord'
+#15062
+gaseosa vara~
+Vara gaseosa~
+Ves una Vara de la cual emana un extranyo gas~
+aire~
+wand Bd AO
+35 7 7 'gas breath' 0
+35 5 1000 P
+N 'warlord'
+#15063
+pocion magica~
+pocion magica~
+Ves una pocion burbugeante tirada aqui.~
+vidrio~
+potion d AO
+25 'biofeedback' 'inertial barrier' 'thought shield' 'flesh armor'
+25 25 30000 P
+N 'warlord'
+#15064
+righter vara~
+Vara righter~
+Ves una vara que esta temblando sobre el piso~
+mercurio~
+wand Bd AO
+27 7 7 'earthquake' 0
+25 5 1000 P
+N 'warlord'
+#15065
+pocion sanadora~
+Pocion Sanadora~
+Ves una pocion que te cura con solo mirarla.~
+vidrio~
+potion ABd AO
+25 'cancellation' 'cure disease' 'cure blindness' 'cure poison'
+20 25 1000 P
+N 'warlord'
+#15066
+pollo~
+un pollo asado~
+Ves un Rico Pollo asado sobre la mesa~
+pollo~
+food d AO
+12 6 0 0 0
+25 5 500 P
+N 'warlord'
+#15067
+queque~
+Un queque~
+Ves un delicioso Queque de nueces~
+harina~
+food d AO
+10 10 0 0 0
+20 1 100 P
+N 'warlord'
+#15068
+porotos~
+porotos~
+Ves un exquisito plato de porotos sobre la mesa~
+porotos~
+food d AO
+15 15 0 0 0
+30 10 1000 P
+N 'warlord'
+#15069
+cazuela~
+Cazuela~
+Ves un plato lleno de cazuela~
+comida~
+food d AO
+20 20 0 0 0
+35 10 1000 P
+N 'warlord'
+#15070
+lasagnya~
+Lasagnya~
+Un exquisito plato de lasagnya te esta esperando~
+fideos~
+food d AO
+24 24 0 0 0
+40 10 1200 P
+N 'warlord'
+#15071
+anillo mental~
+anillo mental~
+Ves un anillo muy especial~
+oro~
+armor Ad AB
+0 0 0 0 0
+25 2 10000 P
+A
+5 2
+A
+3 2
+A
+4 2
+N 'warlord'
+#15072
+coraza enaltecedora~
+coraza enaltecedora~
+Ves una coraza muy especial~
+oro~
+armor Ad AD
+0 0 0 0 0
+20 5 10000 P
+A
+5 2
+N 'warlord'
+#15073
+luz cegadora~
+Luz Cegadora~
+Ves una extranya luz, la cual te atrae hacia ella~
+indef~
+light Ad AO
+0 0 10 0 0
+20 2 500 P
+A
+18 1
+A
+19 1
+N 'warlord'
+#15074
+bengala~
+bengala~
+Ves una bengala tirada en el piso~
+indef~
+light Ad AO
+0 0 15 0 0
+25 4 3000 P
+A
+18 2
+A
+19 2
+A
+2 1
+A
+4 -1
+N 'warlord'
+#15075
+collar de conchitas~
+collar de conchitas~
+Ves un collar super artesa~
+conchitas~
+armor ABd AC
+6 8 8 5 0
+25 2 3000 P
+A
+18 2
+A
+19 1
+A
+13 10
+A
+4 -1
+N 'warlord'
+#15076
+hush puppies~
+Hush puppies~
+Ves unos zapatos de cuerina. Se ven muy comodos y livianos~
+cuero~
+armor ABd AG
+8 8 8 2 0
+25 4 10000 P
+A
+14 30
+A
+1 1
+A
+2 1
+N 'warlord'
+#15077
+guantes magicos~
+guantes magicos~
+Ves un par de guantes de tela muy fina~
+indef~
+armor Ad AH
+8 8 8 2 0
+25 2 10000 P
+A
+2 -1
+A
+4 2
+A
+12 30
+N 'warlord'
+#15078
+zarcillo WarLord~
+Zarcillos Warlords~
+Ves un par de Zarcillos muy bonitos sobre el piso~
+plata~
+armor ABd AS
+9 9 9 3 0
+27 2 15000 P
+A
+18 1
+A
+19 1
+A
+5 1
+#15079
+espada flamigera~
+espada flamigera~
+ves una espada envuelta en llamas~
+oro~
+weapon Ad AN
+sword 4 8 'charge' A
+27 10 10000 P
+A
+4 -2
+A
+19 2
+A
+18 2
+#15080
+Casco de guerra~
+Casco de Guerra~
+Ves un Casco deGuerra Finamente trabajado con unas runas extranyas~
+acero~
+armor d AE
+10 10 10 10 0
+25 5 1000 P
+A
+13 10
+A
+1 1
+A
+2 1
+#15081
+Gorra de Mago~
+Gorra de Mago~
+Ves una Preciosa y fina Gorra de Mago~
+seda~
+armor Ad AE
+9 9 9 9 0
+25 5 1000 P
+A
+12 10
+A
+2 1
+A
+1 1
+#15082
+mun-equera de marte~
+Mun-equera de Marte~
+Ves una fina mun-equera de bronce~
+bronce~
+armor Bd AM
+9 9 9 9 0
+25 2 1000 P
+A
+13 5
+A
+1 1
+A
+18 1
+A
+19 2
+#15083
+brazalete mistico~
+Brazalete de Quarzo~
+Ves un brazalete hecho de un extranyo material~
+quarzo~
+armor Ad AM
+9 9 9 9 0
+25 2 1000 P
+A
+18 1
+A
+19 1
+A
+1 1
+A
+12 10
+#15084
+codera de bronce~
+Codera de Bronce~
+Ves una hermosa codera de bronce~
+bronce~
+armor Bd AI
+9 9 9 9 0
+25 2 1000 P
+A
+18 1
+A
+19 2
+A
+2 1
+#15085
+coraza de bronce~
+Coraza de Bronce~
+Ves una hermosa coraza de bronce~
+bronce~
+armor d AK
+9 9 9 9 0
+25 2 1000 P
+A
+13 20
+A
+12 20
+A
+18 1
+A
+19 1
+A
+14 -10
+#15086
+guantes de cuero~
+Guentes de Cuero~
+ves un par deguantes de cuero~
+cuero~
+armor ABd AH
+9 9 9 9 0
+25 0 1000 P
+A
+18 1
+A
+19 1
+A
+12 15
+#15087
+zunga de leopardo~
+Zungas de Leopardo~
+Ves unas Zungas de piel de Leopardo~
+piel~
+armor ABd AF
+9 9 9 9 0
+25 2 1000 P
+A
+12 15
+A
+18 1
+A
+19 2
+A
+2 1
+#15088
+disipador~
+disipador~
+Un scroll hadisipado tu magia..~
+papel~
+scroll d AO
+40 'dispel magic' 'dispel magic' 'poison' 'poison'
+40 10 1000 P
+N 'warlord'
+#15089
+escudo extermina-clanes~
+Escudo Extermina-Clanes~
+Ves un escudo tallado blanco con perlas botado aqui...~
+platino~
+armor ABFRd J
+12 12 12 7 0
+40 30 150000 P
+A
+12 20
+A
+13 -20
+A
+19 4
+A
+18 2
+N 'warlord'
+#15090
+coraza~
+Coraza Incandescente~
+Ves una coraza finamente pulida.~
+oro~
+armor AGd AD
+10 9 8 7 0
+30 35 12500 P
+A
+18 4
+N 'warlord'
+#15091
+diamante negro~
+Diamante Negro~
+Ves un Diamante de color negro~
+diamante~
+armor AGd AB
+8 8 8 8 0
+27 3 1000 P
+A
+12 10
+A
+18 1
+A
+19 1
+#15092
+Collar de Azabache~
+Collar de Azabache~
+Ves un hermoso collar de un color negro azulado~
+indef~
+armor AGd AC
+8 8 8 8 0
+27 2 1000 P
+A
+12 20
+A
+5 -1
+A
+19 2
+A
+18 2
+#15093
+Capa Invisible~
+Capa Invisible~
+Ves?? una capa... o no??~
+indef~
+armor Fd AN
+8 8 8 8 0
+27 2 1000 P
+A
+18 2
+A
+19 2
+A
+12 20
+#15094
+Gorra de Mago~
+Gorra de Mago~
+Ves una esplendida Gorra de Mago~
+seda~
+armor AGd AE
+8 8 8 8 0
+27 2 1000 P
+A
+12 20
+A
+4 1
+A
+13 10
+#15095
+Pantalones Negros~
+Pantalones negros~
+Ves un par de pantalones negros... Son magicos!!!~
+Mezclilla~
+armor AGd 0
+8 8 8 8 0
+27 2 1000 P
+A
+12 20
+A
+18 2
+A
+19 1
+#15096
+botas de cuero~
+Botas de Cuero~
+Ves unas esplendidas botas de cuero~
+cuero~
+armor d AG
+8 8 8 8 0
+27 1 1000 P
+A
+12 10
+A
+18 1
+A
+19 3
+#15097
+Guantes de Luz~
+Guentes de #BLUZ#b~
+Apenas ves un par de guantes. Su #B#FLUZ#b#f te ciega~
+Luz~
+armor ABGd 0
+8 8 8 8 0
+27 1 1000 P
+A
+1 2
+A
+19 2
+A
+12 10
+#15098
+mangas de poder~
+Mangas de poder~
+Ves unas Exquisitas mangas, sientes deseos de ponertelas~
+indef~
+armor BGd AI
+8 8 8 8 0
+27 2 1000 P
+A
+12 30
+A
+13 20
+A
+18 -2
+#15099
+Armadura de PIRUXAL~
+Armadura de #BPIRUXAL#b~
+Ves la #FMAJESTUOSA#f Armadura de #BPIRUXAL#b~
+algodon~
+armor BGd AD
+8 8 8 8 0
+27 2 1000 P
+A
+12 30
+A
+18 2
+A
+19 2
+A
+13 -10
+#15100
+Brazalete Oscuro~
+Brazalete de Ebano~
+Ves un estupendo Brazalete~
+ebano~
+armor BGd AM
+8 8 8 8 0
+27 2 1000 P
+A
+12 10
+A
+5 1
+#15101
+Esfera plateada~
+Esfera Plateada~
+Ves un rara esfera flotando cerca tuyo~
+plata~
+armor Ad AQ
+8 8 8 8 0
+27 1 1000 P
+A
+5 2
+A
+2 2
+#15102
+aros de Chaman~
+Aros de Chaman~
+Ves unos aros muy bonitos~
+oro~
+armor d S
+8 8 8 8 0
+27 1 1000 P
+A
+19 1
+A
+18 1
+A
+12 10
+#15103
+pierneras~
+Pierneras de Dragon.~
+Ves unas hermosa pierneras curtidas del pellejo de un Dragon.~
+mit~
+armor d AF
+12 10 12 9 0
+35 20 25000 P
+A
+18 3
+A
+19 3
+A
+1 -1
+A
+13 50
+N 'warlord'
+#15104
+capa~
+capa roja~
+Ves una capa roja que ha sido ba-ada con la sangre de un Dragon.~
+mit~
+armor d AL
+11 11 11 13 0
+35 25 253000 P
+A
+18 3
+A
+19 3
+N 'warlord'
+#15105
+brazaletes~
+Brazaletes~
+Ves unos brazaletes muy finos tirados aqui.~
+oro~
+armor ABd AM
+8 8 8 9 0
+30 25 15000 P
+A
+18 3
+A
+19 1
+N 'warlord'
+#15106
+medallon~
+Medallon de exaltacion~
+Ves un medallon que invade de ira al vrelo.~
+oro~
+armor d AC
+12 12 12 12 0
+40 20 125000 P
+A
+5 -1
+A
+18 3
+A
+3 1
+A
+19 3
+N 'warlord'
+#15107
+silenciador~
+Silenciador~
+VEs un scroll que te ha dejado mudo, esta aqui.~
+papel~
+scroll ABGd AO
+40 'mute' 'mute' 'mute' 'mute'
+40 10 2000 P
+N 'warlord'
+#0
+
+
+
+#ROOMS
+#15000
+Entrada al Clan WarLords~
+Estas en la entrada al Gran Clan #BWarlords#b, vez un gran porton con un
+letrero que dice : "Si te atreves a entrar pagaras tu osadia con la
+#B#FMUERTE#b#f ".  
+~
+0 NY 0
+E
+letrero~
+Ves un #BInmenso#b letrero que dice:
++---------------------------------------------------------------------+
+|                                                                     |
+| Si no eres del PODEROSO Clan #BWarlords#b, pagaras tu osadia con        |
+| La    #F#BMUERTE!!!!                       #f#b                             |
+|                                                                     |
+|                                                                     |
+|                                                                     |
+| Area Creada por :      Belfegor                                     |
+|                        Dragonblanco                                 |
+|                        Greven                                       |
++---------------------------------------------------------------------+
+~
+D0
+~
+~
+0 0 15001
+S
+#15001
+En el Clan~
+Ves un largo pasillo y una gran cantidad de Guardias del #BInfierno#b
+como tambien del #BCielo#b.  
+~
+0 NY 0
+D0
+~
+~
+0 0 15002
+D2
+~
+~
+0 0 15000
+S
+#15002
+En el Clan~
+Estas a punto de llegar al corredor del Clan donde podras armarte de las
+mas fabulosas armaduras y hechizos, pero ten #BCuidado#b.  
+~
+0 NY 0
+D0
+~
+~
+0 0 15003
+D2
+~
+~
+0 0 15001
+S
+#15003
+En el Corredor~
+Te encuentras en el corredor, hacia el este se encuentra #Bla tienda de
+Pociones#b y hacia el oeste #Bla tienda de varitas#b.  
+~
+0 Y 0
+D0
+~
+~
+0 0 15006
+D1
+~
+~
+0 0 15005
+D2
+~
+~
+0 0 15002
+D3
+~
+~
+0 0 15004
+S
+#15004
+Tienda de Varitas~
+En este cuarto se encuentra #BKarvek#b, el vendedor de varitas del Clan
+#B#UWarlords#b#u escribe 'List' y veras una diversa gama de Varitas, las
+cuales te ayudaran en la constante lucha contra los Mob y Clanes enemigos.  
+~
+0 Y 0
+D1
+~
+~
+0 0 15003
+S
+#15005
+Tienda de Pociones~
+En esta tienda ves a un Hechicero #B'El gran Crovak'#b, escribe List y el
+Hechicero te mostrara un sin fin de pociones magicas, las cuales seran un
+gran apoyo en los combates benideros.  
+~
+0 Y 0
+D3
+~
+~
+0 0 15003
+D4
+~
+~
+0 0 15037
+S
+#15006
+En el Corredor~
+Mas al norte logras divisar una hermosa #Bfuente#b de agua, pero tambien te 
+das cuenta que esa fuente esta justo en el recall del temido clan #BWarlords#b.
+~
+0 Y 0
+D0
+~
+~
+0 0 15010
+D1
+~
+~
+0 0 15009
+D2
+~
+~
+0 0 15003
+D3
+~
+~
+0 0 15007
+S
+#15007
+Sala de Armas~
+Estas en la sala de las armas, frente a ti te encuentras con el mostrario de  las armas, la verlas quedas encandilado por el gran brillo de sus filos.
+~
+0 Y 0
+D1
+~
+~
+0 0 15006
+D3
+~
+~
+0 0 15008
+S
+#15008
+Camino a la Aventura~
+Sientes una sensacion rara...  #BAlgo no esta bien#b...  Miras a tu
+alrrededor y te das cuenta que no estas en el Clan #Bwarlords#b....  
+~
+0 UY 0
+D1
+~
+~
+0 0 15007
+S
+#15009
+Sala de Guerra~
+Este Salon es atendido por el gran #BGOLIATH#b un poderoso guerrero que a
+decidido dejar las armas para dedicarse a la venta y contruccion de las mas
+poderosas Armaduras de Guerra jamas antes vistas por un mortal, escribe List
+y podras comprar una deacuerdo a tu nivel y PODER 
+~
+0 Y 0
+D3
+~
+~
+0 0 15006
+D4
+~
+~
+0 0 15038
+S
+#15010
+En el Centro del Clan~
+Aqui tienes  que poner el numero de recall!!!!
+~
+0 Y 0
+D0
+~
+~
+0 0 15019
+D2
+~
+~
+0 0 15006
+D3
+~
+~
+0 0 15020
+D5
+~
+~
+0 0 15011
+S
+#15011
+El Mausoleo~
+Estas en el gran mausoleo del clan #BWarLords#b donde bienen a dar los
+cadaveres de los mas #B#FValientes#b#f guerreros que han dado su vida por el
+clan.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15010
+D5
+~
+~
+0 0 15012
+S
+#15012
+Hacia la Armadura WarLords Infernal~
+Vas hacia la armadura #BWarLords#b Infernal, aun es tiempo de
+arrepentirse porque los lamentos de los guerreros que han muerto tratando de
+obtener te llenan de pavor y horror.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15011
+D5
+~
+~
+0 0 15013
+S
+#15013
+Hacia la Armadura Warlords Infernal~
+Te encuentras en direccion a la armadura #BWarLords#b infernal ten
+cuidado porque podrias pagar con la #BMuerte#b tu osadia, #B#FJA JA JA
+JA#b#f.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15012
+D5
+~
+~
+0 0 15014
+S
+#15014
+En el Infierno~
+Te encuentras con cuatro puertas, cada una de ellas te lleva a una parte
+de la armadura #BWarLords#b infernal, si tu aliniacion es angelical no se te
+ocurra tratar de obtenerla porque encontraras la #B#FMuerte#b#f.  
+~
+0 Y 0
+D0
+~
+~
+AB 0 15015
+D1
+~
+~
+AB 0 15016
+D2
+~
+~
+AB 0 15018
+D3
+~
+~
+AB 0 15017
+D4
+~
+~
+0 0 15013
+S
+#15015
+Armadura y Guantes Warlords Infernales~
+Toma la Armadura y los guantes...#B si puedes!!!
+~
+0 Y 0
+D2
+~
+~
+AB 0 15014
+S
+#15016
+Casco WarLords Infernal~
+Toma el Casco Warlords... #BSi puedes!!!
+~
+0 Y 0
+D3
+~
+~
+AB 0 15014
+S
+#15017
+Escudo WarLords Infernal~
+Toma el Gran escudo Warlords... #BSi puedes!!!
+~
+0 Y 0
+D1
+~
+~
+AB 0 15014
+S
+#15018
+Botas WarLords Infernales~
+Toma las botas Warlords...#B Si puedes!!!
+~
+0 Y 0
+D0
+~
+~
+AB 0 15014
+S
+#15019
+En el Corredor~
+Este corredor te lleva hacia el Salon de la perdicion, en el encontraras
+las mas hermosas mujeres, las cuales eran guerreras de otros clanes que
+fueron capturadas por los actuales lideres del clan.  
+~
+0 Y 0
+D0
+~
+~
+0 0 15039
+D1
+~
+~
+0 0 15021
+D2
+~
+~
+0 0 15010
+D3
+~
+~
+0 0 15022
+D5
+~
+~
+0 0 15040
+S
+#15020
+Santuario #BWarLords#b~
+Te encuentras en el santuario del clan #BWarLords#b, donde encuentras el
+altar del gran dios #B#FKhali#b#f el cual te ciega por su despanpanante
+esplendor.  
+~
+0 KYZ 0
+D1
+~
+~
+0 0 15010
+D4
+~
+~
+0 0 15032
+D5
+~
+~
+0 0 15031
+M 200 H 200
+S
+#15021
+La Tienda de Provisiones~
+Estas parado frente a el poderoso Sanson, quien despues de la derrota que
+sufrio ante #BBelfegor#b colgo su espada y decidio dedicarse al comercio.  
+ 
+~
+0 Y 0
+D3
+~
+~
+0 0 15019
+S
+#15022
+Tienda de Mascotas~
+Te encuentras frente a #BDalila#b, la hermosa vendedora de mascotas, pero
+no la mires demasiado, pues recuerda que ella pertenece a #BBelfegor#b el
+poderoso Dictador del clan...  Mejor dedicate a comprar tu mascota!!!  
+~
+0 MY 0
+D1
+~
+~
+0 0 15019
+S
+#15023
+guarderia de mascotas~
+~
+0 CY 0
+S
+#15024
+Hacia la Armadura WarLords Celestial~
+Si no eres nivel 30 o superior mejor #B#FNO SIGAS#b#f ,pues lo que arriba
+hay, no es nada facil de superar,#B un Mago, un guerrero, un thief y un
+Psiquico#b.  'Pero recuerda que todo tiene su recompenza...  #B y tambien su
+PRECIO' 
+~
+0 Y 0
+D4
+~
+~
+0 0 15025
+D5
+~
+~
+0 0 15039
+S
+#15025
+Hacia la Armadura WarLords Celestial~
+Escuchas unas risas mas arriba #B#FJA JA JA JA#f#b...  Son los 4
+guerreros WARLORDS que se rien de ti sin piedad...  #F#Baun puedes cambiar
+de idea#f#b.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15026
+D5
+~
+~
+0 0 15024
+S
+#15026
+En el Cielo~
+Estas parado ante 4 puertas cada una de las cuales te conduce a una parte
+de la armadura...  Eso si cada una custodiada por un guerrero.  
+~
+0 Y 0
+D0
+~
+~
+AB 0 15027
+D1
+~
+~
+AB 0 15028
+D2
+~
+~
+AB 0 15029
+D3
+~
+~
+AB 0 15030
+D5
+~
+~
+0 0 15025
+S
+#15027
+Armadura y Guantes WarLords Celestiales~
+En este cuarto se encuentra Saron el mago, quien custodia parte de la gran armadura #BWarLords#b, ten cuidado con el es el mago mas fuerte del clan.
+~
+0 Y 0
+D2
+~
+~
+AB 0 15026
+S
+#15028
+Casco WarLords Celestial~
+Este es el cuarto de un gran religioso, en este ves una gran Cruz colgada en forma invertida  y un gran pentagono en el suelo.
+~
+0 Y 0
+D3
+~
+~
+AB 0 15026
+S
+#15029
+Botas WarLords Celestial~
+Este es el cuarto del gran Guerrero Mitos el cual tiene en su poder parte de la armadura #B#FWarLords#b#f ten cuidado despues de tantas batallas el a perdido el juicio, no le des nunca la espalda.
+~
+0 Y 0
+D0
+~
+~
+AB 0 15026
+S
+#15030
+Escudo WarLords Celestial~
+Te encuentras con uno de los poderosos Scaners del mundo que a sido sometido por uno de los Jefe del clan para custodiar parte de la armadura #BWarLords#b.
+~
+0 Y 0
+D1
+~
+~
+AB 0 15026
+S
+#15031
+La Prueba de Iniciacion~
+Esta es la primera prueba para entrar al gran clan #BWarLords#b,pero si
+haz logrado superarla no cantes victoria porque aun te falta la gran prueba
+de permanencia la cual te dara la legitimidad de ser un #B#FWarLords#b#f#b.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15020
+S
+#15032
+Entrada a los Aposentos Reales~
+Te encuentras en camino a los apocentos reales pertenecientes a los jefes
+del clan, si tu nombre no es #BBelfegor#b o #BDragonblanco#b no te atrevas a
+seguir porque encontraras la #BMUERTE#b con el guardian de sus aposentos.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15033
+D5
+~
+~
+0 0 15020
+S
+#15033
+Entrada a los Aposentos Reales~
+Te encuentras en la entrada a los aposentos reales, hacia el sur veras la
+casa de #B#FBelfegor#b#f y hacia el norte la de #B#FDragonblanco#b#f.  
+~
+0 Y 0
+D0
+~
+~
+AB 0 15034
+D2
+~
+~
+AB 0 15035
+D5
+~
+~
+0 0 15032
+S
+#15034
+La Casa de #B'DragonBlanco'#b~
+Estas en el cuarto#B del futuro dios DragonBlanco, en las paredes se
+observan fotos y figuras de mujeres desnudas...  Cabezas de Guerreros,
+asesinados por el y Espada, mazos y dagas de todo tipo...  
+~
+0 Y 0
+D2
+~
+~
+AB 0 15033
+M 200 H 200
+S
+#15035
+La Casa de #B'Belfegor'#b~
+Este es el gran apocento del Dictador #BBelfegor#b el cual lo cuida su
+amnegada esposa, es la mas ehrmosa de las Elfas existentes en el mundo la
+cual fue seducida por el gran poder de #B#FBelfegor#b#f.  
+~
+0 Y 0
+D0
+~
+~
+AB 0 15033
+M 200 H 200
+S
+#15036
+La Prueba de Permanencia~
+haz logrado pasar tu ultima prueba ahora eres un verdadero guerrero
+#BWarLord#b Te felicito..  
+ 
+~
+0 Y 0
+D4
+~
+~
+AB 0 15039
+S
+#15037
+La Biblioteca~
+En este Salon logras divisar un Viejo Clerigo #B'Saruman el Blanco'#b, el
+te dara a conocer una gran cantidad de #BScroll#b los cuales estan aqui a tu
+dispocicion para servirte de apoyo en las brutales luchas que un guerrero
+tiene dia a dia.  
+~
+0 Y 0
+D5
+~
+~
+0 0 15005
+S
+#15038
+Utensilios~
+Este cuarto es atendido por la despanpanante #BPenelope#b con una gran
+figura al verla te dan ganes de ir inmediatamente al salon de la
+#BPerdicion#b para desatar tus mas bajos instintos des pues de verla.  
+~
+0 Y 0
+D5
+~
+~
+0 0 15009
+S
+#15039
+Salon de la #BPerdicion#b~
+Tu te encuentras en #BEl Salon de la perdicion#b el cual dispone de los
+mas diversos tragos, en los rincones observas una gran cantidad de mujeres,
+las cuales complaceran tus mas ocultos deseos carnales,'ESO SI' debes pagar
+un consumo #B(TRAGO)#b...
+~
+0 Y 0
+D2
+~
+~
+0 0 15019
+D4
+~
+~
+0 0 15024
+D5
+~
+~
+AB 0 15036
+S
+#15040
+El Banco~
+Este es el Banco de Credito #BWarLords#b donde podras hacer tus
+transacciones monetarias, con el gran ejecutivi de cuentas a tu disposicion
+quien te dara los mejores consejos para invertir tu dinero.  
+~
+0 Y 0
+D4
+~
+~
+0 0 15019
+S
+#0
+
+
+
+#SPECIALS
+M 15003 spec_breath_acid
+M 15004 spec_poison
+M 15013 spec_questmaster
+M 15018 spec_guard
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 15014 0 1
+D 0 15014 1 1
+D 0 15014 2 1
+D 0 15014 3 1
+D 0 15015 2 1
+D 0 15016 3 1
+D 0 15017 1 1
+D 0 15018 0 1
+D 0 15026 0 1
+D 0 15026 1 1
+D 0 15026 2 1
+D 0 15026 3 1
+D 0 15027 2 1
+D 0 15028 3 1
+D 0 15029 0 1
+D 0 15030 1 1
+D 0 15033 0 1
+D 0 15033 2 1
+D 0 15034 2 1
+D 0 15035 0 1
+D 0 15036 4 1
+D 0 15039 5 1
+M 0 15018 12 15000 2
+M 0 15018 12 15001 2
+M 0 15018 12 15001 1
+M 0 15018 12 15003 2
+M 0 15001 1 15004 1
+G 0 15002 0
+G 0 15010 0
+G 0 15054 0
+G 0 15055 0
+G 0 15056 0
+G 0 15057 0
+G 0 15058 0
+G 0 15059 0
+G 0 15060 0
+G 0 15061 0
+G 0 15062 0
+G 0 15064 0
+M 0 15000 1 15005 1
+G 0 15022 0
+G 0 15023 0
+G 0 15024 0
+G 0 15025 0
+G 0 15026 0
+G 0 15011 0
+G 0 15063 0
+G 0 15065 0
+M 0 15008 1 15007 1
+G 0 15016 0
+G 0 15001 0
+G 0 15014 0
+G 0 15015 0
+G 0 15017 0
+G 0 15018 0
+G 0 15019 0
+G 0 15020 0
+G 0 15021 0
+G 0 15013 0
+M 0 15006 1 15009 1
+G 0 15089 0
+G 0 15090 0
+G 0 15103 0
+G 0 15104 0
+G 0 15105 0
+G 0 15106 0
+O 0 15000 0 15010
+M 0 15018 12 15010 2
+M 0 15018 12 15010 1
+M 0 15021 2 15015 1
+M 0 15024 2 15016 1
+M 0 15023 2 15017 1
+M 0 15022 2 15018 1
+M 0 15018 12 15020 2
+M 0 15018 12 15020 1
+M 0 15020 1 15020 1
+M 0 15014 1 15020 1
+M 0 15013 1 15020 1
+M 0 15007 1 15021 1
+G 0 15067 0
+G 0 15066 0
+G 0 15068 0
+G 0 15069 0
+G 0 15070 0
+M 0 15002 1 15022 1
+M 0 15003 1 15023 1
+M 0 15004 1 15023 1
+M 0 15017 1 15023 1
+M 0 15027 1 15023 1
+M 0 15028 1 15023 1
+M 0 15029 1 15023 1
+M 0 15030 1 15023 1
+M 0 15031 1 15023 1
+M 0 15032 1 15023 1
+M 0 15033 1 15023 1
+M 0 15034 1 15023 1
+M 0 15035 1 15023 1
+M 0 15021 2 15027 1
+G 0 15029 0
+G 0 15030 0
+G 0 15031 0
+M 0 15024 2 15028 1
+G 0 15038 0
+G 0 15039 0
+G 0 15040 0
+M 0 15022 2 15029 1
+G 0 15032 0
+G 0 15033 0
+G 0 15034 0
+M 0 15023 2 15030 1
+G 0 15035 0
+G 0 15036 0
+G 0 15037 0
+M 0 15036 1 15031 1
+G 0 15091 0
+G 0 15093 0
+G 0 15092 0
+G 0 15094 0
+G 0 15095 0
+G 0 15096 0
+G 0 15097 0
+G 0 15098 0
+G 0 15099 0
+G 0 15100 0
+G 0 15101 0
+G 0 15102 0
+M 0 15026 1 15034 1
+O 0 15027 0 15035
+M 0 15025 1 15035 1
+M 0 15037 1 15036 1
+M 0 15011 1 15037 1
+G 0 15003 0
+G 0 15004 0
+G 0 15005 0
+G 0 15006 0
+G 0 15007 0
+G 0 15008 0
+G 0 15009 0
+G 0 15012 0
+G 0 15088 0
+G 0 15107 0
+M 0 15009 1 15038 1
+G 0 15071 0
+G 0 15072 0
+G 0 15073 0
+G 0 15074 0
+G 0 15075 0
+G 0 15076 0
+G 0 15077 0
+M 0 15016 1 15039 1
+E 0 15041 0 16
+M 0 15005 4 15039 4
+O 0 15028 0 15039
+M 0 15010 1 15040 1
+S
+
+
+
+#SHOPS
+15000 0 0 0 0 0 100 100 100 100 0 23
+15001 0 0 0 0 0 100 100 100 100 0 23
+15002 0 0 0 0 0 100 100 100 100 0 23
+15006 0 0 0 0 0 100 100 100 100 0 23
+15007 0 0 0 0 0 100 100 100 100 0 23
+15008 0 0 0 0 0 100 100 100 100 0 23
+15009 0 0 0 0 0 100 100 100 100 0 23
+15011 0 0 0 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+15009 0 0 0 0 0 0 23
+15012 0 0 0 0 0 0 23
+0
+
+
+
+#$

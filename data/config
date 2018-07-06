@@ -1,0 +1,10 @@
+port 27040
+netup true
+recalc true
+maxhost 16
+identd false
+pcdam 150
+mobdam 120
+hostname news.utem.cl
+war false
+END

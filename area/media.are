@@ -1,0 +1,1105 @@
+#AREADATA
+Name Tierra Media I~
+Builders Yoda~
+VNUMs 21100 21199
+Credits {99 99} Yoda    Tierra Media~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#21100
+Espectro del Anillo~
+Un Espectro del Anillo~
+Un Jinete Negro esta aqui husmeando el aire.
+~
+Un hombre corpulento envuelto en un gran manto negro y tocado con un
+capuchon.  La cara es invisible en las sombras.  
+~
+'human'
+AGMTX HV 0 -1000 0
+38 57 15d10+1700 38d14+100 16d2+12 none
+-13 -13 -13 -11
+CDEFHIKLTU MP EZ H
+stand stand none 13000
+0 0 medium 'unknown'
+C 'warrior'
+#21102
+Gildor~
+Gildor el Elfo~
+Un gran elfo esta aqui mirando el paisaje.
+~
+~
+'elf'
+ASX H 0 0 0
+25 16 5d10+500 25d13+100 2d10+6 none
+-6 -6 -6 -5
+BEFHIJKNQUV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#21103
+Un zorro~
+Un zorro~
+Un zorro esta aqui.
+~
+~
+'fox'
+AX 0 0 0 0
+1 0 2d6+10 1d10+100 1d4+0 none
+9 9 9 9
+U 0 0 0
+stand stand none 1000
+0 0 medium 'unknown'
+C 'thief'
+F off F
+#21104
+Un Oso~
+Un Oso Licantropo~
+Un Oso de enorme estatura esta husmeando el aire.
+~
+~
+'bear'
+AIX HUVac 0 0 0
+45 0 25d10+3000 45d15+100 9d5+16 none
+-15 -15 -15 -14
+CFIKLSV 0 0 0
+stand stand none 0
+0 0 large 'unknown'
+C 'warrior'
+F off DE
+#21105
+Un Cuervo~
+Un Cuervo de Angband~
+Un Cuervo negro proveniente de Angband esta aqui.
+~
+~
+'vampire'
+AISX 0 0 -1000 0
+25 16 5d10+500 25d13+100 2d10+6 none
+-6 -6 -6 -6
+BCFIKNUV 0 HI 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+F vul X
+#21106
+Un Balrog~
+Un Balrog~
+Un Balrog de Enorme tamano esta aqui
+~
+~
+'dragon'
+AIX 0 0 0 0
+47 0 25d10+3500 47d15+100 13d4+17 none
+-17 -17 -17 -15
+IV 0 0 0
+stand stand none 0
+0 0 giant 'unknown'
+C 'thief'
+#21107
+Un Orco~
+Un #BOrco#b de Mordor~
+Un #BOrco#b de Mordor esta aqui lamiendo su cimitarra.
+~
+~
+'orc'
+AIX 0 0 0 0
+24 0 5d10+500 24d13+100 2d10+6 none
+-6 -6 -6 -5
+0 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+#21108
+Un wargo~
+un Wargo~
+Un Lobo de aspecto monstruoso esta aqui
+~
+~
+'werewolf'
+AIX H 0 0 0
+8 4 2d7+96 8d11+300 1d7+2 none
+3 3 3 5
+BLSUV 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'ranger'
+F aff Q
+F off F
+#21146
+Tom Bombadil~
+Tom Bombadil~
+El Vendedor de Licantropos esta aqui ofreciendo sus mascotas.
+~
+~
+'human'
+ABTX HJT 0 -1000 0
+50 75 50d10+5000 50d16+100 10d6+19 pierce
+-20 -20 -20 -17
+CDEFIKLTU 0 BEH FI
+stand stand male 0
+Z PQUVX medium 'hierro'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#21100
+Un arroyo~
+el arroyo~
+El arroyo te invita a beber de sus cristalinas aguas.~
+indef~
+fountain d 0
+100 100 'water' 0 0
+1 0 12121 P
+#21101
+Un punal~
+un punal congelado~
+Un punal del cual emana un vapor gelido esta aqui.~
+indef~
+weapon Ad AN
+dagger 6 9 'stab' B
+35 107 0 P
+#21102
+Cota de mallas elfica~
+una cota de mallas elfica~
+Una cota de mallas de color plata palida esta en el suelo.~
+mithril~
+armor Ad AN
+9 8 9 11 0
+24 2 12000 P
+A
+19 4
+A
+2 1
+#21104
+Un Redbank~
+un Redbank~
+Un #BRedbank#b esta puesto aqui.~
+indef~
+trash Xd 0
+0 0 0 0 0
+0 0 0 P
+#21105
+Cimitarra~
+una Cimitarra~
+Una espada curvada y de color negro esta aqui.~
+indef~
+weapon d AN
+sword 5 6 'slash' 0
+20 10 1000 P
+#0
+
+
+
+#ROOMS
+#21100
+#BEntrada a la Tierra Media#b~
+#B"Tres anillos para los Reyes Elfos bajo el cielo.  Siete para los
+Senores Enanos en casas de piedra.  Nueve para los Hombres Mortales
+condenados a morir.  Uno para el Senor Oscuro, sobre el trono oscuro en la
+Tierra de Mordor donde se extienden las Sombras.  Un Anillo para Gobernarlos
+a todos.  Un Anillo para encontrarlos,un Anillo para atraerlos a todos y
+atarlos en las tinieblas en la Tierra de Mordor donde se extienden las
+Sombras."  #b 
+  
+                                          J.R.R Tolkien.
+ 
+Un letrero escrito con runas elficas esta pegado a la pared.
+~
+0 Y 0
+E
+letrero~
+Esta area fue creada por Yoda (tambien llamado Loki, Denethor, Kiss,
+Voodoo).  El area se llama La Tierra Media, y esta es la primera parte. 
+Debo decir que el area esta 100% basada en el Senor de los Anillos, la obra
+maestra de J.  R.  R.  Tolkien.  Esta area es para todos los niveles.  
+~
+D2
+~
+~
+0 0 21101
+S
+#21101
+Entrada a la Comarca~
+Has llegado a la Comarca.  Aqui encontraras la mayor concentracion de
+hobbits de la Tierra Media.  Puedes ver numerosas casas pequenas mas
+parecidas a cuevas, probablemente casas de hobbits.  
+~
+0 Y 3
+D0
+~
+~
+0 0 21100
+D1
+~
+~
+AB 0 21102
+D2
+~
+~
+0 0 21104
+D3
+~
+~
+0 0 21147
+S
+#21102
+Entrada a la Casa de los Tuk~
+Estas en la casa de los Tuk.  Nada especial en este lugar.  Es una
+pequena cueva con muebles y utensilios de hobbit muy pequenos.  Un viento
+helado sopla desde la puerta.  
+~
+0 Y 0
+D3
+~
+~
+0 0 21101
+S
+#21103
+Casa de los Gamyi~
+Estas en la casa de los Gamyi.  Puedes ver escudos heraldicos colgados en
+la pared.  Al parecer esta familia tuvo un pasado glorioso y por lo visto
+ahora se dedican a la jardineria.  
+~
+0 Y 0
+D1
+~
+~
+AB 0 21104
+S
+#21104
+Av. Principal de la Comarca~
+Estas parado en la Av.  Principal de la comarca.  Muchos Hobbits pasan
+por tu lado mirandote con desconfianza.  Al este de aqui se encuentra
+Hobbiton.  El camino que lleva hacia alli es muy hermoso y esta adornado por
+frondosos arboles y rodeado de jardines.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21101
+D1
+~
+~
+0 0 21105
+D3
+~
+~
+AB 0 21103
+S
+#21105
+Entrada a Hobbiton~
+Como ya se menciono antes, el camino esta rodeado de hermosas flores y
+arbustos de los mas variados tipos.  Los hobbits que aqui se ven son de una
+clase evidentemente superior por su forma de vestir y los adornos que
+llevan.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21106
+D3
+~
+~
+0 0 21104
+S
+#21106
+Entrada a Bolson Cerrado~
+Estas parado al frente de una pequena puerta finamente labrada.  Puedes
+ver que al sur el camino continua para finalmente salir de la Comarca.  Un
+cartel en la puerta dice "#BBolson Cerrado#b".  
+~
+0 Y 0
+D1
+~
+~
+AB 0 21107
+D2
+~
+~
+0 0 21109
+D3
+~
+~
+0 0 21105
+S
+#21107
+Dentro de Bolson Cerrado~
+Estas dentro de Bolson Cerrado, aqui viven los hobbits mas famosos y
+heroicos de la Tierra Media.  Las leyendas son muchas, pero si tienes suerte
+podras encontrar a los hobbits que hace muchas decadas salvaron el mundo de
+la Sombra de Mordor.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21108
+D3
+~
+~
+AB 0 21106
+S
+#21108
+Dentro de Bolson Cerrado~
+Esta es la casa de Bilbo Bolson, el primer hobbit que tuvo "La historia
+de una ida y una vuelta".  La casa esta adornada por muchas plantas y
+flores.  En la estancia hay una pequena mesa y 4 sillas de hobbit.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21107
+S
+#21109
+Salida de la Comarca~
+Estas al pie de una colina, por la ladera oeste llegaras a un estrecho
+sendero.  Las tinieblas cubren el cielo.  Siguiendo por ahi mismo saldras a
+campo abierto.  No hay mas salidas visibles 
+~
+0 Y 0
+D0
+~
+~
+0 0 21106
+D3
+~
+~
+0 0 21110
+S
+#21110
+Un sendero~
+Estas caminando entre setos y malezas mientras la noche te envuelve entre
+las sombras.  Las criaturas salvajes pasan por tu lado sin darse cuenta de
+tu presencia.  Continuando al sur encontraras un angosto puente de tablas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21109
+D2
+~
+~
+0 0 21112
+D3
+~
+~
+0 0 21111
+S
+#21111
+Fin del Sendero~
+Has llegado al fin del sendero.  El camino termina abruptamente aqui,
+frente a ti hay una densa masa de zarzas que impiden el paso.  Lo mas
+aconsejable es que te devuelvas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21110
+S
+#21112
+En el puente~
+Has llegado a un angosto puente de tablas.  El arroyo aqui no es mas que
+una serpenteante cinta negra, bordeada por inclinados alisos.  Te encuentras
+ahora en las tierras Tuk, y continuando hacia el sur encontraras el camino
+principal de Cavada Grande que lleva a Delagua y al Puente del Brandivino.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21110
+D2
+~
+~
+0 0 21113
+S
+#21113
+El valle~
+La noche es clara, fresca y estrellada, pero unas nubes de bruma
+ascienden por las faldas de la loma desde los arroyos y las praderas
+profundas.  Unos abedules de follaje escaso, que la brisa mueve alla arriba,
+son como una trama negra, contra el cielo palido.  
+~
+0 AY 2
+D0
+~
+~
+0 0 21112
+D2
+~
+~
+0 0 21114
+S
+#21114
+Un camino~
+Estas en un camino que asciende y desciende y se pierde luego agrisandose
+en la oscuridad.  Sube desde el camino principal de Valle del Agua, y
+zigzaguea por las laderas de las Colinas Verdes hacia Bosque Cerrado, una
+region salvaje de la Cuaderna del Este.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21113
+D1
+~
+~
+0 0 21115
+S
+#21115
+Un sendero~
+Estas en un profundo sendero, abierto entre arboles altos;las hojas secas
+susurran en la noche.  El viento sopla desde el oeste.  En la cima misma de
+la loma esta el sitio de los abetos.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21116
+D3
+~
+~
+0 0 21114
+S
+#21116
+Al pie de la loma.~
+Estas al pie de una pequena loma en la que las ramas de los arboles
+flotan al viento.  La loma no es muy alta ni escarpada.  
+~
+0 Y 0
+D3
+~
+~
+0 0 21115
+D4
+~
+~
+0 0 21117
+S
+#21117
+En la Cima de la loma~
+Has llegado a la cima de la loma.  Los arboles huelen a resina y ramas y
+pinas secas estan botadas por todo el lugar.  Desde aqui logras ver todo el
+valle mientras el sol se esconde en el oeste alla al fin del mundo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21118
+D5
+~
+~
+0 0 21116
+S
+#21118
+En la Cima de la Loma~
+Te has metido entre un monton de abetos y el viento se cuela por entre
+las ramas.  En el centro hay un gran abeto.  Unas pocas criaturas se acerca
+para husmear de repente pero al rato se van despreciando tu presencia.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21117
+D5
+~
+~
+0 0 21119
+S
+#21119
+Al pie de la loma~
+En el lejano este, el sol se levanta muy rojo entre las nieblas espesas
+que cubren el mundo.  Tocados con rojo y oro, los arboles otonales parecen
+navegar a la deriva en un mar de sombras.  Un poco mas abajo, a la izquerda,
+el camino desciende bruscamente a una hondonada y desaparece.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21120
+D4
+~
+~
+0 0 21118
+S
+#21120
+Al pie de la loma~
+Un pequeno arroyo esta aqui.  El dia se esta volviendo hermoso y calido. 
+Hay una cuesta que desciende hacia el valle cruzando el arroyo.  
+~
+0 UYZ 0
+D0
+~
+~
+0 0 21119
+D5
+~
+~
+0 0 21121
+S
+#21121
+En la Hondonada~
+Has bajado la cuesta, pero te encuentras con otra al frente tuyo.  Al
+parecer las lomas no tienen fin y ya te sientes cansado; tu equipo se hace
+cada vez mas pesado.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21122
+D4
+~
+~
+0 0 21120
+S
+#21122
+Un sendero entre las lomas~
+Has llegado al pie de otra colina, pero esta es mas pequena que la
+anterior.  El sol ya esta sobre tu cabeza y el calor se hace insoportable. 
+Unos metros mas arriba y llegaras a la cresta de la loma.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21121
+D4
+~
+~
+0 0 21123
+S
+#21123
+En la Cresta de la Loma~
+Estas otra vez en una loma, pero mas pequena.  Unas zarzas te clavan sus
+espinas y los insectos se te meten por todas partes.  Ves frente a ti las
+tierras bajas salpicadas con pequenos grupos de arboles que a la distancia
+se confunden en una parda bruma boscosa.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21124
+D5
+~
+~
+0 0 21122
+S
+#21124
+El la loma~
+En el borde del camino, mirando hacia el brumoso este logras ver el rio y
+el fin de la Comarca.  Un nuevo horizonte se vislumbra en la lejania.  El
+sol empieza a declinar y la luz de la tarde se alarga sobre la tierra.  
+~
+0 Y 0
+D3
+~
+~
+0 0 21123
+D5
+~
+~
+0 0 21125
+S
+#21125
+Al pie de la loma~
+Esta parece que no es una via muy frecuentada, ya que no ves ni un alma
+por estos rumbos.  Continuando hacia el sur parece haber una planicie, y el
+camino despues de mucho serpentear, se extiende en linea recta y cruza
+praderas verdes, salpicadas de arboles altos, como centinelas de los
+proximos bosques.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21126
+D4
+~
+~
+0 0 21124
+S
+#21126
+El Camino~
+Has bajado la loma y sientes el sonido de cascos de caballo.  El pasto
+aqui es muy largo, y algunos arboles dispersos esta en el lugar.  Al borde
+del camino hay un gran arbol y las grandes raices asoman por encima del
+pasto.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21125
+D2
+~
+~
+0 0 21127
+S
+#21127
+Un sendero~
+Las sombras de los arboles son largas y finas sobre el pasto.  La hierba
+crece en matas espesas, el suelo es disparejo y los arboles comienzan a
+apretarse en montecillos.  El sol enrojecido se ha puesto detras de las
+lomas a tus espaldas y la noche comienza a caer antes que llegues al fin de
+la llanura.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21126
+D1
+~
+~
+0 0 21128
+D2
+~
+~
+0 0 21129
+S
+#21128
+Entrando a un bosque~
+Has entrado en un bosque de viejos robles.  Hay un enorme esqueleto de
+arbol, que aun vive y tiene hojas en las pequenas ramas que han brotado
+alrededor de los munones rotos; pero esta hueco y hay un agujero por donde
+se puede entrar.  
+~
+0 Y 3
+D3
+~
+~
+0 0 21127
+D6
+~
+~
+0 0 21130
+S
+#21129
+En el camino~
+Pronto, el camino empieza a descender suavemente, pero sin pausa, en la
+oscuridad.  Una estrella aparece sobre los arboles, ante ellos, en las
+crecientes tinieblas del oeste.  Los viejos robles a veces te impiden el
+paso hacie el este pero hacia el sur puedes continuar sin problemas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21127
+D2
+~
+~
+0 0 21131
+S
+#21130
+Dentro del hueco de un arbol~
+Estas dentro del tronco de un viejo arbol, y en suelo hay una vieja
+hojarasca de madera carcomida.  De promto sientes que las hojas murmuran al
+viento.  El espacio es reducido y cuesta mucho moverse pero crees que sera
+un buen lugar para dormir.  
+~
+0 AJLY 0
+D7
+~
+~
+0 0 21128
+M 200 H 200
+S
+#21131
+En el camino~
+Arriba en el cielo, las estrellas se apretan en el cielo oscuro, y no hay
+luna.  El claro luminoso entre los arboles te permite ver un poco mas alla
+pero sin duda que los arboles continuaran acompanandote el resto del camino.
+~
+0 Y 0
+D0
+~
+~
+0 0 21129
+D2
+~
+~
+0 0 21132
+S
+#21132
+Un sendero~
+Los bosques de ambos lados comienzan a hacerse mas densos; los arboles
+son mas nuevos y frondosos, y a medida que el camino desciende siguiendo un
+pliegue de las lomas, unos setos profundos de avellanos se suceden entre las
+dos laderas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21131
+D1
+~
+~
+0 0 21133
+D2
+~
+~
+0 0 21134
+S
+#21133
+Un sendero oculto~
+Este es un sendero verde casi oculto en la espesura de los arboles, y
+sube por unas laderas boscosas hasta llegar a la cima de una loma que se
+adelanta hacia las tierras mas bajas del valle del rio.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21135
+D3
+~
+~
+0 0 21132
+S
+#21134
+En la ladera~
+Estas descendiendo por verde barranca empinada que se interna en la
+espesura de la arboleda.  Los matorrales son espesos y enmaranados, y la
+senda continua difusamente hacia el sur.  
+2
+~
+0 Y 0
+D0
+~
+~
+0 0 21132
+D2
+~
+~
+0 0 21139
+S
+#21135
+Al pie de una loma~
+Has llegado al pie de lo que te parecio a la distancia una loma.  Pero no
+es asi.  De pronto has salido de las sombras de los arboles y se abre ante
+ti un vasto espacio se hierba gris bajo el cielo nocturno.  Los bosque lo
+encierran por tres lados, pero hacia el este el terreno cae a pique, y las
+copas de los arboles sombrios que crecen al pie de las laderas no llegan a
+la altura del claro.  Como al alcance de la mano, unas pocas luces parpadean
+en la Aldea de Casa del Bosque.  Mas alla, las tierras bajas se extienden
+oscuras y planas bajo las estrellas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21136
+D3
+~
+~
+0 0 21133
+S
+#21136
+En los campos~
+La noche avanza y las luces del valle se apagan.  A lo lejos, alta en el
+oriente parpadea Remirath, la red de estrellas, y lento entre la niebla
+asoma el rojo Borgil, brillando como una joya en el fuego.  De pronto algun
+movimiento del viento descorre el velo de bruma y trepando sobre las crestas
+del mundo aparece la Espada del Cielo,Menelvagor, y su brillante cinturon.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21137
+D3
+~
+~
+0 0 21135
+S
+#21137
+En el claro~
+Estas en un claro.  En el extremo sur hay una abertura.  Alli el suelo
+verde penetra en el bosque formando un espacio amplio, como una sala techada
+con ramas de arboles.  Los grandes troncos se alinean como pilares a los
+lados.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21136
+D2
+~
+~
+0 0 21138
+S
+#21138
+En el claro bajo los arboles~
+En el centro hay una hoguera y sobre los arboles-pilares arden antorchas
+con luces de oro y plata.  Unos viejos troncos serruchados estan dispuestos
+alrededor del fuego.  Las ramas de un arbol bajan entrelazadas hasta el
+suelo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21137
+S
+#21139
+El sendero~
+Aqui el camino termina en un escarpado barranco.  Alla abajo logras ver
+una senda que continua hacia el sur para luego doblar al oeste.  Los
+arbustos y zarzas a veces te impiden avanzar y la loma de atras cierra el
+paso al viento.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21134
+D5
+~
+~
+0 0 21140
+S
+#21140
+Al pie del barranco~
+Has logrado bajar sin contratiempos el precipicio aunque no es muy alto. 
+Te encuentras con un arroyo que baja de las colinas; el lecho es profundo,
+los bordes empinados y resbaladizos, cubiertos de zarzas, y corta de modo
+muy inoportuno el sendero trazado.  
+~
+0 Y 0
+D2
+~
+~
+0 0 21141
+D4
+~
+~
+0 0 21139
+S
+#21141
+Al otro lado del arroyo~
+Entre un claro de los arboles logras ver el barranco que bajaste.  Unos
+arbusto espesos crecen en la orilla.  El silencio solo es interrumpido por
+el sonido de agua que fluye de norte a sur.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21140
+D3
+~
+~
+0 0 21142
+S
+#21142
+En la senda~
+Los margenes del arroyo se hacen mas bajos en la llanura y se separan y
+son menos profundos.  Vadeando el arroyo lograras salir a un vasto espacio
+abierto, cubierto de juncos y sin arboles.  Poco mas alla hay otro cinturon
+de arboles, en su mayoria robles altos y algunos olmos y fresnos.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21141
+D3
+~
+~
+0 0 21143
+S
+#21143
+Margenes del arroyo~
+El suelo aqui es bastante llano, con poca maleza, pero los arboles estan
+demasiado juntos y no permiten ver muy lejos.  Unas rafagas subitas hacen
+volar las hojas y las primeras gotas comienzan a caer desde el cielo
+plomizo.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21142
+D2
+~
+~
+0 0 21144
+S
+#21144
+En la senda~
+El viento ha cesado y una lluvia torrencial comienza a abatirse sobre ti.
+Alrededor de ti la lluvia crepita y se desliza corriendo por el suelo.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21143
+D2
+~
+~
+0 0 21145
+S
+#21145
+En la Senda~
+Estas en una estrecha senda.  La vegetacion a ambos lados del camino se
+ha vuelto frondosa y tupida.  Ya no sientes sonidos de aves ni de ninguna
+otra criatura viviente.  
+~
+0 Y 0
+D0
+~
+~
+0 0 21144
+D4
+~
+~
+0 0 21146
+S
+#21146
+En el Bosque~
+Estas en un bosque de abedules.  Los arboles parecen no tener edad aqui y
+una sensacion de sofocamiento te oprime el pecho.  El silencio es total.  
+~
+0 Y 0
+D5
+~
+~
+0 0 21145
+S
+#21147
+Av. Hobbitton~
+Estas en la avenida Hobbiton.Ves locales y tiendas hobbits por todas partes.
+Muchos ninos (hobbits por supuesto) estan jugando y tomando helados.
+El sol se esconde detras de las montanas.
+~
+0 Y 0
+D0
+~
+~
+0 0 21148
+D1
+~
+~
+0 0 21101
+D2
+~
+~
+0 0 21151
+D3
+~
+~
+0 0 21150
+S
+#21148
+Mascotas Licantropas~
+Estas en la tienda de mascotas.  Un Hombre corpulento esta aqui
+atendiendo el lugar.  El lugar esta lleno de los mas raros animales.  Ademas
+ves cosas que no habias visto antes...  Como por ejemplo un oso con cabeza
+de aguila, etc...  
+~
+0 MY 0
+D2
+~
+~
+0 0 21147
+S
+#21149
+P.D.M.~
+~
+0 CY 0
+S
+#21150
+Av. Hobbitton~
+Continuas por la Av.  Hobbitton.  Puedes ver una gran cantidad de hobbits
+comprando comida y bebida para sus fiestas.  Ademas algunos humanos pasean
+por el lugar admirando a los pequenos Medianos.  
+~
+0 Y 0
+D1
+~
+~
+0 0 21147
+S
+#21151
+Comestibles Sacovilla-Bolson~
+~
+0 Y 0
+D0
+~
+~
+0 0 21147
+S
+#0
+
+
+
+#SPECIALS
+M 21106 spec_breath_any
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 21101 1 1
+D 0 21103 1 1
+D 0 21104 3 1
+D 0 21106 1 1
+D 0 21107 3 1
+M 0 21103 1 21100 1
+O 0 21100 0 21120
+M 0 21100 1 21126 1
+E 0 21101 0 16
+M 0 21102 1 21145 1
+E 0 21102 0 5
+M 0 21146 1 21148 1
+M 0 21104 1 21149 1
+M 0 21105 1 21149 1
+M 0 21106 1 21149 1
+M 0 21107 1 21149 1
+M 0 21108 1 21149 1
+S
+
+
+
+#SHOPS
+21146 0 0 0 0 0 1 10 1 10 1 24
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

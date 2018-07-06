@@ -1,0 +1,2336 @@
+#AREADATA
+Name WaveWorld~
+Builders Morey Rebel~
+VNUMs 21500 21699
+Credits {99 99} Morey   WaveWorld~
+Security 9
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#21500
+shaper guard~
+Shaper Guard~
+El Shaper Guard esta aqui custodiando la entrada a wave world
+~
+El Shaper Guard es muy fuerte si te metes con el tienes que tener cuidado.
+~
+predator~
+ABFGTX EHVZ 0 -200 0
+40 40 25d10+2000 40d15+100 10d4+15 pierce
+-14 -14 -14 -13
+CDEFIKLQTU AP CFIK DEGHLOQ
+stand stand male 3000
+0 0 large 'fibra'
+C 'warrior'
+#21501
+surfista novato~
+Surfista Novato~
+Un Surfista Novato esta aqui buscando alguna ola
+~
+El Surfiata Novato es poco diestro, aun no ha logrado pararse arrriba de su tabla.
+ 
+~
+predator~
+AGTX VZb 0 -300 2
+16 16 3d9+258 16d12+100 2d7+5 pierce
+-3 -3 -3 -2
+ACEFIKLTU A BFKQY EGLMOP
+stand stand male 1200
+0 0 medium 'metal'
+C 'warrior'
+#21502
+Botones~
+Botones~
+El Botones se encuentra aqui esperando que alguien le pida una habitacion.
+~
+El Botones se encuentra alerta con los que llegen a comprar habitaciones.
+~
+predator~
+ABGTX DHZb 0 500 0
+35 35 10d10+1400 35d14+100 16d2+12 pierce
+-12 -12 -12 -11
+CDEFIKLTU A CHIJLQT BFGMZ
+stand stand none 200
+0 0 large 'tela'
+C 'warrior'
+#21503
+hawaiian guard~
+hawaiian guard~
+Un Hawaiian Guard se encuentra aqui, cuidando.
+~
+El Hawaiian Guard es muy fuerte ... este resguarda las olas de Hawaii.
+~
+elf~
+ABGTX HVZ 0 -700 1
+30 30 6d12+928 30d13+100 7d4+10 none
+-10 -10 -10 -9
+CDEFIKLTU 0 CGHIN LMQX
+stand stand male 1200
+0 0 medium 'hierro'
+C 'warrior'
+#21504
+kaipo jacquias~
+Kaipo Jacquias~
+Kaipo Jacquias esta qui admirando un tubo.
+~
+Kaipo Jacquias es un Hawaiiano muy fuerte y habil con su tabla.
+~
+predator~
+ABGTX EGJVZ 0 700 0
+30 30 6d12+928 30d13+100 7d4+10 pierce
+-10 -10 -10 -10
+CDEFIKLQSTU 0 BCFIMPTY DEGHKLQ
+stand stand male 20000
+Ic 0 large 'fibra'
+C 'warrior'
+#21505
+king burger~
+King Burger~
+Un King Burger se encuentra aqui chorreando jugo de carne.
+~
+El King Burger es toxico, este chorrea jugo de carne y se encuentra lleno de mostaza y ketchup.
+ 
+~
+dragon~
+ABGTX DH 0 0 0
+40 40 25d10+2000 40d15+100 10d4+15 pierce
+-14 -14 -14 -13
+ACDEFIKLTU A CLPQ DGKNOX
+stand stand male 100
+0 0 medium 'acero'
+C 'warrior'
+F off M
+F res B
+F vul F
+#21506
+gold surf~
+Gold Surf~
+Un Gold Surf esta vendiendo joyas aqui.
+~
+Este Gold Surf es gigantesco, sus piesas son muy valiosasy es muy poderoso.
+~
+angel~
+ABGTX DHVbc 0 1000 0
+40 40 25d10+2000 40d15+100 10d4+15 pierce
+-14 -14 -14 -13
+ACDEFHIKLSTU AC DHIMNS EFGLOQ
+stand stand male 120
+0 0 large 'diamante'
+C 'warrior'
+#21507
+kalani robb~
+Kalani Robb~
+Kalani Robb esta aqui preparandose para surfear.
+~
+Kalani Robb es muy fuerte y habil... pero este aun no ha ganado el campeonato.
+~
+vampire~
+ABGTX CHV 0 500 0
+29 29 6d12+853 29d13+100 4d7+9 slash
+-10 -10 -10 -10
+ACDEFIKLSTU 0 BCGHIMNPRTXYZ EFKLQ
+stand stand male 4500
+0 IY large 'fibra'
+C 'warrior'
+F vul X
+#21508
+john shimooka~
+John Shimooka~
+John Shimooka esta bajando una ola de 6 metros.
+~
+John Shimooka es muy habil en este tipo de olas, es muy fuerte, los que lo desafian deben ser muy habiles en rollo.
+~
+predator~
+ABGSX GVZb 0 450 0
+32 21 6d12+928 32d14+100 6d4+9 pierce
+-10 -10 -10 -9
+BEFHIJKNTUV 0 GHOPT DEKLNQ
+stand stand male 7200
+0 0 medium 'fibra'
+C 'thief'
+#21509
+sunny garcia~
+Sunny Garcia~
+Sunny Garcia esta bajando un cacho perfecto.
+~
+Sunny Garcia es muy fuerte, el es un gran maestro en giras a nivel Internacional, como por ejemplo hawaii.
+~
+predator~
+ABGTX VZ 0 500 0
+27 27 6d12+703 27d13+100 4d6+8 pierce
+-9 -9 -9 -7
+CDEFIKLTU 0 0 K
+stand stand male 12000
+0 0 medium 'fibra'
+C 'warrior'
+#21510
+dani garcia~
+Dani Garcia~
+Dani Garcia esta aqui mirando.
+~
+Dani Garcia esta aqui haciendo 360 aereo en el mar.
+~
+kobold~
+ABGTX V 0 500 0
+29 29 6d12+853 29d13+100 4d7+9 pierce
+-10 -10 -10 -8
+CDEFGIKLPTU 0 BGIOSXY DEKNQT
+stand stand male 12000
+0 UY medium 'fibra'
+C 'warrior'
+F vul C
+#21511
+derek ho~
+Derek Ho~
+Derek Ho esta aqui observando.
+~
+Derek Ho es un muy buen Surfista, corre las grandes olas de Indonesia como Bali,, Java y otras...
+~
+vampire~
+ABGSX 0 0 300 0
+33 22 10d10+1000 33d14+100 4d7+9 pierce
+-10 -10 -10 -10
+BEFGIJKNUV 0 BFGJNPTXYZ DEHIKLO
+stand stand male 9200
+0 0 medium 'fibra'
+C 'thief'
+F vul X
+#21513
+reef~
+Reef~
+Un Reef de gran magnitud se encuentra aqui. 
+~
+Este reef es de muy grande hay que tener cuidado porque es muy peligroso.
+~
+orc~
+AGTX EUVZ 0 -700 0
+27 27 6d12+703 27d13+100 4d6+8 pierce
+-9 -9 -9 -7
+CDEFIKLPTU A CFKXY DEGHLMPTZ
+stand stand male 1200
+0 0 large 'coral'
+C 'warrior'
+#21514
+stewart~
+Mike Stewart~
+Mike Stewart se encuentra aqui resguardando Hawaii.
+~
+Mike Stewart es un personaje muy habil dentro de la ola, el es un maestro en eate tipo de olas,... nacio en hawaii.
+~
+predator~
+ATX GHb 0 500 0
+30 30 6d12+928 30d13+100 7d4+10 pierce
+-10 -10 -10 -9
+CDEFIKLTU A BC 0
+stand stand male 5000
+0 0 giant 'fibra'
+C 'warrior'
+#21533
+tamega mago~
+Tamega el mago~
+Tamega el mago es muy sabio en las olas.
+~
+Tamega es un gran mago que puede hacer las mejores piruetas magicas sobre las olas.
+~
+human~
+ABGRX DEHVbc 0 500 0
+30 15 6d12+778 30d13+600 5d4+7 pierce
+-9 -9 -9 -8
+AFKU AB FIKLPY EHOQRT
+stand stand male 200
+0 0 large 'hierro'
+C 'mage'
+#21534
+stewart guerrero~
+stewart guerrero~
+Stewart el guerrero se encuentra alimentando las mascotas
+~
+Stewart es un gran guerrero de las grandes olas de Hawaii, el es un gran campeon.
+ 
+~
+elf~
+ABGTX DHb 0 500 0
+30 30 6d12+928 30d13+100 7d4+10 pierce
+-10 -10 -10 -9
+ACDEFIKLTU A CEFHKLP EMNOQ
+stand stand male 150
+0 0 medium 'hierro'
+C 'warrior'
+#21548
+Duke Kahanamoku~
+Duke Kahanamoku (Healer)~
+Duke Kahanamoku es muy sabio.
+~
+Duke Kahanamoku es muy sabio, el es un maestro en surfing.
+Fue el creador del primer club de surf.
+~
+human~
+ABDGXa DH 0 1000 0
+55 27 50d10+6000 55d16+1000 15d7+22 pierce
+-25 -25 -25 -23
+FIKU ACK 0 0
+stand stand male 1002
+0 0 large 'fierro'
+C 'psicionist'
+#21697
+s~
+(no short description)~
+(no long description)
+~
+~
+human~
+AX 0 0 0 0
+1 0 2d6+10 1d10+100 1d4+0 none
+9 9 9 9
+U 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#21698
+hueon~
+hueon~
+Hueon esta aqui.
+~
+Puta que tiene cara de hueon.
+~
+dragon~
+AX DM 0 1000 0
+1 0 2d6+10 1d10+100 1d4+0 none
+9 9 9 9
+U 0 0 DEHKLMNOP
+stand stand none 1000
+0 0 medium 'unknown'
+C 'psicionist'
+F off M
+#21699
+gil~
+gil~
+El gil esta aqui.
+~
+Soy un gil.
+~
+dragon~
+AX 0 0 0 0
+8 4 2d7+96 8d11+200 1d7+2 pierce
+3 3 3 5
+U 0 0 0
+stand stand female 8000
+0 0 medium 'caca'
+C 'psicionist'
+F off M
+#0
+
+
+
+#OBJECTS
+#21500
+tabla magica~
+tabla magica~
+La tabla magica es muy buena es solo para maestros~
+fibra azul~
+weapon AId AN
+sword 5 9 'charge' H
+40 60 25000 P
+A
+18 4
+A
+19 5
+A
+4 3
+A
+9 -2
+A
+12 50
+A
+1 -1
+#21501
+anillo de olas~
+anillo de olas~
+Este anillo de olas es muy especial.~
+granito~
+armor Ad AB
+12 12 12 8 0
+30 20 15000 P
+A
+18 2
+A
+19 3
+A
+4 1
+#21502
+tabla surf novata~
+tabla Surf Novata~
+Una tabla de Surf Novata esta aqui para que algun novato la ocupe.~
+titanio~
+weapon d AN
+sword 4 6 'charge' 0
+16 30 9000 P
+A
+4 2
+A
+18 1
+A
+5 -1
+A
+13 10
+A
+12 -4
+#21503
+hawaiian sword~
+hawaiian Sword~
+La Hawaiian Sword esta aqui brillando pr su poder.~
+acero~
+weapon AId AN
+sword 5 7 'charge' H
+24 40 30000 P
+A
+5 -1
+A
+4 1
+A
+19 2
+A
+18 1
+#21504
+anillo de hawaii~
+anillo de HAwaii~
+Un Anillo de Hawaii esta aqui brillando.~
+oro~
+gem Ad AB
+0 0 0 0 0
+24 25 20000 P
+A
+4 1
+A
+3 -1
+A
+19 2
+A
+18 2
+#21505
+surf-burger~
+surf-Burger~
+Una Surf-Burger esta aqui mostrando su olor para deleitar.~
+carne~
+food d A
+75 100 0 0 0
+20 2 129 P
+#21506
+surf chicken-burger~
+surf Chicken-Burger~
+Una Surf Chicken-Burger esta aqui tirada en el piso.~
+pollo frito~
+food d A
+80 100 0 0 0
+20 2 149 P
+#21507
+papas fritas~
+papas Fritas~
+Unas Papas Fritas estan aqui tiradas en el suelo.~
+papa~
+food Ad A
+90 120 0 0 0
+23 2 169 P
+#21508
+woper surf~
+woper Surf~
+Un gran sandwich esta chorreando una deliciosa salsa.~
+carne~
+food Ad A
+80 70 0 0 0
+10 2 120 P
+#21513
+espada de coral~
+espada de Coral~
+Una gran Espada de Coral esta aqui.~
+acero~
+weapon AId AN
+sword 5 8 'charge' 0
+27 40 30000 P
+A
+13 5
+A
+14 -10
+A
+4 1
+A
+19 3
+A
+18 2
+#21514
+anillo reef~
+anillo Reef~
+Un Anillo Reef se encuentra tirado aqui.~
+coral~
+armor Ad AB
+0 0 0 0 0
+0 15 10000 P
+#21550
+revista surfer~
+revista Surfer~
+Una revista vieja hay aqui.~
+papel~
+scroll d AO
+27 'lend health' 'combat mind' 'intellect fortress' 'flaming shield'
+25 5 50000 P
+#21567
+lynch cristalino~
+lynch crristalino~
+Un Lynch cristalino llama tu atencion.~
+goma acida~
+wand ABd AO
+35 10 10 'mass invis' 0
+25 25 20000 P
+A
+1 1
+#21568
+figurine azul-rojo~
+figurine Azul-Rojo~
+Un Enorme Figurete llama tu atencion.~
+tnt~
+wand Ad AO
+15 12 12 'acid blast' 0
+28 20 28000 P
+#21650
+potion curativa~
+potion Curativa~
+Un jarro burbujeante esta aqui brillando.~
+liquido~
+potion d AO
+25 'cure poison' 'cure blindness' 'cure critical' ''
+28 10 12000 P
+#21668
+lynch espiral~
+lynch Espiral~
+Un lynch de una tabla esta aqui tirado.~
+goma~
+wand ABId AO
+12 5 5 'gas breath' 0
+28 20 24000 P
+#21695
+lynch ocean eart~
+lynch Ocean Eart~
+Un cable de goma esta tirado aqui.~
+goma~
+wand Bd AO
+21 12 12 'share strength' 0
+27 20 4500 P
+#21696
+no name~
+lynch custom~
+(no description)~
+unknown~
+wand d AO
+20 10 10 'lightning breath' 0
+35 0 0 P
+#21697
+lynch xcel~
+lynch Xcel~
+Un Lynch esta aqui su marca es xcel parece estar botado.~
+goma~
+wand Bd AO
+13 8 8 'fire breath' 0
+28 20 25000 P
+#21698
+lynch wave~
+lynch Wave~
+Un lynch Wave esta aqui.~
+goma~
+wand Bd AO
+15 9 9 'flamestrike' 0
+30 15 24000 P
+#21699
+lynch magico~
+lynch Magico~
+Un Lynch Magico esta aqui tirado.~
+goma~
+wand Ad AO
+10 9 9 'acid breath' 0
+28 20 25000 P
+#0
+
+
+
+#ROOMS
+#21504
+Entrada a Sudafrica~
+En Sudafrica se ven grandes olas, divisas unas playas que tienen grandes
+waves.  Se logra divisar la playa de Cave Rock con unos tiburones que
+aparecen en el atardecer y amanecer, se recomienda no te metas cuando el
+agua este turbia.  Todos los que se han arriesgado han muerto bajo la gran
+mandibula de el gran blanco de este rincon del mundo.  
+~
+0 ANY 6
+D1
+~
+coral~
+AB 0 21501
+D3
+~
+~
+0 0 21521
+M 150 H 150
+S
+#21505
+Burger King Wave World~
+En este lugar hay comida rapida que te alimenta muy bien, puedes
+encontrar unas hamburguesas muy deliciosas y baratas.  
+~
+0 KY 6
+D5
+~
+~
+0 0 21501
+M 200 H 200
+S
+#21506
+Joyeria Wave World~
+La Joyeria de Wave World es un lugar donde hay objetos de preciado valor,
+en este lugar se trabaja con la fibra y la resina, materiales para hacer
+objetos preciados de surf.  
+~
+0 KY 6
+D4
+~
+~
+0 0 21501
+S
+#21507
+Desviacion de Islas Oahu~
+Este lugar hay unos letreros que es donde se cruzan los caminos para ir a
+las distintas playas existentes.  Al #BNORTE#b se encuentra la magnifica
+playa de Heleiwa.  Al #BESTE#b se encuentra un lugar de grandes tubos como
+lo es Sunset Beach.  Estas playas se encuentran unidas tambien por Banzai
+Pipeline.  
+~
+0 Y 6
+D0
+~
+~
+0 0 21508
+D1
+~
+~
+0 0 21513
+D2
+~
+~
+0 0 21503
+M 120 H 120
+S
+#21508
+Heleiwa~
+~
+0 Y 6
+D1
+~
+~
+0 0 21509
+D2
+~
+~
+0 0 21507
+S
+#21509
+Banzai Pipeline~
+~
+0 Y 6
+D0
+~
+~
+0 0 21511
+D1
+~
+~
+0 0 21510
+D2
+~
+~
+0 0 21513
+D3
+~
+~
+0 0 21508
+M 200 H 200
+S
+#21510
+Rocky Point~
+~
+0 Y 6
+D3
+~
+~
+0 0 21509
+S
+#21511
+Waimea Bay~
+~
+0 Y 6
+D1
+~
+~
+0 0 21512
+D2
+~
+~
+0 0 21509
+S
+#21512
+Waimea~
+~
+0 Y 6
+D3
+~
+~
+0 0 21511
+S
+#21513
+Sunset Beach~
+Este lugar es muy rocoso, hay grandes tubos pero tines que tener cuidados
+con los reef, ya que si no sabes mucho es mejor que te vayas a otro lugar
+este lugar es para niveles grandes.  Tendras que saber bien para ser uno de
+los mejores en tuberinding.  
+~
+0 NY 6
+D0
+~
+~
+0 0 21509
+D3
+~
+~
+0 0 21507
+M 150 H 150
+S
+#21514
+Ala Moana~
+~
+0 Y 6
+D1
+~
+~
+0 0 21515
+D3
+~
+~
+0 0 21503
+S
+#21515
+Makaha~
+~
+0 Y 6
+D2
+~
+~
+0 0 21518
+D3
+~
+~
+0 0 21514
+D4
+~
+~
+0 0 21516
+S
+#21516
+Altar Hawaiiano Surf~
+e
+flee
+~
+0 Y 6
+D5
+~
+~
+0 0 21515
+M 200 H 200
+S
+#21517
+North Shore~
+~
+0 Y 6
+D3
+~
+~
+0 0 21518
+S
+#21518
+Honolulu~
+~
+0 Y 6
+D0
+~
+~
+0 0 21515
+D1
+~
+~
+0 0 21517
+D3
+~
+~
+0 0 21519
+S
+#21519
+Off The Wall~
+~
+0 Y 6
+D1
+~
+~
+0 0 21518
+S
+#21520
+*-* Hotel Hawaii *-*~
+En Este hotel podras tener tu propia pieza para descanzar y recuperar tu
+healing, mana y movimiento.  Para comprar una pieza habla con el Botones 
+~
+0 FY 0
+D4
+~
+~
+0 0 21503
+S
+#21521
+Cave Rock~
+~
+0 Y 6
+D0
+~
+~
+0 0 21522
+D1
+~
+~
+0 0 21504
+D2
+~
+~
+0 0 21528
+D3
+~
+~
+0 0 21525
+D4
+~
+~
+0 0 21523
+M 150 H 200
+S
+#21522
+Jeffrey Bay~
+~
+0 Y 6
+D2
+~
+~
+0 0 21521
+D3
+~
+~
+0 0 21524
+S
+#21523
+*-* Hotel Sudafrica *-*~
+~
+0 Y 6
+D5
+~
+~
+0 0 21521
+S
+#21524
+Trajes Shop~
+~
+0 Y 6
+D1
+~
+~
+0 0 21522
+D2
+~
+~
+0 0 21525
+S
+#21525
+Santuario de Surf~
+~
+0 NY 6
+D0
+~
+~
+0 0 21524
+D1
+~
+~
+0 0 21521
+D2
+~
+~
+0 0 21527
+D5
+~
+~
+0 0 21526
+M 120 H 120
+S
+#21526
+Mosselbaai~
+~
+0 Y 6
+D4
+~
+~
+0 0 21525
+S
+#21527
+Tienda Tablas~
+~
+0 Y 6
+D0
+~
+~
+0 0 21525
+S
+#21528
+Balito Bay~
+~
+0 Y 6
+D0
+~
+~
+0 0 21521
+D1
+~
+~
+0 0 21529
+S
+#21529
+Port Edward~
+~
+0 Y 6
+D3
+~
+~
+0 0 21528
+S
+#21530
+Entrada a Indonesia~
+~
+0 Y 6
+D1
+~
+~
+0 0 21535
+D3
+~
+~
+AB 0 21502
+D5
+~
+~
+0 0 21532
+S
+#21531
+Entrada a Tahiti~
+En Tahiti se muestra un video de un campeonato exhibido en ese lugar.  La
+ola Polinesica es de gran atraccion para los amantes de las olas que formen
+tubos.  Al OESTE se ve una gran ola de por lo menos unos 6 metros de altura,
+es la llamada Polinesia Wave.  
+~
+0 ANY 6
+D0
+~
+~
+0 0 21552
+D1
+~
+coral~
+AB 0 21502
+D3
+~
+~
+0 0 21546
+D5
+~
+~
+0 0 21553
+M 200 H 200
+S
+#21532
+Mc Donald Indonesia~
+~
+0 Y 6
+D4
+~
+~
+0 0 21530
+S
+#21533
+Indo Librery~
+Esta es la tienda magica del mago Tamega, este sabio viejo mago vende
+scrolls, staff, wands y algunas posiones.  Este mago es un artista sobre las
+olas.  La Indo Librery es una de las mejores tienda de esta area.  
+~
+0 AKY 6
+D5
+~
+~
+0 0 21502
+M 200 H 200
+S
+#21534
+Mascotas Fishing Shop~
+En esta tienda de mascotas se ven animales muy raros, este tienda es
+atendida por un gran guerrero que se ha dedicado avender mascotas.  En este
+lugar se escuchan todo tipo de ruido de las distintas mascotas que existen
+aqui.  
+~
+0 AKY 6
+D4
+~
+~
+0 0 21502
+M 200 H 200
+S
+#21535
+Bali~
+~
+0 Y 6
+D0
+~
+~
+0 0 21538
+D1
+~
+~
+0 0 21539
+D2
+~
+~
+0 0 21537
+D3
+~
+~
+0 0 21530
+D5
+~
+~
+0 0 21536
+S
+#21536
+*-* Indonesia Palace Hotel *-*~
+~
+0 FY 0
+D4
+~
+~
+0 0 21535
+S
+#21537
+Sumbawa~
+~
+0 Y 6
+D0
+~
+~
+0 0 21535
+D1
+~
+~
+0 0 21544
+S
+#21538
+G-Land~
+~
+0 Y 6
+D1
+~
+~
+0 0 21540
+D2
+~
+~
+0 0 21535
+S
+#21539
+Kuta Beach~
+~
+0 Y 6
+D1
+~
+~
+0 0 21541
+D3
+~
+~
+0 0 21535
+S
+#21540
+Lombok~
+~
+0 Y 6
+D0
+~
+~
+0 0 21542
+D1
+~
+~
+0 0 21543
+D3
+~
+~
+0 0 21538
+S
+#21541
+Changu~
+~
+0 Y 6
+D3
+~
+~
+0 0 21539
+S
+#21542
+Java~
+~
+0 Y 6
+D2
+~
+~
+0 0 21540
+D5
+~
+~
+0 0 21543
+S
+#21543
+Ulu Watu~
+~
+0 Y 6
+D3
+~
+~
+0 0 21540
+D4
+~
+~
+0 0 21542
+S
+#21544
+Nias~
+~
+0 Y 6
+D1
+~
+~
+0 0 21545
+D3
+~
+~
+0 0 21537
+S
+#21545
+Bingin~
+~
+0 Y 6
+D3
+~
+~
+0 0 21544
+S
+#21546
+Polinesia~
+~
+0 Y 6
+D1
+~
+~
+0 0 21531
+D2
+~
+~
+0 0 21550
+D3
+~
+~
+0 0 21547
+D4
+~
+~
+0 0 21551
+S
+#21547
+West Polinesia~
+~
+0 NY 6
+D0
+~
+~
+0 0 21549
+D1
+~
+~
+0 0 21546
+D2
+~
+~
+0 0 21548
+S
+#21548
+Saint Polinesia Altar~
+Este templo es donde se encuentra el origen de la ciudad de Waikiki. 
+Este templo tu puedes rezar al dios Duke un Hawaiiano aventurero.  
+~
+0 CKY 6
+D0
+~
+~
+0 0 21547
+M 200 H 200
+S
+#21549
+Armeria Archipielago Polinesia~
+~
+0 NY 6
+D2
+~
+~
+0 0 21547
+S
+#21550
+Tienda Armor Wave~
+~
+0 KY 6
+D0
+~
+~
+0 0 21546
+S
+#21551
+*-* Hotel Tahiti *-*~
+~
+0 KY 6
+D5
+~
+~
+0 0 21546
+S
+#21552
+Tahiti Beach~
+~
+0 ANY 6
+D2
+~
+~
+0 0 21531
+S
+#21553
+Bakery Polinesia~
+~
+0 AKY 6
+D4
+~
+~
+0 0 21531
+S
+#21554
+#BCorredor Wave World#b~
+~
+0 Y 6
+D0
+~
+~
+0 0 21577
+D2
+~
+~
+0 0 21502
+D3
+~
+coral~
+AB 0 21555
+D5
+~
+~
+0 0 21556
+S
+#21555
+Entrada a Isla Reunion~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21557
+D1
+~
+coral~
+AB 0 21554
+D3
+~
+~
+0 0 21559
+S
+#21556
+All Juice Magic's~
+~
+0 KNY 6
+D4
+~
+~
+0 0 21554
+M 200 H 200
+S
+#21557
+St. Leu~
+~
+0 NY 6
+D2
+~
+~
+0 0 21555
+D3
+~
+~
+0 0 21558
+M 200 H 200
+S
+#21558
+Trois Bassins~
+~
+0 ANY 6
+D1
+~
+~
+0 0 21557
+M 200 H 200
+S
+#21559
+Hermitage~
+~
+0 ANY 6
+D1
+~
+~
+0 0 21555
+D2
+~
+~
+0 0 21560
+D3
+~
+~
+0 0 21562
+M 150 H 150
+S
+#21560
+Boucan~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21559
+D3
+~
+~
+0 0 21561
+M 150 H 150
+S
+#21561
+Armeria Boucan Beach~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21562
+D1
+~
+~
+0 0 21560
+M 200 H 200
+S
+#21562
+Joyeria St. Leu~
+Esta es la Joyeria de Isla Reunion, sus paredes son de brillante con oro,
+en este lugar abunda la fibra metalica para en sus paredes.  En este lugar
+puedes encontrar joyas magicas y valiosas.  
+~
+0 NY 6
+D0
+~
+~
+0 0 21582
+D1
+~
+~
+0 0 21559
+D2
+~
+~
+0 0 21561
+M 120 H 120
+S
+#21563
+Entrada a California~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21570
+D1
+~
+~
+0 0 21564
+D3
+~
+coral~
+AB 0 21554
+S
+#21564
+Hungtinton Beach~
+~
+0 Y 6
+D0
+~
+~
+0 0 21571
+D1
+~
+~
+0 0 21565
+D2
+~
+~
+0 0 21567
+D3
+~
+~
+0 0 21563
+D5
+~
+~
+0 0 21566
+M 150 H 150
+S
+#21565
+California Beach~
+~
+0 NY 6
+D2
+~
+~
+0 0 21568
+D3
+~
+~
+0 0 21564
+M 150 H 200
+S
+#21566
+Tienda Copete Magico~
+~
+0 ANY 6
+D4
+~
+~
+0 0 21564
+M 100 H 120
+S
+#21567
+Santa Cruz~
+~
+0 Y 6
+D0
+~
+~
+0 0 21564
+M 120 H 175
+S
+#21568
+Los Angeles~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21565
+D1
+~
+~
+0 0 21569
+M 200 H 200
+S
+#21569
+San Clemente~
+~
+0 ANY 6
+D3
+~
+~
+0 0 21568
+M 200 H 150
+S
+#21570
+Ocean Librery~
+~
+0 KY 6
+D2
+~
+~
+0 0 21563
+M 200 H 200
+S
+#21571
+New Port Beach~
+~
+0 NY 6
+D1
+~
+~
+0 0 21572
+D2
+~
+~
+0 0 21564
+S
+#21572
+Sta. Barbara~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21575
+D1
+~
+~
+0 0 21573
+D3
+~
+~
+0 0 21571
+D4
+~
+~
+0 0 21576
+M 120 H 80
+S
+#21573
+Oceanside~
+~
+0 ANY 6
+D1
+~
+~
+0 0 21574
+D3
+~
+~
+0 0 21572
+M 180 H 100
+S
+#21574
+Solana Beach~
+~
+0 ANY 6
+D3
+~
+~
+0 0 21573
+M 120 H 120
+S
+#21575
+Sta. Monica~
+~
+0 ANY 6
+D2
+~
+~
+0 0 21572
+M 120 H 150
+S
+#21576
+*-* California Hotel *-*~
+~
+0 AFY 6
+D5
+~
+~
+0 0 21572
+M 200 H 200
+S
+#21577
+#BCorredor Wave World#b~
+~
+0 Y 6
+D2
+~
+~
+0 0 21554
+D3
+~
+coral~
+AB 0 21578
+M 150 H 150
+S
+#21578
+Entrada a Portugal~
+~
+0 ANY 6
+D1
+~
+~
+AB 0 21577
+D3
+~
+~
+0 0 21579
+S
+#21579
+Loungid~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21580
+D1
+~
+~
+0 0 21578
+D2
+~
+~
+0 0 21581
+S
+#21580
+Fahrel~
+~
+0 AY 6
+D2
+~
+~
+0 0 21579
+D5
+~
+~
+0 0 21582
+M 150 H 150
+S
+#21581
+peniche~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21579
+M 150 H 120
+S
+#21582
+Ericelra~
+~
+0 ANY 6
+D2
+~
+~
+0 0 21562
+D4
+~
+~
+0 0 21580
+S
+#21583
+Entrada a Europa~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21590
+D1
+~
+~
+AB 0 21584
+D2
+~
+~
+0 0 21599
+M 200 H 120
+S
+#21584
+France~
+~
+0 NY 6
+D0
+~
+~
+0 0 21585
+D1
+~
+~
+0 0 21587
+D3
+~
+~
+AB 0 21583
+M 120 H 150
+S
+#21585
+Capbreton~
+~
+0 ANY 6
+D1
+~
+~
+0 0 21586
+D2
+~
+~
+0 0 21584
+M 150 H 200
+S
+#21586
+Anglet~
+~
+0 NY 6
+D0
+~
+~
+0 0 21588
+D1
+~
+~
+0 0 21589
+D3
+~
+~
+0 0 21585
+M 150 H 150
+S
+#21587
+*-* Hotel Paris *-*~
+Este Hotel es un lugar muy lujoso, sus entradas son de cristal, es
+atendido por los mejores Chef, Botones, etc..  Este es un gran lugar para
+descansar, sus habitaciones son muy comodas y confortables.  Este lugar es
+caro pero elegante.  Este lugar es caro pero elegante.  
+~
+0 FY 6
+D3
+~
+~
+0 0 21584
+M 150 H 150
+S
+#21588
+Lacanau~
+~
+0 NY 6
+D2
+~
+~
+0 0 21586
+M 150 H 140
+S
+#21589
+Hosseger~
+~
+0 AY 6
+D3
+~
+~
+0 0 21586
+M 200 H 200
+S
+#21590
+Inglaterra~
+~
+0 NY 6
+D0
+~
+~
+0 0 21591
+D2
+~
+~
+0 0 21583
+M 180 H 150
+S
+#21591
+Perranporth~
+~
+0 NY 6
+D0
+~
+~
+0 0 21592
+D1
+~
+~
+0 0 21593
+D2
+~
+~
+0 0 21590
+M 130 H 150
+S
+#21592
+*-* King Hotel *-*~
+Este Hotel ubicado cerca de las playas de Inglaterra es muy elegante. 
+Tiene cinco estrellas, tiene una piscina, unas habitaciones muy
+confortables, etc...  Los Botones te atienden de lujo, las chicas de la
+barra son muy sexy.  
+~
+0 FY 6
+D2
+~
+~
+0 0 21591
+M 200 H 200
+S
+#21593
+Porthreath~
+~
+0 NY 6
+D1
+~
+~
+0 0 21594
+D3
+~
+~
+0 0 21591
+M 150 H 150
+S
+#21594
+Fistral~
+~
+0 NY 6
+D0
+~
+~
+0 0 21596
+D3
+~
+~
+0 0 21593
+D5
+~
+~
+0 0 21595
+M 150 H 150
+S
+#21595
+Porthleven~
+~
+0 NY 6
+D4
+~
+~
+0 0 21594
+M 150 H 150
+S
+#21596
+Newquay~
+~
+0 NY 6
+D2
+~
+~
+0 0 21594
+D3
+~
+~
+0 0 21597
+M 150 H 150
+S
+#21597
+Gull Lane~
+~
+0 NY 6
+D0
+~
+~
+0 0 21598
+D1
+~
+~
+0 0 21596
+M 130 H 150
+S
+#21598
+Chapel Porth~
+~
+0 NY 6
+D2
+~
+~
+0 0 21597
+M 170 H 150
+S
+#21599
+Espan-a~
+~
+0 NY 6
+D0
+~
+~
+0 0 21583
+D1
+~
+~
+0 0 21601
+D2
+~
+~
+0 0 21600
+M 150 H 120
+S
+#21600
+*-* Hotel Bilbao *-*~
+~
+0 FY 6
+D0
+~
+~
+0 0 21599
+M 200 H 200
+S
+#21601
+Cantabrico~
+~
+0 NY 6
+D1
+~
+~
+0 0 21603
+D2
+~
+~
+0 0 21602
+D3
+~
+~
+0 0 21599
+M 150 H 120
+S
+#21602
+Zarautz~
+~
+0 NY 6
+D0
+~
+~
+0 0 21601
+S
+#21603
+Salinas~
+~
+0 NY 6
+D3
+~
+~
+0 0 21601
+D4
+~
+~
+0 0 21604
+M 150 H 150
+S
+#21604
+Mundaka~
+~
+0 NY 6
+D2
+~
+~
+0 0 21605
+D5
+~
+~
+0 0 21603
+M 150 H 150
+S
+#21605
+Megnakoz~
+~
+0 Y 6
+D0
+~
+~
+0 0 21604
+D1
+~
+~
+0 0 21606
+M 200 H 150
+S
+#21606
+Santa Marina~
+~
+0 NY 6
+D0
+~
+~
+0 0 21607
+D3
+~
+~
+0 0 21605
+M 160 H 120
+S
+#21607
+Los Caballos~
+~
+0 NY 6
+D0
+~
+~
+0 0 21608
+D1
+~
+~
+0 0 21609
+D2
+~
+~
+0 0 21606
+M 120 H 150
+S
+#21608
+La Santa~
+~
+0 NY 6
+D2
+~
+~
+0 0 21607
+D4
+~
+~
+0 0 21610
+M 180 H 150
+S
+#21609
+Tenerife~
+~
+0 Y 6
+D0
+~
+~
+0 0 21610
+D3
+~
+~
+0 0 21607
+M 110 H 150
+S
+#21610
+Lanzarote~
+~
+0 ANY 6
+D0
+~
+~
+0 0 21612
+D2
+~
+~
+0 0 21609
+D3
+~
+~
+0 0 21611
+D5
+~
+~
+0 0 21608
+M 150 H 150
+S
+#21611
+Las Monjas~
+~
+0 NY 6
+D0
+~
+~
+0 0 21613
+D1
+~
+~
+0 0 21610
+M 150 H 100
+S
+#21612
+Girona~
+~
+0 NY 6
+D2
+~
+~
+0 0 21610
+D3
+~
+~
+0 0 21613
+M 120 H 120
+S
+#21613
+Malaga~
+~
+0 Y 6
+D1
+~
+~
+0 0 21612
+D2
+~
+~
+0 0 21611
+D3
+~
+~
+0 0 21614
+D4
+~
+~
+0 0 21615
+M 120 H 150
+S
+#21614
+Yerbabuena~
+~
+0 UY 6
+D0
+~
+~
+0 0 21617
+D1
+~
+~
+0 0 21613
+M 120 H 150
+S
+#21615
+Tarragona~
+~
+0 NY 6
+D3
+~
+~
+0 0 21616
+D5
+~
+~
+0 0 21613
+M 120 H 120
+S
+#21616
+Mongat~
+~
+0 NY 6
+D1
+~
+~
+0 0 21615
+D3
+~
+~
+0 0 21617
+M 150 H 150
+S
+#21617
+El Palmar~
+~
+17349 UY 6
+D1
+~
+~
+0 0 21616
+D2
+~
+~
+0 0 21614
+M 120 H 120
+S
+#21500
+#BEntrada a Wave World#b~
+Esta es la entrada a #BWave World#b en ella se ven grandes olas.  Su
+entrada es custodiada por el guardian #BSheaper#b.  Sus olas se ven como
+corren grandes izquierdas y salen unos tubos muy buenos, las derechas son
+especiales.  
+~
+0 ANY 0
+D0
+~
+~
+0 0 21501
+M 50 H 50
+S
+#21501
+#BCorredor Wave World#b~
+Este es el Corredor Wave World aqui estan las fotografias de los mas
+famosos Surfistas del mundo.  
+~
+0 Y 6
+D0
+~
+~
+0 0 21502
+D1
+~
+coral~
+AB 0 21503
+D2
+~
+~
+0 0 21500
+D3
+~
+coral~
+AB 0 21504
+D4
+~
+~
+0 0 21505
+D5
+~
+~
+0 0 21506
+S
+#21502
+#BCorredor de Wave World#b~
+En este corredor hay grandes cuadros en el que muestran las olas de
+Tahiti y Indonesia.  Se ven tubos perfectos y como corren unas izquierdas
+buenas.  
+~
+0 Y 6
+D0
+~
+~
+0 0 21554
+D1
+~
+coral~
+AB 0 21530
+D2
+~
+~
+0 0 21501
+D3
+~
+coral~
+AB 0 21531
+D4
+~
+~
+0 0 21533
+D5
+~
+~
+0 0 21534
+M 100 H 150
+S
+#21503
+Entrada a Hawaii~
+Logras ver en un el horizonte unas olas que son muy grandes.  En las
+grandes playas de Rocky Point, Pipeline, etc...  Esta es la capital de Wave
+World.  
+~
+0 AY 6
+D0
+~
+~
+0 0 21507
+D1
+~
+~
+0 0 21514
+D3
+~
+coral~
+AB 0 21501
+D5
+~
+~
+0 0 21520
+M 150 H 200
+S
+#0
+
+
+
+#SPECIALS
+M 21505 spec_cast_mage
+M 21510 spec_kungfu_poison
+M 21548 spec_cast_adept
+M 21698 spec_assassin
+M 21500 spec_breath_gas
+M 21503 spec_poison
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 21504 1 1
+D 0 21530 3 1
+D 0 21531 1 1
+D 0 21554 3 1
+D 0 21555 1 1
+D 0 21563 3 1
+D 0 21577 3 1
+D 0 21578 1 1
+D 0 21583 1 1
+D 0 21584 3 1
+D 0 21501 1 1
+D 0 21501 3 1
+D 0 21502 1 1
+D 0 21502 3 1
+D 0 21503 3 1
+M 0 21505 1 21505 1
+M 0 21506 1 21506 1
+M 0 21699 3 21516 4
+M 0 21698 4 21525 4
+M 0 21533 1 21533 1
+M 0 21548 1 21548 1
+M 0 21500 1 21500 1
+E 0 21500 0 16
+E 0 21501 0 1
+E 0 21501 0 2
+M 0 21501 15 21501 12
+E 0 21502 0 16
+M 0 21503 2 21503 2
+E 0 21503 0 16
+E 0 21504 0 2
+S
+
+
+
+#SHOPS
+21505 0 0 0 0 0 100 100 0 23
+21506 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#REPAIRS
+21506 0 0 0 0 0 0 23
+0
+
+
+
+#$

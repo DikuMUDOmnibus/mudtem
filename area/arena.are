@@ -1,0 +1,1167 @@
+#AREADATA
+Name Arena~
+Builders None~
+VNUMs 22000 22099
+Credits {99 99} Wolverine Arena~
+Security 9
+Prototipo 0
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#22000
+leon~
+un leon~
+Un leon esta aqui, luchando.
+~
+~
+'animal'
+AFT 0 0 0 22000
+1 1 2d7+21 1d10+100 1d4+0 claw
+9 9 9 9
+KLTU 0 0 0
+stand stand male 0
+0 0 large 'carne'
+C 'warrior'
+F off CI
+M 'greet' 22000 100~
+#0
+
+
+
+#OBJECTS
+#22000
+base~
+una base~
+Una base.~
+cemento~
+trash 0 0
+0 0 0 0 0
+0 30000 800 P
+#0
+
+
+
+#ROOMS
+#22000
+En la Entrada~
+Estas en la entrada al #F#BInmenso#f#b estadio donde los miembros de los
+diferentes clanes pelearan por su vida.
+~
+0 GNX 0
+D1
+~
+~
+0 0 22001
+D2
+~
+~
+0 0 22007
+S
+#22001
+En el Pasillo~
+Estas caminando por el pasillo de la gran arena de los clanes. Ves que a tu
+alrededor se pueden ver cabezas, brazos, pies, y hasta ojos de gente que
+seguramente ya no podra usarlos mas. (#BDeberia alguien recogerlos para
+donarlos#b).
+~
+0 GNX 0
+D1
+~
+~
+0 0 22002
+D2
+~
+~
+0 0 22008
+D3
+~
+~
+0 0 22000
+S
+#22002
+Caminando por la Arena~
+Estas caminando por los pasillos de la Inmensa Arena de las peleas entre los
+miembros de los mas sordidos y respetados clanes tambien.
+~
+0 GNX 0
+D1
+~
+~
+0 0 22003
+D2
+~
+~
+0 0 22009
+D3
+~
+~
+0 0 22001
+S
+#22003
+Hacia el Centro de la Arena~
+Estas caminando por los pasillos interiores de la Arena, piensas que
+luego veras mas sangre de la que te imaginas.  Ves Como el publico lanza con
+una servatana trozitos de hierro fundido 
+~
+0 EGNX 0
+D1
+~
+~
+0 0 22004
+D2
+~
+~
+0 0 22010
+D3
+~
+~
+0 0 22002
+S
+#22004
+Hacia el Centro de la Arena~
+Estas llegando a las salidas de los pasillos..pronto veras muerte, sangre ,
+destruccion, e innumerables demonios llamados miembros de algun clan te
+haran pasar un mal rato..
+~
+0 GNX 0
+D1
+~
+~
+0 0 22005
+D2
+~
+~
+0 0 22011
+D3
+~
+~
+0 0 22003
+S
+#22005
+Caminando por los pasillos~
+Estas caminando todavia por los pasillos de la inmensa arena de clanes. Ves 
+que miembros de cuerpos estan aqui botados por doquier, tambien ves que, a pesar
+de la sangre...el olor no es #F#BTan#f#b podrido aqui.
+~
+0 GNX 0
+D1
+~
+~
+0 0 22006
+D2
+~
+~
+0 0 22012
+D3
+~
+~
+0 0 22004
+S
+#22006
+En un Rincon ...~
+Estas en una parte desconocida de este lugar...Piensas que al parecer podrias
+descansar aqui un rato, pero no te confies, ya que luego te acordaras de que 
+algunos players pueden moverse en silencio.
+~
+0 GNX 0
+D2
+~
+~
+0 0 22013
+D3
+~
+~
+0 0 22005
+S
+#22007
+En la curva~
+Estas en los pasillos del inmenso estadio de las peleas entre clanes...... Ves
+que salidas se extienden hacia los tres lados.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22000
+D1
+~
+~
+0 0 22008
+D2
+~
+~
+0 0 22014
+S
+#22008
+En las Galerias~
+Estas en la parte de las galerias donde se supone que el publico (y dioses)
+veran las multiples masacres entre clanes. Los asientos aqui son de cuero de 
+#B#UPlayer....#b#u.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22001
+D1
+~
+~
+0 0 22009
+D2
+~
+~
+0 0 22015
+D3
+~
+~
+0 0 22007
+S
+#22009
+En la Arena~
+El olor a #Bsangre#b te empieza a nublar la vista....Ves como tu arma se va
+achicando hasta convertirse en un pequenio abre cerrojo y luego desaparece..
+#F#BQueeeeeee#f#b ve a buscar otra arma antes de que algun gil te mate!!!!!!!
+~
+0 GNX 0
+D0
+~
+~
+0 0 22002
+D1
+~
+~
+0 0 22010
+D2
+~
+~
+0 0 22016
+D3
+~
+~
+0 0 22008
+S
+#22010
+En la entrada~
+Hacia el Sur puedes el inmenso portico-portal que pareciera traer a los 
+miembros de los diferentes clanes hacia aca.. La sangre se te hiela al darte
+cuenta del grito de muerte de #RAlguien#r.....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22003
+D1
+~
+~
+0 0 22011
+D2
+~
+~
+0 0 22017
+D3
+~
+~
+0 0 22009
+S
+#22011
+En la Arena~
+Sientes unos pasos que se acercan....debes #Bhuir#b de aqui!!!..cuidado...
+tu mente se siente cansada....ya ves criaturas irreales....Dragones que te
+vienen a buscar.......#BDeberias descansar un rato#b.....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22004
+D1
+~
+~
+0 0 22012
+D2
+~
+~
+0 0 22018
+D3
+~
+~
+0 0 22010
+S
+#22012
+En el Pasillo~
+Estas caminando por un oscuro y no muy bien iluminado pasillo. Al Sur ves una
+pequenia luz que se va agrandando a medida que te acercas, mientras que al
+Norte ves la entrada al Pasillo que te conduce hacia la Arena.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22005
+D1
+~
+~
+0 0 22013
+D2
+~
+~
+0 0 22019
+D3
+~
+~
+0 0 22011
+S
+#22013
+En las escaleras~
+Estas en este momento situado sobre unas escaleras desde las que puedes ver
+todas las areas del mud....realmente piensas que seria un buen lugar para
+vivir....ya que casi te hace olvidar el motivo por el cual estas aqui....
+Al Sur ves una especie de baranda que separa la parte del publico con la 
+#BArena#b misma.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22006
+D2
+~
+~
+0 0 22020
+D3
+~
+~
+0 0 22012
+S
+#22014
+En la baranda~
+Llegaste repentinamente a la baranda que separa los pasillos interiores
+de la arena propiamente tal, sin embargo, no puedes estar seguro aqui, ya
+que al parecer alguien te esta observando listo para abalanzarse sobre ti en
+el momento justo.  Cuidado Alguien te tira #Baceite caliente#b 
+~
+0 EGNX 0
+D0
+~
+~
+0 0 22007
+D1
+~
+~
+0 0 22015
+D2
+~
+~
+0 0 22021
+S
+#22015
+En la baranda~
+Estas en una parte de la arena que no habias visto antes. Hacia los dos lados
+se extiende una baranda que, al parecer ha sido puesta justamente para que los
+espectadores no se abalancen sobre los luchadores.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22008
+D1
+~
+~
+0 0 22016
+D2
+~
+~
+0 0 22022
+D3
+~
+~
+0 0 22014
+S
+#22016
+En la Baranda~
+Vas caminando por una baranda que mas parece una reja de metal solido. Hacia
+el sur ves algunos valientes guerreros de algun clan peleando contra otros
+que pareciera van arrancando como almas que lleva el diablo...
+~
+0 GNX 0
+D0
+~
+~
+0 0 22009
+D1
+~
+~
+0 0 22017
+D2
+~
+~
+0 0 22023
+D3
+~
+~
+0 0 22015
+S
+#22017
+En el Portico~
+Estas en el portico a la inmensa arena que se cierne sobre tu clan. Deberias 
+estar peleando o escondiendote en vez de estar mirando estas largas, inutiles
+y aburridas descripciones....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22010
+D1
+~
+~
+0 0 22018
+D2
+~
+~
+0 0 22024
+D3
+~
+~
+0 0 22016
+S
+#22018
+Cerca del fin de la baranda~
+Estas caminando por otro lugar absolutamente pestilente, ves que todavia se
+ven miembros de algunos guerreros totalmente deshechos y descompuestos por
+aqui.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22011
+D1
+~
+~
+0 0 22019
+D2
+~
+~
+0 0 22025
+D3
+~
+~
+0 0 22017
+S
+#22019
+En la Salida al Pasillo~
+Ves que en este punto la baranda que venias recorriendo se agranda y de
+repente se abre hacia algun punto..  
+~
+0 GNX 0
+D0
+~
+~
+0 0 22012
+D1
+~
+~
+0 0 22020
+D2
+~
+~
+0 0 22026
+D3
+~
+~
+0 0 22018
+S
+#22020
+Al fin de la Baranda~
+Uffff.  Al fin llegaste al termino de esta estupida baranda, ya te
+parecia que todas las descripciones eran iguales....  Un Dios solamente para
+divertise lanza fireballs 
+~
+0 EGNX 0
+D0
+~
+~
+0 0 22013
+D2
+~
+~
+0 0 22027
+D3
+~
+~
+0 0 22019
+S
+#22021
+En la Arena~
+Estas caminando por otra parte de la arena.  Parece que nunca habias
+andado por aqui ya que la arena se ve mucho mas limpia que las otras partes,
+piensas que esta debe ser la parte donde se toman sus treguas los clanes
+antes de ir a la #BMuerte Final#b.  
+~
+0 GNX 0
+D0
+~
+~
+0 0 22014
+D1
+~
+~
+0 0 22022
+D2
+~
+~
+0 0 22028
+S
+#22022
+En la Arena~
+Los cuerpos se amontonan aqui como granos de trigo en un molino....ves que 
+en la pared esta escrito con sangre unos extranios jeroglificos...
+~
+0 GNX 0
+E
+pared~
+En la pared dice escrito con sangre..:
+D#  N-3 Disturb to T!- Po--r-fu-l  Cla--, They wi-- co-e Bac-- for --re....
+~
+D0
+~
+~
+0 0 22015
+D1
+~
+~
+0 0 22023
+D2
+~
+~
+0 0 22029
+D3
+~
+~
+0 0 22021
+S
+#22023
+En la Arena~
+Solo mas cuerpos. Ves que aqui, desgraciadamente se encuentran los cuerpos de 
+los miembros de algun clan ....totalmente destruido ya..yacen aqui....ves
+que las moscas se han asentado ya sobre los cuerpos y se aprestan a devorarlos.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22016
+D1
+~
+~
+0 0 22024
+D2
+~
+~
+0 0 22030
+D3
+~
+~
+0 0 22022
+S
+#22024
+En el Centro~
+Estas caminando lentamente por la gran Arena de clanes, ves que los
+multiples huesos, armas mohosas, y multiples objetos que ya no se pueden
+reconocer, estan aqui entorpeciendo las peleas.  Estas en el centro ves toda
+la Arena la gente esta euforica y gita --!!  #BCrucifiquenlos, muerte#b!! 
+Aqui eres como un vulgar cristiano y te das cuenta de la verdad estas dentro
+de un gran !!!  #Bcoliseo#b!!!  Eres la entretencion de dioses y grandes
+guerreros, eres nada, ers mejor que te des por vencido no tienes
+escapatoria...  
+~
+0 GNX 0
+D0
+~
+~
+0 0 22017
+D1
+~
+~
+0 0 22025
+D2
+~
+~
+0 0 22031
+D3
+~
+~
+0 0 22023
+S
+#22025
+En la Arena~
+Estas caminando todavia por la gran Arena de Clanes, ves que los espectadores
+gritan asombrados en el instante preciso en que un #F#Bpoderoso#f#b guerrero le
+corta la cabeza a su adversario....parece que ese sera tu fin...
+~
+0 GNX 0
+D0
+~
+~
+0 0 22018
+D1
+~
+~
+0 0 22026
+D2
+~
+~
+0 0 22032
+D3
+~
+~
+0 0 22024
+S
+#22026
+En la Arena~
+Estas caminando por la arena de clanes....justo cuando creias estar a salvo,
+sientes que el piso se pone humedo....podria ser agua, piensas, pero miras
+y entonces te das cuenta que no es agua...es #B#R#USangre!!!!#b#r#u!
+~
+0 GNX 0
+D0
+~
+~
+0 0 22019
+D1
+~
+~
+0 0 22027
+D2
+~
+~
+0 0 22033
+D3
+~
+~
+0 0 22025
+S
+#22027
+En la Arena~
+Has llegado al rincon Este de la Arena....crees que aqui podras descansar,
+sin embargo la seguridad no durara mucho, ya que , como puedes observar,algunas
+cabezas, todavia con los ojos cerrados, se encuentran aqui sin sus respectivos
+cuerpos...
+~
+0 GNX 0
+D0
+~
+~
+0 0 22020
+D2
+~
+~
+0 0 22034
+D3
+~
+~
+0 0 22026
+S
+#22028
+En la baranda~
+Estas caminando por otra parte de la arena.  Parece que nunca habias
+andado por aqui ya que la arena se ve mucho mas limpia que las otras partes,
+piensas que esta debe ser la parte donde se toman sus treguas los clanes
+antes de ir a la #BMuerte Final#b.  Cuidate El publico lanza antorchas
+encendidas 
+~
+0 EGNX 0
+D0
+~
+~
+0 0 22021
+D1
+~
+~
+0 0 22029
+D2
+~
+~
+0 0 22035
+S
+#22029
+Cerca de la Baranda~
+Estas en una parte de la arena que no habias visto antes. Hacia los dos lados
+se extiende una baranda que, al parecer ha sido puesta justamente para que los
+espectadores no se abalancen sobre los luchadores.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22022
+D1
+~
+~
+0 0 22030
+D2
+~
+~
+0 0 22036
+D3
+~
+~
+0 0 22028
+S
+#22030
+arena~
+Vas caminando por una baranda que mas parece una reja de metal solido. Hacia
+el sur ves algunos valientes guerreros de algun clan peleando contra otros
+que pareciera van arrancando como almas que lleva el diablo...
+~
+0 GNX 0
+D0
+~
+~
+0 0 22023
+D1
+~
+~
+0 0 22031
+D2
+~
+~
+0 0 22037
+D3
+~
+~
+0 0 22029
+S
+#22031
+Arena~
+Estas en el portico a la inmensa arena que se cierne sobre tu clan. Deberias 
+estar peleando o escondiendote en vez de estar mirando estas largas, inutiles
+y aburridas descripciones....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22024
+D1
+~
+~
+0 0 22032
+D2
+~
+~
+0 0 22038
+D3
+~
+~
+0 0 22030
+S
+#22032
+Cerca del fin de la baranda~
+Estas caminando por otro lugar absolutamente pestilente, ves que todavia se
+ven miembros de algunos guerreros totalmente deshechos y descompuestos por
+aqui.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22025
+D1
+~
+~
+0 0 22033
+D2
+~
+~
+0 0 22039
+D3
+~
+~
+0 0 22031
+S
+#22033
+En la Salida al Pasillo~
+Ves que en este punto la baranda que venias recorriendo se agranda y de
+repente se abre hacia algun punto..  
+~
+0 GNX 0
+D0
+~
+~
+0 0 22026
+D1
+~
+~
+0 0 22034
+D2
+~
+~
+0 0 22040
+D3
+~
+~
+0 0 22032
+S
+#22034
+Al fin de la Baranda~
+Uffff.  Al fin llegaste al termino de esta estupida baranda, ya te
+parecia que todas las descripciones eran iguales....  El publico lanza
+antorchas euforico 
+~
+0 EGNX 0
+D0
+~
+~
+0 0 22027
+D2
+~
+~
+0 0 22041
+D3
+~
+~
+0 0 22033
+S
+#22035
+En la Baranda~
+Vas caminando por una baranda que mas parece una reja de metal solido. Hacia
+el sur ves algunos valientes guerreros de algun clan peleando contra otros
+que pareciera van arrancando como almas que lleva el diablo...
+~
+0 GNX 0
+D0
+~
+~
+0 0 22028
+D1
+~
+~
+0 0 22036
+D2
+~
+~
+0 0 22042
+S
+#22036
+En las Galerias~
+Estas en la parte de las galerias donde se supone que el publico (y dioses)
+veran las multiples masacres entre clanes. Los asientos aqui son de cuero de 
+#B#UPlayer....#b#u.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22029
+D1
+~
+~
+0 0 22037
+D2
+~
+~
+0 0 22043
+D3
+~
+~
+0 0 22035
+S
+#22037
+En la Arena~
+El olor a #Bsangre#b te empieza a nublar la vista....Ves como tu arma se va
+achicando hasta convertirse en un pequenio abre cerrojo y luego desaparece..
+#F#BQueeeeeee#f#b ve a buscar otra arma antes de que algun gil te mate!!!!!!!
+~
+0 GNX 0
+D0
+~
+~
+0 0 22030
+D1
+~
+~
+0 0 22038
+D2
+~
+~
+0 0 22044
+D3
+~
+~
+0 0 22036
+S
+#22038
+En la entrada~
+Hacia el Sur puedes el inmenso portico-portal que pareciera traer a los 
+miembros de los diferentes clanes hacia aca.. La sangre se te hiela al darte
+cuenta del grito de muerte de #RAlguien#r.....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22031
+D1
+~
+~
+0 0 22039
+D2
+~
+~
+0 0 22045
+D3
+~
+~
+0 0 22037
+S
+#22039
+En la Arena~
+Sientes unos pasos que se acercan....debes #Bhuir#b de aqui!!!..cuidado...
+tu mente se siente cansada....ya ves criaturas irreales....Dragones que te
+vienen a buscar.......#BDeberias descansar un rato#b.....
+~
+0 GNX 0
+D0
+~
+~
+0 0 22032
+D1
+~
+~
+0 0 22040
+D2
+~
+~
+0 0 22046
+D3
+~
+~
+0 0 22038
+S
+#22040
+En el Pasillo~
+Estas caminando por un oscuro y no muy bien iluminado pasillo. Al Sur ves una
+pequenia luz que se va agrandando a medida que te acercas, mientras que al
+Norte ves la entrada al Pasillo que te conduce hacia la Arena.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22033
+D1
+~
+~
+0 0 22041
+D2
+~
+~
+0 0 22047
+D3
+~
+~
+0 0 22039
+S
+#22041
+En las escaleras~
+Estas en este momento situado sobre unas escaleras desde las que puedes ver
+todas las areas del mud....realmente piensas que seria un buen lugar para
+vivir....ya que casi te hace olvidar el motivo por el cual estas aqui....
+Al Sur ves una especie de baranda que separa la parte del publico con la 
+#BArena#b misma.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22034
+D2
+~
+~
+0 0 22048
+D3
+~
+~
+0 0 22040
+S
+#22042
+Esquina Sudoeste~
+Estas acorralado en la esquina.  Cuidate tienes solamente dos salidas. 
+Al este sigue la barranda del coliseo.  Al norte sigues por las jaulas La
+gente tira basura y esta euforica --!  Muerte, muerte!!  -- Grita la gente
+Corre por tu vida o pelea solo puede haber un Ganador 
+~
+0 GNX 0
+D0
+~
+~
+0 0 22035
+D1
+~
+~
+0 0 22043
+S
+#22043
+Caminando por la Arena~
+Estas caminando por los pasillos de la Inmensa Arena de las peleas entre los
+miembros de los mas sordidos y respetados clanes tambien.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22036
+D1
+~
+~
+0 0 22044
+D3
+~
+~
+0 0 22042
+S
+#22044
+Hacia el Centro de la Arena~
+Estas caminando por los pasillos interiores de la Arena, piensas que luego
+veras mas sangre de la que te imaginas.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22037
+D1
+~
+~
+0 0 22045
+D3
+~
+~
+0 0 22043
+S
+#22045
+Caminando por la Arena~
+Estas caminando por los pasillos de la Inmensa Arena de las peleas entre
+los miembros de los mas sordidos y respetados clanes tambien. 
+#BLeatherface#b te esta mirando y si no te corres te lanzara un
+#BFireball#b!!  
+~
+0 EGNX 0
+D0
+~
+~
+0 0 22038
+D1
+~
+~
+0 0 22046
+D3
+~
+~
+0 0 22044
+S
+#22046
+En la curva~
+Estas en los pasillos del inmenso estadio de las peleas entre clanes...... Ves
+que salidas se extienden hacia los tres lados.
+~
+0 GNX 0
+D0
+~
+~
+0 0 22039
+D1
+~
+~
+0 0 22047
+D3
+~
+~
+0 0 22045
+S
+#22047
+Hacia el Centro de la Arena~
+Estas llegando a las salidas de los pasillos..pronto veras muerte, sangre ,
+destruccion, e innumerables demonios llamados miembros de algun clan te
+haran pasar un mal rato..
+~
+0 GNX 0
+D0
+~
+~
+0 0 22040
+D1
+~
+~
+0 0 22048
+D3
+~
+~
+0 0 22046
+S
+#22048
+Esquinq sudeste~
+Estas acorralado en la esquina.  Cuidate tienes solamente dos salidas. 
+Al este sigue la barranda del coliseo.  Al norte sigues por las jaulas La
+gente tira basura y esta euforica --!  Muerte, muerte!!  -- Grita la gente
+Corre por tu vida o pelea solo puede haber un Ganador 
+~
+0 GNX 0
+D0
+~
+~
+0 0 22041
+D3
+~
+~
+0 0 22047
+S
+#0
+
+
+
+#SPECIALS
+M 22000 spec_caminante
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+M 0 22000 20 22000 1
+M 0 22000 20 22006 1
+M 0 22000 20 22015 1
+M 0 22000 20 22023 1
+M 0 22000 20 22031 1
+M 0 22000 20 22039 1
+M 0 22000 20 22042 1
+M 0 22000 20 22047 1
+M 0 22000 20 22048 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

@@ -1,0 +1,36 @@
+void do_temp( CHAR_DATA *ch, char *argument )
+{
+extern	void grabar_tabla_comandos(void);
+extern	void grabar_tabla_razas(void);
+extern	void grabar_plist(void);
+
+//	grabar_tabla_comandos();
+//	grabar_tabla_razas();
+	grabar_plist();
+
+/*	DESCRIPTOR_DATA *d = ch->desc;
+	char player_name[MSL];
+
+	if ( !d )
+		return;
+
+	sprintf( player_name, "%s", ch->name );
+
+	save_char_obj( ch );
+	extract_char( ch, TRUE );
+
+	ch			= new_char();
+	ch->pcdata		= new_pcdata();
+	d->character		= ch;
+	ch->desc		= d;
+	ch->name		= str_dup( player_name );
+	ch->id			= get_pc_id();
+
+	set_char(ch, 1);
+
+	ch->size		= race_table[ch->race].size;
+	ch->dam_type		= race_table[ch->race].dam_type;
+
+	SET_BIT(ch->act, PLR_NOSAVE); */
+}
+

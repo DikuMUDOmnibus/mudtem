@@ -1,0 +1,5435 @@
+226
+#SKILL
+Name   reserved~
+Nombre ~
+Clase  mag~ Level 99 Rating 99
+Clase  cle~ Level 99 Rating 99
+Clase  thi~ Level 99 Rating 99
+Clase  war~ Level 99 Rating 99
+Clase  psi~ Level 99 Rating 99
+Clase  ran~ Level 99 Rating 99
+Spell  ~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   acid blast~
+Nombre ~
+Clase  mag~ Level 28 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 35 Rating  2
+Clase  war~ Level 32 Rating  2
+Clase  psi~ Level 40 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_acid_blast~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_acid_blast~
+Slot   70
+Mana   20
+Beats  12
+Noun   acid blast~
+Off    !Acid Blast!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   armor~
+Nombre armadura magica~
+Clase  mag~ Level  7 Rating  1
+Clase  cle~ Level  2 Rating  1
+Clase  thi~ Level 10 Rating  2
+Clase  war~ Level  5 Rating  2
+Clase  psi~ Level 15 Rating  4
+Clase  ran~ Level  4 Rating  1
+Spell  spell_armor~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_armor~
+Slot   1
+Mana   5
+Beats  12
+Noun   ~
+Off    Tu armadura magica se desvanece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   bless~
+Nombre bendicion~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  7 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level  8 Rating  2
+Clase  psi~ Level 15 Rating  4
+Clase  ran~ Level  8 Rating  2
+Spell  spell_bless~
+Target tar_obj_char_def~
+Pos    standing~
+Gsn    gsn_bless~
+Slot   3
+Mana   5
+Beats  12
+Noun   ~
+Off    You feel less righteous.~
+Obj    $p's holy aura fades.~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   blindness~
+Nombre ceguera~
+Clase  mag~ Level 12 Rating  1
+Clase  cle~ Level  8 Rating  1
+Clase  thi~ Level 17 Rating  2
+Clase  war~ Level 15 Rating  2
+Clase  psi~ Level 19 Rating  4
+Clase  ran~ Level 12 Rating  3
+Spell  spell_blindness~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_blindness~
+Slot   4
+Mana   5
+Beats  12
+Noun   ~
+Off    Tu vision vuelve.~
+Obj    ~
+Room   $n recupera la vision.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   burning hands~
+Nombre manos ardientes~
+Clase  mag~ Level  7 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 10 Rating  2
+Clase  war~ Level  9 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_burning_hands~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_burning_hands~
+Slot   5
+Mana   15
+Beats  12
+Noun   burning hands~
+Off    !Burning Hands!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   call lightning~
+Nombre ~
+Clase  mag~ Level 26 Rating  1
+Clase  cle~ Level 18 Rating  1
+Clase  thi~ Level 31 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 27 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_call_lightning~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_call_lightning~
+Slot   6
+Mana   15
+Beats  12
+Noun   lightning bolt~
+Off    !Call Lightning!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   calm~
+Nombre calma~
+Clase  mag~ Level 48 Rating  1
+Clase  cle~ Level 16 Rating  1
+Clase  thi~ Level 50 Rating  2
+Clase  war~ Level 20 Rating  2
+Clase  psi~ Level 25 Rating  4
+Clase  ran~ Level 18 Rating  3
+Spell  spell_calm~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_calm~
+Slot   509
+Mana   30
+Beats  12
+Noun   ~
+Off    Perdiste tu paz interior.~
+Obj    ~
+Room   $n ya no se ve tan pacifico...~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   cancellation~
+Nombre cancelacion~
+Clase  mag~ Level 18 Rating  1
+Clase  cle~ Level 26 Rating  1
+Clase  thi~ Level 34 Rating  2
+Clase  war~ Level 34 Rating  2
+Clase  psi~ Level 32 Rating  4
+Clase  ran~ Level 30 Rating  3
+Spell  spell_cancellation~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_cancellation~
+Slot   507
+Mana   20
+Beats  12
+Noun   !cancellation!~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   cause critical~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 13 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 19 Rating  2
+Clase  psi~ Level 25 Rating  4
+Clase  ran~ Level 15 Rating  3
+Spell  spell_cause_critical~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_cause_critical~
+Slot   63
+Mana   20
+Beats  12
+Noun   spell~
+Off    !Cause Critical!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cause light~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  1 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level  3 Rating  2
+Clase  psi~ Level  8 Rating  4
+Clase  ran~ Level  2 Rating  3
+Spell  spell_cause_light~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_cause_light~
+Slot   62
+Mana   15
+Beats  12
+Noun   spell~
+Off    !Cause Light!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cause serious~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  7 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 10 Rating  2
+Clase  psi~ Level 15 Rating  4
+Clase  ran~ Level  8 Rating  3
+Spell  spell_cause_serious~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_cause_serious~
+Slot   64
+Mana   17
+Beats  12
+Noun   spell~
+Off    !Cause Serious!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   chain lightning~
+Nombre ~
+Clase  mag~ Level 33 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 39 Rating  2
+Clase  war~ Level 36 Rating  2
+Clase  psi~ Level 42 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_chain_lightning~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   500
+Mana   25
+Beats  12
+Noun   lightning~
+Off    !Chain Lightning!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   change sex~
+Nombre cambiar sexo~
+Clase  mag~ Level 25 Rating  1
+Clase  cle~ Level 18 Rating  1
+Clase  thi~ Level 35 Rating  2
+Clase  war~ Level 35 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_change_sex~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_change_sex~
+Slot   82
+Mana   15
+Beats  12
+Noun   ~
+Off    Tu cuerpo se siente familiar otra vez.~
+Obj    ~
+Room   $n vuelve a verse como si mism$o.~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   charm person~
+Nombre ~
+Clase  mag~ Level 20 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 25 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_charm_person~
+Target tar_char_offensive~
+Pos    standing~
+Gsn    gsn_charm_person~
+Slot   7
+Mana   5
+Beats  12
+Noun   ~
+Off    You feel more self-confident.~
+Obj    ~
+Room   $n recobra su voluntad.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   chill touch~
+Nombre toque helado~
+Clase  mag~ Level  4 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level  6 Rating  2
+Clase  war~ Level  6 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_chill_touch~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_chill_touch~
+Slot   8
+Mana   15
+Beats  12
+Noun   chilling touch~
+Off    Sientes menos frio.~
+Obj    ~
+Room   $n se ve mas tibio.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   colour spray~
+Nombre ~
+Clase  mag~ Level 16 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 22 Rating  2
+Clase  war~ Level 20 Rating  2
+Clase  psi~ Level 24 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_colour_spray~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_colour_spray~
+Slot   10
+Mana   15
+Beats  12
+Noun   colour spray~
+Off    !Colour Spray!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   continual light~
+Nombre luz continua~
+Clase  mag~ Level  6 Rating  1
+Clase  cle~ Level  4 Rating  1
+Clase  thi~ Level  6 Rating  2
+Clase  war~ Level  9 Rating  2
+Clase  psi~ Level 15 Rating  4
+Clase  ran~ Level  6 Rating  3
+Spell  spell_continual_light~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   57
+Mana   7
+Beats  12
+Noun   ~
+Off    !Continual Light!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   control weather~
+Nombre ~
+Clase  mag~ Level 15 Rating  1
+Clase  cle~ Level 19 Rating  1
+Clase  thi~ Level 28 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 22 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_control_weather~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   11
+Mana   25
+Beats  12
+Noun   ~
+Off    !Control Weather!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   create food~
+Nombre crear comida~
+Clase  mag~ Level 10 Rating  1
+Clase  cle~ Level  5 Rating  1
+Clase  thi~ Level 11 Rating  2
+Clase  war~ Level 12 Rating  2
+Clase  psi~ Level 12 Rating  4
+Clase  ran~ Level  8 Rating  3
+Spell  spell_create_food~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   12
+Mana   5
+Beats  12
+Noun   ~
+Off    !Create Food!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   create rose~
+Nombre ~
+Clase  mag~ Level 16 Rating  1
+Clase  cle~ Level 11 Rating  1
+Clase  thi~ Level 10 Rating  2
+Clase  war~ Level 24 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 18 Rating  3
+Spell  spell_create_rose~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   511
+Mana   30
+Beats  12
+Noun   ~
+Off    !Create Rose!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   create spring~
+Nombre crear fuente~
+Clase  mag~ Level 14 Rating  1
+Clase  cle~ Level 17 Rating  1
+Clase  thi~ Level 23 Rating  2
+Clase  war~ Level 20 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 19 Rating  3
+Spell  spell_create_spring~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   80
+Mana   20
+Beats  12
+Noun   ~
+Off    !Create Spring!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   create water~
+Nombre crear agua~
+Clase  mag~ Level  8 Rating  1
+Clase  cle~ Level  3 Rating  1
+Clase  thi~ Level 12 Rating  2
+Clase  war~ Level 11 Rating  2
+Clase  psi~ Level 10 Rating  4
+Clase  ran~ Level  8 Rating  3
+Spell  spell_create_water~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   13
+Mana   5
+Beats  12
+Noun   ~
+Off    !Create Water!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   cure blindness~
+Nombre curar ceguera~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  6 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level  8 Rating  2
+Clase  psi~ Level 20 Rating  4
+Clase  ran~ Level  7 Rating  3
+Spell  spell_cure_blindness~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_cure_blindness~
+Slot   14
+Mana   5
+Beats  12
+Noun   ~
+Off    !Cure Blindness!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cure critical~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 13 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 19 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 15 Rating  3
+Spell  spell_cure_critical~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_cure_critical~
+Slot   15
+Mana   20
+Beats  12
+Noun   ~
+Off    !Cure Critical!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cure disease~
+Nombre curar enfermedad~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 13 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 14 Rating  2
+Clase  psi~ Level 20 Rating  4
+Clase  ran~ Level 14 Rating  3
+Spell  spell_cure_disease~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_cure_disease~
+Slot   501
+Mana   20
+Beats  12
+Noun   ~
+Off    !Cure Disease!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cure light~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  1 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level  3 Rating  2
+Clase  psi~ Level  8 Rating  4
+Clase  ran~ Level  2 Rating  3
+Spell  spell_cure_light~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_cure_light~
+Slot   16
+Mana   10
+Beats  12
+Noun   ~
+Off    !Cure Light!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cure poison~
+Nombre curar veneno~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 14 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 16 Rating  2
+Clase  psi~ Level 23 Rating  4
+Clase  ran~ Level 15 Rating  3
+Spell  spell_cure_poison~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_cure_poison~
+Slot   43
+Mana   5
+Beats  12
+Noun   ~
+Off    !Cure Poison!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   cure serious~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level  7 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 10 Rating  2
+Clase  psi~ Level 22 Rating  4
+Clase  ran~ Level  8 Rating  3
+Spell  spell_cure_serious~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_cure_serious~
+Slot   61
+Mana   15
+Beats  12
+Noun   ~
+Off    !Cure Serious!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   curse~
+Nombre ~
+Clase  mag~ Level 18 Rating  1
+Clase  cle~ Level 18 Rating  1
+Clase  thi~ Level 26 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 24 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_curse~
+Target tar_obj_char_off~
+Pos    fighting~
+Gsn    gsn_curse~
+Slot   17
+Mana   20
+Beats  12
+Noun   curse~
+Off    La maldicion desaparece.~
+Obj    $p vuelve a su pureza natural.~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   demonfire~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 34 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 45 Rating  2
+Clase  psi~ Level 36 Rating  4
+Clase  ran~ Level 38 Rating  3
+Spell  spell_demonfire~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_demonfire~
+Slot   505
+Mana   20
+Beats  12
+Noun   torments~
+Off    !Demonfire!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   detect evil~
+Nombre detectar maldad~
+Clase  mag~ Level 11 Rating  1
+Clase  cle~ Level  4 Rating  1
+Clase  thi~ Level 12 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 10 Rating  2
+Spell  spell_detect_evil~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_detect_evil~
+Slot   18
+Mana   5
+Beats  12
+Noun   ~
+Off    El rojo en tu vision desaparece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   detect good~
+Nombre detectar bondad~
+Clase  mag~ Level 11 Rating  1
+Clase  cle~ Level  4 Rating  1
+Clase  thi~ Level 12 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 10 Rating  2
+Spell  spell_detect_good~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_detect_good~
+Slot   513
+Mana   5
+Beats  12
+Noun   ~
+Off    El oro en tu vision desaparece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   detect hidden~
+Nombre detectar oculto~
+Clase  mag~ Level 15 Rating  1
+Clase  cle~ Level 11 Rating  1
+Clase  thi~ Level 12 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 20 Rating  4
+Clase  ran~ Level  5 Rating  1
+Spell  spell_detect_hidden~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_detect_hidden~
+Slot   44
+Mana   5
+Beats  12
+Noun   ~
+Off    You feel less aware of your surroundings.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   detect invis~
+Nombre detectar invisibilidad~
+Clase  mag~ Level  3 Rating  1
+Clase  cle~ Level  8 Rating  1
+Clase  thi~ Level  6 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 14 Rating  3
+Spell  spell_detect_invis~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_detect_invis~
+Slot   19
+Mana   5
+Beats  12
+Noun   ~
+Off    Dejas de ver objetos invisibles.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   detect magic~
+Nombre detectar magia~
+Clase  mag~ Level  2 Rating  1
+Clase  cle~ Level  6 Rating  1
+Clase  thi~ Level  5 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 15 Rating  3
+Spell  spell_detect_magic~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_detect_magic~
+Slot   20
+Mana   5
+Beats  12
+Noun   ~
+Off    La deteccion de magia desaparece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   detect poison~
+Nombre detectar veneno~
+Clase  mag~ Level 15 Rating  1
+Clase  cle~ Level  7 Rating  1
+Clase  thi~ Level  9 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 10 Rating  2
+Spell  spell_detect_poison~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   21
+Mana   5
+Beats  12
+Noun   ~
+Off    !Detect Poison!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   dispel evil~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 15 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 21 Rating  2
+Clase  psi~ Level 25 Rating  4
+Clase  ran~ Level 18 Rating  3
+Spell  spell_dispel_evil~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_dispel_evil~
+Slot   22
+Mana   15
+Beats  12
+Noun   dispel evil~
+Off    !Dispel Evil!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   dispel good~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 15 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 21 Rating  2
+Clase  psi~ Level 25 Rating  4
+Clase  ran~ Level 18 Rating  3
+Spell  spell_dispel_good~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_dispel_good~
+Slot   512
+Mana   15
+Beats  12
+Noun   dispel good~
+Off    !Dispel Good!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   dispel magic~
+Nombre ~
+Clase  mag~ Level 16 Rating  1
+Clase  cle~ Level 24 Rating  1
+Clase  thi~ Level 30 Rating  2
+Clase  war~ Level 30 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 26 Rating  3
+Spell  spell_dispel_magic~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_dispel_magic~
+Slot   59
+Mana   15
+Beats  12
+Noun   ~
+Off    !Dispel Magic!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   earthquake~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 10 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 14 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 11 Rating  2
+Spell  spell_earthquake~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_earthquake~
+Slot   23
+Mana   15
+Beats  12
+Noun   earthquake~
+Off    !Earthquake!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   enchant armor~
+Nombre ~
+Clase  mag~ Level 16 Rating  2
+Clase  cle~ Level 53 Rating  2
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 53 Rating  4
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  4
+Spell  spell_enchant_armor~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   510
+Mana   100
+Beats  24
+Noun   ~
+Off    !Enchant Armor!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   enchant weapon~
+Nombre ~
+Clase  mag~ Level 17 Rating  2
+Clase  cle~ Level 53 Rating  2
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 53 Rating  4
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  4
+Spell  spell_enchant_weapon~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   24
+Mana   100
+Beats  24
+Noun   ~
+Off    !Enchant Weapon!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   energy drain~
+Nombre ~
+Clase  mag~ Level 19 Rating  1
+Clase  cle~ Level 22 Rating  1
+Clase  thi~ Level 26 Rating  2
+Clase  war~ Level 23 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 22 Rating  3
+Spell  spell_energy_drain~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_energy_drain~
+Slot   25
+Mana   35
+Beats  12
+Noun   energy drain~
+Off    !Energy Drain!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   faerie fire~
+Nombre luces danzantes~
+Clase  mag~ Level  6 Rating  1
+Clase  cle~ Level  3 Rating  1
+Clase  thi~ Level  5 Rating  2
+Clase  war~ Level  8 Rating  2
+Clase  psi~ Level 12 Rating  4
+Clase  ran~ Level  4 Rating  2
+Spell  spell_faerie_fire~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_faerie_fire~
+Slot   72
+Mana   5
+Beats  12
+Noun   faerie fire~
+Off    El aura rosada a tu alrededor se desvanece.~
+Obj    ~
+Room   El aura rosada alrededor de $n se desvanece.~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   faerie fog~
+Nombre ~
+Clase  mag~ Level 14 Rating  1
+Clase  cle~ Level 21 Rating  1
+Clase  thi~ Level 16 Rating  2
+Clase  war~ Level 24 Rating  2
+Clase  psi~ Level 22 Rating  4
+Clase  ran~ Level 22 Rating  3
+Spell  spell_faerie_fog~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   73
+Mana   12
+Beats  12
+Noun   faerie fog~
+Off    !Faerie Fog!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   farsight~
+Nombre ~
+Clase  mag~ Level 14 Rating  1
+Clase  cle~ Level 16 Rating  1
+Clase  thi~ Level 16 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 24 Rating  4
+Clase  ran~ Level 25 Rating  3
+Spell  spell_farsight~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   521
+Mana   36
+Beats  20
+Noun   farsight~
+Off    !Farsight!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   fireball~
+Nombre bola de fuego~
+Clase  mag~ Level 22 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 30 Rating  2
+Clase  war~ Level 26 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_fireball~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_fireball~
+Slot   26
+Mana   15
+Beats  12
+Noun   fireball~
+Off    !Fireball!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   fireproof~
+Nombre proteccion fuego~
+Clase  mag~ Level 13 Rating  1
+Clase  cle~ Level 12 Rating  1
+Clase  thi~ Level 19 Rating  2
+Clase  war~ Level 18 Rating  2
+Clase  psi~ Level 20 Rating  4
+Clase  ran~ Level 15 Rating  3
+Spell  spell_fireproof~
+Target tar_obj_char_def~
+Pos    standing~
+Gsn    gsn_fireproof~
+Slot   523
+Mana   20
+Beats  12
+Noun   ~
+Off    Tu aura protectiva se desvanece.~
+Obj    El aura protectiva alrededor de $p se desvanece.~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   flamestrike~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 20 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 27 Rating  2
+Clase  psi~ Level 29 Rating  4
+Clase  ran~ Level 26 Rating  3
+Spell  spell_flamestrike~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_flamestrike~
+Slot   65
+Mana   20
+Beats  12
+Noun   flamestrike~
+Off    !Flamestrike!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   fly~
+Nombre volar~
+Clase  mag~ Level 10 Rating  1
+Clase  cle~ Level 18 Rating  1
+Clase  thi~ Level 20 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 20 Rating  4
+Clase  ran~ Level 22 Rating  3
+Spell  spell_fly~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_fly~
+Slot   56
+Mana   10
+Beats  18
+Noun   ~
+Off    Lentamente, flotas hacia el suelo.~
+Obj    ~
+Room   $n cae al suelo!~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   floating disc~
+Nombre disco flotante~
+Clase  mag~ Level  4 Rating  1
+Clase  cle~ Level 10 Rating  1
+Clase  thi~ Level  7 Rating  2
+Clase  war~ Level 16 Rating  2
+Clase  psi~ Level 12 Rating  4
+Clase  ran~ Level 14 Rating  3
+Spell  spell_floating_disc~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   522
+Mana   40
+Beats  24
+Noun   ~
+Off    !Floating disc!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   frenzy~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 24 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 26 Rating  2
+Clase  psi~ Level 32 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_frenzy~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_frenzy~
+Slot   504
+Mana   30
+Beats  24
+Noun   ~
+Off    Tu rabia disminuye.~
+Obj    ~
+Room   $n ya no se ve tan salvaje.~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   gate~
+Nombre ~
+Clase  mag~ Level 27 Rating  1
+Clase  cle~ Level 17 Rating  1
+Clase  thi~ Level 32 Rating  2
+Clase  war~ Level 28 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 29 Rating  3
+Spell  spell_gate~
+Target tar_ignore~
+Pos    fighting~
+Gsn    ~
+Slot   83
+Mana   80
+Beats  12
+Noun   ~
+Off    !Gate!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   giant strength~
+Nombre fuerza gigantesca~
+Clase  mag~ Level 11 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 22 Rating  2
+Clase  war~ Level 20 Rating  2
+Clase  psi~ Level 32 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_giant_strength~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_giant_strength~
+Slot   39
+Mana   20
+Beats  12
+Noun   ~
+Off    Te sientes mas debil.~
+Obj    ~
+Room   $n ya no se ve tan fuerte.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   harm~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 23 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 28 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 24 Rating  3
+Spell  spell_harm~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_harm~
+Slot   27
+Mana   35
+Beats  12
+Noun   harm spell~
+Off    !Harm!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   haste~
+Nombre rapidez~
+Clase  mag~ Level 21 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 26 Rating  2
+Clase  war~ Level 29 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_haste~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_haste~
+Slot   502
+Mana   30
+Beats  12
+Noun   ~
+Off    Sientes que te pones mas lento.~
+Obj    ~
+Room   $n ya no se mueve tan rapidamente.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   heal~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 21 Rating  1
+Clase  thi~ Level 33 Rating  2
+Clase  war~ Level 30 Rating  2
+Clase  psi~ Level 40 Rating  4
+Clase  ran~ Level 23 Rating  3
+Spell  spell_heal~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    gsn_heal~
+Slot   28
+Mana   50
+Beats  12
+Noun   ~
+Off    !Heal!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   heat metal~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 16 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 23 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 19 Rating  3
+Spell  spell_heat_metal~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_heat_metal~
+Slot   516
+Mana   25
+Beats  18
+Noun   spell~
+Off    !Heat Metal!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   holy word~
+Nombre ~
+Clase  mag~ Level 53 Rating  2
+Clase  cle~ Level 36 Rating  2
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 42 Rating  4
+Clase  psi~ Level 44 Rating  4
+Clase  ran~ Level 39 Rating  3
+Spell  spell_holy_word~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_holy_word~
+Slot   506
+Mana   200
+Beats  24
+Noun   divine wrath~
+Off    !Holy Word!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   identify~
+Nombre ~
+Clase  mag~ Level 15 Rating  1
+Clase  cle~ Level 16 Rating  1
+Clase  thi~ Level 18 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 22 Rating  4
+Clase  ran~ Level 19 Rating  3
+Spell  spell_identify~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   53
+Mana   12
+Beats  24
+Noun   ~
+Off    !Identify!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   infravision~
+Nombre ~
+Clase  mag~ Level  9 Rating  1
+Clase  cle~ Level 13 Rating  1
+Clase  thi~ Level 10 Rating  2
+Clase  war~ Level 16 Rating  2
+Clase  psi~ Level 14 Rating  4
+Clase  ran~ Level 14 Rating  3
+Spell  spell_infravision~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_infravision~
+Slot   77
+Mana   5
+Beats  18
+Noun   ~
+Off    Ya no puedes ver en la oscuridad.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   invisibility~
+Nombre invisibilidad~
+Clase  mag~ Level  5 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level  9 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_invis~
+Target tar_obj_char_def~
+Pos    standing~
+Gsn    gsn_invis~
+Slot   29
+Mana   5
+Beats  12
+Noun   ~
+Off    Dejas de ser invisible.~
+Obj    $p aparece lentamente.~
+Room   $n aparece en esta realidad.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   know alignment~
+Nombre ~
+Clase  mag~ Level 12 Rating  1
+Clase  cle~ Level  9 Rating  1
+Clase  thi~ Level 20 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_know_alignment~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    ~
+Slot   58
+Mana   9
+Beats  12
+Noun   ~
+Off    !Know Alignment!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   lightning bolt~
+Nombre ~
+Clase  mag~ Level 13 Rating  1
+Clase  cle~ Level 23 Rating  1
+Clase  thi~ Level 18 Rating  2
+Clase  war~ Level 16 Rating  2
+Clase  psi~ Level 26 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_lightning_bolt~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_lightning_bolt~
+Slot   30
+Mana   15
+Beats  12
+Noun   lightning bolt~
+Off    !Lightning Bolt!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   locate object~
+Nombre ~
+Clase  mag~ Level  9 Rating  1
+Clase  cle~ Level 15 Rating  1
+Clase  thi~ Level 11 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 12 Rating  4
+Clase  ran~ Level 24 Rating  3
+Spell  spell_locate_object~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   31
+Mana   20
+Beats  18
+Noun   ~
+Off    !Locate Object!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   magic missile~
+Nombre misil magico~
+Clase  mag~ Level  1 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level  2 Rating  2
+Clase  war~ Level  2 Rating  2
+Clase  psi~ Level 10 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_magic_missile~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_magic_missile~
+Slot   32
+Mana   15
+Beats  12
+Noun   magic missile~
+Off    !Magic Missile!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   mass healing~
+Nombre ~
+Clase  mag~ Level 53 Rating  2
+Clase  cle~ Level 38 Rating  2
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 46 Rating  4
+Clase  psi~ Level 48 Rating  4
+Clase  ran~ Level 43 Rating  4
+Spell  spell_mass_healing~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   508
+Mana   100
+Beats  36
+Noun   ~
+Off    !Mass Healing!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   mass invis~
+Nombre ~
+Clase  mag~ Level 22 Rating  1
+Clase  cle~ Level 25 Rating  1
+Clase  thi~ Level 31 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_mass_invis~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_mass_invis~
+Slot   69
+Mana   20
+Beats  24
+Noun   ~
+Off    Dejas de ser invisible.~
+Obj    ~
+Room   $n aparece en esta realidad.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   nexus~
+Nombre ~
+Clase  mag~ Level 40 Rating  2
+Clase  cle~ Level 35 Rating  2
+Clase  thi~ Level 50 Rating  4
+Clase  war~ Level 45 Rating  4
+Clase  psi~ Level 48 Rating  4
+Clase  ran~ Level 40 Rating  3
+Spell  spell_nexus~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   520
+Mana   150
+Beats  36
+Noun   ~
+Off    !Nexus!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   pass door~
+Nombre atravesar puertas~
+Clase  mag~ Level 24 Rating  1
+Clase  cle~ Level 32 Rating  1
+Clase  thi~ Level 25 Rating  2
+Clase  war~ Level 37 Rating  2
+Clase  psi~ Level 38 Rating  4
+Clase  ran~ Level 35 Rating  3
+Spell  spell_pass_door~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_pass_door~
+Slot   74
+Mana   20
+Beats  12
+Noun   ~
+Off    Te sientes solido otra vez.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   plague~
+Nombre plaga~
+Clase  mag~ Level 23 Rating  1
+Clase  cle~ Level 17 Rating  1
+Clase  thi~ Level 36 Rating  2
+Clase  war~ Level 26 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 22 Rating  3
+Spell  spell_plague~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_plague~
+Slot   503
+Mana   20
+Beats  12
+Noun   sickness~
+Off    Tus llagas desaparecen.~
+Obj    ~
+Room   Las llagas de $n desaparecen.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   poison~
+Nombre veneno~
+Clase  mag~ Level 17 Rating  1
+Clase  cle~ Level 12 Rating  1
+Clase  thi~ Level 15 Rating  2
+Clase  war~ Level 21 Rating  2
+Clase  psi~ Level 24 Rating  4
+Clase  ran~ Level 18 Rating  3
+Spell  spell_poison~
+Target tar_obj_char_off~
+Pos    fighting~
+Gsn    gsn_poison~
+Slot   33
+Mana   10
+Beats  12
+Noun   poison~
+Off    Te sientes menos enfermo.~
+Obj    El veneno en $p se seca.~
+Room   $n se ve mucho mejor.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   portal~
+Nombre ~
+Clase  mag~ Level 35 Rating  2
+Clase  cle~ Level 30 Rating  2
+Clase  thi~ Level 45 Rating  4
+Clase  war~ Level 40 Rating  4
+Clase  psi~ Level 40 Rating  4
+Clase  ran~ Level 35 Rating  4
+Spell  spell_portal~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   519
+Mana   100
+Beats  24
+Noun   ~
+Off    !Portal!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   protection evil~
+Nombre proteccion maldad~
+Clase  mag~ Level 12 Rating  1
+Clase  cle~ Level  9 Rating  1
+Clase  thi~ Level 17 Rating  2
+Clase  war~ Level 11 Rating  2
+Clase  psi~ Level 14 Rating  4
+Clase  ran~ Level 10 Rating  3
+Spell  spell_protection_evil~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_protect_evil~
+Slot   34
+Mana   5
+Beats  12
+Noun   ~
+Off    Te sientes menos protegido.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   protection good~
+Nombre proteccion bien~
+Clase  mag~ Level 12 Rating  1
+Clase  cle~ Level  9 Rating  1
+Clase  thi~ Level 17 Rating  2
+Clase  war~ Level 11 Rating  2
+Clase  psi~ Level 14 Rating  4
+Clase  ran~ Level 10 Rating  3
+Spell  spell_protection_good~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_protect_good~
+Slot   514
+Mana   5
+Beats  12
+Noun   ~
+Off    Te sientes menos protegido.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   ray of truth~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 35 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 47 Rating  2
+Clase  psi~ Level 50 Rating  4
+Clase  ran~ Level 41 Rating  3
+Spell  spell_ray_of_truth~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_ray_of_truth~
+Slot   518
+Mana   20
+Beats  12
+Noun   ray of truth~
+Off    !Ray of Truth!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   recharge~
+Nombre recargar~
+Clase  mag~ Level  9 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_recharge~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   517
+Mana   60
+Beats  24
+Noun   ~
+Off    !Recharge!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   refresh~
+Nombre refrescar~
+Clase  mag~ Level  8 Rating  1
+Clase  cle~ Level  5 Rating  1
+Clase  thi~ Level 12 Rating  2
+Clase  war~ Level  9 Rating  2
+Clase  psi~ Level 10 Rating  4
+Clase  ran~ Level  7 Rating  3
+Spell  spell_refresh~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   81
+Mana   12
+Beats  18
+Noun   refresh~
+Off    !Refresh!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   remove curse~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 18 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 20 Rating  3
+Spell  spell_remove_curse~
+Target tar_obj_char_def~
+Pos    standing~
+Gsn    gsn_remove_curse~
+Slot   35
+Mana   5
+Beats  12
+Noun   ~
+Off    !Remove Curse!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   sanctuary~
+Nombre santuario~
+Clase  mag~ Level 36 Rating  1
+Clase  cle~ Level 20 Rating  1
+Clase  thi~ Level 42 Rating  2
+Clase  war~ Level 30 Rating  2
+Clase  psi~ Level 44 Rating  4
+Clase  ran~ Level 25 Rating  3
+Spell  spell_sanctuary~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_sanctuary~
+Slot   36
+Mana   75
+Beats  12
+Noun   ~
+Off    El aura blanca alrededor de tu cuerpo se desvanece.~
+Obj    ~
+Room   El aura blanca alrededor de $n se desvanece.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   shield~
+Nombre escudo magico~
+Clase  mag~ Level 20 Rating  1
+Clase  cle~ Level 35 Rating  1
+Clase  thi~ Level 35 Rating  2
+Clase  war~ Level 40 Rating  2
+Clase  psi~ Level 46 Rating  4
+Clase  ran~ Level 38 Rating  3
+Spell  spell_shield~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_shield~
+Slot   67
+Mana   12
+Beats  18
+Noun   ~
+Off    Tu campo de fuerza brilla y se desvanece.~
+Obj    ~
+Room   El campo de fuerza alrededor de $n se desvanece.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   shocking grasp~
+Nombre ~
+Clase  mag~ Level 10 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 14 Rating  2
+Clase  war~ Level 13 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_shocking_grasp~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_shocking_grasp~
+Slot   53
+Mana   15
+Beats  12
+Noun   shocking grasp~
+Off    !Shocking Grasp!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   sleep~
+Nombre dormir~
+Clase  mag~ Level 10 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 11 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 23 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_sleep~
+Target tar_char_offensive~
+Pos    standing~
+Gsn    gsn_sleep~
+Slot   38
+Mana   15
+Beats  12
+Noun   ~
+Off    Te sientes menos cansado.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   slow~
+Nombre lentitud~
+Clase  mag~ Level 23 Rating  1
+Clase  cle~ Level 30 Rating  1
+Clase  thi~ Level 29 Rating  2
+Clase  war~ Level 32 Rating  2
+Clase  psi~ Level 32 Rating  4
+Clase  ran~ Level 31 Rating  3
+Spell  spell_slow~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_slow~
+Slot   515
+Mana   30
+Beats  12
+Noun   ~
+Off    Te sientes mas rapido.~
+Obj    ~
+Room   $n ya no se mueve tan lentamente.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   stone skin~
+Nombre ~
+Clase  mag~ Level 25 Rating  1
+Clase  cle~ Level 40 Rating  1
+Clase  thi~ Level 40 Rating  2
+Clase  war~ Level 45 Rating  2
+Clase  psi~ Level 48 Rating  4
+Clase  ran~ Level 43 Rating  3
+Spell  spell_stone_skin~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_stone_skin~
+Slot   66
+Mana   12
+Beats  18
+Noun   ~
+Off    Tu piel se siente suave otra vez.~
+Obj    ~
+Room   La piel de $n recupera su textura original.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   summon~
+Nombre ~
+Clase  mag~ Level 24 Rating  1
+Clase  cle~ Level 12 Rating  1
+Clase  thi~ Level 29 Rating  2
+Clase  war~ Level 22 Rating  2
+Clase  psi~ Level 34 Rating  4
+Clase  ran~ Level 17 Rating  3
+Spell  spell_summon~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   40
+Mana   50
+Beats  12
+Noun   ~
+Off    !Summon!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   teleport~
+Nombre ~
+Clase  mag~ Level 13 Rating  1
+Clase  cle~ Level 22 Rating  1
+Clase  thi~ Level 25 Rating  2
+Clase  war~ Level 36 Rating  2
+Clase  psi~ Level 28 Rating  4
+Clase  ran~ Level 30 Rating  3
+Spell  spell_teleport~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_teleport~
+Slot   2
+Mana   35
+Beats  12
+Noun   ~
+Off    !Teleport!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   ventriloquate~
+Nombre ~
+Clase  mag~ Level  1 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level  2 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 53 Rating  3
+Spell  spell_ventriloquate~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   41
+Mana   5
+Beats  12
+Noun   ~
+Off    !Ventriloquate!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   weaken~
+Nombre debilidad~
+Clase  mag~ Level 11 Rating  1
+Clase  cle~ Level 14 Rating  1
+Clase  thi~ Level 16 Rating  2
+Clase  war~ Level 17 Rating  2
+Clase  psi~ Level 18 Rating  4
+Clase  ran~ Level 16 Rating  3
+Spell  spell_weaken~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_weaken~
+Slot   68
+Mana   20
+Beats  12
+Noun   spell~
+Off    Te sientes mas fuerte.~
+Obj    ~
+Room   $n se ve mas fuerte.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   word of recall~
+Nombre ~
+Clase  mag~ Level 32 Rating  1
+Clase  cle~ Level 28 Rating  1
+Clase  thi~ Level 40 Rating  2
+Clase  war~ Level 30 Rating  2
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 29 Rating  3
+Spell  spell_word_of_recall~
+Target tar_char_self~
+Pos    fighting~
+Gsn    gsn_word_of_recall~
+Slot   42
+Mana   5
+Beats  12
+Noun   ~
+Off    !Word of Recall!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABF
+End
+
+#SKILL
+Name   make bag~
+Nombre ~
+Clase  mag~ Level 18 Rating  1
+Clase  cle~ Level 20 Rating  1
+Clase  thi~ Level 15 Rating  2
+Clase  war~ Level 15 Rating  2
+Clase  psi~ Level 17 Rating  4
+Clase  ran~ Level 17 Rating  3
+Spell  spell_make_bag~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   50
+Mana   20
+Beats  24
+Noun   ~
+Off    !Make Bag!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   quench~
+Nombre quitar sed~
+Clase  mag~ Level  3 Rating  1
+Clase  cle~ Level  3 Rating  1
+Clase  thi~ Level  4 Rating  2
+Clase  war~ Level  6 Rating  2
+Clase  psi~ Level  5 Rating  4
+Clase  ran~ Level  5 Rating  3
+Spell  spell_quench~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   51
+Mana   5
+Beats  12
+Noun   ~
+Off    !Quench!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   sate~
+Nombre quitar hambre~
+Clase  mag~ Level  3 Rating  1
+Clase  cle~ Level  3 Rating  1
+Clase  thi~ Level  4 Rating  2
+Clase  war~ Level  6 Rating  2
+Clase  psi~ Level  5 Rating  4
+Clase  ran~ Level  5 Rating  3
+Spell  spell_sate~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   52
+Mana   5
+Beats  12
+Noun   ~
+Off    !Sate!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   levantar muertos~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 20 Rating  2
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_levantar_muertos~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   46
+Mana   100
+Beats  15
+Noun   ~
+Off    !Levantar muertos!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   adrenaline control~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 10 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_adrenaline_control~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_adrenaline_control~
+Slot   150
+Mana   6
+Beats  12
+Noun   ~
+Off    Tu adrenalina vuelve a lo normal.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   agitation~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  6 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_agitation~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_agitation~
+Slot   151
+Mana   10
+Beats  12
+Noun   molecular agitation~
+Off    !Agitation!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   aura sight~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 14 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_aura_sight~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   152
+Mana   9
+Beats  12
+Noun   ~
+Off    !Aura Sight!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   awe~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 21 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_awe~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   153
+Mana   35
+Beats  12
+Noun   ~
+Off    !Awe!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   ballistic attack~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  1 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_ballistic_attack~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   154
+Mana   5
+Beats  12
+Noun   ballistic attack~
+Off    !Ballistic Attack!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   biofeedback~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 18 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_biofeedback~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_biofeedback~
+Slot   155
+Mana   75
+Beats  12
+Noun   ~
+Off    Tu biofeedback deja de ser efectivo.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   cell adjustment~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 11 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_cell_adjustment~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_cell_adjustment~
+Slot   156
+Mana   8
+Beats  12
+Noun   ~
+Off    !Cell Adjustment!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   chameleon power~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  6 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_chameleon~
+Slot   157
+Mana   0
+Beats  12
+Noun   ~
+Off    !Chameleon Power!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   combat mind~
+Nombre mente combativa~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 15 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_combat_mind~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_combat_mind~
+Slot   158
+Mana   15
+Beats  12
+Noun   ~
+Off    Tu sentido guerrero se ha desvanecido.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   complete healing~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 28 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_null~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   159
+Mana   200
+Beats  12
+Noun   ~
+Off    !Complete Healing!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   control flames~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  8 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_control_flames~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   160
+Mana   15
+Beats  12
+Noun   tongue of flame~
+Off    !Control Flames!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   create sound~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  2 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_create_sound~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   161
+Mana   5
+Beats  12
+Noun   ~
+Off    !Create Sound!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   death field~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 30 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_death_field~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_death_field~
+Slot   162
+Mana   100
+Beats  18
+Noun   field of death~
+Off    !Death Field!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   detonate~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 20 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_detonate~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_detonate~
+Slot   163
+Mana   35
+Beats  24
+Noun   detonation~
+Off    !Detonate!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   disintegrate~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 27 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_disintegrate~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   164
+Mana   150
+Beats  18
+Noun   disintegration~
+Off    !Disintegrate!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   displacement~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  9 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_displacement~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_displacement~
+Slot   165
+Mana   10
+Beats  12
+Noun   ~
+Off    You are no longer displaced.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   domination~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 16 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_domination~
+Target tar_char_offensive~
+Pos    standing~
+Gsn    gsn_domination~
+Slot   166
+Mana   5
+Beats  12
+Noun   ~
+Off    Vuelves a tener control de tu cuerpo.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   ectoplasmic form~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 19 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_ectoplasmic_form~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   167
+Mana   20
+Beats  12
+Noun   ~
+Off    Te sientes solido otra vez.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   ego whip~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 13 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_ego_whip~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_ego_whip~
+Slot   168
+Mana   20
+Beats  12
+Noun   ~
+Off    You feel more confident.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   energy containment~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 10 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_energy_containment~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_energy_containment~
+Slot   169
+Mana   10
+Beats  12
+Noun   ~
+Off    Dejas de absorber energia.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   enhance armor~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 15 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_enhance_armor~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    ~
+Slot   170
+Mana   100
+Beats  24
+Noun   ~
+Off    !Enhance Armor!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   enhanced strength~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  7 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_enhanced_strength~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_enhanced_strength~
+Slot   171
+Mana   20
+Beats  12
+Noun   ~
+Off    You no longer feel so HUGE.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   flesh armor~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 11 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_flesh_armor~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_flesh_armor~
+Slot   172
+Mana   15
+Beats  12
+Noun   ~
+Off    Tu piel vuelve a ser normal.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   heighten senses~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  3 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_null~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_heighten~
+Slot   173
+Mana   0
+Beats  0
+Noun   ~
+Off    Tus sentidos vuelven a lo normal.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   inertial barrier~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 19 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_inertial_barrier~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_inertial_barrier~
+Slot   174
+Mana   40
+Beats  24
+Noun   ~
+Off    Tu barrera inercial se disipa.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   inflict pain~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  5 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_inflict_pain~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   175
+Mana   10
+Beats  12
+Noun   mindpower~
+Off    !Inflict Pain!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   intellect fortress~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 12 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_intellect_fortress~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_intellect_fortress~
+Slot   176
+Mana   25
+Beats  24
+Noun   ~
+Off    Tu fortaleza intelectual se derrumba.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   lend health~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 10 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_lend_health~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   177
+Mana   10
+Beats  12
+Noun   ~
+Off    !Lend Health!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   levitation~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  3 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_levitation~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_levitation~
+Slot   178
+Mana   10
+Beats  18
+Noun   ~
+Off    Lentamente flotas hacia el suelo.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   mental barrier~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  6 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_mental_barrier~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_mental_barrier~
+Slot   179
+Mana   8
+Beats  12
+Noun   ~
+Off    Tu barrera mental se disipa.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   mind thrust~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  2 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_mind_thrust~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_mind_thrust~
+Slot   180
+Mana   8
+Beats  12
+Noun   mind thrust~
+Off    !Mind Thrust!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   project force~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  9 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_project_force~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_project_force~
+Slot   181
+Mana   18
+Beats  12
+Noun   projected force~
+Off    !Project Force!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   psionic blast~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 17 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_psionic_blast~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_psionic_blast~
+Slot   182
+Mana   25
+Beats  12
+Noun   psionic blast~
+Off    !Psionic Blast!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   psychic crush~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  8 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_psychic_crush~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_psychic_crush~
+Slot   183
+Mana   15
+Beats  18
+Noun   psychic crush~
+Off    !Psychic Crush!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   psychic drain~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  4 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_psychic_drain~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_psychic_drain~
+Slot   184
+Mana   20
+Beats  12
+Noun   ~
+Off    You no longer feel drained.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   psychic healing~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  5 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_psychic_healing~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   185
+Mana   20
+Beats  12
+Noun   ~
+Off    !Psychic Healing!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   shadow form~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  2 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_shadow~
+Slot   186
+Mana   0
+Beats  12
+Noun   ~
+Off    Dejas de moverte en las sombras.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   share strength~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 11 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_share_strength~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   187
+Mana   8
+Beats  12
+Noun   ~
+Off    Dejas de compartir tu fuerza con otra persona.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   thought shield~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level  1 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_thought_shield~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_thought_shield~
+Slot   188
+Mana   5
+Beats  12
+Noun   ~
+Off    Dejas de sentirte tan protegido.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   ultrablast~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level 53 Rating  3
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 25 Rating  2
+Clase  ran~ Level 53 Rating  3
+Spell  spell_ultrablast~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_ultrablast~
+Slot   189
+Mana   75
+Beats  24
+Noun   ultrablast~
+Off    !Ultrablast!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  E
+End
+
+#SKILL
+Name   vampiric bite~
+Nombre ~
+Clase  mag~ Level 53 Rating  1
+Clase  cle~ Level 53 Rating  1
+Clase  thi~ Level 53 Rating  1
+Clase  war~ Level 53 Rating  1
+Clase  psi~ Level 53 Rating  1
+Clase  ran~ Level 53 Rating  1
+Spell  spell_vampiric_bite~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_vampiric_bite~
+Slot   190
+Mana   0
+Beats  0
+Noun   vampiric bite~
+Off    Te sientes bien alimentado.~
+Obj    ~
+Room   ~
+Callback 'vampiric_bite_cb'
+Flags  ABCDEF
+End
+
+#SKILL
+Name   mute~
+Nombre ~
+Clase  mag~ Level 28 Rating  4
+Clase  cle~ Level 18 Rating  3
+Clase  thi~ Level 53 Rating  5
+Clase  war~ Level 53 Rating  5
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 30 Rating  5
+Spell  spell_mute~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_mute~
+Slot   192
+Mana   50
+Beats  18
+Noun   ~
+Off    Puedes hablar otra vez.~
+Obj    ~
+Room   $n recupera el habla.~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   exorcise~
+Nombre ~
+Clase  mag~ Level 53 Rating  4
+Clase  cle~ Level 20 Rating  2
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 53 Rating  4
+Clase  psi~ Level 53 Rating  4
+Clase  ran~ Level 30 Rating  3
+Spell  spell_exorcise~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    ~
+Slot   193
+Mana   35
+Beats  12
+Noun   ~
+Off    !Exorcise!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   turn undead~
+Nombre ~
+Clase  mag~ Level 53 Rating  3
+Clase  cle~ Level  1 Rating  1
+Clase  thi~ Level 53 Rating  3
+Clase  war~ Level 53 Rating  3
+Clase  psi~ Level 53 Rating  3
+Clase  ran~ Level  5 Rating  2
+Spell  spell_turn_undead~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_turn_undead~
+Slot   194
+Mana   10
+Beats  12
+Noun   divine exorcism~
+Off    !Turn undead!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AF
+End
+
+#SKILL
+Name   stake~
+Nombre estaca~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  2
+Clase  thi~ Level  1 Rating  2
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level  1 Rating  2
+Clase  ran~ Level  1 Rating  2
+Spell  spell_null~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_stake~
+Slot   0
+Mana   0
+Beats  8
+Noun   estaca cuidadosamente apuntada~
+Off    !Stake!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   amnesia~
+Nombre ~
+Clase  mag~ Level 35 Rating  4
+Clase  cle~ Level 20 Rating  3
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 25 Rating  4
+Clase  ran~ Level 28 Rating  6
+Spell  spell_amnesia~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_amnesia~
+Slot   195
+Mana   100
+Beats  8
+Noun   ~
+Off    Tus recuerdos vuelven a tu cabeza.~
+Obj    ~
+Room   $n recupero la memoria.~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   acid breath~
+Nombre ~
+Clase  mag~ Level 31 Rating  1
+Clase  cle~ Level 32 Rating  1
+Clase  thi~ Level 33 Rating  2
+Clase  war~ Level 34 Rating  2
+Clase  psi~ Level 33 Rating  4
+Clase  ran~ Level 33 Rating  3
+Spell  spell_acid_breath~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_acid_breath~
+Slot   200
+Mana   100
+Beats  24
+Noun   blast of acid~
+Off    !Acid Breath!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   fire breath~
+Nombre ~
+Clase  mag~ Level 40 Rating  1
+Clase  cle~ Level 45 Rating  1
+Clase  thi~ Level 50 Rating  2
+Clase  war~ Level 51 Rating  2
+Clase  psi~ Level 48 Rating  4
+Clase  ran~ Level 49 Rating  3
+Spell  spell_fire_breath~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_fire_breath~
+Slot   201
+Mana   200
+Beats  24
+Noun   blast of flame~
+Off    El humo en tus ojos desaparece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   frost breath~
+Nombre ~
+Clase  mag~ Level 34 Rating  1
+Clase  cle~ Level 36 Rating  1
+Clase  thi~ Level 38 Rating  2
+Clase  war~ Level 40 Rating  2
+Clase  psi~ Level 36 Rating  4
+Clase  ran~ Level 38 Rating  3
+Spell  spell_frost_breath~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_frost_breath~
+Slot   202
+Mana   125
+Beats  24
+Noun   blast of frost~
+Off    !Frost Breath!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   gas breath~
+Nombre ~
+Clase  mag~ Level 39 Rating  1
+Clase  cle~ Level 43 Rating  1
+Clase  thi~ Level 47 Rating  2
+Clase  war~ Level 50 Rating  2
+Clase  psi~ Level 45 Rating  4
+Clase  ran~ Level 47 Rating  3
+Spell  spell_gas_breath~
+Target tar_ignore~
+Pos    fighting~
+Gsn    ~
+Slot   203
+Mana   175
+Beats  24
+Noun   blast of gas~
+Off    !Gas Breath!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   lightning breath~
+Nombre ~
+Clase  mag~ Level 37 Rating  1
+Clase  cle~ Level 40 Rating  1
+Clase  thi~ Level 43 Rating  2
+Clase  war~ Level 46 Rating  2
+Clase  psi~ Level 42 Rating  4
+Clase  ran~ Level 43 Rating  3
+Spell  spell_lightning_breath~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   204
+Mana   150
+Beats  24
+Noun   blast of lightning~
+Off    !Lightning Breath!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   general purpose~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_general_purpose~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   401
+Mana   0
+Beats  12
+Noun   general purpose ammo~
+Off    !General Purpose Ammo!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABCDEF
+End
+
+#SKILL
+Name   high explosive~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_high_explosive~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   402
+Mana   0
+Beats  12
+Noun   high explosive ammo~
+Off    !High Explosive Ammo!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABCDEF
+End
+
+#SKILL
+Name   axe~
+Nombre hacha~
+Clase  mag~ Level  1 Rating  6
+Clase  cle~ Level  1 Rating  6
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level  1 Rating  6
+Clase  ran~ Level  1 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_axe~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Axe!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   dagger~
+Nombre daga~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level  1 Rating  2
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level  1 Rating  2
+Clase  ran~ Level  1 Rating  2
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_dagger~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Dagger!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   flail~
+Nombre ~
+Clase  mag~ Level  1 Rating  6
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level  1 Rating  6
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level  1 Rating  6
+Clase  ran~ Level  1 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_flail~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Flail!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   mace~
+Nombre mazo~
+Clase  mag~ Level  1 Rating  5
+Clase  cle~ Level  1 Rating  2
+Clase  thi~ Level  1 Rating  3
+Clase  war~ Level  1 Rating  3
+Clase  psi~ Level  1 Rating  4
+Clase  ran~ Level  1 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_mace~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Mace!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   polearm~
+Nombre ~
+Clase  mag~ Level  1 Rating  6
+Clase  cle~ Level  1 Rating  6
+Clase  thi~ Level  1 Rating  6
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level  1 Rating  6
+Clase  ran~ Level  1 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_polearm~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Polearm!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   shield block~
+Nombre bloqueo con escudo~
+Clase  mag~ Level  1 Rating  6
+Clase  cle~ Level  1 Rating  4
+Clase  thi~ Level  1 Rating  6
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level  1 Rating  5
+Clase  ran~ Level  1 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_shield_block~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Shield!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   spear~
+Nombre ~
+Clase  mag~ Level  1 Rating  4
+Clase  cle~ Level  1 Rating  4
+Clase  thi~ Level  1 Rating  4
+Clase  war~ Level  1 Rating  3
+Clase  psi~ Level  1 Rating  4
+Clase  ran~ Level  1 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_spear~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Spear!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   sword~
+Nombre espada~
+Clase  mag~ Level  1 Rating  5
+Clase  cle~ Level  1 Rating  6
+Clase  thi~ Level  1 Rating  3
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level  1 Rating  4
+Clase  ran~ Level  1 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_sword~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !sword!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   whip~
+Nombre latigo~
+Clase  mag~ Level  1 Rating  6
+Clase  cle~ Level  1 Rating  5
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level  1 Rating  5
+Clase  ran~ Level  1 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_whip~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Whip!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   backstab~
+Nombre punalada por la espalda~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_backstab~
+Slot   0
+Mana   0
+Beats  24
+Noun   backstab~
+Off    !Backstab!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   circle~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 15 Rating  5
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_circle~
+Slot   0
+Mana   0
+Beats  24
+Noun   circle~
+Off    !Circle!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   bash~
+Nombre empujar~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level  7 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_bash~
+Slot   0
+Mana   0
+Beats  24
+Noun   bash~
+Off    !Bash!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   berserk~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 18 Rating  5
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 25 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_berserk~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    Sientes que tu pulso vuelve a su ritmo normal.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   dirt kicking~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  3 Rating  4
+Clase  war~ Level  3 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_dirt~
+Slot   0
+Mana   0
+Beats  24
+Noun   kicked dirt~
+Off    Limpias tus ojos.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   disarm~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 12 Rating  6
+Clase  war~ Level 11 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 40 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_disarm~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Disarm!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   dodge~
+Nombre esquivar~
+Clase  mag~ Level 20 Rating  8
+Clase  cle~ Level 22 Rating  8
+Clase  thi~ Level  1 Rating  4
+Clase  war~ Level 13 Rating  6
+Clase  psi~ Level 20 Rating  8
+Clase  ran~ Level  8 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_dodge~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Dodge!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   enhanced damage~
+Nombre dano mejorado~
+Clase  mag~ Level 45 Rating 10
+Clase  cle~ Level 30 Rating  9
+Clase  thi~ Level 25 Rating  5
+Clase  war~ Level  1 Rating  3
+Clase  psi~ Level 35 Rating  8
+Clase  ran~ Level 15 Rating  7
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_enhanced_damage~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Enhanced Damage!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   envenom~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 10 Rating  4
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    resting~
+Gsn    gsn_envenom~
+Slot   0
+Mana   0
+Beats  36
+Noun   ~
+Off    !Envenom!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   hand to hand~
+Nombre mano a mano~
+Clase  mag~ Level 25 Rating  8
+Clase  cle~ Level 10 Rating  5
+Clase  thi~ Level 15 Rating  6
+Clase  war~ Level  6 Rating  4
+Clase  psi~ Level 16 Rating  6
+Clase  ran~ Level  8 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_hand_to_hand~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Hand to Hand!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   kick~
+Nombre patada~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 12 Rating  4
+Clase  thi~ Level 14 Rating  6
+Clase  war~ Level  8 Rating  3
+Clase  psi~ Level 18 Rating  5
+Clase  ran~ Level 10 Rating  4
+Spell  spell_null~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_kick~
+Slot   0
+Mana   0
+Beats  12
+Noun   patada~
+Off    !Kick!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   parry~
+Nombre bloqueo con arma~
+Clase  mag~ Level 22 Rating  8
+Clase  cle~ Level 20 Rating  8
+Clase  thi~ Level 13 Rating  6
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level 18 Rating  7
+Clase  ran~ Level 10 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_parry~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Parry!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   rescue~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level  1 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 18 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_rescue~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Rescue!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   trip~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  1 Rating  4
+Clase  war~ Level 15 Rating  8
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_trip~
+Slot   0
+Mana   0
+Beats  24
+Noun   barrido~
+Off    !Trip!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   tail~
+Nombre ~
+Clase  mag~ Level 21 Rating  3
+Clase  cle~ Level 21 Rating  3
+Clase  thi~ Level  6 Rating  2
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level 18 Rating  3
+Clase  ran~ Level 21 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_tail~
+Slot   0
+Mana   0
+Beats  24
+Noun   coletazo~
+Off    !Tail!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   second attack~
+Nombre segundo ataque~
+Clase  mag~ Level 30 Rating 10
+Clase  cle~ Level 24 Rating  8
+Clase  thi~ Level 12 Rating  5
+Clase  war~ Level  5 Rating  3
+Clase  psi~ Level 25 Rating  8
+Clase  ran~ Level 10 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_second_attack~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Second Attack!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   third attack~
+Nombre tercer ataque~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 24 Rating 10
+Clase  war~ Level 12 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 18 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_third_attack~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Third Attack!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   fourth attack~
+Nombre cuarto ataque~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 24 Rating  8
+Clase  war~ Level 20 Rating  4
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 26 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_fourth_attack~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Fourth Attack!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   ambidiestro~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 20 Rating  6
+Clase  war~ Level 15 Rating  6
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level  1 Rating  2
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_ambidiestro~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Ambidiestro!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   snare~
+Nombre enredar~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  8 Rating  3
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_snare~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    You are no longer ensnared.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   untangle~
+Nombre desenredar~
+Clase  mag~ Level 21 Rating  5
+Clase  cle~ Level 21 Rating  5
+Clase  thi~ Level 11 Rating  3
+Clase  war~ Level 15 Rating  5
+Clase  psi~ Level 24 Rating  5
+Clase  ran~ Level 13 Rating  5
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_untangle~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Untangle!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   fast healing~
+Nombre ~
+Clase  mag~ Level 15 Rating  8
+Clase  cle~ Level  9 Rating  5
+Clase  thi~ Level 16 Rating  6
+Clase  war~ Level  6 Rating  4
+Clase  psi~ Level 15 Rating  6
+Clase  ran~ Level 11 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    sleeping~
+Gsn    gsn_fast_healing~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Fast Healing!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   evaluar~
+Nombre ~
+Clase  mag~ Level  8 Rating  3
+Clase  cle~ Level  8 Rating  3
+Clase  thi~ Level  1 Rating  1
+Clase  war~ Level  3 Rating  2
+Clase  psi~ Level  8 Rating  3
+Clase  ran~ Level  5 Rating  2
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_evaluar~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Evaluar!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   hunt~
+Nombre cazar~
+Clase  mag~ Level 16 Rating  5
+Clase  cle~ Level 18 Rating  5
+Clase  thi~ Level  8 Rating  3
+Clase  war~ Level 10 Rating  4
+Clase  psi~ Level 14 Rating  5
+Clase  ran~ Level  1 Rating  2
+Spell  spell_null~
+Target tar_ignore~
+Pos    resting~
+Gsn    gsn_hunt~
+Slot   0
+Mana   0
+Beats  6
+Noun   ~
+Off    !Hunt!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   bladethirst~
+Nombre ~
+Clase  mag~ Level 15 Rating  3
+Clase  cle~ Level 53 Rating  6
+Clase  thi~ Level 53 Rating  4
+Clase  war~ Level 53 Rating  6
+Clase  psi~ Level 53 Rating  6
+Clase  ran~ Level 53 Rating  6
+Spell  spell_null~
+Target tar_obj_inv~
+Pos    standing~
+Gsn    gsn_bladethirst~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Blade Thirst!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   brew~
+Nombre preparar pociones~
+Clase  mag~ Level  1 Rating  3
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level 15 Rating  5
+Clase  war~ Level 18 Rating  6
+Clase  psi~ Level 12 Rating  4
+Clase  ran~ Level 14 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_brew~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Brew!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   scribe~
+Nombre escribir scrolls~
+Clase  mag~ Level  1 Rating  3
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level 15 Rating  5
+Clase  war~ Level 20 Rating  6
+Clase  psi~ Level 15 Rating  4
+Clase  ran~ Level 16 Rating  5
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_scribe~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Scribe!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   haggle~
+Nombre ~
+Clase  mag~ Level  7 Rating  5
+Clase  cle~ Level 18 Rating  8
+Clase  thi~ Level  1 Rating  3
+Clase  war~ Level 14 Rating  6
+Clase  psi~ Level 15 Rating  6
+Clase  ran~ Level  8 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    resting~
+Gsn    gsn_haggle~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Haggle!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   hide~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  1 Rating  4
+Clase  war~ Level 12 Rating  6
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level  1 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    resting~
+Gsn    gsn_hide~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Hide!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   lore~
+Nombre ~
+Clase  mag~ Level 10 Rating  6
+Clase  cle~ Level 10 Rating  6
+Clase  thi~ Level  6 Rating  4
+Clase  war~ Level 20 Rating  8
+Clase  psi~ Level 16 Rating  6
+Clase  ran~ Level 15 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    resting~
+Gsn    gsn_lore~
+Slot   0
+Mana   0
+Beats  36
+Noun   ~
+Off    !Lore!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   meditation~
+Nombre ~
+Clase  mag~ Level  6 Rating  5
+Clase  cle~ Level  6 Rating  5
+Clase  thi~ Level 15 Rating  8
+Clase  war~ Level 15 Rating  8
+Clase  psi~ Level 10 Rating  6
+Clase  ran~ Level 12 Rating  5
+Spell  spell_null~
+Target tar_ignore~
+Pos    sleeping~
+Gsn    gsn_meditation~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    Meditation~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   peek~
+Nombre ~
+Clase  mag~ Level  8 Rating  5
+Clase  cle~ Level 21 Rating  7
+Clase  thi~ Level  1 Rating  3
+Clase  war~ Level 14 Rating  6
+Clase  psi~ Level 18 Rating  6
+Clase  ran~ Level 20 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_peek~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    !Peek!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   pick lock~
+Nombre ~
+Clase  mag~ Level 25 Rating  8
+Clase  cle~ Level 25 Rating  8
+Clase  thi~ Level  7 Rating  4
+Clase  war~ Level 25 Rating  8
+Clase  psi~ Level 25 Rating  8
+Clase  ran~ Level 25 Rating  8
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_pick_lock~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Pick!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   sneak~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  4 Rating  4
+Clase  war~ Level 10 Rating  6
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level  1 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_sneak~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    You no longer feel stealthy.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   steal~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  5 Rating  4
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_steal~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Steal!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   scrolls~
+Nombre ~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level  1 Rating  8
+Clase  psi~ Level  1 Rating  4
+Clase  ran~ Level  1 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_scrolls~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    !Scrolls!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   staves~
+Nombre ~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level  1 Rating  8
+Clase  psi~ Level  1 Rating  5
+Clase  ran~ Level  1 Rating  6
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_staves~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Staves!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   wands~
+Nombre varitas~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  3
+Clase  thi~ Level  1 Rating  5
+Clase  war~ Level  1 Rating  8
+Clase  psi~ Level  1 Rating  5
+Clase  ran~ Level  1 Rating  4
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_wands~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Wands!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   recall~
+Nombre ~
+Clase  mag~ Level  1 Rating  2
+Clase  cle~ Level  1 Rating  2
+Clase  thi~ Level  1 Rating  2
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level  1 Rating  2
+Clase  ran~ Level  1 Rating  2
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_recall~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    !Recall!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   iceball~
+Nombre bola de hielo~
+Clase  mag~ Level 35 Rating  1
+Clase  cle~ Level 40 Rating  1
+Clase  thi~ Level 53 Rating  2
+Clase  war~ Level 53 Rating  2
+Clase  psi~ Level 50 Rating  4
+Clase  ran~ Level 45 Rating  2
+Spell  spell_custom~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   300
+Mana   30
+Beats  12
+Noun   bola de hielo~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+CMsgRoom $n rocia unos cristales y emite unas palabras guturales.~
+CMsgChar Rocias unos cristales por el cuarto.~
+Script (CHLEVEL*2)D6~
+Sc_dam dam_cold~
+End
+
+#SKILL
+Name   mystic armor~
+Nombre armadura mistica~
+Clase  mag~ Level 15 Rating  3
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_mystic_armor~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_mystic_armor~
+Slot   590
+Mana   18
+Beats  24
+Noun   ~
+Off    Tu Armadura Mistica se desvanece.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   stalker~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   301
+Mana   0
+Beats  0
+Noun   ~
+Off    !Stalker!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   hellspawn~
+Nombre ~
+Clase  mag~ Level 32 Rating  4
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 30 Rating  4
+Clase  ran~ Level 53 Rating  0
+Spell  spell_hellspawn~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_hellspawn~
+Slot   302
+Mana   50
+Beats  12
+Noun   HellSpawn~
+Off    !Hellspawn!~
+Obj    ~
+Room   ~
+Callback ''
+Flags  BE
+End
+
+#SKILL
+Name   corrupt bond~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_corrupt_bond~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    ~
+Slot   303
+Mana   100
+Beats  12
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   creature bond~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_creature_bond~
+Target tar_char_defensive~
+Pos    fighting~
+Gsn    ~
+Slot   304
+Mana   100
+Beats  12
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   raise fire~
+Nombre ~
+Clase  mag~ Level 32 Rating  5
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_raise_fire~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   305
+Mana   100
+Beats  24
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   cone of silence~
+Nombre cono de silencio~
+Clase  mag~ Level 31 Rating  4
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_cone_of_silence~
+Target tar_ignore~
+Pos    standing~
+Gsn    ~
+Slot   306
+Mana   40
+Beats  24
+Noun   ~
+Off    ~
+Obj    ~
+Room   El sonido vuelve a tus oidos.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   afilar~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level  5 Rating  3
+Clase  war~ Level  1 Rating  2
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level  3 Rating  3
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_afilar~
+Slot   0
+Mana   0
+Beats  24
+Noun   ~
+Off    ~
+Obj    $p ya no pega como antes.~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   lepra~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_lepra~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_lepra~
+Slot   307
+Mana   100
+Beats  24
+Noun   ~
+Off    Tu piel vuelve a su estado normal.~
+Obj    ~
+Room   La piel de $n vuelve a su estado normal.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   acid arrow~
+Nombre flecha acida~
+Clase  mag~ Level 15 Rating  3
+Clase  cle~ Level 18 Rating  4
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_acid_arrow~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   308
+Mana   25
+Beats  12
+Noun   flecha acida~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   enhance health~
+Nombre aumentar vitalidad~
+Clase  mag~ Level 28 Rating  4
+Clase  cle~ Level 24 Rating  3
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_enhance_health~
+Target tar_char_defensive~
+Pos    standing~
+Gsn    gsn_enhance_health~
+Slot   309
+Mana   50
+Beats  12
+Noun   ~
+Off    Ya no te sientes tan poderoso.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  AB
+End
+
+#SKILL
+Name   concentracion~
+Nombre ~
+Clase  mag~ Level 24 Rating  4
+Clase  cle~ Level 24 Rating  4
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 18 Rating  3
+Clase  ran~ Level 53 Rating  0
+Spell  spell_concentracion~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_concentracion~
+Slot   310
+Mana   50
+Beats  15
+Noun   ~
+Off    Te sientes menos concentrado.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  ABE
+End
+
+#SKILL
+Name   estupidez~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 26 Rating  6
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_estupidez~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_estupidez~
+Slot   311
+Mana   25
+Beats  15
+Noun   ~
+Off    Te sientes un...uh...poco mas inteligente.~
+Obj    ~
+Room   $n deja de babear.~
+Callback ''
+Flags  A
+End
+
+#SKILL
+Name   flaming shield~
+Nombre escudo de fuego~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_flaming_shield~
+Target tar_char_self~
+Pos    standing~
+Gsn    gsn_flaming_shield~
+Slot   191
+Mana   50
+Beats  24
+Noun   ~
+Off    Tu escudo de fuego se desvanece.~
+Obj    ~
+Room   El escudo de fuego de $n se desvanece.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   trozar~
+Nombre ~
+Clase  mag~ Level 12 Rating  1
+Clase  cle~ Level 12 Rating  1
+Clase  thi~ Level 10 Rating  1
+Clase  war~ Level  8 Rating  1
+Clase  psi~ Level 14 Rating  1
+Clase  ran~ Level  5 Rating  1
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_trozar~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   alucinar~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_alucinar~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   312
+Mana   25
+Beats  12
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   power word of kill~
+Nombre ~
+Clase  mag~ Level 27 Rating  4
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_power_word_of_kill~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_power_word_of_kill~
+Slot   313
+Mana   100
+Beats  18
+Noun   palabra sagrada~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   blind fighting~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 18 Rating  3
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    fighting~
+Gsn    gsn_blindfight~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   regeneracion~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 18 Rating  4
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_regeneracion~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   314
+Mana   50
+Beats  18
+Noun   ~
+Off    Tu metabolismo vuelve a la normalidad.~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   web~
+Nombre red magica~
+Clase  mag~ Level 18 Rating  4
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_web~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    gsn_web~
+Slot   315
+Mana   25
+Beats  12
+Noun   ~
+Off    Puedes moverte otra vez.~
+Obj    ~
+Room   $n puede moverse otra vez.~
+Callback ''
+Flags  B
+End
+
+#SKILL
+Name   cansancio~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 15 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_cansancio~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   316
+Mana   20
+Beats  12
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   predator invis~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_predinvis~
+Slot   0
+Mana   0
+Beats  12
+Noun   ~
+Off    Tu cuerpo se materializa.~
+Obj    ~
+Room   $n aparece en esta realidad.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   dolor de guata~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_null~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_dolor_guata~
+Slot   0
+Mana   0
+Beats  0
+Noun   ~
+Off    Tu estomago deja de dolerte.~
+Obj    ~
+Room   El sufrimiento del estomago de $n cesa.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   polymorph~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_polymorph~
+Target tar_ignore~
+Pos    standing~
+Gsn    gsn_polymorph~
+Slot   317
+Mana   100
+Beats  12
+Noun   ~
+Off    Tu cuerpo vuelve a la normalidad.~
+Obj    ~
+Room   El cuerpo de $n vuelve a la normalidad.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   sed~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_sed~
+Target tar_char_defensive~
+Pos    dead~
+Gsn    ~
+Slot   318
+Mana   0
+Beats  0
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   hambre~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_hambre~
+Target tar_char_defensive~
+Pos    dead~
+Gsn    ~
+Slot   319
+Mana   0
+Beats  0
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   ebriedad~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_ebriedad~
+Target tar_char_defensive~
+Pos    dead~
+Gsn    ~
+Slot   320
+Mana   0
+Beats  0
+Noun   ~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   respirar agua~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_respirar_agua~
+Target tar_char_self~
+Pos    standing~
+Gsn    ~
+Slot   321
+Mana   50
+Beats  24
+Noun   ~
+Off    Tus agallas desaparecen.~
+Obj    ~
+Room   Las agallas de $n desaparecen.~
+Callback ''
+Flags  0
+End
+
+#SKILL
+Name   arco electrico~
+Nombre ~
+Clase  mag~ Level 53 Rating  0
+Clase  cle~ Level 53 Rating  0
+Clase  thi~ Level 53 Rating  0
+Clase  war~ Level 53 Rating  0
+Clase  psi~ Level 53 Rating  0
+Clase  ran~ Level 53 Rating  0
+Spell  spell_custom~
+Target tar_char_offensive~
+Pos    fighting~
+Gsn    ~
+Slot   322
+Mana   10
+Beats  12
+Noun   rayo de electricidad~
+Off    ~
+Obj    ~
+Room   ~
+Callback ''
+Flags  B
+CMsgRoom Un rayo de electricidad brota de la mano de $n.~
+CMsgChar Apuntas con tu mano a $N, y un rayo de electricidad sale disparado hacia $E.~
+CMsgVict $n te apunta con su mano y un rayo de electricidad sale disparado hacia ti.~
+Script chlevel+(1d4)~
+Sc_dam dam_lightning~
+End
+
+#END

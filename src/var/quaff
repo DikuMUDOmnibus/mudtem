@@ -1,0 +1,26 @@
+    if (!IS_NPC(ch) && !IS_IMMORTAL(ch))
+    {
+	ch->pcdata->quaff++;
+
+	if ( ch->pcdata->quaff > 3 )
+	{
+		send_to_char( "Uggghhh...no se siente muy bien.\n\r", ch );
+		if ( ch->pcdata->quaff > 4 )
+		{
+			AFFECT_DATA af;
+
+			af.where 	= TO_AFFECTS2;
+			af.type		= gsn_dolor_guata;
+			af.level	= getNivelPr(ch);
+			af.duration	= 3;
+			af.modifier	= 0;
+			af.location	= APPLY_NONE;
+			af.bitvector	= AFF_DOLOR_GUATA;
+
+			affect_to_char( ch, &af );
+			send_to_char( "Tu estomago sufre.\n\r", ch );
+			return;
+		}
+	}
+    }
+

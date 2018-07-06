@@ -1,0 +1,2420 @@
+#AREADATA
+Name Fangorn~
+Builders None~
+VNUMs 21000 21099
+Credits {13 50} Denethor Fangorn~
+Security 9
+Prototipo 0
+Low 13
+High 50
+Version 2
+End
+
+
+
+#MOBILES
+#21000
+Ent arbol vigilante~
+Un pequenio Ent~
+Un pequenio y hermoso arbolito esta creciendo aqui.
+~
+Parece que ha crecido con mucha agua y extremadamente buenos nutriente, ya que
+su espesor indica la buena madera que es.
+~
+'god'
+ACGT V 0 1000 0
+25 37 5d10+600 25d13+100 2d10+7 charge
+-7 -7 -7 -7
+QTU AP BCDFGIKS HJ
+stand stand none 0
+0 0 medium 'madera'
+C 'warrior'
+F aff OTU
+F off INO
+F par BC
+#21001
+guardia muro~
+Un Guardia del Muro~
+Un Guardia esta aqui cuidando el muro de los Orcos
+~
+Esta un poco flaco debido a la falta de comida en esta region, pero no por eso
+mas debil.
+~
+'human'
+ABCTU HJNPVZc 0 0 0
+25 37 5d10+600 25d13+100 2d10+7 pound
+-7 -7 -7 -5
+CDEFIKLQTU AB DHKOP CIJL
+stand stand male 0
+0 0 medium 'carne'
+C 'warrior'
+M 'grall' 21001 100~
+#21002
+campesino viejo~
+Un viejo campesino~
+Un viejo campesino camina por aqui recogiendo cosas para vender despues..
+~
+Esta tan viejo que tiene arrugas sobre las arrugas. Ademas en sus manos se ven
+los largos anios de trabajos en la tierra ya infertil de Minas Tirith
+~
+'human'
+ACQ 0 0 50 0
+20 10 3d9+333 20d12+700 2d7+4 cleave
+-4 -4 -4 -3
+IKU 0 AFIJOPS HK
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+#21003
+orco soldado~
+Un Soldado Orco~
+Un soldado orco esta aqui con una daga entre los dientes...
+~
+Es ASQUEROSO!!!!!...Sus largas mandibulas casi llegan a la prolongacion de sus
+enormes colmillos, todavia sangrando de algun cuello de algun incauto...
+~
+'orc'
+ACFGT DFOVa 0 -1000 21000
+25 37 5d10+600 25d13+100 2d10+7 pound
+-7 -7 -7 -5
+CDEFIKLQTU 0 HIKP DJN
+stand stand none 0
+0 0 medium 'modron'
+C 'warrior'
+#21004
+Smaug~
+Smaug~
+Smaug el Gran Dragon de la Montana esta aqui.
+~
+Smaug es un dragon enorme.  Solo te inspira terror.  
+~
+'dragon'
+ABD FHc 0 -1000 0
+50 25 25d10+3750 50d16+1700 11d5+18 none
+-20 -20 -20 -18
+FHIKTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#21050
+Un Orco~
+Un Orco~
+Un Orco esta aqui ensuciando las cristalinas aguas de la cascada.
+~
+El orco es asqueroso..Es la criatura mas horrible y maligna que has visto.
+~
+'orc'
+ABFHR Ka 0 -1000 0
+23 11 4d10+360 23d12+800 2d8+5 none
+-5 -5 -5 -5
+FKU 0 0 0
+stand stand none 123
+0 0 small 'unknown'
+C 'mage'
+#21051
+Shagrat~
+Shagrat~
+Shagrat el Lider maximo de los orcos esta aqui.
+~
+Es el orco mas grande que has visto.
+Su aspecto terrible te infunde mucho temor
+~
+'orc'
+ABCFS H 0 -1000 0
+40 26 15d10+1700 40d15+100 17d2+13 none
+-13 -13 -13 -12
+BEFHIJKNRTUV 0 0 0
+stand stand none 1000
+0 0 large 'unknown'
+C 'thief'
+#21052
+Uruk~
+Uruk~
+Uruk, el comandante de los orcos esta aqui.
+~
+~
+'orc'
+ABCFS H 0 -1000 0
+35 23 10d10+1200 35d14+100 5d6+10 none
+-11 -11 -11 -10
+BEFHIJKNTUV 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'thief'
+#21053
+Merry~
+Merry~
+Merry esta aqui conversando con Barbol.
+~
+~
+'hobbit'
+ABS FH 0 1000 21002
+30 20 6d12+778 30d13+100 2d12+8 none
+-9 -9 -9 -8
+BEFHIJKNTUV 0 0 0
+stand stand male 1200
+0 0 large 'unknown'
+C 'thief'
+F vul R
+#21054
+Pippin~
+Pippin~
+Peregrin Tuk esta aqui junto a su amigo Merry.
+~
+~
+'hobbit'
+ABQ FH 0 0 21002
+30 15 6d12+853 30d13+1100 2d12+8 none
+-9 -9 -9 -8
+FIKTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+F vul R
+#21055
+Barbol~
+Barbol~
+Un Inmenso arbol esta aqui mirandote.
+~
+Barbol es el mas poderoso de los Ents.
+Su apacible rostro inspira una incondicional confianza.
+~
+'modron'
+ABQ CHOcd 0 1000 21002
+42 21 25d10+2250 42d15+1500 6d6+13 none
+-14 -14 -14 -13
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+F imm P
+F res H
+#21056
+Snaga~
+Snaga~
+Un gran Orco esta aqui.
+~
+~
+'orc'
+ABFS Ha 0 0 0
+43 28 25d10+2250 43d15+100 5d8+14 none
+-14 -14 -14 -13
+BEFHIJKNTUV 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#21057
+enano~
+Un Enano~
+Un enano esta aqui sacando tesoros
+~
+~
+'dwarf'
+A H 0 0 0
+12 0 2d10+150 12d11+100 1d10+3 none
+0 0 0 2
+U 0 0 0
+stand stand male 500
+0 0 medium 'unknown'
+C 'thief'
+#21058
+gran orco~
+Un gran orco~
+Un gran orco esta aqui.
+~
+~
+'orc'
+AR H 0 0 0
+33 16 6d12+928 33d14+1200 4d6+8 none
+-10 -10 -10 -10
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#21059
+Ramaviva~
+Ramaviva~
+Ramaviva esta aqui
+~
+~
+'modron'
+AR H 0 1000 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKU L 0 0
+stand stand none 0
+0 0 large 'unknown'
+C 'mage'
+F imm P
+#21060
+Smaug Guardian~
+Smaug Guardian~
+El Guardian de Smaug esta aqui cerrandote el paso.
+~
+~
+'dragon'
+ABS H 0 0 0
+45 30 25d10+2750 45d15+100 5d9+15 none
+-15 -15 -15 -14
+BEFIJKNTUV 0 0 0
+stand stand none 12000
+0 0 medium 'unknown'
+C 'thief'
+#21061
+Nazgul~
+Nazgul~
+Un extrano ser alado esta aqui.
+~
+~
+'dragon'
+AFT H 0 -1000 0
+43 64 25d10+2750 43d15+100 10d4+15 none
+-15 -15 -15 -13
+CDEFHIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F off M
+#21062
+Elrond~
+Elrond~
+Elrond esta aqui cuidando el lugar.
+~
+~
+'elf'
+AQ H 0 1000 0
+39 19 15d10+1700 39d14+1400 8d4+12 magic
+-13 -13 -13 -12
+FHIKTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+#21063
+Finglas~
+Finglas~
+Finglas, el mas joven de los ents esta aqui.
+~
+~
+'modron'
+A H 0 0 0
+20 10 3d9+333 20d12+700 2d8+5 none
+-4 -4 -4 -3
+U 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+#21064
+Fladrif~
+Fladrif~
+Fladrif el Ent esta aqui mirandote.
+~
+~
+'modron'
+AT Had 0 0 0
+22 33 5d10+450 22d12+100 4d4+6 none
+-5 -5 -5 -4
+CDEFIKLTU 0 0 H
+stand stand male 0
+0 0 large 'unknown'
+C 'warrior'
+#21065
+Bregalad~
+Bregalad~
+( #BMistic Aura #b) Bregalad esta aqui cuidando Fangorn
+~
+~
+'human'
+AS Ha 0 1000 0
+35 23 10d10+1200 35d14+100 5d6+10 none
+-11 -11 -11 -10
+BEFHIJKNUV H 0 P
+stand stand male 0
+0 0 medium 'unknown'
+C 'thief'
+#21066
+Un Ucorno~
+un Ucorno~
+Un Ucorno esta aqui amenazandote.
+~
+~
+'giant'
+ACQ 0 0 0 0
+35 17 10d10+1300 35d14+1200 7d4+10 none
+-11 -11 -11 -11
+FIKU 0 0 0
+stand stand none 0
+0 0 giant 'unknown'
+C 'cleric'
+#21067
+Grishnakh~
+Grishnakh~
+#BGrishnakh#b esta aqui custodiando los tuneles.
+~
+~
+'orc'
+AT H 0 0 0
+44 66 25d10+3000 44d15+100 5d9+15 none
+-15 -15 -15 -14
+CDEFHIKLTU 0 0 EP
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#21068
+Ugluk~
+Ugluk~
+Ugluk, el comandante de los orcos esta aqui.
+~
+~
+'orc'
+AR HVa 0 0 0
+36 18 10d10+1200 36d14+1300 7d4+10 none
+-11 -11 -11 -11
+FKRU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+#21069
+Gorbag~
+Gorbag~
+#BGorbag#b esta aqui mirandote con desconfianza.
+~
+~
+'orc'
+AT H 0 0 0
+36 54 10d10+1500 36d14+100 4d8+11 none
+-12 -12 -12 -11
+CDEFHIKLTU F 0 P
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#21070
+Ufthak~
+Ufthak~
+#BUfthak#b esta mirandote con horror.
+~
+~
+'orc'
+AT H 0 0 0
+37 55 10d10+1600 37d14+100 8d4+12 none
+-12 -12 -12 -11
+CDEFHIKLTU 0 0 P
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#21071
+Lugburz~
+Lugburz~
+#BLugburz#b teniente de los orcos esta aqui.
+~
+~
+'orc'
+AR 0 0 0 0
+40 20 10d10+1600 40d15+1400 8d4+12 none
+-13 -13 -13 -13
+FKU 0 0 P
+stand stand male 0
+0 0 medium 'unknown'
+C 'mage'
+#21072
+Mumak~
+Mumak~
+#BMumak#b jefe de tropas orcas esta aqui.
+~
+~
+'orc'
+AT HVa 0 0 0
+38 57 15d10+1700 38d14+100 16d2+12 none
+-13 -13 -13 -11
+CDEFHIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#21073
+Mablung~
+Mablung~
+#BMablung#b el servidor de Grishnakh esta aqui.
+~
+~
+'orc'
+AT 0 0 0 0
+23 34 5d10+500 23d12+100 3d6+6 none
+-6 -6 -6 -4
+CDEFIKLTU 0 0 EP
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#0
+
+
+
+#OBJECTS
+#21000
+llave muro~
+una llave de Hierro~
+Una llave herrumbrosa esta aqui botada en el piso.~
+hierro~
+key A A
+0 0 0 0 0
+10 50 1000 P
+#21001
+mazo maza orco~
+un mazo Orco~
+Un asqueroso y sangrante mazo con puas esta aqui afeando el paisaje.~
+orco~
+weapon CEGJM AN
+mace 5 5 'pound' FH
+20 200 100 P
+A
+13 12
+A
+18 3
+#21002
+espada bastarda~
+una Espada Bastarda~
+Una #BINMENSA#b espada fue dejada aqui.~
+acero~
+weapon AG AN
+sword 6 5 'cleave' 0
+23 400 1000 P
+#21003
+Un Amuleto Orco~
+un Amuleto Orco~
+Un extrano amuleto esta en el suelo.~
+indef~
+armor AE AC
+12 13 10 8 0
+40 3 1200 P
+A
+1 1
+A
+13 10
+#21004
+Garra Smaug~
+la Garra de Smaug~
+Una enorme garra de dragon esta aqui.~
+hueso~
+weapon AIY AN
+exotic 6 9 'claw' F
+43 10 1200 P
+#21005
+Un viejo manuscrito~
+un viejo manuscrito~
+Un viejo papel esta tirado en el suelo~
+indef~
+scroll E AO
+25 'mute' '' '' ''
+25 1 12300 P
+#21006
+Cuero de Dragon~
+un Cuero de Dragon~
+Un cuero de Dragon esta en el suelo~
+indef~
+armor B AI
+11 12 9 7 0
+40 12 4000 P
+A
+9 20
+A
+18 1
+#21050
+Una cascada~
+una Cascada~
+Una Hermosa cascada esta aqui invitandote a refrescarte.~
+indef~
+fountain IY 0
+1000 1000 'water' 0 0
+1 0 0 P
+#21051
+Una Cimitarra~
+una Cimitarra~
+Una larga espada curvada esta llama tu atencion.~
+acero~
+weapon E AN
+sword 5 8 'slice' 0
+33 70 1200 P
+#21052
+Armadura de placas~
+una armadura de placas~
+Una armadura compuesta de placas esta en el suelo.~
+acero~
+armor 0 AD
+10 11 9 8 0
+33 40 12323 P
+#21053
+Una Piedra Runica~
+una Piedra Runica~
+Una Piedra con runas antiguas esta aqui.~
+granito~
+key A A
+0 0 0 0 0
+10 1 0 P
+#21054
+Una barra de platino~
+una barra de platino~
+Una barra de un valioso metal esta en el suelo.~
+indef~
+money A A
+5000 1200 0 0 0
+12 10 30000 P
+#21055
+Un lingote de oro~
+un lingote de oro~
+Un gran trozo de metal esta aqui~
+indef~
+money A A
+50000 1000 0 0 0
+20 12 50000 P
+#21056
+casco mithril~
+un casco de mithril~
+Un Casco de color plata palida esta en el suelo.~
+indef~
+armor A AE
+12 9 8 8 0
+37 2 12323 P
+#21057
+Flaming Sword~
+flaming Sword~
+Una espada con su hoja en llamas esta en el suelo.~
+mithril~
+weapon A AN
+sword 6 8 'slice' 0
+37 100 1000 P
+#21058
+Cetro del Poder~
+cetro del Poder~
+Un cetro que emite una poderosa luz esta aqui.~
+indef~
+wand A AO
+35 3 3 'heat metal' 0
+37 20 5000 P
+#21059
+Red Skin~
+red Skin~
+Un Skin Rojo esta aqui goteando un liquido rojo.~
+cuero~
+drink EY A
+30 30 'blood' 0 0
+10 15 500 P
+#21060
+Botas Espectrales~
+botas Espectrales~
+Unas botas fantasmales estan en el suelo.~
+indef~
+armor A AG
+10 9 9 9 0
+35 5 15000 P
+A
+14 50
+#21061
+Narya~
+narya~
+Un extrano anillo esta tirado aqui.~
+indef~
+armor AI AB
+10 9 10 15 0
+39 1 1200 P
+A
+12 50
+A
+4 1
+#21062
+El Unico~
+el Unico~
+Un simple anillo de mithril esta aqui.~
+mithril~
+armor 0 AB
+0 0 0 0 0
+30 20 100000000 P
+F
+A 0 0 B
+#21063
+Una Rama de Ucorno~
+una Rama de Ucorno~
+Una rama de arbol esta en el suelo~
+indef~
+wand A AO
+18 5 5 'flaming shield' 0
+20 30 1209 P
+#21064
+Cimitarra Roja~
+una Cimitarra Roja~
+Una Cimitarra curvada de color rojo esta aqui~
+indef~
+weapon AE AN
+sword 7 9 'slice' 0
+43 80 120090 P
+A
+1 2
+#0
+
+
+
+#ROOMS
+#21000
+En el Tunel~
+El tunel esta mail iluminado y asquerosamente hediondo, parece que orcos u 
+otras criaturas hubieran andado reptando por aqui. A pesar de todo, bien
+adelante ves una pequenia luz....
+~
+0 0 0
+D0
+~
+~
+0 0 21001
+D2
+~
+~
+0 0 21004
+S
+#21001
+En la Salida~
+Estas en la salida del inmenso tunel, sientes que el aire un poco enrarecido
+te nubla la mente un poco al principio, pero despues te recuperas.
+Al Oeste ves el principio de un gran bosque, y al este ves un camino empedrado.
+~
+0 0 0
+D1
+~
+~
+0 0 21003
+D2
+~
+~
+0 0 21000
+D3
+~
+~
+0 0 21002
+S
+#21002
+Camino a Fangorn~
+Finalmente has logrado salir del tunel pero llama tu atencion que hay muy
+poca luz en el lugar.  El Bosque es el mas espeso que has visto en el mud, y
+un aire intranquilo se respira, es como si miles de ojos estuvieran
+acechandote.  
+~
+0 AT 0
+D0
+~
+~
+0 0 21050
+D1
+~
+~
+0 0 21001
+D2
+~
+~
+0 0 21051
+D3
+~
+~
+0 0 21052
+S
+#21003
+Camino Empedrado~
+Estas caminando por un antiquisimo camino...no tienes idea donde te llevara,
+sin embargo, ves un pequenio letrero semi enterrado en el piso, piensas que
+deberias leerlo ("Look letrero").
+~
+0 0 0
+D0
+~
+~
+0 0 21005
+D3
+~
+~
+0 0 21001
+S
+#21004
+En el tunel~
+Estas en la entrada de un tunel muy grande y oscuro.  Ruidos muy
+extranios se sienten a los lejos.  Un aire espeso se siente en todo el
+lugar......  
+~
+0 0 0
+D0
+~
+~
+0 0 21000
+D2
+~
+~
+0 0 5275
+S
+#21005
+En el camino~
+Sigues en el camino, aqui los signos de los orcos, son evidentes, pareciera 
+que la piedras arrojadas por los orcos hubieran destruido todos los sembradios
+que alguna vez existieron aqui.
+~
+0 0 0
+D0
+~
+~
+0 0 21006
+D2
+~
+~
+0 0 21003
+S
+#21006
+Division en el camino~
+Vas caminando y sientes gritos de criaturas en el horizonte ..  Parece
+que Orcos todavia anduvieran por estos caminos.....  
+Al Este ves algunos campos que todavia podrian servir, mientras que al Norte
+y al Sur el camino se extiende uniformemente.
+~
+0 0 0
+D0
+~
+~
+0 0 21007
+D2
+~
+~
+0 0 21005
+S
+#21007
+Cerca del Parapeto~
+Vas acercandote a una enorme ciudadela, enclaustrada en una loma de tamanio
+regular. Los gritos Orcos se han apagado y te sientes un poco mas seguro.
+~
+0 0 0
+D0
+~
+~
+0 0 21008
+D2
+~
+~
+0 0 21006
+S
+#21008
+En el Parapeto~
+#BThwock#b. Te detienes ya que un enorme muro te llama la atencion (y tampoco 
+te deja pasar). Guardias se ven desde arriba del muro examinandote como
+bicho raro...
+~
+0 0 0
+D0
+~
+puerta~
+ABC 21000 21009
+D2
+~
+~
+0 0 21007
+S
+#21009
+Dentro del Muro~
+Vas caminando por entre guardias y demases. Campesinos se ven en muy pequenias
+cantidades, ya que han sido seguramente exterminados por los Orcos.
+~
+0 0 0
+D0
+~
+~
+0 0 21010
+D2
+~
+puerta~
+ABC 0 21008
+S
+#21010
+Cerca de la Ciudadela~
+Estas caminando ahora por el largo camino que cuidan guardias y campesinos por
+igual, no ves ninguna anormalidad, excepto la aridez del terreno.
+~
+0 A 0
+D0
+~
+~
+0 0 21011
+D2
+~
+~
+0 0 21009
+S
+#21011
+En la Entrada a Minas-Tirith~
+Estas en la enorme entrada a la Montania en la que se encuentra la ciudad de
+Minas-Tirith.
+~
+0 A 0
+D2
+~
+~
+0 0 21010
+S
+#21012
+1er Sub-nivel de la Montana Solitaria~
+Has bajado aproximadamente 100 mts.  Y has llegado al 2do nivel de la
+montana.  Ahora los ruidos se ven interrumpidos en ocasiones por un rumor
+que hace temblar la tierra bajo tus pies.  
+~
+0 0 0
+D0
+~
+~
+0 0 21034
+D1
+~
+~
+0 0 21037
+D2
+~
+~
+0 0 21035
+D3
+~
+~
+0 0 21036
+D4
+~
+~
+0 0 21096
+D5
+~
+~
+0 0 21039
+R enter 21020 100~
+S
+#21013
+2do nivel de la Montana Solitaria~
+Has subido unos cuantos metros por la escalerilla y llegaste al 2do nivel
+de las galerias.  A lo lejos se oye un suave torrente de agua que parece
+venir del sur.  Una suave brisa te sopla la cara y el polvo se te mete en
+los ojos.  
+ 
+~
+0 A 0
+D0
+~
+~
+0 0 21023
+D1
+~
+~
+0 0 21026
+D2
+~
+~
+0 0 21024
+D3
+~
+~
+0 0 21025
+D5
+~
+~
+0 0 21096
+S
+#21014
+En una mina~
+Como ya es costumbre, encontraste otra excavacion sin terminar.  Pero con
+la diferencia que ahora los cadaveres de enanos no son tan frescos.  Solo
+las reducidas osamentas hacen que te des cuenta que su muerte ocurrio hace
+mucho tiempo.  
+~
+0 0 0
+D2
+~
+~
+0 0 21098
+S
+#21015
+Una Galeria en la montana~
+Has avanzado un gran trecho por la galeria y ya no logras ver tanto hacia
+adelante.  El polvo se te mete en lo ojos y un extrano calor te hace hervir
+la sangre.  Un aire de muerte se comienza a sentir por todas partes.  
+~
+0 0 0
+D0
+~
+~
+0 0 21018
+D1
+~
+~
+0 0 21016
+D2
+~
+~
+0 0 21099
+D3
+~
+~
+0 0 21017
+R enter 21020 100~
+S
+#21016
+Una galeria en la montana~
+Esta paquena cueva termina aqui.  Sin embargo un orificio en la piedra
+que esta al norte te hace pensar que puede ser una puerta secreta.  Al
+parecer solo tienes que accionar el mecanismo.  
+~
+0 0 0
+D1
+~
+mecanismo~
+AB 0 21019
+D3
+~
+~
+0 0 21015
+S
+#21017
+Un pequeno tunel~
+Estas en un pequeno tunel que te hacer recordar las Minas de Moria ya que
+aqui el color de los muros es de un color plata palido.  Este color que es
+caracteristico del mithril esta por todas partes.  Al parecer este
+yacimiento fue socavado por las manos de los enanos pero los sibolos
+inintelegibles escritos en la pared son de los orcos.  
+~
+0 0 0
+D1
+~
+~
+0 0 21015
+S
+#21018
+1er nivel de la Montana Solitaria~
+El tunel continua al norte y parece terminar alli.  Sin embargo hay
+salidas al este y al west.  El calor hace que te sientas aletargado y
+desmotivado.  
+~
+0 0 0
+D0
+~
+~
+0 0 21020
+D1
+~
+~
+0 0 21021
+D2
+~
+~
+0 0 21015
+D3
+~
+~
+0 0 21022
+S
+#21019
+Una galeria secreta~
+Un cuarto secreto se abre ante tus atonitos ojos.  La contruccion
+aparentemente fue recientemente construida.  Evidentemente fueron los orcos
+los que hicieron de las suyas...  El regadero de cosas inservibles y trozos
+de carnes descompuestas te hacen vomitar.  #BPuaj#b.  
+~
+0 0 0
+D3
+~
+~
+AB 0 21016
+R enter 21019 100~
+S
+#21020
+Fin de la galeria~
+Has llegado al final de la gran galeria.  Una inmensa pared rocosa se
+alza frente a ti.  Las paredes estan manchadas con sangre comun pero tambien
+hay manchas de sangre color negrusca.  Los orcos evidentemente anduvieron
+haciendo de las suyas por aqui al ver que el camino terminaba probablemente
+se devolvieron.  
+~
+0 0 0
+D2
+~
+~
+0 0 21018
+R enter 21020 100~
+S
+#21021
+Una Galeria en la Montana~
+Otra galeria vacia.  Sin embargo un olor a incienso se siente en este
+cuarto...  Te asombra mucho una hilera de agua que cae desde el techo de la
+caverna.  
+~
+0 0 0
+D3
+~
+~
+0 0 21018
+R enter 21020 100~
+S
+#21022
+Una Galeria en la Montana~
+Estas en otra de las innumerables galerias de la montana y el calor se
+hace mas intenso.  Otra vez sientes esos enormes ronquidos que hacen temblar
+la tierra bajo tus pies.  No hay mas salidas por aqui.  
+~
+0 0 0
+D1
+~
+~
+0 0 21018
+S
+#21023
+2do nivel de la Montana Solitaria~
+Estas en un camino muy pedregoso e irregular.  A ratos te caen piedras en
+la cabeza y pequenos derrumbes se sienten por todas partes.  El piso es muy
+inestable asi que tienes que tener cuidado.  
+~
+0 0 0
+D2
+~
+~
+0 0 21013
+S
+#21024
+2do nivel de la Montana Solitaria~
+Mas y mas tuneles por donde quiera que vas.  El aire frio y pesado te
+trastorna la mente,y el olor a carne descompuesta te sigue haciendo vomitar.
+~
+0 0 0
+D0
+~
+~
+0 0 21013
+D1
+~
+~
+0 0 21030
+D3
+~
+~
+0 0 21031
+S
+#21025
+2do nivel de la Montana Solitaria~
+El tunel continua al sur al parecer para terminar alli, pero no logras
+ver mucho porque hace un rato ya se ha comenzado a acumular mucha neblina. 
+Esta neblina viene del sur y por eso solo ves oscuridad.  
+~
+0 0 0
+D1
+~
+~
+0 0 21013
+S
+#21026
+2do nivel de la Montana Solitaria~
+Estas en otra galeriade la montana.  Ya te acostumbraste a ver tuneles y
+mas tuneles sin salida.  No hay salidas aparentes.  El aire se enfria de a
+poco y gotas de agua caen sobre ti.  El lugar esta rodeado de la mas
+absoluta oscuridad.  
+~
+0 0 0
+D0
+~
+~
+0 0 21027
+D3
+~
+~
+0 0 21013
+S
+#21027
+Un tunel en la montana~
+Estas en otro de los tuneles de la montana.  El techo cada vez mas a tu
+cabeza y numerosos derrumbes caen sobre ti.  La inestabilidad del camino te
+hacer pensar que lo mejor sera volver.  
+~
+0 AT 0
+D0
+~
+~
+0 0 21029
+D1
+~
+~
+0 0 21028
+D2
+~
+~
+0 0 21026
+S
+#21028
+Una galeria~
+Otra de las tantas galerias de esta montana.  Has llegado a la conclusion
+que mas que una montana, esta es una enorme mina de mithril.  Si es asi,
+debe haber algun tesoro por ahi...  
+~
+0 0 0
+D3
+~
+~
+0 0 21027
+S
+#21029
+Una galeria~
+Esta galeria parece haber sibo trabajada por los orcos.  Sus numerosos
+rastros estan por todas partes.  Aqui se puede apreciar la maldad de estas
+criaturas;desorden,putrefaccion y un monton de cadaveres decapitados y
+mutilados.  
+~
+0 0 0
+D2
+~
+~
+0 0 21027
+S
+#21030
+Un pasillo~
+Este es un pasillo que conduce a quien sabe donde.  Unos simbolos
+marcados en la pared te indican que este lugar fue abandonado hace ya un
+tiempo, pero al parecer los orcos se enteraron de que esta montana estaba
+abandonada por alguna extrana razon y vinie 
+~
+0 0 0
+D1
+~
+~
+0 0 21032
+D3
+~
+~
+0 0 21024
+R enter 21020 100~
+S
+#21031
+Antesala de la Sala de Torturas~
+Esta antesala cuenta con muchas cosas de orcos.  Veras que en las paredes
+hay lineas marcadas por alguien o algo.  Tambien ves un tremendo golpe en la
+roca, pareciera que una garra gigante hubiera golpeado los muros 
+~
+0 0 0
+D1
+~
+~
+0 0 21024
+D3
+~
+~
+AB 0 21033
+S
+#21032
+Fin del pasillo~
+Este es el fin del pasillo y al parecer tambien el fin de tu aventura. 
+Unas rocas caen en tu cabeza al entrar y perturbar el silencio de este
+lugar.  Ves craneos aplastados por antiguos derrumbes, y algunos cadaveres
+frescos de otro guerreros que entaron aqui.  
+~
+0 0 0
+D3
+~
+~
+0 0 21030
+S
+#21033
+Sala de Tortura~
+Estas en la Sala de Tortura de los orcos,numerosos implementos para
+flagelar a los prisioneros o matarlos.  Ves una mesa que se estira, unos
+punales con sangre, una gillotina y en fin, de todo para torturar.  Te llama
+mucho la atencion que las paredes no parecen estar pegadas a la roca. 
+Piensas que son corredizas y si no te mueves te pueden aplastar.  
+~
+0 0 0
+D1
+~
+~
+AB 0 21031
+R enter 21033 100~
+S
+#21034
+1er Sub-nivel de la Montana Solitaria~
+En este pequeno nivel no encontraras muchas cosas interesantes.  Parece
+que en la antiguedad los enanos no encontraron mucho en este nivel de la
+montana ya que solo logras ver unas pequenas excavaciones.  
+~
+0 0 0
+D2
+~
+~
+0 0 21012
+S
+#21035
+1er Sub-nievl de la montana Solitaria~
+Este pequeno tunel termina aqui.  Seguramente ya habras escuchado un
+temblor que sacude tus pies y tu alma.  Piensas que si ese temblor es
+provocado por algo o alguien estas realmente en peligro.  
+~
+0 0 0
+D0
+~
+~
+0 0 21012
+S
+#21036
+1er Sub-nivel de la Montana Solitaria~
+Solo una inscripcion en la pared escrita con sangre dice:"#B Esta mitica
+montana ha sido por generaciones objeto de leyendas y mitos que nunca crei,
+pero desde que logre estar cerca de la muerte en este lugar no tengo dudas. 
+Creo que manana ire a...  #b".  La Escritura termina en una gran confusion y
+una gran mancha de sangre.  
+~
+0 0 0
+D1
+~
+~
+0 0 21012
+S
+#21037
+1er Sub-nivel de la Montana Solitaria~
+Otro de los tantos tuneles de esta construccion.  Pero al igual que los
+tuneles de este nivel no ves mucho que te llame la atencion, mientras la
+tierra sigue temblando a tus pies.  
+~
+0 0 0
+D2
+~
+~
+AB 0 21038
+D3
+~
+~
+0 0 21012
+S
+#21038
+En el pequeno Altar~
+Esta especie de altar enano esta acompanado con numerosas sillas
+construidas de piedra.  A pesar de esto las sillas estan finamente forjadas
+y un Dibujo de dioses adornan la pared este.  Te llama la atencion la
+luminosidad del lugar que tiene antorchas en las paredes y que aun estan
+encendidas.  
+~
+0 A 0
+D0
+~
+~
+AB 0 21037
+S
+#21039
+2do Sub-nivel de la Montana Solitaria~
+Has llegado al ultimo de los niveles de la famosa montana.  Lo mas
+caracteristico es el olor a azufre que hace el aire mas pesado.  Tambien la
+oscuridad es completa.  
+~
+0 0 0
+D0
+~
+~
+0 0 21040
+D1
+~
+~
+0 0 21042
+D2
+~
+~
+0 0 21043
+D3
+~
+~
+0 0 21041
+D4
+~
+~
+0 0 21012
+S
+#21040
+2do Sub-nivel de la Montana Solitaria~
+Estas en el ultimo sub-nivel.  Ahora los temblores te parecen ronquidos
+venidos de alguna parte muy cercana.  El miedo te acecha; ahora los
+cadaveres son de todos tipos, y un olor a azufre se siente en el lugar.  
+~
+0 0 0
+D0
+~
+~
+0 0 21044
+D2
+~
+~
+0 0 21039
+R enter 21020 100~
+S
+#21041
+2do Sub-nivel de la Montana Solitaria~
+Estas en otro tunel que continua al sur para terminar abruptamente en un
+muro solido de roca.  Una picota esta enterrada en la pared pero el mango
+esta totalmente destruido.  
+~
+0 0 0
+D1
+~
+~
+0 0 21039
+S
+#21042
+2do Sub-nivel de la Montana Solitaria~
+A medida que caminas un extrano olor a azufre te hace picar la nariz.  La
+Humedad del lugar tambien aumento, y una brisa a veces te atraviesa
+calandote los huesos.  
+~
+0 0 0
+D3
+~
+~
+0 0 21039
+S
+#21043
+2do Sub-nivel de la Montana Solitaria~
+Llegas a estar mareado de tantos tuneles, galerias, y pasillos.  El lugar
+parece el laberinto mas grande que has conocido.  La muralla sur es como un
+gigante de roca que te ignora y te impide pasar, de todas maneras no es un
+lugar muy reconfortable.  
+~
+0 0 0
+D0
+~
+~
+0 0 21039
+S
+#21044
+Un largo pasillo~
+Este es un largo pasillo que se extiende hacia el norte.  Eso si logras
+ver a la distancia una gran puerta de algun material desconocido.  Las
+galerias estan quemadas y expelen un desagradable olor a azufre como en todo
+este nivel.  
+~
+0 0 0
+D0
+~
+~
+0 0 21045
+D2
+~
+~
+0 0 21040
+S
+#21045
+Fin del Pasillo~
+Has llegado a la gran puerta y varios orcos cuidan la entrada.  Al
+parecer algo esconden con mucho recelo.  Te das cuenta que la puerta esta
+hecha de mithril y tiene en el centro una gran quemadura.  
+~
+0 0 0
+D0
+~
+~
+AB 0 21046
+D2
+~
+~
+0 0 21044
+S
+#21046
+A traves de los pasillos~
+Logras ver que la puerta solo conduce a otra un poco mas pequena pero que
+esta cerrada a duras penas.  Por las rendijas de la puerta logras ver un
+gran resplandor, es algo que brilla con intensidad.  
+~
+0 0 0
+D0
+~
+~
+0 0 21047
+D2
+~
+~
+AB 0 21045
+S
+#21047
+Frente al Porton de Oro~
+WOW!!!  Esto es impresionante.  Una Gigantesca puerta de oro se alza ante
+tus asmbrados ojos.  La puerta esta finamente labrada con simbolos runicos y
+muchos extranos animales dibujados.  Sorpresivamente te das cuenta que las
+puertas estan arrancadas de sus bases y que estan solo sobrepuestas. 
+Imaginas que para hacer eso con semejante construccion se necsita una fuerza
+titanica.  Ademas el olor azufre ya casi no te deja respirar.  
+~
+0 0 0
+D0
+~
+~
+AB 0 21048
+D2
+~
+~
+0 0 21046
+S
+#21048
+El Corazon de La Montana Solitaria~
+#BNo puedes creer lo que tienes ante tus ojos.......  Es una montana de
+monedas de oro, gemas, perlas, y un monton de joyas que siempre deseaste
+tener.  Las monedas estan en todas partes y te encandilan los ojos.  #b
+Cofres y mas cofres atiborrados de oro y numerosas joyas y gemas de muchos
+tipos raros.  
+~
+0 0 0
+D2
+~
+~
+AB 0 21047
+S
+#21050
+Bosque de Fangorn.~
+A medida que te internas en el tunel, el aire se va haciendo cada vez mas
+espeso.  Estas rasgunado por las ramas, y las lagartijas se te suben por el
+cuerpo.  Unos tremendos ruidos como truenos se sienten a lo lejos, piensas
+que son pisadas al ver que circulos concentricos se mueven el un charco de
+agua.  ( Como en Jurassic Park ).  
+~
+0 ABT 0
+D0
+~
+~
+0 0 21053
+D1
+~
+~
+0 0 21055
+D2
+~
+~
+0 0 21002
+D3
+~
+~
+0 0 21054
+S
+#21051
+Bosque de fangorn.~
+Muchos bichos estan subiendo por tu cuerpo y se te meten por entremedio
+de tu armadura.  Las sanguijuelas te estan haciendo chupete y sientes que
+pronto tendras accion.  
+~
+0 0 0
+D0
+~
+~
+0 0 21002
+D1
+~
+~
+0 0 21056
+S
+#21052
+Bosque de Fangorn.~
+La tierra se oscurece, al parecer anduvieron orcos por aqui porque la
+destruccion caracteristica de estos seres se ve por todos lados.  A veces
+tienes la sensacion de que los arboles te estuvieran mirando y a medida que
+avanzas pareciera que tambien los arboles avanzan contigo.  
+~
+0 0 0
+D1
+~
+~
+0 0 21002
+S
+#21053
+Bosque de Fangorn~
+La visibilidad es escasa y te empiezas a ahogar.  Ahora estas seguro que
+los arboles se estan moviendo junto contigo.  
+~
+0 A 0
+D2
+~
+~
+0 0 21050
+S
+#21054
+Bosque de Fangorn~
+Piensas que lo mejor sera volver por donde viniste, aunque este lugar es
+hermoso y aterrador al mismo tiempo.  Las ramas de los arboles se entrelazan
+entre si y los escasos seres vivientes escapan fuera de tu alcance.  
+~
+0 AT 0
+D0
+~
+~
+0 0 21065
+D1
+~
+~
+0 0 21050
+S
+#21055
+Bosque de Fangorn.~
+Por fin logras escuchar a lo lejos el sonido de una caida de agua. 
+Sientes que tu alma de alivia al sentir que se rompe este silencio que ya
+parecia eterno.  Tienes salidas en todas direcciones pero estas algo
+desorientado por andar tanto rato perdido.  
+~
+0 A 0
+D0
+~
+~
+0 0 21059
+D3
+~
+~
+0 0 21050
+S
+#21056
+En el Borde de Fangorn.~
+Estas en la orilla este del Bosque de Fangorn, pero las ramas estan tan
+enmarannadas que es imposible salir.  A pesar de todo puedes ver un claro al
+sur de aqui.  El lugar es hermoso y mistico pero unas asquerosas huellas de
+criaturas indeseables se puedes ver por todo el lugar.  Indudablemente
+algunos orcos pasaron por aqui no hace mucho haciendo de las suyas.  
+~
+0 T 0
+D2
+~
+~
+0 0 21057
+D3
+~
+~
+0 0 21051
+S
+#21057
+Un Claro en el Bosque de Fangorn.~
+Por fin logras ver el cielo despejado sin ramas ni nada.  El lugar es un
+claro circular, al parecer algo quemaron aqui porque los pastizales estan
+quemados en una forma circular perfecta.  Lamentablemente el lugar esta
+regado de trozos de carne que al mirarlos mas detenidamente son orcos
+mutilados.  Un Orco decapitado por aqui, un Orco con los brazos arrancados
+por alla, y en fin, los cadaveres estanregados por todas partes.  
+~
+0 0 0
+D0
+~
+~
+0 0 21056
+D4
+~
+~
+0 0 21058
+S
+#21058
+Sobre La Gran Piedra.~
+La Vista desde aqui es espectacular, logras ver todo el valle incluso ves
+la ciudad de Midgaard a la distancia.  En lontananza pueder ver en toda su
+majestuosidad la remodelada ciudad de Thalos, y un poco mas al sur las
+ruinas de Old Thalos.  Aunque todo se ve lejos sientes que este es mejor
+lugar para ver el mundo.  
+~
+0 0 0
+D5
+~
+~
+0 0 21057
+S
+#21059
+Una cascada en el Bosque de Fangorn.~
+Has llegado a una pequena cascada de agua (obvio) ,el agua es cristalina
+y pura.  Algunos pajaros estan bebiendo aqui.  Pero luego te das cuenta de
+un horrible espectaculo.  Un Orco esta metiendo sus inmundas manos llenas de
+sangre al agua y esta se torna negra.  
+~
+0 0 0
+D0
+~
+piedra~
+AB 0 21060
+D2
+~
+~
+0 0 21055
+S
+#21060
+Dentro de una Caverna~
+Estas todo mojado despues de haber pasado a traves de la cascada. 
+Evidentemente este es un escondite secreto, al parecer los duenos son orcos
+ya que puedes apreciar utensilios de estos seres.  Carne descompuesta tirada
+en el suelo y un desorden descomunal parece la caracteristica de estos
+antros.  Recuerda que a los orcos no les gustan los intrusos asi que ten
+cuidado.  
+~
+0 A 0
+D0
+~
+~
+0 0 21061
+D2
+~
+piedra~
+AB 0 21059
+S
+#21061
+Dentro del escondite.~
+Los orcos al parecer han descubierto tu prescencia....  Hay en todas
+pastes.  La cueva expele un desagradable olor a carne descompuesta y el
+tiradero de cosas esta por todas partes.  
+~
+0 0 0
+D0
+~
+~
+0 0 21064
+D1
+~
+~
+0 0 21062
+D2
+~
+~
+0 0 21060
+S
+#21062
+Dentro de la cueva.~
+Este parece ser el sector donde estan los Orcos de mas alto rango.  En el
+centro de la estancia hay una mesa negra con papeles y planos de orcos, pero
+estan escritos con unos simbolos inintelegibles.  Sera mejor que salgas de
+aqui si no quieres ser sorprendido.  
+~
+0 A 0
+D3
+~
+~
+0 0 21061
+S
+#21064
+Cuartel General.~
+Este es el cuartel general de los Orcos.  El lugar esta lleno de trofeos,
+en la pared se ven colgadas unas cabezas de altos comandantes humanos y
+otros elfos.  Un diente de dragon esta en la mesa principal adornado con
+partes humanas.  
+~
+0 A 0
+D2
+~
+~
+0 0 21061
+S
+#21065
+Bosque de Fangorn~
+Estas en medio de bosque, al parecer los ents no te han recibido de muy
+buena forma...  Pero te dejan seguir tu camino.  
+~
+0 0 0
+D2
+~
+~
+0 0 21054
+D3
+~
+~
+0 0 21066
+S
+#21066
+Limite del Bosque de Fangorn~
+Estas en uno de los limites del bosque, y ahora puedes ver un pequenio
+sendero hacia el norte mientras que al west continua el bosque.  La
+naturaleza aqui no es tan espesa y unos rayos de sol penetran por las
+rendijas de las ramas.  
+~
+0 0 0
+D0
+~
+~
+0 0 21068
+D1
+~
+~
+0 0 21065
+D3
+~
+~
+0 0 21067
+S
+#21067
+Bosque de Fangorn~
+Ahora las nubes se cierran sobre el bosque mientras que el movimiento ha cesado.Ya no se escuchan pasos ni voces ni nada.
+Solo el ruido del silencio que trastorna tus sentidos.
+Ahora si que pareciera que el tiempo se ha detenido.
+~
+0 0 0
+D1
+~
+~
+0 0 21066
+D2
+~
+~
+0 0 21070
+S
+#21068
+Saliendo de Fangorn~
+Por fin has dejado atras el bosque y tu sentido de orientacion vuelve a
+la normalidad.  Frente a tus ojos logras ver una gran planicie atravesada
+por un difuso pero visible sendero.  No hay salidas anexas,solo puedes
+avanzar por dicho sendero.  
+~
+0 0 0
+D0
+~
+~
+0 0 21069
+D2
+~
+~
+0 0 21066
+S
+#21069
+Sendero del Olvido~
+Has avanzado unos cuantos metros y te das cuenta que este sendero no ha
+sido usado en mucho tiempo.  Unas osamentas indican que el peligro puede
+esta cerca.  A la distancia logras ver una bifurcacion al este que parece
+conducir a la Montana Solitaria.  
+~
+0 0 0
+D0
+~
+~
+0 0 21076
+D1
+~
+~
+0 0 21075
+D2
+~
+~
+0 0 21068
+S
+#21070
+Bosque de Fangorn~
+Has entrado en la oscuridad plena, la lluvia te cae como si fueran
+piedras y tus pies se estan congelando.  Una sensacion de muerte se siente
+en al ambiente.  
+~
+0 0 0
+D0
+~
+~
+0 0 21067
+D2
+~
+~
+0 0 21072
+D3
+~
+~
+0 0 21071
+S
+#21071
+Bosque de Fangorn~
+Inevitablemente el camino termina aqui, la unica salida es al sur.  Los
+arboles se cierran sobre ti y el viento te azota y te tira contra los
+arboles.  
+~
+0 0 0
+D1
+~
+~
+0 0 21070
+S
+#21072
+Camino al Santuario.~
+De pronto todo parece cambiar, la tranquilidad te relaja y te sientes
+como recien nacido.  La oscuridad se ha ido, a pesar de la espesura del
+bosque una luz intangible llena toda la estancia.  El camino se torna verde
+por el pasto y las flores que aqui crecen.  Toda la vegetacion esta parece
+como sacada del paraiso 
+~
+0 0 0
+D0
+~
+~
+0 0 21070
+D2
+~
+~
+0 0 21073
+M 200 H 200
+S
+#21073
+Entrada al Santuario~
+WOW!!  Has llegado a la entrada de un monumental santuario.  Te llama la
+atencion que el templo esta construido solo con los entrlazamientos de los
+arboles.  Crees estar en el paraiso, pero los ents que hay alrededor te
+recuerdan que estas en Fangorn.  
+~
+0 0 0
+D0
+~
+~
+0 0 21072
+D2
+~
+~
+0 0 21074
+S
+#21074
+Templo de los Ents~
+Es Impresionante el espectaculo que tus ojos estan viendo.  El lugar es
+un solo cuarto pero es hermoso.  Ves Ents por todas partes y tambien un
+enorme Ent que esta parado conversando con 2 pequenios hobbits.  Los hobbits
+te miran con extranieza y desconfianza pero sus rostros son amigables.  
+~
+0 0 0
+D0
+~
+~
+0 0 21073
+M 200 H 200
+S
+#21075
+Camino a la Montana Solitaria~
+El camino es amplio pero nada interesante hacia los lados, solo ves al
+frente una enorme montana con unas nubes en su cono.  El sol ilumina todo
+alrededor y el viento que golpea en la cara.  
+~
+0 0 0
+D1
+~
+~
+0 0 21077
+D3
+~
+~
+0 0 21069
+S
+#21076
+Camino de Olvido~
+Continuas caminando y ya estas por completar el tramo que va hacia las
+montanas nubladas.  Pero primero tienes que pasar por varias partes nuevas. 
+~
+0 0 0
+D2
+~
+~
+0 0 21069
+S
+#21077
+Camino a la Montana~
+Ya has caminado bastante y falta poco para que llegues.  Unas huellas
+pequenias aparecen de pronto pero se van desvaneciendo.  
+~
+0 0 0
+D1
+~
+~
+0 0 21078
+D3
+~
+~
+0 0 21075
+S
+#21078
+Base de la Montana~
+Has llegado a la base de la Montana Solitaria.  El aspecto es monumental
+y te impresiona el gran tamanio de ella.  El camino termina aqui y se abre
+en 2 brazos que van hacia el norte y el sur.  Al parecer cualquiera de ellos
+te hara rodear la montana.  
+~
+0 0 0
+D0
+~
+~
+0 0 21079
+D2
+~
+~
+0 0 21080
+D3
+~
+~
+0 0 21077
+S
+#21079
+Base de la montana.~
+Continuas rodeando la montana....  Piedras y acantilados adornan el
+lugar.  Al parecer el acceso desde aqui es imposible pero tal vez si rodeas
+la montana........  
+~
+0 0 0
+D0
+~
+~
+0 0 21081
+D2
+~
+~
+0 0 21078
+S
+#21080
+Base de la montana~
+Caminas un largo trecho por el lado sur de la montana.  Cuerpos mutilados
+estan por todas partes,tripas de orcos, y muchas cosas que son
+#BINDESCRIPTIBLES#b.  Para gran sorpresa tuya hay una piedra al este que
+parece que fue movida hace algun tiempo.  Al sur ves un gran precipicio.  
+~
+0 0 0
+D0
+~
+~
+0 0 21078
+D1
+~
+roca~
+ABC 21053 21089
+D2
+~
+~
+0 0 21084
+S
+#21081
+Base de la Montana~
+Una flecha botada en el suelo con un penacho negro llama tu atencion. 
+Ademas hay una piedra con inscripciones runicas que no logras entender,
+mejor sera que decidas que camino tomar.  
+~
+0 0 0
+D0
+~
+~
+0 0 21082
+D2
+~
+~
+0 0 21079
+S
+#21082
+Esquina Sur-Este de la Montana~
+Por fin encuentras un camino al este, el cual te llevara al limite sur de
+la montana.  Ahora logras reconocer huellas de orcos.  
+~
+0 0 0
+D1
+~
+~
+0 0 21083
+D2
+~
+~
+0 0 21081
+S
+#21083
+Limite Sur de la montana.~
+Has llegado al limite sur de la montana.  Algunos orcos parecen haber
+transitado por aqui.  Parece haber habido un gran ajetreo ya que hay espadas
+rotas, cabezas separadas de sus cuerpos, etc....  La guerra comenzo...  
+~
+0 0 0
+D3
+~
+~
+0 0 21082
+S
+#21084
+Precipicio~
+Estas en un precipicio escalonado, si no tienes cuidado te caeras.  Esta
+totalmente oscuro aqui,y los bordes de las piedras te desgarran la piel.  
+~
+0 0 11
+D0
+~
+~
+0 0 21080
+D5
+~
+~
+0 0 21085
+S
+#21085
+Precipicio~
+Estas !!!!!CAYENDOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!
+~
+0 0 11
+D4
+~
+~
+0 0 21084
+D5
+~
+~
+0 0 21086
+S
+#21086
+Precipicio~
+AAAAAAGGGGGGHHHHHHHHHHHHHH!!!!!!!!!!!!!! 
+AAAAAAGGGGGGGGGGGGHHHHHHHHHHHH!!!!!!!!!!!  Sigues cayendooooooooooo!!!!!!  
+~
+0 0 11
+D4
+~
+~
+0 0 21085
+D5
+~
+~
+0 0 21087
+S
+#21087
+Precipicio~
+AAAAAAAAAAGGGGGGGGGGGJHHHHHHHHHHHHHHH!!!!!  AaaaaaaaGGGGGGhhhhhhh!!!!!  
+~
+0 0 11
+D4
+~
+~
+0 0 21086
+D5
+~
+~
+0 0 21088
+S
+#21088
+Fin del precipicio.~
+#B PAF!!  #b Has caido unos cuantos metros y ya llegaste al final del
+precipicio.  Ahora averigua como cresta sales de aqui.  
+~
+0 0 11
+D4
+~
+~
+0 0 21087
+R enter 21088 100~
+S
+#21089
+Dentro de una caverna~
+Has entrado a una caverna totalmente oscura, el olor a polvo se siente
+por todas partes.  El camino continua al norte.  
+~
+0 A 0
+D0
+~
+~
+0 0 21090
+D3
+~
+~
+ABC 0 21080
+S
+#21090
+Camino al corazon de la montana~
+Has entrado ya en un tunel que te conducira al corazon de la montana.  El
+lugar esta en completa oscuridad y gotas de agua caen por entre las grietas.
+~
+0 A 0
+D0
+~
+~
+0 0 21092
+D1
+~
+~
+0 0 21091
+D2
+~
+~
+0 0 21089
+D3
+~
+~
+0 0 21093
+S
+#21091
+Dentro de la Montana~
+Estas dentro de la montana solitaria, las cavernas se abren en distintas
+direcciones.  Numerosas piedras brillantes estan botadas en el lugar, al
+parecer algunos de los tuneles no son naturales, y evidentemente la montana
+fue socavada por seres desconocidos.  
+~
+0 A 0
+D0
+~
+~
+0 0 21094
+D3
+~
+~
+0 0 21090
+S
+#21092
+Camino al 1er nivel de la Montana~
+El camino continua al norte, o por lo menos lo que tu consideras que es
+el norte, porque desde que entraste aqui has perdido gran parte del sentido
+de la orientacion.  Al fondo puedes ver que el camino es mas amplio.  
+~
+0 0 0
+D0
+~
+~
+0 0 21096
+D2
+~
+~
+0 0 21090
+S
+#21093
+Dentro de la montana~
+El silencio de los tuneles a veces se ve interrumpido por algunas gotas
+de agua que se filtran por las grietas de las paredes.  Te sobrecoge el
+ambiente y una leve corriente de aire te sopla en la cara.  
+~
+0 A 0
+D1
+~
+~
+0 0 21090
+D2
+~
+~
+0 0 21095
+S
+#21094
+Una pequena mina~
+Estas en una pequena excavacion que no fue terminada y al parecer fueron
+los enanos los que trabajaron aqui durante algun tiempo.  Para suerte tuya
+dejaron numerosos tesoros en el lugar.  
+~
+0 A 0
+D2
+~
+~
+0 0 21091
+S
+#21095
+Tunel sin salida~
+El reducido tunel termina abrutamente aqui.  La ausencia de tesoros y los
+numerosos cadaveres de enanos llaman tu atencion.  El olor a putrefaccion se
+siente por todas partes.  
+~
+0 A 0
+D0
+~
+~
+0 0 21093
+S
+#21096
+1er Nivel de La Montana Solitaria~
+Estas en el primer nivel de la montana, puedes ver que el lugar esta
+extranamente iluminado y una sensacion de paz se siente en el aire.  Ahora
+si que estas realmente confuso porque hay salidas en todas direcciones,
+incluso hay una pequena escalerilla que te lleva hacia arriba y en el otro
+costado de la habitacion hay otra escalera de desciende hacia las
+tinieblas.....  
+~
+0 0 0
+D0
+~
+~
+0 0 21099
+D1
+~
+~
+0 0 21098
+D2
+~
+~
+0 0 21092
+D3
+~
+~
+0 0 21097
+D4
+~
+~
+0 0 21013
+D5
+~
+~
+0 0 21012
+R enter 21020 100~
+S
+#21097
+1er nivel de la Montana Solitaria~
+Un pequeno tunel finaliza aqui para dar paso a un estrecho pasaje.  Crees
+que es imposible que algun ser humano logre pasar por ahi.  La habitacion
+tiene el suelo con una gran mancha negra que aun esta caliente.  Al parecer
+es un mancha de fuego.  
+~
+0 0 0
+D1
+~
+~
+0 0 21096
+S
+#21098
+1er nivel de la Montana Solitaria~
+La salida que se encuentra hacia el norte es lo que mas te interesa... 
+El silencio es interrumpido a veces por unos enormes ronquidos, o lo que
+crees que son ronquidos.  
+~
+0 0 0
+D0
+~
+~
+0 0 21014
+D3
+~
+~
+0 0 21096
+S
+#21099
+1er nivel de la Montana Solitaria~
+Estas en un camino muy escabroso que no sabes donde te llevara.  El lugar
+esta relativamente iluminado y no hay nada que llame tu atencion.  Puedes
+volver a la gran sala devolviendote hacia el sur o puedes continuar al norte
+para seguir explorando.  
+~
+0 0 0
+D0
+~
+~
+0 0 21015
+D2
+~
+~
+0 0 21096
+S
+#0
+
+
+
+#SPECIALS
+M 21004 spec_breath_any
+M 21055 spec_breath_any
+M 21057 spec_guard
+M 21060 spec_assassin
+M 21061 spec_breath_any
+M 21062 spec_cast_cleric
+M 21064 spec_cast_cleric
+M 21067 spec_guard
+M 21068 spec_guard
+M 21072 spec_guard
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 21008 0 2
+D 0 21009 2 2
+D 0 21016 1 1
+D 0 21019 3 1
+D 0 21031 3 1
+D 0 21033 1 1
+D 0 21037 2 1
+D 0 21038 0 1
+D 0 21045 0 1
+D 0 21046 2 1
+D 0 21047 0 1
+D 0 21048 2 1
+D 0 21059 0 1
+D 0 21060 2 1
+D 0 21080 1 2
+D 0 21089 3 2
+M 0 21003 30 21007 3
+E 0 21001 0 16
+M 0 21003 30 21007 3
+E 0 21001 0 16
+M 0 21003 30 21007 3
+E 0 21001 0 16
+M 0 21001 4 21008 2
+G 0 21000 0
+E 0 21002 0 16
+M 0 21001 4 21008 2
+E 0 21002 0 16
+M 0 21002 5 21009 1
+M 0 21069 1 21013 1
+E 0 21051 0 16
+M 0 21061 1 21014 1
+M 0 21070 1 21015 1
+E 0 21051 0 16
+O 0 21054 0 21017
+M 0 21056 1 21019 1
+E 0 21003 0 3
+M 0 21071 1 21020 1
+E 0 21051 0 16
+M 0 21072 1 21022 1
+E 0 21051 0 16
+M 0 21003 15 21022 2
+M 0 21058 1 21023 1
+M 0 21001 10 21023 10
+E 0 21001 0 16
+G 0 21005 0
+M 0 21050 10 21028 1
+G 0 21001 0
+G 0 21005 0
+M 0 21067 1 21030 1
+E 0 21003 0 3
+E 0 21064 0 16
+M 0 21068 1 21035 1
+E 0 21051 0 16
+M 0 21003 1 21036 1
+M 0 21060 1 21047 1
+G 0 21055 0
+E 0 21056 0 6
+E 0 21057 0 16
+E 0 21058 0 17
+G 0 21059 0
+E 0 21060 0 8
+M 0 21004 1 21048 1
+G 0 21004 0
+G 0 21005 0
+G 0 21006 0
+O 0 21055 0 21048
+M 0 21063 1 21050 1
+M 0 21000 30 21053 1
+M 0 21059 1 21054 1
+M 0 21066 15 21059 1
+G 0 21063 0
+M 0 21050 1 21059 1
+G 0 21059 0
+O 0 21050 0 21059
+M 0 21052 1 21062 1
+E 0 21052 0 5
+M 0 21051 1 21064 1
+E 0 21051 0 16
+M 0 21066 15 21065 1
+G 0 21063 0
+M 0 21064 1 21066 1
+M 0 21066 1 21070 1
+G 0 21063 0
+M 0 21065 1 21070 1
+M 0 21066 15 21071 1
+G 0 21063 0
+M 0 21066 15 21072 1
+G 0 21063 0
+M 0 21053 1 21074 1
+M 0 21054 1 21074 1
+M 0 21055 1 21074 1
+M 0 21062 1 21075 1
+E 0 21061 0 2
+M 0 21003 40 21080 1
+G 0 21053 0
+M 0 21003 15 21090 5
+G 0 21005 0
+E 0 21001 0 16
+M 0 21003 15 21090 4
+G 0 21005 0
+M 0 21057 1 21091 1
+M 0 21073 1 21094 1
+M 0 21057 15 21094 2
+O 0 21054 0 21094
+M 0 21057 15 21095 3
+M 0 21003 15 21096 2
+G 0 21005 0
+M 0 21003 15 21096 3
+G 0 21005 0
+M 0 21003 15 21097 5
+G 0 21005 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

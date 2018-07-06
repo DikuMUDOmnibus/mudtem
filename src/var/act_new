@@ -1,0 +1,149 @@
+void act_new( const char *format, CHAR_DATA *ch, const void *arg1, 
+	      const void *arg2, int type, int min_pos)
+{
+/*
+    static char * const he_she  [] = { "it",  "he",  "she" };
+    static char * const him_her [] = { "it",  "him", "her" };
+    static char * const his_her [] = { "its", "his", "her" };
+*/
+    static char * const he_she  [] = { "eso",  "el",  "ella" };
+    static char * const him_her [] = { "it",  "him", "her" };
+    static char * const his_her [] = { "su", "su", "su" };
+    static char * const o_a	[] = { "o", "o", "a" };
+    char buf[MAX_STRING_LENGTH];
+    char fname[MAX_INPUT_LENGTH];
+    CHAR_DATA *to;
+    CHAR_DATA *vch = (CHAR_DATA *) arg2;
+    OBJ_DATA *obj1 = (OBJ_DATA  *) arg1;
+    OBJ_DATA *obj2 = (OBJ_DATA  *) arg2;
+    const char *str;
+    const char *i;
+    char *point;
+
+    /*
+     * Discard null and zero-length messages.
+     */
+    if ( format == NULL || format[0] == '\0' )
+        return;
+
+    if( ch == NULL || ch->in_room == NULL )
+		return;
+
+    to = ch->in_room->people;
+
+    if ( type == TO_VICT )
+    {
+		if ( vch==NULL )
+		{
+			bug( "Act: null vch with TO_VICT.", 0 );
+			return;
+		}
+
+		if (vch->in_room==NULL)
+			return;
+
+        to = vch->in_room->people;
+    }
+
+	for ( ; to != NULL; to = to->next_in_room )
+	{
+		if ( ( to->desc == NULL && ( !IS_NPC(to) || !HAS_TRIGGER(to, TRIG_ACT) ) )
+		||	(to->position < min_pos) )
+			continue;
+
+/*		if ( (!IS_NPC(to) && (to->desc == NULL) )
+		||   ( IS_NPC(to) && !HAS_TRIGGER(to, TRIG_ACT) )
+		||    to->position < min_pos )
+			continue; */
+
+        if ( type == TO_CHAR && to != ch )
+            continue;
+        if ( type == TO_VICT && ( to != vch || to == ch ) )
+            continue;
+        if ( type == TO_ROOM && to == ch )
+            continue;
+        if ( type == TO_NOTVICT && (to == ch || to == vch || IS_SET(to->comm, COMM_NOSPAM)) )
+            continue;
+ 
+        point   = buf;
+        str     = format;
+        while ( *str != '\0')
+        {
+            if ( *str != '$' )
+             {
+                 *point++ = *str++;
+                 continue;
+             }
+            ++str;
+
+            if ( arg2 == NULL && *str >= 'A' && *str <= 'Z' )
+            {
+                bug( "Act: missing arg2 for code %d.", *str );
+		bugf( "Mensaje : %s", format );
+		i = " <@@@> ";
+            }
+            else
+            {
+                switch ( *str )
+                {
+                default:  bug( "Act: bad code %d.", *str );
+                          i = " <@@@> ";                                break;
+                /* Thx alex for 't' idea */
+                case 't': i = (char *) arg1;                            break;
+                case 'T': i = (char *) arg2;                            break;
+                case 'n': i = PERS( ch, to );				break;
+                case 'N': i = PERS( vch, to  );				break;
+                case 'e': i = he_she  [URANGE(0, ch  ->sex, 2)];        break;
+                case 'E': i = he_she  [URANGE(0, vch ->sex, 2)];        break;
+                case 'm': i = him_her [URANGE(0, ch  ->sex, 2)];        break;
+                case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
+                case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
+                case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
+                case 'o': i = o_a     [URANGE(0, ch  ->sex, 2)];	break;
+                case 'O': i = o_a     [URANGE(0, vch ->sex, 2)];	break;
+
+                case 'p':
+                    i = can_see_obj( to, obj1 )
+                            ? obj1->short_descr
+                            : "algo";
+                    break;
+
+                case 'P':
+                    i = can_see_obj( to, obj2 )
+                            ? obj2->short_descr
+                            : "algo";
+                    break;
+
+                case 'd':
+                    if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
+                    {
+                        i = "puerta";
+                    }
+                    else
+                    {
+                        one_argument( (char *) arg2, fname );
+                        i = fname;
+                    }
+                    break;
+                }
+            }
+
+            ++str;
+            while ( ( *point = *i ) != '\0' )
+                ++point, ++i;
+        }
+ 
+        *point++ = '\n';
+        *point++ = '\r';
+ 	*point   = '\0';
+        buf[0]   = UPPER(buf[0]);
+ 	if ( to->desc )
+/*      write_to_buffer( to->desc, buf, point - buf ); */
+		send_to_char( buf, to );
+ 	else
+ 	if ( MOBtrigger )
+ 		mp_act_trigger( buf, to, ch, arg1, arg2, TRIG_ACT );
+    }
+    return;
+}
+

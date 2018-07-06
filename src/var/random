@@ -1,0 +1,346 @@
+void    wield_random_magic args( (CHAR_DATA *mob) );
+void    wield_random_armor args( (CHAR_DATA *mob) );
+
+		///
+		if ( !ch->random && !IS_SET(ch->act, ACT_PET) ) /* codigo para objs random */
+		{
+			if (CHANCE(3))
+				wield_random_magic( ch );
+			if (CHANCE(3))
+				wield_random_armor( ch );
+			ch->random = TRUE;
+		}
+
+#define nelems(a) (sizeof (a)/sizeof (a)[0])
+
+/* Calculate a meaningful modifier and amount */
+void random_apply( OBJ_DATA *obj, CHAR_DATA *mob )
+{
+   static int attrib_types[] = { APPLY_STR, APPLY_DEX, APPLY_DEX, APPLY_INT,
+      APPLY_INT, APPLY_WIS, APPLY_CON, APPLY_CON, APPLY_CON };
+   static int power_types[] = { APPLY_MANA, APPLY_HIT, APPLY_MOVE, APPLY_AC };
+   static int combat_types[] = { APPLY_HITROLL, APPLY_HITROLL, APPLY_DAMROLL,
+      APPLY_SAVING_SPELL, APPLY_SAVING_SPELL, APPLY_SAVING_BREATH };
+
+   AFFECT_DATA *paf     = new_affect();
+   paf->where           = TO_OBJECT;
+   paf->level           = obj->level;
+   paf->type            = -1;
+   paf->duration        = -1;
+   paf->bitvector       = 0;
+   paf->next            = obj->affected;
+   obj->affected        = paf;
+   switch (number_bits(2)) {
+   case 0:
+      paf->location  = attrib_types[number_range(0, nelems(attrib_types)-1)];
+      paf->modifier  = 1;
+      break;
+   case 1:
+      paf->location  = power_types[number_range(0, nelems(power_types)-1)];
+      paf->modifier  = number_range(mob->level/2, mob->level);
+      break;
+   case 2:
+   case 3:
+      paf->location  = combat_types[number_range(0, nelems(combat_types)-1)];
+      paf->modifier  = number_range(1, mob->level/6+1);
+      break;
+   }
+
+   SET_BIT(obj->extra_flags, ITEM_MAGIC);
+
+   /* Is item cursed? */
+   if (number_percent() <= 5)
+      {
+      paf->modifier = -paf->modifier;
+      SET_BIT(obj->extra_flags, ITEM_NODROP);
+      if (number_percent() <= 15)
+	 SET_BIT(obj->extra_flags, ITEM_NOREMOVE);
+      }
+}
+
+/* Jewelry stuff */
+static char *adj1[] = { "esplendid", "antigu", "polvorient",
+   "agrietad", "pesad", "dorad", "fantasmal", "humeante", "plan",
+   "arrugad", "livian", "ancestral" };
+static char *adj2[] = { "diamante", "esmeralda", "topacio", "madera", "jade",
+   "mithril", "onyx", "lata", "vidrio", "marmol", "carbon", "granito", "cemento",
+   "concreto", "adobe", "fierro", "zinc" };
+
+#define MASK_IGNORE     (1<<TAR_IGNORE)
+#define MASK_OFFENSIVE  (1<<TAR_CHAR_OFFENSIVE)
+#define MASK_DEFENSIVE  (1<<TAR_CHAR_DEFENSIVE)
+#define MASK_SELF       (1<<TAR_CHAR_SELF)
+#define MASK_INV        (1<<TAR_OBJ_INV)
+
+#define CLASS_MAGE       0
+#define CLASS_CLERIC     1
+
+/* Returns a clerical or magical spell of the appropriate (masked) type */
+int random_spell( int level, int mask, sh_int *type )
+{
+   for ( ;; )
+      {
+	int skill_no = number_range(0, MAX_SKILL-1);
+
+	if ( skill_table[skill_no].name != NULL &&
+		(skill_table[skill_no].skill_level[CLASS_MAGE] <= level ||
+		skill_table[skill_no].skill_level[CLASS_CLERIC] <= level) &&
+		(skill_table[skill_no].spell_fun != spell_null) && /* an actual spell? */
+		mask & (1<<skill_table[skill_no].target))  /* appropriate? */
+	 {
+		*type = skill_table[skill_no].target;
+		return skill_no;
+	 }
+      }
+}
+
+/* Wands/Staves/Potions/Pills and bags */
+void wield_random_magic( CHAR_DATA *mob )
+{
+   int item_type = number_range(49, 54);  /* Get template obj from LIMBO.ARE */
+   OBJ_INDEX_DATA *pObjIndex = get_obj_index( item_type );
+   OBJ_DATA *obj = create_object( pObjIndex, number_fuzzy( mob->level ) );
+   sh_int type;
+   int  n_adj1  = number_range(0, nelems(adj1) - 1);
+   int  n_adj2  = number_range(0, nelems(adj2) - 1);
+   int  temp = 0, temp2 = 0;
+   char buffer[256], buffer2[256];
+   char buf[MAX_STRING_LENGTH];
+   char *material = NULL;
+
+   /* Potion stuff */
+   static char *potions[] = { "botella", "jarro", "pocion", "locion", "unguento" };
+   static bool  potions2[] = { FALSE, TRUE, FALSE, FALSE, TRUE };
+
+   /* Pill stuff */
+   static char *pills[] = { "bolsa de polvo", "panal", "raiz", "hoja",
+      "cristal", "semilla", "pildora", "pastilla", "sandwich" };
+   static bool  pills2[] = { FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, TRUE };
+
+   /* Bag types (no wearable belts/backpacks... yet) */
+   static char *skins[] = { "piel de lamia", "tela", "cuero", "cuero curtido", "plastico",
+      "piel de zebra", "fierro", "cemento", "concreto", "mithril", "satin", "seda" };
+   static char *bags[] = { "bolso", "balde", "cesto", "jarro", "caja", "saco" };
+   static bool  bags2[] = { TRUE, TRUE, TRUE, TRUE, FALSE, TRUE };
+
+   switch (item_type) {
+   case 49: /* scroll */
+      sprintf(buffer, " %s %s%s",
+      	CHANCE(50) ? "papiro" : "papel",
+      	adj1[n_adj1], tipo2(adj1[n_adj1], TRUE) );
+      material = adj2[n_adj2];
+      obj->value[0] = number_range(mob->level / 2 + 1, mob->level * 3 / 2+1); /* level */
+      obj->value[0] = URANGE(1, obj->value[0], 36);
+      obj->value[1] = random_spell(obj->value[0],
+	 MASK_IGNORE|MASK_OFFENSIVE|MASK_DEFENSIVE|MASK_SELF, &type);
+      if (number_percent() < 50)
+	 obj->value[2] = random_spell(obj->value[0], 1<<type, &type);
+      break;
+   case 50: /* wand */
+      sprintf(buffer, "a varita %s%s", adj1[n_adj1], tipo2(adj1[n_adj1], FALSE) );
+      material = adj2[n_adj2];
+      obj->value[0] = number_range(mob->level / 3 + 1, mob->level * 3 / 2);  /* level */
+      obj->value[0] = URANGE(1, obj->value[0], 36);
+      obj->value[1] = number_fuzzy(mob->level / 2 + 3); /* max charges */
+      obj->value[2] = number_range(1, obj->value[1]);   /* charges left */
+      obj->value[3] = random_spell(obj->value[0], MASK_OFFENSIVE, &type);
+      break;
+   case 51: /* staff */
+      sprintf(buffer, "a vara %s%s", adj1[n_adj1], tipo2(adj1[n_adj1], FALSE) );
+      material = adj2[n_adj2];
+      obj->value[0] = number_range(mob->level / 4 + 1, mob->level * 3 / 2);  /* level */
+      obj->value[0] = URANGE(1, obj->value[0], 36);
+      obj->value[1] = number_fuzzy(mob->level / 2 + 3); /* max charges */
+      obj->value[2] = number_range(1, obj->value[1]);   /* charges left */
+      obj->value[3] = random_spell(obj->value[0],
+	 MASK_IGNORE|MASK_OFFENSIVE|MASK_DEFENSIVE|MASK_SELF, &type);
+      break;
+   case 52: /* potion */
+	temp = number_range(0, nelems(potions) - 1);
+	sprintf( buffer, "%s %s %s%s", ( potions2[temp] == TRUE ? "" : "a" ) ,
+		 potions[temp], adj1[n_adj1], tipo2( adj1[n_adj1], potions2[temp] ) );
+      material = "vidrio";
+      obj->value[0] = number_range(mob->level / 2+1, mob->level * 3 / 2+1); /* level */
+      obj->value[0] = URANGE(1, obj->value[0], 36);
+      obj->value[1] = random_spell(obj->value[0], MASK_DEFENSIVE, &type);
+      if (number_percent() < 50)
+	 obj->value[2] = random_spell(obj->value[0], MASK_DEFENSIVE, &type);
+      break;
+   case 53: /* pill */
+	temp = number_range(0, nelems(potions) - 1);
+	sprintf(buffer, "%s %s %s%s", ( pills2[temp] == TRUE ? "" : "a" ),
+	pills[temp], adj1[n_adj1], tipo2(adj1[n_adj1], pills2[temp]) );
+	material = adj2[n_adj2];
+      obj->value[0] = number_range(mob->level / 2+1, mob->level * 3 / 2+1); /* level */
+      obj->value[0] = URANGE(1, obj->value[0], 36);
+      obj->value[1] = random_spell(obj->value[0], MASK_DEFENSIVE, &type);
+      if (number_percent() < 50)
+	 obj->value[2] = random_spell(obj->value[0], MASK_DEFENSIVE, &type);
+      break;
+   case 54: /* bag */
+	temp = number_range(0, nelems(bags) - 1);
+	temp2 = number_range(0, nelems(skins) - 1 );
+      sprintf(buffer, "%s %s de %s", ( bags2[temp] == TRUE ? "" : "a" ),
+	 bags[temp], skins[temp2] );
+      material = skins[temp2];
+      obj->value[0] = number_range(mob->level, mob->level * 25); /* weight */
+      obj->value[1] = number_range(0, 1);
+      obj->value[2] = -1;
+      obj->value[3] = number_range(mob->level, mob->level * 25);
+      obj->value[4] = number_range(80,100);
+      break;
+   };
+
+   /* Generate the description strings */
+   if (buffer[0] == ' ')
+	sprintf(buffer2, "random %s", &buffer[1]);
+   else
+	sprintf(buffer2, "random %s", &buffer[2]);
+
+   free_string( obj->name );
+   obj->name = str_dup( buffer2 );
+
+   sprintf( buf, "un%s", buffer );
+   free_string( obj->short_descr );
+   obj->short_descr = str_dup( buf );
+
+   free_string( obj->description );
+   sprintf( buf, "%s esta aqui.", obj->short_descr );
+   buf[0] = UPPER(buf[0]);
+   obj->description = str_dup( buf );
+
+   free_string( obj->material );
+   obj->material = str_dup( material );
+
+   obj->weight = number_range((obj->level + 1) * 2, (obj->level + 1) * 5 );
+
+   obj->enchanted = TRUE;
+
+   /* Put the item in the mob's inventory */
+   obj_to_char( obj, mob );
+}
+
+/* Anything wearable, and trinkets */
+void wield_random_armor( CHAR_DATA *mob )
+{
+   int item_type = number_range(0, 17 ); /* template from LIMBO.ARE */
+   OBJ_INDEX_DATA *pObjIndex = get_obj_index( item_type + 31 );
+   OBJ_DATA *obj = create_object( pObjIndex, number_fuzzy( mob->level ) );
+   int    n_adj1 = number_range(0, nelems(adj1)-1);
+   int    n_adj2 = number_range(0, nelems(adj2)-1);
+   char *name = "random";
+   char *material = NULL;
+
+   /* Armor stuff */
+   static char *armor_types[] = { "cuero", "cuero tachonado", "bronce",
+      "cadenas", "laminas", "mithril", "cemento", "concreto", "oro", "plata" };
+
+   /* Weapon stuff */
+   static char *weapon_types[] = { "espada", "espada corta", "daga",
+   "martillo", "maza", "latigo", "vara", "mayal", "lanza", "hacha", "machete",
+   "sierra electrica", "barra", "tridente", "cortapluma", "estaca" };
+   static int   weapon_dam[] = { 3, 11, 11, 8, 7, 6, 27 };
+   static int   weapon_class[] = { WEAPON_SWORD, WEAPON_SWORD, WEAPON_DAGGER,
+   WEAPON_MACE, WEAPON_MACE, WEAPON_WHIP, WEAPON_SPEAR, WEAPON_FLAIL,
+   WEAPON_SPEAR, WEAPON_AXE, WEAPON_AXE, WEAPON_POLEARM, WEAPON_MACE,
+   WEAPON_SPEAR, WEAPON_DAGGER, WEAPON_DAGGER };
+
+   /* Trinket stuff */
+   static char *noun[] = { "guijarro", "cetro", "roca", "amuleto", "fetiche",
+      "hueso", "joya" };
+   char buffer[MAX_STRING_LENGTH];
+
+   char buf[MAX_STRING_LENGTH];
+
+   if (obj->item_type == ITEM_ARMOR)
+   {
+	int armor_type = URANGE(0, mob->level/5, nelems(armor_types)-1);
+
+	name = ( material = armor_types[armor_type] );
+	obj->value[0] = number_range(0, 30 * (mob->level / (float) LEVEL_HERO) );
+	obj->value[1] = number_range(0, 30 * (mob->level / (float) LEVEL_HERO) );
+	obj->value[2] = number_range(0, 30 * (mob->level / (float) LEVEL_HERO) );
+	obj->value[3] = number_range(0, 20 * (mob->level / (float) LEVEL_HERO) );
+
+	if (CHANCE(mob->level / 2))
+		random_apply(obj, mob);
+   }
+   else if (obj->item_type == ITEM_WEAPON)
+   {
+	int wea_type = number_range(0, nelems(weapon_types)-1);
+
+	name = weapon_types[wea_type];
+	obj->value[0] = weapon_class[wea_type];
+	obj->value[1] = number_range(2+number_range(0,mob->level/4),3 + mob->level/4);
+	obj->value[2] = number_range(2+number_range(0,mob->level/5),3 + mob->level/5);
+	obj->value[3] = weapon_dam[wea_type];
+   }
+   else if (obj->item_type == ITEM_TREASURE)
+   {
+	if (number_percent() < mob->level)
+	{
+		random_apply(obj, mob);
+
+		if (number_percent() < mob->level / 3)
+			random_apply(obj, mob); 
+        }
+
+	if (obj->wear_flags & ITEM_HOLD) /* trinket? */
+		sprintf(buffer, "%s", noun[number_range(0, nelems(noun)-1)] );
+	else /* no, necklace or something */
+		sprintf(buffer, "%s %s", adj1[n_adj1], adj2[n_adj2]);
+	obj->cost = obj->level * 100;
+	name = buffer;
+   }
+
+   obj->level = mob->level;
+
+   if (obj->item_type != ITEM_LIGHT)
+	   sprintf( buf,"random %s %s", name, obj->name );
+   else
+	   sprintf( buf,"%s %s", name, obj->name );
+
+   free_string( obj->name );
+   obj->name = str_dup ( buf );
+
+   if (obj->item_type == ITEM_WEAPON)
+   {
+	if (name == weapon_types[3] || name == weapon_types[5])
+		sprintf(buf, "un %s de %s", name, adj2[n_adj2] );
+	else
+		sprintf(buf, "una %s de %s", name, adj2[n_adj2] );
+   }
+   else
+   if (obj->item_type == ITEM_LIGHT)
+	sprintf( buf, "una %s %s%s", obj->short_descr, adj1[n_adj1],
+	tipo2 (adj1[n_adj1], FALSE) );
+   else
+   if (obj->item_type != ITEM_TREASURE)
+	sprintf( buf, "un%s %s de %s", tipo(obj->short_descr), obj->short_descr, name );
+   else
+	sprintf( buf, "un%s %s de %s", tipo(name), name , adj2[n_adj2] );
+	
+   sprintf( buffer, "%s esta%s aqui en el suelo.", buf,
+   (obj->short_descr)[strlen(obj->short_descr) - 1] == 's' ? "n" : "");
+
+   buffer[0] = UPPER(buffer[0]);
+
+   free_string( obj->short_descr );
+   obj->short_descr = str_dup( buf );
+
+   free_string( obj->description );
+   obj->description = str_dup( buffer );
+
+   free_string( obj->material );
+   if (material)
+	obj->material = str_dup( material );
+   else
+	obj->material = str_dup( adj2[n_adj2] );
+
+   obj->weight = number_range((obj->level + 1) * 2, (obj->level + 1) * 5 );
+
+   obj->enchanted = TRUE;
+
+   obj_to_char( obj, mob );
+   wear_obj( mob , obj , FALSE );
+}

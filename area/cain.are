@@ -1,0 +1,2489 @@
+#AREADATA
+Name Cain~
+Builders None~
+VNUMs 18500 18599
+Credits {50 60} Dracul  Cain~
+Security 9
+Prototipo 0
+Low 0
+High 0
+Clan Cain~
+Version 2
+End
+
+
+
+#MOBILES
+#18500
+sirena~
+La Sirena~
+Una hermosa sirena esta aqui cantando melodias hipnotizadoras.
+~
+Es una hermosa pez-mujer, desnuda de torso te muestras sus pechos.
+Parece embobarte con sus canticos.
+~
+'fish'
+ABFT DJ 0 -1000 500
+32 48 10d10+1100 32d14+100 4d7+30 slap
+-11 -11 -11 -10
+CDEFKLTU E HT 0
+stand stand female 10000
+0 Q medium 'carne'
+L 'cain'
+C 'warrior'
+#18501
+mounstro~
+El mounstro marino~
+Una bestia, un mounstro marina se avalanza sobre ti.
+~
+~
+'fish'
+ABCFT DF 0 -1000 0
+50 150 50d10+5000 50d16+100 10d6+52 bite
+-22 -22 -22 -19
+CDEFKLTU AEH 0 0
+stand stand none 200
+0 0 giant 'carne'
+L 'cain'
+C 'warrior'
+#18502
+Vishnu~
+Vishnu~
+Vishnu, el dios sanador esta aqui abstraido en su meditacion.
+~
+Ante ti hay un dios. Vishnu ha terminando sus reencarnaciones hace ya 10000 anios.
+~
+'god'
+ABQa 0 0 1000 0
+55 36 50d10+7000 55d16+2800 15d6+21 drain
+-25 -25 -25 -25
+TU ABLP 0 IT
+stand stand none 0
+0 0 giant 'niebla'
+L 'cain'
+C 'cleric'
+F off CDELNO
+F par K
+#18503
+guardian~
+El guardian del portal~
+El guardian del Portal Cain, custodia la entrada de los miembros.
+~
+Es el guardian del portal de Cain, jamas ante su cadaver dejara pasar
+a un miembro de otro clan.
+~
+'elf'
+ABFT D 0 0 0
+50 150 50d10+5000 50d16+100 10d6+52 none
+-22 -22 -22 -19
+CDEFHIKLTU 0 0 P
+stand stand none 20
+0 0 medium 'unknown'
+L 'cain'
+C 'warrior'
+#18504
+madre~
+La madre~
+Una madre de un guerrero llora desconsoladamente.
+~
+La madre esta muy buena para la edad que tiene.
+~
+'human'
+AH 0 0 0 0
+10 0 2d7+121 10d11+100 2d4+2 slap
+1 1 1 4
+U 0 0 EHKP
+stand stand none 1000
+0 0 medium 'carne'
+L 'cain'
+C 'warrior'
+F for AHV
+F par BCEFGHIJK
+#18505
+mosca~
+Una mosca~
+Una mosca apestosa revolotea.
+~
+La verdosa mosca te mira con sus 8002 pares de ojos.
+~
+'centipede'
+ABT T 0 0 505
+1 1 2d7+21 1d10+100 1d4+0 bite
+7 7 7 9
+KLTU 0 0 0
+stand stand female 0
+0 0 small 'unknown'
+L 'cain'
+C 'warrior'
+F par C
+#18506
+Joe~
+Joe~
+Joe vende aqui sus deliciosos alimentos.
+~
+El empresario Joe. Conocido en el mundo entero por su campania de marketing
+con su lema "EAT AT JOE'S"
+~
+'human'
+ABT DH 0 100 0
+40 85 25d10+2000 40d15+100 6d6+39 bite
+-14 -14 -14 -13
+CDEFHIKLTU 0 EP 0
+stand stand male 80
+0 0 medium 'unknown'
+L 'cain'
+C 'warrior'
+F for AHV
+F par EFGHIJK
+#18507
+Samaria~
+Samaria~
+La exquisita Samaria, esta aqui mostrando sus piernas.
+~
+~
+'vampire'
+ABR H 0 -1000 0
+51 34 50d10+4000 51d16+2600 5d11+18 none
+-20 -20 -20 -19
+FKTU ABQSZ O FHSY
+stand stand female 0
+0 0 medium 'unknown'
+L 'cain'
+C 'mage'
+F vul X
+F for I
+#18508
+perseo~
+Perseo~
+Perseo, el heroe griego recuerda sus glorias aqui.
+~
+Es Perseo. El asesino de Medusa. Su tamanio es gigantesco.
+Parece estar ensoniado en sus recuerdos de guerra.
+~
+'human'
+ABOT DH 0 0 0
+55 182 50d10+7500 55d16+100 15d8+59 none
+-27 -27 -27 -27
+CDEFHIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'carne'
+L 'cain'
+C 'warrior'
+#18509
+arquimides~
+Arquimides~
+El sabio Arquimides prepara pociones frente a ti.
+~
+Este es Arquimides, un alquimista de la edad media.
+Sus conociminetos acerca de la materia son impresionantes.
+~
+'human'
+ABR DH 0 0 0
+55 36 50d10+6000 55d16+2800 15d5+20 none
+-24 -24 -24 -23
+FKTU 0 0 0
+stand stand male 0
+0 0 medium 'carne'
+L 'cain'
+C 'mage'
+#18510
+ocotlan~
+Ocotolan~
+El maya Ocotlan, busca un par de gargolas perdidas aqui.
+~
+Ocotlan, fue el quinto sacerdote de Ixtacoatl. 
+Prepara a los animales para los sacrificios. Tambien "probaba" a las
+virgenes antes de su muerte.
+~
+'halfelf'
+ABQ H 0 1000 0
+55 36 50d10+7000 55d16+2800 15d6+21 none
+-25 -25 -25 -23
+FIKTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+L 'cain'
+C 'cleric'
+#18511
+jawaharlal~
+Jawaharlal~
+Jawaharlal, el nomade, cuenta sus billetes de las ventas.
+~
+Este es un nomada del sahara, ha recolectado objetos por
+todo el mundo. Quizas tenga algo que te interese.
+~
+'human'
+ABT H 0 -500 0
+55 182 50d10+7500 55d16+100 15d8+59 none
+-27 -27 -27 -24
+CDEFHIKLTU 0 0 0
+stand stand male 120
+0 0 medium 'unknown'
+L 'cain'
+C 'warrior'
+#18512
+mago~
+El mago~
+Un mago pasea arrastrando su tunica.
+~
+El Mago es un novato en cuestiones de la magia.
+ 
+~
+'elf'
+ARW 0 0 -500 0
+20 13 3d9+283 20d12+1100 3d4+4 none
+-4 -4 -4 -3
+FU 0 0 L
+stand stand either 1000
+0 0 medium 'carne'
+L 'cain'
+C 'mage'
+#18513
+gargola~
+la gargola~
+Un enorme Gargola extiende sus alas aqui.
+~
+~
+'dragon'
+ABI 0 0 0 0
+25 16 5d10+550 25d13+1300 2d10+7 none
+-7 -7 -7 -5
+FU 0 0 0
+stand stand male 0
+0 0 medium 'carne'
+L 'cain'
+C 'mage'
+F off M
+#18514
+Jonny~
+Jonny Quest~
+Jonny, resolviendo enigmas, da Quest aqui.
+~
+Este es Jonny Quest, resolvedor de enigmas en todo el mundo.
+Parece estar haciendo un crucigrama.
+~
+'human'
+ABNQ DH 0 0 0
+55 36 50d10+7000 55d16+2800 15d6+21 none
+-25 -25 -25 -23
+FIKTU B EZ 0
+stand stand male 100
+0 0 small 'carne'
+L 'cain'
+C 'cleric'
+#18515
+abraxas~
+Abraxas~
+El alma de Abraxas majestuosa dirige nuestros destinos aqui.
+~
+Es el atman de Abraxas. Posee tres ojos y alas enormes.
+Realmente es un Dios imponente, deberias arrodillarte al menos.
+~
+'god'
+ABS B 0 0 0
+59 59 50d10+8500 59d17+100 20d10+25 none
+-28 -28 -28 -28
+BJTUV BELPQ AHI 0
+stand stand male 0
+0 0 giant 'unknown'
+L 'cain'
+C 'thief'
+F off CDLO
+#18516
+psionica~
+La Psionica~
+Una bella Psionica medita sobre la vida por aqui.
+~
+Es una Psionica hermosa, perfecta union entre
+inteligencia y belleza. Preciosa.
+~
+'elf'
+ACD 0 0 -500 0
+25 16 5d10+450 25d13+1300 2d10+6 none
+-7 -7 -7 -6
+FIKU 0 C 0
+stand stand female 1000
+0 0 medium 'unknown'
+L 'cain'
+C 'psicionist'
+#18517
+cocodrilo~
+un cocodrilo~
+Un cocodrilo de 5 metros esta aqui.
+~
+~
+'lizard'
+AI 0 0 0 0
+20 0 3d9+333 20d12+100 2d8+5 bite
+-4 -4 -4 -3
+CDFK 0 0 0
+stand stand female 0
+0 0 large 'unknown'
+L 'cain'
+C 'thief'
+#18518
+ojo~
+un ojo gigante~
+Un gigante ojo flotante observandolo todo por aqui.
+~
+Un ojo enorme flota aqui. Esta constituido por cientos de ojitos
+pequenios. Parecen muy agresivos.
+~
+'undead'
+AI 0 0 -1000 0
+35 0 10d10+1300 35d14+100 6d5+11 drain
+-11 -11 -11 -11
+CDFHKLTU 0 M P
+stand stand none 1000
+0 0 medium 'ojo'
+L 'cain'
+C 'warrior'
+F par ABCDEFGHIJ
+#18519
+pantera blanca~
+una pantera~
+Una hermosa pantera blanca lame su cuerpo aqui.
+~
+Es una hermosa Pantera Chilena, blanca como los Andes.
+~
+'animal'
+AI 0 0 200 0
+29 0 6d12+778 29d13+100 2d12+8 claw
+-9 -9 -9 -7
+DFKLTU 0 E 0
+stand stand none 0
+0 0 medium 'unknown'
+L 'cain'
+C 'thief'
+F off I
+#18520
+yeti~
+un yeti~
+El yeti, abominable hombre de las nieves esta aqui.
+~
+~
+'bear'
+AI 0 0 0 0
+43 28 25d10+2500 43d15+2200 10d4+15 crush
+-15 -15 -15 -13
+CFHKLTU 0 0 0
+stand stand male 0
+HM GI giant 'carne'
+L 'cain'
+C 'ranger'
+#18521
+unicornio~
+un unicornio~
+Un hermoso unicornio blanco esta aqui.
+~
+Es un bello unicornio blanco. Pertenecia a un hacendado griego.
+Mueve sus alas grandiosamente.
+~
+'caballo'
+AI T 0 1000 0
+30 0 6d12+853 30d13+100 4d6+8 none
+-9 -9 -9 -8
+FTU 0 0 0
+stand stand female 0
+0 0 medium 'carne'
+L 'cain'
+C 'warrior'
+F off CI
+#18522
+cefalopodo~
+un cefalopodo~
+Un cefalopodo se rasca aqui.
+~
+Es un animal de solo pies y cabeza, un cefalopodo para ser mas
+extacto. Su origen parace ser las cavernas de Moria.
+~
+'animal'
+AI V 0 0 0
+15 0 3d9+208 15d11+100 2d6+3 none
+-2 -2 -2 0
+0 0 EL 0
+stand stand none 0
+0 0 medium 'unknown'
+L 'cain'
+C 'warrior'
+F par F
+#18536
+espiritu cain~
+un espiritu~
+El espiritu de cain protege sus dominios.
+~
+~
+'god'
+AFGOQ BPQZ 0 1000 0
+52 34 50d10+5500 52d16+2700 10d6+19 wrath
+-22 -22 -22 -22
+TU 0 0 0
+stand stand none 0
+0 0 large 'unknown'
+L 'cain'
+C 'cleric'
+F off CDELNO
+#18537
+sabio~
+El Sabio~
+Un Sabio medita abstraido mientras camina.
+~
+Es un sabio que medita leyendo sus libros de conocimientos.  
+~
+'elf'
+AGQ DFT 0 600 0
+17 11 3d9+258 17d12+900 2d6+3 thrust
+-3 -3 -3 -3
+IU 0 0 C
+stand stand none 10
+I U medium 'unknown'
+L 'cain'
+C 'cleric'
+#18538
+meditador elfo~
+el meditador~
+Un elfo medita aqui, tranquilo, caminando.
+~
+Es un adepto del clan cain, su raza elfica es hermosa.  Es un meditador
+de la sabiduria.  
+~
+'drow'
+ADH 0 0 500 0
+30 20 6d12+703 30d13+1600 2d12+8 scratch
+-9 -9 -9 -8
+FIKTU 0 AB 0
+stand stand none 20
+0 0 small 'unknown'
+L 'cain'
+C 'psicionist'
+#18539
+abel~
+Abel~
+El tabernero, Abel, esta aqui para atenderte.
+~
+~
+'vampire'
+ABJS 0 0 0 0
+55 55 50d10+6500 55d16+100 15d7+22 none
+-24 -24 -24 -24
+BEFHIJKNUV S 0 0
+stand stand none 200
+0 0 medium 'unknown'
+L 'cain'
+C 'thief'
+F vul X
+#18540
+arcangel gabriel~
+El Arcangel~
+Gabriel, brilla, mientras espera tus pedidos.
+~
+~
+'god'
+ABT 0 0 0 0
+50 150 50d10+5000 50d16+100 10d6+52 none
+-22 -22 -22 -22
+TU 0 0 0
+stand stand none 50000
+0 0 medium 'unknown'
+L 'cain'
+C 'warrior'
+F off NO
+#18541
+Remulo~
+Remulo~
+Remulo, el belico, trabaja aqui.
+~
+~
+'human'
+ABQ 0 0 0 0
+50 33 50d10+4500 50d16+2600 5d11+18 none
+-20 -20 -20 -18
+FIKU 0 0 0
+stand stand none 50000
+0 0 medium 'unknown'
+L 'cain'
+C 'cleric'
+#18542
+estatua drakulo~
+La estatua de Dracul~
+Una estatua del fundador del clan, Dracul, majestuosa aqui.
+~
+Es la estatua del primer, miembro de este clan, fundador y creador de
+cuartos, mob, objetos del clan Cain.  Dracul.  
+~
+'vampire'
+ABDH 0 0 0 0
+31 20 6d12+778 31d13+1600 4d6+8 none
+-10 -10 -10 -10
+FIKU S 0 0
+stand stand male 1000
+0 0 medium 'unknown'
+L 'cain'
+C 'psicionist'
+F vul X
+#18543
+romulo~
+Remulo~
+Remulo, el meditador trabaja aqui.
+~
+~
+'elf'
+ABR 0 0 0 0
+50 33 25d10+3750 50d16+2600 13d4+17 slash
+-19 -19 -19 -18
+FKU 0 0 0
+stand stand male 50000
+0 0 medium 'unknown'
+L 'cain'
+C 'mage'
+#18554
+iniciada~
+la iniciada~
+Una iniciada en el clan CAIN, hace su guardia aqui.
+~
+~
+'human'
+ABCD 0 0 0 0
+20 13 3d9+283 20d12+1100 2d7+5 none
+-4 -4 -4 -3
+FIKTU 0 0 C
+stand stand female 0
+0 0 medium 'unknown'
+L 'cain'
+C 'psicionist'
+#0
+
+
+
+#OBJECTS
+#18500
+Hueso~
+un hueso~
+Un hueso blanco con manchas esta tirado aqui.~
+hueso~
+trash 0 AO
+0 0 0 0 0
+0 5 0 W
+F
+A 1 -2 M
+#18501
+Monolito~
+un monolito~
+Un monolito zumbante se alza enorme hasta los cielos.~
+piedra~
+trash BF 0
+0 0 0 0 0
+0 9999 0 P
+#18502
+Letrero~
+un letrero~
+Un letrero parece advertir algo aqui.~
+papel~
+trash A 0
+0 0 0 0 0
+0 1 0 P
+E
+letrero~
+**** CUIDADO ****
+  ****         ****
+  Estas ENTRANDO a
+  territorio de CAIN
+  Solo sus MIEMBROS
+  estaran a SALVO
+  *******************
+ 
+  ESTAS ADVERTIDO
+ 
+ 
+~
+#18503
+Fuente~
+la fuente~
+Una fuente de Plata brota agua pura.~
+plata~
+fountain 0 0
+500 500 'water' 0 0
+1 0 0 P
+#18504
+daga electrica~
+una daga Electrica~
+Un arma electrica zumba aqui.~
+electrico~
+weapon B AN
+dagger 8 7 'charge' 0
+32 50 60000 P
+A
+18 4
+A
+1 1
+N 'cain'
+E
+daga~
+Una daga totalmente azul por la electricidad lista para hacer brotar
+visceras y corazones.
+"
+~
+#18505
+fuente~
+la fuente~
+Una fuente de Oro brota agua pura.~
+oro~
+fountain 0 0
+1000 1000 'water' 0 0
+0 0 0 P
+#18506
+cama~
+una cama~
+Una hermosa cama se observa.~
+madera~
+furniture 0 0
+2 999 L 80 120
+0 0 0 P
+#18507
+llave samaria~
+la llave de Samaria~
+La llave a la habitacion de Samaria.~
+metal~
+key 0 AO
+0 0 0 0 0
+20 56 100 P
+#18509
+punzon~
+un punzon~
+Un punzon de kevlar esta aqui.~
+Kevlar~
+weapon B AN
+dagger 6 5 'stab' 0
+25 20 8000 P
+A
+12 50
+A
+18 2
+N 'cain'
+#18510
+sinawali~
+el Sinawali~
+Aqui, los palos destructores de la diosa Kali.~
+fuego~
+weapon Y AN
+mace 6 5 'pound' 0
+22 150 150000 P
+A
+12 40
+A
+1 1
+N 'cain'
+#18511
+laguna~
+la laguna~
+Una hermosa Laguna se extiende desde Este al Oeste.~
+agua~
+fountain A 0
+1500 1500 'blood' 0 0
+1 0 0 P
+E
+laguna~
+Hermosa laguna cristalina, las sirenan toman sol en ella. Fantastico!!
+~
+#18512
+pie~
+un pie~
+Un pie sabroso esta aqui.~
+pan~
+food 0 A
+40 20 0 0 0
+1 5 20 P
+N 'cain'
+#18513
+estatua~
+la estatua de abraxas~
+Esta frente a ti la mas impresionante estatua del dios Abraxas.~
+Divino~
+trash B 0
+0 0 0 0 0
+0 0 0 P
+#18514
+pollo~
+un pollo~
+Un sabrosisimo pollo asado esta aqui.~
+pollo~
+food 0 A
+80 60 0 0 0
+15 9 100 P
+N 'cain'
+#18515
+pez~
+un pez para comer.~
+Un pez esta botado aqui para comerseerlo.~
+pescado~
+food 0 AO
+50 50 0 0 0
+10 50 50 P
+N 'cain'
+#18516
+cruncher~
+un mazo Cruncher~
+Un Mazo enorme esta aqui.~
+piedra~
+weapon 0 AN
+mace 6 5 'crush' 0
+30 150 50000 P
+A
+1 1
+A
+19 2
+A
+18 2
+N 'cain'
+#18517
+excalibur~
+la Excalibur~
+La espada magica de arturo, la Excalibur.~
+magico~
+weapon AFGLMY AN
+sword 7 8 'slash' 0
+45 400 51000 P
+A
+19 2
+A
+18 2
+N 'cain'
+#18518
+casco perseo~
+el casco de Perseo~
+El casco del heroe griego Perseo esta aqui.~
+indef~
+armor A AE
+9 9 9 9 0
+25 250 50000 P
+A
+18 -2
+A
+5 2
+A
+4 2
+N 'cain'
+#18519
+escudo perseo~
+escudo de Perseo~
+El escudo del heroe griego Perseo esta aqui.~
+magico~
+armor AY AJ
+9 9 9 9 0
+25 250 50000 P
+A
+13 30
+A
+12 80
+N 'cain'
+#18520
+lentes botella~
+unos lentes poto de botella~
+Unos lentes poto de botella estan aqui.~
+vidrio~
+armor A AR
+0 0 0 0 0
+10 20 3000 P
+A
+3 2
+A
+2 -1
+A
+4 2
+N 'cain'
+E
+lentes~
+Unos lentes de enorme vidrio como el poto de una botella brillan
+con la luz. Se ven de alguien muy inteligente.
+"
+~
+#18521
+saco~
+un saco de ladron.~
+EL saco de un gran ladron esta aqui.~
+indef~
+container C A
+500 0 0 20 80
+12 10 12000 P
+N 'cain'
+#18522
+nibelungo~
+el anillo del Nibelungo~
+Un anillo maligno extremadamente poderoso esta aqui.~
+metal~
+armor BEH AB
+3 3 3 9 0
+40 5 9000 P
+A
+2 -1
+A
+5 1
+A
+4 1
+N 'cain'
+E
+anillo~
+Es el anillo del nibelungo. El anillo de la maldad.
+~
+#18523
+escopeta~
+una escopeta~
+Una escopeta de doble canion esta aqui.~
+metal~
+wand 0 AO
+15 10 10 'high explosive' 0
+15 50 20000 P
+A
+2 -1
+N 'cain'
+#18524
+lira~
+una lira~
+Una hermosa lira de sirena esta aqui.~
+cuerdas~
+wand 0 AO
+25 5 5 'domination' 0
+25 2 20000 P
+#18525
+placa~
+una placa brillante~
+Una placa con una rara inscripcion en ella esta aqui.~
+oro~
+light AJ AO
+0 0 800 0 0
+10 10 10000 A
+A
+19 2
+A
+18 2
+A
+4 1
+N 'cain'
+E
+dios~
+El nombre de dios es DRACUL!!!
+~
+E
+inscripcion~
+En esta placa, esta escrito el verdadero nombre de Dios. De ahi su luz.
+~
+#18526
+baculo~
+un baculo~
+El baculo de un hechizero esta aqui.~
+oro~
+wand 0 AO
+24 10 10 'detonate' 0
+25 60 12000 P
+N 'cain'
+#18527
+Susa~
+una Susa~
+Una Susa hindu esta aqui.~
+indef~
+wand G AO
+20 12 12 'demonfire' 0
+28 100 40000 P
+N 'cain'
+#18528
+rosetta~
+la rosetta~
+La piedra rosetta esta aqui.~
+piedra~
+scroll G AO
+15 'displacement' '' '' ''
+15 20 5000 P
+N 'cain'
+E
+rosetta~
+Esta es la piedra Rosetta, escrita en tres idiomas, Griego, Egipcio y Arameo.
+Posee gran sabiduria en sus pasajes.
+~
+#18529
+coran~
+el Coran~
+El libro sagrado de los arabes esta aqui.~
+papel~
+scroll GIL AO
+24 'giant strength' '' '' ''
+25 40 10000 P
+N 'cain'
+#18530
+tanaj~
+un tanaj hebreo~
+Un tanaj hebreo zumba aqui.~
+papel~
+scroll G AO
+20 'heal' 'heal' '' ''
+20 400 100000 P
+N 'cain'
+#18531
+praxis~
+un praxis~
+El praxis ruso esta aqui.~
+indef~
+staff G AO
+15 5 5 'ego whip' 0
+19 20 10000 P
+N 'cain'
+#18532
+cuerno~
+un cuerno de demonio~
+Un cuerno de demonio zumba aqui.~
+cuerno~
+staff BG AO
+30 9 9 'dispel good' 0
+35 40 100000 P
+N 'cain'
+#18533
+negra pocion~
+pocion negra~
+Una pocion negra humea.~
+liquido~
+potion A A
+15 'cure blindness' '' '' ''
+15 20 1000 P
+N 'cain'
+#18534
+grial~
+la pocion del grial~
+El grial de cristo humea aqui.~
+indef~
+potion AG A
+10 'cure disease' 'cure poison' 'cancellation' ''
+15 45 10000 P
+N 'cain'
+#18535
+apiao~
+un apiao~
+Una botella de apiao esta aqui.~
+apio~
+potion G A
+20 'refresh' 'ebriedad' '' ''
+20 40 12000 P
+N 'cain'
+#18536
+mercurio pocion~
+una pocion de mercurio~
+Una pocion de mercurio humea aqui.~
+mercurio~
+potion BG A
+20 'haste' '' '' ''
+20 20 10000 P
+N 'cain'
+#18537
+zumo~
+zumo liquido~
+Una pocion con Zumo esta aqui.~
+indef~
+potion G A
+15 'heal' 'quench' '' ''
+15 50 3000 P
+N 'cain'
+#18538
+peyote jugo~
+un jugo de peyote~
+Un peyote humea aqui.~
+cactus~
+potion GI A
+15 'detect good' 'protection good' '' ''
+20 52 12000 P
+N 'cain'
+#18539
+cetro~
+un cetro~
+El cetro de un rey esta aqui.~
+cobre~
+wand 0 AO
+12 6 6 'domination' 0
+15 10 6000 P
+N 'cain'
+#18540
+alas~
+unas alas de Angel~
+Un par de alas estan aqui.~
+angelical~
+staff IJY AO
+5 5 5 'frost breath' 0
+28 5 150000 P
+F
+A 0 0 T
+N 'cain'
+#18541
+aspid~
+aspid de madera~
+Una serpiente de madera esta aqui.~
+madera~
+wand BEG AO
+20 10 10 'dispel good' 0
+28 50 80000 P
+A
+5 2
+N 'cain'
+E
+serpiente~
+Es una Aspid de madera, la maligna serpiente que mato a Cleopatra.
+~
+#18542
+aro~
+un aro con plumas~
+Un aro con adorno de pluma esta aqui.~
+indef~
+armor BG AS
+4 3 3 6 0
+15 1 5000 P
+A
+1 1
+N 'cain'
+#18543
+banc-o-matic~
+un banc-O-matic~
+Un banc-O-matic esta aqui, a tu servicio.~
+metal~
+trash X 0
+0 0 0 0 0
+0 1000 0 P
+#18544
+espada granito~
+espada de granito~
+Una espada de granito volcanico esta frente a ti.~
+indef~
+weapon BY AN
+sword 5 11 'slash' AF
+50 500 0 P
+#18555
+espada granito~
+una espada de granito~
+Una espada de granito esta en el suelo.~
+granito~
+weapon 0 AN
+sword 5 7 'slash' 0
+25 200 35000 P
+A
+19 2
+A
+18 2
+N 'cain'
+#18556
+coraza~
+una coraza negra~
+Una coraza negra resplandece.~
+indef~
+armor 0 AD
+7 7 7 5 0
+20 40 5000 P
+A
+12 50
+N 'cain'
+#18557
+faja plata~
+faja de plata~
+Un faja de plata, brillante, zumba aqui.~
+metal~
+armor 0 AD
+13 13 13 10 0
+36 80 100000 P
+A
+19 4
+A
+18 4
+N 'cain'
+#18558
+tortuga~
+un caparazon de tortuga~
+Un caparazon de tortuga azul, muy antiguo, aqui.~
+tortuga~
+armor GJ AK
+9 8 9 7 0
+22 100 10000 P
+A
+12 30
+A
+13 50
+N 'cain'
+#18559
+cinturon~
+cinturon de invulnerabilidad~
+Un cinturon magico zumba aqui.~
+indef~
+armor 0 AL
+11 11 11 7 0
+31 30 20000 P
+A
+13 30
+A
+18 2
+A
+24 2
+N 'cain'
+#18560
+collar dunkan~
+dunkan~
+Un collar dunkan, brilla intensamente.~
+indef~
+armor 0 AC
+6 6 6 6 0
+22 5 15000 P
+A
+18 2
+A
+12 25
+N 'cain'
+#18561
+angular~
+una piedra angular~
+Una angular gira entorno a si misma.~
+indef~
+gem 0 AQ
+0 0 0 0 0
+20 1 50000 P
+A
+3 3
+A
+12 -100
+A
+13 -100
+A
+4 2
+N 'cain'
+#18562
+romano~
+cuerpo romano~
+Un cuerpo metalico romano, muy antiguo, aqui.~
+indef~
+armor 0 AD
+12 10 10 10 0
+30 10 55000 P
+A
+18 2
+A
+19 2
+N 'cain'
+#18563
+demonio~
+brazalete de demonio~
+Una piel durisima de demono yace aqui.~
+kevLAR~
+armor 0 AI
+15 15 15 15 0
+38 40 100000 P
+A
+19 3
+A
+13 80
+A
+18 3
+N 'cain'
+#18564
+vikingo~
+un casco vikingo~
+Un casco vikingo yace aqui.~
+kevlar~
+armor 0 AE
+11 11 11 11 0
+35 30 15000 P
+A
+1 1
+A
+12 50
+A
+13 70
+A
+3 -1
+N 'cain'
+#18565
+codera~
+codera de kevlar~
+Una codera negra brilla aqui.~
+kevlar~
+armor 0 AI
+10 10 10 10 0
+25 10 10000 P
+A
+18 1
+A
+19 2
+A
+24 2
+N 'cain'
+#18566
+cristal~
+armadura de cristal~
+Un cristal en forma humana, brilla aqui.~
+indef~
+armor 0 AK
+11 12 11 11 0
+28 80 10000 P
+A
+19 2
+A
+18 2
+A
+24 2
+A
+13 20
+N 'cain'
+#18567
+cinto azul~
+cinto azul~
+Un cinto azul larguisimo, ondea al viento aqui.~
+kevlar~
+armor 0 AL
+9 9 9 9 0
+30 10 3000 P
+A
+18 2
+A
+19 2
+A
+2 2
+N 'cain'
+#18568
+tolkino~
+un tolkino~
+Un brazalete tolkino, negra, humea aqui.~
+indef~
+armor B AM
+11 12 11 11 0
+30 10 15000 P
+A
+19 1
+A
+18 2
+N 'cain'
+#18569
+perneras camello~
+perneras de camello~
+Unas piernas en forma de camello, huecas, estan aqui paradas.~
+indef~
+armor 0 AF
+12 12 12 12 0
+36 11 25000 P
+A
+5 1
+A
+2 1
+A
+14 100
+N 'cain'
+#18570
+botas escamas~
+botas de escamas~
+Un monton de escamas en forma de botas se ve aqui.~
+indef~
+armor 0 AG
+11 11 11 11 0
+28 50 20000 P
+A
+18 2
+A
+19 2
+A
+5 1
+N 'cain'
+#18571
+amuleto cain~
+amuleto de CAIN~
+Un amuleto con el simbolo de Cain , yace aqui.~
+indef~
+armor 0 AC
+5 5 5 5 0
+16 2 10000 P
+A
+18 1
+A
+19 1
+#18572
+guantes cain~
+guantes de CAIN~
+Unos gunates con el simbolo de CAIN, yace aqui.~
+indef~
+armor 0 AH
+5 5 5 5 0
+15 3 1000 P
+A
+12 20
+#18573
+protectores cain~
+protectores de CAIN~
+Un protector muy fuerte, con un simbolo magico, yace aqui.~
+indef~
+armor 0 AI
+5 5 5 5 0
+15 50 1000 P
+A
+5 1
+A
+1 1
+#18574
+luniballa~
+una luniballa~
+Una luniballa yace aqui.~
+indef~
+pill 0 A
+15 'sate' '' '' ''
+20 5 10000 P
+N 'cain'
+#18575
+espada~
+espada de CAIN~
+La Espada magica del CLan Cain esta aqui.~
+kevlar~
+weapon 0 AN
+sword 5 5 'slash' 0
+15 10 25000 P
+A
+19 2
+A
+1 1
+#18576
+lancelaria~
+la Lancelaria~
+La Espada Lancelaria zumba aqui.~
+indef~
+weapon B AN
+sword 6 7 'slash' 0
+30 25 50000 P
+A
+18 2
+A
+19 2
+#18577
+cantimplora~
+una cantimplora~
+Una cantimplora de cuero, gotea aqui.~
+cuero~
+drink 0 A
+50 50 'water' 0 0
+15 10 250 P
+N 'cain'
+#18578
+gomiballa~
+una gomiballa~
+Una gomiballa yace aqui.~
+goma~
+pill 0 A
+15 'quench' '' '' ''
+20 3 10000 P
+N 'cain'
+#18579
+cain bracer~
+bracer de CAIN~
+Unos bracer de CAIN estan aqui.~
+kevlar~
+armor 0 AM
+5 5 5 5 0
+15 20 5000 P
+A
+13 30
+A
+12 20
+#18580
+llamarada~
+un llamarada cain~
+Un llamarada CAIN, listo para beberse aqui.~
+indef~
+drink 0 0
+3 3 'vodka' 0 0
+2 20 100 P
+N 'cain'
+#18581
+pozo donation pit~
+el pozo de los desperdicios~
+El pozo de los desperdicios esta aqui.~
+indef~
+container 0 0
+10000 0 0 10000 100
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#18500
+Puente de Mithril~
+Estas sobre un puente de extranio material. Cruza sobre un rio de lava verde.
+Se ven calaveras y esqueletos flotando en llamas.
+Muy lejos al Norte se ve una Fortaleza.
+~
+0 0 5
+D0
+~
+~
+0 0 18501
+D2
+~
+~
+0 0 901
+D5
+~
+~
+AB 0 18552
+M 100 H 0
+S
+#18501
+Puente de Mithril~
+Continuas en un puente de material zumbante.
+Algunos cuerpos de los profanadores se acumulan en los bordes.
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 18502
+D2
+~
+~
+0 0 18500
+S
+#18502
+Puente de Mitril~
+Estas en un puente de Extranio Material. Cruza sobre un rio de lava verde.
+Algunos animalitos calcinados se ven a la deriva.
+ 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 18504
+D2
+~
+~
+0 0 18501
+S
+#18503
+Rio de lava~
+Has caido en el rio de lava verde incandescente.
+ARDES!!!! TE QUEMAS !!!!!
+ARDES!!!! TE QUEMAS !!!!!!
+ARDES!!! TE QUEMAS !!!!!
+ARDES!!! TE QUEMAS !!!!!
+~
+0 E 0
+D4
+~
+~
+AB 0 18504
+M 0 H 0
+S
+#18504
+Arco Sagrado~
+Te encuentras frente al portal del Arco Sagrado. Figuras talladas en el
+cuentan antiguas historias de imperios caidos.
+En este mismo lugar estuvo hace siglos enterrado las alas de Astaroth.
+ 
+Hacia el norte se escuchan zumbidos de meditaciones y profanas palabras.
+~
+0 0 0
+D0
+~
+~
+0 0 18505
+D2
+~
+piedra~
+0 0 18502
+D5
+Una piedra que parece quebrada.
+~
+~
+AB 0 18503
+S
+#18505
+Bajo el Arco Sagrado~
+Bajo el Arco Sagrado. Pisas tierra de CAIN.  Deberas cuidar tus
+pasos en adelante, y rendir tributo a sus miembros.
+Observas los hermosos muros que parecen vibrar en melodias.
+Todo es extremadamente magico y perverso.
+~
+0 0 0
+D0
+~
+~
+0 0 18506
+D2
+~
+~
+0 0 18504
+S
+#18506
+Arco Sagrado~
+Estas en un extremo del Arco Sagrado. Al norte se extiende la fortaleza
+del asesino de Abel. Al sur el arco continua.
+~
+0 0 2
+D0
+~
+~
+0 0 18507
+D1
+~
+~
+0 0 18508
+D2
+~
+~
+0 0 18505
+D3
+~
+~
+0 0 18509
+S
+#18507
+Portal~
+Frente a ti el portal de la fortaleza.  Ves monjes y magos paseando hacia
+el norte.  Los muros llenos de jeroglificos son una belleza arquitectonica,
+realmente este lugar parece tener siglos de construccion.  Todo es detallado
+y bien elaborado.  
+~
+0 0 0
+D0
+Es el portal al fuerte de Cain.
+~
+~
+0 0 18512
+D2
+~
+~
+0 0 18506
+S
+#18508
+Laguna Cristalina~
+Flotas sobre la laguna de las sirenas.  Algunas de ellas se ven pasar
+bajo el agua.  Son hermosas.  Parecieran hacerte senias coquetas.  
+~
+0 0 6
+D3
+~
+~
+0 0 18506
+S
+#18509
+Laguna cristalina~
+Estas flotando sobre la lagunas de las sirenas.  Se observan algunas
+pasar bajo el agua.  Son hermosas y facinan con su canto.  Algunas parecen
+hacerte senias coquetas.  
+~
+0 0 6
+D1
+~
+~
+0 0 18506
+D5
+~
+~
+AB 0 18510
+S
+#18510
+Bajo el agua~
+Estas bajo el agua.  Las sirenas parecen haber nadado hacia abajo.  Un
+extranio zumbido proviene de las profundidades.  El agua se ve algo turbia
+ahora.  
+~
+0 0 6
+D4
+~
+~
+AB 0 18509
+D5
+~
+~
+0 0 18511
+S
+#18511
+Fondo del la Laguna~
+Has topado fondo. No es comun ya eso?  La respiracion te comienza a faltar.
+Solo ves ojos tremendos, mas grandes que tu incluso. Quizas deberias subir.
+~
+0 0 6
+D4
+~
+~
+0 0 18510
+M 100 H 90
+S
+#18512
+Muros~
+Estas entre los muros de entrada y salida del fuerte de Cain.  El suelo
+esta tapizado de lapidas.  
+~
+0 0 0
+E
+lapidas~
+Son las lapidas de los asesinados por el Clan Cain.
+Estan siendo usadas para tapizar el suelo.
+~
+D0
+~
+~
+0 0 18513
+D2
+~
+~
+0 0 18507
+S
+#18513
+Escalones de Marmol~
+Estas sobre bellos escalones de marmol. Al norte esta el gran santuario. 
+Observas bellas aves y gargolas jugeteando en los prados alrrededor del templo.
+Al sur esta la salida hacia la laguna de las sirenas.
+~
+0 0 2
+D0
+~
+~
+0 0 18514
+D1
+~
+~
+0 0 18516
+D2
+~
+~
+0 0 18512
+D3
+~
+~
+0 0 18517
+S
+#18514
+Escalones del santuario~
+El marmol parece helado bajo tus pies.  Al norte el santuario, al este y
+oeste verdes prados con fuentes hermosas.  
+~
+0 K 2
+D0
+~
+~
+0 0 18515
+D2
+~
+~
+0 0 18513
+S
+#18515
+Santuario de Cain~
+Estas del santuario de CAIN.
+Sus columnas son completamente de esmeraldas.
+El Aura de Abraxas invade el lugar sanando todo lo impuro. Los humos aromaticos
+llevan tu imaginacion a estados superiores.
+~
+0 KZ 0
+D0
+~
+~
+0 0 18520
+D1
+~
+~
+0 0 18518
+D2
+~
+~
+0 0 18514
+D3
+~
+~
+0 0 18519
+D5
+~
+~
+AB 0 18536
+M 200 H 200
+S
+#18516
+Vereda~
+Estas en los corredores que rodean el santuario. Los jardines se extienden al
+norte. Al este las construcciones del Clan. Al sur los muros del fuerte con
+grabados hacerca de la historia de Cain, hermano de Abel.
+~
+0 0 2
+E
+grabados~
+Una pintura de Cain asesinando a Abel mientras este grita "piedad".
+El mazo de Cain es impresionante. Toda un obra de arte de la pintura el grabado.
+~
+D1
+~
+~
+0 0 18523
+D3
+~
+~
+0 0 18513
+S
+#18517
+Vereda~
+Estas en los corredores que rodean el santuario. AL norte estan los jardines.
+Al Oeste se extienden las construcciones del CLan.
+Al sur los muros del fuerte te hacen sentir seguro frente a los
+estupidos de clanes inferiores.
+Hay murales pintados.
+~
+0 0 2
+E
+murales~
+Ves Hermosos murales que cuentan epicas battallas
+triunfales del CLan CAIN. Cientos de anios
+de hostoria frente a tus ojos.
+~
+D1
+~
+~
+0 0 18513
+D3
+~
+~
+0 0 18522
+S
+#18518
+Escaleras de marmol~
+Estas al este del santuario.  Al norte y sur ves jardines maravillosos. 
+Los recien iniciados practican sus artes en ellos.  
+~
+0 0 2
+D1
+~
+~
+0 0 18537
+D3
+~
+~
+0 0 18515
+S
+#18519
+Escaleras de marmol~
+Estas al oeste del santuario.  Sus columnas y cupula son hermosas.  Al
+norte y al sur ves jardines con animales de todo tipo descansando.  Tambien
+mujeres desnudas descansan tomando sol.  
+~
+0 0 0
+D1
+~
+~
+0 0 18515
+D3
+~
+~
+0 0 18532
+S
+#18520
+Escalas al santuario~
+Las escaleras de marmol llevan al norte al deposito de cadaveres, al sur
+al santuario.  
+~
+0 0 2
+D0
+~
+~
+0 0 18521
+D2
+~
+~
+0 0 18515
+S
+#18521
+Deposito de cadaveres~
+Los espiritus aqui vuelven a tomar sus cuerpos por la gracia de Abraxas.
+El lugar huele horrible y algunas moscas se posan en los cadaveres.
+Unas madres lloran aqui implorando venganza por sus hijos. CAIN COBRARA!
+~
+0 0 0
+D2
+~
+~
+0 0 18520
+M 0 H 0
+S
+#18522
+Corredor~
+Estas en el corredor Oeste alrrededor del santuario. Al norte varias tiendas
+suplen las necesidades del los miembros del Clan. El piso es de plata pura.
+~
+0 0 2
+D0
+~
+~
+0 0 18530
+D1
+~
+~
+0 0 18517
+D3
+~
+~
+0 0 18529
+S
+#18523
+Corredor~
+Estas en el corredor alrrededor del santuario. Al norte continua con todo tipo
+de tiendas del Clan Cain. El suelo es de oro puro.
+Magos y Psionicos pasean por estos.
+~
+0 0 2
+D0
+~
+~
+0 0 18524
+D1
+~
+~
+0 0 18525
+D3
+~
+~
+0 0 18516
+S
+#18524
+Corredor~
+Estas en corredor Este alrrededor del santuario. Al norte y sur continuan.
+Todas la tiendas venden productos milenarios y magicos. Al oeste los jardines.
+~
+0 0 2
+D0
+~
+~
+0 0 18537
+D1
+~
+~
+0 0 18526
+D2
+~
+~
+0 0 18523
+S
+#18525
+Tienda de Jawaharlal~
+El arabe Jawaharlal es un nomada asentado temporalmente en el fuerte de CAIN.
+Este Psionico ha recorrido el mundo entero y mas alla, para traer aqui las
+mas variadas especies de objetos para los verdaderos iniciados.
+ 
+~
+0 0 0
+D3
+~
+~
+0 0 18523
+S
+#18526
+Animales de Ocotlan~
+Ocotlan, un monje Maya, vende aqui animales de las extranias especies
+entrenados especialmente para beber la sangre humana y roer sus huesos.
+Al Este se oye rugidos y bramidos estremecedores.
+ 
+~
+0 M 0
+D1
+~
+~
+ABC 0 18535
+D3
+~
+~
+0 0 18524
+S
+#18527
+LUGAR DE MASCOTAS~
+~
+0 C 2
+S
+#18528
+Santuario de Arquimides~
+Aqui Arquimides vende sus pociones y liquidos de las mesclas alquimicas
+de su laboratorio. Este lugar es un verdader templo, las paredes zumban
+y el aura te llena de paz.
+ 
+~
+0 K 0
+D3
+~
+~
+0 0 18537
+M 150 H 150
+S
+#18529
+Tienda de Perseo~
+Estas en la armaduria de Perseo. Antiguo semidios ahora dedicado a
+vender sus coleccion de armas. Su mirada es penetrante.
+El lugar esta decorado con decenas de lanzas, espadas y flechas.
+ 
+~
+0 0 0
+D1
+~
+~
+0 0 18522
+M 120 H 120
+S
+#18530
+Corredor~
+Estas en el corredor Oeste alrrededor del santuario.  Tiendas hacia el
+norte y sur.  Al Este los jardines del fuerte.  Los canticos provienen de
+todos lados.  
+~
+0 0 2
+D0
+~
+~
+0 0 18532
+D2
+~
+~
+0 0 18522
+D3
+~
+~
+0 0 18531
+S
+#18531
+Casa de Samaria~
+Aqui esta Samaria. Es una bella rubia maga dedicada a vender articulos
+profanos para el Clan. Sus cuerpo es demasiado atractivo.
+Parece estar haciendote coquetas muecas.
+ 
+~
+0 0 0
+D1
+~
+~
+0 0 18530
+D3
+~
+~
+ABC 18507 18534
+S
+#18532
+Corredor~
+Estas en el corredor Oeste alrrededor del santuario. Los miembros del
+clan suplen sus necesidades en este. Posee tiendas de todo tipo.
+Al norte los sabios se ven meditabundos.
+~
+0 0 0
+D0
+~
+~
+0 0 18538
+D1
+~
+~
+0 0 18519
+D2
+~
+~
+0 0 18530
+D3
+~
+~
+0 0 18533
+S
+#18533
+Tienda de Joe~
+Estas en el mitico almacen de "COMA EN JOE".
+Aqui esta Joe listo para ofrecerte una lista de sus mejores manjares caseros.
+A precios de Joe obviamente.
+ 
+~
+0 0 0
+D1
+~
+~
+0 0 18532
+M 120 H 120
+S
+#18534
+Pieza de Samaria~
+Maravilloso!! Estas en la pieza de Samaria. Sostenes y calzones minusculos
+estan botados por el suelo. Hay fotos de ella desnuda en las paredes.
+~
+0 0 0
+D1
+~
+~
+ABC 0 18531
+S
+#18535
+Pastisal~
+Aqui hay decenas de animales de todas las especies descansado, comiendo
+y jugando. Ocotlan los Entrena para el descuartizamiento. Creo que El no
+permitiria a nadie aqui si estuviera vivo.
+~
+0 0 0
+D3
+~
+~
+ABC 0 18526
+S
+#18536
+Gruta de Abraxas~
+Esta es la caverna de Abraxas, su aura se siente en toda ella.
+La oscuridad rodea todo, se siente agua correr tras la piedras de
+los muros.
+~
+0 ACK 0
+E
+muros~
+Los muros son de rocas negras, estan mohosas.
+~
+D4
+~
+~
+AB 0 18515
+M 200 H 200
+S
+#18537
+Corredor~
+Estas en el corredor ESTE alrrededor del santuario. Los Clerigos, Magos y
+Psionicos pasean tranquilos adquiriendo sabiduria.
+Del norte vienen los mas extranios sonidos que hayas oido nunca.
+~
+0 0 0
+D0
+~
+~
+0 0 18547
+D1
+~
+~
+0 0 18528
+D2
+~
+~
+0 0 18524
+D3
+~
+~
+0 0 18518
+S
+#18538
+Caminos de la plaza~
+Estas en un camino que rodea la plaza de Abraxas.  El camino es simple
+pero bello.  Al Este se encuentra el Bar del Clan.  Al Sur los corredores
+del santuario.  Algunos sabios al norte meditan.  
+~
+0 0 0
+D0
+~
+~
+0 0 18541
+D1
+~
+~
+0 0 18539
+D2
+~
+~
+0 0 18532
+S
+#18539
+BAR de Abel~
+Estas en un bar, hay algo de bulla por el ajetreo.  Quizas este es el
+unico lugar donde uno puede olvidarse de las largas sesiones de combate y
+entrenamiento.  
+ 
+Una mesa y silla servida con tragos se ve.
+~
+0 0 0
+D1
+~
+~
+0 0 18540
+D3
+~
+~
+0 0 18538
+S
+#18540
+BAR de Abel~
+Estas en el Bar del clan.  El lugar esta decorado con pinturas de los
+miembros del clan.  Una barra se extiende desde aqui.  
+~
+0 0 0
+D1
+~
+~
+0 0 18547
+D3
+~
+~
+0 0 18539
+S
+#18541
+Caminos de la Plaza~
+Estas en el camino alrrededor de la plaza de Abraxas que se extiende al
+ESTE.  El lugar es hermoso y esta lleno de vida y sabiduria.  
+~
+0 0 0
+D0
+~
+~
+0 0 18542
+D1
+~
+~
+0 0 18550
+D2
+~
+~
+0 0 18538
+S
+#18542
+Camino de la plaza.~
+La plaza hacia el SUR trae sus sonidos caracteristicos.  Al Este se
+extiende paseo con una interesante vida activa.  
+~
+0 0 0
+D1
+~
+~
+0 0 18543
+D2
+~
+~
+0 0 18541
+S
+#18543
+Paseo Azul~
+Este es el paseo Azul.  El aire se ha puesto de ese color debido a la
+fuerza espiritual de los que aqui caminan.  Al norte una tienda.  
+~
+0 0 0
+D0
+~
+~
+0 0 18549
+D1
+~
+~
+0 0 18544
+D3
+~
+~
+0 0 18542
+S
+#18544
+Paseo Azul~
+Estas en el Paseo Azul.  La fuerza espiritual aqui es inmensa.  Al norte
+se extiende una tienda.  EL lugar es muy bello.  
+~
+0 0 0
+D0
+~
+~
+0 0 18548
+D1
+~
+~
+0 0 18545
+D3
+~
+~
+0 0 18543
+S
+#18545
+Camino de la plaza~
+Atras la plaza de Abraxas trae su sonidos.  Los sabios pasean por ahi. 
+Al Oeste el paseo Azul se extiende.  
+~
+0 0 0
+D2
+~
+~
+0 0 18546
+D3
+~
+~
+0 0 18544
+S
+#18546
+Camino de la plaza.~
+Este camino rodea un hermosa plaza.  Al sur y al norte el camino
+continua.  Al Oeste la plaza.  El lugar esta lleno de vitalidad y energia. 
+El camino de piedra amarilla intensa.  
+~
+0 0 0
+D0
+~
+~
+0 0 18545
+D2
+~
+~
+0 0 18547
+D3
+~
+~
+0 0 18550
+S
+#18547
+Caminos de la plaza~
+AL sur los corredores del santuario se extienden, con sus psionicas y
+magos practicando.  Los miembros pasean por aqui.  Al Oeast esta el BAR del
+clan, Al norte el camino continua.  
+~
+0 0 0
+D0
+~
+~
+0 0 18546
+D2
+~
+~
+0 0 18537
+D3
+~
+~
+0 0 18540
+S
+#18548
+Salon del Reparador~
+Estas en un Salon iluminado por una antigua lampara que parece haber sido
+reparada.  El lugar es pequenio pero adornado con bastante bisuteria.  Los
+muros tienen herramientas y materiales de todos tipos.  
+~
+0 0 0
+D2
+~
+~
+0 0 18544
+S
+#18549
+Tienda de Romulo~
+Estas en una tienda donde puedes encontrar articulos para la batalla de
+gran interes.  El lugar es interante, algunos mapas de Moria pintados en los
+muros se ven.  Hay una alfombra roja en el piso.  Al sur esta el paseo Azul.
+Al Este continua la tienda.  Hay un #BLETRERO#b aqui.  
+~
+0 0 0
+E
+letrero~
+#B Durante milenios estos dos hermanos, Romulo y Remulo, han vendido
+armaduras.  Romulo Experto en artes de Magia, Clerismo, y poderes psionicos.
+Remo lleno en sabiduria de Guerreros y Ladrones.  #b 
+~
+D1
+~
+~
+0 0 18551
+D2
+~
+~
+0 0 18543
+S
+#18550
+Plaza de Abraxas~
+Estas en la hermosa plaza de tu dios Abraxas.  El lugar es majestuso. 
+Una imponente estatua de Abraxas se extiende hacia los cielos.  La gente
+pasea por aqui pensando en su tracendencia, el lugar es mistico.  
+~
+0 0 0
+D1
+~
+~
+0 0 18546
+D3
+~
+~
+0 0 18541
+S
+#18551
+Tienda de Remulo~
+Estas en la tienda Remulo.  Aqui el calor abrazador de un horno de
+fundicion llena el ambiente.  Los muros parecen ser de cientos de anios.  
+~
+0 0 0
+D3
+~
+~
+0 0 18549
+S
+#18552
+Centro Ceremonial~
+Centro de Ceremonias del Clan Cain.  Aqui los nuevos son recibidos.  
+~
+0 0 0
+D4
+~
+~
+AB 0 18500
+S
+#0
+
+
+
+#SPECIALS
+M 18502 spec_cast_adept
+M 18507 spec_taxidermist
+M 18512 spec_cast_mage
+M 18514 spec_questmaster
+M 18516 spec_cast_psionicist
+M 18536 spec_caminante
+M 18538 spec_cast_psionicist
+M 18542 spec_cast_psionicist
+M 18554 spec_breath_any
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 18500 5 1
+D 0 18503 4 1
+D 0 18504 5 1
+D 0 18509 5 1
+D 0 18510 4 1
+D 0 18515 5 1
+D 0 18526 1 2
+D 0 18531 3 2
+D 0 18534 1 2
+D 0 18535 3 2
+D 0 18536 4 1
+D 0 18552 4 1
+O 0 18500 0 18501
+O 0 18501 0 18504
+M 0 18500 3 18506 2
+E 0 18524 0 17
+O 0 18511 0 18506
+O 0 18502 0 18507
+M 0 18503 3 18507 2
+E 0 18544 0 16
+M 0 18501 1 18511 1
+M 0 18503 3 18512 3
+E 0 18544 0 16
+O 0 18581 0 18515
+M 0 18536 1 18515 1
+M 0 18502 1 18515 1
+M 0 18514 1 18515 1
+O 0 18505 0 18518
+O 0 18503 0 18519
+M 0 18505 5 18521 2
+M 0 18504 3 18521 1
+M 0 18511 1 18525 1
+G 0 18520 0
+G 0 18522 0
+G 0 18523 0
+G 0 18525 0
+G 0 18542 0
+G 0 18521 0
+M 0 18510 1 18526 1
+M 0 18522 1 18527 1
+M 0 18521 1 18527 1
+M 0 18520 1 18527 1
+M 0 18519 1 18527 1
+M 0 18518 1 18527 1
+M 0 18513 1 18527 1
+M 0 18517 1 18527 1
+M 0 18509 1 18528 1
+G 0 18538 0
+G 0 18537 0
+G 0 18536 0
+G 0 18535 0
+G 0 18534 0
+G 0 18533 0
+M 0 18508 1 18529 1
+G 0 18509 0
+G 0 18510 0
+G 0 18504 0
+G 0 18516 0
+G 0 18517 0
+G 0 18518 0
+G 0 18519 0
+G 0 18555 0
+M 0 18507 1 18531 1
+G 0 18539 0
+G 0 18526 0
+G 0 18527 0
+G 0 18528 0
+G 0 18529 0
+G 0 18530 0
+G 0 18541 0
+G 0 18540 0
+G 0 18531 0
+G 0 18532 0
+M 0 18512 3 18531 2
+O 0 18543 0 18533
+M 0 18506 1 18533 1
+G 0 18512 0
+G 0 18514 0
+G 0 18515 0
+O 0 18506 0 18534
+M 0 18515 1 18536 1
+O 0 18513 0 18536
+M 0 18516 3 18537 1
+M 0 18539 1 18539 1
+G 0 18580 0
+G 0 18574 0
+G 0 18578 0
+G 0 18577 0
+M 0 18539 1 18540 1
+G 0 18577 0
+G 0 18578 0
+G 0 18574 0
+G 0 18580 0
+M 0 18538 5 18541 1
+E 0 18576 0 16
+M 0 18542 1 18542 1
+M 0 18542 1 18545 1
+M 0 18537 2 18546 2
+E 0 18575 0 16
+M 0 18540 1 18548 1
+M 0 18543 1 18549 1
+G 0 18561 0
+G 0 18560 0
+G 0 18559 0
+G 0 18558 0
+G 0 18557 0
+G 0 18556 0
+M 0 18537 2 18550 2
+E 0 18575 0 16
+M 0 18541 1 18551 1
+G 0 18570 0
+G 0 18569 0
+G 0 18568 0
+G 0 18567 0
+G 0 18566 0
+G 0 18565 0
+G 0 18564 0
+G 0 18563 0
+G 0 18562 0
+M 0 18554 1 18552 1
+E 0 18575 0 16
+E 0 18579 0 15
+E 0 18579 0 14
+E 0 18573 0 10
+E 0 18572 0 9
+E 0 18571 0 4
+E 0 18571 0 3
+S
+
+
+
+#SHOPS
+18506 19 5 0 0 0 100 100 100 100 0 23
+18507 15 0 0 0 0 100 100 100 100 0 23
+18508 5 9 0 0 0 100 100 100 100 0 23
+18509 0 0 0 0 0 100 100 100 100 0 23
+18510 0 0 0 0 0 100 100 100 100 0 23
+18511 0 0 0 0 0 100 100 100 100 0 23
+18539 0 0 0 0 0 100 100 100 100 0 23
+18541 0 32 9 5 11 100 100 100 100 0 23
+18543 0 9 11 32 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+18508 5 9 0 0 0 0 23
+18540 0 5 9 32 11 0 23
+0
+
+
+
+#$

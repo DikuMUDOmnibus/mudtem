@@ -1,0 +1,965 @@
+#AREADATA
+Name Atlantida~
+Builders Gandalf~
+VNUMs 22700 22799
+Credits None~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#22700
+tortuga galapago~
+Una tortuga~
+Una tortuga gigante esta aqui apaciblemente desovando en la arena.
+~
+Parece ser una de las tortugas de las galapagos, ya que en su gran caparazon
+ves muchas manchas, que si las contaras, crees que tardarias siglos.
+~
+'lizard'
+ABTX Ncd B 0 0
+30 60 6d12+928 30d13+100 6d6+42 none
+-10 -10 -10 -9
+CDEFIKLTU 0 D CHP
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+F par DEFQ
+#22701
+pez multicolor~
+un pez multicolor~
+Un pez multicolor nada apaciblemente por aqui.
+~
+Tiene unas aletas semi-transparentes que le sobresalen del cuerpo, mientras
+ves que unos liquidos brotan de su cuerpecito.
+~
+'fish'
+AGRX V 0 -1000 0
+5 5 2d6+35 5d10+600 1d5+0 none
+6 6 6 7
+U E IL CH
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#22702
+tiburon pez~
+Un tiburon~
+Un tiburon esta aqui al acecho.
+~
+Ves que este especimen no es de los mas grandes pero si inspira respeto por
+sus dos corridas de dientes que, mal que mal, son de tiburon.
+~
+'fish'
+ABFTX PQVa DK -1000 22702
+30 60 6d12+928 30d13+100 6d6+42 none
+-10 -10 -10 -9
+CDEFKLQTU B 0 0
+stand stand male 100
+0 0 medium 'maritimo'
+C 'warrior'
+#22703
+tiburon tigre~
+Un tiburon tigre~
+Un tiburon con unas rayas como las de un tigre esta semi-escondido aqui.
+~
+No es muy grande, pero ves que tiene una cara de maldad que podria hacerle 
+congelar la sangre a cualquiera.
+~
+'fish'
+ABFRX BHOVa K -1000 0
+40 40 10d10+1600 40d15+4100 12d4+18 bite
+-13 -13 -13 -13
+FKTU 0 BDI HKP
+stand stand male 1000
+0 0 medium 'carne'
+C 'mage'
+#0
+
+
+
+#OBJECTS
+#22700
+pildora acuatica~
+Una pildora acuatica~
+Una pildora hecha de algun material desconocido esta aqui.~
+indef~
+pill Bd A
+20 'respirar agua' 'slow' 'cure critical' ''
+1 10 100 P
+#22701
+huevo tortuga~
+Unos huevos de tortuga~
+Un monton de huevos de tamanio mediano estan aqui semi-enterrados.~
+carne~
+food d A
+100 500 0 0 0
+10 100 10000 P
+#22702
+llave atlantis~
+La llave de Atlantis~
+Una llave con figuras marinas esta aqui botada.~
+tierra~
+key Pd AO
+0 0 0 0 0
+1 100 100 P
+#0
+
+
+
+#ROOMS
+#22700
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22703
+D1
+~
+~
+0 0 22702
+D2
+~
+~
+0 0 22704
+D3
+~
+~
+0 0 22701
+S
+#22701
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D1
+~
+~
+0 0 22700
+D2
+~
+~
+0 0 22707
+S
+#22702
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D2
+~
+~
+0 0 22706
+D3
+~
+~
+0 0 22700
+S
+#22703
+En el Oceano~
+Estas en una pequenia isla paradisiaca, en la cual puedes descansar de tu gran
+travesia por el oceano, ya que parece ser muy pacifica y tranquila.
+~
+0 CKY 0
+D2
+~
+~
+0 0 22700
+M 200 H 200
+S
+#22704
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22700
+D1
+~
+~
+0 0 22706
+D2
+~
+~
+0 0 22705
+D3
+~
+~
+0 0 22707
+S
+#22705
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22704
+D1
+~
+~
+0 0 22709
+D3
+~
+~
+0 0 22708
+S
+#22706
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22702
+D2
+~
+~
+0 0 22709
+D3
+~
+~
+0 0 22704
+S
+#22707
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22701
+D1
+~
+~
+0 0 22704
+D2
+~
+~
+0 0 22708
+S
+#22708
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22707
+D1
+~
+~
+0 0 22705
+S
+#22709
+En el Oceano~
+Estas navegando en un hermoso oceano color verde-azul. Ves que las algas que
+crecen bajo el mar emergen en algunos lados formando hermosos arrecifes de
+coral multicolor.
+Sientes que en algunos lados hay ciertas corrientes que te tienden a llevar 
+hacia el fondo de mar.
+~
+0 Y 0
+D0
+~
+~
+0 0 22706
+D3
+~
+~
+0 0 22705
+R speech 22702 visitante~
+R enter 22700 100~
+S
+#22710
+Llegando al fondo del mar~
+Sientes que al decir la ultima palabra, algo te tira subitamente haciendote
+perder la respiracion por unos segundos, luego abres los ojos y te das 
+cuenta que avanzas a un ritmo vertiginoso hacia el fondo del mar, todavia
+un poco lejano hacia abajo ...
+Un pequenio letrero se ve flotando en el agua ...
+~
+0 JY 12
+E
+letrero~
+El letrero dice:
+Si algun aventurero tiene algun problema, solamente pida un poco de 'ayuda'
+en este cuarto.
+~
+D5
+~
+~
+0 0 22711
+R speech 22710 ayuda~
+S
+#22711
+Casi en el fondo del mar~
+Nuevamente abres tus ojos y ves que el fondo se precipita sobre ti a pasos
+agigantados.
+Solamente esperas que la densidad del agua disminuya un poco tu caida ..
+~
+0 CY 11
+D5
+~
+~
+0 0 22712
+S
+#22712
+En el Fondo del Mar~
+Cuando finalmente abres los ojos, despues del golpe sufrido, te das cuenta que
+por fin, y gracias a tu dios, llegaste al fondo del mar, tu respiracion se
+dificulta un poco debido a la densidad del agua, pero si tomaste precauciones
+antes de entrar aqui, podras sobrevivir.
+Ves ademas una salida hacia el norte.
+~
+0 NY 12
+D0
+~
+~
+0 0 22713
+S
+#22713
+En el fondo del mar~
+Estas en el fondo marino, rodeado por extensos arrecifes de coral multicolores
+que brillan a la poca luz solar como pequenias estrellitas en tu cabeza.
+Al Oeste ves los vestigios de una antes muy alta cordillera, lo que te impide
+avanzar hacia ese lado, mientras que al norte ves lo que a tu parecer es una
+senda.
+~
+0 NY 12
+D0
+~
+~
+0 0 22714
+D2
+~
+~
+0 0 22712
+S
+#22714
+Cerca de los arrecifes~
+Estas pasando entre medio de dos arrecifes de coral.  Uno (el de tu
+izquierda) parece ser gigantesco, mientras que el de tu derecha parece ser
+el mas pequenio.  
+Lo que tu crees es una senda, continua entre medio de los dos arrecifes.
+~
+0 Y 12
+D0
+~
+~
+0 0 22715
+D2
+~
+~
+0 0 22713
+S
+#22715
+Cerca de las Dunas~
+Estas saliendo de entre medio de los gigantescos arrecifes que veias.
+Tu vista se torna un poco mas agradable ya que puedes ver mucho mas por donde
+estas caminando.
+Hacia el Norte ves que empieza un area como desertica, ya que se encuentra 
+llena de dunas habitadas por no sabes que criaturas, mientras que al este ves
+que la senda continua.
+~
+0 NY 12
+D0
+~
+~
+0 0 22726
+D1
+~
+~
+0 0 22716
+D2
+~
+~
+0 0 22714
+S
+#22716
+En la Senda~
+Sigues caminando por la senda submarina.
+De repente ves algunos cardumenes de peces pasar frente a ti, los que por su
+multicolores formas te hacen olvidarte de lo peligroso que puede ser este
+lugar.
+~
+0 NY 12
+D1
+~
+~
+0 0 22717
+D3
+~
+~
+0 0 22715
+S
+#22717
+En la senda~
+Sigues caminando por la senda acuatica, la cual piensas que te puede llevar a
+muchos lugares sorprendentes, pues ves que a cada momento descubres nuevas
+cosas en este mundo acuatico.
+~
+0 NY 12
+D0
+~
+~
+0 0 22718
+D3
+~
+~
+0 0 22716
+S
+#22718
+Una curva en la senda~
+En este punto la senda torna a girar sorpresivamente hacia el este, casi
+permitiendo ver el panorama que todavia se encuentra muy oscuro, ya que a tu
+lado solo ves dunas de arena maritima ..
+~
+0 NY 12
+D1
+~
+~
+0 0 22719
+D2
+~
+~
+0 0 22717
+S
+#22719
+En la senda~
+En este punto te das cuenta que vas caminando muy cerca de una cordillera que
+parece, antiguamente, estuvo en la superficie.
+Hacia el norte la senda continua recta.
+~
+0 NY 12
+D0
+~
+~
+0 0 22720
+D3
+~
+~
+0 0 22718
+S
+#22720
+Cerca de la Cordillera antigua~
+Estas en la parte que tu crees puedes apreciar mejor la cordillera que a tu
+lado va descendiendo hasta convertirse en un pequenio cordon montanioso que
+mas adelante puedes vadear si deseas continuar al este.
+~
+0 NY 12
+D1
+~
+~
+0 0 22721
+D2
+~
+~
+0 0 22719
+D3
+~
+~
+0 0 22722
+S
+#22721
+Demasiado cerca de la cordillera~
+Parece que te has acercado mucho a la Cordillera Antigua, ya que en el momento
+justo que llegaste rocas caen desde la cima de esta, que tu con presteza estas
+tratando de esquivar.
+~
+0 ACNY 12
+S
+#22722
+En la senda~
+Estas en la senda que te llevara muy pronto a la atlantida.
+Durante tu viaje no has visto criaturas ni humanoides ni semi-humanoides, lo
+que realmente te empieza a extraniar.
+~
+0 NY 12
+D1
+~
+~
+0 0 22720
+D3
+~
+~
+0 0 22723
+S
+#22723
+Cerca de los pilares~
+Estas en este instante caminando en la senda pero al mirar hacia el oeste ves
+dos pilares enormes, los cuales crees que te podrian llevar a la Atlantida.
+~
+0 NY 12
+D1
+~
+~
+0 0 22722
+D3
+~
+~
+0 0 22724
+S
+#22724
+En los pilares~
+WooowWWWWWWW!!!
+Ves dos enormes pilares escritos enteros con unas runas muy antiguas, en algun
+idioma muy extranio, los cuales te parecen advertir algo.
+Hacia el norte puedes ver un camino (completamente empedrado) que conduce a
+donde tu crees, esta la Atlantida.
+Desde el Oeste se ve una senda muy desusada que llega por entremedio de las
+dunas maritimas.
+~
+0 NY 12
+D0
+~
+~
+0 0 22725
+D1
+~
+~
+0 0 22723
+D3
+~
+~
+0 0 22731
+S
+#22725
+En el camino~
+Estas ahora empezando a caminar por un camino empedrado completamente, que 
+cruza entre arrecifes de coral y posee unas lumbreras muy parecidas a una
+luz colgando de un largo baston, muy alto.
+Al norte el camino continua, mientras que al sur ves que se yerguen dos 
+enormes pilares.
+~
+0 NY 12
+D0
+~
+~
+0 0 22732
+D2
+~
+~
+0 0 22724
+S
+#22726
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D0
+~
+~
+0 0 22731
+D1
+~
+~
+0 0 22728
+D3
+~
+~
+0 0 22727
+S
+#22727
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D0
+~
+~
+0 0 22731
+D1
+~
+~
+0 0 22726
+D3
+~
+~
+0 0 22729
+S
+#22728
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D3
+~
+~
+0 0 22726
+S
+#22729
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D0
+~
+~
+0 0 22730
+D1
+~
+~
+0 0 22727
+S
+#22730
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D1
+~
+~
+0 0 22731
+D2
+~
+~
+0 0 22729
+S
+#22731
+En las Dunas~
+Estas caminando por lo que se podrian llamar unas dunas semi-pantanosas.
+Ves que a cada momento el camino se te hace mas y mas dificil mientras ves que
+entre la dunas se levantan y se hunden rapidamente algunas cabezas de alguna
+criatura desconocida para ti.
+Con tantos nervios no sabes por donde entraste ni por donde saldras..
+~
+0 NY 12
+D1
+~
+~
+0 0 22724
+D2
+~
+~
+0 0 22727
+D3
+~
+~
+0 0 22730
+S
+#22732
+En el camino~
+Despues de caminar un largo rato entre corales y semi-selvas de arbustos bajo
+el mar, te das cuenta que se vislumbra un resplandor mas adelante.
+~
+0 NY 12
+D0
+~
+~
+0 0 22733
+D2
+~
+~
+0 0 22725
+S
+#22733
+Cerca de la ciudad~
+Ohhh!!! Al fin te encuentras contemplando lo que es el #BInmenso#b domo que
+cubre la ciudad entera de la Atlantida, el cual es completamente transparente
+y con una abertura en su parte mas alta que no sabes para que es.
+~
+0 NY 12
+D0
+~
+~
+0 0 22734
+D2
+~
+~
+0 0 22732
+S
+#22734
+En la Entrada~
+En este instante te encuentras al pie del domo que cubre la atlantida.
+Te sientes asombrado ya que desde qui puedes ver que dentro de la ciudad las 
+construcciones son todas con formas redondeadas y limpias, mientras que hacia
+afuera del domo se ve el contraste con el fondo marino lleno de corales.
+~
+0 NY 12
+D0
+~
+~
+ABCG 22702 22735
+D2
+~
+~
+0 0 22733
+S
+#22735
+Calle Armagedon~
+MMm. Sientes que aqui dentro la atmosfera es humeda pero no tan densa como en
+el mar anterior, ya que casi puedes respirar normalmente.
+Al entrar en esta calle (la mas importante de Atlantis) te das cuenta que es 
+como la mayoria de las ciudades terrestres, solo que las criaturas de aqui
+tienen diferente aspecto.
+Mendigos, vendedores y algunos ciudadanos eso si te miran como un bicho raro
+y por momentos te rodean para verte mejor.
+Ves que al Este y Oeste se extiende la calle limite, mientras que bien al
+norte divisas lo que parece ser una plaza .
+Hacia el Sur divisas la salida del Gran Domo de Atlantis.
+~
+0 NY 0
+D1
+~
+~
+0 0 22736
+D2
+~
+~
+ABCG 0 22734
+D3
+~
+~
+0 0 22737
+S
+#22736
+Calle limite Este~
+Estas caminando por la famosa calle Limite, la cual marca el limite entre la
+ciudad y el domo Atlantis.
+Se ven por aqui algunas criaturas que no alcanzas a reconocer pero que de
+todas maneras te miran con cara de bicho raro.
+La calle continua al Este, mientras que al Oeste se ve la calle Armagedon.
+~
+0 NY 0
+D3
+~
+~
+0 0 22735
+S
+#22737
+Calle Limite Oeste~
+Estas caminando por la famosa calle Limite, la cual marca el limite entre la
+ciudad y el domo Atlantis.
+Se ven por aqui algunas criaturas que no alcanzas a reconocer pero que de
+todas maneras te miran con cara de bicho raro.
+La calle continua al Oeste, mientras que al este se ve la calle Armagedon.
+~
+0 NY 0
+D1
+~
+~
+0 0 22735
+D3
+~
+~
+0 0 22738
+S
+#22738
+Interseccion Calles Limite-Mirador~
+Estas donde termina la calle limite y hacia donde comienza (hacia el Norte)
+la Calle Mirador.
+Ves algunas tiendas y criaturas que deambulan por aqui tambien.
+~
+0 NY 0
+D0
+~
+~
+0 0 22739
+D1
+~
+~
+0 0 22737
+S
+#22739
+Calle Mirador~
+Estas en la calle Mirador.Esta calle debe su nombre a la hermosa vista que
+desde aqui se aprecia hacia el fondo submarino fuera de la cupula. Parece
+como si ciertas "granjas" estuvieran siendo aradas....
+Al Oeste ves una tienda muy extrania, deberias revisar que es ..
+~
+0 NY 0
+D0
+~
+~
+0 0 22741
+D2
+~
+~
+0 0 22738
+D3
+~
+~
+AB 0 22740
+S
+#22740
+En la tienda de Armas~
+Estas en lo que parecer ser una tienda de armas, pero acuaticas. Ves algunos
+estantes en los que se ven ciertos como diplomas pero escritos en un raro
+lenguaje que te hace recordar escrituras antiguas.
+~
+0 ANY 0
+D1
+~
+~
+AB 0 22739
+S
+#22741
+Interseccion Calles Mirador y Calamar~
+Estas en la interseccion de las calles Mirador y Calamar . Ves que cerca tuyo
+el ajetreo ha decrecido y ya casi pasas como un habitantente de Atlantis.
+~
+0 NY 0
+D1
+~
+~
+0 0 22742
+D2
+~
+~
+0 0 22739
+S
+#22742
+Calle Calamar Oeste~
+Estas en este instante caminando por la calle calamar.Esta calle se llama asi
+porque en ella se han instalado todos los lugares de provisiones de los
+habitantes de Atlantis.
+Hacia el sur ves una atractiva tienda con un atractivo letrero.
+~
+0 Y 0
+E
+letrero~
+El letrero dice:
++------------------------------------------------+
+|...... ''''''''''''''''''''''''''''''...........|
+|...... S E R V I   M A R    (M.r)    ...........|
++------------------------------------------------+
+~
+D2
+~
+~
+0 0 22743
+D3
+~
+~
+0 0 22741
+S
+#22743
+Tienda de Comida~
+Estas en una tienda con formas redondeadas, cuyas paredes estan solamente
+llenas con estantes y alacenas con distintos tipos de comestibles que no
+conoces pero que por su colorido te llaman la atencion.
+~
+0 Y 0
+D0
+~
+~
+0 0 22742
+S
+#0
+
+
+
+#SPECIALS
+M 22701 spec_poison
+M 22702 spec_hunter
+M 22703 spec_atacar_align_opuesta
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 22734 0 2
+D 0 22735 2 2
+D 0 22739 3 1
+D 0 22740 1 1
+R 0 22700 4
+M 0 22700 1 22703 1
+G 0 22701 0
+M 0 22701 20 22704 2
+R 0 22704 4
+M 0 22701 20 22705 3
+R 0 22705 3
+M 0 22701 20 22706 3
+M 0 22701 20 22712 2
+M 0 22702 2 22714 1
+M 0 22703 1 22721 1
+R 0 22726 2
+R 0 22729 2
+R 0 22730 2
+R 0 22731 3
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

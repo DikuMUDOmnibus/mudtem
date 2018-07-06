@@ -1,0 +1,940 @@
+#AREADATA
+Name Cannabis~
+Builders Sepultura Trax Marihuano~
+VNUMs 16700 16799
+Credits /// AREA EN CONSTRUCCION ///~
+Security 9
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#16700
+bob marley~
+Bob Marley~
+Bob Marley, esta aqui, para curar tus ansias
+~
+Bob ya no es hombre es humo
+~
+god~
+ABQXa 0 0 0 0
+50 25 50d10+4500 50d16+900 5d11+18 none
+-20 -20 -20 -20
+U CHTY CHILOPT 0
+stand stand male 0
+AH 0 medium 'unknown'
+C 'cleric'
+F off CDELNO
+#16701
+jim morrison~
+Jim Morrison~
+Jim Morrison, esta aqui, para enviarte en una de sus misiones
+~
+Pantalones de cuero cubren sus piernas y su pecho al aire, con los ojos rojos y pelo al viento...
+~
+angel~
+ABNQX H 0 0 0
+45 22 25d10+3000 45d15+800 10d4+15 none
+-15 -15 -15 -15
+FIKU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'cleric'
+#16702
+Merme~
+El Merme~
+El poderoso Merme,Senor de la oscuridad esta aqui para llevarte a los infiernos
+~
+La belleza elfica esta dentro de el a pesar de estar junto a la oscuridad, larga caballera y poderos musculos  salen de su armadura
+~
+elf~
+ABDFXb DFHVa 0 0 0
+50 25 25d10+3750 50d16+900 11d5+18 none
+-20 -20 -20 -18
+FIKTU 0 0 0
+stand stand male 0
+0 0 medium 'gold'
+C 'psicionist'
+#16703
+jimmy~
+El Jimmy~
+Elpoderoso Jimmy, amo de las alucinaciones, esta aqui para mandarte al submundo
+~
+Jimmy se aguarra el paquete y te lo muestra
+~
+god~
+ABTX 0 0 0 0
+50 50 50d10+5000 50d16+100 15d6+21 none
+-22 -22 -22 -22
+TU 0 LQ R
+stand stand male 0
+AH 0 giant 'gold'
+C 'warrior'
+F off NO
+#16704
+vaca~
+El Vaca~
+El poderoso Vaca,Dios del Cogollo esta aqui dispuesto a desmiembrate
+~
+Es indescritible
+~
+giant~
+ABFTX DFHV 0 0 0
+50 50 50d10+5000 50d16+100 15d6+21 none
+-22 -22 -22 -19
+CDEFIKLTU 0 0 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#16705
+chech~
+Chech~
+Chech el guardian esta aqui, cuidando la entrada
+~
+~
+human~
+ABFTX H 0 0 0
+35 35 10d10+1400 35d14+100 16d2+12 none
+-12 -12 -12 -11
+CDEFIKLTU C CG 0
+stand stand male 0
+0 0 medium 'unknown'
+C 'warrior'
+#16706
+Chong~
+Chong~
+Chong el flaco esta listo para darte una leccion
+~
+~
+human~
+ABFRX H 0 0 0
+35 17 10d10+1200 35d14+600 4d7+9 none
+-11 -11 -11 -11
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'mage'
+#16707
+fischer~
+Fischer~
+El pulento Fischer senor de los traficas esta aqui
+~
+~
+human~
+ABDX 0 0 0 0
+30 15 6d12+703 30d13+600 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#16708
+Janis Joplin~
+Janis Joplin~
+La chata Janis esta aqui.
+~
+~
+elf~
+ABDX 0 0 0 0
+30 15 6d12+703 30d13+600 2d12+8 none
+-9 -9 -9 -8
+FIKU 0 0 0
+stand stand female 0
+0 0 medium 'unknown'
+C 'psicionist'
+#16709
+valiente~
+(no short description)~
+(no long description)
+~
+~
+human~
+AQX 0 0 0 0
+50 25 50d10+4500 50d16+900 5d11+18 none
+-20 -20 -20 -18
+FKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'cleric'
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#16700
+fuente~
+la fuente de los deseos~
+Una hermosa fuente de plata y marmol, esta aqui.~
+unknown~
+fountain Ad 0
+10000 10000 'water' 0 0
+0 100 0 P
+#16701
+bancomatico~
+bancoMatico conectado a redbank~
+Un cajero automatico esta aqui para satisfacer tus necesidades financieras~
+acero~
+container Xd 0
+0 0 0 1000000 0
+0 0 0 P
+#16702
+mote falopa~
+mote de 5.~
+Un papel de 5 de la chaca, esta aqui.~
+coca~
+potion d A
+15 'enhance health' 'giant strength' 'heal' ''
+15 3 10000 P
+#16703
+paragua~
+un paragua~
+Un paragua de la 20, esta aqui.~
+unknown~
+fumable Bd A
+30 'sanctuary' 'stone skin' 'armor'
+15 1 1000 P
+#16704
+Stolichnaya~
+stolichnaya~
+Una botella de Vodka ruso, esta aqui.~
+unknown~
+potion Yd A
+15 'shield' 'thought shield' 'flesh armor' ''
+15 10 3000 P
+#16705
+verde chanchito cancho~
+un Verde~
+Un chanchito de verde, esta aqui.~
+unknown~
+fumable d 0
+33 'protection evil' 'stone skin' 'protection good'
+20 2 200000 P
+#16706
+bolsa~
+una bolsa~
+Una bolsa de la legua esta aqui.~
+unknown~
+pill d A
+20 'heal' '' '' ''
+20 2 200000 P
+#16707
+floripondio~
+una pocion de floripondio~
+Una pocion de Floripondio esta aqui.~
+unknown~
+potion d A
+15 'detect invis' 'detect hidden' 'detect evil' 'detect good'
+15 10 100000 P
+#16708
+neopren~
+un tarro de neopren~
+Un tarro de neopren, esta aqui.~
+unknown~
+potion d A
+0 'invisibility' 'sneak' 'hide' ''
+15 20 10000 P
+#16709
+pelo rojo~
+un pelo rojo~
+Un pito de pelo rojo, esta aqui.~
+marihuana~
+fumable d A
+25 'combat mind' 'mystic armor' 'levitation'
+25 2 50000 P
+#16710
+hatzchiz~
+un hatzchiz~
+Un poderoso pito de hatchiz, esta aqui.~
+unknown~
+fumable d 0
+30 'flaming shield' 'regeneracion' 'fly'
+30 4 60000 P
+#16711
+ziprepol~
+un ziprepol~
+Una jarabe ziprepol, esta aqui~
+unknown~
+potion d A
+20 'cure blindness' 'cure poison' 'pass door' 'concentracion'
+20 20 10000 P
+#16712
+marihuana~
+una pocion de marihuana~
+Un Pocion hecha con extracto de marihuana, esta aqui.~
+water~
+potion d 0
+30 'enhanced strength' 'mental barrier' 'adrenaline control' 'displacement'
+30 10 100000 P
+#16713
+opio~
+opio~
+Una poderosa pocion de opio, esta aqui.~
+unknown~
+potion d A
+25 'remove curse' 'cancellation' 'cure blindness' ''
+25 10 10000 P
+#16714
+punto morao~
+un punto morao~
+Un pito de punto morao,esta aqui.~
+unknown~
+fumable d A
+30 'enhance health' 'heal' 'cure critical'
+30 10 10000 P
+#16715
+Lcd~
+un Lcd~
+Un Lcd esta aqui, para alucinar tu mente~
+unknown~
+scroll d A
+30 'mental barrier' 'teleport' '' ''
+30 10 100000 P
+#16716
+tonaril~
+una tira de tonaril~
+Unos tonariles estan aqui, para destrozar tus neuronas~
+unknown~
+pill d 0
+30 'quench' 'giant strength' 'aura sight' ''
+30 10 10000 P
+#0
+
+
+
+#ROOMS
+#16700
+El Salon de los Sahumerios~
+El gran salon, donde los grandes lideres de Cannabis vienen a fumar la
+hierba sagrada, verdes tapices de hojas de todos tipos cubren las paredes. 
+El agradable olor de la maconia impregna el aire.  
+~
+0 YZ 0
+D0
+~
+~
+0 0 16701
+D1
+~
+~
+0 0 16720
+D2
+~
+~
+0 0 16718
+D3
+~
+~
+0 0 16723
+D5
+~
+~
+0 0 16724
+M 200 H 200
+S
+#16701
+Emilia Tellez~
+La fabulosa Emilia Tellez, se extiende hacia el norte.  Poniendo ante ti
+la mayor oferta de hierba de toda la Tierra Media, el suave olor de cogollos
+recien cosechados perfuma el aire.  Una bulla enorme viene desde el oeste.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16702
+D1
+~
+~
+0 0 16706
+D2
+~
+~
+0 0 16700
+S
+#16702
+Emilia Tellez~
+Estan en el extremo norte de Emilia donde el fuerte olor del paragua
+llena tus pulmones e intoxica tus neuronas  Los arboles tapizan el cielo y
+te protegen del clima.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16703
+D2
+~
+~
+0 0 16701
+D3
+~
+~
+0 0 16714
+S
+#16703
+20~
+Estas entrando al lugar mas peludo de pena, donde por luka solo
+encuentras unos pitos terrible de cagones, a lo lejos logras divisar a los
+angustiados que se te acercan #B#FCuidado#B#F#n 
+~
+0 Y 0
+D0
+~
+~
+0 0 16726
+D1
+~
+~
+0 0 16704
+D3
+~
+~
+0 0 16702
+M 0 H 0
+S
+#16704
+20~
+Lo unico que logras ver son los angustiados que por quina te venden solo
+la mula 
+~
+0 Y 0
+D2
+~
+~
+0 0 16705
+D3
+~
+~
+0 0 16703
+S
+#16705
+La Vicky~
+La pulentosa vicky esta aqui, miles de traficas se acercan hacia ti
+dispuestos a venderte tierra y raspao de muralla.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16704
+D1
+~
+~
+0 0 16707
+D2
+~
+~
+0 0 16721
+S
+#16706
+Bahamondes~
+Acabas de entrar al famoso bar Donde bahamondes donde se encuentran los
+mas apetecidos brebajes de toda cannabis, los muros estan cubiertos por
+matas de todos tipos donde cada uno se sirve el tipo que gusta.  Todas las
+mesas estan llenas de volados chupando y fumando yerba, el olor te anima a
+tomarte un copete.
+~
+0 Y 0
+D3
+~
+~
+0 0 16701
+S
+#16707
+Movicenter~
+~
+0 Y 0
+D3
+~
+~
+0 0 16705
+S
+#16708
+Pet Room~
+~
+0 CY 0
+S
+#16709
+Mel Rose~
+~
+0 Y 0
+D1
+~
+~
+0 0 16723
+D2
+~
+~
+0 0 16738
+S
+#16710
+La Casa de Fischer~
+Estas en la entrada de la casa de Fischer, sentado en una pequena banca
+esta fischer dispuesto a solucionar tus problemas de drogas misticas y
+pociones magicas.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16723
+S
+#16712
+Drug Bank~
+Aqui se encuentra el Usurero mas grande del mud , contando todo el dia el
+dinero del Clan , viendo la forma de cagarse a algun volado.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16713
+S
+#16713
+La Chile~
+Estas en los pastos de la chile donde estan todos los traficas
+principiantes , puedes ver a la #B#FCAROL#B#F#n vendiendo esos pititos ricos
+, al #B#FARIEL#B#F#n vendiendo los pitos de lampa , y no sabes a quien
+comprarle.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16732
+D1
+~
+~
+0 0 16714
+D3
+~
+~
+0 0 16712
+S
+#16714
+El Kiosko~
+Esta en la entrada a la chile , en el quiosco donde atiende la
+#n#nMijita#n#n#n Rica#B#F#n , en este lugar lograras satisfacer todos
+los bajones producidos por la hierba.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16702
+D3
+~
+~
+0 0 16713
+S
+#16715
+General~
+~
+0 Y 0
+D2
+~
+~
+0 0 16723
+S
+#16716
+ARMADURAS~
+Aqui estan las armaduras mas bacanes de toda chaca, atendidas por su
+propio duenio el famoso valiente El valiente te ofrece con su cara de
+angustiado las mejores armaduras 
+~
+0 Y 0
+D0
+~
+~
+0 0 16720
+S
+#16717
+armas~
+~
+0 Y 0
+D0
+~
+~
+0 0 16721
+S
+#16718
+El Salon De Los Pulentos~
+En el salon de los pulentos se reunen los senores de cannabis a discutir
+sus asuntos, el lugar esta decorado con la mas fina decoracion de toda la
+tierra media , se diria que hasta un elfo podria sentirse a gusto aqui.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16700
+D2
+~
+~
+0 0 16719
+S
+#16719
+Entrada a Cannabis~
+La entrada a Cannabis Clan es impresionante un gigantescaco arco separa a
+la plantacion del clan, una enorme hoja de piedra adorna su centro. Todo
+de piedras de colores, quizas sea otra de las maravillas de la tierra media.
+~
+0 Y 0
+D0
+~
+~
+0 0 16718
+D2
+~
+~
+0 0 16737
+S
+#16720
+Chacarilla~
+La famosa calle de chaca, donde todos los angustias agujonean pa vender
+la mula.  No soportas el olor a pasta base del ambiente se ven las calles
+llenas de pelusas correteando y la lluta que se aleja Al sur ves al valiente
+famoso por sus armaduras 
+~
+0 Y 0
+D1
+~
+~
+0 0 16721
+D2
+~
+~
+0 0 16716
+D3
+~
+~
+0 0 16700
+S
+#16721
+Chacarilla~
+La famosa calle de chaca, donde todos los angustias agujonean pa vender
+la mula.  No soportas el olor a pasta base del ambiente se ven las calles
+llenas de angustiados y pelusones mirando a quien cagarse.
+~
+0 Y 0
+D0
+~
+~
+0 0 16705
+D2
+~
+~
+0 0 16717
+D3
+~
+~
+0 0 16720
+S
+#16723
+Mel Rose~
+~
+0 Y 0
+D0
+~
+~
+0 0 16715
+D1
+~
+~
+0 0 16700
+D2
+~
+~
+0 0 16710
+D3
+~
+~
+0 0 16709
+S
+#16724
+La Morgue~
+~
+0 Y 0
+D4
+~
+~
+0 0 16700
+S
+#16725
+El Intercomunal~
+~
+0 Y 2
+D0
+~
+~
+0 0 16730
+D1
+~
+~
+0 0 16726
+M 0 H 0
+S
+#16726
+El Intercomunal~
+~
+0 Y 2
+D0
+~
+~
+0 0 16729
+D1
+~
+~
+0 0 16727
+D2
+~
+~
+0 0 16703
+D3
+~
+~
+0 0 16725
+M 0 H 0
+S
+#16727
+El Intercomunal~
+~
+0 Y 2
+D0
+~
+~
+0 0 16728
+D3
+~
+~
+0 0 16726
+M 0 H 0
+S
+#16728
+El Intercomunal~
+~
+0 Y 2
+D2
+~
+~
+0 0 16727
+D3
+~
+~
+0 0 16729
+M 0 H 0
+S
+#16729
+El Intercomunal~
+~
+0 Y 2
+D1
+~
+~
+0 0 16728
+D2
+~
+~
+0 0 16726
+D3
+~
+~
+0 0 16730
+M 0 H 0
+S
+#16730
+El Intercomunal~
+~
+0 Y 2
+D1
+~
+~
+0 0 16729
+D2
+~
+~
+0 0 16725
+M 0 H 0
+S
+#16731
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16734
+D1
+~
+~
+0 0 16732
+S
+#16732
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16733
+D2
+~
+~
+0 0 16713
+D3
+~
+~
+0 0 16731
+S
+#16733
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16736
+D3
+~
+~
+0 0 16732
+S
+#16734
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16735
+D2
+~
+~
+0 0 16731
+S
+#16735
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D1
+~
+~
+0 0 16736
+D3
+~
+~
+0 0 16734
+S
+#16736
+El Bella~
+El Bella repleto de gente, como siempre, donde todos los ebrios y jalaos
+vienen a desquitar sus angustias a cornetes y alcohol.  
+~
+0 Y 0
+D2
+~
+~
+0 0 16733
+D3
+~
+~
+0 0 16735
+S
+#16737
+Plantacion de Marihuana~
+Estas en una grandiosa plantacion de marihuana, quizas la mas grande de
+la tierra media, los cogollos florecen en todas las matas e impregnan el
+aire con su agradable aroma fresco y penetrante, el solo hecho de estar aca
+te hace sumbar tus neuronas.  
+~
+0 Y 3
+D0
+~
+~
+0 0 16719
+S
+#16738
+Zaps y Wand Donde Janis~
+Esta pieza repleta de artilugios hippies, es la pequena tiendita de la
+Janis Joplin, el olor a hatchiz es demasiado fuerte, con solo entrar al
+negocio quedai loco.  
+~
+0 Y 0
+D0
+~
+~
+0 0 16709
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+O 0 16700 0 16700
+M 0 16700 1 16700 1
+M 0 16701 1 16700 1
+M 0 16707 1 16710 1
+G 0 16702 0
+G 0 16703 0
+G 0 16704 0
+G 0 16705 0
+G 0 16706 0
+G 0 16707 0
+G 0 16708 0
+G 0 16709 0
+G 0 16710 0
+G 0 16711 0
+G 0 16712 0
+G 0 16713 0
+G 0 16714 0
+G 0 16715 0
+G 0 16716 0
+M 0 16702 1 16718 1
+M 0 16703 1 16718 1
+M 0 16704 1 16718 1
+M 0 16705 1 16719 1
+M 0 16706 1 16719 1
+M 0 16708 1 16738 1
+S
+
+
+
+#SHOPS
+16707 0 0 0 0 0 100 100 0 23
+16708 0 0 0 0 0 100 100 0 23
+16709 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

@@ -1,0 +1,1043 @@
+#PLAYER
+Name Birdie~
+Id   844816841
+LogO 1001463353
+Vers 5
+Desc El mas bacan. Te das cuenta que su cuerpo es solo una materializacion
+de una de sus formas de energia suprema.
+~
+Race dog~
+Sex  1
+Nivel 'mage' 60
+Plyd 6360789
+Luck 17
+Room 3036
+HMV  28390 30000 999 999 521 521
+Gold 1814660
+Silv 2825042
+Exp  60000
+Act  CDEFNQ
+AfBy DU
+Vuln Z
+Comm ADFKNOQSYb
+Wizn ACDEFHIJMRTUVW
+Pos  8
+Prac 348
+Trai 19
+Save  -2
+Alig  -861
+ACs 86 86 88 92
+Wimp  6000
+Attr 25 22 25 25 25
+AMod 0 0 0 0 0
+Mem 912742971 H 17602
+Mem 904678161 G 17075
+Mem 904678226 G 10754
+Victorias 5
+Derrotas 0
+Quaff 23
+Term vt100_color~
+NBank 8100001 1 881963134 884303188 101
+Prom #B#4<#2%h/%Hhp #1%m/%Mm #6%v/%Vmv #5%xxp#4>#n ~
+Scro 22
+Pass Bizpm42hB81Bo~
+Bin  #BPLAF#b! Birdie se levanta del suelo.~
+Mensaje se mea en la cara de *.~
+Not  988214173 944259862 912515761 891114212 884382107
+Sec 9
+Learn 52
+Speak 0
+ClanS 0
+MinClanS 0
+MaxClanS 10
+Color 15
+Lang 0 100
+Lang 1 100
+Lang 2 100
+Lang 3 100
+Lang 4 100
+Lang 5 100
+Lang 6 100
+Lang 7 100
+Lang 8 100
+Lang 9 100
+Lang 10 100
+Lang 11 100
+Titl  you'll never forget me~
+WhoTxt 1234567890123~
+Pnts 40
+TSex 1
+TAli -1
+TRac 1
+LLev 1
+HMVP 30000 999 521
+Cnd  0 48 0 0
+Incr 1
+Qpoints 19
+Qid 0
+Qtype 0
+Qestado 0
+Qtimer 0
+Muertes 84
+Alias rr edit room reset~
+Alias 2 bs dragonbl~
+Alias 1 peace~
+Alias 3 redit reset~
+Alias 0 esta a el este~
+Alias 9 wake avata~
+Alias blah say $1 $2~
+Sk 100 'reserved'
+Sk 100 'acid blast'
+Sk 100 'armor'
+Sk 100 'bless'
+Sk 100 'blindness'
+Sk 100 'burning hands'
+Sk 100 'call lightning'
+Sk 100 'calm'
+Sk 100 'cancellation'
+Sk 100 'cause critical'
+Sk 100 'cause light'
+Sk 100 'cause serious'
+Sk 100 'chain lightning'
+Sk 100 'change sex'
+Sk 100 'charm person'
+Sk 100 'chill touch'
+Sk 100 'colour spray'
+Sk 100 'continual light'
+Sk 100 'control weather'
+Sk 100 'create food'
+Sk 100 'create rose'
+Sk 100 'create spring'
+Sk 100 'create water'
+Sk 100 'cure blindness'
+Sk 100 'cure critical'
+Sk 100 'cure disease'
+Sk 100 'cure light'
+Sk 100 'cure poison'
+Sk 100 'cure serious'
+Sk 100 'curse'
+Sk 100 'demonfire'
+Sk 100 'detect evil'
+Sk 100 'detect good'
+Sk 100 'detect hidden'
+Sk 100 'detect invis'
+Sk 100 'detect magic'
+Sk 100 'detect poison'
+Sk 100 'dispel evil'
+Sk 100 'dispel good'
+Sk 100 'dispel magic'
+Sk 100 'earthquake'
+Sk 100 'enchant armor'
+Sk 100 'enchant weapon'
+Sk 100 'energy drain'
+Sk 100 'faerie fire'
+Sk 100 'faerie fog'
+Sk 100 'farsight'
+Sk 100 'fireball'
+Sk 100 'fireproof'
+Sk 100 'flamestrike'
+Sk 100 'fly'
+Sk 100 'floating disc'
+Sk 100 'frenzy'
+Sk 100 'gate'
+Sk 100 'giant strength'
+Sk 100 'harm'
+Sk 100 'haste'
+Sk 100 'heal'
+Sk 100 'heat metal'
+Sk 100 'holy word'
+Sk 100 'identify'
+Sk 100 'infravision'
+Sk 100 'invisibility'
+Sk 100 'know alignment'
+Sk 100 'lightning bolt'
+Sk 100 'locate object'
+Sk 100 'magic missile'
+Sk 100 'mass healing'
+Sk 100 'mass invis'
+Sk 100 'nexus'
+Sk 100 'pass door'
+Sk 100 'plague'
+Sk 100 'poison'
+Sk 100 'portal'
+Sk 100 'protection evil'
+Sk 100 'protection good'
+Sk 100 'ray of truth'
+Sk 100 'recharge'
+Sk 100 'refresh'
+Sk 100 'remove curse'
+Sk 100 'sanctuary'
+Sk 100 'shield'
+Sk 100 'shocking grasp'
+Sk 100 'sleep'
+Sk 100 'slow'
+Sk 100 'stone skin'
+Sk 100 'summon'
+Sk 100 'teleport'
+Sk 100 'ventriloquate'
+Sk 100 'weaken'
+Sk 100 'word of recall'
+Sk 100 'make bag'
+Sk 100 'quench'
+Sk 100 'sate'
+Sk 100 'levantar muertos'
+Sk 100 'adrenaline control'
+Sk 100 'agitation'
+Sk 100 'aura sight'
+Sk 100 'awe'
+Sk 100 'ballistic attack'
+Sk 100 'biofeedback'
+Sk 100 'cell adjustment'
+Sk 100 'chameleon power'
+Sk 100 'combat mind'
+Sk 100 'complete healing'
+Sk 100 'control flames'
+Sk 100 'create sound'
+Sk 100 'death field'
+Sk 100 'detonate'
+Sk 100 'disintegrate'
+Sk 100 'displacement'
+Sk 100 'domination'
+Sk 100 'ectoplasmic form'
+Sk 100 'ego whip'
+Sk 100 'energy containment'
+Sk 100 'enhance armor'
+Sk 100 'enhanced strength'
+Sk 100 'flesh armor'
+Sk 100 'heighten senses'
+Sk 100 'inertial barrier'
+Sk 100 'inflict pain'
+Sk 100 'intellect fortress'
+Sk 100 'lend health'
+Sk 100 'levitation'
+Sk 100 'mental barrier'
+Sk 100 'mind thrust'
+Sk 100 'project force'
+Sk 100 'psionic blast'
+Sk 100 'psychic crush'
+Sk 100 'psychic drain'
+Sk 100 'psychic healing'
+Sk 100 'shadow form'
+Sk 100 'share strength'
+Sk 100 'thought shield'
+Sk 100 'ultrablast'
+Sk 100 'vampiric bite'
+Sk 100 'mute'
+Sk 100 'exorcise'
+Sk 100 'turn undead'
+Sk 100 'stake'
+Sk 100 'amnesia'
+Sk 100 'acid breath'
+Sk 100 'fire breath'
+Sk 100 'frost breath'
+Sk 100 'gas breath'
+Sk 100 'lightning breath'
+Sk 100 'general purpose'
+Sk 100 'high explosive'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 100 'flail'
+Sk 100 'mace'
+Sk 100 'polearm'
+Sk 100 'shield block'
+Sk 100 'spear'
+Sk 100 'sword'
+Sk 100 'whip'
+Sk 100 'backstab'
+Sk 100 'circle'
+Sk 100 'bash'
+Sk 100 'berserk'
+Sk 100 'dirt kicking'
+Sk 100 'disarm'
+Sk 100 'dodge'
+Sk 100 'enhanced damage'
+Sk 100 'envenom'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 100 'parry'
+Sk 100 'rescue'
+Sk 100 'trip'
+Sk 100 'tail'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 100 'fourth attack'
+Sk 100 'ambidiestro'
+Sk 100 'snare'
+Sk 100 'untangle'
+Sk 100 'fast healing'
+Sk 100 'evaluar'
+Sk 100 'hunt'
+Sk 100 'bladethirst'
+Sk 100 'brew'
+Sk 100 'scribe'
+Sk 100 'haggle'
+Sk 100 'hide'
+Sk 100 'lore'
+Sk 100 'meditation'
+Sk 100 'peek'
+Sk 100 'pick lock'
+Sk 100 'sneak'
+Sk 100 'steal'
+Sk 100 'scrolls'
+Sk 100 'staves'
+Sk 100 'wands'
+Sk 100 'recall'
+Sk 100 'iceball'
+Sk 100 'mystic armor'
+Sk 100 'stalker'
+Sk 100 'hellspawn'
+Sk 100 'corrupt bond'
+Sk 100 'creature bond'
+Sk 100 'raise fire'
+Sk 100 'cone of silence'
+Sk 100 'afilar'
+Sk 100 'lepra'
+Sk 100 'acid arrow'
+Sk 100 'enhance health'
+Sk 100 'concentracion'
+Sk 100 'estupidez'
+Sk 100 'flaming shield'
+Sk 100 'trozar'
+Sk 100 'alucinar'
+Sk 100 'power word of kill'
+Sk 100 'blind fighting'
+Sk 100 'regeneracion'
+Sk 100 'web'
+Sk 100 'cansancio'
+Sk 100 'predator invis'
+Sk 100 'dolor de guata'
+Sk 100 'polymorph'
+Sk 100 'sed'
+Sk 100 'hambre'
+Sk 100 'ebriedad'
+Sk 100 'respirar agua'
+Sk 100 'arco electrico'
+Gr 'rom basics'
+Gr 'mage basics'
+Gr 'warrior basics'
+Gr 'mage default'
+Gr 'warrior default'
+Gr 'ataques mentales'
+Gr 'autocontrol mental'
+Gr 'control mental'
+Gr 'weaponsmaster'
+Gr 'attack'
+Gr 'beguiling'
+Gr 'benedictions'
+Gr 'kombat'
+Gr 'creation'
+Gr 'curative'
+Gr 'detection'
+Gr 'enhancement'
+Gr 'harmful'
+Gr 'healing'
+Gr 'illusion'
+Gr 'maladictions'
+Gr 'protective'
+Gr 'transportation'
+Gr 'weather'
+Affc 'reserved'   4  60  -1   0   0      32768
+Affc 'reserved'   4  60  -1   0   0          4
+Affc 'reserved'   4  60  -1   0   0          8
+End
+
+#O
+Vnum 2319
+Nest 0
+Cond 96
+Wear 13
+Cost 1000
+End
+
+#O
+Vnum 15714
+Nest 1
+Cond 94
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 18542
+Nest 1
+Cond 92
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 18520
+Nest 1
+Cond 95
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 104
+Nest 1
+Cond 94
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 2332
+Nest 1
+Wear -1
+Cost 7600
+End
+
+#O
+Vnum 18560
+Nest 1
+Cond 94
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 18561
+Nest 1
+Cond 98
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 18567
+Nest 1
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 21005
+Nest 1
+Cond 77
+Wear -1
+Cost 0
+Spell 1 'mute'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 96
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 88
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 90
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 93
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 95
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 94
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24036
+Nest 1
+Cond 96
+Wear -1
+Cost 124990
+Val  20 56 54 121 -1
+Spell 1 'haste'
+Spell 2 'giant strength'
+Spell 3 'intellect fortress'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 93
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 92
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 92
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 94
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 95
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 93
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 95
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 90
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 95
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 92
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 24038
+Nest 1
+Cond 95
+Wear -1
+Cost 23490
+Val  10 210 207 81 -1
+Spell 1 'flaming shield'
+Spell 2 'enhance health'
+Spell 3 'shield'
+End
+
+#O
+Vnum 18528
+Nest 1
+Cond 93
+Wear -1
+Cost 5000
+Val  15 110 103 -1 -1
+Spell 1 'displacement'
+Spell 2 'combat mind'
+End
+
+#O
+Vnum 24096
+Nest 1
+Cond 91
+Wear -1
+Cost 699990
+Val  30 85 124 133 -1
+Spell 1 'stone skin'
+Spell 2 'mental barrier'
+Spell 3 'thought shield'
+End
+
+#O
+Vnum 50
+Nest 1
+Name random varita esplendida~
+ShD  una varita esplendida~
+Desc Una varita esplendida esta aqui.~
+Wt   6
+Cond 32
+Wear -1
+Cost 0
+Val  36 18 15 140 0
+Spell 3 'amnesia'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18528
+Nest 1
+Wear -1
+Cost 5000
+Spell 1 'displacement'
+End
+
+#O
+Vnum 18529
+Nest 1
+Wear -1
+Cost 10000
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 18529
+Nest 1
+Wear -1
+Cost 10000
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 18529
+Nest 1
+Wear -1
+Cost 10000
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 10429
+Nest 1
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 19233
+Nest 1
+Cond 98
+Wear -1
+Cost 12000
+End
+
+#O
+Vnum 10429
+Nest 1
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Cond 99
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Cond 99
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Cond 99
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+Cond 99
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3082
+Nest 1
+Cond 97
+Wear -1
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
+End
+
+#O
+Vnum 3082
+Nest 1
+Cond 99
+Wear -1
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
+End
+
+#O
+Vnum 3365
+Nest 0
+Wear 0
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 0
+Cond 88
+Wear 2
+Cost 1280
+End
+
+#O
+Vnum 3356
+Nest 0
+Wear 6
+Cost 450
+End
+
+#O
+Vnum 16070
+Nest 0
+Cond 99
+Wear -1
+Cost 3670
+End
+
+#O
+Vnum 15413
+Enchanted
+Nest 0
+Cond 92
+Wear -1
+Lev  13
+Detected B
+Cost 19000
+Affc 'haste'   0  57  -1   4   2    2097152
+Affc 'invisibility'   0  59  -1   0   0          2
+Affc 'enchant weapon'   0  53  -1 125  18          0
+Affc 'reserved'   1  44  -1   4   1          0
+Affc 'reserved'   1  44  -1 125  13          0
+Affc 'enchant weapon'   1  53  -1 125  19          0
+Affc 'haste'   0  60  -1   8   2    2097152
+Affc 'regeneracion'   0  14  -1   0   0  268435456
+Affc 'detect hidden'   0  10  -1   0   0         32
+Affc 'detect magic'   0  10  -1   0   0         16
+Affc 'detect invis'   0  10  -1   0   0          8
+Affc 'armor'   0  55  -1 -20  17          0
+Affc 'shield'   0  51  -1 -20  17          0
+Affc 'giant strength'   0  54  -1   8   1          0
+Affc 'enhance health'   0  54  -1  73  13          0
+Affc 'sanctuary'   0  54  -1   0   0        128
+Affc 'mystic armor'   0  55  -1 -100  17          0
+Affc 'combat mind'   0  54  -1   9  18          0
+Affc 'combat mind'   0  55  -1 -32  17          0
+End
+
+#O
+Vnum 3365
+Nest 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3350
+Nest 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3353
+Nest 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3356
+Nest 0
+Wear -1
+Cost 450
+End
+
+#END

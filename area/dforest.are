@@ -1,0 +1,455 @@
+#AREADATA
+Name The Dark Forest~
+Builders Vorpal~
+VNUMs 12000 12099
+Credits None~
+Security 1
+Prototipo 1
+Low 0
+High 0
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#12000
+El Bosque Oscuro~
+~
+0 AY 0
+D0
+~
+~
+0 0 9204
+D3
+~
+~
+0 0 12001
+S
+#12001
+The Clearing~
+~
+0 Y 0
+D2
+~
+~
+0 0 12002
+S
+#12002
+Sendero a traves del bosque~
+~
+0 Y 0
+D0
+~
+~
+0 0 12001
+D2
+~
+~
+0 0 12003
+S
+#12003
+Ante la Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12002
+D1
+~
+~
+0 0 12004
+D2
+~
+~
+0 0 12005
+S
+#12004
+Sala de Guardia~
+~
+0 Y 0
+D3
+~
+~
+0 0 12003
+S
+#12005
+Entrada a la Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12003
+D2
+~
+~
+0 0 12006
+S
+#12006
+Dentro de la Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12005
+D1
+~
+~
+0 0 12007
+D2
+~
+~
+0 0 12012
+D3
+~
+~
+0 0 12011
+S
+#12007
+Storeroom~
+~
+0 Y 0
+D1
+~
+~
+0 0 12008
+D2
+~
+~
+0 0 12010
+D3
+~
+~
+0 0 12006
+S
+#12008
+Storeroom~
+~
+0 Y 0
+D2
+~
+~
+0 0 12009
+D3
+~
+~
+0 0 12007
+S
+#12009
+Storeroom~
+~
+0 Y 0
+D0
+~
+~
+0 0 12008
+D3
+~
+~
+0 0 12010
+S
+#12010
+Storeroom~
+~
+0 Y 0
+D0
+~
+~
+0 0 12007
+D1
+~
+~
+0 0 12009
+S
+#12011
+La Gran Caverna~
+~
+0 Y 0
+D1
+~
+~
+0 0 12006
+D2
+~
+~
+0 0 12016
+D3
+~
+~
+0 0 12014
+S
+#12012
+La Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12006
+D2
+~
+~
+0 0 12015
+D3
+~
+~
+0 0 12016
+S
+#12013
+The Great Cave~
+~
+0 CY 0
+S
+#12014
+La Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12018
+D1
+~
+~
+0 0 12011
+D2
+~
+~
+0 0 12017
+D3
+~
+~
+0 0 12024
+S
+#12015
+Entrada a las Barracas~
+~
+0 Y 0
+D0
+~
+~
+0 0 12012
+D1
+~
+~
+0 0 12025
+S
+#12016
+La Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12011
+D1
+~
+~
+0 0 12012
+D3
+~
+~
+0 0 12017
+S
+#12017
+La Gran Caverna~
+~
+0 Y 0
+D0
+~
+~
+0 0 12014
+D1
+~
+~
+0 0 12016
+D2
+~
+~
+0 0 12026
+S
+#12018
+Un Enorme tunel~
+~
+0 Y 0
+D0
+~
+~
+0 0 12019
+D1
+~
+~
+0 0 12022
+D2
+~
+~
+0 0 12014
+D3
+~
+~
+0 0 12023
+S
+#12019
+Interseccion - T~
+~
+0 Y 0
+D1
+~
+~
+0 0 12020
+D2
+~
+~
+0 0 12018
+D3
+~
+~
+0 0 12021
+S
+#12020
+Cave Dwelling~
+~
+0 Y 0
+D3
+~
+~
+0 0 12019
+S
+#12021
+Cave Dwelling~
+~
+0 Y 0
+D1
+~
+~
+0 0 12019
+S
+#12022
+Cave Dwelling~
+~
+0 Y 0
+D3
+~
+~
+0 0 12018
+S
+#12023
+Abandoned Dwelling~
+~
+0 Y 0
+D1
+~
+~
+0 0 12018
+S
+#12024
+Ante las Grandiosas Puertas~
+~
+0 Y 0
+D1
+~
+~
+0 0 12014
+S
+#12025
+Las Barracas~
+~
+0 Y 0
+D3
+~
+~
+0 0 12015
+S
+#12026
+The Slimy tunnel~
+~
+0 Y 0
+D0
+~
+~
+0 0 12017
+D3
+~
+~
+0 0 12027
+S
+#12027
+The Slimy tunnel~
+~
+0 Y 0
+D1
+~
+~
+0 0 12026
+D3
+~
+~
+0 0 12028
+S
+#12028
+Training Grounds~
+~
+0 Y 0
+D1
+~
+~
+0 0 12027
+D3
+~
+~
+0 0 12029
+S
+#12029
+Training rooms~
+~
+0 Y 0
+D1
+~
+~
+0 0 12028
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

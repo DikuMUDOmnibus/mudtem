@@ -1,0 +1,347 @@
+#AREADATA
+Name New area~
+Builders Loki~
+VNUMs 22500 22599
+Credits None~
+Security 9
+Prototipo 1
+Low 0
+High 0
+Version 2
+End
+
+
+
+#MOBILES
+#22500
+portero~
+el Portero~
+El Portero de la Chile esta aqui cuidando la entrada
+~
+~
+'human'
+ABDX H 0 0 0
+50 25 25d10+3750 50d16+1700 11d5+18 none
+-20 -20 -20 -18
+FIKU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'psicionist'
+#22501
+Mina~
+la Mina del Kiosko~
+Una mina mas o menos esta aqui atendiendo.
+~
+~
+'human'
+ATX H 0 0 0
+40 60 25d10+2000 40d15+100 6d6+13 none
+-13 -13 -13 -12
+CDEFIKLTU 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#22502
+perro robapelotas~
+el Perro Roba-Pelotas~
+Un perro negro esta aqui buscando pelotas para robar.
+~
+~
+'dog'
+AGX 0 0 0 0
+6 0 2d7+71 6d10+100 1d7+1 none
+4 4 4 7
+U 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#22503
+base~
+El Base~
+Un Volaito llamado "Base" esta aqui jugando a la pelota.
+~
+~
+'human'
+ABX V 0 0 0
+15 0 3d9+208 15d11+100 2d6+3 none
+-2 -2 -2 0
+U 0 0 0
+stand stand none 0
+0 0 medium 'unknown'
+C 'warrior'
+#22504
+promocion~
+El Promocion~
+Un trafica muy escondido esta aqui vendiendo sus paraguayos.
+~
+~
+'human'
+ABDX HQ 0 1000 0
+40 20 10d10+1600 40d15+1400 17d2+13 none
+-13 -13 -13 -13
+FIKU 0 0 0
+stand stand male 5000
+0 0 medium 'unknown'
+C 'psicionist'
+#0
+
+
+
+#OBJECTS
+#22500
+cigarro~
+un Cigarro~
+Un cigarro marca Life esta aqui.~
+tabaco~
+wand Sd AO
+30 1 1 'sate' 0
+30 0 100 P
+#22501
+Un Tomate-Mayo~
+Un Tomate-Mayo~
+Un pan con tomate y mayonesa esta aqui.~
+pan~
+food d A
+7 3 0 0 0
+1 1 150 P
+#22502
+tarjeta entrada~
+Tarjeta de Entrada~
+una tarjeta que dice "porteria" esta tirada aqui.~
+indef~
+key Sd A
+0 0 0 0 0
+1 2 1000 P
+#22503
+paraguayo~
+un Paraguayo~
+Un pito de paraguayo prensado esta aqui.(Tomalo!!).~
+indef~
+fumable d A
+3 'combat mind' '' ''
+15 3 1000 P
+#22504
+linea coca~
+una linea de coca~
+un papelillo con un polvo blanco esta aqui.~
+indef~
+pill d A
+21 'haste' '' '' ''
+20 1 5000 P
+#0
+
+
+
+#ROOMS
+#22500
+Entrada a La Chile.~
+Has llegado a la Entrada de la Facultad de Ciencias de Universidad de
+Chile.  Al norte se ve un kiosko donde se vende de todo.  La entrada esta
+protegida con una gran reja.  
+~
+0 CY 0
+D0
+~
+~
+0 0 22501
+D1
+~
+reja~
+ABCFG 22502 22502
+S
+#22501
+Kiosko de la Chile~
+Estas en el kiosko de la Chile.  Muchos alumnos (y otros no), estan
+comprando cosas para comer, cigarros, etc...  El lugar esta atendido por
+varias personas que corren apuradas para atender a la gente que llena el
+lugar.  
+~
+0 Y 0
+D2
+~
+~
+0 0 22500
+S
+#22502
+Dentro de la Chile~
+Has entrado a la Chile, autos vienen desde ahi e intentan atropellarte. 
+Te das cuenta que esto es un gran parque, y a lo lejos ves muchos
+estudiantes (otros no) que estan sentado en el pasto.  
+~
+0 Y 0
+D1
+~
+~
+0 0 22506
+D2
+~
+~
+0 0 22503
+D3
+~
+reja~
+ABCFG 0 22500
+S
+#22503
+Camino a Artes.~
+Estas en el camino que conduce a la Facultad de Artes de la Chile.  El
+camino esta rodeado de arboles y muchos alumos corren hacia sus salas de
+clases.  
+~
+0 Y 0
+D0
+~
+~
+0 0 22502
+D2
+~
+~
+0 0 22504
+S
+#22504
+Camino a Artes.~
+Continuas caminando con destino al patio de Artes, el lugar es cada vez
+mas oscuro.  Parejas de estudiantes estan haciendo de todo debajo de los
+arboles.  
+~
+0 Y 0
+D0
+~
+~
+0 0 22503
+D2
+~
+~
+0 0 22505
+S
+#22505
+Fin del Camino.~
+Finalmente has llegado al final de camino.  Aqui ya no se ven tantas
+personas, o por lo menos eso es lo que ves.  Sombras bajo los arboles llaman
+tu atencion.  
+~
+0 Y 0
+D0
+~
+~
+0 0 22504
+S
+#22506
+Camino a Ciencias.~
+Vas caminando por la calle interior de la Chile.  Puedes ver numerosos
+autos estacionados por todas partes.  Algunos intentan atropellarte, pero
+los esquivas.  
+~
+0 Y 0
+D1
+~
+~
+0 0 22507
+D3
+~
+~
+0 0 22502
+S
+#22507
+Camino a Ciencias~
+Estas llegando a un pequeno parque que sirve a los drogadictos para
+esconderse a fumar, halar y hacer de todo.  Debes tener cuidado porque
+algunos perros te ladran hostilmente.  
+~
+0 Y 0
+D0
+~
+~
+0 0 22508
+D1
+~
+~
+0 0 22509
+D3
+~
+~
+0 0 22506
+S
+#22508
+En la Cancha.~
+Estas en una cancha de tierra donde estan jugando a la pelota.  El equipo
+de los sin poleras esta ganando el partido, y #BPLAF!  #b te llega un
+pelotazo en la cara.  
+~
+0 Y 0
+D0
+~
+~
+0 0 22510
+D2
+~
+~
+0 0 22507
+S
+#22509
+En el pasto~
+Has llegado finalmente donde se veia tanta gente oculta.  Te das cuenta
+que el lugar esta lleno de jovenes practicando las mas variadas formas de
+drogadiccion.  Algunos traficas estan por aqui ofreciendo su mercancia.  
+~
+0 Y 0
+D3
+~
+~
+0 0 22507
+S
+#22510
+Camino a Filosofia~
+Estas en un camino que conduce al edificio de filosofia.  Numerosos
+estudiantes caminan de aqui para alla buscando profesores.  
+~
+0 Y 0
+D2
+~
+~
+0 0 22508
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#GAMES
+S
+
+
+
+#RESETS
+D 0 22500 1 2
+D 0 22502 3 2
+M 0 22500 1 22500 1
+G 0 22502 0
+M 0 22501 1 22501 1
+G 0 22500 0
+G 0 22501 0
+M 0 22502 1 22507 1
+M 0 22503 1 22508 1
+M 0 22504 1 22509 1
+G 0 22503 0
+G 0 22504 0
+S
+
+
+
+#SHOPS
+22501 0 3 19 0 0 100 100 100 100 0 23
+22504 0 26 36 0 0 100 100 100 100 0 23
+0
+
+
+
+#REPAIRS
+0
+
+
+
+#$

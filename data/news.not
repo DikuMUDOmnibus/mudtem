@@ -1,0 +1,252 @@
+Sender  Birdie~
+Date    Fri Jul 18 21:09:58 1997~
+Stamp   869285398
+To      all~
+Subject Novedades varias~
+Text
+Ahora la tabla de comandos esta ordenada semi-alfabeticamente (para que
+
+se den cuenta pongan oldcommands), hay editores nuevos OLC para
+
+skills/spells, comandos, razas, clanes y socials, unos cuantos spells nuevos
+
+para mago, el heat metal funciona un poco diferente ahora (los objetos
+
+quedan calientes por un rato), hay una barra de status que se activa con
+
+'barra', para desactivarla es igual, recomendable poner 'scroll 23' antes de
+
+intentar la barra, el taxi ahora lleva a multiples lugares y cobra 10mp por
+
+cada cuadro de movimiento, se usa 'taxi <lugar>', la lista de lugares es
+
+limitada, pero igual :D ahora la mayoria de los objetos se van a poder
+
+lanzar (claro que lanzar una piedra o un pie va a quitar mucho menos que una
+
+daga/lanza/etc), esta en 'construccion' todavia.  El comando 'clanstatus' te
+
+da algunos status de tu clan, el comando 'petition' se rehizo completamente
+
+y se renombro a 'peticion', ahora la tabla de puntajes no debiera fallar, se
+
+a-nadio un codigo de eventos para hacer mas realistas algunas cosas en el
+
+mud (skills/spells p/ej), se arreglaron montones de bugs en general, se
+
+borraron muchas tablas repetidas, etc.  
+
+
+Eso no mas por ahora
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Thu Jul 31 22:01:38 1997~
+Stamp   870411698
+To      all~
+Subject Clanes y demases~
+Text
+Se avisa (con bastante anticipacion) que las sedes de clanes deben estar
+
+listas antes de que termine el mes de agosto, para hacer un poco mas 'legal'
+
+esta cuestion.  Ya dos clanes tienen sus sedes listas (CAIN y DragonLance). 
+
+El requisito minimo es de que sean de al menos 9 cuartos, de los cuales 3
+
+son especiales (hall, death, recall).  Las areas pueden ser en cualquier
+
+formato mas o menos razonable.  (lee el '#Bhelp aporte#b').  
+
+~
+Sender  Birdie~
+Date    Thu Jul 31 22:03:58 1997~
+Stamp   870411838
+To      all~
+Subject Comandos nuevos~
+Text
+Dos comandos nuevos, 'identify' e '='.  El identify funciona cuando algun
+
+mob clerigo/mago esta en el cuarto y por una modica suma podras identificar
+
+un objeto.  El comando '=' es una abreviacion del 'clanrecall'.  Ahora las
+
+mascotas/monturas tambien se van contigo si haces clanrecall :) 
+
+
+Sono+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Mon Sep 22 10:45:34 1997~
+Stamp   874950334
+To      all~
+Subject Quests~
+Text
+Ahora el questmaster vende hitroll y damroll para las armas.
+
+Eso no mas por ahora.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Tue Sep 23 21:36:00 1997~
+Stamp   875075760
+To      all~
+Subject Quests~
+Text
+Ahora el questmaster te permite PERSONALIZAR tus armas...  Puedes cambiar
+
+las tres descripciones posibles de un objeto (corta, larga y nombre), a
+
+costo de 40qp c/u.  La descripcion larga es la que sale cuando un obj esta
+
+en el suelo y haces 'look'.  La descripcion corta es la que sale cuando
+
+tienes el obj en tu inventario y pones 'inv'.  El nombre es como tu llamas
+
+al objeto al usarlo, p/ej una sub issue sword la puedes usar con 'wield
+
+sub', 'wield sword' , o 'wield merc', pero no con 'wield issue'.  O sea... 
+
+El nombre de una sub issue sword es 'sub sword merc' 
+
+Ahi van a cachar como se usa.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Thu Dec 18 10:35:58 1997~
+Stamp   882470158
+To      all~
+Subject Areas nuevas~
+Text
+Ahora hay dos areas nuevas disponibles para su provecho...
+
+Star wars y San Antonio, si quieren saber donde quedan
+
+preguntenles a los builders (el max, el zata y el mechon).
+
+Ahora tambien para hacer recall a otra ciudad no necesitan poner
+
+el nombre completo de la ciudad, solo las primeras letras.
+
+p/ej 'recall mid', 'recall new', etc
+
+eso no + por ahora
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Thu Mar 26 08:59:08 1998~
+Stamp   890931548
+To      all~
+Subject Novedades~
+Text
+Ahora los taxis debieran funcionar bien (ayer estaban malos).
+
+Con el comando PLIST pueden ver la lista de jugadores.
+
+Las peticiones ahora quedan grabadas entre reboots, y se puede aceptar una
+
+peticion cuando el jugador que la hizo no esta presente.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Sat Mar 28 11:43:32 1998~
+Stamp   891114212
+To      all~
+Subject Corpse~
+Text
+Creo que arregle (todos?) los problemas relacionados con la perdida de los
+
+cuerpos en reboots, etc... con el comando 'corpse' pueden recuperar
+
+sus cuerpos perdidos. Esperemos que funcione bien.
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Wed May 13 10:32:30 1998~
+Stamp   895080750
+To      all~
+Subject cambios~
+Text
+algunos comandos nuevos:
+
+beber <objeto> : intenta beber(drink/quaff) el objeto...obvio
+
+plist [nivel] [clan] [clase]... lista los jugadores con ese nivel, clase, etc
+
+term <tipo> : adapta la salida del mud al terminal tipo <tipo>...los unicos
+
+que funcionan son ibm3151, vt100 y none
+
+color <color> : pueden cambiar el color de su nombre en el who, sco, etc.
+
+
+ahora tambien pueden tomar todas las pociones que quieran y NO se van
+
+a reventar.
+
+
+eso no +
+
+
+Birdie
+
+~
+Sender  Birdie~
+Date    Tue Mar 30 11:10:02 1999~
+Stamp   922821002
+To      all~
+Subject recall~
+Text
+El recall ya no los va a mandar a cualquier parte si les falla.
+Eso no mas.
+
+Birdie
+~
+Sender  Birdie~
+Date    Tue Apr 13 17:33:09 1999~
+Stamp   924049989
+To      all~
+Subject Identify~
+Text
+Puse de nuevo el comando 'odentify'. Ahora sale mucho mas caro eso si,
+dependiendo del nivel. Eso no +.
+~
+Sender  Birdie~
+Date    Tue Apr 13 18:02:57 1999~
+Stamp   924051777
+To      all~
+Subject Mapa underdark~
+Text
+Melancholy vende el mapa de underdark.
+:D
+~
+Sender  Birdie~
+Date    Tue Apr 13 18:29:27 1999~
+Stamp   924053367
+To      all~
+Subject Nuevo score~
+Text
+Estoy probando un nuevo formato para el score (mas ordenado).
+Lo que llevo se puede ver escribiendo 'newscore'.
+Comentarios? Sugerencias?
+~

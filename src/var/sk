@@ -1,0 +1,234 @@
+void new_load_skill( FILE *fp, struct skill_type *skill )
+{
+	char *word;
+	bool fMatch;
+	int clase;
+
+	for ( ; ; )
+	{
+		word   = feof( fp ) ? "End" : fread_word( fp );
+		fMatch = FALSE;
+
+		switch ( UPPER(word[0]) )
+		{
+			default:
+			bug( "New_load_skill: clave inexistente", 0 );
+			bug( word, 0 );
+			exit(1);
+			break;
+
+			case 'B':
+			KEY( "Beats", skill->beats, fread_number( fp ) );
+			break;
+
+			case 'C':
+			if ( !str_cmp( word, "Clase" ) )
+			{
+				if ( ( clase = class_lookup(fread_string(fp)) ) == -1 )
+				{
+					bug( "New_load_skill : clase invalida", 0 );
+					exit(1);
+				}
+				fread_word( fp ); /* Level  */
+				skill->skill_level[clase]	 = fread_number( fp );
+				fread_word( fp ); /* Rating */
+				skill->rating[clase]		    = fread_number( fp );
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "CMsgVict" ) )
+			{
+				fread_string(fp);
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "CMsgChar" ) )
+			{
+				fread_string(fp);
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "CMsgRoom" ) )
+			{
+				fread_string(fp);
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "Callback" ) )
+			{
+				skill->spell_callback = spcb_lookup( fread_word(fp) );
+
+				fMatch = TRUE;
+				break;
+			}
+			break;
+
+			case 'E':
+			if ( !str_cmp( word, "End" ) )
+				return;
+			break;
+
+			case 'F':
+			KEY( "Flags",	skill->flags,		fread_flag( fp ) );
+			break;
+
+			case 'G':
+			KEY( "Gsn",	skill->pgsn,		gsn_lookup( fread_string( fp ) ) );
+			break;
+
+			case 'M':
+			KEY( "Mana",	skill->min_mana,	fread_number( fp ) );
+			break;
+
+			case 'N':
+			KEY( "Name",	skill->name,		fread_string( fp ) );
+			KEY( "Nombre",	skill->nombre,		fread_string( fp ) );
+			KEY( "Noun",	skill->noun_damage,	fread_string( fp ) );
+			break;
+
+			case 'O':
+			KEY( "Off",	skill->msg_off,		fread_string( fp ) );
+			KEY( "Obj",	skill->msg_obj,		fread_string( fp ) );
+			break;
+
+			case 'P':
+			KEY( "Pos",	skill->minimum_position,position_lookup( fread_string( fp ) ) );
+			break;
+
+			case 'R':
+			KEY( "Room",	skill->msg_room,	fread_string( fp ) );
+			break;
+
+			case 'S':
+			KEY( "Spell",	skill->spell_fun,	spell_function( fread_string( fp ) ) );
+			if ( !str_cmp( word, "Sc_dam" ) )
+			{
+				fread_string(fp);
+				fMatch = TRUE;
+				break;
+			}
+			if ( !str_cmp( word, "Script" ) )
+			{
+				fread_string(fp);
+				fMatch = TRUE;
+				break;
+			}
+			KEY( "Slot",	skill->slot,		fread_number( fp ) );
+			break;
+
+			case 'T':
+			KEY( "Target",	skill->target,		flag_value( target_table, fread_string( fp ) ) );
+			break;
+		} /* switch */
+
+		if ( !fMatch )
+		{
+			bugf( "New_load_skill : clave inexistente (%s)", word );
+			exit(1);
+		}
+	} /* for */
+}
+
+void	new_save_skill( FILE *fp, struct skill_type *skill )
+{
+	int i;
+
+	fprintf( fp, "#SKILL\n" );
+	fprintf( fp, "Name   %s~\n", CHECKNULLSTR(skill->name) );
+	fprintf( fp, "Nombre %s~\n", CHECKNULLSTR(skill->nombre) );
+
+	for ( i = 0; i < MAX_CLASS; ++i )
+		fprintf( fp, "Clase  %-3.3s~ Level %2d Rating %2d\n",
+			CHECKNULLSTR(class_table[i].name),
+			skill->skill_level[i],
+			skill->rating[i] );
+
+	fprintf( fp, "Spell  %s~\n", CHECKNULLSTR(spell_name(skill->spell_fun)) );
+	fprintf( fp, "Target %s~\n", flag_string( target_table, skill->target ) );
+	fprintf( fp, "Pos    %s~\n", position_table[skill->minimum_position].name );
+	fprintf( fp, "Gsn    %s~\n", CHECKNULLSTR(gsn_name(skill->pgsn)) );
+	fprintf( fp, "Slot   %d\n",  skill->slot );
+	fprintf( fp, "Mana   %d\n",  skill->min_mana );
+	fprintf( fp, "Beats  %d\n",  skill->beats );
+	fprintf( fp, "Noun   %s~\n", CHECKNULLSTR(skill->noun_damage) );
+	fprintf( fp, "Off    %s~\n", CHECKNULLSTR(skill->msg_off) );
+	fprintf( fp, "Obj    %s~\n", CHECKNULLSTR(skill->msg_obj) );
+	fprintf( fp, "Room   %s~\n", CHECKNULLSTR(skill->msg_room) );
+	fprintf( fp, "Callback '%s'\n", spcb_name_lookup(skill->spell_callback) );
+	fprintf( fp, "Flags  %s\n",  print_flags(skill->flags) );
+	fprintf( fp, "End\n\n" );
+}
+
+void save_skills( void )
+{
+	FILE *fpn;
+	int i;
+
+	fpn = fopen( SKILL_FILE, "w" );
+
+	if ( !fpn )
+	{
+		bug( "Save_skills : NULL fpn", 0 );
+		fclose( fpn );
+		return;
+	}
+
+	fprintf( fpn, "%d\n", MAX_SKILL );
+
+	for ( i = 0; i < MAX_SKILL; ++i )
+		new_save_skill( fpn, &skill_table[i] );
+
+	fprintf( fpn, "#END\n" );
+	fclose( fpn );
+}
+
+void	load_skills( void )
+{
+	FILE *fp;
+static	struct skill_type skzero;
+	int i = 0;
+	char *word;
+
+	fp = fopen( SKILL_FILE, "r" );
+
+	if ( !fp )
+	{
+		bug( "No se pudo leer " SKILL_FILE " para cargar skills.", 0 );
+		exit(1);
+	}
+
+	fscanf( fp, "%d\n", &MAX_SKILL );
+
+	skill_table = malloc( sizeof(struct skill_type) * (MAX_SKILL + 1) );
+
+	if ( !skill_table )
+	{
+		bug( "Error! Skill_table == NULL, MAX_SKILL : %d", MAX_SKILL );
+		exit(1);
+	}
+
+	for ( ; ; )
+	{
+		word = fread_word( fp );
+		if ( !str_cmp( word, "#END" ) )
+			break;
+		if ( str_cmp( word, "#SKILL" ) )
+		{
+			bug( "Load_skills : clave inexistente", 0 );
+			bug( word, 0 );
+			exit(1);
+		}
+		if ( i >= MAX_SKILL )
+		{
+			bug( "Load_skills : numero de skills mayor que MAX_SKILL", 0 );
+			exit(1);
+		}
+		skill_table[i] = skzero;
+		new_load_skill( fp, &skill_table[i++] );
+	}
+
+	skill_table[MAX_SKILL].name = NULL;
+
+	fclose(fp);
+}
+
